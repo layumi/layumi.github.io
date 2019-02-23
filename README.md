@@ -12,10 +12,10 @@ Zhedong Zheng’s homepage
 | 1/27 |'XL-Zhang' |'Ruijie-Quan' |
 | 2/3  | Happy Rebuttal | |
 | 2/10 |'WJ-Deng' | 'F-Ma' |
-| 2/17 |'JX-Miao' | 'Vana' |
-| 2/24 |'YH-Ding' | 'Guang-Li'|
-| 3/3 |'Z-Zhun' | 'QY-Feng'|
+| 2/17 |'JX-Miao' | 'YH-Ding' |
+| 2/24 |'Z-Zhun' | 'Guang-Li'|
+| 3/3 |'QY-Feng' | 'YF-Sun'|
 |      |  Happy ICCV| !!   |
-| 3/31  |'YF-Sun' | 'FD-Zhu'|
+| 3/31  |'XY-Dong' | 'FD-Zhu'|
 | 4/7 |'QJ-Guan' | 'P-Liu'|
-| 4/14 |'YW-Luo' | 'XY-Dong'|
+| 4/14 |'YW-Luo' | 'Vana'|
