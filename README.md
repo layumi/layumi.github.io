@@ -16,6 +16,6 @@ Zhedong Zheng’s homepage
 | 2/24 |'Z-Zhun'   | 'Guang-Li'|
 |      |  Happy ICCV| !!   |
 | 3/31 |'Vana'  | 'YF-Sun'|
-| 4/7  |'XY-Dong'  | 'FD-Zhu'|
-| 4/14 |'QJ-Guan'  | 'P-Liu' |
-| 4/21 |'YW-Luo'   | 'QY-Feng'  |
+| 4/7  |'XY-Dong'  | 'QJ-Guan' |
+| 4/14 |'YW-Luo'  | 'P-Liu' |
+| 4/21 |   | 'QY-Feng'  |
