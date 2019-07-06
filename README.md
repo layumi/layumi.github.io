@@ -24,9 +24,10 @@ Zhedong Zheng’s homepage
 | 5/12 | 'BW-Hu' | 'ZD-Zheng'|
 | 5/19 | 'Guang-Li' | 'XL-Zhang'|
 | 5/26 | 'Vana' | 'JX-Miao' |
-| 6/2 |'QJ-Guan'| 'Z-Zhun'|
-| 6/9 |'AM-Wu'| 'P-Liu'|
-|      |  Happy CVPR| !!   |
-|6/23 | 'WJ-Deng'| 'Ruijie-Quan'|
-|6/30 | 'YW-Luo' | 'QY-Feng' |
-|7/7 | 'YF-Sun' | 'YX=Wang' |
+|      |  Happy NIPS| !!   |
+|      |  Happy ICCV Rebuttal| !!   |
+| 6/30 |'QJ-Guan'| 'Z-Zhun'|
+| 7/6 |'AM-Wu'| 'WJ-Deng'| 
+| 7/13 | 'RJ-Quan'| 'YW-Luo' |
+| 7/20 | 'QY-Feng' | 'PK-Li' |
+| 7/27 | 'YF-Sun'  | 'YX-Wang' |
