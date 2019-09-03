@@ -35,9 +35,9 @@ Zhedong Zheng’s homepage
 | 8/10 | 'Hao-Wang'| 'TY-Wang' |
 | 8/17 | 'Z-Zhun' | 'HF-Wen' |
 | 8/24 | 'WJ-Deng' | 'JX-Miao'|
-| 8/31 |'Q-Rao'| 'YW-Luo'|
+| 8/31 |'AM-Wu' | 'YW-Luo'|
 | 9/7  |'Ruijie-Quan'| 'XY-Dong'|
-| 9/14 |'AM-Wu'| 'GuangRui-Li'|
+| 9/14 |'Q-Rao'| 'GuangRui-Li'|
 | 9/21 |'YH-Ding'| 'ZD-Zheng'|
 | 9/28 |'XL-Zhang'| 'Guang-Li'|
 | 10/5 |  'PK-Li' | 'QY-Feng'|
