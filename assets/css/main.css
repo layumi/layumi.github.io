@@ -3488,7 +3488,7 @@ input, select, textarea {
 			cursor: pointer;
 			display: block;
 			font-size: 0.9em;
-			padding: 0.625em 0;
+			padding: 0.9em 0;
 		}
 
 			#menu ul a:hover, #menu ul span:hover {
