@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>http://zdzheng.xyz/</loc>
+  <lastmod>2021-02-27T06:08:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://zdzheng.xyz/zhedong-resume.pdf</loc>
+  <lastmod>2021-02-27T06:08:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://zdzheng.xyz/ACM-MM-Talk.pdf</loc>
+  <lastmod>2021-02-27T06:08:32+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://zdzheng.xyz/poster_page/</loc>
+  <lastmod>2019-07-21T01:13:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://zdzheng.xyz/index.html</loc>
+  <lastmod>2021-02-27T06:08:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://zdzheng.xyz/projects.html</loc>
+  <lastmod>2021-02-27T06:08:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://zdzheng.xyz/seminar.html</loc>
+  <lastmod>2021-02-27T06:08:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://zdzheng.xyz/resources.html</loc>
+  <lastmod>2021-02-27T06:08:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://zdzheng.xyz/friendlinks.html</loc>
+  <lastmod>2021-02-27T06:08:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://zdzheng.xyz/DG-Net/</loc>
+  <lastmod>2019-07-19T01:06:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://zdzheng.xyz/images/DGNet_poster.pdf</loc>
+  <lastmod>2021-02-27T06:08:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://zdzheng.xyz/ZhedongZheng_CA_Talk_DualPath.pdf</loc>
+  <lastmod>2021-02-27T06:08:33+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://zdzheng.xyz/ICCV_poster.pptx</loc>
+  <lastmod>2021-02-27T06:08:32+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://zdzheng.xyz/DG-Net/index_files/poster_cvpr.pdf</loc>
+  <lastmod>2019-07-19T01:06:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
