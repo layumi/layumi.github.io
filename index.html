@@ -4,6 +4,22 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+
+        <script>
+// Random image from a directory for my bust
+function bustImage()
+{
+    console.log('Called')
+    
+    var filenames = [{"path":"./selfie.JPG"},{"path":"./write.jpeg"},{"path":"./roast.jpg"},];
+    var r = Math.floor( Math.random() * filenames.length );
+    
+    //document.getElementById("bustImage").src = filenames[r].path;
+	// <img src="./selfie.JPG" alt="" />
+    document.write("<img src=" + filenames[r].path + " alt='Which Zhedong will greet you next?!' />" );
+}
+            </script>
+
 <html>
 	<head>
 		<title>Zhedong Zheng's homepage</title>
@@ -59,7 +75,7 @@
 								[<a href='https://github.com/layumi'>Github</a>]
 						</div>
 					<span class="image object">
-						<img src="./selfie.JPG" alt="" />
+						<script>bustImage()</script>					
 					</span>
 				   
 					</section>
@@ -251,6 +267,7 @@
 		    s.parentNode.insertBefore(bp, s);
 		})();
 		</script>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
