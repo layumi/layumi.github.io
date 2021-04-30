@@ -18,8 +18,16 @@ CV
 
 Here's my [CV]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf).
 
+Others
+======
+
+<li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
+<li>  I was a poster maker when I studied at Fudan University. You may check out them at <a href="http://zdzheng.xyz/poster_page/">Here</a>.</li>
+<li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
+
 News
 ======
+
 <li> One paper on Uncertainty is accepted by IJCV. <a href="https://arxiv.org/abs/2003.03773">[arXiv]</a> <a href="https://github.com/layumi/Seg_Uncertainty">[code]</a> </li>
 <li> We have released a new Drone-view Geo-localization Dataset, ACM Multimedia 2020.<strong> <a href="https://github.com/layumi/University1652-Baseline">[Dataset]</a> <a href="https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080">[Video]</a> <a href="http://zdzheng.xyz/ACM-MM-Talk.pdf">[Slide]</a></strong> </li>
 <li> <strong>People live in a 3D world.</strong>  Why not conduct representation learning in the 3D space? <a href="https://arxiv.org/abs/2006.04569">[arXiv] <a href="https://github.com/layumi/person-reid-3d">[code]</a></li>
@@ -30,12 +38,6 @@ News
 <li> One paper to appear at ECCV 2018. <a href="https://arxiv.org/abd/1807.08260">[arXiv]</a> <a href="https://github.com/RoyalVane/MMAN">[code]</a> </li>
 <li> One paper to appear at CVPR 2018. <a href="https://arxiv.org/abs/1711.10295">[arXiv]</a> <a href="https://github.com/zhunzhong07/CamStyle">[code]</a> </li>
 <li> One paper to appear at ICCV 2017 as spotlight presentation. <a href="https://arxiv.org/abs/1701.07717">[arXiv]</a> <a href="https://github.com/layumi/Person-reID_GAN"> [code]</a> </li>
-
-News
-======
-<li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
-<li>  I was a poster maker when I studied at Fudan University. You may check out them at <a href="http://zdzheng.xyz/poster_page/">Here</a>.</li>
-<li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
 
 
 
