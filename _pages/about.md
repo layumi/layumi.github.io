@@ -13,14 +13,6 @@ Hi! I am currently a fourth-year Ph.D. candidate at the <a href="http://www.uts.
 Open-source projects can be found at my <a href='https://github.com/layumi'> [Github] </a>, and publications can be found at <a href='https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ'> [Google Scholar]</a>.
 
 
-Others
-======
-
-<li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
-<li>  I was a poster maker when I studied at Fudan University. You may check out them at <a href="http://zdzheng.xyz/poster_page/">Here</a>.</li>
-<li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
-
-
 News
 ======
 
@@ -34,6 +26,14 @@ News
 <li> One paper to appear at ECCV 2018. <a href="https://arxiv.org/abd/1807.08260">[arXiv]</a> <a href="https://github.com/RoyalVane/MMAN">[code]</a> </li>
 <li> One paper to appear at CVPR 2018. <a href="https://arxiv.org/abs/1711.10295">[arXiv]</a> <a href="https://github.com/zhunzhong07/CamStyle">[code]</a> </li>
 <li> One paper to appear at ICCV 2017 as spotlight presentation. <a href="https://arxiv.org/abs/1701.07717">[arXiv]</a> <a href="https://github.com/layumi/Person-reID_GAN"> [code]</a> </li>
+
+
+Others
+======
+
+<li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
+<li>  I was a poster maker when I studied at Fudan University. You may check out them at <a href="http://zdzheng.xyz/poster_page/">Here</a>.</li>
+<li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
 
 
 
