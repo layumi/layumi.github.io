@@ -27,9 +27,12 @@ News
  <li> Two papers to appear at IJCAI 2020. <a href="https://arxiv.org/abs/1912.11164">[arXiv] <a href="https://github.com/layumi/Seg_Uncertainty">[code1]</a>
  	<a href="https://github.com/huangzhikun1995/IPM-Net">[code2]</a>
 
+
 Others
-=======
+======
 <li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. 
 <li>  I was a poster maker when I studied at Fudan University. You may check out them at <a href="http://zdzheng.xyz/poster_page/">Here</a>.
 <li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.
+
+
 
