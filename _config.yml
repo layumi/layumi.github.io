@@ -83,11 +83,11 @@ author:
   name             : "Zhedong Zheng"
   avatar           : "profile.jpg"
   bio              : "Ph.D. Student at University of Technology Sydney. Advised by Prof. Yi Yang and Dr. Liang Zheng"
-  location         : "Sydney, NSW"
+  location         : "NSW, Australia"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=XT17oUEAAAAJ"
   email            : zhedong.zheng@student.uts.edu.au
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Zhedong-Zheng-2"
   uri              :
   bitbucket        :
   codepen          :
@@ -100,7 +100,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : “https://www.linkedin.com/in/zhedongzheng/”
   #orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -111,7 +111,7 @@ author:
   vine             :
   weibo            :
   xing             :
-  youtube          :
+  youtube          : 
   wikipedia        :
 
 
