@@ -31,7 +31,7 @@ News
 <li> One paper to appear at CVPR 2018. <a href="https://arxiv.org/abs/1711.10295">[arXiv]</a> <a href="https://github.com/zhunzhong07/CamStyle">[code]</a> 
 <li> One paper to appear at ICCV 2017 as spotlight presentation. <a href="https://arxiv.org/abs/1701.07717">[arXiv]</a> <a href="https://github.com/layumi/Person-reID_GAN"> [code]</a> 
 
-Others
+Interests
 ======
 <li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. 
 <li>  I was a poster maker when I studied at Fudan University. You may check out them at <a href="http://zdzheng.xyz/poster_page/">Here</a>.
