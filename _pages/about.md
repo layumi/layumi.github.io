@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am currently a fourth-year Ph.D. candidate at the <a href="http://www.uts.edu.au/">University of Technology Sydney</a>, under the supervision of <a href="https://sites.google.com/site/ianyyang2016/">Prof. Yi Yang</a> and <a href="http://liangzheng.org">Dr. Liang Zheng</a>. I received my Bachelor's degree from <a href="http://www.fudan.edu.cn">Fudan University</a> in 2016, under the supervision of <a href="https://scholar.google.com.au/citations?user=DTbhX6oAAAAJ&hl=en">Prof. Xiangyang Xue</a>. I was fortunate to spend my summer working with <a href='http://xiaodongyang.org/'>Xiaodong Yang</a> (NVIDIA), <a href='https://chrisding.github.io/'>Zhiding Yu</a> (NVIDIA), <a href='http://jankautz.com/'>Jan Kautz</a> (NVIDIA). My work focuses on image retrieval and image generation. More details can be found in my [CV]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf). 
+Hi! I am currently a fourth-year Ph.D. candidate at the <a href="http://www.uts.edu.au/">University of Technology Sydney</a>, under the supervision of <a href="https://sites.google.com/site/ianyyang2016/">Prof. Yi Yang</a> and <a href="http://liangzheng.org">Dr. Liang Zheng</a>. I received my Bachelor's degree from <a href="http://www.fudan.edu.cn">Fudan University</a> in 2016, under the supervision of <a href="https://scholar.google.com.au/citations?user=DTbhX6oAAAAJ&hl=en">Prof. Xiangyang Xue</a>. I was fortunate to spend my summer working with <a href='http://xiaodongyang.org/'>Xiaodong Yang</a> (NVIDIA), <a href='https://chrisding.github.io/'>Zhiding Yu</a> (NVIDIA), <a href='http://jankautz.com/'>Jan Kautz</a> (NVIDIA). My work focuses on image retrieval and image generation. More details can be found in my [[CV]]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf). 
 
-Open-source projects can be found at my <a href='https://github.com/layumi'> [Github] </a>, and publications can be found at <a href='https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ'> [Google Scholar]</a>.
+Open-source projects can be found at my <a href='https://github.com/layumi'>[Github]</a>, and publications can be found at <a href='https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ'>[Google Scholar]</a>.
 
 
 News
