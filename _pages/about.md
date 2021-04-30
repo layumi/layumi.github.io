@@ -8,15 +8,17 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am currently a fourth-year Ph.D. candidate at the <a href="http://www.uts.edu.au/">University of Technology Sydney</a>, under the supervision of <a href="https://sites.google.com/site/ianyyang2016/">Prof. Yi Yang</a> and <a href="http://liangzheng.org">Dr. Liang Zheng</a>. I received my Bachelor's degree from <a href="http://www.fudan.edu.cn">Fudan University</a> in 2016, under the supervision of <a href="https://scholar.google.com.au/citations?user=DTbhX6oAAAAJ&hl=en">Prof. Xiangyang Xue</a>. I was fortunate to spend my summer working with <a href='http://xiaodongyang.org/'>Xiaodong Yang</a> (NVIDIA), <a href='https://chrisding.github.io/'>Zhiding Yu</a> (NVIDIA), <a href='http://jankautz.com/'>Jan Kautz</a> (NVIDIA). My work focuses on image retrieval and image generation. More details can be found in my <a href='zhedong-resume.pdf'>[CV]</a>. 
+Hi! I am currently a fourth-year Ph.D. candidate at the <a href="http://www.uts.edu.au/">University of Technology Sydney</a>, under the supervision of <a href="https://sites.google.com/site/ianyyang2016/">Prof. Yi Yang</a> and <a href="http://liangzheng.org">Dr. Liang Zheng</a>. I received my Bachelor's degree from <a href="http://www.fudan.edu.cn">Fudan University</a> in 2016, under the supervision of <a href="https://scholar.google.com.au/citations?user=DTbhX6oAAAAJ&hl=en">Prof. Xiangyang Xue</a>. I was fortunate to spend my summer working with <a href='http://xiaodongyang.org/'>Xiaodong Yang</a> (NVIDIA), <a href='https://chrisding.github.io/'>Zhiding Yu</a> (NVIDIA), <a href='http://jankautz.com/'>Jan Kautz</a> (NVIDIA). My work focuses on image retrieval and image generation. More details can be found in my [CV]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf). 
 
 Open-source projects can be found at my <a href='https://github.com/layumi'> [Github] </a>, and publications can be found at <a href='https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ'> [Google Scholar]</a>.
 
 
-CV
+Others
 ======
 
-Here's my [CV]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf).
+<li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
+<li>  I was a poster maker when I studied at Fudan University. You may check out them at <a href="http://zdzheng.xyz/poster_page/">Here</a>.</li>
+<li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
 
 
 News
@@ -35,15 +37,7 @@ News
 <li> One paper to appear at ICCV 2017 as spotlight presentation. <a href="https://arxiv.org/abs/1701.07717">[arXiv]</a> <a href="https://github.com/layumi/Person-reID_GAN"> [code]</a> </li>
 
 
-Others
-======
 
-<li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
-<li>  I was a poster maker when I studied at Fudan University. You may check out them at <a href="http://zdzheng.xyz/poster_page/">Here</a>.</li>
-<li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
-
-
-<article class="5u 10u$(xsmall) work-item"> <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&co=4c5459&cmo=faa659'></script> </article> 
 
 
 
