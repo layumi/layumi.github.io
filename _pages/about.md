@@ -27,10 +27,10 @@ News
 <li> I received 2021 IEEE Circuits and Systems Society Outstanding Young Author Award <a href="https://ieee-cas.org/outstanding-young-author-award">[link]</a> </li>
 <li> One paper on Uncertainty is accepted by IJCV. <a href="https://arxiv.org/abs/2003.03773">[arXiv]</a> <a href="https://github.com/layumi/Seg_Uncertainty">[code]</a> </li>
 <li> We have released a new Drone-view Geo-localization Dataset, ACM Multimedia 2020.<strong> <a href="https://github.com/layumi/University1652-Baseline">[Dataset]</a> <a href="https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080">[Video]</a> <a href="http://zdzheng.xyz/ACM-MM-Talk.pdf">[Slide]</a></strong> </li>
-<li> People live in a 3D world. Why not conduct representation learning in the 3D space? <a href="https://arxiv.org/abs/2006.04569">[arXiv] <a href="https://github.com/layumi/person-reid-3d">[code]</a></li>
-<li> We have achieved the 1st place in AICity Challenge Vehicle Re-id Track, CVPR 2020. <a href="https://github.com/layumi/AICIty-reID-2020">[code] </a></li>
-<li> Two papers to appear at IJCAI 2020. <a href="https://arxiv.org/abs/1912.11164">[arXiv] <a href="https://github.com/layumi/Seg_Uncertainty">[code1]</a><a href="https://github.com/huangzhikun1995/IPM-Net">[code2]</a></li>
-<li> One paper to appear at CVPR 2019 as oral presentation.<a href="https://arxiv.org/abs/1904.07223">[arXiv] <a href="https://www.youtube.com/watch?v=ubCrEAIpQs4">[3-min video]</a> <a href="https://github.com/NVlabs/DG-Net">[code]</a></li>	
+<li> People live in a 3D world. Why not conduct representation learning in the 3D space? <a href="https://arxiv.org/abs/2006.04569">[arXiv]</a> <a href="https://github.com/layumi/person-reid-3d">[code]</a></li>
+<li> We have achieved the <strong>1st</strong> place in AICity Challenge Vehicle Re-id Track, CVPR 2020. <a href="https://github.com/layumi/AICIty-reID-2020">[code] </a></li>
+<li> Two papers to appear at IJCAI 2020. <a href="https://arxiv.org/abs/1912.11164">[arXiv] </a><a href="https://github.com/layumi/Seg_Uncertainty">[code1]</a><a href="https://github.com/huangzhikun1995/IPM-Net">[code2]</a></li>
+<li> One paper to appear at CVPR 2019 as oral presentation.<a href="https://arxiv.org/abs/1904.07223">[arXiv] </a><a href="https://www.youtube.com/watch?v=ubCrEAIpQs4">[3-min video]</a> <a href="https://github.com/NVlabs/DG-Net">[code]</a></li>	
 <li> One paper to appear at ECCV 2018. <a href="https://arxiv.org/abd/1807.08260">[arXiv]</a> <a href="https://github.com/RoyalVane/MMAN">[code]</a> </li>
 <li> One paper to appear at CVPR 2018. <a href="https://arxiv.org/abs/1711.10295">[arXiv]</a> <a href="https://github.com/zhunzhong07/CamStyle">[code]</a> </li>
 <li> One paper to appear at ICCV 2017 as spotlight presentation. <a href="https://arxiv.org/abs/1701.07717">[arXiv]</a> <a href="https://github.com/layumi/Person-reID_GAN"> [code]</a> </li>
