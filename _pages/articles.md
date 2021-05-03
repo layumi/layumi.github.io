@@ -31,7 +31,7 @@ AAAI, 2021
 
 _University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization_<br>
 **Zhedong Zheng**, Yunchao Wei, Yi Yang<br>
-ACM MM, 2020 [(URL)(https://arxiv.org/abs/2002.12186)]
+ACM MM, 2020 ([URL](https://arxiv.org/abs/2002.12186))
 [[Explore Drone-view Data](https://github.com/layumi/University1652-Baseline/blob/master/docs/index_files/sample_drone.jpg?raw=true)]
 [[Explore Satellite-view Data](https://github.com/layumi/University1652-Baseline/blob/master/docs/index_files/sample_satellite.jpg?raw=true)]
 [[Explore Street-view Data](https://github.com/layumi/University1652-Baseline/blob/master/docs/index_files/sample_street.jpg?raw=true)]
