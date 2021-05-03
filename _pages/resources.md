@@ -16,6 +16,11 @@ redirect_from:
 <li> DukeMTMC-Pose Dataset.  <strong><a href="https://github.com/layumi/DukeMTMC-Pose"> [website]</a></strong> </li>
 <li> UTS Person-reID Tutorial.  <strong><a href="https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial"> [website]</a></strong> </li>
 
+## Awesome Lists
+- [Awesome Segmentation Domain Adaptation](https://github.com/layumi/Seg-Uncertainty/tree/master/awesome-SegDA)
+- [Awesome Vehicle Retrieval](https://github.com/layumi/Vehicle_reID-Collection)
+- [Awesome Fools](https://github.com/layumi/Awesome-Fools)
+- [Awesome Geo-localization](https://github.com/layumi/University1652-Baseline/tree/master/State-of-the-art)
 
 ## Links
 <li>  <strong><a href="http://www.evernote.com/shard/s150/sh/3de79ff0-5778-417c-9bcb-6c0111a26694/29958003bb71992667ce3f42fd4ca875"> 熊辉: 为什么人前进的路总是被自己挡住 </a></strong> </li>
