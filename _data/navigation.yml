@@ -20,6 +20,7 @@ main:
     
   - title: "CV"
     url: /files/zhedong-resume.pdf
-    
+  - title: "Resources"
+    url: /resources/
   #- title: "Guide"
   #  url: /markdown/
