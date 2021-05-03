@@ -16,7 +16,7 @@ Publications:  [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017
 
 ### 2021
 _Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation_<br>
-Zhedong Zheng, Yi Yang<br>
+***Zhedong Zheng***, Yi Yang<br>
 IJCV, 2021 ([URL](https://arxiv.org/abs/2003.03773))[[Code](https://github.com/layumi/Seg-Uncertainty)][[中文介绍](https://zhuanlan.zhihu.com/p/130220572)]
 
 _Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization_<br>
