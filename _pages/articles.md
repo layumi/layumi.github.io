@@ -41,7 +41,7 @@ ACM MM, 2020 ([URL](https://arxiv.org/abs/2002.12186))
 _Dual-Path Convolutional Image-Text Embedding_<br>
 **Zhedong Zheng**, Liang Zheng, Michael Garrett, Yi Yang, Yi-Dong Shen <br>
 TOMM, 2020.
-([URL](https://arxiv.org/abs/1711.05535)) [[Slide](http://zdzheng.xyz/ZhedongZheng_CA_Talk_DualPath.pdf)]
+([URL](https://arxiv.org/abs/1711.05535)) [[Slide](http://zdzheng.xyz/files/ZhedongZheng_CA_Talk_DualPath.pdf)]
 [[Code](https://github.com/layumi/Image-Text-Embedding)]
 
 _VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification_<br>
@@ -70,7 +70,7 @@ _Joint discriminative and generative learning for person re-identification_<br>
 **Zhedong Zheng**, Xiaodong Yang, Zhiding Yu, Liang Zheng, Yi Yang, Jan Kautz<br>
 CVPR (Oral), 2019 ([URL](https://arxiv.org/pdf/1904.07223.pdf)) [[Project](http://zdzheng.xyz/DG-Net/)] [[Paper](https://arxiv.org/abs/1904.07223)]
 [[YouTube](https://www.youtube.com/watch?v=ubCrEAIpQs4)] [[Bilibili](https://www.bilibili.com/video/av51439240)]
-[[Poster](http://zdzheng.xyz/images/DGNet_poster.pdf)]
+[[Poster](http://zdzheng.xyz/files/DGNet_poster.pdf)]
 
 _Pedestrian alignment network for large-scale person re-identification_<br>
 **Zhedong Zheng**, Liang Zheng, Yi Yang<br>
