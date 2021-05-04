@@ -35,7 +35,7 @@ ACM MM, 2020 ([URL](https://arxiv.org/abs/2002.12186))
 [[Explore Drone-view Data](https://github.com/layumi/University1652-Baseline/blob/master/docs/index_files/sample_drone.jpg?raw=true)]
 [[Explore Satellite-view Data](https://github.com/layumi/University1652-Baseline/blob/master/docs/index_files/sample_satellite.jpg?raw=true)]
 [[Explore Street-view Data](https://github.com/layumi/University1652-Baseline/blob/master/docs/index_files/sample_street.jpg?raw=true)]
-[[Video Sample]](https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080)
+[[Video Sample](https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080)]
 [[Code](https://github.com/layumi/University1652-Baseline)]
 
 _Dual-Path Convolutional Image-Text Embedding_<br>
@@ -68,13 +68,17 @@ Pattern Recognition Letters, 2020
 ### 2019
 _Joint discriminative and generative learning for person re-identification_<br>
 **Zhedong Zheng**, Xiaodong Yang, Zhiding Yu, Liang Zheng, Yi Yang, Jan Kautz<br>
-CVPR (Oral), 2019 ([URL](https://arxiv.org/pdf/1904.07223.pdf)) [[Project](http://zdzheng.xyz/DG-Net/)] [[Paper](https://arxiv.org/abs/1904.07223)]
-[[YouTube](https://www.youtube.com/watch?v=ubCrEAIpQs4)] [[Bilibili](https://www.bilibili.com/video/av51439240)]
+CVPR (Oral), 2019 ([URL](https://arxiv.org/pdf/1904.07223.pdf)) 
+[[Project](http://zdzheng.xyz/DG-Net/)] 
+[[Paper](https://arxiv.org/abs/1904.07223)]
+[[YouTube](https://www.youtube.com/watch?v=ubCrEAIpQs4)] 
+[[Bilibili](https://www.bilibili.com/video/av51439240)]
 [[Poster](http://zdzheng.xyz/files/DGNet_poster.pdf)]
 
 _Pedestrian alignment network for large-scale person re-identification_<br>
 **Zhedong Zheng**, Liang Zheng, Yi Yang<br>
-TCSVT, 2019 ([URL](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8481710)) [[Code](https://github.com/layumi/Pedestrian_Alignment)] [[Video](https://www.youtube.com/watch?v=OJR43TzS3a8)]
+TCSVT, 2019 ([URL](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=8481710)) [[Code](https://github.com/layumi/Pedestrian_Alignment)] 
+[[Video](https://www.youtube.com/watch?v=OJR43TzS3a8)]
 
 _CamStyle: A Novel Data Augmentation Method for Person Re-identification_<br>
 Zhun Zhong, Liang Zheng, **Zhedong Zheng**, Shaozi Li, Yi Yang<br>
@@ -92,7 +96,7 @@ ECCV, 2018
 
 _A discriminatively learned cnn embedding for person reidentification_<br>
 **Zhedong Zheng**, Liang Zheng, Yi Yang<br>
-TOMM, 2018 ([URL](https://arxiv.org/pdf/1611.05666.pdf)) [[Code](https://github.com/layumi/2016_person_re-ID)] (<strong>ESI Highly Cited Paper</strong>)
+TOMM, 2018 ([URL](https://arxiv.org/pdf/1611.05666.pdf)) [[Code](https://github.com/layumi/2016_person_re-ID)](<strong>ESI Highly Cited Paper</strong>)
 
 _Camera Style Adaptation for Person Re-identification_<br>
 Zhun Zhong, Liang Zheng, **Zhedong Zheng**, Shaozi Li, Yi Yang<br>
