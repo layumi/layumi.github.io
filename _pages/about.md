@@ -38,11 +38,9 @@ Others
 <li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
 
 
-<section>
-								<article class="5u 10u$(xsmall) work-item">
-										<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&co=4c5459&cmo=faa659'></script>
-								</article>
-</section>
+<div style='width:600px;height:300px;margin:0 auto'>
+<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&cmo=faa659&cl=ffffff&w=a'></script>
+</div>
 
   
 
