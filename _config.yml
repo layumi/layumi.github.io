@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Zhedong Zheng"
 title_separator          : "-"
 name                     : &name "Zhedong Zheng"
-description              : &description "Ph.D. Student at UC Berkeley"
+description              : &description "Ph.D. Student at UTS"
 url                      : https://layumi.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "layumi/layumi.github.io"
@@ -82,7 +82,12 @@ analytics:
 author:
   name             : "Zhedong Zheng"
   avatar           : "profile.jpg"
-  bio              : "Ph.D. Student at University of Technology Sydney. Advised by Prof. Yi Yang and Dr. Liang Zheng"
+  bio              : "Ph.D. Student at University of Technology Sydney. Advised by Prof. Yi Yang and Dr. Liang Zheng
+<article class="5u 10u$(xsmall) work-item">
+		<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&co=4c5459&cmo=faa659'></script>
+</article>
+  <a href="https://info.flagcounter.com/Dsap"><img src="https://s11.flagcounter.com/count2/Dsap/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+  "
   location         : "NSW, Australia"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=XT17oUEAAAAJ"
