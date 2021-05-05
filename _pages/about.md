@@ -39,7 +39,9 @@ Others
 
 
 <section>
-	<a href="https://info.flagcounter.com/Dsap"><img src="https://s11.flagcounter.com/count2/Dsap/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+								<article class="5u 10u$(xsmall) work-item">
+										<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&co=4c5459&cmo=faa659'></script>
+								</article>
 </section>
 
   
