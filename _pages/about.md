@@ -5,7 +5,6 @@ excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
-  - /about.html
 ---
 
 Hi! I am currently a fourth-year Ph.D. candidate at the <a href="https://www.uts.edu.au/">University of Technology Sydney (UTS) </a>, under the supervision of <a href="https://sites.google.com/site/ianyyang2016/">Prof. Yi Yang</a> and <a href="https://zheng-lab.cecs.anu.edu.au/">Dr. Liang Zheng</a>. I received my Bachelor's degree from <a href="https://www.fudan.edu.cn">Fudan University</a> in 2016, under the supervision of <a href="https://scholar.google.com.au/citations?user=DTbhX6oAAAAJ&hl=en">Prof. Xiangyang Xue</a>. I was fortunate to spend my summer working with <a href='https://xiaodongyang.org/'>Xiaodong Yang</a> (NVIDIA), <a href='https://chrisding.github.io/'>Zhiding Yu</a> (NVIDIA), <a href='https://jankautz.com/'>Jan Kautz</a> (NVIDIA). My work focuses on image retrieval and image generation. 
