@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I am currently a fourth-year Ph.D. candidate at the <a href="http://www.uts.edu.au/">University of Technology Sydney (UTS) </a>, under the supervision of <a href="https://sites.google.com/site/ianyyang2016/">Prof. Yi Yang</a> and <a href="http://liangzheng.org">Dr. Liang Zheng</a>. I received my Bachelor's degree from <a href="http://www.fudan.edu.cn">Fudan University</a> in 2016, under the supervision of <a href="https://scholar.google.com.au/citations?user=DTbhX6oAAAAJ&hl=en">Prof. Xiangyang Xue</a>. I was fortunate to spend my summer working with <a href='http://xiaodongyang.org/'>Xiaodong Yang</a> (NVIDIA), <a href='https://chrisding.github.io/'>Zhiding Yu</a> (NVIDIA), <a href='http://jankautz.com/'>Jan Kautz</a> (NVIDIA). My work focuses on image retrieval and image generation. 
+Hi! I am currently a fourth-year Ph.D. candidate at the <a href="https://www.uts.edu.au/">University of Technology Sydney (UTS) </a>, under the supervision of <a href="https://sites.google.com/site/ianyyang2016/">Prof. Yi Yang</a> and <a href="https://zheng-lab.cecs.anu.edu.au/">Dr. Liang Zheng</a>. I received my Bachelor's degree from <a href="https://www.fudan.edu.cn">Fudan University</a> in 2016, under the supervision of <a href="https://scholar.google.com.au/citations?user=DTbhX6oAAAAJ&hl=en">Prof. Xiangyang Xue</a>. I was fortunate to spend my summer working with <a href='https://xiaodongyang.org/'>Xiaodong Yang</a> (NVIDIA), <a href='https://chrisding.github.io/'>Zhiding Yu</a> (NVIDIA), <a href='https://jankautz.com/'>Jan Kautz</a> (NVIDIA). My work focuses on image retrieval and image generation. 
 Open-source projects can be found at my <a href='https://github.com/layumi'>[Github]</a>, and publications can be found at <a href='https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ'>[Google Scholar]</a>.
 
 <strong>More details can be found in my [[CV]]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf). </strong>
@@ -18,7 +18,7 @@ News
 
 <li> I was awarded 2021 IEEE Circuits and Systems Society Outstanding Young Author Award. <a href="https://ieee-cas.org/outstanding-young-author-award">[link]</a> </li>
 <li> One paper on Uncertainty is accepted by IJCV 2021. <a href="https://arxiv.org/abs/2003.03773">[arXiv]</a> <a href="https://github.com/layumi/Seg_Uncertainty">[code]</a> </li>
-<li> We have released a new Drone-view Geo-localization Dataset, ACM Multimedia 2020.<strong> <a href="https://github.com/layumi/University1652-Baseline">[Dataset]</a> <a href="https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080">[Video]</a> <a href="http://zdzheng.xyz/files/ACM-MM-Talk.pdf">[Slide]</a></strong> </li>
+<li> We have released a new Drone-view Geo-localization Dataset, ACM Multimedia 2020.<strong> <a href="https://github.com/layumi/University1652-Baseline">[Dataset]</a> <a href="https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080">[Video]</a> <a href="https://zdzheng.xyz/files/ACM-MM-Talk.pdf">[Slide]</a></strong> </li>
 <li> People live in a 3D world. Why not conduct representation learning in the 3D space? <a href="https://arxiv.org/abs/2006.04569">[arXiv]</a> <a href="https://github.com/layumi/person-reid-3d">[code]</a></li>
 <li> We have achieved the <strong>1st</strong> place in AICity Challenge Vehicle Re-id Track, CVPR 2020. <a href="https://github.com/layumi/AICIty-reID-2020">[code] </a></li>
 <li> Two papers to appear at IJCAI 2020. <a href="https://arxiv.org/abs/1912.11164">[arXiv]</a><a href="https://github.com/layumi/Seg_Uncertainty">[code1]</a><a href="https://github.com/huangzhikun1995/IPM-Net">[code2]</a></li>
@@ -34,7 +34,7 @@ Others
 ======
 
 <li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
-<li>  I was a poster maker when I studied at Fudan University. You may check out them at <a href="http://zdzheng.xyz/poster_page/">Here</a>.</li>
+<li>  I was a poster maker when I studied at Fudan University. You may check out them at <a href="https://zdzheng.xyz/poster_page/">Here</a>.</li>
 <li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
 
 
