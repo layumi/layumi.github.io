@@ -1,11 +1,13 @@
 # main links links
 main:	
-  - title: "Home"
-    url: /index
-
   - title: "Publications"
     url: /articles/
-
+  - title: "CV"
+    url: /files/zhedong-resume.pdf
+  - title: "Resources"
+    url: /resources/
+  #- title: "Guide"
+  #  url: /markdown/
   #- title: "Talks"
   #  url: /talks/    
 
@@ -17,10 +19,3 @@ main:
         
   #- title: "Blog Posts"
   #  url: /year-archive/
-    
-  - title: "CV"
-    url: /files/zhedong-resume.pdf
-  - title: "Resources"
-    url: /resources/
-  #- title: "Guide"
-  #  url: /markdown/
