@@ -9,7 +9,7 @@ redirect_from:
 ##Seminars@UTS
 
 ------------
-|| No | Date | Title/Topic | Speaker | 
+| No | Date | Title/Topic | Speaker | 
 | :----- | :----- | :----- | :----- | 
 |1 | 27 Jan 2018 | Human Parsing [[slide]](https://www.slideshare.net/ssuserb1420b/human-parsing) | Yawei Luo |
 |2 | 27 Jan 2018 | Learning to Compare: Relation Network for Few-Shot Learning [[slide]](https://www.slideshare.net/SimonJohn21/learning-to-compare-relation-network-for-few-shot-learning) | Yifan Sun | 
