@@ -24,128 +24,22 @@ Qingji Guan |
 |10 | 24 Feb 2018 | Semantic Segmentation with Limited Annotation [[slide]](https://www.slideshare.net/ZhedongZheng1/weakly-supervised-semantic-segmentation-88862919) | Zhedong Zheng | 
 |11 | 3 Mar 2018 |Good Semi-supervised Learning that Requires a Bad GAN [[slide]](https://www.slideshare.net/ZhedongZheng1/review-of-good-semisupervised-learning-that-requires-a-bad-gan) | Weijian Deng | 
 |12 | 24 Mar 2018 | Mix-and-Match Tuning for Self-Supervised Semantic Segmentation [[slide]](https://www.slideshare.net/ZhedongZheng1/self-supervised-learning) | Yawei Luo | 
-|13 | 24 Mar 2018 | 
-Matching networks for one shot learning & Group Normalization [[slide1]](https://www.slideshare.net/ZhedongZheng1/matching-networks-for-one-shot-learning-91798454) [[slide2]](https://www.slideshare.net/ZhedongZheng1/group-normalization) | Fengda Zhu | 
-
-14
-
-31 Mar 2018
-
-Adversarial Samples [[slide]](https://www.slideshare.net/ZhedongZheng1/adversarial-samples)
-
-Zhedong Zheng
-
-15
-
-7 Apr 2018
-
-Visual Caption [[slide]](https://www.slideshare.net/secret/b7YQSidMdbspuv)
-
-Guang Li
-
-16
-
-7 Apr 2018
-
-Be your own prada [[slide]](https://www.slideshare.net/ZhedongZheng1/be-your-own-prada)
-
-Guangrui Li
-
-17
-
-14 Apr 2018
-
-Visualize CNN [[slide]](https://www.slideshare.net/ZhedongZheng1/cnn-visualizing)
-
-Yuhang Ding
-
-18
-
-14 Apr 2018
-
-Spectralnet and Ncut Loss [[slide]](https://www.slideshare.net/kunzhan/spectralnet-and-ncut-loss)
-
-Kun Zhan
-
-19
-
-29 Apr 2018
-
-Nonlocal Neural Network [[slide]](https://www.slideshare.net/ZhedongZheng1/nonlocal-neural-network)
-
-Fan Ma
-
-20
-
-29 Apr 2018
-
-Hashing Code [[slide]](https://www.slideshare.net/ZhedongZheng1/hash-coding)
-
-Jiaxu Miao
-
-21
-
-6 May 2018
-
-Boosting Domain Adaption [[paper]](https://arxiv.org/abs/1805.01386)
-
-Zhun Zhong
-
-22
-
-6 May 2018
-
-Model Ensemble [[paper1]](https://arxiv.org/abs/1608.03983) [[paper2]](https://arxiv.org/abs/1704.00109) [[paper3]](https://arxiv.org/abs/1803.05407)
-
-Xuanyi Dong
-
-23
-
-27 May 2018
-
-Autoencoding beyond pixels using a learned similarity metric [[paper]](https://arxiv.org/abs/1512.09300?context=cs)
-
-Guang Li
-
-24
-
-27 May 2018
-
-Continuous Adapation via Meta Learning [[slide]](https://www.slideshare.net/ZhedongZheng1/continuous-adapation-via-meta-learning)
-
-Jiaxu Miao
-
-25
-
-3 June 2018
-
-Rethinking the Faster R-CNN Architecture for Temporal Action Localization && Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset [[paper1]](https://arxiv.org/abs/1804.07667) [[paper2]](https://arxiv.org/abs/1705.07750)
-
-Fan Ma
-
-26
-
-3 June 2018
-
-Learning to Count Objects in Natural Images for Visual Question Answering [[paper]](https://arxiv.org/abs/1802.05766)
-
-Fengda Zhu
-
-27
-
-10 June 2018
-
-Self-Attention Generative Adversarial Networks [[paper]](https://arxiv.org/abs/1805.08318)
-
-Guangrui Li
-
-28
-
-10 June 2018
-
-Unbiased look at dataset bias [[paper]](https://ieeexplore.ieee.org/abstract/document/5995347/)
-
-Yuhang Ding
+d4r3S /|13 | 24 Mar 2018 | Matching networks for one shot learning & Group Normalization [[slide1]](https://www.slideshare.net/ZhedongZheng1/matching-networks-for-one-shot-learning-91798454) [[slide2]](https://www.slideshare.net/ZhedongZheng1/group-normalization) | Fengda Zhu | 
+|14 | 31 Mar 2018 | Adversarial Samples [[slide]](https://www.slideshare.net/ZhedongZheng1/adversarial-samples)| Zhedong Zheng | 
+|15 | 7 Apr 2018 | Visual Caption [[slide]](https://www.slideshare.net/secret/b7YQSidMdbspuv) | Guang Li | 
+|16 | 7 Apr 2018 | Be your own prada [[slide]](https://www.slideshare.net/ZhedongZheng1/be-your-own-prada) | Guangrui Li | 
+|17 | 14 Apr 2018 | Visualize CNN [[slide]](https://www.slideshare.net/ZhedongZheng1/cnn-visualizing) | Yuhang Ding | 
+|18 | 14 Apr 2018 | Spectralnet and Ncut Loss [[slide]](https://www.slideshare.net/kunzhan/spectralnet-and-ncut-loss)| Kun Zhan | 
+|19 | 29 Apr 2018 | Nonlocal Neural Network [[slide]](https://www.slideshare.net/ZhedongZheng1/nonlocal-neural-network) | Fan Ma | 
+|20 | 29 Apr 2018 | Hashing Code [[slide]](https://www.slideshare.net/ZhedongZheng1/hash-coding)| Jiaxu Miao|
+|21 | 6 May 2018 | Boosting Domain Adaption [[paper]](https://arxiv.org/abs/1805.01386) | Zhun Zhong | 
+|22 | 6 May 2018 | Model Ensemble [[paper1]](https://arxiv.org/abs/1608.03983) [[paper2]](https://arxiv.org/abs/1704.00109) [[paper3]](https://arxiv.org/abs/1803.05407) | Xuanyi Dong | 
+|23 | 27 May 2018 | Autoencoding beyond pixels using a learned similarity metric [[paper]](https://arxiv.org/abs/1512.09300?context=cs) | Guang Li | 
+|24 | 27 May 2018 | Continuous Adapation via Meta Learning [[slide]](https://www.slideshare.net/ZhedongZheng1/continuous-adapation-via-meta-learning) | Jiaxu Miao | 
+|25 | 3 June 2018 | Rethinking the Faster R-CNN Architecture for Temporal Action Localization && Quo Vadis, Action Recognition? A New Model and the Kinetics Dataset [[paper1]](https://arxiv.org/abs/1804.07667) [[paper2]](https://arxiv.org/abs/1705.07750) | Fan Ma | 
+|26 | 3 June 2018 | Learning to Count Objects in Natural Images for Visual Question Answering [[paper]](https://arxiv.org/abs/1802.05766) | Fengda Zhu | 
+|27 | 10 June 2018 | Self-Attention Generative Adversarial Networks [[paper]](https://arxiv.org/abs/1805.08318) | Guangrui Li | 
+|28 | 10 June 2018 | Unbiased look at dataset bias [[paper]](https://ieeexplore.ieee.org/abstract/document/5995347/) | Yuhang Ding | 
 
 29
 
