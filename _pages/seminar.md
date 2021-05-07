@@ -12,97 +12,20 @@ Seminars@UTS
 | No | Date | Title/Topic | Speaker | 
 | :----- | :----- | :----- | :----- | 
 |1 | 27 Jan 2018 | Human Parsing [[slide]](https://www.slideshare.net/ssuserb1420b/human-parsing) | Yawei Luo |
-
-|2 | 27 Jan 2018 | Learning to Compare: Relation Network for Few-Shot Learning  [[slide]](https://www.slideshare.net/SimonJohn21/learning-to-compare-relation-network-for-few-shot-learning) | 
-Yifan Sun | 
-
- | 3
-
- | 3 Feb 2018
-
- | Progressive Growing of GANS for Improved Quality, Stability, and Variation [[slide]](https://www.slideshare.net/ZhedongZheng1/progressive-gan)
-
- | Zhedong Zheng | 
-
- | 4
-
- | 3 Feb 2018
-
- | Network Dissection [[slide]](https://www.slideshare.net/ZhedongZheng1/dissection-network)
-
- | Xiaolin Zhang | 
-
-5
-
-10 Feb 2018
-
-Breaking the Softmax Bottleneck:a High-Rank RNN Language Model [[pdf]](https://openreview.net/pdf?id=HkwZSG-CZ)
-
-Xuanyi Dong
-
-6
-
-10 Feb 2018
-
-Clockwork Convnets for Video Semantic Segmentation [[slide]](https://www.slideshare.net/secret/uaWONQUnOOh3ii)
-
-Guang Li
-
-7
-
-17 Feb 2018
-
-Self-ensembling for Visual Domain Adpation [[slide]](https://www.slideshare.net/ZhedongZheng1/selfensembling-for-visual-domain-adpation)
-
-Zhun Zhong
-
-8
-
-17 Feb 2018
-
-Multi-scale Dense Networks [[slide]](https://www.slideshare.net/GuanQingji/multi-scale-dense-networks)
-
-Qingji Guan
-
-9
-
-24 Feb 2018
-
-Optimizer [[slide]](https://www.slideshare.net/yu-wu/optimizer-88816843)
-
-Yu Wu
-
-10
-
-24 Feb 2018
-
-Semantic Segmentation with Limited Annotation [[slide]](https://www.slideshare.net/ZhedongZheng1/weakly-supervised-semantic-segmentation-88862919)
-
-Zhedong Zheng
-
-11
-
-3 Mar 2018
-
-Good Semi-supervised Learning that Requires a Bad GAN [[slide]](https://www.slideshare.net/ZhedongZheng1/review-of-good-semisupervised-learning-that-requires-a-bad-gan)
-
-Weijian Deng
-
-12
-
-24 Mar 2018
-
-Mix-and-Match Tuning for Self-Supervised Semantic Segmentation [[slide]](https://www.slideshare.net/ZhedongZheng1/self-supervised-learning)
-
-Yawei Luo
-
-13
-
-24 Mar 2018
-
-Matching networks for one shot learning & Group Normalization [[slide1]](https://www.slideshare.net/ZhedongZheng1/matching-networks-for-one-shot-learning-91798454) [[slide2]](https://www.slideshare.net/ZhedongZheng1/group-normalization)
-
-Fengda Zhu
+|2 | 27 Jan 2018 | Learning to Compare: Relation Network for Few-Shot Learning [[slide]](https://www.slideshare.net/SimonJohn21/learning-to-compare-relation-network-for-few-shot-learning) | Yifan Sun | 
+|3 | 3 Feb 2018| Progressive Growing of GANS for Improved Quality, Stability, and Variation [[slide]](https://www.slideshare.net/ZhedongZheng1/progressive-gan)| Zhedong Zheng | 
+|4 | 3 Feb 2018 | Network Dissection [[slide]](https://www.slideshare.net/ZhedongZheng1/dissection-network) | Xiaolin Zhang | 
+|5 | 10 Feb 2018 | Breaking the Softmax Bottleneck:a High-Rank RNN Language Model [[pdf]](https://openreview.net/pdf?id=HkwZSG-CZ) | Xuanyi Dong|
+|6 | 10 Feb 2018 | Clockwork Convnets for Video Semantic Segmentation [[slide]](https://www.slideshare.net/secret/uaWONQUnOOh3ii) | Guang Li|
+|7 | 17 Feb 2018 | Self-ensembling for Visual Domain Adpation [[slide]](https://www.slideshare.net/ZhedongZheng1/selfensembling-for-visual-domain-adpation)| Zhun Zhong | 
+|8 | 17 Feb 2018 | Multi-scale Dense Networks [[slide]](https://www.slideshare.net/GuanQingji/multi-scale-dense-networks)|
+Qingji Guan |
+|9 | 24 Feb 2018 | Optimizer [[slide]](https://www.slideshare.net/yu-wu/optimizer-88816843) | Yu Wu | 
+|10 | 24 Feb 2018 | Semantic Segmentation with Limited Annotation [[slide]](https://www.slideshare.net/ZhedongZheng1/weakly-supervised-semantic-segmentation-88862919) | Zhedong Zheng | 
+|11 | 3 Mar 2018 |Good Semi-supervised Learning that Requires a Bad GAN [[slide]](https://www.slideshare.net/ZhedongZheng1/review-of-good-semisupervised-learning-that-requires-a-bad-gan) | Weijian Deng | 
+|12 | 24 Mar 2018 | Mix-and-Match Tuning for Self-Supervised Semantic Segmentation [[slide]](https://www.slideshare.net/ZhedongZheng1/self-supervised-learning) | Yawei Luo | 
+|13 | 24 Mar 2018 | 
+Matching networks for one shot learning & Group Normalization [[slide1]](https://www.slideshare.net/ZhedongZheng1/matching-networks-for-one-shot-learning-91798454) [[slide2]](https://www.slideshare.net/ZhedongZheng1/group-normalization) | Fengda Zhu | 
 
 14
 
