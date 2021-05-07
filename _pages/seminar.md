@@ -1,5 +1,6 @@
 ---
-layout: archive|title: "Seminar"
+layout: archive
+title: "Seminar"
 permalink: /seminar/
 author_profile: true
 redirect_from: 
