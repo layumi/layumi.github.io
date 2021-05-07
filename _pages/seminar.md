@@ -9,6 +9,7 @@ redirect_from:
 ##Seminars@UTS
 
 ------------
+
 | No | Date | Title/Topic | Speaker | 
 | :----- | :----- | :----- | :----- | 
 |1 | 27 Jan 2018 | Human Parsing [[slide]](https://www.slideshare.net/ssuserb1420b/human-parsing) | Yawei Luo |
