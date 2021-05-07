@@ -95,7 +95,8 @@ redirect_from:
 |79|Apr 21 2019|Video Object Detection [[slide]](%20https://www.slideshare.net/ZhedongZheng1/video-object-detection)|Qi Rao|
 |80|Apr 21 2019|Cluster Alignment with a Teacher for Unsupervised Domain Adaptation [[paper]](https://arxiv.org/abs/1903.09980%20)|Guangrui Li|
 |81|May 19 2019|Two Center Nets [[slide]](https://www.slideshare.net/ZhedongZheng1/center-nets)|Zhedong Zheng|
-|82|May 19 2019|FUNIT [[slide]](https://www.slideshare.net/bingwenhu/funit-146592583)|Bingwen Hu|83|May 26 2019|Lottery Hypothesis Pruning / SNIP: SINGLE-SHOT NETWORK PRUNING BASED ON CONNECTION SENSITIVITY [[paper]](https://arxiv.org/abs/1803.03635)|Fan Ma|
+|82|May 19 2019|FUNIT [[slide]](https://www.slideshare.net/bingwenhu/funit-146592583)|Bingwen Hu|
+|83|May 26 2019|Lottery Hypothesis Pruning / SNIP: SINGLE-SHOT NETWORK PRUNING BASED ON CONNECTION SENSITIVITY [[paper]](https://arxiv.org/abs/1803.03635)|Fan Ma|
 |84|May 26 2019|Large-Scale Long-Tailed Recognition in an Open World [[paper]](https://arxiv.org/abs/1904.05160)|Guang Li|
 |85|June 2 2019|Scops self supervised co-part segmentation [[slide]](https://www.slideshare.net/ZhedongZheng1/scops-self-supervised-copart-segmentation)|Xiaolin Zhang|
 |86|June 2 2019|Target-driven Visual Navigation in Indoor Scenes using Deep Reinforcement Learning; Learning to Learn How to Learn: Self-Adaptive Visual Navigation using Meta-Learning; VISUAL SEMANTIC NAVIGATION USING SCENE PRIORS; [[paper]](https://arxiv.org/abs/1609.05143)|Xuanyi Dong|
