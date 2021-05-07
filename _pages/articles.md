@@ -4,7 +4,8 @@ title: "Publications"
 permalink: /articles/
 author_profile: true
 redirect_from: 
-  - /wordpress/academic-papers/
+  - /articles/
+  - /articles.html
 ---
 You can also find my articles on <u><a href="https://scholar.google.com/citations?user=XT17oUEAAAAJ">my Google Scholar profile</a>.</u>
 

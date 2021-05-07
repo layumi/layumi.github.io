@@ -8,6 +8,8 @@ main:
     url: /files/zhedong-resume.pdf
   - title: "Resources"
     url: /resources/
+  - title: "Seminar"
+    url: /seminar/
   #- title: "Guide"
   #  url: /markdown/
   #- title: "Talks"
