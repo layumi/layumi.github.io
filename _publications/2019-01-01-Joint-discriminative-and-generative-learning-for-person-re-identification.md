@@ -4,8 +4,9 @@ collection: publications
 permalink: /publication/2019-01-01-Joint-discriminative-and-generative-learning-for-person-re-identification
 date: 2019-01-01
 doi: 
-venue: 'Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition'
+venue: 'CVPR'
+code: 'https://github.com/NVlabs/DG-Net'
 author: '<strong>Zhedong Zheng</strong>,  Xiaodong Yang,  Zhiding Yu,  Liang Zheng,  Yi Yang,  Jan Kautz'
-citation: ' Zhedong Zheng,  Xiaodong Yang,  Zhiding Yu,  Liang Zheng,  Yi Yang,  Jan Kautz, &quot;Joint discriminative and generative learning for person re-identification.&quot; Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition, 2019.'
+citation: ' Zhedong Zheng,  Xiaodong Yang,  Zhiding Yu,  Liang Zheng,  Yi Yang,  Jan Kautz, &quot;Joint discriminative and generative learning for person re-identification.&quot; CVPR, 2019.'
 pub_year: '2019'
 ---
