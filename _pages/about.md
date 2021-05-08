@@ -12,6 +12,8 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 
 <strong>More details can be found in my [[CV]]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf). </strong>
 
+<hr>
+
 News
 ======
 
@@ -28,6 +30,7 @@ News
 <li> One paper to appear at ICCV 2017 as spotlight presentation. <a href="https://arxiv.org/abs/1701.07717">[arXiv]</a> <a href="https://github.com/layumi/Person-reID_GAN"> [code]</a> </li>
 -->
 
+<hr>
 
 Others
 ======
