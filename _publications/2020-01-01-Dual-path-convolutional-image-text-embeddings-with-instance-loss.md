@@ -5,6 +5,7 @@ permalink: /publication/2020-01-01-Dual-path-convolutional-image-text-embeddings
 date: 2020-01-01
 doi: 10.1145/3383184
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
+paperurl: 'https://zdzheng.xyz/files/TOMM20.pdf'
 code: 'https://github.com/layumi/Image-Text-Embedding'
 author: '<strong>Zhedong Zheng</strong>,  Liang Zheng,  Michael Garrett,  Yi Yang,  Mingliang Xu,  Yi-Dong Shen'
 citation: ' Zhedong Zheng,  Liang Zheng,  Michael Garrett,  Yi Yang,  Mingliang Xu,  Yi-Dong Shen, &quot;Dual-path convolutional image-text embeddings with instance loss.&quot; ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2020. DOI: 10.1145/3383184'

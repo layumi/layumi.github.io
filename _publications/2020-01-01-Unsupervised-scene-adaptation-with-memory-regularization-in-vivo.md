@@ -5,6 +5,7 @@ permalink: /publication/2020-01-01-Unsupervised-scene-adaptation-with-memory-reg
 date: 2020-01-01
 doi: 
 venue: 'IJCAI'
+paperurl: 'https://zdzheng.xyz/files/ijcai20.pdf'
 code: 'https://github.com/layumi/Seg_Uncertainty'
 author: '<strong>Zhedong Zheng</strong>,  Yi Yang'
 citation: ' Zhedong Zheng,  Yi Yang, &quot;Unsupervised scene adaptation with memory regularization in vivo.&quot; IJCAI, 2020.'
