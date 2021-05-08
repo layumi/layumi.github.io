@@ -16,7 +16,7 @@ Publications:  [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017
 ### 2021
 
 {% for post in site.publications reversed %}
-  {%if post.date == "2021-01-01"}
+  {%if post.date == "2021-01-01" %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
