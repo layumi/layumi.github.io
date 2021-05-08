@@ -16,7 +16,7 @@ Publications:  [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017
 ### 2021
 
 {% for post in site.publications reversed %}
-  {%if post.date == "2021-01-01" %}
+  {%if post.pub_year == '2021' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -24,7 +24,7 @@ Publications:  [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017
 ### 2020
 
 {% for post in site.publications reversed %}
-  {% if post.date == "2020-01-01" %}
+  {% if post.pub_year == '2020' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -32,7 +32,7 @@ Publications:  [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017
 ### 2019
 
 {% for post in site.publications reversed %}
-  {% if post.date == "2019-01-01" %}
+  {% if post.pub_year == '2019' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -40,7 +40,7 @@ Publications:  [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017
 ### 2018
 
 {% for post in site.publications reversed %}
-  {% if post.date == "2018-01-01" %}
+  {% if post.pub_year == '2018' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
@@ -48,7 +48,7 @@ Publications:  [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017
 ### 2017
 
 {% for post in site.publications reversed %}
-  {% if post.date == "2017-01-01" %}
+  {% if post.pub_year == '2017' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}

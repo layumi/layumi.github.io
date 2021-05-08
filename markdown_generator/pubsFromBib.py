@@ -141,6 +141,8 @@ for pubsource in publist:
 
             md += "\ncitation: '" + html_escape(citation) + "'"
 
+            md +="\npub_year: '" + html_escape(pub_year)+"'"
+ 
             md += "\n---"
 
             
