@@ -5,6 +5,7 @@ permalink: /publication/2018-01-01-Camera-style-adaptation-for-person-re-identif
 date: 2018-01-01
 doi: 
 venue: 'CVPR'
+paperurl: 'https://zdzheng.xyz/files/CVPR18.pdf'
 code: 'https://github.com/zhunzhong07/CamStyle'
 author: 'Zhun Zhong,  Liang Zheng,  <strong>Zhedong Zheng</strong>,  Shaozi Li,  Yi Yang'
 citation: ' Zhun Zhong,  Liang Zheng,  Zhedong Zheng,  Shaozi Li,  Yi Yang, &quot;Camera style adaptation for person re-identification.&quot; CVPR, 2018.'
