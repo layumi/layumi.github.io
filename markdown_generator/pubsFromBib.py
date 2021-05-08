@@ -103,7 +103,7 @@ for pubsource in publist:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
                 allauthor = allauthor +" "+author.first_names[0]+" "+author.last_names[0]+", "
             allauthor =  allauthor[1:-2]
-            allauthor = allauthor.replace("Zhedong Zheng","**Zhedong Zheng**")
+            allauthor = allauthor.replace("Zhedong Zheng","<strong>Zhedong Zheng</strong>")
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
 
