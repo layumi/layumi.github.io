@@ -3,7 +3,7 @@ main:
   - title: "Home"
     url: /
   - title: "Publications"
-    url: /articles/
+    url: /publications/
   - title: "CV"
     url: /files/zhedong-resume.pdf
   - title: "Resources"

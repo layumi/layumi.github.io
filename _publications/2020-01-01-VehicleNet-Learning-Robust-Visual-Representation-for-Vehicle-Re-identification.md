@@ -3,6 +3,7 @@ title: "VehicleNet: Learning Robust Visual Representation for Vehicle Re-identif
 collection: publications
 permalink: /publication/2020-01-01-VehicleNet-Learning-Robust-Visual-Representation-for-Vehicle-Re-identification
 date: 2020-01-01
+doi: 10.1109/TMM.2020.3014488
 venue: 'IEEE Transaction on Multimedia (TMM)'
 paperurl: 'https://arxiv.org/abs/2004.06305'
 author: '<strong>Zhedong Zheng</strong>,  Tao Ruan,  Yunchao Wei,  Yi Yang,  Tao Mei'

@@ -98,6 +98,9 @@ for pubsource in publist:
             #Build Citation from text
             citation = ""
             allauthor = ""
+            doi = ""
+            if "doi" in b.keys():
+                doi = b["doi"]
             #citation authors - todo - add highlighting for primary author?
             for author in bibdata.entries[bib_id].persons["author"]:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
@@ -128,6 +131,8 @@ for pubsource in publist:
                     note = True
 
             md += "\ndate: " + str(pub_date) 
+
+            md += "\ndoi: " + doi
 
             md += "\nvenue: '" + html_escape(venue) + "'"
             
