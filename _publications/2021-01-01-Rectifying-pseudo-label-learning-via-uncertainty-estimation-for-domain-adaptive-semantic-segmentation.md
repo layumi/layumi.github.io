@@ -5,6 +5,7 @@ permalink: /publication/2021-01-01-Rectifying-Pseudo-Label-Learning-via-Uncertai
 date: 2021-01-01
 doi: 10.1007/s11263-020-01395-y
 venue: 'International Journal of Computer Vision'
+code: 'https://github.com/layumi/Seg-Uncertainty'
 author: '<strong>Zhedong Zheng</strong>,  Yi Yang'
 citation: ' Zhedong Zheng,  Yi Yang, &quot;Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation.&quot; International Journal of Computer Vision, 2021. DOI: 10.1007/s11263-020-01395-y'
 pub_year: '2021'

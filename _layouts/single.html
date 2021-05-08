@@ -48,6 +48,10 @@ layout: default
         {% elsif page.citation %}
           <p>Recommended citation: {{ page.citation }} </p>
         {% endif %}
+		
+		{% if page.code %}
+		          <p>Code is available at: {{ page.code }} </p>
+		{% endif %}
     
         </header>
       {% endunless %}

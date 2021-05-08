@@ -142,9 +142,17 @@ for pubsource in publist:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
 
-            md += "\nauthor: '" + html_escape(allauthor) + "'"
+            code = False
+            if "code" in b.keys():
+                if len(str(b["code"])) > 5:
+                    md += "\ncode: '" + b["code"] + "'"
+                    url = True
 
-            md += "\ncitation: '" + html_escape(citation) + ' DOI: ' + str(doi) +"'"
+            md += "\nauthor: '" + html_escape(allauthor) + "'"
+            if "doi" in b.keys():
+                md += "\ncitation: '" + html_escape(citation) + ' DOI: ' + str(doi) +"'"
+            else:
+                md += "\ncitation: '" + html_escape(citation) + "'"
 
             md +="\npub_year: '" + html_escape(pub_year)+"'"
  
