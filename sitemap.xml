@@ -9,32 +9,32 @@
 
 <url>
   <loc>https://zdzheng.xyz/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://zdzheng.xyz/articles/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <loc>https://zdzheng.xyz/publications/</loc>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/files/zhedong-resume.pdf</loc>
-  <lastmod>2021-05-07T12:07:37+00:00</lastmod>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/resources/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/seminar/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/files/ACM-MM-Talk.pdf</loc>
-  <lastmod>2021-05-07T12:07:37+00:00</lastmod>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -44,87 +44,192 @@
 </url>
 <url>
   <loc>https://zdzheng.xyz/sitemap/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
+  <loc>https://zdzheng.xyz/publication/2021-01-01-Rectifying-Pseudo-Label-Learning-via-Uncertainty-Estimation-for-Domain-Adaptive-Semantic-Segmentation</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2021-01-01-Each-part-matters-Local-patterns-facilitate-cross-view-geo-localization</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2021-01-01-Decoupled-and-Memory-Reinforced-Networks-Towards-Effective-Feature-Learning-for-One-Step-Person-Search</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2020-01-01-VehicleNet-Learning-Robust-Visual-Representation-for-Vehicle-Re-identification</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2020-01-01-Unsupervised-scene-adaptation-with-memory-regularization-in-vivo</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2020-01-01-Unsupervised-Eyeglasses-Removal-in-the-Wild</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2020-01-01-University-1652-A-Multi-view-Multi-source-Benchmark-for-Drone-based-Geo-localization</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2020-01-01-Thorax-disease-classification-with-attention-guided-convolutional-neural-network</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2020-01-01-Real-World-Automatic-Makeup-via-Identity-Preservation-Makeup-Net</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2020-01-01-Dual-path-convolutional-image-text-embeddings-with-instance-loss</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2020-01-01-Bayesian-query-expansion-for-multi-camera-person-re-identification</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2019-01-01-Joint-discriminative-and-generative-learning-for-person-re-identification</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2019-01-01-Improving-person-re-identification-by-attribute-and-identity-learning</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2019-01-01-Camstyle-A-novel-data-augmentation-method-for-person-re-identification</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2018-01-01-Pedestrian-alignment-network-for-large-scale-person-re-identification</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2018-01-01-Multi-pseudo-regularized-label-for-generated-data-in-person-re-identification</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2018-01-01-Macro-micro-adversarial-network-for-human-parsing</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2018-01-01-Camstyle-A-novel-data-augmentation-method-for-person-re-identification</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2018-01-01-Camera-style-adaptation-for-person-re-identification</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2018-01-01-A-discriminatively-learned-CNN-embedding-for-person-reidentification</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/publication/2017-01-01-Unlabeled-samples-generated-by-gan-improve-the-person-re-identification-baseline-in-vitro</loc>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://zdzheng.xyz/404.html</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/archive-layout-with-content/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/articles/</loc>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/categories/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/collection-archive/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/cv/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/markdown/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/non-menu-page/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/page-archive/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/portfolio/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://zdzheng.xyz/publications/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/tags/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/talkmap.html</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/talks/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/teaching/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/terms/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/year-archive/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
@@ -134,92 +239,177 @@
 </url>
 <url>
   <loc>https://zdzheng.xyz/markdown_generator/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/robots.txt</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:04+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/posts/2012/08/blog-post-4/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/posts/2014/08/blog-post-3/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/posts/2013/08/blog-post-2/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/posts/2012/08/blog-post-1/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/portfolio/portfolio-1/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/portfolio/portfolio-2/</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://zdzheng.xyz/publication/2009-10-01-paper-title-number-1</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://zdzheng.xyz/publication/2010-10-01-paper-title-number-2</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://zdzheng.xyz/publication/2015-10-01-paper-title-number-3</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/talks/2012-03-01-talk-1</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/talks/2013-03-01-tutorial-1</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/talks/2014-02-01-talk-2</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/talks/2014-03-01-talk-3</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/teaching/2014-spring-teaching-1</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://zdzheng.xyz/teaching/2015-spring-teaching-1</loc>
-  <lastmod>2021-05-07T12:07:47+00:00</lastmod>
+  <lastmod>2021-05-08T12:21:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://zdzheng.xyz/files/Zheng-Yang2021_Article_RectifyingPseudoLabelLearningV.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/Wang_LPN.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/Han_Person_Search.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/TMM20.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/ijcai20.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/Hu_CYB20.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/ACMMM20.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/Guan_PRL20.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/Huang_ijcai20.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/TOMM20.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/PRLetter18.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/CVPR19.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/PR19.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/TIP-08485427.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/TCSVT-08481710.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/TIP-08485730.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/ECCV18.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/CVPR18.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/TOMM18.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://zdzheng.xyz/files/ICCV17.pdf</loc>
+  <lastmod>2021-05-08T12:20:42+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
   <loc>https://zdzheng.xyz/talkmap/map.html</loc>
-  <lastmod>2021-05-07T12:07:37+00:00</lastmod>
+  <lastmod>2021-05-08T12:20:43+00:00</lastmod>
   <priority>0.51</priority>
 </url>
 
