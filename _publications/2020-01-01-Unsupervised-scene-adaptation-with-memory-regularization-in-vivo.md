@@ -6,6 +6,6 @@ date: 2020-01-01
 doi: 
 venue: 'IJCAI'
 author: '<strong>Zhedong Zheng</strong>,  Yi Yang'
-citation: ' Zhedong Zheng,  Yi Yang, &quot;Unsupervised scene adaptation with memory regularization in vivo.&quot; IJCAI, 2020.'
+citation: ' Zhedong Zheng,  Yi Yang, &quot;Unsupervised scene adaptation with memory regularization in vivo.&quot; IJCAI, 2020. DOI: '
 pub_year: '2020'
 ---

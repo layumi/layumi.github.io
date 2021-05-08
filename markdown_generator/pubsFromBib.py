@@ -144,7 +144,7 @@ for pubsource in publist:
 
             md += "\nauthor: '" + html_escape(allauthor) + "'"
 
-            md += "\ncitation: '" + html_escape(citation) + "'"
+            md += "\ncitation: '" + html_escape(citation) + ' DOI: ' + str(doi) +"'"
 
             md +="\npub_year: '" + html_escape(pub_year)+"'"
  

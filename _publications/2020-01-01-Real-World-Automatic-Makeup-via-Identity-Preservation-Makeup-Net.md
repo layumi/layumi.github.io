@@ -6,6 +6,6 @@ date: 2020-01-01
 doi: 
 venue: 'IJCAI'
 author: 'Zhikun Huang,  <strong>Zhedong Zheng</strong>,  Chenggang Yan,  Hongtao Xie,  Yaoqi Sun,  Jianzhong Wang,  Jiyong Zhang'
-citation: ' Zhikun Huang,  Zhedong Zheng,  Chenggang Yan,  Hongtao Xie,  Yaoqi Sun,  Jianzhong Wang,  Jiyong Zhang, &quot;Real-World Automatic Makeup via Identity Preservation Makeup Net.&quot; IJCAI, 2020.'
+citation: ' Zhikun Huang,  Zhedong Zheng,  Chenggang Yan,  Hongtao Xie,  Yaoqi Sun,  Jianzhong Wang,  Jiyong Zhang, &quot;Real-World Automatic Makeup via Identity Preservation Makeup Net.&quot; IJCAI, 2020. DOI: '
 pub_year: '2020'
 ---

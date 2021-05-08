@@ -7,6 +7,6 @@ doi: 10.1145/3159171
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
 paperurl: 'https://arxiv.org/pdf/1611.05666.pdf'
 author: '<strong>Zhedong Zheng</strong>,  Liang Zheng,  Yi Yang'
-citation: ' Zhedong Zheng,  Liang Zheng,  Yi Yang, &quot;A discriminatively learned CNN embedding for person reidentification.&quot; ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2018.'
+citation: ' Zhedong Zheng,  Liang Zheng,  Yi Yang, &quot;A discriminatively learned CNN embedding for person reidentification.&quot; ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2018. DOI: 10.1145/3159171'
 pub_year: '2018'
 ---

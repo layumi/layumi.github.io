@@ -6,6 +6,6 @@ date: 2018-01-01
 doi: 10.1109/TCSVT.2018.2873599
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology'
 author: '<strong>Zhedong Zheng</strong>,  Liang Zheng,  Yi Yang'
-citation: ' Zhedong Zheng,  Liang Zheng,  Yi Yang, &quot;Pedestrian alignment network for large-scale person re-identification.&quot; IEEE Transactions on Circuits and Systems for Video Technology, 2018.'
+citation: ' Zhedong Zheng,  Liang Zheng,  Yi Yang, &quot;Pedestrian alignment network for large-scale person re-identification.&quot; IEEE Transactions on Circuits and Systems for Video Technology, 2018. DOI: 10.1109/TCSVT.2018.2873599'
 pub_year: '2018'
 ---
