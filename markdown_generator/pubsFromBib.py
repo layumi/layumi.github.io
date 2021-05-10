@@ -54,7 +54,8 @@ def html_escape(text):
     return "".join(html_escape_table.get(c,c) for c in text)
 
 
-for pubsource in publist:
+
+for pubsource in publist:    
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
 
@@ -155,7 +156,8 @@ for pubsource in publist:
                 md += "\ncitation: '" + html_escape(citation) + "'"
 
             md +="\npub_year: '" + html_escape(pub_year)+"'"
- 
+
+            md += "\nbib: '" + bibdata.entries[bib_id].to_string('bibtex') + "'"
             md += "\n---"
 
             
