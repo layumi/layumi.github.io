@@ -52,6 +52,12 @@ layout: default
 		{% if page.code %}
 		          <p>Code is available at: <a href="{{ page.code }}"><u>{{ page.code }}</u></a></p>
 		{% endif %}
+		
+		<div class="tip" markdown="1"> 
+			```bibtex
+		    "{{post.bib}}"
+			```
+		</div>
     
         </header>
       {% endunless %}
