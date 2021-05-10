@@ -44,7 +44,7 @@
 		  {{ post.author}} <br />
           <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} 
 	          {% if post.url %}
-		          <a href="{{post.url}}">[pdf]</a>
+		          <a href="{{post.paperurl}}">[pdf]</a>
 		      {% endif %}
 		      {% if post.code %}
 			      <a href="{{post.code}}">[code]</a>
