@@ -53,11 +53,7 @@ layout: default
 		          <p>Code is available at: <a href="{{ page.code }}"><u>{{ page.code }}</u></a></p>
 		{% endif %}
 		
-		<div class="tip" markdown="1"> 
-			```bib
-		    "{{post.bib}}"
-			```
-		</div>
+		<div class="highlight highlight-text-bibtex"><pre><span class="pl-k">{{post.bib}}</pre></div>
     
         </header>
       {% endunless %}
