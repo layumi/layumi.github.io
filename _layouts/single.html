@@ -52,8 +52,8 @@ layout: default
 		{% if page.code %}
 		          <p>Code is available at: <a href="{{ page.code }}"><u>{{ page.code }}</u></a></p>
 		{% endif %}
-		
-		<pre><code>{{page.bib}}</code></pre>
+		<pre style="word-wrap: break-word; white-space: pre-wrap;"><code>{{page.bib}}</code>
+		</pre>
     
         </header>
       {% endunless %}
