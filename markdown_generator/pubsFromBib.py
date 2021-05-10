@@ -157,7 +157,7 @@ for pubsource in publist:
 
             md +="\npub_year: '" + html_escape(pub_year)+"'"
 
-            md += "\nbib: |\n" + bibdata.entries[bib_id].to_string('bibtex') + ""
+            md += "\nbib: |\n  " + bibdata.entries[bib_id].to_string('bibtex') + ""
             md += "\n---"
 
             
