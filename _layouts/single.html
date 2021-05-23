@@ -44,13 +44,18 @@ layout: default
         
              
         {% if page.citation and page.paperurl %}
-          <p>Recommended citation: {{ page.citation }} <br /> <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
+          <p> <strong>Recommended citation:</strong> {{ page.citation }} <br /> 
+			  Download: <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
         {% elsif page.citation %}
-          <p>Recommended citation: {{ page.citation }} </p>
+          <p> <strong>Recommended citation:</strong> {{ page.citation }} </p>
         {% endif %}
 		
 		{% if page.code %}
 		          <p>Code is available at: <a href="{{ page.code }}"><u>{{ page.code }}</u></a></p>
+		{% endif %}
+		
+		{% if page.abs %}
+		          <p><strong>Abstract:</strong> {{ page.abs}} </p>
 		{% endif %}
 		
 		<!--

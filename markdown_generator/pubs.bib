@@ -45,7 +45,8 @@
 	title = {Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation},
 	code = {https://github.com/layumi/Seg-Uncertainty},
 	url = {https://zdzheng.xyz/files/Zheng-Yang2021_Article_RectifyingPseudoLabelLearningV.pdf},
-	journal = {International Journal of Computer Vision (IJCV)}
+	journal = {International Journal of Computer Vision (IJCV)},
+	abs={This paper focuses on the unsupervised domain adaptation of transferring the knowledge from the source domain to the target domain in the context of semantic segmentation. Existing approaches usually regard the pseudo label as the ground truth to fully exploit the unlabeled target-domain data. Yet the pseudo labels of the target-domain data are usually predicted by the model trained on the source domain. Thus, the generated labels inevitably contain the incorrect prediction due to the discrepancy between the training domain and the test domain, which could be transferred to the final adapted model and largely compromises the training process. To overcome the problem, this paper proposes to explicitly estimate the prediction uncertainty during training to rectify the pseudo label learning for unsupervised semantic segmentation adaptation. Given the input image, the model outputs the semantic segmentation prediction as well as the uncertainty of the prediction. Specifically, we model the uncertainty via the prediction variance and involve the uncertainty into the optimization objective. To verify the effectiveness of the proposed method, we evaluate the proposed method on two prevalent synthetic-to-real semantic segmentation benchmarks, i.e., GTA5 -> Cityscapes and SYNTHIA -> Cityscapes, as well as one cross-city benchmark, i.e., Cityscapes -> Oxford RobotCar. We demonstrate through extensive experiments that the proposed approach (1) dynamically sets different confidence thresholds according to the prediction variance, (2) rectifies the learning from noisy pseudo labels, and (3) achieves significant improvements over the conventional pseudo label learning and yields competitive performance on all three benchmarks.}
 } 
 
 @article{wang2021each,
@@ -55,7 +56,8 @@
   year={2021},
   code={https://github.com/wtyhub/LPN},
   url = {https://zdzheng.xyz/files/Wang_LPN.pdf},
-  publisher={IEEE}
+  publisher={IEEE},
+  abs={Cross-view geo-localization is to spot images of the same geographic target from different platforms, e.g., drone-view cameras and satellites. It is challenging in the large visual appearance changes caused by extreme viewpoint variations. Existing methods usually concentrate on mining the fine-grained feature of the geographic target in the image center, but underestimate the contextual information in neighbor areas. In this work, we argue that neighbor areas can be leveraged as auxiliary information, enriching discriminative clues for geolocalization. Specifically, we introduce a simple and effective deep neural network, called Local Pattern Network (LPN), to take advantage of contextual information in an end-to-end manner. Without using extra part estimators, LPN adopts a square-ring feature partition strategy, which provides the attention according to the distance to the image center. It eases the part matching and enables the part-wise representation learning. Owing to the square-ring partition design, the proposed LPN has good scalability to rotation variations and achieves competitive results on three prevailing benchmarks, i.e., University-1652, CVUSA and CVACT. Besides, we also show the proposed LPN can be easily embedded into other frameworks to further boost performance.}
 }
 
 @article{zheng2020dual,
@@ -69,7 +71,8 @@
   year={2020},
   code={https://github.com/layumi/Image-Text-Embedding},
   url={https://zdzheng.xyz/files/TOMM20.pdf},
-  publisher={ACM New York, NY, USA}
+  publisher={ACM New York, NY, USA},
+  abs={Matching images and sentences demands a fine understanding of both modalities. In this paper, we propose a new system to discriminatively embed the image and text to a shared visual-textual space. In this field, most existing works apply the ranking loss to pull the positive image / text pairs close and push the negative pairs apart from each other. However, directly deploying the ranking loss is hard for network learning, since it starts from the two heterogeneous features to build inter-modal relationship. To address this problem, we propose the instance loss which explicitly considers the intra-modal data distribution. It is based on an unsupervised assumption that each image / text group can be viewed as a class. So the network can learn the fine granularity from every image/text group. The experiment shows that the instance loss offers better weight initialization for the ranking loss, so that more discriminative embeddings can be learned. Besides, existing works usually apply the off-the-shelf features, i.e., word2vec and fixed visual feature. So in a minor contribution, this paper constructs an end-to-end dual-path convolutional network to learn the image and text representations. End-to-end learning allows the system to directly learn from the data and fully utilize the supervision. On two generic retrieval datasets (Flickr30k and MSCOCO), experiments demonstrate that our method yields competitive accuracy compared to state-of-the-art methods. Moreover, in language based person retrieval, we improve the state of the art by a large margin. The code has been made publicly available.}
 }
 
 @article{Hu_2020,
@@ -81,7 +84,8 @@
 	title = {Unsupervised Eyeglasses Removal in the Wild},
 	code={https://github.com/Bingwen-Hu/ERGAN-Pytorch},
 	url={https://zdzheng.xyz/files/Hu_CYB20.pdf},
-	journal = {{IEEE} Transactions on Cybernetics}
+	journal = {{IEEE} Transactions on Cybernetics},
+	abs={Eyeglasses removal is challenging in removing different kinds of eyeglasses, e.g., rimless glasses, full-rim glasses and sunglasses, and recovering appropriate eyes. Due to the large visual variants, the conventional methods lack scalability. Most existing works focus on the frontal face images in the controlled environment, such as the laboratory, and need to design specific systems for different eyeglass types. To address the limitation, we propose a unified eyeglass removal model called Eyeglasses Removal Generative Adversarial Network (ERGAN), which could handle different types of glasses in the wild. The proposed method does not depend on the dense annotation of eyeglasses location but benefits from the large-scale face images with weak annotations. Specifically, we study the two relevant tasks simultaneously, i.e., removing and wearing eyeglasses. Given two facial images with and without eyeglasses, the proposed model learns to swap the eye area in two faces. The generation mechanism focuses on the eye area and invades the difficulty of generating a new face. In the experiment, we show the proposed method achieves a competitive removal quality in terms of realism and diversity. Furthermore, we evaluate ERGAN on several subsequent tasks, such as face verification and facial expression recognition. The experiment shows that our method could serve as a pre-processing method for these tasks.}
 } 
 
 @article{zhong2019camstyle,
@@ -109,7 +113,8 @@
   year={2018},
   code={https://github.com/layumi/Pedestrian_Alignment},
   url={https://zdzheng.xyz/files/TCSVT-08481710.pdf},
-  publisher={IEEE}
+  publisher={IEEE},
+  abs={Person re-identification (person re-ID) is mostly viewed as an image retrieval problem. This task aims to search a query person in a large image pool. In practice, person re-ID usually adopts automatic detectors to obtain cropped pedestrian images. However, this process suffers from two types of detector errors: excessive background and part missing. Both errors deteriorate the quality of pedestrian alignment and may compromise pedestrian matching due to the position and scale variances. To address the misalignment problem, we propose that alignment can be learned from an identification procedure. We introduce the pedestrian alignment network (PAN) which allows discriminative embedding learning and pedestrian alignment without extra annotations. Our key observation is that when the convolutional neural network (CNN) learns to discriminate between different identities, the learned feature maps usually exhibit strong activations on the human body rather than the background. The proposed network thus takes advantage of this attention mechanism to adaptively locate and align pedestrians within a bounding box. Visual examples show that pedestrians are better aligned with PAN. Experiments on three large-scale re-ID datasets confirm that PAN improves the discriminative ability of the feature embeddings and yields competitive accuracy with the state-of-the-art methods.}
 }
 
 @article{guan2020thorax,
