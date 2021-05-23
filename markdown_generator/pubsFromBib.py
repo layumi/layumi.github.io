@@ -155,6 +155,8 @@ for pubsource in publist:
             else:
                 md += "\ncitation: '" + html_escape(citation) + "'"
 
+            if "abs" in b.keys():
+                md += "\nabs: '" + b["abs"] + "'"
             md +="\npub_year: '" + html_escape(pub_year)+"'"
 
             #md += "\nbib: |\n    " + bibdata.entries[bib_id].to_string('bibtex')[:-3] + "\n    }"
