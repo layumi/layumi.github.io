@@ -7,7 +7,7 @@ doi:
 venue: 'CVPRW'
 paperurl: 'https://zdzheng.xyz/files/CVPRW-2021-VehicleReid.pdf'
 code: 'https://github.com/Xuanmeng-Zhang/AICITY2021-Track2'
-author: 'Shuai Bai,  <strong>Zhedong Zheng</strong>,  Xiaohan Wang,  Junyang Lin,  Zhu Zhang,  Chang Zhou,  Hongxia Yang,  Yi Yang'
-citation: ' Shuai Bai,  Zhedong Zheng,  Xiaohan Wang,  Junyang Lin,  Zhu Zhang,  Chang Zhou,  Hongxia Yang,  Yi Yang, &quot;Robust Vehicle Re-identification via Rigid Structure Prior.&quot; CVPRW, 2021.'
+author: 'Minyue Jiang,  Xuanmeng Zhang,  Yue Yu,  Zechen Bai,  <strong>Zhedong Zheng</strong>,  Zhigang Wang,  Jian Wang,  Xiao Tan,  Hao Sun,  Errui Ding,  Yi Yang'
+citation: ' Minyue Jiang,  Xuanmeng Zhang,  Yue Yu,  Zechen Bai,  Zhedong Zheng,  Zhigang Wang,  Jian Wang,  Xiao Tan,  Hao Sun,  Errui Ding,  Yi Yang, &quot;Robust Vehicle Re-identification via Rigid Structure Prior.&quot; CVPRW, 2021.'
 pub_year: '2021'
 ---
