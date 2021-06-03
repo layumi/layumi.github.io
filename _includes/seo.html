@@ -46,6 +46,10 @@
     <meta property="og:paperurl" content="{{ page.paperurl}}">
 {% endif %}
 
+{% if page.abs %}
+    <meta property="og:content" content="{{ page.abs}}">
+{% endif %}
+
 {% if page.code %}
     <meta property="og:code" content="{{ page.code}}">
 {% endif %}
