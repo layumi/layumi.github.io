@@ -18,8 +18,9 @@ News
 ======
 
 <li> I was awarded 2021 IEEE Circuits and Systems Society Outstanding Young Author Award. Thanks a lot for  supports and understanding from my supervisors and friends. <a href="https://ieee-cas.org/outstanding-young-author-award">[link]</a> </li>
-<li> One paper on Uncertainty is accepted by IJCV 2021. <a href="https://zdzheng.xyz/publication/2021-01-01-Rectifying-Pseudo-Label-Learning-via-Uncertainty-Estimation-for-Domain-Adaptive-Semantic-Segmentation">[PDF]</a> <a href="https://github.com/layumi/Seg_Uncertainty">[code]</a> </li>
-<li> We have released a new Drone-view Geo-localization Dataset, ACM Multimedia 2020.<strong> href
+<li> One paper on Uncertainty is accepted by IJCV 2021. 
+	<a href="https://zdzheng.xyz/publication/2021-01-01-Rectifying-Pseudo-Label-Learning-via-Uncertainty-Estimation-for-Domain-Adaptive-Semantic-Segmentation">[PDF]</a> <a href="https://github.com/layumi/Seg_Uncertainty">[code]</a> </li>
+<li> We have released a new Drone-view Geo-localization Dataset, ACM Multimedia 2020.<strong> 
 	<a href="https://zdzheng.xyz/publication/2020-01-01-University-1652-A-Multi-view-Multi-source-Benchmark-for-Drone-based-Geo-localization">[PDF]</a>
 	<a href="https://github.com/layumi/University1652-Baseline">[Dataset]</a> <a href="https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080">[Video]</a> <a href="https://zdzheng.xyz/files/ACM-MM-Talk.pdf">[Slide]</a></strong> </li>
 <li> People live in a 3D world. Why not conduct representation learning in the 3D space? <a href="https://arxiv.org/abs/2006.04569">[arXiv]</a> <a href="https://github.com/layumi/person-reid-3d">[code]</a></li>
