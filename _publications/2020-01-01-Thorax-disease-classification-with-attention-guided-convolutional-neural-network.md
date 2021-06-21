@@ -11,15 +11,15 @@ citation: ' Qingji Guan,  Yaping Huang,  Zhun Zhong,  Zhedong Zheng,  Liang Zhen
 pub_year: '2020'
 bib: >
     ```bib
-    @article{guan2020thorax,
-    author = "Guan, Qingji and Huang, Yaping and Zhong, Zhun and Zheng, Zhedong and Zheng, Liang and Yang, Yi",
-    doi = "10.1016/j.patrec.2019.11.040",
-    title = "Thorax disease classification with attention guided convolutional neural network",
-    journal = "Pattern Recognition Letters",
-    volume = "131",
-    pages = "38--45",
-    year = "2020",
-    url = "https://zdzheng.xyz/files/Guan\_PRL20.pdf",
+    @article{guan2020thorax,  
+    author = "Guan, Qingji and Huang, Yaping and Zhong, Zhun and Zheng, Zhedong and Zheng, Liang and Yang, Yi",  
+    doi = "10.1016/j.patrec.2019.11.040",  
+    title = "Thorax disease classification with attention guided convolutional neural network",  
+    journal = "Pattern Recognition Letters",  
+    volume = "131",  
+    pages = "38--45",  
+    year = "2020",  
+    url = "https://zdzheng.xyz/files/Guan\_PRL20.pdf",  
     publisher = "Elsevier"
     }
     ```

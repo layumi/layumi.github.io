@@ -12,13 +12,13 @@ citation: ' Zhedong Zheng,  Tao Ruan,  Yunchao Wei,  Yi Yang,  Tao Mei, &quot;Ve
 pub_year: '2020'
 bib: >
     ```bib
-    @article{zheng2020vehiclenet,
-    author = "Zheng, Zhedong and Ruan, Tao and Wei, Yunchao and Yang, Yi and Mei, Tao",
-    doi = "10.1109/TMM.2020.3014488",
-    title = "VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification",
-    journal = "IEEE Transaction on Multimedia (TMM)",
-    year = "2020",
-    code = "https://github.com/layumi/AICIty-reID-2020",
+    @article{zheng2020vehiclenet,  
+    author = "Zheng, Zhedong and Ruan, Tao and Wei, Yunchao and Yang, Yi and Mei, Tao",  
+    doi = "10.1109/TMM.2020.3014488",  
+    title = "VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification",  
+    journal = "IEEE Transaction on Multimedia (TMM)",  
+    year = "2020",  
+    code = "https://github.com/layumi/AICIty-reID-2020",  
     url = "https://zdzheng.xyz/files/TMM20.pdf"
     }
     ```

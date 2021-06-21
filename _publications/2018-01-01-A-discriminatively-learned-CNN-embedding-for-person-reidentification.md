@@ -12,17 +12,17 @@ citation: ' Zhedong Zheng,  Liang Zheng,  Yi Yang, &quot;A discriminatively lear
 pub_year: '2018'
 bib: >
     ```bib
-    @article{zheng2018discriminatively,
-    author = "Zheng, Zhedong and Zheng, Liang and Yang, Yi",
-    doi = "10.1145/3159171",
-    title = "A discriminatively learned CNN embedding for person reidentification",
-    journal = "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",
-    volume = "14",
-    number = "1",
-    pages = "13",
-    year = "2018",
-    publisher = "ACM",
-    code = "https://github.com/layumi/2016\_person\_re-ID",
+    @article{zheng2018discriminatively,  
+    author = "Zheng, Zhedong and Zheng, Liang and Yang, Yi",  
+    doi = "10.1145/3159171",  
+    title = "A discriminatively learned CNN embedding for person reidentification",  
+    journal = "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",  
+    volume = "14",  
+    number = "1",  
+    pages = "13",  
+    year = "2018",  
+    publisher = "ACM",  
+    code = "https://github.com/layumi/2016\_person\_re-ID",  
     url = "https://zdzheng.xyz/files/TOMM18.pdf"
     }
     ```

@@ -12,13 +12,13 @@ citation: ' Yawei Luo,  Zhedong Zheng,  Liang Zheng,  Tao Guan,  Junqing Yu,  Yi
 pub_year: '2018'
 bib: >
     ```bib
-    @inproceedings{luo2018macro,
-    author = "Luo, Yawei and Zheng, Zhedong and Zheng, Liang and Guan, Tao and Yu, Junqing and Yang, Yi",
-    title = "Macro-micro adversarial network for human parsing",
-    booktitle = "ECCV",
-    pages = "418--434",
-    code = "https://github.com/RoyalVane/MMAN",
-    url = "https://zdzheng.xyz/files/ECCV18.pdf",
+    @inproceedings{luo2018macro,  
+    author = "Luo, Yawei and Zheng, Zhedong and Zheng, Liang and Guan, Tao and Yu, Junqing and Yang, Yi",  
+    title = "Macro-micro adversarial network for human parsing",  
+    booktitle = "ECCV",  
+    pages = "418--434",  
+    code = "https://github.com/RoyalVane/MMAN",  
+    url = "https://zdzheng.xyz/files/ECCV18.pdf",  
     year = "2018"
     }
     ```

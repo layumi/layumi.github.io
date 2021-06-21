@@ -12,14 +12,14 @@ citation: ' Zhedong Zheng,  Yunchao Wei,  Yi Yang, &quot;University-1652: A Mult
 pub_year: '2020'
 bib: >
     ```bib
-    @inproceedings{zheng2020university,
-    author = "Zheng, Zhedong and Wei, Yunchao and Yang, Yi",
-    doi = "10.1145/3394171.3413896",
-    title = "University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization",
-    booktitle = "ACM MM",
-    pages = "1395--1403",
-    code = "https://github.com/layumi/University1652-Baseline",
-    url = "https://zdzheng.xyz/files/ACMMM20.pdf",
+    @inproceedings{zheng2020university,  
+    author = "Zheng, Zhedong and Wei, Yunchao and Yang, Yi",  
+    doi = "10.1145/3394171.3413896",  
+    title = "University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization",  
+    booktitle = "ACM MM",  
+    pages = "1395--1403",  
+    code = "https://github.com/layumi/University1652-Baseline",  
+    url = "https://zdzheng.xyz/files/ACMMM20.pdf",  
     year = "2020"
     }
     ```

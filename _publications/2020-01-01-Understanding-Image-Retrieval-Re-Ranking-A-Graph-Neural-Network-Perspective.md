@@ -10,10 +10,10 @@ citation: ' Xuanmeng Zhang,  Minyue Jiang,  Zhedong Zheng,  Xiao Tan,  Errui Din
 pub_year: '2020'
 bib: >
     ```bib
-    @article{zhang2020understanding,
-    author = "Zhang, Xuanmeng and Jiang, Minyue and Zheng, Zhedong and Tan, Xiao and Ding, Errui and Yang, Yi",
-    title = "Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective",
-    journal = "arXiv preprint arXiv:2012.07620",
+    @article{zhang2020understanding,  
+    author = "Zhang, Xuanmeng and Jiang, Minyue and Zheng, Zhedong and Tan, Xiao and Ding, Errui and Yang, Yi",  
+    title = "Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective",  
+    journal = "arXiv preprint arXiv:2012.07620",  
     year = "2020"
     }
     ```
