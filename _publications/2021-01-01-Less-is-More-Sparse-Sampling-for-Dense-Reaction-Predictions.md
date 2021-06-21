@@ -11,12 +11,12 @@ author: 'Kezhou Lin,  Xiaohan Wang,  <strong>Zhedong Zheng</strong>,  Linchao Zh
 citation: ' Kezhou Lin,  Xiaohan Wang,  Zhedong Zheng,  Linchao Zhu,  Yi Yang, &quot;Less is More: Sparse Sampling for Dense Reaction Predictions.&quot; CVPRW, 2021.'
 pub_year: '2021'
 bib: >
-    @inproceedings{lin2021more,  
-    author = "Lin, Kezhou and Wang, Xiaohan and Zheng, Zhedong and Zhu, Linchao and Yang, Yi",  
-    title = "Less is More: Sparse Sampling for Dense Reaction Predictions",  
-    year = "2021",  
-    booktitle = "CVPRW",  
-    url = "https://zdzheng.xyz/files/CVPRW2021\_EEV.pdf",  
+    @inproceedings{lin2021more,<br>  
+    author = "Lin, Kezhou and Wang, Xiaohan and Zheng, Zhedong and Zhu, Linchao and Yang, Yi",<br>  
+    title = "Less is More: Sparse Sampling for Dense Reaction Predictions",<br>  
+    year = "2021",<br>  
+    booktitle = "CVPRW",<br>  
+    url = "https://zdzheng.xyz/files/CVPRW2021\_EEV.pdf",<br>  
     code = "https://github.com/HenryLittle/EEV-Challenge-2021"
     }
 

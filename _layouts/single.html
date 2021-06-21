@@ -60,10 +60,7 @@ layout: default
 		
 		{% if page.bib %}
 		  <div contenteditable>
-			  {{ page.bib }} 
-		  </div>
-		  <div>
-		    innerText<textarea id="innerText" style="display: inline-block"></textarea>
+			  <textarea id="innerText" style="display: inline-block">{{ page.bib }} </textarea>
 		  </div>
 		{% endif %}		
 		<!--
