@@ -60,11 +60,9 @@ layout: default
 		
 		{% if page.bib %}
 		    <div class="itemlayout" contenteditable="true">
-			    {% highlight html linenos %}
-			        ```bibtex
+				<textarea>
 			        {{ page.bib | markdownify }} 
-			  	    ```
-			    {% endhighlight %}
+				</textarea>
 		    </div>
 		{% endif %}		
 		<!--
