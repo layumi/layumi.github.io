@@ -58,6 +58,11 @@ layout: default
 		  <p><strong>Abstract:</strong> {{ page.abs}} </p>
 		{% endif %}
 		
+		{% if page.bib %}
+		  <p>
+			  {{ page.bib | markdownify}} 
+		  </p>
+		{% endif %}		
 		<!--
 		<pre style="word-wrap: break-word; white-space: pre-wrap;">{{page.bib}}
 		</pre>
