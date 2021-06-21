@@ -11,9 +11,9 @@ author: 'Shuai Bai,  <strong>Zhedong Zheng</strong>,  Xiaohan Wang,  Junyang Lin
 citation: ' Shuai Bai,  Zhedong Zheng,  Xiaohan Wang,  Junyang Lin,  Zhu Zhang,  Chang Zhou,  Hongxia Yang,  Yi Yang, &quot;Connecting Language and Vision for Natural Language-Based Vehicle Retrieval.&quot; CVPRW, 2021.'
 pub_year: '2021'
 bib: >
-    ```bib
+    
     @inproceedings{zheng2021connecting,  <br\>    author = "Bai, Shuai and Zheng, Zhedong and Wang, Xiaohan and Lin, Junyang and Zhang, Zhu and Zhou, Chang and Yang, Hongxia and Yang, Yi",  <br\>    title = "Connecting Language and Vision for Natural Language-Based Vehicle Retrieval",  <br\>    booktitle = "CVPRW",  <br\>    code = "https://github.com/ShuaiBai623/AIC2021-T5-CLV",  <br\>    url = "https://zdzheng.xyz/files/CVPRW2021\_NLP\_AICity.pdf",  <br\>    year = "2021"
     }
-    ```
+    
 
 ---

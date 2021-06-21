@@ -9,9 +9,9 @@ author: '<strong>Zhedong Zheng</strong>,  Liang Zheng,  Yi Yang,  Fei Wu'
 citation: ' Zhedong Zheng,  Liang Zheng,  Yi Yang,  Fei Wu, &quot;Query Attack via Opposite-Direction Feature: Towards Robust Image Retrieval.&quot; arXiv preprint arXiv:1809.02681, 2018.'
 pub_year: '2018'
 bib: >
-    ```bib
+    
     @article{zheng2018query,  <br\>    author = "Zheng, Zhedong and Zheng, Liang and Yang, Yi and Wu, Fei",  <br\>    title = "Query Attack via Opposite-Direction Feature: Towards Robust Image Retrieval",  <br\>    journal = "arXiv preprint arXiv:1809.02681",  <br\>    year = "2018"
     }
-    ```
+    
 
 ---

@@ -11,9 +11,9 @@ author: 'Minyue Jiang,  Xuanmeng Zhang,  Yue Yu,  Zechen Bai,  <strong>Zhedong Z
 citation: ' Minyue Jiang,  Xuanmeng Zhang,  Yue Yu,  Zechen Bai,  Zhedong Zheng,  Zhigang Wang,  Jian Wang,  Xiao Tan,  Hao Sun,  Errui Ding,  Yi Yang, &quot;Robust Vehicle Re-identification via Rigid Structure Prior.&quot; CVPRW, 2021.'
 pub_year: '2021'
 bib: >
-    ```bib
+    
     @inproceedings{zheng2021robust,  <br\>    author = "Jiang, Minyue and Zhang, Xuanmeng and Yu, Yue and Bai, Zechen and Zheng, Zhedong and Wang, Zhigang and Wang, Jian and Tan, Xiao and Sun, Hao and Ding, Errui and Yang, Yi",  <br\>    title = "Robust Vehicle Re-identification via Rigid Structure Prior",  <br\>    booktitle = "CVPRW",  <br\>    code = "https://github.com/Xuanmeng-Zhang/AICITY2021-Track2",  <br\>    url = "https://zdzheng.xyz/files/CVPRW-2021-VehicleReid.pdf",  <br\>    year = "2021"
     }
-    ```
+    
 
 ---
