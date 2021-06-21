@@ -11,7 +11,7 @@ author: 'Zhun Zhong,  Liang Zheng,  <strong>Zhedong Zheng</strong>,  Shaozi Li, 
 citation: ' Zhun Zhong,  Liang Zheng,  Zhedong Zheng,  Shaozi Li,  Yi Yang, &quot;Camera style adaptation for person re-identification.&quot; CVPR, 2018.'
 pub_year: '2018'
 bib: >
-'@inproceedings{zhong2018camera,
+    @inproceedings{zhong2018camera,
     author = "Zhong, Zhun and Zheng, Liang and Zheng, Zhedong and Li, Shaozi and Yang, Yi",
     title = "Camera style adaptation for person re-identification",
     booktitle = "CVPR",
@@ -20,5 +20,5 @@ bib: >
     url = "https://zdzheng.xyz/files/CVPR18.pdf",
     year = "2018"
     }
-'
+
 ---
