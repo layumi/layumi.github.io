@@ -11,7 +11,12 @@ citation: ' Chuchu Han,  Zhedong Zheng,  Changxin Gao,  Nong Sang,  Yi Yang, &qu
 pub_year: '2021'
 bib: >
     
-    @inproceedings{han2021decoupled,  <br\>    author = "Han, Chuchu and Zheng, Zhedong and Gao, Changxin and Sang, Nong and Yang, Yi",  <br\>    title = "Decoupled and Memory-Reinforced Networks: Towards Effective Feature Learning for One-Step Person Search",  <br\>    booktitle = "AAAI",  <br\>    url = "https://zdzheng.xyz/files/Han\_Person\_Search.pdf",  <br\>    year = "2021"
+    @inproceedings{han2021decoupled,  
+    author = "Han, Chuchu and Zheng, Zhedong and Gao, Changxin and Sang, Nong and Yang, Yi",  
+    title = "Decoupled and Memory-Reinforced Networks: Towards Effective Feature Learning for One-Step Person Search",  
+    booktitle = "AAAI",  
+    url = "https://zdzheng.xyz/files/Han\_Person\_Search.pdf",  
+    year = "2021"
     }
     
 

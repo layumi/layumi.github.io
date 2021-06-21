@@ -12,7 +12,13 @@ citation: ' Shuai Bai,  Zhedong Zheng,  Xiaohan Wang,  Junyang Lin,  Zhu Zhang, 
 pub_year: '2021'
 bib: >
     
-    @inproceedings{zheng2021connecting,  <br\>    author = "Bai, Shuai and Zheng, Zhedong and Wang, Xiaohan and Lin, Junyang and Zhang, Zhu and Zhou, Chang and Yang, Hongxia and Yang, Yi",  <br\>    title = "Connecting Language and Vision for Natural Language-Based Vehicle Retrieval",  <br\>    booktitle = "CVPRW",  <br\>    code = "https://github.com/ShuaiBai623/AIC2021-T5-CLV",  <br\>    url = "https://zdzheng.xyz/files/CVPRW2021\_NLP\_AICity.pdf",  <br\>    year = "2021"
+    @inproceedings{zheng2021connecting,  
+    author = "Bai, Shuai and Zheng, Zhedong and Wang, Xiaohan and Lin, Junyang and Zhang, Zhu and Zhou, Chang and Yang, Hongxia and Yang, Yi",  
+    title = "Connecting Language and Vision for Natural Language-Based Vehicle Retrieval",  
+    booktitle = "CVPRW",  
+    code = "https://github.com/ShuaiBai623/AIC2021-T5-CLV",  
+    url = "https://zdzheng.xyz/files/CVPRW2021\_NLP\_AICity.pdf",  
+    year = "2021"
     }
     
 

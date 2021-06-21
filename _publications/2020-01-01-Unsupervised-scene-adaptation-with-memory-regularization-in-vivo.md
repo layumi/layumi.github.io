@@ -12,7 +12,13 @@ citation: ' Zhedong Zheng,  Yi Yang, &quot;Unsupervised scene adaptation with me
 pub_year: '2020'
 bib: >
     
-    @inproceedings{zheng2019unsupervised,  <br\>    author = "Zheng, Zhedong and Yang, Yi",  <br\>    title = "Unsupervised scene adaptation with memory regularization in vivo",  <br\>    booktitle = "IJCAI",  <br\>    code = "https://github.com/layumi/Seg\_Uncertainty",  <br\>    url = "https://zdzheng.xyz/files/ijcai20.pdf",  <br\>    year = "2020"
+    @inproceedings{zheng2019unsupervised,  
+    author = "Zheng, Zhedong and Yang, Yi",  
+    title = "Unsupervised scene adaptation with memory regularization in vivo",  
+    booktitle = "IJCAI",  
+    code = "https://github.com/layumi/Seg\_Uncertainty",  
+    url = "https://zdzheng.xyz/files/ijcai20.pdf",  
+    year = "2020"
     }
     
 

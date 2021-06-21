@@ -12,7 +12,18 @@ citation: ' Zhun Zhong,  Liang Zheng,  Zhedong Zheng,  Shaozi Li,  Yi Yang, &quo
 pub_year: '2019'
 bib: >
     
-    @article{zhong2019camstyle,  <br\>    author = "Zhong, Zhun and Zheng, Liang and Zheng, Zhedong and Li, Shaozi and Yang, Yi",  <br\>    doi = "10.1109/TIP.2018.2874313",  <br\>    title = "Camstyle: A novel data augmentation method for person re-identification",  <br\>    journal = "IEEE Transactions on Image Processing (TIP)",  <br\>    volume = "28",  <br\>    number = "3",  <br\>    pages = "1176--1190",  <br\>    year = "2019",  <br\>    url = "https://zdzheng.xyz/files/TIP-08485427.pdf",  <br\>    code = "https://github.com/zhunzhong07/CamStyle",  <br\>    publisher = "IEEE"
+    @article{zhong2019camstyle,  
+    author = "Zhong, Zhun and Zheng, Liang and Zheng, Zhedong and Li, Shaozi and Yang, Yi",  
+    doi = "10.1109/TIP.2018.2874313",  
+    title = "Camstyle: A novel data augmentation method for person re-identification",  
+    journal = "IEEE Transactions on Image Processing (TIP)",  
+    volume = "28",  
+    number = "3",  
+    pages = "1176--1190",  
+    year = "2019",  
+    url = "https://zdzheng.xyz/files/TIP-08485427.pdf",  
+    code = "https://github.com/zhunzhong07/CamStyle",  
+    publisher = "IEEE"
     }
     
 
