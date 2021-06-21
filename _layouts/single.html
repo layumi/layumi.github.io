@@ -59,11 +59,12 @@ layout: default
 		{% endif %}
 		
 		{% if page.bib %}
-		  <pre>
-			  <textarea rows="7" cols="115" readonly="true">
+		  <div>
 			  {{ page.bib }} 
-			  <textarea>
-		  </pre>
+		  </div>
+		  <div>
+		    innerText<textarea id="innerText" style="display: inline-block"></textarea>
+		  </div>
 		{% endif %}		
 		<!--
 		<pre style="word-wrap: break-word; white-space: pre-wrap;">{{page.bib}}
