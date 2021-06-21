@@ -11,7 +11,7 @@ author: '<strong>Zhedong Zheng</strong>,  Yunchao Wei,  Yi Yang'
 citation: ' Zhedong Zheng,  Yunchao Wei,  Yi Yang, &quot;University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization.&quot; ACM MM, 2020. DOI: 10.1145/3394171.3413896'
 pub_year: '2020'
 bib: >
-```bib
+'```bib
     @inproceedings{zheng2020university,
     author = "Zheng, Zhedong and Wei, Yunchao and Yang, Yi",
     doi = "10.1145/3394171.3413896",
@@ -22,5 +22,5 @@ bib: >
     url = "https://zdzheng.xyz/files/ACMMM20.pdf",
     year = "2020"
     }
-```
+```'
 ---

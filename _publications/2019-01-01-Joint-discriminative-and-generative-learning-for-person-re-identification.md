@@ -11,7 +11,7 @@ author: '<strong>Zhedong Zheng</strong>,  Xiaodong Yang,  Zhiding Yu,  Liang Zhe
 citation: ' Zhedong Zheng,  Xiaodong Yang,  Zhiding Yu,  Liang Zheng,  Yi Yang,  Jan Kautz, &quot;Joint discriminative and generative learning for person re-identification.&quot; CVPR, 2019.'
 pub_year: '2019'
 bib: >
-```bib
+'```bib
     @inproceedings{zheng2019joint,
     author = "Zheng, Zhedong and Yang, Xiaodong and Yu, Zhiding and Zheng, Liang and Yang, Yi and Kautz, Jan",
     title = "Joint discriminative and generative learning for person re-identification",
@@ -21,5 +21,5 @@ bib: >
     url = "https://zdzheng.xyz/files/CVPR19.pdf",
     year = "2019"
     }
-```
+```'
 ---

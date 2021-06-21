@@ -10,7 +10,7 @@ author: 'Yutian Lin,  <strong>Zhedong Zheng</strong>,  Hong Zhang,  Chenqiang Ga
 citation: ' Yutian Lin,  Zhedong Zheng,  Hong Zhang,  Chenqiang Gao,  Yi Yang, &quot;Bayesian query expansion for multi-camera person re-identification.&quot; Pattern Recognition Letters, 2020. DOI: 10.1016/j.patrec.2018.06.009'
 pub_year: '2020'
 bib: >
-```bib
+'```bib
     @article{lin2020bayesian,
     author = "Lin, Yutian and Zheng, Zhedong and Zhang, Hong and Gao, Chenqiang and Yang, Yi",
     doi = "10.1016/j.patrec.2018.06.009",
@@ -22,5 +22,5 @@ bib: >
     publisher = "Elsevier",
     url = "https://zdzheng.xyz/files/PRLetter18.pdf"
     }
-```
+```'
 ---
