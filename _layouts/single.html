@@ -59,13 +59,13 @@ layout: default
 		{% endif %}
 		
 		{% if page.bib %}
-		  <div class="itemlayout" contenteditable="true">
-			  {% highlight html linenos %}
-			      ```bibtex
-			      {{ page.bib | markdownify }} 
-				  ```
-			  {% endhighlight %}
-		  </div>
+		    <div class="itemlayout" contenteditable="true">
+			    {% highlight html linenos %}
+			        ```bibtex
+			        {{ page.bib | markdownify }} 
+			  	    ```
+			    {% endhighlight %}
+		    </div>
 		{% endif %}		
 		<!--
 		<pre style="word-wrap: break-word; white-space: pre-wrap;">{{page.bib}}
