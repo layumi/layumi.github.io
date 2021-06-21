@@ -13,6 +13,15 @@ layout: default
     {% include breadcrumbs.html %}
   {% endunless %}
 {% endif %}
+<style>
+solidp
+{
+	border-top-style:solid;
+	border-right-style:solid;
+	border-bottom-style:solid;
+	border-left-style:solid;
+}
+</style>
 
 <div id="main" role="main">
   {% include sidebar.html %}
@@ -60,9 +69,7 @@ layout: default
 		
 		{% if page.bib %}
 		    <div class="itemlayout" contenteditable="true">
-				<textarea>
-			        {{ page.bib | markdownify }} 
-				</textarea>
+			        <solidp>{{ page.bib | markdownify }} </solidp>
 		    </div>
 		{% endif %}		
 		<!--
