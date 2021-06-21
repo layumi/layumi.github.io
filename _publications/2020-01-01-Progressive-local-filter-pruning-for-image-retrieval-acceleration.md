@@ -10,11 +10,7 @@ citation: ' Xiaodong Wang,  Zhedong Zheng,  Yang He,  Fei Yan,  Zhiqiang Zeng,  
 pub_year: '2020'
 bib: >
     ```bib
-    @article{wang2020progressive,  
-    author = "Wang, Xiaodong and Zheng, Zhedong and He, Yang and Yan, Fei and Zeng, Zhiqiang and Yang, Yi",  
-    title = "Progressive local filter pruning for image retrieval acceleration",  
-    journal = "arXiv preprint arXiv:2001.08878",  
-    year = "2020"
+    @article{wang2020progressive,  <br\>    author = "Wang, Xiaodong and Zheng, Zhedong and He, Yang and Yan, Fei and Zeng, Zhiqiang and Yang, Yi",  <br\>    title = "Progressive local filter pruning for image retrieval acceleration",  <br\>    journal = "arXiv preprint arXiv:2001.08878",  <br\>    year = "2020"
     }
     ```
 

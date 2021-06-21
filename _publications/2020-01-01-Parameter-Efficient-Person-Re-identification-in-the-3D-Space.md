@@ -10,11 +10,7 @@ citation: ' Zhedong Zheng,  Yi Yang, &quot;Parameter-Efficient Person Re-identif
 pub_year: '2020'
 bib: >
     ```bib
-    @article{zheng2020person,  
-    author = "Zheng, Zhedong and Yang, Yi",  
-    title = "Parameter-Efficient Person Re-identification in the 3D Space",  
-    journal = "arXiv preprint arXiv:2006.04569",  
-    year = "2020"
+    @article{zheng2020person,  <br\>    author = "Zheng, Zhedong and Yang, Yi",  <br\>    title = "Parameter-Efficient Person Re-identification in the 3D Space",  <br\>    journal = "arXiv preprint arXiv:2006.04569",  <br\>    year = "2020"
     }
     ```
 
