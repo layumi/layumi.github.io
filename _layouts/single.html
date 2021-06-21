@@ -59,9 +59,9 @@ layout: default
 		{% endif %}
 		
 		{% if page.bib %}
-		  <div contenteditable>
-			  <textarea id="innerText" style="display: inline-block">{{ page.bib }} </textarea>
-		  </div>
+			{% highlight yaml linenos %}
+			    {{ page.bib | markdownify }} 
+	        {% endhighlight %}
 		{% endif %}		
 		<!--
 		<pre style="word-wrap: break-word; white-space: pre-wrap;">{{page.bib}}
