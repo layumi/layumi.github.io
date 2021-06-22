@@ -13,15 +13,6 @@ layout: default
     {% include breadcrumbs.html %}
   {% endunless %}
 {% endif %}
-<style>
-solidp
-{
-	border-top-style:solid;
-	border-right-style:solid;
-	border-bottom-style:solid;
-	border-left-style:solid;
-}
-</style>
 
 <div id="main" role="main">
   {% include sidebar.html %}
@@ -67,11 +58,6 @@ solidp
 		  <p><strong>Abstract:</strong> {{ page.abs}} </p>
 		{% endif %}
 		
-		{% if page.bib %}
-		    <div class="itemlayout" contenteditable="true">
-			        <solidp>{{ page.bib | markdownify }} </solidp>
-		    </div>
-		{% endif %}		
 		<!--
 		<pre style="word-wrap: break-word; white-space: pre-wrap;">{{page.bib}}
 		</pre>
