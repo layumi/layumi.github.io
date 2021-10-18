@@ -13,6 +13,8 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 
 <strong>More details can be found in my [[CV]]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf). </strong>
 
+My current email address is zdzheng AT nus.edu.sg 
+
 <hr>
 
 News
@@ -46,7 +48,6 @@ Others
 
 
 <hr>
-
 
 <div style='width:600px;height:300px;margin:0 auto'>
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&cmo=faa659&cl=ffffff&w=a'></script>
