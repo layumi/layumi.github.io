@@ -7,11 +7,19 @@ author_profile: true
 
 You can also find my articles on <u><a href="https://scholar.google.com/citations?user=XT17oUEAAAAJ">my Google Scholar profile</a>.</u>
 
-Publications:  [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017)
+Publications:  [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017)
 
 <hr>
 
 {% include base_path %}
+
+### 2022
+
+{% for post in site.publications reversed %}
+  {%if post.pub_year == '2022' %}
+      {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
 
 ### 2021
 
