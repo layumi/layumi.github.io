@@ -19,7 +19,7 @@ If you are a NUS Undergraduate / Master student who is interested in doing resea
 
 News
 ======
-<li> We are holding the special session at ICME 2022 on Beyond Accuracy: Responsible, Responsive, and Robust Multimedia Retrieval. <a href=https://zdzheng.xyz/ICME2022SS/>[Call for papers]</a> 
+<li> We are holding the special session at ICME 2022 on Beyond Accuracy: Responsible, Responsive, and Robust Multimedia Retrieval. <a href="https://zdzheng.xyz/ICME2022SS/">[Call for papers]</a> 
 <li> My Ph.D. thesis was on the Chancellor's List. 
 <li> I was awarded 2021 IEEE Circuits and Systems Society Outstanding Young Author Award. Thanks a lot for  supports and understanding from my supervisors and friends. <a href="https://ieee-cas.org/outstanding-young-author-award">[link]</a> </li>
 <li> One paper on Uncertainty is accepted by IJCV 2021. 
