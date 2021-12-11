@@ -19,8 +19,8 @@ If you are a NUS Undergraduate / Master student who is interested in doing resea
 
 News
 ======
-<li> We are holding the special session at ICME 2022 on Beyond Accuracy: Responsible, Responsive, and Robust Multimedia Retrieval. <a href="https://zdzheng.xyz/ICME2022SS/">[Call for papers]</a> 
-<li> My Ph.D. thesis was on the Chancellor's List. 
+<li> We are holding the special session at ICME 2022 on Beyond Accuracy: Responsible, Responsive, and Robust Multimedia Retrieval. <a href="https://zdzheng.xyz/ICME2022SS/">[Call for papers]</a>  </li>
+<li> My Ph.D. thesis was on the Chancellor's List. </li>
 <li> I was awarded 2021 IEEE Circuits and Systems Society Outstanding Young Author Award. Thanks a lot for  supports and understanding from my supervisors and friends. <a href="https://ieee-cas.org/outstanding-young-author-award">[link]</a> </li>
 <li> One paper on Uncertainty is accepted by IJCV 2021. 
 	<a href="https://zdzheng.xyz/publication/2021-01-01-Rectifying-Pseudo-Label-Learning-via-Uncertainty-Estimation-for-Domain-Adaptive-Semantic-Segmentation">[PDF]</a> <a href="https://github.com/layumi/Seg_Uncertainty">[code]</a> </li>
@@ -40,9 +40,9 @@ News
 
 <hr>
 
+
 Others
 ======
-
 <li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
 <li>  I was a poster maker when I studied at Fudan University. You may check out them at <a href="https://zdzheng.xyz/poster_page/">Here</a>.</li>
 <li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
