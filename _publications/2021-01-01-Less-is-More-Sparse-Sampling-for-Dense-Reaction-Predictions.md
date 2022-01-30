@@ -1,7 +1,7 @@
 ---
 title: "Less is More: Sparse Sampling for Dense Reaction Predictions"
 collection: publications
-permalink: /publication/2021-01-01-Less-is-More-Sparse-Sampling-for-Dense-Reaction-Predictions
+permalink: /publication/Less-2021
 date: 2021-01-01
 doi: 
 venue: 'CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place)'

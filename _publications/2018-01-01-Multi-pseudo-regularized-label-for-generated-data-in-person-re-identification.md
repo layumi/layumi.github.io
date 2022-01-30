@@ -1,7 +1,7 @@
 ---
 title: "Multi-pseudo regularized label for generated data in person re-identification"
 collection: publications
-permalink: /publication/2018-01-01-Multi-pseudo-regularized-label-for-generated-data-in-person-re-identification
+permalink: /publication/Multi2018
 date: 2018-01-01
 doi: 10.1109/TIP.2018.2874715
 venue: 'IEEE Transactions on Image Processing (TIP)'

@@ -1,7 +1,7 @@
 ---
 title: "Camera style adaptation for person re-identification"
 collection: publications
-permalink: /publication/2018-01-01-Camera-style-adaptation-for-person-re-identification
+permalink: /publication/Camer2018
 date: 2018-01-01
 doi: 
 venue: 'CVPR'

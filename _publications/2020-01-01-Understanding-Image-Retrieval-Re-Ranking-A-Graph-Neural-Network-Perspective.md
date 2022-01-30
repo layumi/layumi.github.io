@@ -1,7 +1,7 @@
 ---
 title: "Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective"
 collection: publications
-permalink: /publication/2020-01-01-Understanding-Image-Retrieval-Re-Ranking-A-Graph-Neural-Network-Perspective
+permalink: /publication/Under2020
 date: 2020-01-01
 doi: 
 venue: 'arXiv preprint arXiv:2012.07620'

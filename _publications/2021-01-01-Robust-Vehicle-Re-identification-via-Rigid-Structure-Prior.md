@@ -1,7 +1,7 @@
 ---
 title: "Robust Vehicle Re-identification via Rigid Structure Prior"
 collection: publications
-permalink: /publication/2021-01-01-Robust-Vehicle-Re-identification-via-Rigid-Structure-Prior
+permalink: /publication/Robus2021
 date: 2021-01-01
 doi: 
 venue: 'CVPR Workshop of AI City Challenge on City-Scale Multi-Camera Vehicle Re-Identification (the 2nd Place of Track 2)'

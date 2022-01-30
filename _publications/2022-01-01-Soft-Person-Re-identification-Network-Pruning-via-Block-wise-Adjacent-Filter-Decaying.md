@@ -1,7 +1,7 @@
 ---
 title: "Soft Person Re-identification Network Pruning via Block-wise Adjacent Filter Decaying"
 collection: publications
-permalink: /publication/2022-01-01-Soft-Person-Re-identification-Network-Pruning-via-Block-wise-Adjacent-Filter-Decaying
+permalink: /publication/Soft-2022
 date: 2022-01-01
 doi: 
 venue: 'IEEE Transactions on Cybernetics'

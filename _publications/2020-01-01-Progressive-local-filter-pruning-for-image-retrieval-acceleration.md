@@ -1,7 +1,7 @@
 ---
 title: "Progressive local filter pruning for image retrieval acceleration"
 collection: publications
-permalink: /publication/2020-01-01-Progressive-local-filter-pruning-for-image-retrieval-acceleration
+permalink: /publication/Progr2020
 date: 2020-01-01
 doi: 
 venue: 'arXiv preprint arXiv:2001.08878'

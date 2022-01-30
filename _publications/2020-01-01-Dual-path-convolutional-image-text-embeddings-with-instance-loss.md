@@ -1,7 +1,7 @@
 ---
 title: "Dual-path convolutional image-text embeddings with instance loss"
 collection: publications
-permalink: /publication/2020-01-01-Dual-path-convolutional-image-text-embeddings-with-instance-loss
+permalink: /publication/Dual-2020
 date: 2020-01-01
 doi: 10.1145/3383184
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'

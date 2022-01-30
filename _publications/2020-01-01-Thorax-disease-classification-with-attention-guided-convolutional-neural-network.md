@@ -1,7 +1,7 @@
 ---
 title: "Thorax disease classification with attention guided convolutional neural network"
 collection: publications
-permalink: /publication/2020-01-01-Thorax-disease-classification-with-attention-guided-convolutional-neural-network
+permalink: /publication/Thora2020
 date: 2020-01-01
 doi: 10.1016/j.patrec.2019.11.040
 venue: 'Pattern Recognition Letters'

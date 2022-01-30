@@ -1,7 +1,7 @@
 ---
 title: "Bayesian query expansion for multi-camera person re-identification"
 collection: publications
-permalink: /publication/2020-01-01-Bayesian-query-expansion-for-multi-camera-person-re-identification
+permalink: /publication/Bayes2020
 date: 2020-01-01
 doi: 10.1016/j.patrec.2018.06.009
 venue: 'Pattern Recognition Letters'

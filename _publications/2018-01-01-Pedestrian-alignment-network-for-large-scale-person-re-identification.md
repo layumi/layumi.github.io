@@ -1,7 +1,7 @@
 ---
 title: "Pedestrian alignment network for large-scale person re-identification"
 collection: publications
-permalink: /publication/2018-01-01-Pedestrian-alignment-network-for-large-scale-person-re-identification
+permalink: /publication/Pedes2018
 date: 2018-01-01
 doi: 10.1109/TCSVT.2018.2873599
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)'

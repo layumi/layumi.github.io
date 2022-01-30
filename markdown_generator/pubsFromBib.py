@@ -94,8 +94,8 @@ for pubsource in publist:
             url_slug = url_slug.replace("--","-")
 
             md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
-            html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
-
+            #html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
+            html_filename = url_slug[0:5] + pub_year
             #Build Citation from text
             citation = ""
             allauthor = ""

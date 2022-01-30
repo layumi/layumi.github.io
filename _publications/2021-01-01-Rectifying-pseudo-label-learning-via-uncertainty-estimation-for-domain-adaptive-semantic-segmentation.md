@@ -1,7 +1,7 @@
 ---
 title: "Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation"
 collection: publications
-permalink: /publication/2021-01-01-Rectifying-Pseudo-Label-Learning-via-Uncertainty-Estimation-for-Domain-Adaptive-Semantic-Segmentation
+permalink: /publication/Recti2021
 date: 2021-01-01
 doi: 10.1007/s11263-020-01395-y
 venue: 'International Journal of Computer Vision (IJCV)'

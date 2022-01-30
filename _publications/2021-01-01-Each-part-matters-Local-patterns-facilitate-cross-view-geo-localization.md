@@ -1,7 +1,7 @@
 ---
 title: "Each part matters: Local patterns facilitate cross-view geo-localization"
 collection: publications
-permalink: /publication/2021-01-01-Each-part-matters-Local-patterns-facilitate-cross-view-geo-localization
+permalink: /publication/Each-2021
 date: 2021-01-01
 doi: 
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)'
