@@ -7,9 +7,9 @@ redirect_from:
 ---
 ## Resources
 
-- DukeMTMC-reID State-of-the-Art List.  <strong><a href="https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/leaderboard"> [website]</a></strong> 
+- University-1652 Dataset. <strong><a href="https://github.com/layumi/University1652-Baseline"> [website]</a></strong>  <strong><a href="https://github.com/layumi/University1652-Baseline/tree/master/State-of-the-art"> [SoTA]</a></strong> 
 - Market-1501 and DukeMTMC-reID Attribute Datasets.  <strong><a href="https://vana77.github.io"> [website]</a></strong> 
-- DukeMTMC-reID Dataset.  <strong><a href="https://github.com/layumi/Duke_evaluation"> [website]</a></strong> 
+- DukeMTMC-reID Dataset.  <strong><a href="https://github.com/layumi/Duke_evaluation"> [website]</a></strong>  <strong><a href="https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/leaderboard"> [SoTA]</a></strong> 
 - DukeMTMC-Pose Dataset.  <strong><a href="https://github.com/layumi/DukeMTMC-Pose"> [website]</a></strong> 
 - UTS Person-reID Tutorial.  <strong><a href="https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial"> [website]</a></strong> 
 
