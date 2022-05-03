@@ -9,11 +9,11 @@ redirect_from:
 
 Hi! I am currently a postdoctoral research fellow at <a href="https://www.nextcenter.org">NExT++</a>, School of Computing, National University of Singapore with <a href="https://www.comp.nus.edu.sg/cs/bio/chuats/">Prof. Tat-Seng Chua</a>.
 
-2017 - 2021, I received Ph.D. from the <a href="https://reler.net/">ReLER Lab</a>, <a href="https://www.uts.edu.au/">University of Technology Sydney (UTS) </a>, under the supervision of <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ">Prof. Yi Yang</a> and <a href="https://zheng-lab.cecs.anu.edu.au/">Dr. Liang Zheng</a>. 
+**2017 - 2021** I received Ph.D. from the <a href="https://reler.net/">ReLER Lab</a>, <a href="https://www.uts.edu.au/">University of Technology Sydney (UTS) </a>, under the supervision of <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ">Prof. Yi Yang</a> and <a href="https://zheng-lab.cecs.anu.edu.au/">Dr. Liang Zheng</a>. 
 
-2012 - 2016 I received my Bachelor's degree from <a href="https://www.fudan.edu.cn">Fudan University</a> in 2016, under the supervision of <a href="https://scholar.google.com.au/citations?user=DTbhX6oAAAAJ&hl=en">Prof. Xiangyang Xue</a>. 
+**2012 - 2016** I received my Bachelor's degree from <a href="https://www.fudan.edu.cn">Fudan University</a> in 2016, under the supervision of <a href="https://scholar.google.com.au/citations?user=DTbhX6oAAAAJ&hl=en">Prof. Xiangyang Xue</a>. 
 
-2018, 2020 I was fortunate to spend my summer working with <a href='https://xiaodongyang.org/'>Xiaodong Yang</a> (Nvida), <a href='https://chrisding.github.io/'>Zhiding Yu</a> (Nvidia), <a href='https://jankautz.com/'>Jan Kautz</a> (Nvidia), <a href='https://github.com/miraclebiu'>Minyue Jiang</a> (Baidu) and <a href='https://scholar.google.com/citations?user=R1rVRUkAAAAJ'>Xiao Tan</a> (Baidu). 
+**2018, 2020** I was fortunate to spend my summer working with <a href='https://xiaodongyang.org/'>Xiaodong Yang</a> (Nvida), <a href='https://chrisding.github.io/'>Zhiding Yu</a> (Nvidia), <a href='https://jankautz.com/'>Jan Kautz</a> (Nvidia), <a href='https://github.com/miraclebiu'>Minyue Jiang</a> (Baidu) and <a href='https://scholar.google.com/citations?user=R1rVRUkAAAAJ'>Xiao Tan</a> (Baidu). 
 
 Open-source projects can be found at my <a href='https://github.com/layumi'>[Github]</a>, and publications can be found at  [SCI](https://publons.com/researcher/2980452/zhedong-zheng/), [SCOPUS](https://www.scopus.com/authid/detail.uri?authorId=57200174037), or [Google Scholar](https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ).
 
