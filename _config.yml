@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Zhedong Zheng"
 title_separator          : "-"
 name                     : &name "Zhedong Zheng"
-description              : &description "Ph.D. Student at UTS"
+description              : &description "Postdoc Researcher at NUS"
 url                      : "https://zdzheng.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "layumi/layumi.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Zhedong Zheng"
   avatar           : "profile.jpg"
-  bio              : "Ph.D. Student at University of Technology Sydney. Advised by Prof. Yi Yang and Dr. Liang Zheng"
+  bio              : "Postdoc Researcher at National University of Singapore"
   location         : "NSW, Australia"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=XT17oUEAAAAJ"
