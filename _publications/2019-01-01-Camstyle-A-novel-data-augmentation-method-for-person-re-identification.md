@@ -1,7 +1,7 @@
 ---
 title: "Camstyle: A novel data augmentation method for person re-identification"
 collection: publications
-permalink: /publication/Camst2019
+permalink: /publication/Camstyle2019
 date: 2019-01-01
 doi: 10.1109/TIP.2018.2874313
 venue: 'IEEE Transactions on Image Processing (TIP)'

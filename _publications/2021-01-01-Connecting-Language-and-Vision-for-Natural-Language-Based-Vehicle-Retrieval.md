@@ -1,7 +1,7 @@
 ---
 title: "Connecting Language and Vision for Natural Language-Based Vehicle Retrieval"
 collection: publications
-permalink: /publication/Conne2021
+permalink: /publication/Connecti2021
 date: 2021-01-01
 doi: 
 venue: 'CVPR Workshop of AI City Challenge on Natural Language-Based Vehicle Retrieval (the 1st Place of Track 5)'

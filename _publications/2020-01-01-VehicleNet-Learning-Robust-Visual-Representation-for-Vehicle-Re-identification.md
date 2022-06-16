@@ -1,7 +1,7 @@
 ---
 title: "VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification"
 collection: publications
-permalink: /publication/Vehic2020
+permalink: /publication/VehicleN2020
 date: 2020-01-01
 doi: 10.1109/TMM.2020.3014488
 venue: 'IEEE Transaction on Multimedia (TMM)'

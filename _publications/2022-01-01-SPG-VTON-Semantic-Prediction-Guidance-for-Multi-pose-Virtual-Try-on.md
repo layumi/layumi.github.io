@@ -1,7 +1,7 @@
 ---
 title: "SPG-VTON: Semantic Prediction Guidance for Multi-pose Virtual Try-on"
 collection: publications
-permalink: /publication/SPG-V2022
+permalink: /publication/SPG-VTON2022
 date: 2022-01-01
 doi: 
 venue: 'IEEE Transactions on Multimedia'

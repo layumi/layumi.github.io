@@ -1,7 +1,7 @@
 ---
 title: "Macro-micro adversarial network for human parsing"
 collection: publications
-permalink: /publication/Macro2018
+permalink: /publication/Macro-mi2018
 date: 2018-01-01
 doi: 
 venue: 'ECCV'

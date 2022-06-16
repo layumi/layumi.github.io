@@ -1,7 +1,7 @@
 ---
 title: "3D Magic Mirror: Clothing Reconstruction from a Single Image via a Causal Perspective"
 collection: publications
-permalink: /publication/3D-Ma2022
+permalink: /publication/3D-Magic2022
 date: 2022-01-01
 doi: 
 venue: 'arXiv:2204.13096'

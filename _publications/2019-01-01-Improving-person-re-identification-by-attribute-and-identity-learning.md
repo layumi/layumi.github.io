@@ -1,7 +1,7 @@
 ---
 title: "Improving person re-identification by attribute and identity learning"
 collection: publications
-permalink: /publication/Impro2019
+permalink: /publication/Improvin2019
 date: 2019-01-01
 doi: 10.1016/j.patcog.2019.06.006
 venue: 'Pattern Recognition'

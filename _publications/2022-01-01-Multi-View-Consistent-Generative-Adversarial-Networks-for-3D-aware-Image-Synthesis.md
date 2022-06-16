@@ -1,7 +1,7 @@
 ---
 title: "Multi-View Consistent Generative Adversarial Networks for 3D-aware Image Synthesis"
 collection: publications
-permalink: /publication/Multi2022
+permalink: /publication/Multi-Vi2022
 date: 2022-01-01
 doi: 
 venue: 'CVPR'

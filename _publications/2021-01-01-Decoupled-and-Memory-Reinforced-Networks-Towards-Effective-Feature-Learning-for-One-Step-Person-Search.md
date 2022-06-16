@@ -1,7 +1,7 @@
 ---
 title: "Decoupled and Memory-Reinforced Networks: Towards Effective Feature Learning for One-Step Person Search"
 collection: publications
-permalink: /publication/Decou2021
+permalink: /publication/Decouple2021
 date: 2021-01-01
 doi: 
 venue: 'AAAI'

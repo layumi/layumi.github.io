@@ -1,7 +1,7 @@
 ---
 title: "Real-World Automatic Makeup via Identity Preservation Makeup Net"
 collection: publications
-permalink: /publication/Real-2020
+permalink: /publication/Real-Wor2020
 date: 2020-01-01
 doi: 
 venue: 'IJCAI'

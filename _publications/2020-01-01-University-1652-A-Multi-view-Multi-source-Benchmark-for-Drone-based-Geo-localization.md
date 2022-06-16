@@ -1,7 +1,7 @@
 ---
 title: "University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization"
 collection: publications
-permalink: /publication/Unive2020
+permalink: /publication/Universi2020
 date: 2020-01-01
 doi: 10.1145/3394171.3413896
 venue: 'ACM MM'

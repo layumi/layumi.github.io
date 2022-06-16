@@ -1,7 +1,7 @@
 ---
 title: "Parameter-Efficient Person Re-identification in the 3D Space"
 collection: publications
-permalink: /publication/Param2020
+permalink: /publication/Paramete2020
 date: 2020-01-01
 doi: 
 venue: 'arXiv preprint arXiv:2006.04569'

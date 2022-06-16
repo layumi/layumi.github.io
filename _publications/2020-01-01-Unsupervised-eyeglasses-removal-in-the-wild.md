@@ -1,7 +1,7 @@
 ---
 title: "Unsupervised Eyeglasses Removal in the Wild"
 collection: publications
-permalink: /publication/Unsup2020
+permalink: /publication/Unsuperv2020
 date: 2020-01-01
 doi: 10.1109/tcyb.2020.2995496
 venue: 'IEEE Transactions on Cybernetics'

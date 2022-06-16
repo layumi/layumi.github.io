@@ -1,7 +1,7 @@
 ---
 title: "Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation"
 collection: publications
-permalink: /publication/Adapt2021
+permalink: /publication/Adaptive2021
 date: 2021-01-01
 doi: 
 venue: 'arXiv preprint arXiv:2103.15685'

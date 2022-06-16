@@ -1,7 +1,7 @@
 ---
 title: "Joint discriminative and generative learning for person re-identification"
 collection: publications
-permalink: /publication/Joint2019
+permalink: /publication/Joint-di2019
 date: 2019-01-01
 doi: 
 venue: 'CVPR'

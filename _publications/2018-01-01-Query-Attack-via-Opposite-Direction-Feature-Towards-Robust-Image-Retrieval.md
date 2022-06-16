@@ -1,7 +1,7 @@
 ---
 title: "Query Attack via Opposite-Direction Feature: Towards Robust Image Retrieval"
 collection: publications
-permalink: /publication/Query2018
+permalink: /publication/Query-At2018
 date: 2018-01-01
 doi: 
 venue: 'arXiv preprint arXiv:1809.02681'

@@ -1,7 +1,7 @@
 ---
 title: "Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization"
 collection: publications
-permalink: /publication/Joint2022
+permalink: /publication/Joint-Re2022
 date: 2022-01-01
 doi: 
 venue: 'IEEE Transactions on Image Processing'

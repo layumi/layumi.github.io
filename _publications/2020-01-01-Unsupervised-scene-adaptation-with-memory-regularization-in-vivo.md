@@ -1,7 +1,7 @@
 ---
 title: "Unsupervised scene adaptation with memory regularization in vivo"
 collection: publications
-permalink: /publication/Unsup2020
+permalink: /publication/Unsuperv2020
 date: 2020-01-01
 doi: 
 venue: 'IJCAI'
