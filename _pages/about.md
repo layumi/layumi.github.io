@@ -26,7 +26,7 @@ If you are a NUS Undergraduate / Master student who is interested in doing resea
 Research Statement
 ======
 
-My work focuses on image retrieval and image generation. 
+My work focuses on object retrieval and 2D/3D generation, both of which demand a deep understanding of objects. 
 
 Big data is the primary part of training data-driven models. There remain three scientific questions. 
 
