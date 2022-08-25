@@ -43,6 +43,8 @@ Big data is the primary part of training data-driven models. There remain three 
 
 News
 ======
+<li> One paper is accepted by TIP 2022.<li> 
+<li> One paper to appear at CVPR 2022.<li> 
 <li> We are holding the special session at ICME 2022 on Beyond Accuracy: Responsible, Responsive, and Robust Multimedia Retrieval. <a href="https://zdzheng.xyz/ICME2022SS/">[Call for papers]</a>  </li>
 <li> My Ph.D. thesis was on the Chancellor's List. </li>
 <li> I was awarded 2021 IEEE Circuits and Systems Society Outstanding Young Author Award. Thanks a lot for  supports and understanding from my supervisors and friends. <a href="https://ieee-cas.org/outstanding-young-author-award">[link]</a> </li>
