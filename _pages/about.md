@@ -15,7 +15,7 @@ Hi! I am currently a postdoctoral research fellow at <a href="https://www.nextce
 
 **2018, 2020** I was fortunate to spend my summer working with <a href='https://xiaodongyang.org/'>Xiaodong Yang</a> (Nvida), <a href='https://chrisding.github.io/'>Zhiding Yu</a> (Nvidia), <a href='https://jankautz.com/'>Jan Kautz</a> (Nvidia), <a href='https://github.com/miraclebiu'>Minyue Jiang</a> (Baidu) and <a href='https://scholar.google.com/citations?user=R1rVRUkAAAAJ'>Xiao Tan</a> (Baidu). 
 
-Open-source projects can be found at my <a href='https://github.com/layumi'>[Github]</a>, and publications can be found at  [SCI](https://publons.com/researcher/2980452/zhedong-zheng/), [SCOPUS](https://www.scopus.com/authid/detail.uri?authorId=57200174037), or [Google Scholar](https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ).
+Open-source projects can be found at my <a href='https://github.com/layumi'>[Github]</a>, and publications can be found at  [SCI](https://www.webofscience.com/wos/author/record/434956), [SCOPUS](https://www.scopus.com/authid/detail.uri?authorId=57200174037), or [Google Scholar](https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ).
 
 <strong>More details can be found in my [[CV]]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf). </strong>
 
