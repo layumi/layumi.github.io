@@ -36,8 +36,6 @@ Big data is the primary part of training data-driven models. There remain three 
 
 - Efficiency:  How to train on million-scale data? What data matters most? Efficient training and inference is needed.  
 
-<hr>
-
 
 <hr>
 
@@ -65,7 +63,6 @@ News
 -->
 
 <hr>
-
 
 Others
 ======
