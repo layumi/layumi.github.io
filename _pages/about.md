@@ -36,7 +36,7 @@ Big data is the primary part of training data-driven models. There remain three 
 
 - Efficiency:  How to train on million-scale data? What data matters most? Efficient training and inference is needed.  
 
-?AI is not when a computer can write poetry. AI is when a computer want to write poetry.?
+``AI is not when a computer can write poetry. AI is when a computer want to write poetry. '' 
 
 <hr>
 
