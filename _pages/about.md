@@ -26,8 +26,11 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 Research Statement
 ======
 
-My work focuses on object retrieval and 2D/3D generation, both of which demand a deep understanding of objects. 
+My work focuses on object retrieval and 2D/3D generation especially in a **multi-camera** environment.
+ 
+The child understands a 3D object not from a still image, but multiple images / videos capturing the target of interest from different viewpoints. 
 
+<!---
 Big data is the primary part of training data-driven models. There remain three scientific questions. 
 
 - Data Generation:  How to obtain more data? Due to the annotation costs and privacy concerns,  we usually could not access the large-scale data easily.  
@@ -36,8 +39,8 @@ Big data is the primary part of training data-driven models. There remain three 
 
 - Efficiency:  How to train on million-scale data? What data matters most? Efficient training and inference is needed.  
 
-``AI is not when a computer can write poetry. AI is when a computer want to write poetry. '' 
-
+AI is not when a computer can write poetry. AI is when a computer want to write poetry. 
+-->
 <hr>
 
 News
