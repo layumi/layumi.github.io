@@ -9,7 +9,7 @@ redirect_from:
 
 Hi! I am currently a postdoctoral research fellow at <a href="https://www.nextcenter.org">NExT++</a>, School of Computing, National University of Singapore with <a href="https://www.comp.nus.edu.sg/cs/bio/chuats/">Prof. Tat-Seng Chua</a>.
 
-**2017 - 2021** I received Ph.D. from the <a href="https://reler.net/">ReLER Lab</a>, <a href="https://www.uts.edu.au/">University of Technology Sydney (UTS) </a>, under the supervision of <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ">Prof. Yi Yang</a> and <a href="https://zheng-lab.cecs.anu.edu.au/">Dr. Liang Zheng</a>. 
+**2017 - 2021** I received Ph.D. from the <a href="https://reler.net/">ReLER Lab</a>, <a href="https://www.uts.edu.au/">University of Technology Sydney (UTS) </a>, under the supervision of <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ">Prof. Yi Yang</a> and <a href="https://zheng-lab.cecs.anu.edu.au/">Dr. Liang Zheng</a> (co-supervisor). 
 
 **2012 - 2016** I received my Bachelor's degree from <a href="https://www.fudan.edu.cn">Fudan University</a> in 2016, under the supervision of <a href="https://scholar.google.com.au/citations?user=DTbhX6oAAAAJ&hl=en">Prof. Xiangyang Xue</a>. 
 
