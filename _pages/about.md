@@ -26,9 +26,9 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 Research Statement
 ======
 
-My work focuses on multi-view object matching and novel view synthesis and analysis, under a multi-camera scenario, e.g., swarm robotics, self-driving car, and smart city. 
- 
-The child understands a 3D object not from a still image, but multiple images / videos capturing the target of interest from different viewpoints. 
+My work focuses on multi-view object matching and novel view synthesis and analysis, under a multi-camera scenario, e.g., swarm robotics, self-driving car, and smart city.
+
+The child understands a 3D object, not from a still image, but from multiple images / videos capturing the target of interest from different viewpoints.
 
 <!---
 Big data is the primary part of training data-driven models. There remain three scientific questions. 
