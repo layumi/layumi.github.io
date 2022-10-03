@@ -26,7 +26,7 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 Research Statement
 ======
 
-My work focuses on object retrieval and 2D/3D generation especially in a **multi-camera** environment.
+My work focuses on multi-view object matching and novel view synthesis and analysis, under a multi-camera scenario, e.g., swarm robotics, self-driving car, and smart city. 
  
 The child understands a 3D object not from a still image, but multiple images / videos capturing the target of interest from different viewpoints. 
 
