@@ -45,6 +45,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 News
 ======
+<li> One paper on 3D Human Re-id is accepted by TNNLS 2022.</li> 
 <li> Two papers are accepted by TIP 2022.</li> 
 <li> One paper to appear at CVPR 2022.</li> 
 <li> We are holding the special session at ICME 2022 on Beyond Accuracy: Responsible, Responsive, and Robust Multimedia Retrieval. <a href="https://zdzheng.xyz/ICME2022SS/">[Call for papers]</a>  </li>
