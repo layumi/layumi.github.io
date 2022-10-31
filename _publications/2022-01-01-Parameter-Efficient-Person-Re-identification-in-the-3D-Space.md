@@ -6,6 +6,7 @@ date: 2022-01-01
 doi: 10.1109/TNNLS.2022.3214834
 venue: 'IEEE Transactions on Neural Networks and Learning Systems'
 paperurl: 'https://zdzheng.xyz/files/TNNLS_3D_PersonReID.pdf'
+blog: 'https://zhuanlan.zhihu.com/p/149121098'
 code: 'https://github.com/layumi/person-reid-3d'
 author: '<strong>Zhedong Zheng</strong>,  Xiaohan Wang,  Nenggan Zheng,  Yi Yang'
 citation: ' Zhedong Zheng,  Xiaohan Wang,  Nenggan Zheng,  Yi Yang, &quot;Parameter-Efficient Person Re-identification in the 3D Space.&quot; IEEE Transactions on Neural Networks and Learning Systems, 2022. DOI: 10.1109/TNNLS.2022.3214834'
@@ -17,6 +18,7 @@ bib: >
     title = "Parameter-Efficient Person Re-identification in the 3D Space",  
     journal = "IEEE Transactions on Neural Networks and Learning Systems",  
     url = "https://zdzheng.xyz/files/TNNLS\_3D\_PersonReID.pdf",  
+    blog = "https://zhuanlan.zhihu.com/p/149121098",  
     code = "https://github.com/layumi/person-reid-3d",  
     year = "2022"
     }

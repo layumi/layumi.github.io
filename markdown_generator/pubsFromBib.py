@@ -144,12 +144,18 @@ for pubsource in publist:
                 if len(str(b["url"])) > 5:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
+            
+            blog = False        
+            if "blog" in b.keys():
+                if len(str(b["blog"])) > 5:
+                    md += "\nblog: '" + b["blog"] + "'"
+                    blog = True
 
             code = False
             if "code" in b.keys():
                 if len(str(b["code"])) > 5:
                     md += "\ncode: '" + b["code"] + "'"
-                    url = True
+                    code = True
 
             md += "\nauthor: '" + html_escape(allauthor) + "'"
             if "doi" in b.keys():
