@@ -2,7 +2,6 @@
 title: "Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation"
 collection: publications
 permalink: /publication/Adaptive2022
-excerpt: '\mbox{doi}:\url{10.1109/TIP.2022.3195642}'
 date: 2022-01-01
 doi: 10.1109/TIP.2022.3195642
 venue: 'IEEE Transactions on Image Processing'
@@ -15,7 +14,6 @@ bib: >
     @article{zheng2022adaptive,  
     author = "Zheng, Zhedong and Yang, Yi",  
     doi = "10.1109/TIP.2022.3195642",  
-    note = "\mbox{doi}:\url{10.1109/TIP.2022.3195642}",  
     title = "Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation",  
     journal = "IEEE Transactions on Image Processing",  
     url = "https://zdzheng.xyz/files/TIP\_Adaboost.pdf",  
@@ -24,4 +22,3 @@ bib: >
     }
 
 ---
-\mbox{doi}:\url{10.1109/TIP.2022.3195642}
