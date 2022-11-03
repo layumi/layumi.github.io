@@ -45,9 +45,10 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 News
 ======
-<li> One paper on 3D Human Re-id is accepted by TNNLS 2022.</li> 
-<li> Two papers are accepted by TIP 2022.</li> 
-<li> One paper to appear at CVPR 2022.</li> 
+<li> One paper on 3D Human Re-id is accepted by TNNLS 2022. <a href="https://zdzheng.xyz/publication/Paramete2022">[link]</a></li> 
+<li> One AdaBosst Domain Adaptation paper is accepted by TIP 2022. <a href="https://zdzheng.xyz/publication/Adaptive2022">[link]</a></li> 
+<li> One Drone-based Geolocalization paper is accepted by TIP 2022. <a href="https://zdzheng.xyz/publication/Joint-Re2022">[link]</a></li> 
+<li> One Nerf paper to appear at CVPR 2022. <a href="https://zdzheng.xyz/publication/Multi-Vi2022">[link]</a></li> 
 <li> We are holding the special session at ICME 2022 on Beyond Accuracy: Responsible, Responsive, and Robust Multimedia Retrieval. <a href="https://zdzheng.xyz/ICME2022SS/">[Call for papers]</a>  </li>
 <li> My Ph.D. thesis was on the Chancellor's List. </li>
 <li> I was awarded 2021 IEEE Circuits and Systems Society Outstanding Young Author Award. Thanks a lot for  supports and understanding from my supervisors and friends. <a href="https://ieee-cas.org/outstanding-young-author-award">[link]</a> </li>
