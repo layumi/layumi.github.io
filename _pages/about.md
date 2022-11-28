@@ -19,7 +19,7 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 
 <strong>More details can be found in my [[CV]]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf). </strong>
 
-<li> <mark>If you are a NUS Undergraduate / Master student who is interested in doing research/project with me, please contact me via email with your CV. My current email address is zdzheng AT nus.edu.sg . We will have at least two mentors to guide you and gpu resource supports.</mark></li> 
+<li> <mark>If you are a NUS Undergraduate / Master student who is interested in doing research/project with me, please contact me via email with your CV. My current email address is zdzheng AT nus.edu.sg . We will have at least two mentors to guide you and provide gpu resource supports.</mark></li> 
 
 <hr>
 
@@ -46,7 +46,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 News
 ======
 <li> One paper on 3D Human Re-id is accepted by TNNLS 2022. <a href="https://zdzheng.xyz/publication/Paramete2022">[link]</a></li> 
-<li> One AdaBosst Domain Adaptation paper is accepted by TIP 2022. <a href="https://zdzheng.xyz/publication/Adaptive2022">[link]</a></li> 
+<li> One AdaBoost Domain Adaptation paper is accepted by TIP 2022. <a href="https://zdzheng.xyz/publication/Adaptive2022">[link]</a></li> 
 <li> One Drone-based Geolocalization paper is accepted by TIP 2022. <a href="https://zdzheng.xyz/publication/Joint-Re2022">[link]</a></li> 
 <li> One Nerf paper to appear at CVPR 2022. <a href="https://zdzheng.xyz/publication/Multi-Vi2022">[link]</a></li> 
 <li> We are holding the special session at ICME 2022 on Beyond Accuracy: Responsible, Responsive, and Robust Multimedia Retrieval. <a href="https://zdzheng.xyz/ICME2022SS/">[Call for papers]</a>  </li>
