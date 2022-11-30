@@ -5,9 +5,11 @@ sitemap: false
 permalink: /redbutton.html
 ---
 
-Oh! You still press the red button. A warning is sending to Dr. Zheng. 
+![](https://zdzheng.xyz/images/boom.png)
 
-The server of Zhedong will be shut down in several minutes! 
+Oh! You press the red button. A warning is sent to Dr. Zheng. 
+
+The server of Zhedong will be shut down in several minutes!  He will have one minute to take a rest!
 
 Perhaps you were looking for one of these? 
 
