@@ -76,6 +76,9 @@ Others
 <li>  I was a poster maker when I studied at Fudan University. You may check out them at <a href="https://zdzheng.xyz/poster_page/">Here</a>.</li>
 <li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
 
+Do not press the red button!
+![](https://zdzheng.xyz/files/red.jpeg)
+![](https://zdzheng.xyz/files/green.jpeg)
 
 <hr>
 
@@ -84,9 +87,7 @@ Others
 </div>
 
 
-Do not press the red button!
-![](https://zdzheng.xyz/files/red.jpeg)
-![](https://zdzheng.xyz/files/green.jpeg)
+
 
   
 
