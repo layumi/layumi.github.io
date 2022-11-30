@@ -9,7 +9,7 @@ permalink: /redbutton.html
 
 Oh! You press the red button. A warning is sent to Dr. Zheng. 
 
-The server of Zhedong will be shut down in several minutes!  He will have one minute to take a rest!
+The server of Zhedong will be shut down in several minutes!  He will have 5 minutes to take a rest!
 
 Perhaps you were looking for one of these? 
 
