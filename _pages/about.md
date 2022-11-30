@@ -83,6 +83,11 @@ Others
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&cmo=faa659&cl=ffffff&w=a'></script>
 </div>
 
+
+Do not press the red button!
+![](https://zdzheng.xyz/files/red.jpeg)
+![](https://zdzheng.xyz/files/green.jpeg)
+
   
 
 
