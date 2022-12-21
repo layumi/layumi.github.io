@@ -6,6 +6,7 @@ date: 2022-01-01
 doi: 
 venue: 'International Journal of Computer Vision (IJCV)'
 paperurl: 'https://zdzheng.xyz/files/IJCV_Retrieval_Robustness_CameraReady.pdf'
+blog: 'https://zhuanlan.zhihu.com/p/593319732'
 code: 'https://github.com/layumi/U_turn'
 author: '<strong>Zhedong Zheng</strong>,  Liang Zheng,  Yi Yang,  Fei Wu'
 citation: ' Zhedong Zheng,  Liang Zheng,  Yi Yang,  Fei Wu, &quot;U-turn: Crafting Adversarial Queries with Opposite-direction Features.&quot; International Journal of Computer Vision (IJCV), 2022.'
@@ -17,6 +18,7 @@ bib: >
     journal = "International Journal of Computer Vision (IJCV)",  
     url = "https://zdzheng.xyz/files/IJCV\_Retrieval\_Robustness\_CameraReady.pdf",  
     code = "https://github.com/layumi/U\_turn",  
+    blog = "https://zhuanlan.zhihu.com/p/593319732",  
     year = "2022"
     }
 
