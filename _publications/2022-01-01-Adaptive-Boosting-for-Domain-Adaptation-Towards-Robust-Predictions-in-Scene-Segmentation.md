@@ -6,6 +6,7 @@ date: 2022-01-01
 doi: 10.1109/TIP.2022.3195642
 venue: 'IEEE Transactions on Image Processing'
 paperurl: 'https://zdzheng.xyz/files/TIP_Adaboost.pdf'
+blog: 'https://zhuanlan.zhihu.com/p/593571554'
 code: 'https://github.com/layumi/AdaBoost_Seg'
 author: '<strong>Zhedong Zheng</strong>,  Yi Yang'
 citation: ' Zhedong Zheng,  Yi Yang, &quot;Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation.&quot; IEEE Transactions on Image Processing, 2022. DOI: 10.1109/TIP.2022.3195642'
@@ -18,6 +19,7 @@ bib: >
     journal = "IEEE Transactions on Image Processing",  
     url = "https://zdzheng.xyz/files/TIP\_Adaboost.pdf",  
     code = "https://github.com/layumi/AdaBoost\_Seg",  
+    blog = "https://zhuanlan.zhihu.com/p/593571554",  
     year = "2022"
     }
 
