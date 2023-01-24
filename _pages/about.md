@@ -79,8 +79,8 @@ Others
 
 Do not press the red button!
 
-<a href="https://zdzheng.xyz/redbutton.html"> <img scr="https://zdzheng.xyz/images/red.jpeg" width="100"/> </a>
-<a href="https://zdzheng.xyz/greenbutton.html"> <img scr="https://zdzheng.xyz/images/green.jpeg" width="100"/> </a>
+<a href="https://zdzheng.xyz/redbutton.html"> <img scr="https://zdzheng.xyz/images/red.jpeg" width="50" height="50"/> </a>
+<a href="https://zdzheng.xyz/greenbutton.html"> <img scr="https://zdzheng.xyz/images/green.jpeg" width="50" height="50"/> </a>
 
 <hr>
 
