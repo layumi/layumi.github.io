@@ -78,8 +78,8 @@ Others
 <li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
 
 Do not press the red button!
-[![](https://zdzheng.xyz/images/red.jpeg)](https://zdzheng.xyz/redbutton.html)
-[![](https://zdzheng.xyz/images/green.jpeg)](https://zdzheng.xyz/greenbutton.html)
+[![](https://zdzheng.xyz/images/red.jpeg =100x)](https://zdzheng.xyz/redbutton.html)
+[![](https://zdzheng.xyz/images/green.jpeg =100x)](https://zdzheng.xyz/greenbutton.html)
 
 <hr>
 
