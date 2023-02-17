@@ -19,8 +19,10 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 
 <strong>More details can be found in my [[CV]]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf). </strong>
 
+<ul>
 <li> <mark>If you are a NUS Undergraduate / Master student who is interested in doing research/project with me, please contact me via email with your CV. My current email address is zdzheng AT nus.edu.sg . We will have at least two mentors to guide you and provide gpu resource supports.</mark></li> 
-
+</ul>
+	
 <hr>
 
 Research Statement
@@ -45,6 +47,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 News
 ======
+<ul>
 <li> One paper on Adversarial Retrieval Attacking is accepted by IJCV 2022. <a href="https://zdzheng.xyz/publication/U-turn-C2022">[link]</a></li> 
 <li> One paper on 3D Human Re-id is accepted by TNNLS 2022. <a href="https://zdzheng.xyz/publication/Paramete2022">[link]</a></li> 
 <li> One AdaBoost Domain Adaptation paper is accepted by TIP 2022. <a href="https://zdzheng.xyz/publication/Adaptive2022">[link]</a></li> 
@@ -63,6 +66,7 @@ News
 <li> Two papers to appear at IJCAI 2020. <a href="https://zdzheng.xyz/publication/Unsup2020">[PDF1]</a><a href="https://github.com/layumi/Seg_Uncertainty">[code1]</a><a href="https://zdzheng.xyz/publication/Real-2020">[PDF2]</a>
 	<a href="https://github.com/huangzhikun1995/IPM-Net">[code2]</a></li>
 <li> One paper to appear at CVPR 2019 as oral presentation. <a href="https://zdzheng.xyz/publication/Joint2019">[PDF]</a><a href="https://www.youtube.com/watch?v=ubCrEAIpQs4">[3-min video]</a> <a href="https://github.com/NVlabs/DG-Net">[code]</a></li>
+</ul>
 <!---	
 <li> One paper to appear at ECCV 2018. <a href="https://arxiv.org/abd/1807.08260">[arXiv]</a> <a href="https://github.com/RoyalVane/MMAN">[code]</a> </li>
 <li> One paper to appear at CVPR 2018. <a href="https://arxiv.org/abs/1711.10295">[arXiv]</a> <a href="https://github.com/zhunzhong07/CamStyle">[code]</a> </li>
@@ -73,10 +77,11 @@ News
 
 Others
 ======
+<ul>
 <li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
 <li>  I was a poster maker when I studied at Fudan University. You may check out them at <a href="https://zdzheng.xyz/poster_page/">Here</a>.</li>
 <li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
-
+</ul>
 Do not press the red button!
 
 <a href="https://zdzheng.xyz/redbutton.html"> <img src="https://zdzheng.xyz/images/red.jpeg" alt="red" width="50" height="50"></a>
