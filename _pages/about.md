@@ -90,6 +90,8 @@ Do not press the red button!
 <hr>
 
 <div style='width:600px;height:300px;margin:0 auto'>
+<link rel="preconnect" href="//cdn.clustrmaps.com">
+<link rel="dns-prefetch" href="//cdn.clustrmaps.com">
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&cmo=faa659&cl=ffffff&w=a' async></script>
 </div>
 
