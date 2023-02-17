@@ -63,6 +63,14 @@ layout: default
 		  <p><strong>Abstract:</strong> {{ page.abs}} </p>
 		{% endif %}
 		
+		<script type="application/ld+json">
+		{ "@context": "https://schema.org", 
+		 "@type": "Article",
+		 "author": "{{ page.author}}", 
+		 "headline": "{{ page.title}}", 
+		 "pub_year": "{{ page.pub_year}",
+	    }
+		</script>
 		<!--
 		<pre style="word-wrap: break-word; white-space: pre-wrap;">{{page.bib}}
 		</pre>
