@@ -69,8 +69,12 @@ layout: default
 		 "@type": "Article",
 		 "author": "{{ page.author}}", 
 		 "headline": "{{ page.title}}", 
-		 "pub_year": "{{ page.pub_year}",
-		 "pdf": "{{ page.paperurl }}"
+		 {% if page.pub_year %} 
+		     "pub_year": "{{ page.pub_year}",
+		 {% endif %}
+		 {% if page.paperurl %} 
+		     "pdf": "{{ page.paperurl }}"
+		 {% endif %}
 	    }
 		</script>
 		<!--
