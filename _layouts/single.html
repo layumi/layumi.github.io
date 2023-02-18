@@ -68,12 +68,6 @@ layout: default
 		{ "@context": "https://schema.org", 
 		 "@type": "Article",
 		 "author": "{{ page.author}}", 
-		 {% if page.pub_year %} 
-		     "pub_year": "{{ page.pub_year}",
-		 {% endif %}
-		 {% if page.paperurl %} 
-		     "pdf": "{{ page.paperurl }}",
-		 {% endif %}
 		 "headline": "{{ page.title}}"
 	    }
 		</script>
