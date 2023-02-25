@@ -1,0 +1,5 @@
+---
+title: "Tao-Guan.md"
+collection: authors
+permalink: /authors/Tao-Guan
+citation: ' Yawei Luo,  Zhedong Zheng,  Liang Zheng,  Tao Guan,  Junqing Yu,  Yi Yang, &quot;Macro-micro adversarial network for human parsing.&quot; ECCV, 2018.'
