@@ -7,7 +7,7 @@ doi:
 venue: 'ECCV'
 paperurl: 'https://zdzheng.xyz/files/ECCV18.pdf'
 code: 'https://github.com/RoyalVane/MMAN'
-author: '<a href="https://zdzheng.xyz/authors/Yawei-Luo">Yawei Luo</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Liang-Zheng">Liang Zheng</a>, <a href="https://zdzheng.xyz/authors/Tao-Guan">Tao Guan</a>, <a href="https://zdzheng.xyz/authors/Junqing-Yu">Junqing Yu</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang">Yi Yang</a>'
+author: '<a href="https://zdzheng.xyz/authors/Yawei-Luo" class="author">Yawei Luo</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Liang-Zheng" class="author">Liang Zheng</a>, <a href="https://zdzheng.xyz/authors/Tao-Guan" class="author">Tao Guan</a>, <a href="https://zdzheng.xyz/authors/Junqing-Yu" class="author">Junqing Yu</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>'
 citation: ' Yawei Luo,  Zhedong Zheng,  Liang Zheng,  Tao Guan,  Junqing Yu,  Yi Yang, &quot;Macro-micro adversarial network for human parsing.&quot; ECCV, 2018.'
 pub_year: '2018'
 bib: >

@@ -6,7 +6,7 @@ date: 2020-01-01
 doi: 10.1016/j.patrec.2019.11.040
 venue: 'Pattern Recognition Letters'
 paperurl: 'https://zdzheng.xyz/files/Guan_PRL20.pdf'
-author: '<a href="https://zdzheng.xyz/authors/Qingji-Guan">Qingji Guan</a>, <a href="https://zdzheng.xyz/authors/Yaping-Huang">Yaping Huang</a>, <a href="https://zdzheng.xyz/authors/Zhun-Zhong">Zhun Zhong</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Liang-Zheng">Liang Zheng</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang">Yi Yang</a>'
+author: '<a href="https://zdzheng.xyz/authors/Qingji-Guan" class="author">Qingji Guan</a>, <a href="https://zdzheng.xyz/authors/Yaping-Huang" class="author">Yaping Huang</a>, <a href="https://zdzheng.xyz/authors/Zhun-Zhong" class="author">Zhun Zhong</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Liang-Zheng" class="author">Liang Zheng</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>'
 citation: ' Qingji Guan,  Yaping Huang,  Zhun Zhong,  Zhedong Zheng,  Liang Zheng,  Yi Yang, &quot;Thorax disease classification with attention guided convolutional neural network.&quot; Pattern Recognition Letters, 2020. DOI: 10.1016/j.patrec.2019.11.040'
 pub_year: '2020'
 bib: >
