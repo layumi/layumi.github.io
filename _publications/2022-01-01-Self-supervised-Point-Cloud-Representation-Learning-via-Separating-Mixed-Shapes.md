@@ -6,7 +6,7 @@ date: 2022-01-01
 doi: 10.1109/TMM.2022.3206664
 venue: 'IEEE Transactions on Multimedia'
 paperurl: 'https://zdzheng.xyz/files/TMM_3D_Pre_Training.pdf'
-author: 'Chao Sun,  <strong>Zhedong Zheng</strong>,  Xiaohan Wang,  Mingliang Xu,  Yi Yang'
+author: '<a href=&apos;https://zdzheng.xyz/authors/Chao-Sun&apos;>Chao Sun</a>,  <a href=&apos;https://zdzheng.xyz/authors/Zhedong-Zheng&apos;><strong>Zhedong Zheng</strong></a>,  <a href=&apos;https://zdzheng.xyz/authors/Xiaohan-Wang&apos;>Xiaohan Wang</a>,  <a href=&apos;https://zdzheng.xyz/authors/Mingliang-Xu&apos;>Mingliang Xu</a>,  <a href=&apos;https://zdzheng.xyz/authors/Yi-Yang&apos;>Yi Yang</a>'
 citation: ' Chao Sun,  Zhedong Zheng,  Xiaohan Wang,  Mingliang Xu,  Yi Yang, &quot;Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes.&quot; IEEE Transactions on Multimedia, 2022. DOI: 10.1109/TMM.2022.3206664'
 pub_year: '2022'
 bib: >

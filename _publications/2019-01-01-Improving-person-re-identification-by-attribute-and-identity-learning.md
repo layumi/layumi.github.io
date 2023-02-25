@@ -7,7 +7,7 @@ doi: 10.1016/j.patcog.2019.06.006
 venue: 'Pattern Recognition'
 paperurl: 'https://zdzheng.xyz/files/PR19.pdf'
 code: 'https://github.com/vana77/Market-1501_Attribute'
-author: 'Yutian Lin,  Liang Zheng,  <strong>Zhedong Zheng</strong>,  Yu Wu,  Zhilan Hu,  Chenggang Yan,  Yi Yang'
+author: '<a href=&apos;https://zdzheng.xyz/authors/Yutian-Lin&apos;>Yutian Lin</a>,  <a href=&apos;https://zdzheng.xyz/authors/Liang-Zheng&apos;>Liang Zheng</a>,  <a href=&apos;https://zdzheng.xyz/authors/Zhedong-Zheng&apos;><strong>Zhedong Zheng</strong></a>,  <a href=&apos;https://zdzheng.xyz/authors/Yu-Wu&apos;>Yu Wu</a>,  <a href=&apos;https://zdzheng.xyz/authors/Zhilan-Hu&apos;>Zhilan Hu</a>,  <a href=&apos;https://zdzheng.xyz/authors/Chenggang-Yan&apos;>Chenggang Yan</a>,  <a href=&apos;https://zdzheng.xyz/authors/Yi-Yang&apos;>Yi Yang</a>'
 citation: ' Yutian Lin,  Liang Zheng,  Zhedong Zheng,  Yu Wu,  Zhilan Hu,  Chenggang Yan,  Yi Yang, &quot;Improving person re-identification by attribute and identity learning.&quot; Pattern Recognition, 2019. DOI: 10.1016/j.patcog.2019.06.006'
 pub_year: '2019'
 bib: >
