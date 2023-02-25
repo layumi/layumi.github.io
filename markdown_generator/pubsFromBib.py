@@ -111,7 +111,7 @@ for pubsource in publist:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
                 allauthor = allauthor +" "+author.first_names[0]+" "+author.last_names[0]+", "
                 #allauthor = allauthor +" "+"<a href='https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0]+"'>" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
-                authors_filename = author.first_names[0]+"-"+author.last_names[0]+".md"
+                authors_filename = author.first_names[0]+"-"+author.last_names[0].replace('*','')+".md"
                 single_authors.append(authors_filename)
                 if not os.path.isfile("../_authors/" + authors_filename):
                     with open("../_authors/" + authors_filename, 'w') as f:
