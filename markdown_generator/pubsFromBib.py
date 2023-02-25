@@ -111,9 +111,9 @@ for pubsource in publist:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
                 #allauthor = allauthor +" "+author.first_names[0]+" "+author.last_names[0]+", "
                 if author.first_names[0]=="Zhedong":
-                    allauthor = allauthor+"<strong><a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0]+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a></strong>" +", "
+                    allauthor = allauthor+"<strong><a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a></strong>" +", "
                 else:
-                    allauthor = allauthor+"<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0]+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
+                    allauthor = allauthor+"<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
                 authors_filename = author.first_names[0]+"-"+author.last_names[0].replace('*','')+".md"
                 single_authors.append(authors_filename)
                 if not os.path.isfile("../_authors/" + authors_filename):
