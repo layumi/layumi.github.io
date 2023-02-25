@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Authors"
+title: "Co-Authors"
 permalink: /authors/
 author_profile: true
 ---
