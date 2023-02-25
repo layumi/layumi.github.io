@@ -6,7 +6,7 @@ date: 2021-01-01
 doi: 
 venue: 'AAAI'
 paperurl: 'https://zdzheng.xyz/files/Han_Person_Search.pdf'
-author: '<a href=&apos;https://zdzheng.xyz/authors/Chuchu-Han&apos;>Chuchu Han</a>,  <a href=&apos;https://zdzheng.xyz/authors/Zhedong-Zheng&apos;><strong>Zhedong Zheng</strong></a>,  <a href=&apos;https://zdzheng.xyz/authors/Changxin-Gao&apos;>Changxin Gao</a>,  <a href=&apos;https://zdzheng.xyz/authors/Nong-Sang&apos;>Nong Sang</a>,  <a href=&apos;https://zdzheng.xyz/authors/Yi-Yang&apos;>Yi Yang</a>'
+author: '<a href=&quot;https://zdzheng.xyz/authors/Chuchu-Han&quot;>Chuchu Han</a>,  <a href=&quot;https://zdzheng.xyz/authors/Zhedong-Zheng&quot;><strong>Zhedong Zheng</strong></a>,  <a href=&quot;https://zdzheng.xyz/authors/Changxin-Gao&quot;>Changxin Gao</a>,  <a href=&quot;https://zdzheng.xyz/authors/Nong-Sang&quot;>Nong Sang</a>,  <a href=&quot;https://zdzheng.xyz/authors/Yi-Yang&quot;>Yi Yang</a>'
 citation: ' Chuchu Han,  Zhedong Zheng,  Changxin Gao,  Nong Sang,  Yi Yang, &quot;Decoupled and Memory-Reinforced Networks: Towards Effective Feature Learning for One-Step Person Search.&quot; AAAI, 2021.'
 pub_year: '2021'
 bib: >

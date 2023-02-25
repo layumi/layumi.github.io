@@ -7,7 +7,7 @@ doi:
 venue: 'CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place)'
 paperurl: 'https://zdzheng.xyz/files/CVPRW2021_EEV.pdf'
 code: 'https://github.com/HenryLittle/EEV-Challenge-2021'
-author: '<a href=&apos;https://zdzheng.xyz/authors/Kezhou-Lin&apos;>Kezhou Lin</a>,  <a href=&apos;https://zdzheng.xyz/authors/Xiaohan-Wang&apos;>Xiaohan Wang</a>,  <a href=&apos;https://zdzheng.xyz/authors/Zhedong-Zheng&apos;><strong>Zhedong Zheng</strong></a>,  <a href=&apos;https://zdzheng.xyz/authors/Linchao-Zhu&apos;>Linchao Zhu</a>,  <a href=&apos;https://zdzheng.xyz/authors/Yi-Yang&apos;>Yi Yang</a>'
+author: '<a href=&quot;https://zdzheng.xyz/authors/Kezhou-Lin&quot;>Kezhou Lin</a>,  <a href=&quot;https://zdzheng.xyz/authors/Xiaohan-Wang&quot;>Xiaohan Wang</a>,  <a href=&quot;https://zdzheng.xyz/authors/Zhedong-Zheng&quot;><strong>Zhedong Zheng</strong></a>,  <a href=&quot;https://zdzheng.xyz/authors/Linchao-Zhu&quot;>Linchao Zhu</a>,  <a href=&quot;https://zdzheng.xyz/authors/Yi-Yang&quot;>Yi Yang</a>'
 citation: ' Kezhou Lin,  Xiaohan Wang,  Zhedong Zheng,  Linchao Zhu,  Yi Yang, &quot;Less is More: Sparse Sampling for Dense Reaction Predictions.&quot; CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place), 2021.'
 pub_year: '2021'
 bib: >

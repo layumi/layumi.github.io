@@ -8,7 +8,7 @@ venue: 'CVPR'
 paperurl: 'https://zdzheng.xyz/files/CVPR19.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/66408913'
 code: 'https://github.com/NVlabs/DG-Net'
-author: '<a href=&apos;https://zdzheng.xyz/authors/Zhedong-Zheng&apos;><strong>Zhedong Zheng</strong></a>,  <a href=&apos;https://zdzheng.xyz/authors/Xiaodong-Yang&apos;>Xiaodong Yang</a>,  <a href=&apos;https://zdzheng.xyz/authors/Zhiding-Yu&apos;>Zhiding Yu</a>,  <a href=&apos;https://zdzheng.xyz/authors/Liang-Zheng&apos;>Liang Zheng</a>,  <a href=&apos;https://zdzheng.xyz/authors/Yi-Yang&apos;>Yi Yang</a>,  <a href=&apos;https://zdzheng.xyz/authors/Jan-Kautz&apos;>Jan Kautz</a>'
+author: '<a href=&quot;https://zdzheng.xyz/authors/Zhedong-Zheng&quot;><strong>Zhedong Zheng</strong></a>,  <a href=&quot;https://zdzheng.xyz/authors/Xiaodong-Yang&quot;>Xiaodong Yang</a>,  <a href=&quot;https://zdzheng.xyz/authors/Zhiding-Yu&quot;>Zhiding Yu</a>,  <a href=&quot;https://zdzheng.xyz/authors/Liang-Zheng&quot;>Liang Zheng</a>,  <a href=&quot;https://zdzheng.xyz/authors/Yi-Yang&quot;>Yi Yang</a>,  <a href=&quot;https://zdzheng.xyz/authors/Jan-Kautz&quot;>Jan Kautz</a>'
 citation: ' Zhedong Zheng,  Xiaodong Yang,  Zhiding Yu,  Liang Zheng,  Yi Yang,  Jan Kautz, &quot;Joint discriminative and generative learning for person re-identification.&quot; CVPR, 2019.'
 pub_year: '2019'
 bib: >

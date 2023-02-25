@@ -7,7 +7,7 @@ doi:
 venue: 'arXiv:2012.07620'
 blog: 'https://zhuanlan.zhihu.com/p/338777060'
 code: 'https://github.com/Xuanmeng-Zhang/gnn-re-ranking'
-author: '<a href=&apos;https://zdzheng.xyz/authors/Xuanmeng-Zhang&apos;>Xuanmeng Zhang</a>,  <a href=&apos;https://zdzheng.xyz/authors/Minyue-Jiang&apos;>Minyue Jiang</a>,  <a href=&apos;https://zdzheng.xyz/authors/Zhedong-Zheng&apos;><strong>Zhedong Zheng</strong></a>,  <a href=&apos;https://zdzheng.xyz/authors/Xiao-Tan&apos;>Xiao Tan</a>,  <a href=&apos;https://zdzheng.xyz/authors/Errui-Ding&apos;>Errui Ding</a>,  <a href=&apos;https://zdzheng.xyz/authors/Yi-Yang&apos;>Yi Yang</a>'
+author: '<a href=&quot;https://zdzheng.xyz/authors/Xuanmeng-Zhang&quot;>Xuanmeng Zhang</a>,  <a href=&quot;https://zdzheng.xyz/authors/Minyue-Jiang&quot;>Minyue Jiang</a>,  <a href=&quot;https://zdzheng.xyz/authors/Zhedong-Zheng&quot;><strong>Zhedong Zheng</strong></a>,  <a href=&quot;https://zdzheng.xyz/authors/Xiao-Tan&quot;>Xiao Tan</a>,  <a href=&quot;https://zdzheng.xyz/authors/Errui-Ding&quot;>Errui Ding</a>,  <a href=&quot;https://zdzheng.xyz/authors/Yi-Yang&quot;>Yi Yang</a>'
 citation: ' Xuanmeng Zhang,  Minyue Jiang,  Zhedong Zheng,  Xiao Tan,  Errui Ding,  Yi Yang, &quot;Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective.&quot; arXiv:2012.07620, 2020.'
 pub_year: '2020'
 bib: >
