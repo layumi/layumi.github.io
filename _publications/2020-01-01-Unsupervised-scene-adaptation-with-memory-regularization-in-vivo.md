@@ -7,7 +7,7 @@ doi:
 venue: 'IJCAI'
 paperurl: 'https://zdzheng.xyz/files/ijcai20.pdf'
 code: 'https://github.com/layumi/Seg_Uncertainty'
-author: '<a href=&apos;https://zdzheng.xyz/authors/Zhedong-Zheng&apos;><strong>Zhedong Zheng</strong></a>,  <a href=&apos;https://zdzheng.xyz/authors/Yi-Yang&apos;>Yi Yang</a>'
+author: '<strong>Zhedong Zheng</strong>,  Yi Yang'
 citation: ' Zhedong Zheng,  Yi Yang, &quot;Unsupervised scene adaptation with memory regularization in vivo.&quot; IJCAI, 2020.'
 pub_year: '2020'
 bib: >
