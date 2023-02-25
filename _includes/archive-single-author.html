@@ -38,28 +38,9 @@
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
 
-        {% if post.collection == 'teaching' %}
-          <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
-        {% elsif post.collection == 'publications' %}
-		  {{ post.author}} <br />
-          <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} 
-	          {% if post.paperurl %}
-		          <a href="{{post.paperurl}}">[pdf]</a>
-		      {% endif %}
-		      {% if post.code %}
-			      <a href="{{post.code}}">[code]</a>
-			  {% endif %}
-		      {% if post.blog %}
-			      <a href="{{post.blog}}">[中文解读]</a>
-			  {% endif %}
-		  <br />
-        {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+        {% if post.collection == 'author' %}
+          <p> {{ post.title}}</p>
         {% endif %}
-  
-    {% if post.citation %}
-      <p>{{ post.citation }} </p>
-	{% endif %}
     
 	
 
