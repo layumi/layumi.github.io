@@ -14,6 +14,19 @@ layout: default
   {% endunless %}
 {% endif %}
 
+<head> 
+	<style>
+		.author {
+			text-decoration: none !important;
+			color: black;
+		}
+
+		.author:hover {
+			text-decoration: underline;
+			color: #0066cc;
+		}
+	</style>
+</head>
 
 <div id="main" role="main">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -40,6 +53,7 @@ layout: default
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
+		  <p>Author: {{ page.author }} </p>
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
