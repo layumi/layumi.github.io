@@ -8,7 +8,7 @@ venue: 'IEEE Transaction on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/TMM20.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/186905783'
 code: 'https://github.com/layumi/AICIty-reID-2020'
-author: '<a href=&quot;https://zdzheng.xyz/authors/Zhedong-Zheng&quot;><strong>Zhedong Zheng</strong></a>,  <a href=&quot;https://zdzheng.xyz/authors/Tao-Ruan&quot;>Tao Ruan</a>,  <a href=&quot;https://zdzheng.xyz/authors/Yunchao-Wei&quot;>Yunchao Wei</a>,  <a href=&quot;https://zdzheng.xyz/authors/Yi-Yang&quot;>Yi Yang</a>,  <a href=&quot;https://zdzheng.xyz/authors/Tao-Mei&quot;>Tao Mei</a>'
+author: '<a href=&quot;https://zdzheng.xyz/authors/Zhedong-Zheng&quot;><strong>Zhedong Zheng</strong></a>, <a href=&quot;https://zdzheng.xyz/authors/Tao-Ruan&quot;>Tao Ruan</a>, <a href=&quot;https://zdzheng.xyz/authors/Yunchao-Wei&quot;>Yunchao Wei</a>, <a href=&quot;https://zdzheng.xyz/authors/Yi-Yang&quot;>Yi Yang</a>, <a href=&quot;https://zdzheng.xyz/authors/Tao-Mei&quot;>Tao Mei</a>'
 citation: ' Zhedong Zheng,  Tao Ruan,  Yunchao Wei,  Yi Yang,  Tao Mei, &quot;VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification.&quot; IEEE Transaction on Multimedia (TMM), 2020. DOI: 10.1109/TMM.2020.3014488'
 pub_year: '2020'
 bib: >
