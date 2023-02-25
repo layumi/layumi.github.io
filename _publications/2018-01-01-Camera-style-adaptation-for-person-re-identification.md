@@ -7,7 +7,7 @@ doi:
 venue: 'CVPR'
 paperurl: 'https://zdzheng.xyz/files/CVPR18.pdf'
 code: 'https://github.com/zhunzhong07/CamStyle'
-author: '<a href=&quot;https://zdzheng.xyz/authors/Zhun-Zhong&quot;>Zhun Zhong</a>, <a href=&quot;https://zdzheng.xyz/authors/Liang-Zheng&quot;>Liang Zheng</a>, <a href=&quot;https://zdzheng.xyz/authors/Zhedong-Zheng&quot;><strong>Zhedong Zheng</strong></a>, <a href=&quot;https://zdzheng.xyz/authors/Shaozi-Li&quot;>Shaozi Li</a>, <a href=&quot;https://zdzheng.xyz/authors/Yi-Yang&quot;>Yi Yang</a>'
+author: '<a href="https://zdzheng.xyz/authors/Zhun-Zhong">Zhun Zhong</a>, <a href="https://zdzheng.xyz/authors/Liang-Zheng">Liang Zheng</a>, <a href="https://zdzheng.xyz/authors/Zhedong-Zheng"><strong>Zhedong Zheng</strong></a>, <a href="https://zdzheng.xyz/authors/Shaozi-Li">Shaozi Li</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang">Yi Yang</a>'
 citation: ' Zhun Zhong,  Liang Zheng,  Zhedong Zheng,  Shaozi Li,  Yi Yang, &quot;Camera style adaptation for person re-identification.&quot; CVPR, 2018.'
 pub_year: '2018'
 bib: >

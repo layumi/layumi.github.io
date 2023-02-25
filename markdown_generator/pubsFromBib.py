@@ -172,7 +172,7 @@ for pubsource in publist:
                     md += "\ncode: '" + b["code"] + "'"
                     code = True
 
-            md += "\nauthor: '" + html_escape(allauthor) + "'"
+            md += "\nauthor: '" + allauthor + "'"
             if "doi" in b.keys():
                 md += "\ncitation: '" + html_escape(citation) + ' DOI: ' + str(doi) +"'"
             else:

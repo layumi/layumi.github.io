@@ -6,7 +6,7 @@ date: 2022-01-01
 doi: 10.1109/TCYB.2021.3130047
 venue: 'IEEE Transactions on Cybernetics'
 paperurl: 'https://zdzheng.xyz/files/Wang_Soft.pdf'
-author: '<a href=&quot;https://zdzheng.xyz/authors/Xiaodong-Wang&quot;>Xiaodong Wang</a>, <a href=&quot;https://zdzheng.xyz/authors/Zhedong-Zheng&quot;><strong>Zhedong Zheng</strong></a>, <a href=&quot;https://zdzheng.xyz/authors/Yang-He&quot;>Yang He</a>, <a href=&quot;https://zdzheng.xyz/authors/Fei-Yan&quot;>Fei Yan</a>, <a href=&quot;https://zdzheng.xyz/authors/Zhiqiang-Zeng&quot;>Zhiqiang Zeng</a>, <a href=&quot;https://zdzheng.xyz/authors/Yi-Yang&quot;>Yi Yang</a>'
+author: '<a href="https://zdzheng.xyz/authors/Xiaodong-Wang">Xiaodong Wang</a>, <a href="https://zdzheng.xyz/authors/Zhedong-Zheng"><strong>Zhedong Zheng</strong></a>, <a href="https://zdzheng.xyz/authors/Yang-He">Yang He</a>, <a href="https://zdzheng.xyz/authors/Fei-Yan">Fei Yan</a>, <a href="https://zdzheng.xyz/authors/Zhiqiang-Zeng">Zhiqiang Zeng</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang">Yi Yang</a>'
 citation: ' Xiaodong Wang,  Zhedong Zheng,  Yang He,  Fei Yan,  Zhiqiang Zeng,  Yi Yang, &quot;Soft Person Re-identification Network Pruning via Block-wise Adjacent Filter Decaying.&quot; IEEE Transactions on Cybernetics, 2022. DOI: 10.1109/TCYB.2021.3130047'
 pub_year: '2022'
 bib: >
