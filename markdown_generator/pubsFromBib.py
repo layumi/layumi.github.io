@@ -110,7 +110,10 @@ for pubsource in publist:
             for author in bibdata.entries[bib_id].persons["author"]:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
                 #allauthor = allauthor +" "+author.first_names[0]+" "+author.last_names[0]+", "
-                allauthor = allauthor+"<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0]+"\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
+                if author.first_names[0]=="Zhedong":
+                    allauthor = allauthor+"<strong><a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0]+"\">" + author.first_names[0]+" "+author.last_names[0] + "</a></strong>" +", "
+                else:
+                    allauthor = allauthor+"<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0]+"\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
                 authors_filename = author.first_names[0]+"-"+author.last_names[0].replace('*','')+".md"
                 single_authors.append(authors_filename)
                 if not os.path.isfile("../_authors/" + authors_filename):
@@ -121,7 +124,7 @@ for pubsource in publist:
                         f.write("""\npermalink: /authors/""" +author.first_names[0]+"-"+author.last_names[0])
                         f.write("\n---")                        
             allauthor =  allauthor[0:-2]
-            allauthor = allauthor.replace("Zhedong Zheng","<strong>Zhedong Zheng</strong>")
+            #allauthor = allauthor.replace("Zhedong Zheng","<strong>Zhedong Zheng</strong>")
             #citation title
             citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
 

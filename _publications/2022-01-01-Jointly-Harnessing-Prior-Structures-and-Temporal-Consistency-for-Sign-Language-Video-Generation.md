@@ -5,7 +5,7 @@ permalink: /publication/Jointly-2022
 date: 2022-01-01
 doi: 
 venue: 'arXiv preprint arXiv:2207.03714'
-author: '<a href="https://zdzheng.xyz/authors/Yucheng-Suo">Yucheng Suo</a>, <a href="https://zdzheng.xyz/authors/Zhedong-Zheng"><strong>Zhedong Zheng</strong></a>, <a href="https://zdzheng.xyz/authors/Xiaohan-Wang">Xiaohan Wang</a>, <a href="https://zdzheng.xyz/authors/Bang-Zhang">Bang Zhang</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang">Yi Yang</a>'
+author: '<a href="https://zdzheng.xyz/authors/Yucheng-Suo">Yucheng Suo</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Xiaohan-Wang">Xiaohan Wang</a>, <a href="https://zdzheng.xyz/authors/Bang-Zhang">Bang Zhang</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang">Yi Yang</a>'
 citation: ' Yucheng Suo,  Zhedong Zheng,  Xiaohan Wang,  Bang Zhang,  Yi Yang, &quot;Jointly Harnessing Prior Structures and Temporal Consistency for Sign Language Video Generation.&quot; arXiv preprint arXiv:2207.03714, 2022.'
 pub_year: '2022'
 bib: >

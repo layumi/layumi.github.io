@@ -6,7 +6,7 @@ date: 2020-01-01
 doi: 10.1016/j.patrec.2018.06.009
 venue: 'Pattern Recognition Letters'
 paperurl: 'https://zdzheng.xyz/files/PRLetter18.pdf'
-author: '<a href="https://zdzheng.xyz/authors/Yutian-Lin">Yutian Lin</a>, <a href="https://zdzheng.xyz/authors/Zhedong-Zheng"><strong>Zhedong Zheng</strong></a>, <a href="https://zdzheng.xyz/authors/Hong-Zhang">Hong Zhang</a>, <a href="https://zdzheng.xyz/authors/Chenqiang-Gao">Chenqiang Gao</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang">Yi Yang</a>'
+author: '<a href="https://zdzheng.xyz/authors/Yutian-Lin">Yutian Lin</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Hong-Zhang">Hong Zhang</a>, <a href="https://zdzheng.xyz/authors/Chenqiang-Gao">Chenqiang Gao</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang">Yi Yang</a>'
 citation: ' Yutian Lin,  Zhedong Zheng,  Hong Zhang,  Chenqiang Gao,  Yi Yang, &quot;Bayesian query expansion for multi-camera person re-identification.&quot; Pattern Recognition Letters, 2020. DOI: 10.1016/j.patrec.2018.06.009'
 pub_year: '2020'
 bib: >

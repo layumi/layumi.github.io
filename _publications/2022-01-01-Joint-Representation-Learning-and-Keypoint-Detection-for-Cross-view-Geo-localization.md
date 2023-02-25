@@ -7,7 +7,7 @@ doi: 10.1109/TIP.2022.3175601
 venue: 'IEEE Transactions on Image Processing'
 paperurl: 'https://zdzheng.xyz/files/TIP_RKNet.pdf'
 code: 'https://github.com/AggMan96/RK-Net'
-author: '<a href="https://zdzheng.xyz/authors/Jinliang-Lin">Jinliang Lin</a>, <a href="https://zdzheng.xyz/authors/Zhedong-Zheng"><strong>Zhedong Zheng</strong></a>, <a href="https://zdzheng.xyz/authors/Zhun-Zhong">Zhun Zhong</a>, <a href="https://zdzheng.xyz/authors/Zhiming-Luo">Zhiming Luo</a>, <a href="https://zdzheng.xyz/authors/Shaozi-Li">Shaozi Li</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang">Yi Yang</a>, <a href="https://zdzheng.xyz/authors/Sebe-Nicu">Sebe Nicu</a>'
+author: '<a href="https://zdzheng.xyz/authors/Jinliang-Lin">Jinliang Lin</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Zhun-Zhong">Zhun Zhong</a>, <a href="https://zdzheng.xyz/authors/Zhiming-Luo">Zhiming Luo</a>, <a href="https://zdzheng.xyz/authors/Shaozi-Li">Shaozi Li</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang">Yi Yang</a>, <a href="https://zdzheng.xyz/authors/Sebe-Nicu">Sebe Nicu</a>'
 citation: ' Jinliang Lin,  Zhedong Zheng,  Zhun Zhong,  Zhiming Luo,  Shaozi Li,  Yi Yang,  Sebe Nicu, &quot;Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization.&quot; IEEE Transactions on Image Processing, 2022. DOI: 10.1109/TIP.2022.3175601'
 pub_year: '2022'
 bib: >
