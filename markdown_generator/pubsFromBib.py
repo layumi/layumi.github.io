@@ -109,7 +109,8 @@ for pubsource in publist:
             
             for author in bibdata.entries[bib_id].persons["author"]:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
-                allauthor = allauthor +" "+author.first_names[0]+" "+author.last_names[0]+", "
+                #allauthor = allauthor +" "+author.first_names[0]+" "+author.last_names[0]+", "
+                allauthor = allauthor +" "+"<a href='https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0]+"'>" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
                 authors_filename = author.first_names[0]+"-"+author.last_names[0]+".md"
                 single_authors.append(authors_filename)
                 if not os.path.isfile("../_authors/" + authors_filename):
@@ -132,7 +133,7 @@ for pubsource in publist:
             
             for single_author in single_authors:
                 with open("../_authors/" + single_author, 'a') as f:
-                    f.write("\n <li>" + html_escape(citation) + "'" + "<a href=" + "'https://zdzheng.xyz/publication/"+html_filename + "'>[Link]</a> </li>")
+                    f.write("\n <li>" + html_escape(citation) + "'" + "<a href='https://zdzheng.xyz/publication/"+html_filename + "'>[Link]</a> </li>")
 
             ## YAML variables
             md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'

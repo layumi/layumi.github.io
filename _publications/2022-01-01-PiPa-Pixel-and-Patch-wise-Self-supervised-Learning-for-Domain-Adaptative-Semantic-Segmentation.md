@@ -6,7 +6,7 @@ date: 2022-01-01
 doi: 
 venue: 'arXiv:2211.07609'
 code: 'https://github.com/chen742/PiPa'
-author: 'Mu Chen,  <strong>Zhedong Zheng</strong>,  Yi Yang,  Tat-Seng Chua'
+author: '<a href=&apos;https://zdzheng.xyz/authors/Mu-Chen&apos;>Mu Chen</a>,  <a href=&apos;https://zdzheng.xyz/authors/Zhedong-Zheng&apos;><strong>Zhedong Zheng</strong></a>,  <a href=&apos;https://zdzheng.xyz/authors/Yi-Yang&apos;>Yi Yang</a>,  <a href=&apos;https://zdzheng.xyz/authors/Tat-Seng-Chua&apos;>Tat-Seng Chua</a>'
 citation: ' Mu Chen,  Zhedong Zheng,  Yi Yang,  Tat-Seng Chua, &quot;PiPa: Pixel-and Patch-wise Self-supervised Learning for Domain Adaptative Semantic Segmentation.&quot; arXiv:2211.07609, 2022.'
 pub_year: '2022'
 bib: >
