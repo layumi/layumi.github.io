@@ -186,7 +186,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
-
+  authors:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:
@@ -226,6 +228,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _authors
+  - scope:
+      path: ""
+      type: authors
+    values:
+      layout: single
+      author_profile: true
+      share: true
+	  comment: true
   # _portfolio
   - scope:
       path: ""
@@ -243,14 +254,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # _authors
-  - scope:
-      path: ""
-      type: authors
-    values:
-      layout: authors
-      author_profile: true
-      share: true
+
 
 # Sass/SCSS
 sass:
