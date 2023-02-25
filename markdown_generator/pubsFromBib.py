@@ -26,6 +26,7 @@ import re
 
 
 os.system('rm -r ../_publications/*')
+os.system('rm -r ../_authors/*')
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
@@ -102,12 +103,24 @@ for pubsource in publist:
             citation = ""
             allauthor = ""
             doi = ""
+            single_authors = []
             if "doi" in b.keys():
                 doi = b["doi"]
-            #citation authors - todo - add highlighting for primary author?
+            
             for author in bibdata.entries[bib_id].persons["author"]:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
                 allauthor = allauthor +" "+author.first_names[0]+" "+author.last_names[0]+", "
+                authors_filename = author.first_names[0]+"-"+author.last_names[0]+".md"
+                single_author = "---\ntitle: \""   + html_escape(authors_filename.replace("{", "").replace("}","").replace("\\","")) + '"\n'
+                #single_author += """collection: """ +  publist[pubsource]["authors"]["name"]
+                #single_author += """\npermalink: """ + publist[pubsource]["collection"]["permalink"]  + authors_filename
+                single_authors.append(authors_filename)
+                if not os.path.isfile("../_authors/" + authors_filename):
+                    with open("../_authors/" + authors_filename, 'w') as f:
+                        f.write(single_author)
+                        f.write("""collection: authors""")
+                        f.write("""\npermalink: /authors/""" +author.first_names[0]+"-"+author.last_names[0])
+                        
             allauthor =  allauthor[1:-2]
             allauthor = allauthor.replace("Zhedong Zheng","<strong>Zhedong Zheng</strong>")
             #citation title
@@ -118,8 +131,11 @@ for pubsource in publist:
 
             citation = citation + " " + html_escape(venue)
             citation = citation + ", " + pub_year + "."
-
             
+            for single_author in single_authors:
+                with open("../_authors/" + single_author, 'a') as f:
+                    f.write("\ncitation: '" + html_escape(citation) + "'")
+
             ## YAML variables
             md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
             
@@ -182,9 +198,10 @@ for pubsource in publist:
             #    md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
 
             md_filename = os.path.basename(md_filename)
-
+            
             with open("../_publications/" + md_filename, 'w') as f:
                 f.write(md)
+
             print(f'SUCESSFULLY PARSED {bib_id}: \"', b["title"][:60],"..."*(len(b['title'])>60),"\"")
         # field may not exist for a reference
         except KeyError as e:
