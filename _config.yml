@@ -236,7 +236,7 @@ defaults:
       layout: single
       author_profile: true
       share: true
-	  comment: true
+      comments: true
   # _portfolio
   - scope:
       path: ""
