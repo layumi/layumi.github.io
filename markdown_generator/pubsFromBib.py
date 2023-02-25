@@ -120,7 +120,7 @@ for pubsource in publist:
                         f.write(single_author)
                         f.write("""collection: authors""")
                         f.write("""\npermalink: /authors/""" +author.first_names[0]+"-"+author.last_names[0])
-                        
+                        f.write("\n---")                        
             allauthor =  allauthor[1:-2]
             allauthor = allauthor.replace("Zhedong Zheng","<strong>Zhedong Zheng</strong>")
             #citation title
@@ -135,7 +135,6 @@ for pubsource in publist:
             for single_author in single_authors:
                 with open("../_authors/" + single_author, 'a') as f:
                     f.write("\ncitation: '" + html_escape(citation) + "'")
-                    f.write("\n---")
 
             ## YAML variables
             md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'

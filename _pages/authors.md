@@ -11,6 +11,6 @@ author_profile: true
 
 
 {% for post in site.authors reversed %}
-      {% include archive-single-author.html %}
+  {% include archive-single-author.html %}
 {% endfor %}
 
