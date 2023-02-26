@@ -1,3 +1,3 @@
-{
-  "routes": [{ "src": "/[^.]+\\.html", "dest": "/:splat", "status": 301 }]
+{  
+    "cleanUrls": true
 }
