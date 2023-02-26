@@ -136,7 +136,7 @@ for pubsource in publist:
             
             for single_author in single_authors:
                 with open("../_authors/" + single_author, 'a') as f:
-                    f.write("\n <li>" + html_escape(citation) + "'" + "<a href='https://zdzheng.xyz/publication/"+html_filename + "'>[Link]</a> </li>")
+                    f.write("\n <li>" + html_escape(citation) + "<a href='https://zdzheng.xyz/publication/"+html_filename + "'>[Link]</a> </li>")
 
             ## YAML variables
             md = "---\ntitle: \""   + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + '"\n'
