@@ -82,7 +82,7 @@ Others
 ======
 <ul>
 <li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
-<li>  I was a poster maker when I studied at Fudan University. You may check out <a href="https://zdzheng.xyz/poster_page/">my posters</a>.</li>
+<li>  I was a poster maker when I studied at Fudan University. You may check out <a href="https://poster-page-beryl.vercel.app">my posters</a>.</li>
 <li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
 </ul>
 Do not press the red button!
