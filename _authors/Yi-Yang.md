@@ -4,6 +4,8 @@ collection: authors
 permalink: /authors/Yi-Yang
 ---
  <li> Xuanmeng Zhang,  Minyue Jiang,  Zhedong Zheng,  Xiao Tan,  Errui Ding,  Yi Yang, &quot;Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective.&quot; arXiv:2012.07620, 2020.<a href='https://zdzheng.xyz/publication/Understa2020'>[Link]</a> </li>
+ <li> Xiaolong Shen,  Zhedong Zheng,  Yi Yang, &quot;StepNet: Spatial-temporal Part-aware Network for Sign Language Recognition.&quot; arXiv:2212.12857, 2022.<a href='https://zdzheng.xyz/publication/StepNet-2022'>[Link]</a> </li>
+ <li> Jian Ma,  Zhedong Zheng,  Hao Fei,  Feng Zheng,  Tat-seng Chua,  Yi Yang, &quot;Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion.&quot; arXiv:2207.06057, 2022.<a href='https://zdzheng.xyz/publication/Subband-2022'>[Link]</a> </li>
  <li> Zhedong Zheng,  Jiayin Zhu,  Wei Ji,  Yi Yang,  Tat-Seng Chua, &quot;3D Magic Mirror: Clothing Reconstruction from a Single Image via a Causal Perspective.&quot; arXiv:2204.13096, 2022.<a href='https://zdzheng.xyz/publication/3D-Magic2022'>[Link]</a> </li>
  <li> Tingyu Wang,  Zhedong Zheng,  Yaoqi Sun,  Tat-Seng Chua,  Yi Yang,  Chenggang Yan, &quot;Multiple-environment Self-adaptive Network for Aerial-view Geo-localization.&quot; arXiv:2204.08381, 2022.<a href='https://zdzheng.xyz/publication/Multiple2022'>[Link]</a> </li>
  <li> Kezhou Lin,  Xiaohan Wang,  Zhedong Zheng,  Linchao Zhu,  Yi Yang, &quot;Less is More: Sparse Sampling for Dense Reaction Predictions.&quot; CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place), 2021.<a href='https://zdzheng.xyz/publication/Less-is-2021'>[Link]</a> </li>
