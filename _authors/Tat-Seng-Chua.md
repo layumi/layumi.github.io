@@ -1,7 +1,7 @@
 ---
-title: "Tat-Seng Chua"
+title: "Tat-seng Chua"
 collection: authors
-permalink: /authors/Tat-Seng-Chua
+permalink: /authors/Tat-seng-Chua
 ---
  <li> Zhedong Zheng,  Jiayin Zhu,  Wei Ji,  Yi Yang,  Tat-Seng Chua, &quot;3D Magic Mirror: Clothing Reconstruction from a Single Image via a Causal Perspective.&quot; arXiv:2204.13096, 2022.<a href='https://zdzheng.xyz/publication/3D-Magic2022'>[Link]</a> </li>
  <li> Tingyu Wang,  Zhedong Zheng,  Yaoqi Sun,  Tat-Seng Chua,  Yi Yang,  Chenggang Yan, &quot;Multiple-environment Self-adaptive Network for Aerial-view Geo-localization.&quot; arXiv:2204.08381, 2022.<a href='https://zdzheng.xyz/publication/Multiple2022'>[Link]</a> </li>
