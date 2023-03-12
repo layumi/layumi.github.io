@@ -84,13 +84,14 @@ layout: default
 	      </iframe>
 		{% endif %}
 		
-		{% if page.citation %} 
+		{% if page.citation and page.keywords %}  
 		    <script type="application/ld+json">
 		    { "@context": "https://schema.org", 
 		     "@type": "Article",
-		     "author": "{{ page.author}}", 
+		     "author": "{{ page.author}}",
 		     "headline": "{{ page.title}}",
 		     "journal": "{{ page.venue}}",
+			 "keywords": "{{ page.keywords}}",
 		     "year": "{{page.date}}"
 	        }
 		    </script>

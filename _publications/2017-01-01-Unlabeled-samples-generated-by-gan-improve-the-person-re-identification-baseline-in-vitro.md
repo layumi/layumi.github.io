@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Unlabele2017
 date: 2017-01-01
 doi: 
+keywords:object re-identification,image retrieval,person re-id,person re-trieval,person search,
 venue: 'ICCV'
 paperurl: 'https://zdzheng.xyz/files/ICCV17.pdf'
 code: 'https://github.com/layumi/Person-reID_GAN'

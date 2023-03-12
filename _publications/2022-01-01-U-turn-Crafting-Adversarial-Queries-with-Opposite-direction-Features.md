@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/U-turn-C2022
 date: 2022-01-01
 doi: 
+keywords:
 venue: 'International Journal of Computer Vision (IJCV)'
 paperurl: 'https://zdzheng.xyz/files/IJCV_Retrieval_Robustness_CameraReady.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/593319732'

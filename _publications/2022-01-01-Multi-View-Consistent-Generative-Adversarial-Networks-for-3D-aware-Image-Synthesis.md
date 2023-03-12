@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Multi-Vi2022
 date: 2022-01-01
 doi: 
+keywords:
 venue: 'CVPR'
 paperurl: 'https://zdzheng.xyz/files/Zhang_CVPR_2022.pdf'
 code: 'https://github.com/Xuanmeng-Zhang/MVCGAN'

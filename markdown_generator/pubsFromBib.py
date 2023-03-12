@@ -103,10 +103,27 @@ for pubsource in publist:
             citation = ""
             allauthor = ""
             doi = ""
+            keywords=""
             single_authors = []
             if "doi" in b.keys():
                 doi = b["doi"]
             
+            if "re-identification" in b["title"] or "reidentification" in b["title"] or "retrieval" in b["title"]:
+                keywords += "object re-identification," 
+                keywords += "image retrieval,"
+                
+            if "person" in b["title"] or "pedestrian" in b["title"] or "human" in b["title"]:
+                keywords += "person re-id,"
+                keywords += "person re-trieval,"
+                keywords += "person search,"
+                
+            if "adaptation" in b["title"] or "domain" in b["title"]:
+                keywords += "domain adaptation,"
+                
+            if "geo-localization" in b["title"]:
+                keywords += "visual geo-localization," 
+                
+                
             for author in bibdata.entries[bib_id].persons["author"]:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
                 #allauthor = allauthor +" "+author.first_names[0]+" "+author.last_names[0]+", "
@@ -155,6 +172,8 @@ for pubsource in publist:
 
             md += "\ndoi: " + doi
 
+            md += "\nkeywords:" + keywords
+             
             md += "\nvenue: '" + html_escape(venue) + "'"
             
             url = False

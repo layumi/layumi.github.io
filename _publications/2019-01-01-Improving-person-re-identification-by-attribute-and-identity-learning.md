@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Improvin2019
 date: 2019-01-01
 doi: 10.1016/j.patcog.2019.06.006
+keywords:object re-identification,image retrieval,person re-id,person re-trieval,person search,
 venue: 'Pattern Recognition'
 paperurl: 'https://zdzheng.xyz/files/PR19.pdf'
 code: 'https://github.com/vana77/Market-1501_Attribute'

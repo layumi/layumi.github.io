@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Paramete2022
 date: 2022-01-01
 doi: 10.1109/TNNLS.2022.3214834
+keywords:
 venue: 'IEEE Transactions on Neural Networks and Learning Systems'
 paperurl: 'https://zdzheng.xyz/files/TNNLS_3D_PersonReID.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/149121098'

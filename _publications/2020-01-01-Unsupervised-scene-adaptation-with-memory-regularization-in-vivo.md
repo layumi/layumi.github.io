@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Unsuperv2020
 date: 2020-01-01
 doi: 
+keywords:domain adaptation,
 venue: 'IJCAI'
 paperurl: 'https://zdzheng.xyz/files/ijcai20.pdf'
 code: 'https://github.com/layumi/Seg_Uncertainty'
