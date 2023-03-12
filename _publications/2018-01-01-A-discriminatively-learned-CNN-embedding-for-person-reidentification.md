@@ -11,8 +11,7 @@ code: 'https://github.com/layumi/2016_person_re-ID'
 author: '<strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Liang-Zheng" class="author">Liang Zheng</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>'
 citation: ' Zhedong Zheng,  Liang Zheng,  Yi Yang, &quot;A discriminatively learned CNN embedding for person reidentification.&quot; ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2018. DOI: 10.1145/3159171'
 pub_year: '2018'
-bib: >
-    @article{zheng2018discriminatively,  
+bib: @article{zheng2018discriminatively,  
     author = "Zheng, Zhedong and Zheng, Liang and Yang, Yi",  
     doi = "10.1145/3159171",  
     title = "A discriminatively learned CNN embedding for person reidentification",  
