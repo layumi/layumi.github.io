@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Bayesian2020
 date: 2020-01-01
 doi: 10.1016/j.patrec.2018.06.009
-keywords:object re-identification,image retrieval,person re-id,person re-trieval,person search,
+keywords: object re-identification,image retrieval,person re-id,person re-trieval,person search,
 venue: 'Pattern Recognition Letters'
 paperurl: 'https://zdzheng.xyz/files/PRLetter18.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Yutian-Lin" class="author">Yutian Lin</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Hong-Zhang" class="author">Hong Zhang</a>, <a href="https://zdzheng.xyz/authors/Chenqiang-Gao" class="author">Chenqiang Gao</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>'

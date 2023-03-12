@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Connecti2021
 date: 2021-01-01
 doi: 
-keywords:
+keywords: 
 venue: 'CVPR Workshop of AI City Challenge on Natural Language-Based Vehicle Retrieval (the 1st Place of Track 5)'
 paperurl: 'https://zdzheng.xyz/files/CVPRW2021_NLP_AICity.pdf'
 code: 'https://github.com/ShuaiBai623/AIC2021-T5-CLV'

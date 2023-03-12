@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Camera-s2018
 date: 2018-01-01
 doi: 
-keywords:object re-identification,image retrieval,person re-id,person re-trieval,person search,domain adaptation,
+keywords: object re-identification,image retrieval,person re-id,person re-trieval,person search,domain adaptation,
 venue: 'CVPR'
 paperurl: 'https://zdzheng.xyz/files/CVPR18.pdf'
 code: 'https://github.com/zhunzhong07/CamStyle'

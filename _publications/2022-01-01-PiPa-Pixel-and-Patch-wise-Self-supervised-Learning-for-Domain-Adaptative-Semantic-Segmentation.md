@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/PiPa-Pix2022
 date: 2022-01-01
 doi: 
-keywords:
+keywords: 
 venue: 'arXiv:2211.07609'
 code: 'https://github.com/chen742/PiPa'
 author: '<a href="https://zdzheng.xyz/authors/Mu-Chen" class="author">Mu Chen</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>, <a href="https://zdzheng.xyz/authors/Tat-Seng-Chua" class="author">Tat-Seng Chua</a>'

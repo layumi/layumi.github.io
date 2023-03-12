@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Each-par2021
 date: 2021-01-01
 doi: 
-keywords:visual geo-localization,
+keywords: visual geo-localization,
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)'
 paperurl: 'https://zdzheng.xyz/files/Wang_LPN.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/365043015'

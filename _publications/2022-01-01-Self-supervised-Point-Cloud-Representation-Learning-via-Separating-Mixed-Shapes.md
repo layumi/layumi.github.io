@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Self-sup2022
 date: 2022-01-01
 doi: 10.1109/TMM.2022.3206664
-keywords:
+keywords: 
 venue: 'IEEE Transactions on Multimedia'
 paperurl: 'https://zdzheng.xyz/files/TMM_3D_Pre_Training.pdf'
 code: 'https://github.com/cyysc1998/3d-pretraining'

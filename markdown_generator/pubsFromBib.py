@@ -103,7 +103,7 @@ for pubsource in publist:
             citation = ""
             allauthor = ""
             doi = ""
-            keywords=""
+            keywords=" "
             single_authors = []
             if "doi" in b.keys():
                 doi = b["doi"]

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Decouple2021
 date: 2021-01-01
 doi: 
-keywords:
+keywords: 
 venue: 'AAAI'
 paperurl: 'https://zdzheng.xyz/files/Han_Person_Search.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Chuchu-Han" class="author">Chuchu Han</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Changxin-Gao" class="author">Changxin Gao</a>, <a href="https://zdzheng.xyz/authors/Nong-Sang" class="author">Nong Sang</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>'

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Macro-mi2018
 date: 2018-01-01
 doi: 
-keywords:person re-id,person re-trieval,person search,
+keywords: person re-id,person re-trieval,person search,
 venue: 'ECCV'
 paperurl: 'https://zdzheng.xyz/files/ECCV18.pdf'
 code: 'https://github.com/RoyalVane/MMAN'
