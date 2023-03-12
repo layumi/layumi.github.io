@@ -13,14 +13,7 @@ author: '<strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="auth
 citation: ' Zhedong Zheng,  Liang Zheng,  Yi Yang,  Fei Wu, &quot;U-turn: Crafting Adversarial Queries with Opposite-direction Features.&quot; International Journal of Computer Vision (IJCV), 2022.'
 pub_year: '2022'
 bib: >
-    @article{zheng2022query,  
-    author = "Zheng, Zhedong and Zheng, Liang and Yang, Yi and Wu, Fei",  
-    title = "U-turn: Crafting Adversarial Queries with Opposite-direction Features",  
-    journal = "International Journal of Computer Vision (IJCV)",  
-    url = "https://zdzheng.xyz/files/IJCV\_Retrieval\_Robustness\_CameraReady.pdf",  
-    code = "https://github.com/layumi/U\_turn",  
-    blog = "https://zhuanlan.zhihu.com/p/593319732",  
-    year = "2022"
+    @article{zheng2022query,  <br>    author = "Zheng, Zhedong and Zheng, Liang and Yang, Yi and Wu, Fei",  <br>    title = "U-turn: Crafting Adversarial Queries with Opposite-direction Features",  <br>    journal = "International Journal of Computer Vision (IJCV)",  <br>    url = "https://zdzheng.xyz/files/IJCV\_Retrieval\_Robustness\_CameraReady.pdf",  <br>    code = "https://github.com/layumi/U\_turn",  <br>    blog = "https://zhuanlan.zhihu.com/p/593319732",  <br>    year = "2022"
     }
 
 ---

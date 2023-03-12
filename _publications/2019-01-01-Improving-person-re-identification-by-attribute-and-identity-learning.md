@@ -12,17 +12,7 @@ author: '<a href="https://zdzheng.xyz/authors/Yutian-Lin" class="author">Yutian 
 citation: ' Yutian Lin,  Liang Zheng,  Zhedong Zheng,  Yu Wu,  Zhilan Hu,  Chenggang Yan,  Yi Yang, &quot;Improving person re-identification by attribute and identity learning.&quot; Pattern Recognition, 2019. DOI: 10.1016/j.patcog.2019.06.006'
 pub_year: '2019'
 bib: >
-    @article{lin2019improving,  
-    author = "Lin, Yutian and Zheng, Liang and Zheng, Zhedong and Wu, Yu and Hu, Zhilan and Yan, Chenggang and Yang, Yi",  
-    doi = "10.1016/j.patcog.2019.06.006",  
-    title = "Improving person re-identification by attribute and identity learning",  
-    journal = "Pattern Recognition",  
-    volume = "95",  
-    pages = "151--161",  
-    year = "2019",  
-    url = "https://zdzheng.xyz/files/PR19.pdf",  
-    code = "https://github.com/vana77/Market-1501\_Attribute",  
-    publisher = "Elsevier"
+    @article{lin2019improving,  <br>    author = "Lin, Yutian and Zheng, Liang and Zheng, Zhedong and Wu, Yu and Hu, Zhilan and Yan, Chenggang and Yang, Yi",  <br>    doi = "10.1016/j.patcog.2019.06.006",  <br>    title = "Improving person re-identification by attribute and identity learning",  <br>    journal = "Pattern Recognition",  <br>    volume = "95",  <br>    pages = "151--161",  <br>    year = "2019",  <br>    url = "https://zdzheng.xyz/files/PR19.pdf",  <br>    code = "https://github.com/vana77/Market-1501\_Attribute",  <br>    publisher = "Elsevier"
     }
 
 ---

@@ -10,11 +10,7 @@ author: '<a href="https://zdzheng.xyz/authors/Xiaodong-Wang" class="author">Xiao
 citation: ' Xiaodong Wang,  Zhedong Zheng,  Yang He,  Fei Yan,  Zhiqiang Zeng,  Yi Yang, &quot;Progressive local filter pruning for image retrieval acceleration.&quot; arXiv preprint arXiv:2001.08878, 2020.'
 pub_year: '2020'
 bib: >
-    @article{wang2020progressive,  
-    author = "Wang, Xiaodong and Zheng, Zhedong and He, Yang and Yan, Fei and Zeng, Zhiqiang and Yang, Yi",  
-    title = "Progressive local filter pruning for image retrieval acceleration",  
-    journal = "arXiv preprint arXiv:2001.08878",  
-    year = "2020"
+    @article{wang2020progressive,  <br>    author = "Wang, Xiaodong and Zheng, Zhedong and He, Yang and Yan, Fei and Zeng, Zhiqiang and Yang, Yi",  <br>    title = "Progressive local filter pruning for image retrieval acceleration",  <br>    journal = "arXiv preprint arXiv:2001.08878",  <br>    year = "2020"
     }
 
 ---
