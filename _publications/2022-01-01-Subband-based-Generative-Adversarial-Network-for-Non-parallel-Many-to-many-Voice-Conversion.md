@@ -10,7 +10,7 @@ author: '<a href="https://zdzheng.xyz/authors/Jian-Ma" class="author">Jian Ma</a
 citation: ' Jian Ma,  Zhedong Zheng,  Hao Fei,  Feng Zheng,  Tat-seng Chua,  Yi Yang, &quot;Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion.&quot; arXiv:2207.06057, 2022.'
 pub_year: '2022'
 bib: >
-@inproceedings{ma2022subband,  <br>    author = "Ma, Jian and Zheng, Zhedong and Fei, Hao and Zheng, Feng and Chua, Tat-seng and Yang, Yi",  <br>    title = "Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion",  <br>    booktitle = "arXiv:2207.06057",  <br>    year = "2022"
+    @inproceedings{ma2022subband,  <br>    author = "Ma, Jian and Zheng, Zhedong and Fei, Hao and Zheng, Feng and Chua, Tat-seng and Yang, Yi",  <br>    title = "Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion",  <br>    booktitle = "arXiv:2207.06057",  <br>    year = "2022"
     }
 
 ---

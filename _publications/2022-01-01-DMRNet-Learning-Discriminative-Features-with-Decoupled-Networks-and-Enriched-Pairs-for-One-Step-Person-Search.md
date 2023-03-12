@@ -11,7 +11,7 @@ author: '<a href="https://zdzheng.xyz/authors/Chuchu-Han" class="author">Chuchu 
 citation: ' Chuchu Han,  Zhedong Zheng,  Kai Su,  Dongdong Yu,  Zehuan Yuan,  Changxin Gao,  Nong Sang,  Yi Yang, &quot;DMRNet++: Learning Discriminative Features with Decoupled Networks and Enriched Pairs for One-Step Person Search.&quot; IEEE Transactions on Pattern Analysis &amp;amp; Machine Intelligence, 2022.'
 pub_year: '2022'
 bib: >
-@article{han2022dmrnet++,  <br>    author = "Han, Chuchu and Zheng, Zhedong and Su, Kai and Yu, Dongdong and Yuan, Zehuan and Gao, Changxin and Sang, Nong and Yang, Yi",  <br>    title = "DMRNet++: Learning Discriminative Features with Decoupled Networks and Enriched Pairs for One-Step Person Search",  <br>    journal = "IEEE Transactions on Pattern Analysis \\& Machine Intelligence",  <br>    number = "01",  <br>    pages = "1--18",  <br>    year = "2022",  <br>    url = "https://zdzheng.xyz/files/Han\_TPAMI22.pdf",  <br>    publisher = "IEEE Computer Society"
+    @article{han2022dmrnet++,  <br>    author = "Han, Chuchu and Zheng, Zhedong and Su, Kai and Yu, Dongdong and Yuan, Zehuan and Gao, Changxin and Sang, Nong and Yang, Yi",  <br>    title = "DMRNet++: Learning Discriminative Features with Decoupled Networks and Enriched Pairs for One-Step Person Search",  <br>    journal = "IEEE Transactions on Pattern Analysis \\& Machine Intelligence",  <br>    number = "01",  <br>    pages = "1--18",  <br>    year = "2022",  <br>    url = "https://zdzheng.xyz/files/Han\_TPAMI22.pdf",  <br>    publisher = "IEEE Computer Society"
     }
 
 ---
