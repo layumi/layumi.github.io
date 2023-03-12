@@ -10,7 +10,8 @@ code: 'https://github.com/Monoxide-Chen/uncertainty_retrieval'
 author: '<a href="https://zdzheng.xyz/authors/Yiyang-Chen" class="author">Yiyang Chen</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Wei-Ji" class="author">Wei Ji</a>, <a href="https://zdzheng.xyz/authors/Leigang-Qu" class="author">Leigang Qu</a>, <a href="https://zdzheng.xyz/authors/Tat-Seng-Chua" class="author">Tat-Seng Chua</a>'
 citation: ' Yiyang Chen,  Zhedong Zheng,  Wei Ji,  Leigang Qu,  Tat-Seng Chua, &quot;Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization.&quot; arXiv:2211.07394, 2022.'
 pub_year: '2022'
-bib: @article{chen2022composed,  
+bib: >
+    @article{chen2022composed,  
     author = "Chen, Yiyang and Zheng, Zhedong and Ji, Wei and Qu, Leigang and Chua, Tat-Seng",  
     title = "Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization",  
     journal = "arXiv:2211.07394",  

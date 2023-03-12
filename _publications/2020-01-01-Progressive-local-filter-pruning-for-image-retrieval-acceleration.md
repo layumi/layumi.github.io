@@ -9,7 +9,8 @@ venue: 'arXiv preprint arXiv:2001.08878'
 author: '<a href="https://zdzheng.xyz/authors/Xiaodong-Wang" class="author">Xiaodong Wang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yang-He" class="author">Yang He</a>, <a href="https://zdzheng.xyz/authors/Fei-Yan" class="author">Fei Yan</a>, <a href="https://zdzheng.xyz/authors/Zhiqiang-Zeng" class="author">Zhiqiang Zeng</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>'
 citation: ' Xiaodong Wang,  Zhedong Zheng,  Yang He,  Fei Yan,  Zhiqiang Zeng,  Yi Yang, &quot;Progressive local filter pruning for image retrieval acceleration.&quot; arXiv preprint arXiv:2001.08878, 2020.'
 pub_year: '2020'
-bib: @article{wang2020progressive,  
+bib: >
+    @article{wang2020progressive,  
     author = "Wang, Xiaodong and Zheng, Zhedong and He, Yang and Yan, Fei and Zeng, Zhiqiang and Yang, Yi",  
     title = "Progressive local filter pruning for image retrieval acceleration",  
     journal = "arXiv preprint arXiv:2001.08878",  

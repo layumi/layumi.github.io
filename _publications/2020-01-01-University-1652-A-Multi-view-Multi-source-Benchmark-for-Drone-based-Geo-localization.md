@@ -12,7 +12,8 @@ code: 'https://github.com/layumi/University1652-Baseline'
 author: '<strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yunchao-Wei" class="author">Yunchao Wei</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>'
 citation: ' Zhedong Zheng,  Yunchao Wei,  Yi Yang, &quot;University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization.&quot; ACM MM, 2020. DOI: 10.1145/3394171.3413896'
 pub_year: '2020'
-bib: @inproceedings{zheng2020university,  
+bib: >
+    @inproceedings{zheng2020university,  
     author = "Zheng, Zhedong and Wei, Yunchao and Yang, Yi",  
     doi = "10.1145/3394171.3413896",  
     title = "University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization",  

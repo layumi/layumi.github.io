@@ -11,7 +11,8 @@ code: 'https://github.com/layumi/3D-Magic-Mirror'
 author: '<strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Jiayin-Zhu" class="author">Jiayin Zhu</a>, <a href="https://zdzheng.xyz/authors/Wei-Ji" class="author">Wei Ji</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>, <a href="https://zdzheng.xyz/authors/Tat-Seng-Chua" class="author">Tat-Seng Chua</a>'
 citation: ' Zhedong Zheng,  Jiayin Zhu,  Wei Ji,  Yi Yang,  Tat-Seng Chua, &quot;3D Magic Mirror: Clothing Reconstruction from a Single Image via a Causal Perspective.&quot; arXiv:2204.13096, 2022.'
 pub_year: '2022'
-bib: @inproceedings{zheng2020magic,  
+bib: >
+    @inproceedings{zheng2020magic,  
     author = "Zheng, Zhedong and Zhu, Jiayin and Ji, Wei and Yang, Yi and Chua, Tat-Seng",  
     title = "3D Magic Mirror: Clothing Reconstruction from a Single Image via a Causal Perspective",  
     booktitle = "arXiv:2204.13096",  

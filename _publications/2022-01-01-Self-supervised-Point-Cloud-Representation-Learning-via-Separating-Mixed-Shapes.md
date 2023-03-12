@@ -11,7 +11,8 @@ code: 'https://github.com/cyysc1998/3d-pretraining'
 author: '<a href="https://zdzheng.xyz/authors/Chao-Sun" class="author">Chao Sun</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Xiaohan-Wang" class="author">Xiaohan Wang</a>, <a href="https://zdzheng.xyz/authors/Mingliang-Xu" class="author">Mingliang Xu</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>'
 citation: ' Chao Sun,  Zhedong Zheng,  Xiaohan Wang,  Mingliang Xu,  Yi Yang, &quot;Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes.&quot; IEEE Transactions on Multimedia, 2022. DOI: 10.1109/TMM.2022.3206664'
 pub_year: '2022'
-bib: @article{sun2022self,  
+bib: >
+    @article{sun2022self,  
     author = "Sun, Chao and Zheng, Zhedong and Wang, Xiaohan and Xu, Mingliang and Yang, Yi",  
     doi = "10.1109/TMM.2022.3206664",  
     title = "Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes",  
