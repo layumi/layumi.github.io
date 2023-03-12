@@ -97,6 +97,37 @@ Do not press the red button!
 <link rel="preconnect" href="//cdn.clustrmaps.com">
 <link rel="dns-prefetch" href="//cdn.clustrmaps.com">
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&cmo=faa659&cl=ffffff&w=a' async></script>
+
+		    <script type="application/ld+json">
+		    { "@context": "https://schema.org", 
+		     "@type": "Person",
+			 "name": "Zhedong Zheng",
+			 "gender": "Male",
+			 "Description": "Computer Vision Researcher",
+			 "jobTitle": "Research Fellow",
+			 "alumniOf": [
+			 	{
+			 	 "@type": "University",
+			 	 "name": "University of Technology Sydney"
+			 	},
+			 	{
+			 	 "@type": "University",
+			 	 "name": "Fudan University"
+			 	}
+			 ],
+			 "url": "https://zdzheng.xyz",
+			 "image": "https://zdzheng.xyz/images/profile.webp",
+			 "sameAs": [
+			 	"https://www.researchgate.net/profile/Zhedong-Zheng-2",
+				"https://www.facebook.com/zhedongzheng12",
+				"https://www.linkedin.com/in/zhedongzheng",
+				"https://github.com/layumi",
+				"https://scholar.google.com/citations?user=XT17oUEAAAAJ",
+				"http://orcid.org/0000-0002-2434-9050",
+				"https://www.zhihu.com/people/zhengzhedong"
+			 	]
+	        }
+		    </script>
 </div>
 
 
