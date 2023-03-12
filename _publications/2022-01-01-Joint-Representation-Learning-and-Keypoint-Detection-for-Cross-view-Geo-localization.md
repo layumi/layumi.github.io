@@ -12,7 +12,14 @@ author: '<a href="https://zdzheng.xyz/authors/Jinliang-Lin" class="author">Jinli
 citation: ' Jinliang Lin,  Zhedong Zheng,  Zhun Zhong,  Zhiming Luo,  Shaozi Li,  Yi Yang,  Sebe Nicu, &quot;Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization.&quot; IEEE Transactions on Image Processing, 2022. DOI: 10.1109/TIP.2022.3175601'
 pub_year: '2022'
 bib: >
-    @article{lin2022joint,  <br>    author = "Lin, Jinliang and Zheng, Zhedong and Zhong, Zhun and Luo, Zhiming and Li, Shaozi and Yang, Yi and Nicu, Sebe",  <br>    doi = "10.1109/TIP.2022.3175601",  <br>    title = "Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization",  <br>    journal = "IEEE Transactions on Image Processing",  <br>    url = "https://zdzheng.xyz/files/TIP\_RKNet.pdf",  <br>    code = "https://github.com/AggMan96/RK-Net",  <br>    year = "2022"
+    @article{lin2022joint,  
+    author = "Lin, Jinliang and Zheng, Zhedong and Zhong, Zhun and Luo, Zhiming and Li, Shaozi and Yang, Yi and Nicu, Sebe",  
+    doi = "10.1109/TIP.2022.3175601",  
+    title = "Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization",  
+    journal = "IEEE Transactions on Image Processing",  
+    url = "https://zdzheng.xyz/files/TIP\_RKNet.pdf",  
+    code = "https://github.com/AggMan96/RK-Net",  
+    year = "2022"
     }
 
 ---

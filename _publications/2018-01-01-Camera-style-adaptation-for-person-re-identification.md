@@ -12,7 +12,14 @@ author: '<a href="https://zdzheng.xyz/authors/Zhun-Zhong" class="author">Zhun Zh
 citation: ' Zhun Zhong,  Liang Zheng,  Zhedong Zheng,  Shaozi Li,  Yi Yang, &quot;Camera style adaptation for person re-identification.&quot; CVPR, 2018.'
 pub_year: '2018'
 bib: >
-    @inproceedings{zhong2018camera,  <br>    author = "Zhong, Zhun and Zheng, Liang and Zheng, Zhedong and Li, Shaozi and Yang, Yi",  <br>    title = "Camera style adaptation for person re-identification",  <br>    booktitle = "CVPR",  <br>    pages = "5157--5166",  <br>    code = "https://github.com/zhunzhong07/CamStyle",  <br>    url = "https://zdzheng.xyz/files/CVPR18.pdf",  <br>    year = "2018"
+    @inproceedings{zhong2018camera,  
+    author = "Zhong, Zhun and Zheng, Liang and Zheng, Zhedong and Li, Shaozi and Yang, Yi",  
+    title = "Camera style adaptation for person re-identification",  
+    booktitle = "CVPR",  
+    pages = "5157--5166",  
+    code = "https://github.com/zhunzhong07/CamStyle",  
+    url = "https://zdzheng.xyz/files/CVPR18.pdf",  
+    year = "2018"
     }
 
 ---
