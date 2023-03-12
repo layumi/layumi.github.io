@@ -84,15 +84,17 @@ layout: default
 	      </iframe>
 		{% endif %}
 		
-		<script type="application/ld+json">
-		{ "@context": "https://schema.org", 
-		 "@type": "Article",
-		 "author": "{{ page.author}}", 
-		 "headline": "{{ page.title}}",
-		 "journal": "{{ page.venue}}",
-		 "year": "{{page.date}}"
-	    }
-		</script>
+		{% if page.citation %} 
+		    <script type="application/ld+json">
+		    { "@context": "https://schema.org", 
+		     "@type": "Article",
+		     "author": "{{ page.author}}", 
+		     "headline": "{{ page.title}}",
+		     "journal": "{{ page.venue}}",
+		     "year": "{{page.date}}"
+	        }
+		    </script>
+		{% endif %}
 		<!--
 		<pre style="word-wrap: break-word; white-space: pre-wrap;">{{page.bib}}
 		</pre>
