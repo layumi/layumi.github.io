@@ -11,7 +11,7 @@ author: '<a href="https://zdzheng.xyz/authors/Yiyang-Chen" class="author">Yiyang
 citation: ' Yiyang Chen,  Zhedong Zheng,  Wei Ji,  Leigang Qu,  Tat-Seng Chua, &quot;Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization.&quot; arXiv:2211.07394, 2022.'
 pub_year: '2022'
 bib: >
-    @article{chen2022composed,  <br>    author = "Chen, Yiyang and Zheng, Zhedong and Ji, Wei and Qu, Leigang and Chua, Tat-Seng",  <br>    title = "Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization",  <br>    journal = "arXiv:2211.07394",  <br>    code = "https://github.com/Monoxide-Chen/uncertainty\_retrieval",  <br>    year = "2022"
-    }
+@article{chen2022composed,<br>author = "Chen, Yiyang and Zheng, Zhedong and Ji, Wei and Qu, Leigang and Chua, Tat-Seng",<br>title = "Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization",<br>journal = "arXiv:2211.07394",<br>code = "https://github.com/Monoxide-Chen/uncertainty\_retrieval",<br>year = "2022"
+}
 
 ---

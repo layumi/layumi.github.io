@@ -13,7 +13,7 @@ author: '<a href="https://zdzheng.xyz/authors/Zhikun-Huang" class="author">Zhiku
 citation: ' Zhikun Huang,  Zhedong Zheng,  Chenggang Yan,  Hongtao Xie,  Yaoqi Sun,  Jianzhong Wang,  Jiyong Zhang, &quot;Real-World Automatic Makeup via Identity Preservation Makeup Net.&quot; IJCAI, 2020.'
 pub_year: '2020'
 bib: >
-    @inproceedings{huangreal,  <br>    author = "Huang, Zhikun and Zheng, Zhedong and Yan, Chenggang and Xie, Hongtao and Sun, Yaoqi and Wang, Jianzhong and Zhang, Jiyong",  <br>    title = "Real-World Automatic Makeup via Identity Preservation Makeup Net",  <br>    booktitle = "IJCAI",  <br>    code = "https://github.com/huangzhikun1995/IPM-Net",  <br>    url = "https://zdzheng.xyz/files/Huang\_ijcai20.pdf",  <br>    blog = "https://zhuanlan.zhihu.com/p/150116945",  <br>    year = "2020"
-    }
+@inproceedings{huangreal,<br>author = "Huang, Zhikun and Zheng, Zhedong and Yan, Chenggang and Xie, Hongtao and Sun, Yaoqi and Wang, Jianzhong and Zhang, Jiyong",<br>title = "Real-World Automatic Makeup via Identity Preservation Makeup Net",<br>booktitle = "IJCAI",<br>code = "https://github.com/huangzhikun1995/IPM-Net",<br>url = "https://zdzheng.xyz/files/Huang\_ijcai20.pdf",<br>blog = "https://zhuanlan.zhihu.com/p/150116945",<br>year = "2020"
+}
 
 ---

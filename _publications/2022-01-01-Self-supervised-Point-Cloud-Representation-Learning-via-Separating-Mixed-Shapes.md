@@ -12,7 +12,7 @@ author: '<a href="https://zdzheng.xyz/authors/Chao-Sun" class="author">Chao Sun<
 citation: ' Chao Sun,  Zhedong Zheng,  Xiaohan Wang,  Mingliang Xu,  Yi Yang, &quot;Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes.&quot; IEEE Transactions on Multimedia, 2022. DOI: 10.1109/TMM.2022.3206664'
 pub_year: '2022'
 bib: >
-    @article{sun2022self,  <br>    author = "Sun, Chao and Zheng, Zhedong and Wang, Xiaohan and Xu, Mingliang and Yang, Yi",  <br>    doi = "10.1109/TMM.2022.3206664",  <br>    title = "Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes",  <br>    journal = "IEEE Transactions on Multimedia",  <br>    url = "https://zdzheng.xyz/files/TMM\_3D\_Pre\_Training.pdf",  <br>    code = "https://github.com/cyysc1998/3d-pretraining",  <br>    year = "2022"
-    }
+@article{sun2022self,<br>author = "Sun, Chao and Zheng, Zhedong and Wang, Xiaohan and Xu, Mingliang and Yang, Yi",<br>doi = "10.1109/TMM.2022.3206664",<br>title = "Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes",<br>journal = "IEEE Transactions on Multimedia",<br>url = "https://zdzheng.xyz/files/TMM\_3D\_Pre\_Training.pdf",<br>code = "https://github.com/cyysc1998/3d-pretraining",<br>year = "2022"
+}
 
 ---

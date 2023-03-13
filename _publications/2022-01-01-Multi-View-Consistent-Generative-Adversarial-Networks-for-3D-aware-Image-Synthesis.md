@@ -12,7 +12,7 @@ author: '<a href="https://zdzheng.xyz/authors/Xuanmeng-Zhang" class="author">Xua
 citation: ' Xuanmeng Zhang,  Zhedong Zheng,  Daiheng Gao,  Bang Zhang,  Pan Pan,  Yi Yang, &quot;Multi-View Consistent Generative Adversarial Networks for 3D-aware Image Synthesis.&quot; CVPR, 2022.'
 pub_year: '2022'
 bib: >
-    @inproceedings{zhang2022multiview,  <br>    author = "Zhang, Xuanmeng and Zheng, Zhedong and Gao, Daiheng and Zhang, Bang and Pan, Pan and Yang, Yi",  <br>    title = "Multi-View Consistent Generative Adversarial Networks for 3D-aware Image Synthesis",  <br>    booktitle = "CVPR",  <br>    url = "https://zdzheng.xyz/files/Zhang\_CVPR\_2022.pdf",  <br>    code = "https://github.com/Xuanmeng-Zhang/MVCGAN",  <br>    year = "2022"
-    }
+@inproceedings{zhang2022multiview,<br>author = "Zhang, Xuanmeng and Zheng, Zhedong and Gao, Daiheng and Zhang, Bang and Pan, Pan and Yang, Yi",<br>title = "Multi-View Consistent Generative Adversarial Networks for 3D-aware Image Synthesis",<br>booktitle = "CVPR",<br>url = "https://zdzheng.xyz/files/Zhang\_CVPR\_2022.pdf",<br>code = "https://github.com/Xuanmeng-Zhang/MVCGAN",<br>year = "2022"
+}
 
 ---
