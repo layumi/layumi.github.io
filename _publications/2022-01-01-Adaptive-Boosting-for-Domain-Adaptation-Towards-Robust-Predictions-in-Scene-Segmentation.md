@@ -13,7 +13,7 @@ author: '<strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="auth
 citation: ' Zhedong Zheng,  Yi Yang, &quot;Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation.&quot; IEEE Transactions on Image Processing, 2022. DOI: 10.1109/TIP.2022.3195642'
 pub_year: '2022'
 bib: >
-@article{zheng2022adaptive,<br>author = "Zheng, Zhedong and Yang, Yi",<br>doi = "10.1109/TIP.2022.3195642",<br>title = "Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation",<br>journal = "IEEE Transactions on Image Processing",<br>url = "https://zdzheng.xyz/files/TIP\_Adaboost.pdf",<br>code = "https://github.com/layumi/AdaBoost\_Seg",<br>blog = "https://zhuanlan.zhihu.com/p/593571554",<br>year = "2022"
-}
+    @article{zheng2022adaptive,<br>author = "Zheng, Zhedong and Yang, Yi",<br>doi = "10.1109/TIP.2022.3195642",<br>title = "Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation",<br>journal = "IEEE Transactions on Image Processing",<br>url = "https://zdzheng.xyz/files/TIP\_Adaboost.pdf",<br>code = "https://github.com/layumi/AdaBoost\_Seg",<br>blog = "https://zhuanlan.zhihu.com/p/593571554",<br>year = "2022"
+    }
 
 ---

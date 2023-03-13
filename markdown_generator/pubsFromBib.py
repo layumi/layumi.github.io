@@ -205,7 +205,7 @@ for pubsource in publist:
             md +="\npub_year: '" + html_escape(pub_year)+"'"
 
             bibx = "\nbib: >\n    " + bibdata.entries[bib_id].to_string('bibtex')[:-3] + "\n    }\n"
-            md += bibx.replace(',\n', ',<br>').replace('    ','')
+            md += bibx.replace(',\n', ',<br>').replace('<br>    ','<br>')
             md += "\n---"
 
             
