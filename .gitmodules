@@ -1,0 +1,6 @@
+[submodule "poster_page"]
+	path = poster_page
+	url = https://github.com/layumi/poster_page
+[submodule "DG-Net"]
+	path = DG-Net
+	url = https://github.com/layumi/DG-Net
