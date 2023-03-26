@@ -1,3 +1,6 @@
 {  
     "cleanUrls": true
+    "rewrites": [
+      {"source": "/poster_page/", "destination": "https://poster-page-beryl.vercel.app"},
+    ]
 }
