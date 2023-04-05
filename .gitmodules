@@ -1,3 +1,3 @@
 [submodule "poster_page"]
 	path = poster_page
-	url = git@github.com:layumi/poster_page.git
+	url = https://github.com/layumi/poster_page.git
