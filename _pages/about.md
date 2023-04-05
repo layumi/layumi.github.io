@@ -52,6 +52,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 News
 ======
 <ul>
+<li> We are holding the workshop at ACM Multimedia 2022 on Aerial-view Imaging. <a href="https://zdzheng.xyz/ACMMM2023Workshop/">[Call for papers]</a>  </li>
 <li> Two papers to appear at CVPR 2023. </li>
 <li> One paper on Adversarial Retrieval Attacking is accepted by IJCV 2022. <a href="https://zdzheng.xyz/publication/U-turn-C2022">[link]</a></li> 
 <li> One paper on 3D Human Re-id is accepted by TNNLS 2022. <a href="https://zdzheng.xyz/publication/Paramete2022">[link]</a></li> 

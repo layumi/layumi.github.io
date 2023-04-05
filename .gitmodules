@@ -7,3 +7,6 @@
 [submodule "ICME2022SS"]
 	path = ICME2022SS
 	url = https://github.com/layumi/ICME2022SS.git
+[submodule "ACMMM2023Workshop"]
+	path = ACMMM2023Workshop
+	url = https://github.com/layumi/ACMMM2023Workshop.git
