@@ -3,7 +3,7 @@
 	url = https://github.com/layumi/poster_page.git
 [submodule "DG-Net"]
 	path = DG-Net
-	url = https://github.com:layumi/DG-Net.git
+	url = https://github.com/layumi/DG-Net.git
 [submodule "ICME2022SS"]
 	path = ICME2022SS
 	url = https://github.com/layumi/ICME2022SS.git
