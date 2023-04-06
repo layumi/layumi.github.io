@@ -254,14 +254,6 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-  # ICME2022SS
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: false
-      share: true
 
 
 # Sass/SCSS
