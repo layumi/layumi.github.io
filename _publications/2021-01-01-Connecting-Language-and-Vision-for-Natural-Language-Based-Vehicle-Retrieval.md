@@ -9,7 +9,7 @@ venue: 'CVPR Workshop of AI City Challenge on Natural Language-Based Vehicle Ret
 paperurl: 'https://zdzheng.xyz/files/CVPRW2021_NLP_AICity.pdf'
 code: 'https://github.com/ShuaiBai623/AIC2021-T5-CLV'
 author: '<a href="https://zdzheng.xyz/authors/Shuai-Bai" class="author">Shuai Bai</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Xiaohan-Wang" class="author">Xiaohan Wang</a>, <a href="https://zdzheng.xyz/authors/Junyang-Lin" class="author">Junyang Lin</a>, <a href="https://zdzheng.xyz/authors/Zhu-Zhang" class="author">Zhu Zhang</a>, <a href="https://zdzheng.xyz/authors/Chang-Zhou" class="author">Chang Zhou</a>, <a href="https://zdzheng.xyz/authors/Hongxia-Yang" class="author">Hongxia Yang</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>'
-sqlauthor: 'Shuai-Bai, Zhedong-Zheng, Xiaohan-Wang, Junyang-Lin, Zhu-Zhang, Chang-Zhou, Hongxia-Yang, Yi-Yang, '
+sqlauthor: 'Shuai Bai, Zhedong Zheng, Xiaohan Wang, Junyang Lin, Zhu Zhang, Chang Zhou, Hongxia Yang, Yi Yang, '
 citation: ' Shuai Bai,  Zhedong Zheng,  Xiaohan Wang,  Junyang Lin,  Zhu Zhang,  Chang Zhou,  Hongxia Yang,  Yi Yang, &quot;Connecting Language and Vision for Natural Language-Based Vehicle Retrieval.&quot; CVPR Workshop of AI City Challenge on Natural Language-Based Vehicle Retrieval (the 1st Place of Track 5), 2021.'
 pub_year: '2021'
 bib: >

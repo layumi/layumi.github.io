@@ -8,7 +8,7 @@ keywords: object re-identification,image retrieval,person re-id,person re-trieva
 venue: 'Pattern Recognition Letters'
 paperurl: 'https://zdzheng.xyz/files/PRLetter18.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Yutian-Lin" class="author">Yutian Lin</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Hong-Zhang" class="author">Hong Zhang</a>, <a href="https://zdzheng.xyz/authors/Chenqiang-Gao" class="author">Chenqiang Gao</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>'
-sqlauthor: 'Yutian-Lin, Zhedong-Zheng, Hong-Zhang, Chenqiang-Gao, Yi-Yang, '
+sqlauthor: 'Yutian Lin, Zhedong Zheng, Hong Zhang, Chenqiang Gao, Yi Yang, '
 citation: ' Yutian Lin,  Zhedong Zheng,  Hong Zhang,  Chenqiang Gao,  Yi Yang, &quot;Bayesian query expansion for multi-camera person re-identification.&quot; Pattern Recognition Letters, 2020. DOI: 10.1016/j.patrec.2018.06.009'
 pub_year: '2020'
 bib: >
