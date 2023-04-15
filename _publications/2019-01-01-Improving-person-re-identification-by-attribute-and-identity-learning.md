@@ -8,7 +8,8 @@ keywords: object re-identification,image retrieval,person re-id,person re-trieva
 venue: 'Pattern Recognition'
 paperurl: 'https://zdzheng.xyz/files/PR19.pdf'
 code: 'https://github.com/vana77/Market-1501_Attribute'
-author: '<a href='https://zdzheng.xyz/authors/Yutian-Lin' class='author'>Yutian Lin</a>, <a href='https://zdzheng.xyz/authors/Liang-Zheng' class='author'>Liang Zheng</a>, <strong><a href='https://zdzheng.xyz/authors/Zhedong-Zheng' class='author'>Zhedong Zheng</a></strong>, <a href='https://zdzheng.xyz/authors/Yu-Wu' class='author'>Yu Wu</a>, <a href='https://zdzheng.xyz/authors/Zhilan-Hu' class='author'>Zhilan Hu</a>, <a href='https://zdzheng.xyz/authors/Chenggang-Yan' class='author'>Chenggang Yan</a>, <a href='https://zdzheng.xyz/authors/Yi-Yang' class='author'>Yi Yang</a>'
+author: '<a href="https://zdzheng.xyz/authors/Yutian-Lin" class="author">Yutian Lin</a>, <a href="https://zdzheng.xyz/authors/Liang-Zheng" class="author">Liang Zheng</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yu-Wu" class="author">Yu Wu</a>, <a href="https://zdzheng.xyz/authors/Zhilan-Hu" class="author">Zhilan Hu</a>, <a href="https://zdzheng.xyz/authors/Chenggang-Yan" class="author">Chenggang Yan</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>'
+sqlauthor: 'Yutian-Lin, Liang-Zheng, Zhedong-Zheng, Yu-Wu, Zhilan-Hu, Chenggang-Yan, Yi-Yang, '
 citation: ' Yutian Lin,  Liang Zheng,  Zhedong Zheng,  Yu Wu,  Zhilan Hu,  Chenggang Yan,  Yi Yang, &quot;Improving person re-identification by attribute and identity learning.&quot; Pattern Recognition, 2019. DOI: 10.1016/j.patcog.2019.06.006'
 pub_year: '2019'
 bib: >
