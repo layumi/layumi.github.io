@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 ## Data Generation
-![](https://github.com/layumi/3D-Magic-Mirror/raw/master/doc/current_rainbow_github.gif?raw=true)
+![](https://github.com/layumi/3D-Magic-Mirror/raw/master/doc/rainbow_github.gif?raw=true)
 This research area is about generate diverse and high-fidelity data. Some methods focus on the generation quality, while others further focus on the recognition performance based on the generated data.
 - 2D Human [ICCV'17](https://zdzheng.xyz/publication/Unlabele2017) [ECCV'18](https://zdzheng.xyz/publication/Macro-mi2018) [TIP'18](https://zdzheng.xyz/publication/Multi-ps2018) [TMM'22](https://zdzheng.xyz/publication/SPG-VTON2022)
 - 3D Human [arXiv'22](https://zdzheng.xyz/publication/3D-Magic2022)
