@@ -2,6 +2,7 @@
 title: "Yi Yang"
 collection: authors
 permalink: /authors/Yi-Yang
+author_profile: false
 ---
  <li> Xuanmeng Zhang,  Minyue Jiang,  Zhedong Zheng,  Xiao Tan,  Errui Ding,  Yi Yang, &quot;Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective.&quot; arXiv:2012.07620, 2020.<a href='https://zdzheng.xyz/publication/Understa2020'>[Link]</a> </li>
  <li> Xiaolong Shen,  Zhedong Zheng,  Yi Yang, &quot;StepNet: Spatial-temporal Part-aware Network for Sign Language Recognition.&quot; arXiv:2212.12857, 2022.<a href='https://zdzheng.xyz/publication/StepNet-2022'>[Link]</a> </li>

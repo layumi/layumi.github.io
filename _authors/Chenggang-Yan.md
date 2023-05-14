@@ -2,6 +2,7 @@
 title: "Chenggang Yan"
 collection: authors
 permalink: /authors/Chenggang-Yan
+author_profile: false
 ---
  <li> Tingyu Wang,  Zhedong Zheng,  Yaoqi Sun,  Tat-Seng Chua,  Yi Yang,  Chenggang Yan, &quot;Multiple-environment Self-adaptive Network for Aerial-view Geo-localization.&quot; arXiv:2204.08381, 2022.<a href='https://zdzheng.xyz/publication/Multiple2022'>[Link]</a> </li>
  <li> Zhikun Huang,  Zhedong Zheng,  Chenggang Yan,  Hongtao Xie,  Yaoqi Sun,  Jianzhong Wang,  Jiyong Zhang, &quot;Real-World Automatic Makeup via Identity Preservation Makeup Net.&quot; IJCAI, 2020.<a href='https://zdzheng.xyz/publication/Real-Wor2020'>[Link]</a> </li>

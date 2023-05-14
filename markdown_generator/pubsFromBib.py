@@ -139,6 +139,7 @@ for pubsource in publist:
                         f.write(single_author)
                         f.write("""collection: authors""")
                         f.write("""\npermalink: /authors/""" +author.first_names[0]+"-"+author.last_names[0])
+                        f.write("""\nauthor_profile: false""")
                         f.write("\n---")                        
             allauthor =  allauthor[0:-2]
             #allauthor = allauthor.replace("Zhedong Zheng","<strong>Zhedong Zheng</strong>")
