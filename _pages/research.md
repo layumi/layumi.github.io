@@ -21,7 +21,7 @@ This research area is to retrieval the relevant multi-media data including cross
 - 2D Human [TOMM'18](https://zdzheng.xyz/publication/A-discri2018), [TCSVT'19](https://zdzheng.xyz/publication/Pedestri2018), [PR'19](https://zdzheng.xyz/publication/Improvin2019), [AAAI'21](https://zdzheng.xyz/publication/Decouple2021), [TPAMI'22](https://zdzheng.xyz/publication/DMRNet-L2022), [TCYB'22](https://zdzheng.xyz/publication/Soft-Per2022), [TMM'23](https://zdzheng.xyz/publication/Progress2023)
 - 2D Vehicle [TMM'20](https://zdzheng.xyz/publication/VehicleN2020), [CVPRW'21](https://zdzheng.xyz/publication/Robust-V2021)
 - 3D Human / Objects [TNNLS'22](https://zdzheng.xyz/publication/Paramete2022), [TMM'22](https://zdzheng.xyz/publication/Self-sup2022)
-- Cross Modality (Image,Text, Video) [TOMM'20](https://zdzheng.xyz/publication/Dual-pat2020), [CVPRW'21](https://zdzheng.xyz/publication/Connecti2021) [TMM'22](https://zdzheng.xyz/publication/Align-an2022), [arXiv'22](https://zdzheng.xyz/publication/Composed2022)
+- Cross Modality (Image,Text, Video) [TOMM'20](https://zdzheng.xyz/publication/Dual-pat2020), [CVPRW'21](https://zdzheng.xyz/publication/Connecti2021), [TMM'22](https://zdzheng.xyz/publication/Align-an2022), [arXiv'22](https://zdzheng.xyz/publication/Composed2022)
 - Cross View (Drone, Satellite, Ground) [ACM MM'20](https://zdzheng.xyz/publication/Universi2020), [TCSVT'21](https://zdzheng.xyz/publication/Each-par2021), [TIP'22](https://zdzheng.xyz/publication/Joint-Re2022)
 - Sign Language [arXiv'22](https://zdzheng.xyz/publication/StepNet-2022)
 - Adversarial Examples [IJCV'22](https://zdzheng.xyz/publication/U-turn-C2022)
