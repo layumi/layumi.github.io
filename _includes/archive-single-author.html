@@ -15,11 +15,14 @@
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 
+    
     {% if post.collection == 'authors' %}
       <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
     {% endif %}
 
-
+    {% if post.profile_img%}
+	  <img src="{{ post.profile_img }}" width="500">
+	{% endif %}
 <!--	
     {% if post.citation and post.paperurl %}
       <p>{{ post.citation }} <a href="{{ post.paperurl }}"><u>{{ post.paperurl }}</u></a></p>

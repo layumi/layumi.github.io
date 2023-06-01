@@ -57,7 +57,8 @@ def html_escape(text):
     return "".join(html_escape_table.get(c,c) for c in text)
 
 
-
+coauthor_dict={}
+coauthor_dict['Xiaohan-Wang'] = '/files/xiaohan-wang.jpeg'
 for pubsource in publist:    
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
@@ -133,13 +134,16 @@ for pubsource in publist:
                     allauthor = allauthor+"<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
                 authors_filename = author.first_names[0]+"-"+author.last_names[0].replace('*','')+".md"
                 single_authors.append(authors_filename)
-                if not os.path.isfile("../_authors/" + authors_filename):
+                if not os.path.isfile("../_authors/" + authors_filename)in coauthor_dict:
                     with open("../_authors/" + authors_filename, 'w') as f:
                         single_author = "---\ntitle: \""   + author.first_names[0]+" "+author.last_names[0]  + '"\n'
                         f.write(single_author)
                         f.write("""collection: authors""")
                         f.write("""\npermalink: /authors/""" +author.first_names[0]+"-"+author.last_names[0])
                         f.write("""\nauthor_profile: false""")
+                        coname = author.first_names[0]+"-"+author.last_names[0]
+                        if coname in coauthor_dict:
+                            f.write("""\nprofile_img: """+coauthor_dict[coname])
                         f.write("\n---")                        
             allauthor =  allauthor[0:-2]
             #allauthor = allauthor.replace("Zhedong Zheng","<strong>Zhedong Zheng</strong>")
