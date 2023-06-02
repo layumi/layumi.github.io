@@ -69,6 +69,16 @@ coauthor_dict['Tat-seng-Chua'] = 'https://zdzheng.xyz/files/tat-seng-chua.jpeg'
 coauthor_dict['Xiaohan-Wang'] = 'https://zdzheng.xyz/files/xiaohan-wang.jpeg'
 coauthor_dict['Tingyu-Wang'] = 'https://zdzheng.xyz/files/tingyu-wang.jpeg'
 coauthor_dict['Xin-Yu'] = 'https://zdzheng.xyz/files/xin-yu.jpeg'
+coauthor_dict['Chuchu-Han'] = 'https://zdzheng.xyz/files/chuchu-han.jpeg'
+coauthor_dict['Wei-Ji'] = 'https://zdzheng.xyz/files/wei-ji.jpeg'
+coauthor_dict['Bingwen-Hu'] = 'https://zdzheng.xyz/files/bingwen-hu.jpeg'
+coauthor_dict['Ping-Liu'] = 'https://zdzheng.xyz/files/ping-liu.jpeg'
+coauthor_dict['Yu-Wu'] = 'https://zdzheng.xyz/files/yu-wu.jpeg'
+coauthor_dict['Yaxiong-Wang'] = 'https://zdzheng.xyz/files/yaxiong-wang.jpeg'
+coauthor_dict['Xuanmeng-Zhang'] = 'https://zdzheng.xyz/files/xuanmeng-zhang.jpeg'
+coauthor_dict['Ruijie-Quan'] = 'https://zdzheng.xyz/files/ruijie-quan.jpeg'
+
+
 for pubsource in publist:    
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
