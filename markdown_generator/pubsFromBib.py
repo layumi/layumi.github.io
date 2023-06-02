@@ -58,7 +58,7 @@ def html_escape(text):
 
 
 coauthor_dict={}
-coauthor_dict['Xiaohan-Wang'] = '/files/xiaohan-wang.jpeg'
+coauthor_dict['Xiaohan-Wang'] = 'https://zdzheng.xyz/files/xiaohan-wang.jpeg'
 for pubsource in publist:    
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
@@ -142,9 +142,9 @@ for pubsource in publist:
                         f.write("""\npermalink: /authors/""" +author.first_names[0]+"-"+author.last_names[0])
                         f.write("""\nauthor_profile: false""")
                         coname = author.first_names[0]+"-"+author.last_names[0]
+                        f.write("\n---") 
                         if coname in coauthor_dict:
-                            f.write("""\nprofile_img: """+coauthor_dict[coname])
-                        f.write("\n---")                        
+                            f.write("\n<img src=\""+coauthor_dict[coname]+"\", alt="+coname+"""", width=30%>""")                       
             allauthor =  allauthor[0:-2]
             #allauthor = allauthor.replace("Zhedong Zheng","<strong>Zhedong Zheng</strong>")
             #citation title
