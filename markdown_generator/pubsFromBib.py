@@ -144,7 +144,7 @@ for pubsource in publist:
                         coname = author.first_names[0]+"-"+author.last_names[0]
                         f.write("\n---") 
                         if coname in coauthor_dict:
-                            f.write("\n <img src=\""+coauthor_dict[coname]+"\", alt="+coname+"""", width=30%>""")                       
+                            f.write("\n <img src=\""+coauthor_dict[coname]+"\", alt=\""+coname+"""", width=30%>""")                       
             allauthor =  allauthor[0:-2]
             #allauthor = allauthor.replace("Zhedong Zheng","<strong>Zhedong Zheng</strong>")
             #citation title
