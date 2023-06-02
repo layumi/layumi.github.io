@@ -142,9 +142,10 @@ for pubsource in publist:
                         f.write("""\npermalink: /authors/""" +author.first_names[0]+"-"+author.last_names[0])
                         f.write("""\nauthor_profile: false""")
                         coname = author.first_names[0]+"-"+author.last_names[0]
-                        f.write("\n---") 
                         if coname in coauthor_dict:
-                            f.write("\n <img " + "src='"+coauthor_dict[coname] + "', alt='" + coname + "', width=30%"+ ">")                       
+                            f.write("""\nimg: """ + coauthor_dict[coname])
+                        f.write("\n---") 
+                        #    f.write("\n <img " + "src='"+coauthor_dict[coname] + "', alt='" + coname + "', width=30%"+ ">")                       
             allauthor =  allauthor[0:-2]
             #allauthor = allauthor.replace("Zhedong Zheng","<strong>Zhedong Zheng</strong>")
             #citation title

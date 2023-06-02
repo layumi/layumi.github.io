@@ -94,6 +94,10 @@ layout: default
 	      </iframe>
 		{% endif %}
 		
+		{% if page.img %}
+		  <img src="{{ page.img }}" width="30%" >
+		{% endif %}
+		
 		{% if page.citation%}  
 		    <script type="application/ld+json">
 		    { "@context": "https://schema.org", 
