@@ -4,7 +4,7 @@ collection: authors
 permalink: /authors/Xiaohan-Wang
 author_profile: false
 ---
-<img src="https://zdzheng.xyz/files/xiaohan-wang.jpeg", alt=Xiaohan-Wang", width=30%>
+ <img src="https://zdzheng.xyz/files/xiaohan-wang.jpeg", alt=Xiaohan-Wang", width=30%>
  <li> Kezhou Lin,  Xiaohan Wang,  Zhedong Zheng,  Linchao Zhu,  Yi Yang, &quot;Less is More: Sparse Sampling for Dense Reaction Predictions.&quot; CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place), 2021.<a href='https://zdzheng.xyz/publication/Less-is-2021'>[Link]</a> </li>
  <li> Shuai Bai,  Zhedong Zheng,  Xiaohan Wang,  Junyang Lin,  Zhu Zhang,  Chang Zhou,  Hongxia Yang,  Yi Yang, &quot;Connecting Language and Vision for Natural Language-Based Vehicle Retrieval.&quot; CVPR Workshop of AI City Challenge on Natural Language-Based Vehicle Retrieval (the 1st Place of Track 5), 2021.<a href='https://zdzheng.xyz/publication/Connecti2021'>[Link]</a> </li>
  <li> Chao Sun,  Zhedong Zheng,  Xiaohan Wang,  Mingliang Xu,  Yi Yang, &quot;Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes.&quot; IEEE Transactions on Multimedia, 2022.<a href='https://zdzheng.xyz/publication/Self-sup2022'>[Link]</a> </li>
