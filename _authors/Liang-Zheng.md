@@ -3,6 +3,7 @@ title: "Liang Zheng"
 collection: authors
 permalink: /authors/Liang-Zheng
 author_profile: false
+img: https://zdzheng.xyz/files/liang-zheng.jpeg
 ---
  <li> Zhedong Zheng,  Xiaodong Yang,  Zhiding Yu,  Liang Zheng,  Yi Yang,  Jan Kautz, &quot;Joint discriminative and generative learning for person re-identification.&quot; CVPR, 2019.<a href='https://zdzheng.xyz/publication/Joint-di2019'>[Link]</a> </li>
  <li> Zhun Zhong,  Liang Zheng,  Zhedong Zheng,  Shaozi Li,  Yi Yang, &quot;Camera style adaptation for person re-identification.&quot; CVPR, 2018.<a href='https://zdzheng.xyz/publication/Camera-s2018'>[Link]</a> </li>

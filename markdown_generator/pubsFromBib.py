@@ -58,7 +58,17 @@ def html_escape(text):
 
 
 coauthor_dict={}
+coauthor_dict['Yi-Yang'] = 'https://zdzheng.xyz/files/yi-yang.jpeg'
+coauthor_dict['Liang-Zheng'] = 'https://zdzheng.xyz/files/liang-zheng.jpeg'
+coauthor_dict['Zhun-Zhong'] = 'https://zdzheng.xyz/files/zhun-zhong.jpeg'
+coauthor_dict['Zhiding-Yu'] = 'https://zdzheng.xyz/files/zhiding-yu.jpeg'
+coauthor_dict['Xiaodong-Yang'] = 'https://zdzheng.xyz/files/xiaodong-yang.jpeg'
+coauthor_dict['Yutian-Lin'] = 'https://zdzheng.xyz/files/yutian-lin.jpeg'
+coauthor_dict['Yunchao-Wei'] = 'https://zdzheng.xyz/files/yunchao-wei.jpeg'
+coauthor_dict['Tat-seng-Chua'] = 'https://zdzheng.xyz/files/tat-seng-chua.jpeg'
 coauthor_dict['Xiaohan-Wang'] = 'https://zdzheng.xyz/files/xiaohan-wang.jpeg'
+coauthor_dict['Tingyu-Wang'] = 'https://zdzheng.xyz/files/tingyu-wang.jpeg'
+coauthor_dict['Xin-Yu'] = 'https://zdzheng.xyz/files/xin-yu.jpeg'
 for pubsource in publist:    
     parser = bibtex.Parser()
     bibdata = parser.parse_file(publist[pubsource]["file"])
