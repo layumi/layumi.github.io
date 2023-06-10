@@ -82,6 +82,9 @@ coauthor_dict['Mu-Chen'] = 'https://zdzheng.xyz/files/mu-chen.jpeg'
 coauthor_dict['Linchao-Zhu'] = 'https://zdzheng.xyz/files/linchao-zhu.jpeg'
 coauthor_dict['Zhiming-Luo'] = 'https://zdzheng.xyz/files/zhiming-luo.jpeg'
 coauthor_dict['Jinliang-Lin'] = 'https://zdzheng.xyz/files/jinliang-lin.jpeg'
+coauthor_dict['Leigang-Qu'] = 'https://zdzheng.xyz/files/leigang-qu.jpeg'
+coauthor_dict['Yifan-Sun'] = 'https://zdzheng.xyz/files/yifan-sun.jpeg'
+coauthor_dict['Tao-Ruan'] = 'https://zdzheng.xyz/files/tao-ruan.jpeg'
 
 
 for pubsource in publist:    
