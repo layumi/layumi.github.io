@@ -17,6 +17,9 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+	<h5 class="workshop__name"> Workshops </h5>
+	<a href="https://www.zdzheng.xyz/ACMMM2023Workshop/"> UVAM @ ACM MM23</a>
+	<a href="https://videorelation.nextcenter.org/MMIR23/"> MMIR @ ACM MM23</a>
   </div>
 
   <div class="author__urls-wrapper">
@@ -107,14 +110,14 @@
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-graduation-cap"></i> Google Scholar</a></li>
       {% endif %}
       {% if author.orcid %}
-        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid-square ai-fw"></i> ORCID</a></li>
+        <li><a href="{{ author.orcid }}"><i class="fa-brands fa-orcid"></i> ORCID</a></li>
       {% endif %}
       {% if author.zhihu %}
         <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-zhihu" aria-hidden="true"></i> Zhihu</a></li>
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-wikipedia-w" aria-hidden="true"></i> Wikipedia</a></li>
-{% endif %}
+      {% endif %}
     </ul>
   </div>
 </div>
