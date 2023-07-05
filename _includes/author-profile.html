@@ -18,11 +18,12 @@
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
 	<h5 class="workshop__name"> Workshops </h5>
-	<a href="https://www.zdzheng.xyz/ACMMM2023Workshop/"> UVAM @ ACM MM23</a>
-	<a href="https://videorelation.nextcenter.org/MMIR23/"> MMIR @ ACM MM23</a>
+	<li><a href="https://www.zdzheng.xyz/ACMMM2023Workshop/"> UVAM @ ACM MM23</a></li>
+	<li><a href="https://videorelation.nextcenter.org/MMIR23/"> MMIR @ ACM MM23</a></li>
   </div>
 
   <div class="author__urls-wrapper">
+	<h5 class="social__name"> Social Media </h5>
     <button class="btn btn--inverse">Follow</button>
     <ul class="author__urls social-icons">
       {% if author.location %}
