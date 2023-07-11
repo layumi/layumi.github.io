@@ -86,6 +86,12 @@ coauthor_dict['Leigang-Qu'] = 'https://zdzheng.xyz/files/leigang-qu.jpeg'
 coauthor_dict['Yifan-Sun'] = 'https://zdzheng.xyz/files/yifan-sun.jpeg'
 coauthor_dict['Tao-Ruan'] = 'https://zdzheng.xyz/files/tao-ruan.jpeg'
 
+aff_dict={}
+aff_dict['Yi-Yang'] = 'Professor @ ZJU'
+aff_dict['Liang-Zheng'] = 'Senior Lecturer @ ANU'
+aff_dict['Zhun-Zhong'] = 'AP @ the University of Trento'
+aff_dict['Zhiding-Yu'] = 'Senior Scientist @ Nvidia'
+aff_dict['Yunchao-Wei'] = 'Professor @ Beijing Jiaotong University'
 
 for pubsource in publist:    
     parser = bibtex.Parser()
@@ -173,6 +179,8 @@ for pubsource in publist:
                         if coname in coauthor_dict:
                             f.write("""\nimg: """ + coauthor_dict[coname])
                         f.write("\n---") 
+                        if coname in aff_dict:
+                            f.write("""\n<i>""" + aff_dict[coname]+ """</i>""")
                         #    f.write("\n <img " + "src='"+coauthor_dict[coname] + "', alt='" + coname + "', width=30%"+ ">")                       
             allauthor =  allauthor[0:-2]
             #allauthor = allauthor.replace("Zhedong Zheng","<strong>Zhedong Zheng</strong>")
