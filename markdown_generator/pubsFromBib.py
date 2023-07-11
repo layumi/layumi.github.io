@@ -162,8 +162,11 @@ for pubsource in publist:
             for author in bibdata.entries[bib_id].persons["author"]:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
                 #allauthor = allauthor +" "+author.first_names[0]+" "+author.last_names[0]+", "
+                coname = author.first_names[0]+"-"+author.last_names[0].replace('*','')
                 if author.first_names[0]=="Zhedong":
                     allauthor = allauthor+"<strong><a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a></strong>" +", "
+                elif coname in coauthor_dict: # add icon
+                    allauthor = allauthor+"<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\">" + "<img src=\"https://zdzheng.xyz/files/"+coname.lower()+ ".jpeg\"alt=\"%s\""%coname + ">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
                 else:
                     allauthor = allauthor+"<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
                 authors_filename = author.first_names[0]+"-"+author.last_names[0].replace('*','')+".md"
@@ -175,7 +178,7 @@ for pubsource in publist:
                         f.write("""collection: authors""")
                         f.write("""\npermalink: /authors/""" +author.first_names[0]+"-"+author.last_names[0])
                         f.write("""\nauthor_profile: false""")
-                        coname = author.first_names[0]+"-"+author.last_names[0]
+                        #coname = author.first_names[0]+"-"+author.last_names[0]
                         if coname in coauthor_dict:
                             f.write("""\nimg: """ + coauthor_dict[coname])
                         f.write("\n---") 
