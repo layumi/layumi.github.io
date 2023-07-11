@@ -6,7 +6,7 @@ author_profile: true
 redirect_from: 
 ---
 ## Resources
-
+- MALS Dataset. <strong><a href="https://github.com/Shuyu-XJTU/APTM"> [website]</a></strong> 
 - University-1652 Dataset. <strong><a href="https://github.com/layumi/University1652-Baseline"> [website]</a></strong>  <strong><a href="https://github.com/layumi/University1652-Baseline/tree/master/State-of-the-art"> [SoTA]</a></strong> 
 - Market-1501 and DukeMTMC-reID Attribute Datasets.  <strong><a href="https://vana77.github.io"> [website]</a></strong>
 - 3D Market-1501 Dataset.  <strong><a href="https://github.com/layumi/person-reid-3d"> [website]</a></strong> 
