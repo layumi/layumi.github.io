@@ -26,8 +26,9 @@
 	</style>
 </head>
 
-<div class="{{ include.type | default: "list" }}__item">
+<div class="{{ include.type | default: 'list' }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+<!--	
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
         <img src= {% if teaser contains "://" %}
@@ -38,7 +39,7 @@
           alt="">
       </div>
     {% endif %}
-
+-->
     <i class="archive__item-title" itemprop="headline">
       {% if post.link %}
         <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a><br />
