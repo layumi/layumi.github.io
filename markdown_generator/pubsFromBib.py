@@ -166,7 +166,7 @@ for pubsource in publist:
                 if author.first_names[0]=="Zhedong":
                     allauthor = allauthor+"<strong><a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a></strong>" +", "
                 elif coname in coauthor_dict: # add icon
-                    allauthor = allauthor + "<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\">" + "<img src=\"https://zdzheng.xyz/files/"+coname.lower()+ ".jpeg\"alt=\"%s\""%coname + "style=\"border-radius: 50%; height:20px; width:20px\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
+                    allauthor = allauthor + "<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\"> <img src=\"https://zdzheng.xyz/files/"+coname.lower()+ ".jpeg\"alt=\"%s\""%coname + "style=\"border-radius: 50%; height:20px; width:20px>" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
                 else:
                     allauthor = allauthor+"<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
                 authors_filename = author.first_names[0]+"-"+author.last_names[0].replace('*','')+".md"
