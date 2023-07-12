@@ -6,7 +6,7 @@ date: 2022-01-01
 doi: 
 keywords: 
 venue: 'arXiv:2212.12857'
-author: '<a href="https://zdzheng.xyz/authors/Xiaolong-Shen" class="author">Xiaolong Shen</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src="https://zdzheng.xyz/files/yi-yang.jpeg"alt="Yi-Yang"style="border-radius: 50%; height:20px; width:20px>Yi Yang</a>'
+author: '<a href="https://zdzheng.xyz/authors/Xiaolong-Shen" class="author">Xiaolong Shen</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src="https://zdzheng.xyz/files/yi-yang.jpeg" alt="Yi-Yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
 sqlauthor: 'Xiaolong Shen, Zhedong Zheng, Yi Yang, '
 citation: ' Xiaolong Shen,  Zhedong Zheng,  Yi Yang, &quot;StepNet: Spatial-temporal Part-aware Network for Sign Language Recognition.&quot; arXiv:2212.12857, 2022.'
 pub_year: '2022'
