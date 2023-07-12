@@ -5,6 +5,7 @@ permalink: /authors/Tat-Seng-Chua
 author_profile: false
 img: https://zdzheng.xyz/files/tat-seng-chua.jpeg
 ---
+<i>Professor @ NUS</i>
  <li> Leigang Qu,  Meng Liu,  Wenjie Wang,  Zhedong Zheng,  Liqiang Nie,  Tat-Seng Chua, &quot;Learnable Pillar-based Re-ranking for Image-Text Retrieval.&quot; SIGIR, 2023.<a href='https://zdzheng.xyz/publication/Learnabl2023'>[Link]</a> </li>
  <li> Wei Ji,  Renjie Liang,  Zhedong Zheng,  Wenqiao Zhang,  Shengyu Zhang,  Juncheng Li,  Mengze Li,  Tat-Seng Chua, &quot;Are Binary Annotations Sufficient? Video Moment Retrieval via Hierarchical Uncertainty-based Active Learning.&quot; CVPR, 2023.<a href='https://zdzheng.xyz/publication/Are-Bina2023'>[Link]</a> </li>
  <li> Jian Ma,  Zhedong Zheng,  Hao Fei,  Feng Zheng,  Tat-seng Chua,  Yi Yang, &quot;Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion.&quot; arXiv:2207.06057, 2022.<a href='https://zdzheng.xyz/publication/Subband-2022'>[Link]</a> </li>
