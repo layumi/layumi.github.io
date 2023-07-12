@@ -6,7 +6,7 @@ date: 2023-01-01
 doi: 
 keywords: 
 venue: 'arXiv:2306.02092'
-author: '<a href="https://zdzheng.xyz/authors/Xu-Zhang" class="author">Xu Zhang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <img src="https://zdzheng.xyz/files/xiaohan-wang.jpeg"alt="Xiaohan-Wang"style="border-radius: 50%; height:20px; width:20px"><a href="https://zdzheng.xyz/authors/Xiaohan-Wang" class="author">Xiaohan Wang</a>, <img src="https://zdzheng.xyz/files/yi-yang.jpeg"alt="Yi-Yang"style="border-radius: 50%; height:20px; width:20px"><a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>'
+author: '<a href="https://zdzheng.xyz/authors/Xu-Zhang" class="author">Xu Zhang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Xiaohan-Wang" class="author"><img src="https://zdzheng.xyz/files/xiaohan-wang.jpeg"alt="Xiaohan-Wang"style="border-radius: 50%; height:20px; width:20px">Xiaohan Wang</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"><img src="https://zdzheng.xyz/files/yi-yang.jpeg"alt="Yi-Yang"style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
 sqlauthor: 'Xu Zhang, Zhedong Zheng, Xiaohan Wang, Yi Yang, '
 citation: ' Xu Zhang,  Zhedong Zheng,  Xiaohan Wang,  Yi Yang, &quot;Relieving Triplet Ambiguity: Consensus Network for Language-Guided Image Retrieval.&quot; arXiv:2306.02092, 2023.'
 pub_year: '2023'
