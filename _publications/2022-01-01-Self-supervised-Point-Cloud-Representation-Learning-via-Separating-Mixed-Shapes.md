@@ -7,13 +7,14 @@ doi: 10.1109/TMM.2022.3206664
 keywords: 
 venue: 'IEEE Transactions on Multimedia'
 paperurl: 'https://zdzheng.xyz/files/TMM_3D_Pre_Training.pdf'
+blog: 'https://zhuanlan.zhihu.com/p/623476158'
 code: 'https://github.com/cyysc1998/3d-pretraining'
 author: '<a href="https://zdzheng.xyz/authors/Chao-Sun" class="author">Chao Sun</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Xiaohan-Wang" class="author">Xiaohan Wang</a>, <a href="https://zdzheng.xyz/authors/Mingliang-Xu" class="author">Mingliang Xu</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author">Yi Yang</a>'
 sqlauthor: 'Chao Sun, Zhedong Zheng, Xiaohan Wang, Mingliang Xu, Yi Yang, '
 citation: ' Chao Sun,  Zhedong Zheng,  Xiaohan Wang,  Mingliang Xu,  Yi Yang, &quot;Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes.&quot; IEEE Transactions on Multimedia, 2022. DOI: 10.1109/TMM.2022.3206664'
 pub_year: '2022'
 bib: >
-    @article{sun2022self,<br>author = "Sun, Chao and Zheng, Zhedong and Wang, Xiaohan and Xu, Mingliang and Yang, Yi",<br>doi = "10.1109/TMM.2022.3206664",<br>title = "Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes",<br>journal = "IEEE Transactions on Multimedia",<br>url = "https://zdzheng.xyz/files/TMM\_3D\_Pre\_Training.pdf",<br>code = "https://github.com/cyysc1998/3d-pretraining",<br>year = "2022"
+    @article{sun2022self,<br>author = "Sun, Chao and Zheng, Zhedong and Wang, Xiaohan and Xu, Mingliang and Yang, Yi",<br>doi = "10.1109/TMM.2022.3206664",<br>title = "Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes",<br>journal = "IEEE Transactions on Multimedia",<br>url = "https://zdzheng.xyz/files/TMM\_3D\_Pre\_Training.pdf",<br>code = "https://github.com/cyysc1998/3d-pretraining",<br>blog = "https://zhuanlan.zhihu.com/p/623476158",<br>year = "2022"
     }
 
 ---
