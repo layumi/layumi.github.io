@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Zhedong Zheng (郑哲东)"
 excerpt: ""
 author_profile: true
 redirect_from: 
