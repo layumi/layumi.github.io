@@ -30,7 +30,6 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 <hr>
 
 <h2>Research Statement</h2>
-======
 
 My work focuses on multi-view object matching and novel view synthesis and analysis, under a multi-camera scenario, e.g., swarm robotics, self-driving car, and smart city.
 
@@ -50,7 +49,6 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 <hr>
 
 <h2>News</h2>
-======
 <ul>
 <li> Two papers to appear at ACM Multimedia 2023. <a href="https://www.zdzheng.xyz/publication/Towards-2023">[link]</a> <a href="https://www.zdzheng.xyz/publication/PiPa-Pix2023">[link]</a></li>
 <li> We are holding two workshops at ACM Multimedia 2023 on Aerial-view Imaging <a href="https://zdzheng.xyz/ACMMM2023Workshop/">[Call for papers]</a> and Deep Multimodal Learning <a href="https://videorelation.nextcenter.org/MMIR23/">[Call for papers]</a> (EI-indexed).   </li>
@@ -83,7 +81,6 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 <hr>
 
 <h2>Others</h2>
-======
 <ul>
 <li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
 <li>  I was a poster maker when I studied at Fudan University. You may check out <a href="https://www.zdzheng.xyz/poster_page">my posters</a>.</li>
