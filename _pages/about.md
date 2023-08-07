@@ -50,7 +50,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <h2>News</h2>
 <ul>
-<li> Two papers to appear at ACM Multimedia 2023. <a href="https://www.zdzheng.xyz/publication/Towards-2023">[link]</a> <a href="https://www.zdzheng.xyz/publication/PiPa-Pix2023">[link]</a></li>
+<li> Two papers to appear at ACM Multimedia 2023 on Text-image re-ID <a href="https://www.zdzheng.xyz/publication/Towards-2023">[link]</a> and Domain Adaptation<a href="https://www.zdzheng.xyz/publication/PiPa-Pix2023">[link]</a></li>
 <li> We are holding two workshops at ACM Multimedia 2023 on Aerial-view Imaging <a href="https://zdzheng.xyz/ACMMM2023Workshop/">[Call for papers]</a> and Deep Multimodal Learning <a href="https://videorelation.nextcenter.org/MMIR23/">[Call for papers]</a> (EI-indexed).   </li>
 <li> Two papers to appear at CVPR 2023. </li>
 <li> One paper on Adversarial Retrieval Attacking is accepted by IJCV 2022. <a href="https://zdzheng.xyz/publication/U-turn-C2022">[link]</a></li> 
