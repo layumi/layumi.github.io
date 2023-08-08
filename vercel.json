@@ -1,7 +1,4 @@
 {  
     "cleanUrls": true,
-    "headers": [
-        {"Cache-Control": "max-age=29"
-        }
-    ]
+    "Cache-Control": "s-maxage=1, stale-while-revalidate"
 }
