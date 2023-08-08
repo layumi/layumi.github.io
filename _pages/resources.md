@@ -6,6 +6,9 @@ author_profile: true
 redirect_from: 
 ---
 
+<meta name="description"
+  content="Open-source Code and Datasets for Person Re-ID and Person Search"/>
+
 <meta name="keywords" content="Code and Dataset, Person Re-ID, Object Re-ID, Person Retrieval, Domain Adaptation and Person Search" />
 
 ### Resources
