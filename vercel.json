@@ -1,9 +1,7 @@
 {  
     "cleanUrls": true,
     "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "max-age=29"
+        {"Cache-Control": "max-age=29"
         }
     ]
 }
