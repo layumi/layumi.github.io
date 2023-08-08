@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <meta name="description"
-  content="Zhedong Zheng is currently a postdoctoral research fellow at School of Computing, National University of Singapore with Prof. Tat-Seng Chua and Prof Angela Yao.  2017 - 2021 Zhedong received Ph.D. from the ReLER Lab, University of Technology Sydney (UTS) , under the supervision of Prof. Yi Yang and Dr. Liang Zheng (co-supervisor).  2012 - 2016 Zhedong received my Bachelor’s degree from Fudan University in 2016, under the supervision of Prof. Xiangyang Xue.  2018, 2020 Zhedong was fortunate to spend my summer working with Xiaodong Yang (Nvida), Zhiding Yu (Nvidia), Jan Kautz (Nvidia), Minyue Jiang (Baidu) and Xiao Tan (Baidu).">
+  content="Zhedong Zheng is a distinguished postdoctoral research fellow at the National University of Singapore, specializing in person re-identification (reID). He obtained his Ph.D. from UTS's ReLER Lab, mentored by Prof. Yi Yang and Dr. Liang Zheng. With a strong foundation from Fudan University, he has collaborated with leading experts at Nvidia and Baidu. His focus on reID underscores his dedication to advancing this vital field.">
   
 <meta name="keywords" content="Zhedong Zheng, Person Re-ID, Object Re-ID, Person Retrieval, Person Search" />
 		   
