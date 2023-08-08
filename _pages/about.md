@@ -100,7 +100,7 @@ Do not press the red button!
 <link rel="dns-prefetch" href="//cdn.clustrmaps.com">
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&cmo=faa659&cl=ffffff&w=a' async></script>
 
-		    <script type="application/ld+json">
+<script type="application/ld+json">
 		    { "@context": "https://schema.org", 
 		     "@type": "Person",
 			 "name": "Zhedong Zheng",
@@ -129,7 +129,7 @@ Do not press the red button!
 				"https://www.zhihu.com/people/zhengzhedong"
 			 	]
 	        }
-		    </script>
+</script>
 </div>
 
 
