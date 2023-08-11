@@ -1,7 +1,7 @@
 ---
-title: "Person reID LeaderBoard"
+title: "Awesome reID"
 collection: pages
-permalink: /Leaderboard-reID
+permalink: /Awesome-reID
 author_profile: false
 ---
 
