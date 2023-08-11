@@ -14,6 +14,7 @@
 -->
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+  document.addEventListener('touchstart', onTouchStart, {passive: true});
 </script>
 
 <!-- For all browsers -->
