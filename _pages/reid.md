@@ -14,6 +14,7 @@ Priorities are given to papers whose codes are published.
  * [Transfer Learning](#transfer-learning)
  
 ### Code
+
 :red_car:  The 1st Place Submission to AICity Challenge 2020 re-id track [[code]](https://github.com/layumi/AICIty-reID-2020)
 [[paper]](https://github.com/layumi/AICIty-reID-2020/blob/master/paper.pdf)
  
@@ -108,6 +109,7 @@ Is it possible to use less annotation on the unseen dataset, especially ID label
 | UDARTP | :heavy_check_mark: | 75.0% | 57.1% | "[Unsupervised Domain Adaptive Re-Identification: Theory and Practice](https://arxiv.org/pdf/1807.11334.pdf)", Liangchen Song, Cheng Wang, Lefei Zhang, Bo Du, Qian Zhang, Chang Huang, and Xinggang Wang, arXiv:1807.11334|
 
 ### Train on [MSMT17](https://www.pkuvmc.com/publications/msmt17.html), Test on Market
+
 |Methods | Use Market Training Data (without ID label but may use the camera ID)| Rank@1 | mAP| Reference|
 | -------- | ----- | ----- | ---- | ---- |
 |OG-Net| :heavy_multiplication_x:|  40.1% | 17.6% | "[Parameter-Efficient Person Re-identification in the 3D Space](https://arxiv.org/abs/2006.04569)",  Zhedong Zheng and Yi Yang, TNNLS 2022. [**[pytorch code]**](https://github.com/layumi/person-reid-3d)| 
