@@ -13,8 +13,14 @@ redirect_from:
 
 ### Resources
 - MALS Dataset. <strong><a href="https://github.com/Shuyu-XJTU/APTM"> [website]</a></strong> 
+We present a large Multi-Attribute and Language Search dataset for text-based person retrieval, called MALS, and explore the feasibility of performing pre-training on both attribute recognition and image-text matching tasks in one stone. In particular, MALS contains 1, 510, 330 image-text pairs, which is about 37.5× larger than prevailing CUHK-PEDES, and all images are annotated with 27 attributes.
+
 - University-1652 Dataset. <strong><a href="https://github.com/layumi/University1652-Baseline"> [website]</a></strong>  <strong><a href="https://github.com/layumi/University1652-Baseline/tree/master/State-of-the-art"> [SoTA]</a></strong> 
+We collect 1652 buildings of 72 universities around the world. University-1652 contains data from three platforms, i.e., synthetic drones, satellites and ground cameras of 1,652 university buildings around the world. To our knowledge, University-1652 is the first drone-based geo-localization dataset and enables two new tasks, i.e., drone-view target localization and drone navigation.
+
 - Market-1501 and DukeMTMC-reID Attribute Datasets.  <strong><a href="https://vana77.github.io"> [website]</a></strong>
+We manually annotate attribute labels for two large-scale re-ID datasets, and systematically investigate how person re-ID and attribute recognition benefit from each other. 
+
 - 3D Market-1501 Dataset.  <strong><a href="https://github.com/layumi/person-reid-3d"> [website]</a></strong> 
 - HQ-Market super resolution Dataset. <strong><a href="https://github.com/layumi/HQ-Market"> [website]</a></strong>
 - DukeMTMC-reID Dataset.  <strong><a href="https://github.com/layumi/Duke_evaluation"> [website]</a></strong>  <strong><a href="https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/leaderboard"> [SoTA]</a></strong> 
