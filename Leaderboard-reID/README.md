@@ -5,7 +5,6 @@ permalink: /Leaderboard-reID
 author_profile: false
 ---
 
-# Person reID LeaderBoard
 If you notice any result or the public code that has not been included in this table, please connect [Zhedong Zheng](mailto:zdzheng12@gmail.com) without hesitation to add the method. You are welcomed! 
 or create pull request.
 
@@ -14,13 +13,13 @@ Priorities are given to papers whose codes are published.
  * [Supervised Learning](#supervised-learning)
  * [Transfer Learning](#transfer-learning)
  
- ### Code
- :red_car:  The 1st Place Submission to AICity Challenge 2020 re-id track [[code]](https://github.com/layumi/AICIty-reID-2020)
- [[paper]](https://github.com/layumi/AICIty-reID-2020/blob/master/paper.pdf)
+### Code
+:red_car:  The 1st Place Submission to AICity Challenge 2020 re-id track [[code]](https://github.com/layumi/AICIty-reID-2020)
+[[paper]](https://github.com/layumi/AICIty-reID-2020/blob/master/paper.pdf)
  
- :helicopter:  Drone-based building re-id [[code]](https://github.com/layumi/University1652-Baseline)  [[paper]](https://arxiv.org/abs/2002.12186)
+:helicopter:  Drone-based building re-id [[code]](https://github.com/layumi/University1652-Baseline)  [[paper]](https://arxiv.org/abs/2002.12186)
  
- ## Supervised Learning
+## Supervised Learning
 |Methods | Rank@1 | mAP| Reference|
 | -------- | ----- | ---- | ---- |
 |BoW+kissme | 25.13% | 12.17% | "[Scalable person re-identification: a benchmark](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=7410490)", Liang Zheng, Liyue Shen, Lu Tian, Shengjin Wang, Jingdong Wang and Qi Tian, ICCV 2015 [**[project]**](http://www.liangzheng.org/Project/project_reid.html)|
