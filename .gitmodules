@@ -11,5 +11,5 @@
 	path = ACMMM2023Workshop
 	url = https://github.com/layumi/ACMMM2023Workshop.git
 [submodule "Pytorch-reID"]
-        path = Pytorch-reID
+        path = Pytorch-ReID
         url = https://github.com/layumi/Person_reID_baseline_pytorch.git
