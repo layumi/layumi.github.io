@@ -21,9 +21,9 @@ author_profile: true
 
 澳门大学在计算机领域专业排名CS Rankings排名中，澳大位于全球49位。上交计算机学科排名76-100位。大学具体排名如下：
 - Times Higher Education Young University Rankings：26
-QS World University Rankings Top 50 Under 50: 44
-QS World University Rankings：254
-Times Higher Education World University Rankings: 201-250
+- QS World University Rankings Top 50 Under 50: 44
+- QS World University Rankings：254
+- Times Higher Education World University Rankings: 201-250
 
 ### 研究方向
 
