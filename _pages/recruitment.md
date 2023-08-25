@@ -11,7 +11,13 @@ author_profile: true
 
 ### 导师简介
 
-郑哲东 (Zhedong Zheng)，2016年本科毕业于复旦大学，2021年博士毕业于悉尼科技大学，后于新加坡国立大学进行博士后研究。获得2021年IEEE电路与系统学会杰出年轻作者奖（每年一位），之江实验室国际青年人才基金，连续两届CVPR AICity Challenge 冠军，入选全球前2%顶尖科学家榜单 （2022，2021）。在CVPR、ICCV、TPAMI、IJCV、ACM MM等会议期刊发表论文30余篇，其中6篇为ESI高被引论文。同时担任TPAMI、IJCV、TIP、 TMM、TCSVT等领域期刊审稿人，任CVPR、ICCV、ECCV、NeurIPS、IJCAI、ACM MM等会议审稿人。谷歌学术引用8,000余次，Github开源代码7,800 stars。研究方向为表征学习(Representation Learning)和 多媒体生成(Multimedia Generation)。Google Scholar见https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ ，更多信息可以查看https://zdzheng.xyz 。
+郑哲东 (Zhedong Zheng)，2016年本科毕业于复旦大学，2021年博士毕业于悉尼科技大学，后于新加坡国立大学进行博士后研究。在博士期间，他曾于美国Nvidia Research和百度实习。 
+
+
+他曾获得2021年IEEE电路与系统学会杰出年轻作者奖（每年一位），之江实验室国际青年人才基金，连续两届CVPR AICity Challenge 冠军，入选全球前2%顶尖科学家榜单 （2022，2021）。同时担任TPAMI、IJCV、TIP、 TMM、TCSVT等领域期刊审稿人，任CVPR、ICCV、ECCV、NeurIPS、ACM MM等会议审稿人，IJCAI、AAAI等会议SPC。
+
+
+他的研究方向为表征学习(Representation Learning)和 多媒体生成(Multimedia Generation)，在CVPR、ICCV、TPAMI、IJCV、ACM MM等会议期刊发表论文30余篇，其中6篇为ESI高被引论文，谷歌学术引用8,000余次，Github开源代码7,800 stars。Google Scholar见https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ ，更多信息可以查看https://zdzheng.xyz 。
 
 ![](http://emuchvimg.oss-cn-qingdao.aliyuncs.com/img/2020/0109/w104h4105283_1578558892_239.jpg)
 
@@ -27,7 +33,7 @@ author_profile: true
 
 ### 研究方向
 
-具体研究方向为行人重识别/生成、多模态检索/生成、3D人体理解/生成、领域迁移等。可见https://www.zdzheng.xyz/research 
+具体研究方向为行人重识别/生成、多模态检索/生成、3D人体理解/生成、领域迁移等。可见https://www.zdzheng.xyz/research 在读期间支持去顶级研究机构（CMU, Nvidia Research, NUS, MSRA）研究实习。
  
 ### 任职要求
 
