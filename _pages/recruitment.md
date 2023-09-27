@@ -25,11 +25,11 @@ author_profile: true
 
 澳门大学是澳门本地唯一综合性公立大学，位于澳门氹仔大学大马路，共设立有3个国家重点实验室：中药质量研究国家重点实验室、模拟与混合信号超大规模集成电路国家重点实验室、智慧城市物联网国家重点实验室。本课题组也隶属于智慧城市物联网国家重点实验室。
 
-澳门大学在计算机领域专业排名CS Rankings排名中，澳大位于全球49位。上交计算机学科排名76-100位。大学具体排名如下：
+澳门大学在计算机领域专业排名CS Rankings排名中，上交计算机学科排名76-100位。大学具体排名如下：
 - Times Higher Education Young University Rankings：26
 - QS World University Rankings Top 50 Under 50: 44
 - QS World University Rankings：254
-- Times Higher Education World University Rankings: 201-250
+- Times Higher Education World University Rankings 2024: 193
 
 ### 研究方向
 
