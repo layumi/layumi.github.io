@@ -109,6 +109,7 @@ aff_dict['Yifan-Sun'] = '@ Baidu Research'
 aff_dict['Errui-Ding'] = '@ Baidu Research'
 
 
+html_filename_total = []
 
 for pubsource in publist:    
     parser = bibtex.Parser()
@@ -151,6 +152,9 @@ for pubsource in publist:
             md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
             #html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
             html_filename = url_slug[0:8] + pub_year
+            if html_filename in html_filename_total:
+                html_filename += '_1'
+            html_filename_total.append(html_filename)
             #Build Citation from text
             citation = ""
             allauthor = ""
