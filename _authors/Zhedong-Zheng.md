@@ -6,6 +6,7 @@ author_profile: false
 ---
  <li> Xuanmeng Zhang,  Minyue Jiang,  Zhedong Zheng,  Xiao Tan,  Errui Ding,  Yi Yang, &quot;Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective.&quot; arXiv:2012.07620, 2020.<a href='https://zdzheng.xyz/publication/Understa2020'>[Link]</a> </li>
  <li> Xiaolong Shen,  Zhedong Zheng,  Yi Yang, &quot;StepNet: Spatial-temporal Part-aware Network for Sign Language Recognition.&quot; arXiv:2212.12857, 2022.<a href='https://zdzheng.xyz/publication/StepNet-2022'>[Link]</a> </li>
+ <li> Han Yi,  Zhedong Zheng,  Xiangyu Xu,  Tat-seng Chua, &quot;Progressive Text-to-3D Generation for Automatic 3D Prototyping.&quot; arXiv preprint arXiv:2309.14600, 2023.<a href='https://zdzheng.xyz/publication/Progress2023'>[Link]</a> </li>
  <li> Leigang Qu,  Meng Liu,  Wenjie Wang,  Zhedong Zheng,  Liqiang Nie,  Tat-Seng Chua, &quot;Learnable Pillar-based Re-ranking for Image-Text Retrieval.&quot; SIGIR, 2023.<a href='https://zdzheng.xyz/publication/Learnabl2023'>[Link]</a> </li>
  <li> Chao Wang,  Zhedong Zheng,  Ruijie Quan,  Yifan Sun,  Yi Yang, &quot;Context-aware Pretraining for Efficient Blind Image Decomposition.&quot; CVPR, 2023.<a href='https://zdzheng.xyz/publication/Context-2023'>[Link]</a> </li>
  <li> Wei Ji,  Renjie Liang,  Zhedong Zheng,  Wenqiao Zhang,  Shengyu Zhang,  Juncheng Li,  Mengze Li,  Tat-Seng Chua, &quot;Are Binary Annotations Sufficient? Video Moment Retrieval via Hierarchical Uncertainty-based Active Learning.&quot; CVPR, 2023.<a href='https://zdzheng.xyz/publication/Are-Bina2023'>[Link]</a> </li>

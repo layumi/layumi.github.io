@@ -251,6 +251,12 @@ for pubsource in publist:
                     md += "\nblog: '" + b["blog"] + "'"
                     blog = True
 
+            video = False
+            if "video" in b.keys():
+                if len(str(b["video"])) > 5:
+                    md += "\nvideo: '" + b["video"] + "'"
+                    video = True
+
             code = False
             if "code" in b.keys():
                 if len(str(b["code"])) > 5:
