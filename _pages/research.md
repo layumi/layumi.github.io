@@ -10,8 +10,9 @@ redirect_from:
 ![](https://github.com/layumi/3D-Magic-Mirror/raw/master/doc/rainbow_github.gif?raw=true)
 This research area is about generate diverse and high-fidelity data. Some methods focus on the generation quality, while others further focus on the recognition performance based on the generated data.
 - 2D Human [ICCV'17](https://zdzheng.xyz/publication/Unlabele2017), [ECCV'18](https://zdzheng.xyz/publication/Macro-mi2018), [TIP'18](https://zdzheng.xyz/publication/Multi-ps2018), [CVPR'19](https://www.zdzheng.xyz/publication/Joint-di2019), [TMM'22](https://zdzheng.xyz/publication/SPG-VTON2022)
-- 3D Human [arXiv'22](https://zdzheng.xyz/publication/3D-Magic2022)
-- Text Human [ACM MM'23](https://www.zdzheng.xyz/publication/Towards-2023)
+- 2D to 3D Human [arXiv'22](https://zdzheng.xyz/publication/3D-Magic2022)
+- Text to Human [ACM MM'23](https://www.zdzheng.xyz/publication/Towards-2023)
+- Text to 3D [ArXiv'23](https://www.zdzheng.xyz/publication/Progress2023)
 - Face [IJCAI'20](https://zdzheng.xyz/publication/Real-Wor2020), [TCYB'20](https://zdzheng.xyz/publication/Unsuperv2020), [CVPR'22](https://zdzheng.xyz/publication/Multi-Vi2022)
 - Sign Language [arXiv'22](https://zdzheng.xyz/publication/Jointly-2022) 
 
