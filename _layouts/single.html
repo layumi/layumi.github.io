@@ -83,10 +83,12 @@ layout: default
 		{% if page.abs %}
 		  <p><strong>Abstract:</strong> {{ page.abs}} </p>
 		{% endif %}
-		
+			
 		{% if page.bib %}
 		  <meta name="description" content="{{page.citation}}">
 		  <pre class="bibtex-content">{{page.bib}}</pre>
+		{% else %}
+		  <meta name="description" content="{{page.title}}">
 		{% endif %}
 		
 		{% if page.paperurl%} 
@@ -96,7 +98,6 @@ layout: default
 		
 		{% if page.img %}
 		  <img src="{{ page.img }}" width="30%" alt="{{page.title}}">
-		  <meta name="description" content="{{page.title}}">
 		  <meta name="og:image" content="{{ page.img }}">
 		  <script type="application/ld+json">
 		      {"@context": "https://schema.org",
@@ -106,6 +107,7 @@ layout: default
 			}
 		  </script>
 		{% endif %}
+		
 		
 		{% if page.citation%}  
 		    <script type="application/ld+json">
