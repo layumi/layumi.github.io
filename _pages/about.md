@@ -62,7 +62,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 <li> One Nerf paper to appear at CVPR 2022. <a href="https://zdzheng.xyz/publication/Multi-Vi2022">[link]</a></li> 
 <li> We are holding the special session at ICME 2022 on Beyond Accuracy: Responsible, Responsive, and Robust Multimedia Retrieval. <a href="https://zdzheng.xyz/ICME2022SS/">[Call for papers]</a>  </li>
 <li> My Ph.D. thesis was on the Chancellor's List. </li>
-<li> I was awarded 2021 IEEE Circuits and Systems Society Outstanding Young Author Award. Thanks a lot for  supports and understanding from my supervisors and friends. <a href="https://ieee-cas.org/outstanding-young-author-award">[link]</a> </li>
+<li> I was awarded 2021 IEEE Circuits and Systems Society Outstanding Young Author Award. Thanks a lot for  supports and understanding from my supervisors and friends. <a href="https://ieee-cas.org/award/outstanding-paper-awards/outstanding-young-author-award#recipients">[link]</a> </li>
 <li> One paper on Uncertainty is accepted by IJCV 2021. 
 	<a href="https://zdzheng.xyz/publication/Recti2021">[PDF]</a> <a href="https://github.com/layumi/Seg_Uncertainty">[code]</a> </li>
 <li> We have released a new Drone-view Geo-localization Dataset, ACM Multimedia 2020.<strong> 
