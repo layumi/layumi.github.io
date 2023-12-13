@@ -102,7 +102,7 @@ Do not press the red button!
 			 "name": "Zhedong Zheng",
 			 "gender": "Male",
 			 "Description": "Computer Vision Researcher",
-			 "jobTitle": "Research Fellow",
+			 "jobTitle": "Assistant Professor at the University of Macau",
 			 "alumniOf": [
 			 	{
 			 	 "@type": "University",
