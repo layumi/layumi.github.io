@@ -12,13 +12,9 @@ redirect_from:
   
 <meta name="keywords" content="Zhedong Zheng, Person Re-ID, Object Re-ID, Person Retrieval, Person Search" />
 		   
-Hi! I am currently a postdoctoral research fellow at School of Computing, National University of Singapore with <a href="https://www.comp.nus.edu.sg/cs/bio/chuats/">Prof. Tat-Seng Chua</a> and <a href="https://www.comp.nus.edu.sg/~ayao/">Prof. Angela Yao</a>.
-
-**2017 - 2021** I received Ph.D. from the <a href="https://reler.net/">ReLER Lab</a>, <a href="https://www.uts.edu.au/">University of Technology Sydney (UTS) </a>, under the supervision of <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ">Prof. Yi Yang</a> and <a href="https://zheng-lab.cecs.anu.edu.au/">Dr. Liang Zheng</a> (co-supervisor). 
-
-**2012 - 2016** I received my Bachelor's degree from <a href="https://www.fudan.edu.cn">Fudan University</a> in 2016, under the supervision of <a href="https://scholar.google.com.au/citations?user=DTbhX6oAAAAJ&hl=en">Prof. Xiangyang Xue</a>. 
-
-**2018, 2020** I was fortunate to spend my summer working with <a href='https://xiaodongyang.org/'>Xiaodong Yang</a> (Nvida), <a href='https://chrisding.github.io/'>Zhiding Yu</a> (Nvidia), <a href='https://jankautz.com/'>Jan Kautz</a> (Nvidia), <a href='https://github.com/miraclebiu'>Minyue Jiang</a> (Baidu) and <a href='https://scholar.google.com/citations?user=R1rVRUkAAAAJ'>Xiao Tan</a> (Baidu). 
+Hi! I am currently a tenure track assistant professor with the University of Macau. Prior to this, I was postdoctoral research fellow at School of Computing, National University of Singapore with <a href="https://www.comp.nus.edu.sg/cs/bio/chuats/">Prof. Tat-Seng Chua</a> and <a href="https://www.comp.nus.edu.sg/~ayao/">Prof. Angela Yao</a>. I received Ph.D. from the <a href="https://reler.net/">ReLER Lab</a>, <a href="https://www.uts.edu.au/">University of Technology Sydney (UTS) </a>, under the supervision of <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ">Prof. Yi Yang</a> and <a href="https://zheng-lab.cecs.anu.edu.au/">Dr. Liang Zheng</a> (co-supervisor). 
+Before that, I completed my Bachelor's degree from <a href="https://www.fudan.edu.cn">Fudan University</a> in 2016, under the supervision of <a href="https://scholar.google.com.au/citations?user=DTbhX6oAAAAJ&hl=en">Prof. Xiangyang Xue</a>. 
+Throughout my academic journey, I have been fortunate to collaborate with several talented researchers, <a href='https://xiaodongyang.org/'>Xiaodong Yang</a> (Nvida), <a href='https://chrisding.github.io/'>Zhiding Yu</a> (Nvidia), <a href='https://jankautz.com/'>Jan Kautz</a> (Nvidia), <a href='https://github.com/miraclebiu'>Minyue Jiang</a> (Baidu) and <a href='https://scholar.google.com/citations?user=R1rVRUkAAAAJ'>Xiao Tan</a> (Baidu). 
 
 Open-source projects can be found at my <a href='https://github.com/layumi'>[Github]</a>, and publications can be found at  [SCI](https://www.webofscience.com/wos/author/record/434956), [SCOPUS](https://www.scopus.com/authid/detail.uri?authorId=57200174037), or [Google Scholar](https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ).
 
@@ -52,7 +48,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <h2>News</h2>
 <ul>
-<li> Two papers to appear at ACM Multimedia 2023 on Text-image re-ID <a href="https://www.zdzheng.xyz/publication/Towards-2023">[link]</a> and Domain Adaptation<a href="https://www.zdzheng.xyz/publication/PiPa-Pix2023">[link]</a></li>
+<li> Two papers to appear at ACM Multimedia 2023 on Text-image re-ID <a href="https://www.zdzheng.xyz/publication/Towards-2023">[link]</a> and Domain Adaptation <a href="https://www.zdzheng.xyz/publication/PiPa-Pix2023">[link]</a></li>
 <li> We are holding two workshops at ACM Multimedia 2023 on Aerial-view Imaging <a href="https://zdzheng.xyz/ACMMM2023Workshop/">[Call for papers]</a> and Deep Multimodal Learning <a href="https://videorelation.nextcenter.org/MMIR23/">[Call for papers]</a> (EI-indexed).   </li>
 <li> Two papers to appear at CVPR 2023. </li>
 <li> One paper on Adversarial Retrieval Attacking is accepted by IJCV 2022. <a href="https://zdzheng.xyz/publication/U-turn-C2022">[link]</a></li> 
