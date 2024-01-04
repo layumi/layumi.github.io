@@ -13,3 +13,6 @@
 [submodule "Pytorch-reID"]
         path = Pytorch-ReID
         url = https://github.com/layumi/Person_reID_baseline_pytorch.git
+[submodule "MORE2024"]
+	path = MORE2024
+	url = git@github.com:layumi/MORE2024.git
