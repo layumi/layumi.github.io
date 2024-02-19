@@ -14,7 +14,7 @@ This research area is about generate diverse and high-fidelity data. Some method
 - Text to Human [ACM MM'23](https://www.zdzheng.xyz/publication/Towards-2023)
 - Text to 3D [ArXiv'23](https://www.zdzheng.xyz/publication/Progress2023)
 - Face [IJCAI'20](https://zdzheng.xyz/publication/Real-Wor2020), [TCYB'20](https://zdzheng.xyz/publication/Unsuperv2020), [CVPR'22](https://zdzheng.xyz/publication/Multi-Vi2022)
-- Sign Language [arXiv'22](https://zdzheng.xyz/publication/Jointly-2022) 
+- Sign Language [TOMM'24](https://zdzheng.xyz/publication/Jointly-2024) 
 
 
 ## Content-based Retrieval 
