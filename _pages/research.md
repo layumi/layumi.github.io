@@ -34,4 +34,4 @@ This research area is to retrieval the relevant multi-media data including cross
 This research area is to minimize the gap between the generated data / simulation system with the real-world data / scenario during deployment. 
 - Person Re-ID [CVPR'18](https://zdzheng.xyz/publication/Camera-s2018), [TIP'19](https://zdzheng.xyz/publication/Camstyle2019)
 - Semantic Segmenetation [IJCAI'20](https://zdzheng.xyz/publication/Unsuperv2020), [IJCV'21](https://zdzheng.xyz/publication/Rectifyi2021), [TIP'22](https://zdzheng.xyz/publication/Adaptive2022), [ACM MM'23](https://zdzheng.xyz/publication/PiPa-Pix2023)
-- Weather [arXiv'22](https://zdzheng.xyz/publication/Multiple2022)
+- Weather [PR'24](https://zdzheng.xyz/publication/Multiple2024)
