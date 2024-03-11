@@ -113,12 +113,12 @@ layout: default
 		    <script type="application/ld+json">
 		    { "@context": "https://schema.org", 
 		     "@type": "ScholarlyArticle",
-		     "author": "{{ page.sqlauthor}}",
+		     "author": ["{{ page.sqlauthor}}"],
 		     "headline": "{{ page.title}}",
 		     "isPartOf": {
 		       "@type": "PublicationVolume",
-		       "name": "{{ page.venue}}",
-		     }
+		       "name": "{{ page.venue}}"
+		     },
 			 "keywords": ["{{ page.keywords}}"],
 		     "datePublished": "{{ page.date}}"
 	        }
