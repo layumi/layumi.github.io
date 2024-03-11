@@ -107,11 +107,11 @@ Do not press the red button!
 			 "jobTitle": "Assistant Professor at the University of Macau",
 			 "alumniOf": [
 			 	{
-			 	 "@type": "University",
+			 	 "@type": "EducationalOrganization",
 			 	 "name": "University of Technology Sydney"
 			 	},
 			 	{
-			 	 "@type": "University",
+			 	 "@type": "EducationalOrganization",
 			 	 "name": "Fudan University"
 			 	}
 			 ],
