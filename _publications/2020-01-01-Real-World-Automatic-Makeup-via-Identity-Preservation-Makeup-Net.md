@@ -10,7 +10,7 @@ paperurl: 'https://zdzheng.xyz/files/Huang_ijcai20.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/150116945'
 code: 'https://github.com/huangzhikun1995/IPM-Net'
 author: '<a href="https://zdzheng.xyz/authors/Zhikun-Huang" class="author">Zhikun Huang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Chenggang-Yan" class="author">Chenggang Yan</a>, <a href="https://zdzheng.xyz/authors/Hongtao-Xie" class="author">Hongtao Xie</a>, <a href="https://zdzheng.xyz/authors/Yaoqi-Sun" class="author">Yaoqi Sun</a>, <a href="https://zdzheng.xyz/authors/Jianzhong-Wang" class="author">Jianzhong Wang</a>, <a href="https://zdzheng.xyz/authors/Jiyong-Zhang" class="author">Jiyong Zhang</a>'
-sqlauthor: 'Zhikun Huang, Zhedong Zheng, Chenggang Yan, Hongtao Xie, Yaoqi Sun, Jianzhong Wang, Jiyong Zhang, '
+sqlauthor: '[ {"@type": "Person","name":Zhikun Huang}, {"@type": "Person","name":Zhedong Zheng}, {"@type": "Person","name":Chenggang Yan}, {"@type": "Person","name":Hongtao Xie}, {"@type": "Person","name":Yaoqi Sun}, {"@type": "Person","name":Jianzhong Wang}, {"@type": "Person","name":Jiyong Zhang}, ]'
 citation: ' Zhikun Huang,  Zhedong Zheng,  Chenggang Yan,  Hongtao Xie,  Yaoqi Sun,  Jianzhong Wang,  Jiyong Zhang, &quot;Real-World Automatic Makeup via Identity Preservation Makeup Net.&quot; IJCAI, 2020.'
 pub_year: '2020'
 bib: >

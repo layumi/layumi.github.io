@@ -112,12 +112,15 @@ layout: default
 		{% if page.citation%}  
 		    <script type="application/ld+json">
 		    { "@context": "https://schema.org", 
-		     "@type": "Article",
+		     "@type": "ScholarlyArticle",
 		     "author": "{{ page.sqlauthor}}",
 		     "headline": "{{ page.title}}",
-		     "journal": "{{ page.venue}}",
-			 "keywords": "{{ page.keywords}}",
-		     "year": "{{page.date}}"
+		     "isPartOf": {
+		       "@type": "PublicationVolume",
+		       "name": "{{ page.venue}}",
+		     }
+			 "keywords": ["{{ page.keywords}}"],
+		     "datePublished": "{{ page.date}}"
 	        }
 		    </script>
 		{% endif %}
