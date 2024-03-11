@@ -9,7 +9,7 @@ venue: 'IEEE Transactions on Image Processing (TIP)'
 paperurl: 'https://zdzheng.xyz/files/TIP-08485427.pdf'
 code: 'https://github.com/zhunzhong07/CamStyle'
 author: '<a href="https://zdzheng.xyz/authors/Zhun-Zhong" class="author"> <img src="https://zdzheng.xyz/files/zhun-zhong.jpeg" alt="Zhun-Zhong" style="border-radius: 50%; height:20px; width:20px">Zhun Zhong</a>, <a href="https://zdzheng.xyz/authors/Liang-Zheng" class="author"> <img src="https://zdzheng.xyz/files/liang-zheng.jpeg" alt="Liang-Zheng" style="border-radius: 50%; height:20px; width:20px">Liang Zheng</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Shaozi-Li" class="author">Shaozi Li</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src="https://zdzheng.xyz/files/yi-yang.jpeg" alt="Yi-Yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
-sqlauthor: [ {"@type": "Person","name":Zhun Zhong}, {"@type": "Person","name":Liang Zheng}, {"@type": "Person","name":Zhedong Zheng}, {"@type": "Person","name":Shaozi Li}, {"@type": "Person","name":Yi Yang}, ]
+sqlauthor: '[ {"@type": "Person","name": Zhun Zhong}, {"@type": "Person","name": Liang Zheng}, {"@type": "Person","name": Zhedong Zheng}, {"@type": "Person","name": Shaozi Li}, {"@type": "Person","name": Yi Yang}, ]'
 citation: ' Zhun Zhong,  Liang Zheng,  Zhedong Zheng,  Shaozi Li,  Yi Yang, &quot;Camstyle: A novel data augmentation method for person re-identification.&quot; IEEE Transactions on Image Processing (TIP), 2019. DOI: 10.1109/TIP.2018.2874313'
 pub_year: '2019'
 bib: >

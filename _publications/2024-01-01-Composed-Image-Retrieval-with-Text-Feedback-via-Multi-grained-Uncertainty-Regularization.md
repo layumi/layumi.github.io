@@ -10,7 +10,7 @@ paperurl: 'https://zdzheng.xyz/files/ICLR2024_Chen.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/679550944'
 code: 'https://github.com/Monoxide-Chen/uncertainty_retrieval'
 author: '<a href="https://zdzheng.xyz/authors/Yiyang-Chen" class="author">Yiyang Chen</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Wei-Ji" class="author"> <img src="https://zdzheng.xyz/files/wei-ji.jpeg" alt="Wei-Ji" style="border-radius: 50%; height:20px; width:20px">Wei Ji</a>, <a href="https://zdzheng.xyz/authors/Leigang-Qu" class="author"> <img src="https://zdzheng.xyz/files/leigang-qu.jpeg" alt="Leigang-Qu" style="border-radius: 50%; height:20px; width:20px">Leigang Qu</a>, <a href="https://zdzheng.xyz/authors/Tat-Seng-Chua" class="author"> <img src="https://zdzheng.xyz/files/tat-seng-chua.jpeg" alt="Tat-Seng-Chua" style="border-radius: 50%; height:20px; width:20px">Tat-Seng Chua</a>'
-sqlauthor: [ {"@type": "Person","name":Yiyang Chen}, {"@type": "Person","name":Zhedong Zheng}, {"@type": "Person","name":Wei Ji}, {"@type": "Person","name":Leigang Qu}, {"@type": "Person","name":Tat Seng Chua}, ]
+sqlauthor: '[ {"@type": "Person","name": Yiyang Chen}, {"@type": "Person","name": Zhedong Zheng}, {"@type": "Person","name": Wei Ji}, {"@type": "Person","name": Leigang Qu}, {"@type": "Person","name": Tat Seng Chua}, ]'
 citation: ' Yiyang Chen,  Zhedong Zheng,  Wei Ji,  Leigang Qu,  Tat-Seng Chua, &quot;Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization.&quot; International Conference on Learning Representations (ICLR), 2024.'
 pub_year: '2024'
 bib: >

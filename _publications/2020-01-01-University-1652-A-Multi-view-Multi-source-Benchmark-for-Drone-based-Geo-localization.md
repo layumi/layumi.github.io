@@ -10,7 +10,7 @@ paperurl: 'https://zdzheng.xyz/files/ACMMM20.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/110987552'
 code: 'https://github.com/layumi/University1652-Baseline'
 author: '<strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yunchao-Wei" class="author"> <img src="https://zdzheng.xyz/files/yunchao-wei.jpeg" alt="Yunchao-Wei" style="border-radius: 50%; height:20px; width:20px">Yunchao Wei</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src="https://zdzheng.xyz/files/yi-yang.jpeg" alt="Yi-Yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
-sqlauthor: [ {"@type": "Person","name":Zhedong Zheng}, {"@type": "Person","name":Yunchao Wei}, {"@type": "Person","name":Yi Yang}, ]
+sqlauthor: '[ {"@type": "Person","name": Zhedong Zheng}, {"@type": "Person","name": Yunchao Wei}, {"@type": "Person","name": Yi Yang}, ]'
 citation: ' Zhedong Zheng,  Yunchao Wei,  Yi Yang, &quot;University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization.&quot; ACM MM, 2020. DOI: 10.1145/3394171.3413896'
 pub_year: '2020'
 bib: >
