@@ -8,7 +8,7 @@ keywords:
 venue: 'IJCV'
 paperurl: 'https://zdzheng.xyz/files/Zhang_MVCGAN.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Xuanmeng-Zhang" class="author"> <img src="https://zdzheng.xyz/files/xuanmeng-zhang.jpeg" alt="Xuanmeng-Zhang" style="border-radius: 50%; height:20px; width:20px">Xuanmeng Zhang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Daiheng-Gao" class="author">Daiheng Gao</a>, <a href="https://zdzheng.xyz/authors/Bang-Zhang" class="author">Bang Zhang</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src="https://zdzheng.xyz/files/yi-yang.jpeg" alt="Yi-Yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>, <a href="https://zdzheng.xyz/authors/Tat-Seng-Chua" class="author"> <img src="https://zdzheng.xyz/files/tat-seng-chua.jpeg" alt="Tat-Seng-Chua" style="border-radius: 50%; height:20px; width:20px">Tat-Seng Chua</a>'
-sqlauthor: '{"@type": "Person","name": "Xuanmeng Zhang}, "{"@type": "Person","name": Zhedong Zheng}, "{"@type": "Person","name": Daiheng Gao}, "{"@type": "Person","name": Bang Zhang}, "{"@type": "Person","name": Yi Yang}, "{"@type": "Person","name": Tat Seng Chua}, '
+sqlauthor: '{"@type": "Person","name": "Xuanmeng Zhang"}, {"@type": "Person","name": Zhedong Zheng"}, {"@type": "Person","name": Daiheng Gao"}, {"@type": "Person","name": Bang Zhang"}, {"@type": "Person","name": Yi Yang"}, {"@type": "Person","name": Tat Seng Chua"}'
 citation: ' Xuanmeng Zhang,  Zhedong Zheng,  Daiheng Gao,  Bang Zhang,  Yi Yang,  Tat-Seng Chua, &quot;Multi-View Consistent Generative Adversarial Networks for Compositional 3D-aware Image Synthesis.&quot; IJCV, 2023.'
 pub_year: '2023'
 bib: >

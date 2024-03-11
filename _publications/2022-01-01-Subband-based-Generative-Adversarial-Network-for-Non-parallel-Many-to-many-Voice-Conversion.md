@@ -7,7 +7,7 @@ doi:
 keywords: 
 venue: 'arXiv:2207.06057'
 author: '<a href="https://zdzheng.xyz/authors/Jian-Ma" class="author">Jian Ma</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Hao-Fei" class="author"> <img src="https://zdzheng.xyz/files/hao-fei.jpeg" alt="Hao-Fei" style="border-radius: 50%; height:20px; width:20px">Hao Fei</a>, <a href="https://zdzheng.xyz/authors/Feng-Zheng" class="author">Feng Zheng</a>, <a href="https://zdzheng.xyz/authors/Tat-seng-Chua" class="author">Tat-seng Chua</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src="https://zdzheng.xyz/files/yi-yang.jpeg" alt="Yi-Yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
-sqlauthor: '{"@type": "Person","name": "Jian Ma}, "{"@type": "Person","name": Zhedong Zheng}, "{"@type": "Person","name": Hao Fei}, "{"@type": "Person","name": Feng Zheng}, "{"@type": "Person","name": Tat seng Chua}, "{"@type": "Person","name": Yi Yang}, '
+sqlauthor: '{"@type": "Person","name": "Jian Ma"}, {"@type": "Person","name": Zhedong Zheng"}, {"@type": "Person","name": Hao Fei"}, {"@type": "Person","name": Feng Zheng"}, {"@type": "Person","name": Tat seng Chua"}, {"@type": "Person","name": Yi Yang"}'
 citation: ' Jian Ma,  Zhedong Zheng,  Hao Fei,  Feng Zheng,  Tat-seng Chua,  Yi Yang, &quot;Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion.&quot; arXiv:2207.06057, 2022.'
 pub_year: '2022'
 bib: >

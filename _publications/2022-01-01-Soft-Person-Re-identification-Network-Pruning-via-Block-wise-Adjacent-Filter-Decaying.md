@@ -9,7 +9,7 @@ venue: 'IEEE Transactions on Cybernetics'
 paperurl: 'https://zdzheng.xyz/files/Wang_Soft.pdf'
 code: 'https://github.com/x-d-wang/Soft-Person-Reidentification-Network-Pruning-via-Blockwise-Adjacent-Filter-Decaying'
 author: '<a href="https://zdzheng.xyz/authors/Xiaodong-Wang" class="author">Xiaodong Wang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yang-He" class="author">Yang He</a>, <a href="https://zdzheng.xyz/authors/Fei-Yan" class="author">Fei Yan</a>, <a href="https://zdzheng.xyz/authors/Zhiqiang-Zeng" class="author">Zhiqiang Zeng</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src="https://zdzheng.xyz/files/yi-yang.jpeg" alt="Yi-Yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
-sqlauthor: '{"@type": "Person","name": "Xiaodong Wang}, "{"@type": "Person","name": Zhedong Zheng}, "{"@type": "Person","name": Yang He}, "{"@type": "Person","name": Fei Yan}, "{"@type": "Person","name": Zhiqiang Zeng}, "{"@type": "Person","name": Yi Yang}, '
+sqlauthor: '{"@type": "Person","name": "Xiaodong Wang"}, {"@type": "Person","name": Zhedong Zheng"}, {"@type": "Person","name": Yang He"}, {"@type": "Person","name": Fei Yan"}, {"@type": "Person","name": Zhiqiang Zeng"}, {"@type": "Person","name": Yi Yang"}'
 citation: ' Xiaodong Wang,  Zhedong Zheng,  Yang He,  Fei Yan,  Zhiqiang Zeng,  Yi Yang, &quot;Soft Person Re-identification Network Pruning via Block-wise Adjacent Filter Decaying.&quot; IEEE Transactions on Cybernetics, 2022. DOI: 10.1109/TCYB.2021.3130047'
 pub_year: '2022'
 bib: >

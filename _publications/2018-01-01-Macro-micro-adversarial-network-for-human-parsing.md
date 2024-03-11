@@ -9,7 +9,7 @@ venue: 'ECCV'
 paperurl: 'https://zdzheng.xyz/files/ECCV18.pdf'
 code: 'https://github.com/RoyalVane/MMAN'
 author: '<a href="https://zdzheng.xyz/authors/Yawei-Luo" class="author">Yawei Luo</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Liang-Zheng" class="author"> <img src="https://zdzheng.xyz/files/liang-zheng.jpeg" alt="Liang-Zheng" style="border-radius: 50%; height:20px; width:20px">Liang Zheng</a>, <a href="https://zdzheng.xyz/authors/Tao-Guan" class="author">Tao Guan</a>, <a href="https://zdzheng.xyz/authors/Junqing-Yu" class="author">Junqing Yu</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src="https://zdzheng.xyz/files/yi-yang.jpeg" alt="Yi-Yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
-sqlauthor: '{"@type": "Person","name": "Yawei Luo}, "{"@type": "Person","name": Zhedong Zheng}, "{"@type": "Person","name": Liang Zheng}, "{"@type": "Person","name": Tao Guan}, "{"@type": "Person","name": Junqing Yu}, "{"@type": "Person","name": Yi Yang}, '
+sqlauthor: '{"@type": "Person","name": "Yawei Luo"}, {"@type": "Person","name": Zhedong Zheng"}, {"@type": "Person","name": Liang Zheng"}, {"@type": "Person","name": Tao Guan"}, {"@type": "Person","name": Junqing Yu"}, {"@type": "Person","name": Yi Yang"}'
 citation: ' Yawei Luo,  Zhedong Zheng,  Liang Zheng,  Tao Guan,  Junqing Yu,  Yi Yang, &quot;Macro-micro adversarial network for human parsing.&quot; ECCV, 2018.'
 pub_year: '2018'
 bib: >

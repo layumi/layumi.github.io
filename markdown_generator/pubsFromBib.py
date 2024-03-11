@@ -268,7 +268,8 @@ for pubsource in publist:
                     code = True
 
             md += "\nauthor: '" + allauthor + "'"
-            md += "\nsqlauthor: '" +  '{"@type": "Person","name": "' + '"{"@type": "Person","name": '.join(name.replace('.md','}, ').replace('-',' ') for name in single_authors) + "'"
+            md += "\nsqlauthor: '" +  '{"@type": "Person","name": "' + '{"@type": "Person","name": '.join(name.replace('.md','"}, ').replace('-',' ') for name in single_authors) 
+            md = md[0:-2]+ "'" # remove the final dot
             if "doi" in b.keys():
                 md += "\ncitation: '" + html_escape(citation) + ' DOI: ' + str(doi) +"'"
             else:
