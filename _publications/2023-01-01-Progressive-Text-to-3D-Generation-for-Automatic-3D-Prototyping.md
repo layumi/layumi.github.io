@@ -9,7 +9,7 @@ venue: 'arXiv:2309.14600'
 video: 'https://www.youtube.com/watch?v=LH6-wKg30FQ'
 code: 'https://github.com/Texaser/MTN'
 author: '<a href="https://zdzheng.xyz/authors/Han-Yi" class="author">Han Yi</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Xiangyu-Xu" class="author">Xiangyu Xu</a>, <a href="https://zdzheng.xyz/authors/Tat-seng-Chua" class="author">Tat-seng Chua</a>'
-sqlauthor: '{"@type": "Person","name": "Han Yi"}, {"@type": "Person","name": Zhedong Zheng"}, {"@type": "Person","name": Xiangyu Xu"}, {"@type": "Person","name": Tat seng Chua"}'
+sqlauthor: '{"@type": "Person","name": "Han Yi"}, {"@type": "Person","name": "Zhedong Zheng"}, {"@type": "Person","name": "Xiangyu Xu"}, {"@type": "Person","name": "Tat seng Chua"}'
 citation: ' Han Yi,  Zhedong Zheng,  Xiangyu Xu,  Tat-seng Chua, &quot;Progressive Text-to-3D Generation for Automatic 3D Prototyping.&quot; arXiv:2309.14600, 2023.'
 pub_year: '2023'
 bib: >
