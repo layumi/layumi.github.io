@@ -8,7 +8,12 @@ author_profile: true
 ## 澳门大学
 
 郑哲东 (Zhedong Zheng) ,即将入职澳门大学计算机系tenure-track助理教授。
-现招聘 **2025年秋季** 入学的1名博士生加盟其课题组，从事多媒体生成、表征学习方向研究，提供全额奖学金（每月1.25W 澳门币, 特别优秀的学生为2W 澳门币）详情见https://grs.um.edu.mo/index.php/um-phd-scholarship/ 。
+
+- 1名博士生加盟其课题组（2025年入学），从事多媒体生成、表征学习方向研究，提供全额奖学金（每月1.25W 澳门币, 特别优秀的学生为2W 澳门币）
+
+- 多名研究助理（每月1.25W 澳门币，资助一年），需要985本科CS相关背景（希望出国读博者优先）。
+
+UM博士奖学金详情见https://grs.um.edu.mo/index.php/um-phd-scholarship/ 。
 
 ### 导师简介
 
