@@ -27,12 +27,6 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 -->	
 <hr>
 
-<h2>Videos for UM</h2>
-
-<iframe src="https://www.youtube.com/embed/FINFZ8UuVus?si=KzWrZueKqOj9xOOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-<iframe src="https://www.youtube.com/embed/a2-cTtqySRk?si=BYeCSqOu52IME10x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
-
 
 
 <h2>Research Statement</h2>

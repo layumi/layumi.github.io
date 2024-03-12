@@ -12,6 +12,8 @@ main:
     url: /resources/
   - title: "Seminar"
     url: /seminar/
+  - title: "Join Us"
+    url: /recruitment/
   #- title: "Guide"
   #  url: /markdown/
   #- title: "Talks"
