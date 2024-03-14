@@ -7,13 +7,33 @@ author_profile: true
 
 ## 澳门大学
 
-郑哲东 (Zhedong Zheng) ,澳门大学计算机系tenure-track助理教授。希望招收：
+郑哲东 (Zhedong Zheng) ,澳门大学计算机系tenure-track助理教授，专攻多模态生成和检索，具体研究方向和相关成果详见：https://www.zdzheng.xyz/research 。
+有兴趣的同学请发送个人 CV 和研究计划到邮箱：zhedongzheng@um.edu.mo；另外，本组也欢迎自费的访问博士后研究员，博士和研究助理申请，访问至少 6 个月。
+希望招收：
 
-- 1名博士生加盟其课题组（2025年入学），从事多媒体生成、表征学习方向研究，提供全额奖学金（每月1.25W 澳门币, 特别优秀的学生为2W 澳门币）
+#### 1. 1名博士生加盟其课题组（2025年入学）
 
-- 多名研究助理（每月1.25W 澳门币，资助一年），需要985本科CS相关背景（希望出国读博者优先）。
+1.1 背景要求：GPA 大于 3.4（背景优秀者可适当放宽）；计算机科学/软件工程背景；有 Tsinghua-A 论文发表者优先；默认会使用 python 和 pytorch 等写代码。
 
-UM博士奖学金详情见https://grs.um.edu.mo/index.php/um-phd-scholarship/ 。
+1.2 提供全额奖学金（每月1.25 - 1.4W 澳门币, 特别优秀的学生为2W 澳门币），详情见https://grs.um.edu.mo/index.php/um-phd-scholarship/ 。
+
+1.3 目前本组的学生背景如下：
+
+- 1名博士生本硕毕业于大连理工大学 (24年8月入学)
+- 1名博士生本科毕业于复旦大学 (24年8月入学)
+
+1.4 在读期间支持去顶级研究机构（CMU, Nvidia Research, NUS, MSRA）研究实习。
+
+
+#### 2. 多名研究助理 （实习至少 6 个月）
+
+2.1 背景要求：有 Tsinghua-A 论文发表者优先；Gap-year 申请oversea读博者优先。
+
+2.2 每月补助 1.25W 澳门币，可资助一年
+
+2.3 本组之前实习生成果：清华本科（1篇ICLR一作）
+
+
 
 ### 导师简介
 
@@ -25,8 +45,6 @@ Google Scholar见https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ �
 
 ![](http://emuchvimg.oss-cn-qingdao.aliyuncs.com/img/2020/0109/w104h4105283_1578558892_239.jpg)
 
-### 现有学生
-24年入学2名博士。 1名博士生本硕毕业于大连理工大学， 1名博士生本科毕业于复旦大学。
 
 ### 关于大学和环境
 
@@ -41,18 +59,4 @@ Google Scholar见https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ �
 <iframe src="https://www.youtube.com/embed/FINFZ8UuVus?si=KzWrZueKqOj9xOOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.youtube.com/embed/a2-cTtqySRk?si=BYeCSqOu52IME10x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
-
-
-### 研究方向
-
-具体研究方向为行人重识别/生成、多模态检索/生成、3D人体理解/生成、领域迁移等。可见https://www.zdzheng.xyz/research 在读期间支持去顶级研究机构（CMU, Nvidia Research, NUS, MSRA）研究实习。
- 
-### 任职要求
-
-计算机相关本科或硕士毕业生或应届毕业生，对于多媒体计算有浓厚兴趣，对Pytorch，tensorflow等深度学习框架熟练，有较好的编程基础，对机器学习尤其是CV或者NLP有一定了解。也希望英文读写能力优异。澳大PhD申请要求请参考：https://grs.um.edu.mo/index.php/prospective-student/doctoral-degrees-programmes/ 
-
-### 简历投递方式
-
-请将英文简历发到邮箱: zhedongzheng AT um.edu.mo  标题设置为 
-博士申请 - 学校名称- 目前学历 - 姓名， 比如 博士申请 - 北理工 - 本科大三 - 战鹰。
 
