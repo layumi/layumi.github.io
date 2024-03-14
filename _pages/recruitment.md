@@ -8,8 +8,7 @@ author_profile: true
 ## 澳门大学
 
 郑哲东 (Zhedong Zheng) ,澳门大学计算机系tenure-track助理教授，专攻多模态生成和检索，具体研究方向和相关成果详见：https://www.zdzheng.xyz/research 。
-有兴趣的同学请发送个人 CV 和研究计划到邮箱：zhedongzheng@um.edu.mo；另外，本组也欢迎自费的访问博士后研究员，博士和研究助理申请，访问至少 6 个月。
-希望招收：
+有兴趣的同学请发送个人CV 和 研究计划到邮箱：zhedongzheng@um.edu.mo；另外，本组也欢迎自费的访问博士后研究员，博士和研究助理申请，访问至少 6 个月。
 
 ### 1. 1名博士生加盟其课题组（2025年入学）
 
