@@ -13,6 +13,8 @@ Oh! You are the
 
 The server of Zhedong will be restarted in several minutes!  He will have one minute to take a rest!
 
+![](https://zdzheng.xyz/images/TomCat.jpeg)
+
 Perhaps you were looking for one of these? 
 
 <hr>
@@ -24,7 +26,7 @@ Perhaps you were looking for one of these?
 ### Recent Publications
 
 {% for post in site.publications reversed %}
-  {%if post.pub_year == '2022' %}
+  {%if post.pub_year == '2024' %}
       {% include archive-single.html %}
   {% endif %}
 {% endfor %}
