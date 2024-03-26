@@ -62,6 +62,11 @@ Google Scholar见https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ �
 - QS World University Rankings：254
 - Times Higher Education World University Rankings 2024: 193
 
+
+### 相关链接
+[澳门大学计算机博士认可度怎么样？](https://www.zhihu.com/question/598710046)
+[澳门大学真的处在上升趋势么?](https://www.zhihu.com/question/541431807)
+
 <iframe src="https://www.youtube.com/embed/FINFZ8UuVus?si=KzWrZueKqOj9xOOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <iframe src="https://www.youtube.com/embed/a2-cTtqySRk?si=BYeCSqOu52IME10x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
