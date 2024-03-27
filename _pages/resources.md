@@ -41,5 +41,6 @@ We manually annotate attribute labels for two large-scale re-ID datasets, and sy
 -  [山世光：致联系报考我免试研究生的同学们](https://blog.csdn.net/GarfieldEr007/article/details/51018552) 
 
 ### How to 
+- [How to research? Jianxiong Xiao]("https://zdzheng.xyz/files/lecture21_how2research.pdf")
 - [How to have productive meetings with busy mentors?](http://kordinglab.com/2021/06/30/meeting-with-mentors.html)
 - [How to start writing papers?](http://kordinglab.com/2016/01/14/writing-guide.html)
