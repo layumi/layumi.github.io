@@ -164,20 +164,21 @@ for pubsource in publist:
             if "doi" in b.keys():
                 doi = b["doi"]
             
-            if "re-identification" in b["title"] or "reidentification" in b["title"] or "retrieval" in b["title"]:
-                keywords += "object re-identification," 
-                keywords += "image retrieval,"
+            lower_title = clean_title.lower()
+            if "re-identification" in lower_title or "reidentification" in lower_title or "retrieval" in lower_title:
+                keywords += "object re-identification, " 
+                keywords += "image retrieval, "
                 
-            if "person" in b["title"] or "pedestrian" in b["title"] or "human" in b["title"]:
-                keywords += "person re-id,"
-                keywords += "person re-trieval,"
-                keywords += "person search,"
+            if "person" in lower_title or "pedestrian" in lower_title or "human" in lower_title:
+                keywords += "person re-id, "
+                keywords += "person retrieval, "
+                keywords += "person search, "
                 
-            if "adaptation" in b["title"] or "domain" in b["title"]:
-                keywords += "domain adaptation,"
+            if "adaptation" in lower_title or "domain" in lower_title:
+                keywords += "domain adaptation, "
                 
-            if "geo-localization" in b["title"]:
-                keywords += "visual geo-localization," 
+            if "geo-localization" in lower_title:
+                keywords += "visual geo-localization, " 
                 
                 
             for author in bibdata.entries[bib_id].persons["author"]:

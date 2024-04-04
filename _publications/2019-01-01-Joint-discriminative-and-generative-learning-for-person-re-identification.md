@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Joint-di2019
 date: 2019-01-01
 doi: 
-keywords: object re-identification,image retrieval,person re-id,person re-trieval,person search,
+keywords: object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'CVPR'
 paperurl: 'https://zdzheng.xyz/files/CVPR19.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/66408913'

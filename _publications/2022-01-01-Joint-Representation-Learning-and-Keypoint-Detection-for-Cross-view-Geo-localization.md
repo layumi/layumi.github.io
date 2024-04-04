@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Joint-Re2022
 date: 2022-01-01
 doi: 10.1109/TIP.2022.3175601
-keywords: 
+keywords: visual geo-localization, 
 venue: 'IEEE Transactions on Image Processing'
 paperurl: 'https://zdzheng.xyz/files/TIP_RKNet.pdf'
 code: 'https://github.com/AggMan96/RK-Net'

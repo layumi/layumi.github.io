@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Pedestri2018
 date: 2018-01-01
 doi: 10.1109/TCSVT.2018.2873599
-keywords: object re-identification,image retrieval,person re-id,person re-trieval,person search,
+keywords: object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)'
 paperurl: 'https://zdzheng.xyz/files/TCSVT-08481710.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/29269953'

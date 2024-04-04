@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Towards-2023
 date: 2023-01-01
 doi: 
-keywords: 
+keywords: object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'ACM MM'
 paperurl: 'https://zdzheng.xyz/files/MM23_Yang.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/638229287'

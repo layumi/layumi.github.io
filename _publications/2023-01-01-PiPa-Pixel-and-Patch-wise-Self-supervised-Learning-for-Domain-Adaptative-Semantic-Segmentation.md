@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/PiPa-Pix2023
 date: 2023-01-01
 doi: 
-keywords: 
+keywords: domain adaptation, 
 venue: 'ACM MM 2023'
 paperurl: 'https://zdzheng.xyz/files/MM23_PiPa.pdf'
 code: 'https://github.com/chen742/PiPa'

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/DMRNet-L2022
 date: 2022-01-01
 doi: 
-keywords: 
+keywords: person re-id, person retrieval, person search, 
 venue: 'IEEE Transactions on Pattern Analysis &amp; Machine Intelligence'
 paperurl: 'https://zdzheng.xyz/files/Han_TPAMI22.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Chuchu-Han" class="author"> <img src="https://zdzheng.xyz/files/chuchu-han.jpeg" alt="Chuchu-Han" style="border-radius: 50%; height:20px; width:20px">Chuchu Han</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Kai-Su" class="author">Kai Su</a>, <a href="https://zdzheng.xyz/authors/Dongdong-Yu" class="author">Dongdong Yu</a>, <a href="https://zdzheng.xyz/authors/Zehuan-Yuan" class="author">Zehuan Yuan</a>, <a href="https://zdzheng.xyz/authors/Changxin-Gao" class="author">Changxin Gao</a>, <a href="https://zdzheng.xyz/authors/Nong-Sang" class="author">Nong Sang</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src="https://zdzheng.xyz/files/yi-yang.jpeg" alt="Yi-Yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
