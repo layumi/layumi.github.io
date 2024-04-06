@@ -13,7 +13,7 @@ sqlauthor: '{"@type": "Person","name": "Kezhou Lin"}, {"@type": "Person","name":
 citation: ' Kezhou Lin,  Xiaohan Wang,  Zhedong Zheng,  Linchao Zhu,  Yi Yang, &quot;Less is More: Sparse Sampling for Dense Reaction Predictions.&quot; CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place), 2021.'
 pub_year: '2021'
 bib: >
-    @inproceedings{lin2021more,<br>author = "Lin, Kezhou and Wang, Xiaohan and Zheng, Zhedong and Zhu, Linchao and Yang, Yi",<br>title = "Less is More: Sparse Sampling for Dense Reaction Predictions",<br>year = "2021",<br>booktitle = "CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place)",<br>url = "https://zdzheng.xyz/files/CVPRW2021\_EEV.pdf",<br>code = "https://github.com/HenryLittle/EEV-Challenge-2021"
+    @inproceedings{lin2021more,<br>author = "Lin, Kezhou and Wang, Xiaohan and Zheng, Zhedong and Zhu, Linchao and Yang, Yi",<br>title = "Less is More: Sparse Sampling for Dense Reaction Predictions",<br>booktitle = "CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place)",<br>url = "https://zdzheng.xyz/files/CVPRW2021\_EEV.pdf",<br>code = "https://github.com/HenryLittle/EEV-Challenge-2021",<br>year = "2021"
     }
 
 ---
