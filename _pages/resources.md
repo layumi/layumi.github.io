@@ -34,6 +34,7 @@ We manually annotate attribute labels for two large-scale re-ID datasets, and sy
 - [Awesome Geo-localization](https://github.com/layumi/University1652-Baseline/tree/master/State-of-the-art) 
 
 ### Motivations
+![](https://zdzheng.xyz/files/optimizer.gif)
 - [The illustrated guide to a Ph.D.](https://matt.might.net/articles/phd-school-in-pictures/)
 -  <strong><a href="https://www.evernote.com/shard/s150/sh/3de79ff0-5778-417c-9bcb-6c0111a26694/29958003bb71992667ce3f42fd4ca875"> 熊辉: 为什么人前进的路总是被自己挡住 </a></strong> 
 -  <strong><a href="https://zdzheng.xyz/files/road.pdf">陈海波: 一名系统研究者的攀登之路</a></strong> 
