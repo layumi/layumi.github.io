@@ -58,39 +58,39 @@ def html_escape(text):
 
 
 coauthor_dict={}
-coauthor_dict['Yi-Yang'] = 'https://zdzheng.xyz/files/yi-yang.jpeg'
-coauthor_dict['Liang-Zheng'] = 'https://zdzheng.xyz/files/liang-zheng.jpg'
-coauthor_dict['Zhun-Zhong'] = 'https://zdzheng.xyz/files/zhun-zhong.jpg'
-coauthor_dict['Zhiding-Yu'] = 'https://zdzheng.xyz/files/zhiding-yu.jpeg'
-coauthor_dict['Xiaodong-Yang'] = 'https://zdzheng.xyz/files/xiaodong-yang.jpg'
-coauthor_dict['Yutian-Lin'] = 'https://zdzheng.xyz/files/yutian-lin.jpeg'
-coauthor_dict['Yunchao-Wei'] = 'https://zdzheng.xyz/files/yunchao-wei.jpeg'
-coauthor_dict['Tat-Seng-Chua'] = 'https://zdzheng.xyz/files/tat-seng-chua.jpeg'
-coauthor_dict['Xiaohan-Wang'] = 'https://zdzheng.xyz/files/xiaohan-wang.jpeg'
-coauthor_dict['Tingyu-Wang'] = 'https://zdzheng.xyz/files/tingyu-wang.jpeg'
-coauthor_dict['Xin-Yu'] = 'https://zdzheng.xyz/files/xin-yu.jpeg'
-coauthor_dict['Chuchu-Han'] = 'https://zdzheng.xyz/files/chuchu-han.jpeg'
-coauthor_dict['Wei-Ji'] = 'https://zdzheng.xyz/files/wei-ji.jpeg'
-coauthor_dict['Bingwen-Hu'] = 'https://zdzheng.xyz/files/bingwen-hu.jpeg'
-coauthor_dict['Ping-Liu'] = 'https://zdzheng.xyz/files/ping-liu.jpeg'
-coauthor_dict['Yu-Wu'] = 'https://zdzheng.xyz/files/yu-wu.jpeg'
-coauthor_dict['Yaxiong-Wang'] = 'https://zdzheng.xyz/files/yaxiong-wang.jpeg'
-coauthor_dict['Xuanmeng-Zhang'] = 'https://zdzheng.xyz/files/xuanmeng-zhang.jpeg'
-coauthor_dict['Ruijie-Quan'] = 'https://zdzheng.xyz/files/ruijie-quan.jpg'
-coauthor_dict['Qingji-Guan'] = 'https://zdzheng.xyz/files/qingji-guan.jpeg'
-coauthor_dict['Mu-Chen'] = 'https://zdzheng.xyz/files/mu-chen.jpeg'
-coauthor_dict['Linchao-Zhu'] = 'https://zdzheng.xyz/files/linchao-zhu.jpeg'
-coauthor_dict['Zhiming-Luo'] = 'https://zdzheng.xyz/files/zhiming-luo.jpeg'
-coauthor_dict['Jinliang-Lin'] = 'https://zdzheng.xyz/files/jinliang-lin.jpeg'
-coauthor_dict['Leigang-Qu'] = 'https://zdzheng.xyz/files/leigang-qu.jpeg'
-coauthor_dict['Yifan-Sun'] = 'https://zdzheng.xyz/files/yifan-sun.jpeg'
-coauthor_dict['Tao-Ruan'] = 'https://zdzheng.xyz/files/tao-ruan.jpeg'
-coauthor_dict['Hao-Fei'] = 'https://zdzheng.xyz/files/hao-fei.jpeg'
-coauthor_dict['Hongxia-Yang'] = 'https://zdzheng.xyz/files/hongxia-yang.jpeg'
-coauthor_dict['Shuai-Bai'] = 'https://zdzheng.xyz/files/shuai-bai.jpeg'
-coauthor_dict['Chang-Zhou'] = 'https://zdzheng.xyz/files/chang-zhou.jpeg'
-coauthor_dict['Errui-Ding'] = 'https://zdzheng.xyz/files/errui-ding.jpeg'
-coauthor_dict['Nenggan-Zheng'] = 'https://zdzheng.xyz/files/nenggan-zheng.jpg'
+coauthor_dict['yi-yang'] = 'https://zdzheng.xyz/files/yi-yang.jpeg'
+coauthor_dict['liang-zheng'] = 'https://zdzheng.xyz/files/liang-zheng.jpg'
+coauthor_dict['zhun-zhong'] = 'https://zdzheng.xyz/files/zhun-zhong.jpg'
+coauthor_dict['zhiding-yu'] = 'https://zdzheng.xyz/files/zhiding-yu.jpeg'
+coauthor_dict['xiaodong-yang'] = 'https://zdzheng.xyz/files/xiaodong-yang.jpg'
+coauthor_dict['yutian-lin'] = 'https://zdzheng.xyz/files/yutian-lin.jpeg'
+coauthor_dict['yunchao-wei'] = 'https://zdzheng.xyz/files/yunchao-wei.jpeg'
+coauthor_dict['tat-seng-chua'] = 'https://zdzheng.xyz/files/tat-seng-chua.jpeg'
+coauthor_dict['xiaohan-wang'] = 'https://zdzheng.xyz/files/xiaohan-wang.jpeg'
+coauthor_dict['tingyu-wang'] = 'https://zdzheng.xyz/files/tingyu-wang.jpeg'
+coauthor_dict['xin-yu'] = 'https://zdzheng.xyz/files/xin-yu.jpeg'
+coauthor_dict['chuchu-han'] = 'https://zdzheng.xyz/files/chuchu-han.jpeg'
+coauthor_dict['wei-ji'] = 'https://zdzheng.xyz/files/wei-ji.jpeg'
+coauthor_dict['bingwen-hu'] = 'https://zdzheng.xyz/files/bingwen-hu.jpeg'
+coauthor_dict['ping-liu'] = 'https://zdzheng.xyz/files/ping-liu.jpeg'
+coauthor_dict['yu-wu'] = 'https://zdzheng.xyz/files/yu-wu.jpeg'
+coauthor_dict['yaxiong-wang'] = 'https://zdzheng.xyz/files/yaxiong-wang.jpeg'
+coauthor_dict['xuanmeng-zhang'] = 'https://zdzheng.xyz/files/xuanmeng-zhang.jpeg'
+coauthor_dict['ruijie-quan'] = 'https://zdzheng.xyz/files/ruijie-quan.jpg'
+coauthor_dict['qingji-guan'] = 'https://zdzheng.xyz/files/qingji-guan.jpeg'
+coauthor_dict['mu-chen'] = 'https://zdzheng.xyz/files/mu-chen.jpeg'
+coauthor_dict['linchao-zhu'] = 'https://zdzheng.xyz/files/linchao-zhu.jpeg'
+coauthor_dict['zhiming-luo'] = 'https://zdzheng.xyz/files/zhiming-luo.jpeg'
+coauthor_dict['jinliang-lin'] = 'https://zdzheng.xyz/files/jinliang-lin.jpeg'
+coauthor_dict['leigang-qu'] = 'https://zdzheng.xyz/files/leigang-qu.jpeg'
+coauthor_dict['yifan-sun'] = 'https://zdzheng.xyz/files/yifan-sun.jpeg'
+coauthor_dict['tao-ruan'] = 'https://zdzheng.xyz/files/tao-ruan.jpeg'
+coauthor_dict['hao-fei'] = 'https://zdzheng.xyz/files/hao-fei.jpeg'
+coauthor_dict['hongxia-yang'] = 'https://zdzheng.xyz/files/hongxia-yang.jpeg'
+coauthor_dict['shuai-bai'] = 'https://zdzheng.xyz/files/shuai-bai.jpeg'
+coauthor_dict['chang-zhou'] = 'https://zdzheng.xyz/files/chang-zhou.jpeg'
+coauthor_dict['errui-ding'] = 'https://zdzheng.xyz/files/errui-ding.jpeg'
+coauthor_dict['nenggan-zheng'] = 'https://zdzheng.xyz/files/nenggan-zheng.jpg'
 
 aff_dict={}
 aff_dict['Yi-Yang'] = 'Professor @ ZJU'
@@ -187,10 +187,11 @@ for pubsource in publist:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
                 #allauthor = allauthor +" "+author.first_names[0]+" "+author.last_names[0]+", "
                 coname = author.first_names[0]+"-"+author.last_names[0].replace('*','')
+                coname = coname.lower()
                 if author.first_names[0]=="Zhedong":
                     allauthor = allauthor+"<strong><a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a></strong>" +", "
                 elif coname in coauthor_dict: # add icon
-                    allauthor = allauthor + "<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\"> <img src=\"https://zdzheng.xyz/files/"+coname.lower()+ ".jpeg\" alt=\"%s\""%coname + " style=\"border-radius: 50%; height:20px; width:20px\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
+                    allauthor = allauthor + "<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\"> <img src= \"" + coauthor_dict[coname] + "\" alt=\"%s\""%coname + " style=\"border-radius: 50%; height:20px; width:20px\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
                 else:
                     allauthor = allauthor+"<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
                 authors_filename = author.first_names[0]+"-"+author.last_names[0].replace('*','')+".md"
