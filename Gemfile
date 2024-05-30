@@ -24,6 +24,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem 'jekyll-sitemap'
   gem 'hawkins'
+  gem "webrick", "~> 1.8"
   gem 'jekyll-picture-tag'
   gem 'jekyll-seo-tag'
   gem 'jemoji'
