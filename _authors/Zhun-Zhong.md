@@ -3,7 +3,7 @@ title: "Zhun Zhong"
 collection: authors
 permalink: /authors/Zhun-Zhong
 author_profile: false
-img: https://zdzheng.xyz/files/zhun-zhong.jpeg
+img: https://zdzheng.xyz/files/zhun-zhong.jpg
 ---
 <i>AP @ the University of Trento</i>
  <li> Zhun Zhong,  Liang Zheng,  Zhedong Zheng,  Shaozi Li,  Yi Yang, &quot;Camera style adaptation for person re-identification.&quot; CVPR, 2018.<a href='https://zdzheng.xyz/publication/Camera-s2018'>[Link]</a> </li>
