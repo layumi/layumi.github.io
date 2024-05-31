@@ -1,0 +1,506 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Robust Vehicle Re-identification via Rigid Structure Prior - Zhedong Zheng</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Zhedong Zheng">
+<meta property="og:title" content="Robust Vehicle Re-identification via Rigid Structure Prior">
+
+    <meta property="og:paperurl" content="https://zdzheng.xyz/files/CVPRW-2021-VehicleReid.pdf">
+
+
+
+
+
+    <meta property="og:code" content="https://github.com/Xuanmeng-Zhang/AICITY2021-Track2">
+
+
+
+
+  <link rel="canonical" href="https://zdzheng.xyz/publication/Robust-V2021">
+  <meta property="og:url" content="https://zdzheng.xyz/publication/Robust-V2021">
+
+
+
+  <meta property="og:description" content="">
+
+
+
+
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2021-01-01T00:00:00+08:00">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://zdzheng.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Zhedong Zheng Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<!--
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+-->
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://zdzheng.xyz/assets/css/main.css">
+
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
+<meta http-equiv="cleartype" content="on">
+
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://zdzheng.xyz/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="https://zdzheng.xyz/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="https://zdzheng.xyz/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="https://zdzheng.xyz/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="https://zdzheng.xyz/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="https://zdzheng.xyz/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="https://zdzheng.xyz/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="https://zdzheng.xyz/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="https://zdzheng.xyz/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="https://zdzheng.xyz/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="https://zdzheng.xyz/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="https://zdzheng.xyz/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="https://zdzheng.xyz/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="mask-icon" href="https://zdzheng.xyz/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="https://zdzheng.xyz/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="https://zdzheng.xyz/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://zdzheng.xyz/assets/css/academicons.css"/>
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://zdzheng.xyz/">Zhedong Zheng</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/">Home</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/research">Research</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/files/zhedong-resume.pdf">CV</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/resources/">Resources</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/seminar/">Seminar</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/recruitment/">Join Us</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<head> 
+	<style>
+		.author {
+			text-decoration: none !important;
+			color: #333333;
+		}
+
+		.author:hover {
+			text-decoration: underline;
+			color: #0066cc;
+		}
+	    pre {
+	      background-color: gray;
+	      color: white;
+	      padding: 10px;
+	      border-radius: 5px;
+	    }
+	</style>
+</head>
+
+<div id="main" role="main">
+  <meta name="og:description" content="Robust Vehicle Re-identification via Rigid Structure Prior"> 
+  
+
+
+  <div class="sidebar sticky">
+  
+
+
+
+<div itemscope itemtype="https://schema.org/Person">
+
+  <div class="author__avatar">
+    
+    	<img src="https://zdzheng.xyz/images/profile.webp" class="author__avatar" alt="Zhedong Zheng" >
+    
+  </div>
+
+  <div class="author__content">
+    <h3 class="author__name">Zhedong Zheng</h3>
+    <p class="author__bio">Assistant Professor at the University of Macau</p>
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+      
+      
+      
+        <li><a href="mailto:zhedong.zheng@student.uts.edu.au"><i class="fas fa-envelope" aria-hidden="true"></i> Email</a></li>
+      
+      
+       
+        <li><a href="https://www.researchgate.net/profile/Zhedong-Zheng-2"><i class="fab fa-researchgate" aria-hidden="true"></i> ResearchGate</a></li>
+      
+      
+      
+        <li><a href="https://www.facebook.com/zhedongzheng12"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+      
+      
+      
+        <li><a href="https://www.linkedin.com/in/zhedongzheng"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a></li>
+      
+      
+      
+      
+      
+      
+        <li><a href="https://github.com/layumi"><i class="fab fa-github" aria-hidden="true"></i> Github</a></li>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+        <li><a href="https://scholar.google.com/citations?user=XT17oUEAAAAJ"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
+      
+      
+        <li><a href="http://orcid.org/0000-0002-2434-9050"><i class="ai ai-orcid" aria-hidden="true"></i> ORCID</a></li>
+      
+      
+        <li><a href="https://www.zhihu.com/people/zhengzhedong"><i class="fab fa-zhihu" aria-hidden="true"></i> Zhihu</a></li>
+      
+      
+    </ul>	  
+  </div>
+    <div class="author__urls-wrapper">
+	<button class="btn btn--inverse">Workshop & Tutorial</button>
+	<h4 class="workshop__name"> Workshop & Tutorial </h4>
+	  <ul style="padding-left:0">
+		<li><a href="https://www.zdzheng.xyz/ACMMM2024Workshop-UAV/"> UVAM @ ACM MM24</a></li>
+		<li><a href="https://videorelation.nextcenter.org/MMGR24/"> MMGR @ ACM MM24</a></li>
+		<li><a href="https://www.zdzheng.xyz/MORE2024/"> MORE @ ACM ICMR24</a></li>
+	    <li><a href="https://www.zdzheng.xyz/ACMMM2023Workshop/"> UVAM @ ACM MM23</a></li>
+	    <li><a href="https://videorelation.nextcenter.org/MMIR23/"> MMIR @ ACM MM23</a></li>
+	    <li><a href="https://wangzwhu.github.io/home/acmmm2022_tutorial_mmhe.html"> MMHE @ ACM MM22</a></li>
+            <li><a href="https://www.zdzheng.xyz/Pytorch-ReID">Pytorch reID</a></li>
+	  </ul>
+
+    </div>
+    <div class="author__urls-wrapper">
+	<button class="btn btn--inverse">Special Session</button>
+	<h4 class="specialsession__name"> Special Session </h4>
+	  <ul style="padding-left:0">
+		  <li><a href="https://www.zdzheng.xyz/files/ACM-SI_ToMM_MMGR.pdf"> MMGR @ ACM TOMM24</a></li>
+      <li><a href="https://2023.ieee-itsc.org/wp-content/uploads/2023/03/IEEE-ITSC-2023-Special-Session-Proposal-Safe-Critical-Scenario-Understanding-in-Intelligent-Transportation-Systems-SCSU-ITS.pdf"> SCSU-ITS @ IEEE ITSC23</a></li>
+	    <li><a href="https://www.zdzheng.xyz/ICME2022SS"> R3MR @ IEEE ICME22</a></li>
+	  </ul>
+
+    </div>
+    <div class="author__urls-wrapper">
+	<button class="btn btn--inverse">Leaderboard</button>
+	<h4 class="leaderboard__name"> Leaderboard </h4>
+	  <ul style="padding-left:0">
+		<li><a href="https://zdzheng.xyz/Awesome-reID">Awesome reID</a></li>
+		<li><a href="https://zdzheng.xyz/Awesome-SegDA">Awesome Segmentation Domain Adaptation</a></li>
+		<li><a href="https://zdzheng.xyz/Awesome-Geo-localization">Awesome Geo-localization</a></li>
+	  </ul>
+
+    </div>
+    <div class="author__urls-wrapper">
+	<button class="btn btn--inverse">Friend Links</button>
+	<h4 class="friendlinks__name"> Friend Links </h4>
+	    <ul style="padding-left:0">
+			<li><a href="https://avss2024.org/">AVSS 2024</a></li>
+			<li><a href="https://cvml.comp.nus.edu.sg/">NUS CVML Lab</a></li>
+			<li><a href="https://www.nextcenter.org/">NUS NExT++ Lab</a></li>
+			<li><a href="https://reler.net/">UTS ReLER Lab</a></li>
+		</ul>
+
+    </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Robust Vehicle Re-identification via Rigid Structure Prior">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="January 01, 2021">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Robust Vehicle Re-identification via Rigid Structure Prior
+</h1>
+          
+        
+        
+        
+		  <p>Authors: <a href="https://zdzheng.xyz/authors/Minyue-Jiang" class="author">Minyue Jiang*</a>, <a href="https://zdzheng.xyz/authors/Xuanmeng-Zhang" class="author"> <img src= "https://zdzheng.xyz/files/xuanmeng-zhang.jpeg" alt="xuanmeng-zhang" style="border-radius: 50%; height:20px; width:20px">Xuanmeng Zhang*</a>, <a href="https://zdzheng.xyz/authors/Yue-Yu" class="author">Yue Yu</a>, <a href="https://zdzheng.xyz/authors/Zechen-Bai" class="author">Zechen Bai</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Zhigang-Wang" class="author">Zhigang Wang</a>, <a href="https://zdzheng.xyz/authors/Jian-Wang" class="author">Jian Wang</a>, <a href="https://zdzheng.xyz/authors/Xiao-Tan" class="author">Xiao Tan</a>, <a href="https://zdzheng.xyz/authors/Hao-Sun" class="author">Hao Sun</a>, <a href="https://zdzheng.xyz/authors/Errui-Ding" class="author"> <img src= "https://zdzheng.xyz/files/errui-ding.jpeg" alt="errui-ding" style="border-radius: 50%; height:20px; width:20px">Errui Ding</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/files/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a> </p>
+          <p>Published in <i>CVPR Workshop of AI City Challenge on City-Scale Multi-Camera Vehicle Re-Identification (the 2nd Place of Track 2)</i>, 2021 </p>
+        
+        
+
+        
+          <p> <strong>Recommended citation:</strong>  Minyue Jiang*,  Xuanmeng Zhang*,  Yue Yu,  Zechen Bai,  Zhedong Zheng,  Zhigang Wang,  Jian Wang,  Xiao Tan,  Hao Sun,  Errui Ding,  Yi Yang, &quot;Robust Vehicle Re-identification via Rigid Structure Prior.&quot; CVPR Workshop of AI City Challenge on City-Scale Multi-Camera Vehicle Re-Identification (the 2nd Place of Track 2), 2021. <br /> 
+			  <strong>Download PDF:</strong> <a href="https://zdzheng.xyz/files/CVPRW-2021-VehicleReid.pdf"><u>https://zdzheng.xyz/files/CVPRW-2021-VehicleReid.pdf</u></a></p>
+        
+		
+		
+		  <p>Code is available at: <a href="https://github.com/Xuanmeng-Zhang/AICITY2021-Track2"><u>https://github.com/Xuanmeng-Zhang/AICITY2021-Track2</u></a></p>
+		
+		
+		
+			
+		
+		  <meta name="description" content=" Minyue Jiang*,  Xuanmeng Zhang*,  Yue Yu,  Zechen Bai,  Zhedong Zheng,  Zhigang Wang,  Jian Wang,  Xiao Tan,  Hao Sun,  Errui Ding,  Yi Yang, &quot;Robust Vehicle Re-identification via Rigid Structure Prior.&quot; CVPR Workshop of AI City Challenge on City-Scale Multi-Camera Vehicle Re-Identification (the 2nd Place of Track 2), 2021.">
+		  <pre class="bibtex-content">@inproceedings{zheng2021robust,<br>author = "Jiang*, Minyue and Zhang*, Xuanmeng and Yu, Yue and Bai, Zechen and Zheng, Zhedong and Wang, Zhigang and Wang, Jian and Tan, Xiao and Sun, Hao and Ding, Errui and Yang, Yi",<br>title = "Robust Vehicle Re-identification via Rigid Structure Prior",<br>booktitle = "CVPR Workshop of AI City Challenge on City-Scale Multi-Camera Vehicle Re-Identification (the 2nd Place of Track 2)",<br>code = "https://github.com/Xuanmeng-Zhang/AICITY2021-Track2",<br>url = "https://zdzheng.xyz/files/CVPRW-2021-VehicleReid.pdf",<br>year = "2021" }
+</pre>
+		
+		
+		 
+	      <iframe src="https://zdzheng.xyz/files/CVPRW-2021-VehicleReid.pdf" width="100%" height="1000px">
+	      </iframe>
+		
+		
+		
+		
+		
+		  
+		    <script type="application/ld+json">
+		    { "@context": "https://schema.org", 
+		     "@type": "ScholarlyArticle",
+		     "author": [{"@type": "Person","name": "Minyue Jiang"}, {"@type": "Person","name": "Xuanmeng Zhang"}, {"@type": "Person","name": "Yue Yu"}, {"@type": "Person","name": "Zechen Bai"}, {"@type": "Person","name": "Zhedong Zheng"}, {"@type": "Person","name": "Zhigang Wang"}, {"@type": "Person","name": "Jian Wang"}, {"@type": "Person","name": "Xiao Tan"}, {"@type": "Person","name": "Hao Sun"}, {"@type": "Person","name": "Errui Ding"}, {"@type": "Person","name": "Yi Yang"}],
+		     "headline": "Robust Vehicle Re-identification via Rigid Structure Prior",
+		     "isPartOf": {
+		       "@type": "PublicationVolume",
+		       "name": "CVPR Workshop of AI City Challenge on City-Scale Multi-Camera Vehicle Re-Identification (the 2nd Place of Track 2)"
+		     },
+			 "keywords": ["object re-identification, image retrieval,"],
+		     "datePublished": "2021-01-01 00:00:00 +0800"
+	        }
+		    </script>
+		
+		
+    
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+<section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=https://zdzheng.xyz/publication/Robust-V2021" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://zdzheng.xyz/publication/Robust-V2021" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://zdzheng.xyz/publication/Robust-V2021" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+      
+
+
+  <nav class="pagination">
+    
+      <a href="https://zdzheng.xyz/publication/Rectifyi2021" class="pagination--pager" title="Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation
+">Previous</a>
+    
+    
+      <a href="https://zdzheng.xyz/publication/3D-Magic2022" class="pagination--pager" title="3D Magic Mirror: Clothing Reconstruction from a Single Image via a Causal Perspective
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="https://github.com/layumi"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="https://zdzheng.xyz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 Zhedong Zheng. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <!--
+<script src="https://zdzheng.xyz/assets/js/main.min.js" async></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+-->
+
+
+  </body>
+</html>
+

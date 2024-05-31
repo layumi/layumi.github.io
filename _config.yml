@@ -313,7 +313,7 @@ tag_archive:
 #     category: /categories/:name/
 #     tag: /tags/:name/
 
-
+github: [metadata]
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:

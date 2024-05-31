@@ -1,0 +1,1212 @@
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+<meta charset="utf-8">
+
+
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Awesome Geo-localization - Zhedong Zheng</title>
+
+
+
+
+
+
+
+<meta property="og:locale" content="en-US">
+<meta property="og:site_name" content="Zhedong Zheng">
+<meta property="og:title" content="Awesome Geo-localization">
+
+
+
+
+
+
+
+
+  <link rel="canonical" href="https://zdzheng.xyz/Awesome-Geo-localization">
+  <meta property="og:url" content="https://zdzheng.xyz/Awesome-Geo-localization">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://zdzheng.xyz/feed.xml" type="application/atom+xml" rel="alternate" title="Zhedong Zheng Feed">
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<!--
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+-->
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://zdzheng.xyz/assets/css/main.css">
+
+<!-- favicon -->
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
+<meta http-equiv="cleartype" content="on">
+
+    
+
+<!-- start custom head snippets -->
+
+<link rel="apple-touch-icon" sizes="57x57" href="https://zdzheng.xyz/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="https://zdzheng.xyz/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="https://zdzheng.xyz/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="https://zdzheng.xyz/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="https://zdzheng.xyz/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="https://zdzheng.xyz/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="https://zdzheng.xyz/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="https://zdzheng.xyz/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="https://zdzheng.xyz/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="https://zdzheng.xyz/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="https://zdzheng.xyz/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="https://zdzheng.xyz/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="https://zdzheng.xyz/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="mask-icon" href="https://zdzheng.xyz/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="https://zdzheng.xyz/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="https://zdzheng.xyz/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="https://zdzheng.xyz/assets/css/academicons.css"/>
+
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <button><div class="navicon"></div></button>
+        <ul class="visible-links">
+          <li class="masthead__menu-item masthead__menu-item--lg"><a href="https://zdzheng.xyz/">Zhedong Zheng</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/">Home</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/research">Research</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/publications/">Publications</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/files/zhedong-resume.pdf">CV</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/resources/">Resources</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/seminar/">Seminar</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://zdzheng.xyz/recruitment/">Join Us</a></li>
+          
+        </ul>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+
+
+<head> 
+	<style>
+		.author {
+			text-decoration: none !important;
+			color: #333333;
+		}
+
+		.author:hover {
+			text-decoration: underline;
+			color: #0066cc;
+		}
+	    pre {
+	      background-color: gray;
+	      color: white;
+	      padding: 10px;
+	      border-radius: 5px;
+	    }
+	</style>
+</head>
+
+<div id="main" role="main">
+  <meta name="og:description" content="Awesome Geo-localization"> 
+  
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Awesome Geo-localization">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Awesome Geo-localization
+</h1>
+          
+        
+        
+        
+        
+
+        
+		
+		
+		
+		
+			
+		
+		  <meta name="description" content="Awesome Geo-localization">
+		
+		
+		
+		
+		
+		
+		
+		
+		
+    
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+
+<ul>
+  <li><a href="#university-1652-dataset">University-1652 Dataset</a></li>
+  <li><a href="#cvusa-dataset">cvusa Dataset</a></li>
+  <li><a href="#cvact-val-dataset">cvact Dataset</a></li>
+</ul>
+
+<h3 id="news">News</h3>
+
+<p>Recently, we raise a special issue on Remote Sensing (IF=5.349) from now to 16 June 2023. You are welcomed to submit your manuscript at (https://www.mdpi.com/journal/remotesensing/special_issues/EMPK490239), but you need to keep open-source fee in mind.</p>
+
+<h3 id="university-1652-dataset">University-1652 Dataset</h3>
+
+<p>Drone &lt;-&gt; Satellite</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Methods</th>
+      <th>R@1</th>
+      <th>AP</th>
+      <th>R@1</th>
+      <th>AP</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td>Drone -&gt; Satellite</td>
+      <td> </td>
+      <td>Satellite -&gt; Drone</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Contrastive Loss</td>
+      <td>52.39</td>
+      <td>57.44</td>
+      <td>63.91</td>
+      <td>52.24</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Triplet Loss (margin=0.3)</td>
+      <td>55.18</td>
+      <td>59.97</td>
+      <td>63.62</td>
+      <td>53.85</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Triplet Loss (margin=0.5)</td>
+      <td>53.58</td>
+      <td>58.60</td>
+      <td>64.48</td>
+      <td>53.15</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Weighted Soft Margin Triplet Loss</td>
+      <td>53.21</td>
+      <td>58.03</td>
+      <td>65.62</td>
+      <td>54.47</td>
+      <td>Liu L, Li H. Lending orientation to neural networks for cross-view geo-localization[C]. CVPR, 2019: 5624-5633. <a href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Liu_Lending_Orientation_to_Neural_Networks_for_Cross-View_Geo-Localization_CVPR_2019_paper.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Instance Loss</td>
+      <td>58.23</td>
+      <td>62.91</td>
+      <td>74.47</td>
+      <td>59.45</td>
+      <td>Zheng Z, Zheng L, Garrett M, et al. Dual-Path Convolutional Image-Text Embedding with Instance Loss. TOMM 2020. <a href="https://arxiv.org/abs/1711.05535">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Instance Loss + Verification Loss</td>
+      <td>61.30</td>
+      <td>65.68</td>
+      <td>75.04</td>
+      <td>62.87</td>
+      <td>Zheng Z, Zheng L, Yang Y. A discriminatively learned cnn embedding for person reidentification[J]. TOMM, 2017, 14(1): 1-20. <a href="https://arxiv.org/pdf/1611.05666.pdf">[Paper]</a> <a href="https://github.com/layumi/University1652-Baseline">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>Instance Loss + GeM Pooling</td>
+      <td>65.32</td>
+      <td>69.61</td>
+      <td>79.03</td>
+      <td>65.35</td>
+      <td>Radenović, Filip, Giorgos Tolias, and Ondřej Chum. “Fine-tuning CNN image retrieval with no human annotation.” TPAMI (2018): 1655-1668.</td>
+    </tr>
+    <tr>
+      <td>Instance Loss + Weighted Soft Margin Triplet Loss</td>
+      <td>65.93</td>
+      <td>70.18</td>
+      <td>76.03</td>
+      <td>66.36</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>RK-Net (USAM)</td>
+      <td>66.13</td>
+      <td>70.23</td>
+      <td>80.17</td>
+      <td>65.76</td>
+      <td>Lin J, Zheng Z, Zhong Z, Luo Z, Li S, Yang Y, Sebe N. Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization. TIP 2022. <a href="https://zhunzhong.site/paper/RK_Net.pdf">[Paper]</a>  <a href="https://github.com/AggMan96/RK-Net">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>LCM (ResNet-50)</td>
+      <td>66.65</td>
+      <td>70.82</td>
+      <td>79.89</td>
+      <td>65.38</td>
+      <td>Ding L, Zhou J, Meng L, et al. A Practical Cross-View Image Matching Method between UAV and Satellite for UAV-Based Geo-Localization[J]. Remote Sensing, 2021, 13(1): 47. <a href="https://www.mdpi.com/2072-4292/13/1/47/pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>DWDR</td>
+      <td>69.77</td>
+      <td>73.73</td>
+      <td>81.46</td>
+      <td>70.45</td>
+      <td>Tingyu W, Zhedong Z, Zunjie Z, Yuhan G, Yi Y, and Chenggang Y. “Learning Cross-view Geo-localization Embeddings via Dynamic Weighted Decorrelation Regularization” arXiv 2022. <a href="https://arxiv.org/pdf/2211.05296.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Instance Loss + GNN ReRanking</td>
+      <td>70.30</td>
+      <td>74.11</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Zhang, Xuanmeng, Minyue Jiang, Zhedong Zheng, Xiao Tan, Errui Ding, and Yi Yang. “Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective.” arXiv 2020. <a href="https://arxiv.org/abs/2012.07620">[Paper]</a><a href="https://github.com/layumi/University1652-Baseline/tree/master/GPU-Re-Ranking">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>Instance Loss + USAM + SAFA</td>
+      <td>72.19</td>
+      <td>75.79</td>
+      <td>83.23</td>
+      <td>71.77</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>MuSe-Net (Normal Weather)</td>
+      <td>74.48</td>
+      <td>77.83</td>
+      <td>88.02</td>
+      <td>75.10</td>
+      <td>Wang T, Zheng Z, Sun Y, et al. Multiple-environment Self-adaptive Network for Aerial-view Geo-localization[J]. arXiv preprint arXiv:2204.08381, 2022.</td>
+    </tr>
+    <tr>
+      <td>LPN</td>
+      <td>75.93</td>
+      <td>79.14</td>
+      <td>86.45</td>
+      <td>74.79</td>
+      <td>Tingyu W, Zhedong Z, Chenggang Y, and Yi Y. Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization. TCSVT 2021. <a href="https://arxiv.org/abs/2008.11646">[Paper]</a>  <a href="https://github.com/wtyhub/LPN">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>LPN + CA-HRS</td>
+      <td>76.67</td>
+      <td>79.77</td>
+      <td>86.88</td>
+      <td>74.84</td>
+      <td>Zeng Lu, Tao Pu, Tianshui Chen, and Liang Lin. Content-Aware Hierarchical Representation Selection for Cross-View Geo-Localization ACCV2022. <a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Lu_Content-Aware_Hierarchical_Representation_Selection_for_Cross-View_Geo-Localization_ACCV_2022_paper.pdf">[Paper]</a>  <a href="https://github.com/Allen-lz/CA-HRS">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>Instance Loss + Weighted Soft Margin Triplet Loss + LPN</td>
+      <td>76.29</td>
+      <td>79.46</td>
+      <td>81.74</td>
+      <td>73.58</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Instance Loss + Verification Loss + LPN</td>
+      <td>77.08</td>
+      <td>80.18</td>
+      <td>85.02</td>
+      <td>73.80</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Instance Loss + USAM + LPN</td>
+      <td>77.60</td>
+      <td>80.55</td>
+      <td>86.59</td>
+      <td>75.96</td>
+      <td>Lin J, Zheng Z, Zhong Z, Luo Z, Li S, Yang Y, Sebe N. Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization. TIP 2022. <a href="https://zhunzhong.site/paper/RK_Net.pdf">[Paper]</a>  <a href="https://github.com/AggMan96/RK-Net">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>F3Net</td>
+      <td>78.64</td>
+      <td>81.60</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Bo Sun, Ganchao Liu and Yuan Yuan. F3-Net: Multiview Scene Matching for Drone-Based Geo-Localization. TGRS 2023.</td>
+    </tr>
+    <tr>
+      <td>SAIG-D</td>
+      <td>78.85</td>
+      <td>81.62</td>
+      <td>86.45</td>
+      <td>78.48</td>
+      <td>Yingying Zhu, Hongji Yang, Yuxin Lu and Qiang Huang. Simple, Effective and General: A New Backbone for Cross-view Image Geo-localization. ArXiv 2023</td>
+    </tr>
+    <tr>
+      <td>LDRVSD</td>
+      <td>78.66</td>
+      <td>81.55</td>
+      <td>89.30</td>
+      <td>79.17</td>
+      <td>Qian Hu, Wansi Li, Xing Xu, Ning Liu, Lei Wang. Learning discriminative representations via variational self-distillation for cross-view geo-localization. Computers and Electrical Engineering 2022 <a href="https://www.sciencedirect.com/science/article/pii/S0045790622005559">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>PCL</td>
+      <td>79.47</td>
+      <td>83.63</td>
+      <td>87.69</td>
+      <td>78.51</td>
+      <td>Xiaoyang Tian, Jie Shao, Deqiang Ouyang, and Heng Tao Shen. UAV-Satellite View Synthesis for Cross-view Geo-Localization. TCSVT 2021. <a href="https://ieeexplore.ieee.org/document/9583266">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>LPN + DWDR</td>
+      <td>81.51</td>
+      <td>84.11</td>
+      <td>88.30</td>
+      <td>79.38</td>
+      <td>Tingyu W, Zhedong Z, Zunjie Z, Yuhan G, Yi Y, and Chenggang Y. “Learning Cross-view Geo-localization Embeddings via Dynamic Weighted Decorrelation Regularization” arXiv 2022. <a href="https://arxiv.org/pdf/2211.05296.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>FSRA (k=1)</td>
+      <td>82.25</td>
+      <td>84.82</td>
+      <td>87.87</td>
+      <td>81.53</td>
+      <td>Ming Dai, Jianhong Hu, Jiedong Zhuang, Enhui Zheng. A Transformer-Based Feature Segmentation and Region Alignment Method For UAV-View Geo-Localization. TCSVT 2022. <a href="https://arxiv.org/pdf/2201.09206.pdf">[Paper]</a>  <a href="https://github.com/dmmm1997/fsra">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>FSRA (k=3)</td>
+      <td>84.51</td>
+      <td>86.71</td>
+      <td>88.45</td>
+      <td>83.37</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>PAAN</td>
+      <td>84.51</td>
+      <td>86.78</td>
+      <td>91.01</td>
+      <td>82.28</td>
+      <td>Duc Viet Bui, Masao Kubo, Hiroshi Sato. A Part-aware Attention Neural Network for Cross-view Geo-localization between UAV and Satellite.  Journal of Robotics Networking and Artificial Life 2022 <a href="https://www.researchgate.net/profile/Viet-Bui-9/publication/366091845_A_Part-aware_Attention_Neural_Network_for_Cross-view_Geo-localization_between_UAV_and_Satellite/links/63914181e42faa7e75a6122e/A-Part-aware-Attention-Neural-Network-for-Cross-view-Geo-localization-between-UAV-and-Satellite.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Swin-B + DWDR</td>
+      <td>86.41</td>
+      <td>88.41</td>
+      <td>91.30</td>
+      <td>86.02</td>
+      <td>Tingyu W, Zhedong Z, Zunjie Z, Yuhan G, Yi Y, and Chenggang Y. “Learning Cross-view Geo-localization Embeddings via Dynamic Weighted Decorrelation Regularization” arXiv 2022. <a href="https://arxiv.org/pdf/2211.05296.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>MBF</td>
+      <td>89.05</td>
+      <td>90.61</td>
+      <td>93.15</td>
+      <td>88.17</td>
+      <td>Runzhe Zhu , Mingze Yang , Ling Yin * , Fei Wu and Yuncheng Yang. “UAV’s Status Is Worth Considering: A Fusion Representations Matching Method for Geo-Localization” Sensors</td>
+    </tr>
+    <tr>
+      <td>MCCG</td>
+      <td>89.64</td>
+      <td>91.32</td>
+      <td>94.30</td>
+      <td>89.39</td>
+      <td>Tianrui Shen, Yingmei Wei, Lai Kang, Shanshan Wan and Yee-Hong Yang. MCCG: A ConvNeXt-based Multiple-Classifier Method for Cross-view Geo-localization. TCSVT 2023 <a href="https://github.com/mode-str/crossview">[Code]</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Ground &lt;-&gt; Satellite</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Methods</th>
+      <th>Training Set</th>
+      <th>R@1</th>
+      <th>AP</th>
+      <th>R@1</th>
+      <th>AP</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td> </td>
+      <td> </td>
+      <td>Ground -&gt; Satellite</td>
+      <td> </td>
+      <td>Satellite -&gt; Ground</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Instance Loss</td>
+      <td>Satellite + Ground</td>
+      <td>0.62</td>
+      <td>1.60</td>
+      <td>0.86</td>
+      <td>1.00</td>
+      <td>Zheng Z, Zheng L, Garrett M, et al. Dual-Path Convolutional Image-Text Embedding with Instance Loss. TOMM 2020. <a href="https://arxiv.org/abs/1711.05535">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Instance Loss</td>
+      <td>Satellite + Drone + Ground</td>
+      <td>1.28</td>
+      <td>2.29</td>
+      <td>1.57</td>
+      <td>1.52</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Instance Loss</td>
+      <td>Satellite + Drone + Ground + Google Image</td>
+      <td>1.20</td>
+      <td>2.52</td>
+      <td>1.14</td>
+      <td>1.41</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>LPN</td>
+      <td>Satellite + Ground</td>
+      <td>0.74</td>
+      <td>1.83</td>
+      <td>1.43</td>
+      <td>1.31</td>
+      <td>Tingyu W, Zhedong Z, Chenggang Y, and Yi Y. Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization. TCSVT 2021. <a href="https://arxiv.org/abs/2008.11646">[Paper]</a>  <a href="https://github.com/wtyhub/LPN">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>LPN</td>
+      <td>Satellite + Drone + Ground</td>
+      <td>0.81</td>
+      <td>2.21</td>
+      <td>1.85</td>
+      <td>1.66</td>
+      <td>Tingyu W, Zhedong Z, Chenggang Y, and Yi Y. Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization. TCSVT 2021. <a href="https://arxiv.org/abs/2008.11646">[Paper]</a>  <a href="https://github.com/wtyhub/LPN">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>PCLD</td>
+      <td>Satellite + Drone + Ground</td>
+      <td>9.15</td>
+      <td>14.16</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Zeng, Z., Wang, Z., Yang, F., &amp; Satoh, S. I. (2022). Geo-Localization via Ground-to-Satellite Cross-View Image Retrieval. IEEE Transactions on Multimedia. <a href="https://ieeexplore.ieee.org/abstract/document/9684950/">[Paper]</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="cvusa-dataset">cvusa Dataset</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Methods</th>
+      <th>R@1</th>
+      <th>R@5</th>
+      <th>R@10</th>
+      <th>R@Top1</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Workman</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>34.40</td>
+      <td>Scott Workman, Richard Souvenir, and Nathan Jacobs. ICCV 2015. Wide-area image geolocalization with aerial reference imagery <a href="https://www.cv-foundation.org/openaccess/content_iccv_2015/papers/Workman_Wide-Area_Image_Geolocalization_ICCV_2015_paper.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Zhai</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>43.20</td>
+      <td>Menghua Zhai, Zachary Bessinger, Scott Workman, and Nathan Jacobs. CVPR 2017. Predicting ground-level scene layout from aerial imagery.<a href="https://arxiv.org/abs/1612.02709">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Vo</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>63.70</td>
+      <td>Nam N Vo and James Hays. ECCV 2016. Localizing and orienting street views using overhead imagery</td>
+    </tr>
+    <tr>
+      <td>CVM-Net</td>
+      <td>18.80</td>
+      <td>44.42</td>
+      <td>57.47</td>
+      <td>91.54</td>
+      <td>Sixing Hu, Mengdan Feng, Rang MH Nguyen, and Gim Hee Lee. CVPR 2018. CVM-net:Cross-view matching network for image-based ground-to-aerial geo-localization. <a href="http://openaccess.thecvf.com/content_cvpr_2018/html/Hu_CVM-Net_Cross-View_Matching_CVPR_2018_paper.html">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Orientation**</td>
+      <td>27.15</td>
+      <td>54.66</td>
+      <td>67.54</td>
+      <td>93.91</td>
+      <td>Liu Liu and Hongdong Li. CVPR 2019. Lending Orientation to Neural Networks for Cross-view Geo-localization <a href="https://arxiv.org/abs/1903.12351">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Siam-FCANet</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>98.3</td>
+      <td>Sudong C, Yulan G, Salman K, et al. Ground-to-Aerial Image Geo-Localization With a Hard Exemplar Reweighting Triplet Loss. ICCV 2019. <a href="https://salman-h-khan.github.io/papers/ICCV19-3.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Feature Fusion</td>
+      <td>48.75</td>
+      <td>-</td>
+      <td>81.27</td>
+      <td>95.98</td>
+      <td>Krishna Regmi, Mubarak Shah, et al. Bridging the Domain Gap for Ground-to-Aerial Image Matching. ICCV 2019. <a href="https://arxiv.org/abs/1904.11045">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Instance Loss</td>
+      <td>43.91</td>
+      <td>66.38</td>
+      <td>74.58</td>
+      <td>91.78</td>
+      <td>Zheng Z, Zheng L, Garrett M, et al. Dual-Path Convolutional Image-Text Embedding with Instance Loss. TOMM 2020. <a href="https://arxiv.org/abs/1711.05535">[Paper]</a> <a href="https://github.com/layumi/University1652-Baseline">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>RK-Net (USAM)</td>
+      <td>52.50</td>
+      <td>-</td>
+      <td>-</td>
+      <td>96.52</td>
+      <td>Lin J, Zheng Z, Zhong Z, Luo Z, Li S, Yang Y, Sebe N. Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization. TIP 2022. <a href="https://zdzheng.xyz/files/TIP_RKNet.pdf">[Paper]</a>  <a href="https://github.com/AggMan96/RK-Net">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>CVFT</td>
+      <td>61.43</td>
+      <td>84.69</td>
+      <td>90.49</td>
+      <td>99.02</td>
+      <td>Shi Y, Yu X, Liu L, et al. Optimal Feature Transport for Cross-View Image Geo-Localization. AAAI 2020. <a href="https://arxiv.org/abs/1907.05021">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>DWDR</td>
+      <td>75.62</td>
+      <td>90.45</td>
+      <td>93.60</td>
+      <td>98.60</td>
+      <td>Tingyu W, Zhedong Z, Zunjie Z, Yuhan G, Yi Y, and Chenggang Y. “Learning Cross-view Geo-localization Embeddings via Dynamic Weighted Decorrelation Regularization” arXiv 2022. <a href="https://arxiv.org/pdf/2211.05296.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>MS Attention w DataAug</td>
+      <td>75.95</td>
+      <td>91.90</td>
+      <td>95.00</td>
+      <td>99.42</td>
+      <td>Rodrigues, Royston, and Masahiro Tani. “Are These From the Same Place? Seeing the Unseen in Cross-View Image Geo-Localization.” WACV 2021. <a href="https://openaccess.thecvf.com/content/WACV2021/papers/Rodrigues_Are_These_From_the_Same_Place_Seeing_the_Unseen_in_WACV_2021_paper.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>MuSe-Net (Normal Weather)</td>
+      <td>78.04</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Wang T, Zheng Z, Sun Y, et al. Multiple-environment Self-adaptive Network for Aerial-view Geo-localization[J]. arXiv preprint arXiv:2204.08381, 2022.</td>
+    </tr>
+    <tr>
+      <td>LPN</td>
+      <td>85.79</td>
+      <td>95.38</td>
+      <td>96.98</td>
+      <td>99.41</td>
+      <td>Tingyu Wang, Zhedong Zheng, Chenggang Yan, and Yi, Yang. Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization. TCSVT 2021. <a href="https://arxiv.org/abs/2008.11646">[Paper]</a> <a href="https://github.com/wtyhub/LPN">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>LPN + CA-HRS</td>
+      <td>87.16</td>
+      <td>95.98</td>
+      <td>97.55</td>
+      <td>99.49</td>
+      <td>Zeng Lu, Tao Pu, Tianshui Chen, and Liang Lin. Content-Aware Hierarchical Representation Selection for Cross-View Geo-Localization ACCV2022. <a href="https://openaccess.thecvf.com/content/ACCV2022/papers/Lu_Content-Aware_Hierarchical_Representation_Selection_for_Cross-View_Geo-Localization_ACCV_2022_paper.pdf">[Paper]</a>  <a href="https://github.com/Allen-lz/CA-HRS">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>SAFA*</td>
+      <td>89.84</td>
+      <td>96.93</td>
+      <td>98.14</td>
+      <td>99.64</td>
+      <td>Yujiao Shi, Liu Liu, Xin Yu, et al. Spatial-Aware Feature Aggregation for Cross-View Image based Geo-Localization. NeurIPS 2019. <a href="http://papers.neurips.cc/paper/9199-spatial-aware-feature-aggregation-for-image-based-cross-view-geo-localization">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>SAFA* + USAM</td>
+      <td>90.16</td>
+      <td>-</td>
+      <td>-</td>
+      <td>99.67</td>
+      <td>Lin J, Zheng Z, Zhong Z, Luo Z, Li S, Yang Y, Sebe N. Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization. TIP 2022. <a href="https://zdzheng.xyz/files/TIP_RKNet.pdf">[Paper]</a>  <a href="https://github.com/AggMan96/RK-Net">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>LPN + USAM</td>
+      <td>91.22</td>
+      <td>-</td>
+      <td>-</td>
+      <td>99.67</td>
+      <td>Lin J, Zheng Z, Zhong Z, Luo Z, Li S, Yang Y, Sebe N. Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization. TIP 2022. <a href="https://zdzheng.xyz/files/TIP_RKNet.pdf">[Paper]</a>  <a href="https://github.com/AggMan96/RK-Net">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>DSM*</td>
+      <td>91.96</td>
+      <td>97.50</td>
+      <td>98.54</td>
+      <td>99.67</td>
+      <td>Yujiao Shi, Xin Yu, Dylan Campbell, and Hongdong Li. “Where am i looking at? joint location and orientation estimation by cross-view matching.” CVPR 2020. <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Where_Am_I_Looking_At_Joint_Location_and_Orientation_Estimation_CVPR_2020_paper.pdf">[Paper]</a> <a href="https://github.com/shiyujiao/cross_view_localization_DSM">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>Toker etal.*</td>
+      <td>92.56</td>
+      <td>97.55</td>
+      <td>98.33</td>
+      <td>99.67</td>
+      <td>Aysim Toker, Qunjie Zhou, Maxim Maximov, Laura Leal-Taixé. Coming Down to Earth: Satellite-to-Street View Synthesis for Geo-Localization. CVPR 2021 <a href="https://arxiv.org/pdf/2103.06818.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Shi etal.*</td>
+      <td>92.69</td>
+      <td>97.78</td>
+      <td>98.60</td>
+      <td>99.61</td>
+      <td>Yujiao Shi, Xin Yu,  Liu Liu, Dylan Campbell, Piotr Koniusz, and Hongdong Li. Accurate 3-DoF Camera Geo-Localization via Ground-to-Satellite Image Matching. TPAMI 2022. <a href="https://arxiv.org/pdf/2203.14148.pdf">[Paper]</a> <a href="https://github.com/shiyujiao/ibl">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>SAFA* + LPN</td>
+      <td>92.83</td>
+      <td>98.00</td>
+      <td>98.85</td>
+      <td>99.78</td>
+      <td>Tingyu Wang, Zhedong Zheng, Chenggang Yan, and Yi, Yang. Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization. TCSVT 2021. <a href="https://arxiv.org/abs/2008.11646">[Paper]</a> <a href="https://github.com/wtyhub/LPN">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>SIRNet*</td>
+      <td>93.74</td>
+      <td>98.02</td>
+      <td>98.85</td>
+      <td>99.76</td>
+      <td>Xiufan Lu, Siqi Luo, Yingying Zhu. “It’s Okay to Be Wrong: Cross-View Geo-Localization With Step-Adaptive Iterative Refinement” IEEE Transactions on Geoscience and Remote Sensing 2022 <a href="https://ieeexplore.ieee.org/document/9913952/">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Polar-L2LTR*</td>
+      <td>94.05</td>
+      <td>98.27</td>
+      <td>98.99</td>
+      <td>99.67</td>
+      <td>Hongji Yang, Xiufan Lu, Yingying Zhu. Cross-view Geo-localization with Layer-to-Layer Transformer. NeurIPS 2021 <a href="https://papers.nips.cc/paper/2021/file/f31b20466ae89669f9741e047487eb37-Paper.pdf">[Paper]</a> <a href="https://github.com/yanghongji2007/cross_view_localization_L2LTR">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>TransGeo</td>
+      <td>94.08</td>
+      <td>98.36</td>
+      <td>99.04</td>
+      <td>99.77</td>
+      <td>Sijie Zhu, Mubarak Shah, Chen Chen. TransGeo: Transformer Is All You Need for Cross-view Image Geo-localization. CVPR 2022 <a href="https://arxiv.org/pdf/2204.00097.pdf">[Paper]</a> <a href="https://github.com/jeff-zilence/transgeo2022">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>MGTL*</td>
+      <td>94.11</td>
+      <td>98.30</td>
+      <td>99.03</td>
+      <td>99.74</td>
+      <td>Jianwei Zhao, Qiang Zhai, Rui Huang, Hong Cheng. Mutual Generative Transformer Learning for Cross-view Geo-localization <a href="https://arxiv.org/abs/2203.09135">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>GeoDTR</td>
+      <td>93.76</td>
+      <td>98.47</td>
+      <td>99.22</td>
+      <td>99.85</td>
+      <td>Xiaohan Zhang, Xingyu Li, Waqas Sultani, Yi Zhou, Safwan Wshah.  Cross-view Geo-localization via Learning Disentangled Geometric Layout Correspondence <a href="https://arxiv.org/pdf/2212.04074.pdf">[Paper]</a> <a href="https://gitlab.com/vail-uvm/geodtr">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>LPN* + DWDR</td>
+      <td>94.33</td>
+      <td>98.54</td>
+      <td>99.09</td>
+      <td>99.80</td>
+      <td>Tingyu W, Zhedong Z, Zunjie Z, Yuhan G, Yi Y, and Chenggang Y. “Learning Cross-view Geo-localization Embeddings via Dynamic Weighted Decorrelation Regularization” arXiv 2022. <a href="https://arxiv.org/pdf/2211.05296.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>GeoDTR*</td>
+      <td>95.43</td>
+      <td>98.86</td>
+      <td>99.34</td>
+      <td>99.86</td>
+      <td>Xiaohan Zhang, Xingyu Li, Waqas Sultani, Yi Zhou, Safwan Wshah.  Cross-view Geo-localization via Learning Disentangled Geometric Layout Correspondence <a href="https://arxiv.org/pdf/2212.04074.pdf">[Paper]</a> <a href="https://gitlab.com/vail-uvm/geodtr">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>FI*</td>
+      <td>95.50</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Wenmiao Hu, Yichen Zhang, Yuxuan Liang, Yifang Yin, Anderi Georgecu, An Tran, Hannes Kruppa, See-Kiong Ng, Roger Zimmermann. Beyond Geo-localization: Fine-grained Orientation of Street-view Images by Cross-view Matching with Satellite Imagery. ACM MM 2022 <a href="https://dl.acm.org/doi/pdf/10.1145/3503161.3548102">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>SAIG-D*</td>
+      <td>96.34</td>
+      <td>99.10</td>
+      <td>99.50</td>
+      <td>99.86</td>
+      <td>Yingying Zhu, Hongji Yang, Yuxin Lu and Qiang Huang. Simple, Effective and General: A New Backbone for Cross-view Image Geo-localization. ArXiv 2023</td>
+    </tr>
+    <tr>
+      <td>*: The method utilizes the polar transformation (assuming that all satellite images face north) as input.</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>** : The method utilizes the polar prior hint.</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="cvact-val-dataset">cvact val Dataset</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Methods</th>
+      <th>R@1</th>
+      <th>R@5</th>
+      <th>R@10</th>
+      <th>R@Top1</th>
+      <th>Reference</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CVM-Net</td>
+      <td>20.15</td>
+      <td>45.00</td>
+      <td>56.87</td>
+      <td>87.57</td>
+      <td>Sixing Hu, Mengdan Feng, Rang MH Nguyen, and Gim Hee Lee. CVPR 2018. CVM-net:Cross-view matching network for image-based ground-to-aerial geo-localization. <a href="http://openaccess.thecvf.com/content_cvpr_2018/html/Hu_CVM-Net_Cross-View_Matching_CVPR_2018_paper.html">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Instance Loss</td>
+      <td>31.20</td>
+      <td>53.64</td>
+      <td>63.00</td>
+      <td>85.27</td>
+      <td>Zheng Z, Zheng L, Garrett M, et al. Dual-Path Convolutional Image-Text Embedding with Instance Loss. TOMM 2020. <a href="https://arxiv.org/abs/1711.05535">[Paper]</a> <a href="https://github.com/layumi/University1652-Baseline">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>RK-Net (USAM)</td>
+      <td>40.53</td>
+      <td>-</td>
+      <td>-</td>
+      <td>89.12</td>
+      <td>Lin J, Zheng Z, Zhong Z, Luo Z, Li S, Yang Y, Sebe N. Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization. TIP 2022. <a href="https://zhunzhong.site/paper/RK_Net.pdf">[Paper]</a>  <a href="https://github.com/AggMan96/RK-Net">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>Orientation**</td>
+      <td>46.96</td>
+      <td>68.28</td>
+      <td>75.48</td>
+      <td>92.04</td>
+      <td>Liu Liu and Hongdong Li. CVPR 2019. Lending Orientation to Neural Networks for Cross-view Geo-localization <a href="https://arxiv.org/abs/1903.12351">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>CVFT</td>
+      <td>61.05</td>
+      <td>81.33</td>
+      <td>86.52</td>
+      <td>95.93</td>
+      <td>Shi Y, Yu X, Liu L, et al. Optimal Feature Transport for Cross-View Image Geo-Localization. AAAI 2020. <a href="https://arxiv.org/abs/1907.05021">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>DWDR</td>
+      <td>66.76</td>
+      <td>83.34</td>
+      <td>87.11</td>
+      <td>95.10</td>
+      <td>Tingyu W, Zhedong Z, Zunjie Z, Yuhan G, Yi Y, and Chenggang Y. “Learning Cross-view Geo-localization Embeddings via Dynamic Weighted Decorrelation Regularization” arXiv 2022. <a href="https://arxiv.org/pdf/2211.05296.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>MS Attention w DataAug</td>
+      <td>73.19</td>
+      <td>90.39</td>
+      <td>93.38</td>
+      <td>97.45</td>
+      <td>Rodrigues, Royston, and Masahiro Tani. “Are These From the Same Place? Seeing the Unseen in Cross-View Image Geo-Localization.” WACV 2021. <a href="https://openaccess.thecvf.com/content/WACV2021/papers/Rodrigues_Are_These_From_the_Same_Place_Seeing_the_Unseen_in_WACV_2021_paper.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>LPN</td>
+      <td>79.99</td>
+      <td>90.63</td>
+      <td>92.56</td>
+      <td>97.03</td>
+      <td>Tingyu Wang, Zhedong Zheng, Chenggang Yan, and Yi, Yang. Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization. TCSVT 2021. <a href="https://arxiv.org/abs/2008.11646">[Paper]</a> <a href="https://github.com/wtyhub/LPN">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>LPN + CA-HRS</td>
+      <td>80.91</td>
+      <td>90.95</td>
+      <td>92.93</td>
+      <td>97.07</td>
+      <td>Zeng Lu, Tao Pu, Tianshui Chen, and Liang Lin. Content-Aware Hierarchical Representation Selection for Cross-View Geo-Localization ACCV2022. <a href="[https://arxiv.org/abs/2008.11646](https://openaccess.thecvf.com/content/ACCV2022/papers/Lu_Content-Aware_Hierarchical_Representation_Selection_for_Cross-View_Geo-Localization_ACCV_2022_paper.pdf)">[Paper]</a>  <a href="https://github.com/Allen-lz/CA-HRS">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>LDRVSD</td>
+      <td>80.98</td>
+      <td>91.48</td>
+      <td>93.33</td>
+      <td>-</td>
+      <td>Qian Hu, Wansi Li, Xing Xu, Ning Liu, Lei Wang. Learning discriminative representations via variational self-distillation for cross-view geo-localization. Computers and Electrical Engineering 2022</td>
+    </tr>
+    <tr>
+      <td>SAFA*</td>
+      <td>81.03</td>
+      <td>92.80</td>
+      <td>94.84</td>
+      <td>98.17</td>
+      <td>Yujiao Shi, Liu Liu, Xin Yu, et al. Spatial-Aware Feature Aggregation for Cross-View Image based Geo-Localization. NeurIPS 2019. <a href="http://papers.neurips.cc/paper/9199-spatial-aware-feature-aggregation-for-image-based-cross-view-geo-localization">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>LPN + USAM</td>
+      <td>82.02</td>
+      <td>-</td>
+      <td>-</td>
+      <td>98.18</td>
+      <td>Lin J, Zheng Z, Zhong Z, Luo Z, Li S, Yang Y, Sebe N. Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization. TIP 2022. <a href="https://zhunzhong.site/paper/RK_Net.pdf">[Paper]</a>  <a href="https://github.com/AggMan96/RK-Net">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>SAFA* + USAM</td>
+      <td>82.40</td>
+      <td>-</td>
+      <td>-</td>
+      <td>98.00</td>
+      <td>Lin J, Zheng Z, Zhong Z, Luo Z, Li S, Yang Y, Sebe N. Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization. TIP 2022. <a href="https://zhunzhong.site/paper/RK_Net.pdf">[Paper]</a>  <a href="https://github.com/AggMan96/RK-Net">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>DSM*</td>
+      <td>82.49</td>
+      <td>92.44</td>
+      <td>93.99</td>
+      <td>97.32</td>
+      <td>Yujiao Shi, Xin Yu, Dylan Campbell, and Hongdong Li. “Where am i looking at? joint location and orientation estimation by cross-view matching.” CVPR 2020. <a href="https://openaccess.thecvf.com/content_CVPR_2020/papers/Shi_Where_Am_I_Looking_At_Joint_Location_and_Orientation_Estimation_CVPR_2020_paper.pdf">[Paper]</a> <a href="https://github.com/shiyujiao/cross_view_localization_DSM">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>Shi etal.*</td>
+      <td>82.70</td>
+      <td>92.50</td>
+      <td>94.24</td>
+      <td>97.65</td>
+      <td>Yujiao Shi, Xin Yu,  Liu Liu, Dylan Campbell, Piotr Koniusz, and Hongdong Li. Accurate 3-DoF Camera Geo-Localization via Ground-to-Satellite Image Matching. TPAMI 2022. <a href="https://arxiv.org/pdf/2203.14148.pdf">[Paper]</a> <a href="https://github.com/shiyujiao/ibl">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>Toker etal.*</td>
+      <td>83.28</td>
+      <td>93.57</td>
+      <td>95.42</td>
+      <td>98.22</td>
+      <td>Aysim Toker, Qunjie Zhou, Maxim Maximov, Laura Leal-Taixé. Coming Down to Earth: Satellite-to-Street View Synthesis for Geo-Localization. CVPR 2021 <a href="https://arxiv.org/pdf/2103.06818.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>SAFA* + LPN</td>
+      <td>83.66</td>
+      <td>94.14</td>
+      <td>95.92</td>
+      <td>98.41</td>
+      <td>Tingyu Wang, Zhedong Zheng, Chenggang Yan, and Yi, Yang. Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization. TCSVT 2021. <a href="https://arxiv.org/abs/2008.11646">[Paper]</a> <a href="https://github.com/wtyhub/LPN">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>LPN* + DWDR</td>
+      <td>83.73</td>
+      <td>92.78</td>
+      <td>94.53</td>
+      <td>97.78</td>
+      <td>Tingyu W, Zhedong Z, Zunjie Z, Yuhan G, Yi Y, and Chenggang Y. “Learning Cross-view Geo-localization Embeddings via Dynamic Weighted Decorrelation Regularization” arXiv 2022. <a href="https://arxiv.org/pdf/2211.05296.pdf">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>Polar-L2LTR*</td>
+      <td>84.89</td>
+      <td>94.59</td>
+      <td>95.96</td>
+      <td>98.37</td>
+      <td>Hongji Yang, Xiufan Lu, Yingying Zhu. Cross-view Geo-localization with Layer-to-Layer Transformer. NeurIPS 2021 <a href="https://papers.nips.cc/paper/2021/file/f31b20466ae89669f9741e047487eb37-Paper.pdf">[Paper]</a> <a href="https://github.com/yanghongji2007/cross_view_localization_L2LTR">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>TransGeo</td>
+      <td>84.95</td>
+      <td>94.14</td>
+      <td>95.78</td>
+      <td>98.37</td>
+      <td>Sijie Zhu, Mubarak Shah, Chen Chen. TransGeo: Transformer Is All You Need for Cross-view Image Geo-localization. CVPR 2022 <a href="https://arxiv.org/pdf/2204.00097.pdf">[Paper]</a> <a href="https://github.com/jeff-zilence/transgeo2022">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>MGTL*</td>
+      <td>85.35</td>
+      <td>94.45</td>
+      <td>96.06</td>
+      <td>98.48</td>
+      <td>Jianwei Zhao, Qiang Zhai, Rui Huang, Hong Cheng. Mutual Generative Transformer Learning for Cross-view Geo-localization <a href="https://arxiv.org/abs/2203.09135">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>SIRNet*</td>
+      <td>86.02</td>
+      <td>94.45</td>
+      <td>96.02</td>
+      <td>98.33</td>
+      <td>Xiufan Lu, Siqi Luo, Yingying Zhu. “It’s Okay to Be Wrong: Cross-View Geo-Localization With Step-Adaptive Iterative Refinement” IEEE Transactions on Geoscience and Remote Sensing 2022 <a href="https://ieeexplore.ieee.org/document/9913952/">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>GeoDTR</td>
+      <td>85.43</td>
+      <td>94.81</td>
+      <td>96.11</td>
+      <td>98.26</td>
+      <td>Xiaohan Zhang, Xingyu Li, Waqas Sultani, Yi Zhou, Safwan Wshah.  Cross-view Geo-localization via Learning Disentangled Geometric Layout Correspondence <a href="https://arxiv.org/pdf/2212.04074.pdf">[Paper]</a> <a href="https://gitlab.com/vail-uvm/geodtr">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>GeoDTR*</td>
+      <td>86.21</td>
+      <td>95.44</td>
+      <td>96.72</td>
+      <td>98.77</td>
+      <td>Xiaohan Zhang, Xingyu Li, Waqas Sultani, Yi Zhou, Safwan Wshah.  Cross-view Geo-localization via Learning Disentangled Geometric Layout Correspondence <a href="https://arxiv.org/pdf/2212.04074.pdf">[Paper]</a> <a href="https://gitlab.com/vail-uvm/geodtr">[Code]</a></td>
+    </tr>
+    <tr>
+      <td>FI*</td>
+      <td>86.79</td>
+      <td>-</td>
+      <td>-</td>
+      <td>-</td>
+      <td>Wenmiao Hu, Yichen Zhang, Yuxuan Liang, Yifang Yin, Anderi Georgecu, An Tran, Hannes Kruppa, See-Kiong Ng, Roger Zimmermann. Beyond Geo-localization: Fine-grained Orientation of Street-view Images by Cross-view Matching with Satellite Imagery. ACM MM 2022 <a href="https://dl.acm.org/doi/pdf/10.1145/3503161.3548102">[Paper]</a></td>
+    </tr>
+    <tr>
+      <td>SAIG-D*</td>
+      <td>89.06</td>
+      <td>96.11</td>
+      <td>97.08</td>
+      <td>98.89</td>
+      <td>Yingying Zhu, Hongji Yang, Yuxin Lu and Qiang Huang. Simple, Effective and General: A New Backbone for Cross-view Image Geo-localization. ArXiv 2023</td>
+    </tr>
+    <tr>
+      <td>*: The method utilizes the polar transformation (assuming that all satellite images face north) as input.</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>** : The method utilizes the polar prior hint.</td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+
+
+      </footer>
+
+      
+
+      
+
+
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+<a href="/sitemap/">Sitemap</a>
+<!-- end custom footer snippets -->
+
+        
+
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+    
+    
+      <li><a href="https://github.com/layumi"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    <li><a href="https://zdzheng.xyz/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 Zhedong Zheng. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://github.com/academicpages/academicpages.github.io">AcademicPages</a>, a fork of <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <!--
+<script src="https://zdzheng.xyz/assets/js/main.min.js" async></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+-->
+
+
+  </body>
+</html>
+

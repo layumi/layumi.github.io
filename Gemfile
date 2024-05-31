@@ -17,7 +17,7 @@ gem "github-pages", group: :jekyll_plugins
 # gem "jekyll"
 
 gem "wdm", "~> 0.1.1" if Gem.win_platform?
-
+gem "csv"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-archives"
@@ -28,3 +28,5 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag'
   gem 'jemoji'
 end
+
+gem "webrick", "~> 1.8"

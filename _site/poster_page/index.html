@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<title>Poster Slideshow</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+  	<meta name="description" content="show my posters">
+	<meta name="keywords" content="Poster, Zhedong Zheng">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" async>
+<link rel="stylesheet" href="https://github.com/layumi/poster_page/blob/master/demo.css" async>
+ 
+<body>
+
+<div class="w3-container">
+  <h1>My Posters</h1>
+  <p>I was a poster maker when I studied at Fudan University. 
+    </br> It is an essential experience for me, and thus, 
+ </br> I choose Computer Vision as my research field.
+</p>
+</div>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/1.jpg?raw=true" style="width:100%">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/2.jpg?raw=true" style="width:100%">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/3.jpg?raw=true" style="width:100%">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/4.jpg?raw=true" style="width:100%">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/5.jpg?raw=true" style="width:100%">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/6.jpg?raw=true" style="width:100%">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/7.jpg?raw=true" style="width:100%">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/8.jpg?raw=true" style="width:100%">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/9.jpg?raw=true" style="width:100%">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/10.jpg?raw=true" style="width:100%">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/11.jpg?raw=true" style="width:100%">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/12.jpg?raw=true" style="width:100%">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/13.jpg?raw=true" style="width:100%">
+  <img class="mySlides" src="https://github.com/layumi/poster_page/blob/master/images/14.jpg?raw=true" style="width:100%">
+</div>
+
+<a href="https://zdzheng.xyz"> Return to My Homepage</a>
+	
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>
+
