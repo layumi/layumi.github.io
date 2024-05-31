@@ -18,7 +18,10 @@
   },
   "homepage": "https://mmistakes.github.io/minimal-mistakes/",
   "engines": {
-    "node": "18.x"
+    "node": "20.x"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
   },
   "devDependencies": {
     "npm-run-all": "^1.7.0",
