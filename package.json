@@ -20,9 +20,6 @@
   "engines": {
     "node": "20.x"
   },
-  "dependencies": {
-    "jquery": "^3.7.1"
-  },
   "devDependencies": {
     "npm-run-all": "^1.7.0",
     "onchange": "^7.1.0",
