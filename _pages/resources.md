@@ -11,7 +11,7 @@ redirect_from:
 
 
 
-<table class="imgtable" style="border-spacing: 80px">
+<table class="imgtable" style="border-spacing: 80px; border-collapse: collapse; table-layout: fixed;">
 	<tbody><tr><td align="center">
     <img src="https://github.com/Shuyu-XJTU/APTM/blob/main/assets/examples.jpg?raw=true" alt="MALS" width="80%"> &nbsp;</td>
     <td align="left"> <strong> MALS Dataset </strong> <strong><a href="https://github.com/Shuyu-XJTU/APTM"> [website]</a></strong> 
