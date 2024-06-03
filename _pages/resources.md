@@ -13,9 +13,14 @@ redirect_from:
 
 
 - MALS Dataset. 
-![](https://github.com/Shuyu-XJTU/APTM/blob/main/assets/examples.jpg?raw=true)
-<strong><a href="https://github.com/Shuyu-XJTU/APTM"> [website]</a></strong> 
+
+<table class="imgtable">
+	<tbody><tr><td>
+    <img src="https://github.com/Shuyu-XJTU/APTM/blob/main/assets/examples.jpg?raw=true" alt="" width="350px" height="300px"> &nbsp;</td>
+    <td align="left"> <strong><a href="https://github.com/Shuyu-XJTU/APTM"> [website]</a></strong> 
 We present a large Multi-Attribute and Language Search dataset for text-based person retrieval, called MALS, and explore the feasibility of performing pre-training on both attribute recognition and image-text matching tasks in one stone. In particular, MALS contains 1, 510, 330 image-text pairs, which is about 37.5× larger than prevailing CUHK-PEDES, and all images are annotated with 27 attributes.
+    </td>
+</tr></tbody></table>
 
 - University-1652 Dataset. 
 ![](https://user-images.githubusercontent.com/8390471/192081571-56b84733-238a-45e1-bbf4-988067dbcf51.png)
@@ -31,6 +36,7 @@ We manually annotate attribute labels for two large-scale re-ID datasets, and sy
 - 3D Market-1501 Dataset.  
 ![](https://user-images.githubusercontent.com/8390471/208151146-b8564829-bd61-484d-850f-61ba75216388.jpg)
 <strong><a href="https://github.com/layumi/person-reid-3d"> [website]</a></strong> 
+You could find the point-cloud format Market-1501 Dataset at https://github.com/layumi/person-reid-3d.
 
 - DG-Market Dataset.
 ![](https://user-images.githubusercontent.com/8390471/192081605-0c8a246f-e54c-41c7-9936-5ba8e22f5192.png)
