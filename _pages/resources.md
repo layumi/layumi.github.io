@@ -16,7 +16,7 @@ redirect_from:
 
 <table class="imgtable">
 	<tbody><tr><td>
-    ![]("https://github.com/Shuyu-XJTU/APTM/blob/main/assets/examples.jpg?raw=true" alt="MALS")</td>
+    <img src="https://github.com/Shuyu-XJTU/APTM/blob/main/assets/examples.jpg?raw=true" alt="MALS"> </td>
     <td align="left"> <strong><a href="https://github.com/Shuyu-XJTU/APTM"> [website]</a></strong> 
 We present a large Multi-Attribute and Language Search dataset for text-based person retrieval, called MALS, and explore the feasibility of performing pre-training on both attribute recognition and image-text matching tasks in one stone. In particular, MALS contains 1, 510, 330 image-text pairs, which is about 37.5× larger than prevailing CUHK-PEDES, and all images are annotated with 27 attributes.
     </td>
@@ -25,7 +25,8 @@ We present a large Multi-Attribute and Language Search dataset for text-based pe
 - University-1652 Dataset. 
 <table class="imgtable">
 	<tbody><tr><td>
-![](https://user-images.githubusercontent.com/8390471/192081571-56b84733-238a-45e1-bbf4-988067dbcf51.png)</td>
+![](https://user-images.githubusercontent.com/8390471/192081571-56b84733-238a-45e1-bbf4-988067dbcf51.png)
+</td>
     <td align="left"> <strong><a href="https://github.com/layumi/University1652-Baseline"> [website]</a></strong>  <strong><a href="https://github.com/layumi/University1652-Baseline/tree/master/State-of-the-art"> [SoTA]</a></strong> 
 We collect 1652 buildings of 72 universities around the world. University-1652 contains data from three platforms, i.e., synthetic drones, satellites and ground cameras of 1,652 university buildings around the world. To our knowledge, University-1652 is the first drone-based geo-localization dataset and enables two new tasks, i.e., drone-view target localization and drone navigation.
     </td>
