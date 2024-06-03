@@ -23,7 +23,9 @@ We present a large Multi-Attribute and Language Search dataset for text-based pe
 We collect 1652 buildings of 72 universities around the world. University-1652 contains data from three platforms, i.e., synthetic drones, satellites and ground cameras of 1,652 university buildings around the world. To our knowledge, University-1652 is the first drone-based geo-localization dataset and enables two new tasks, i.e., drone-view target localization and drone navigation.
 
 
-- Market-1501 and DukeMTMC-reID Attribute Datasets.  <strong><a href="https://vana77.github.io"> [website]</a></strong>
+- Market-1501 and DukeMTMC-reID Attribute Datasets.  
+![](https://github.com/vana77/Market-1501_Attribute/raw/master/sample_image.jpg?raw=true)
+<strong><a href="https://vana77.github.io"> [website]</a></strong>
 We manually annotate attribute labels for two large-scale re-ID datasets, and systematically investigate how person re-ID and attribute recognition benefit from each other. 
 
 - 3D Market-1501 Dataset.  
