@@ -6,6 +6,7 @@ author_profile: false
 img: https://zdzheng.xyz/files/yi-yang.jpeg
 ---
  <li> Xuanmeng Zhang,  Minyue Jiang,  Zhedong Zheng,  Xiao Tan,  Errui Ding,  Yi Yang, &quot;Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective.&quot; arXiv:2012.07620, 2020.<a href='https://zdzheng.xyz/publication/Understa2020'>[Link]</a> </li>
+ <li> Mu Chen,  Zhedong Zheng,  Yi Yang, &quot;Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation.&quot; ACM Multimedia, 2024.<a href='https://zdzheng.xyz/publication/Transfer2024'>[Link]</a> </li>
  <li> Chao Wang,  Zhedong Zheng,  Ruijie Quan,  Yifan Sun,  Yi Yang, &quot;Context-aware Pretraining for Efficient Blind Image Decomposition.&quot; CVPR, 2023.<a href='https://zdzheng.xyz/publication/Context-2023'>[Link]</a> </li>
  <li> Chao Wang,  Zhedong Zheng,  Ruijie Quan,  Yi Yang, &quot;Depth-aware blind image decomposition for real-world adverse weather recovery.&quot; Proceedings of the European conference on computer vision (ECCV), 2024.<a href='https://zdzheng.xyz/publication/Depth-aw2024'>[Link]</a> </li>
  <li> Jian Ma,  Zhedong Zheng,  Hao Fei,  Feng Zheng,  Tat-Seng Chua,  Yi Yang, &quot;Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion.&quot; arXiv:2207.06057, 2022.<a href='https://zdzheng.xyz/publication/Subband-2022'>[Link]</a> </li>
