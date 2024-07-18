@@ -13,7 +13,7 @@ sqlauthor: '{"@type": "Person","name": "Wei Ji"}, {"@type": "Person","name": "Re
 citation: ' Wei Ji,  Renjie Liang,  Zhedong Zheng,  Wenqiao Zhang,  Shengyu Zhang,  Juncheng Li,  Mengze Li,  Tat-Seng Chua, &quot;Are Binary Annotations Sufficient? Video Moment Retrieval via Hierarchical Uncertainty-based Active Learning.&quot; CVPR, 2023.'
 pub_year: '2023'
 bib: >
-    @article{ji2023binary,<br>author = "Ji, Wei and Liang, Renjie and Zheng, Zhedong and Zhang, Wenqiao and Zhang, Shengyu and Li, Juncheng and Li, Mengze and Chua, Tat-Seng",<br>title = "Are Binary Annotations Sufficient? Video Moment Retrieval via Hierarchical Uncertainty-based Active Learning",<br>booktitle = "CVPR",<br>code = "https://github.com/renjie-liang/HUAL",<br>url = "https://zdzheng.xyz/files/CVPR23-Ji.pdf",<br>year = "2023"
+    @inproceedings{ji2023binary,<br>author = "Ji, Wei and Liang, Renjie and Zheng, Zhedong and Zhang, Wenqiao and Zhang, Shengyu and Li, Juncheng and Li, Mengze and Chua, Tat-Seng",<br>title = "Are Binary Annotations Sufficient? Video Moment Retrieval via Hierarchical Uncertainty-based Active Learning",<br>booktitle = "CVPR",<br>code = "https://github.com/renjie-liang/HUAL",<br>url = "https://zdzheng.xyz/files/CVPR23-Ji.pdf",<br>year = "2023"
     }
 
 ---

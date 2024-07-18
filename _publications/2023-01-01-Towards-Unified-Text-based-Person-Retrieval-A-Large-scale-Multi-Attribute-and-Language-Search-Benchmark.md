@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Shuyu Yang"}, {"@type": "Person","name":
 citation: ' Shuyu Yang,  Yinan Zhou,  Zhedong Zheng,  Yaxiong Wang,  Yujiao Wu,  Li Zhu, &quot;Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribute and Language Search Benchmark.&quot; ACM MM, 2023.'
 pub_year: '2023'
 bib: >
-    @article{yang2023towards,<br>author = "Yang, Shuyu and Zhou, Yinan and Zheng, Zhedong and Wang, Yaxiong and Wu, Yujiao and Zhu, Li",<br>title = "Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribute and Language Search Benchmark",<br>booktitle = "ACM MM",<br>blog = "https://zhuanlan.zhihu.com/p/638229287",<br>code = "https://github.com/Shuyu-XJTU/APTM",<br>url = "https://zdzheng.xyz/files/MM23\_Yang.pdf",<br>year = "2023"
+    @inproceedings{yang2023towards,<br>author = "Yang, Shuyu and Zhou, Yinan and Zheng, Zhedong and Wang, Yaxiong and Wu, Yujiao and Zhu, Li",<br>title = "Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribute and Language Search Benchmark",<br>booktitle = "ACM MM",<br>blog = "https://zhuanlan.zhihu.com/p/638229287",<br>code = "https://github.com/Shuyu-XJTU/APTM",<br>url = "https://zdzheng.xyz/files/MM23\_Yang.pdf",<br>year = "2023"
     }
 
 ---
