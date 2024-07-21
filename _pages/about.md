@@ -50,6 +50,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <h2>News</h2>
 <ul>
+<li> One paper to appear at ACM MM 2024! <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation</a> </li>
 <li> Three papers to appear at ECCV 2024! <a href="https://www.zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, <a href="https://www.zdzheng.xyz/publication/Depth-aw2024">Blind Image Decomposition</a>, <a href="https://www.zdzheng.xyz/publication/Approach2024">Unsupervised 3D Object Detection</a>.</li> 
 <li> We are holding two workshops at ACM Multimedia 2024 on Aerial-view Imaging <a href="https://www.zdzheng.xyz/ACMMM2024Workshop-UAV/">[Call for papers]</a> and Deep Multimodal Learning <a href="https://videorelation.nextcenter.org/MMGR24/">[Call for papers]</a> (EI-indexed).   </li>
 <li> One paper to appear at ICLR 2024 on Compositional Image Retrieval <a href="https://www.zdzheng.xyz/publication/Composed2024">[link]</a> <a href="https://github.com/Monoxide-Chen/uncertainty_retrieval">[code]</a> . </li> 
