@@ -6,8 +6,8 @@ main:
     url: /research
   - title: "Publications"
     url: /publications/
-  - title: "CV"
-    url: /files/zhedong-resume.pdf
+  - title: "Team"
+    url: /team/
   - title: "Resources"
     url: /resources/
   - title: "Seminar"
