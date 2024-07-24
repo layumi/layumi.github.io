@@ -8,11 +8,11 @@ redirect_from:
 
 {% include base_path %}
 
-##PhD
+## PhD
 
 - [Ruiyang Zhang](https://ruiyang-061x.github.io/): Fudan (B.S.)
-- Hao Ju: DLUT (B.S.) DLUT (M.S.) 
+- Hao Ju: DLUT (B.S., M.S.) 
 
-##RA
+## RA
 
-- Guiyu Zhang: SDU (B.S.) UCAS (M.S.)
+- [Guiyu Zhang](https://scholar.google.com/citations?user=NLPMoeAAAAAJ): SDU (B.S.) UCAS (M.S.)
