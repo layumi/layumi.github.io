@@ -5,6 +5,7 @@ permalink: /authors/Zhedong-Zheng
 author_profile: false
 ---
  <li> Xuanmeng Zhang,  Minyue Jiang,  Zhedong Zheng,  Xiao Tan,  Errui Ding,  Yi Yang, &quot;Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective.&quot; arXiv:2012.07620, 2020.<a href='https://zdzheng.xyz/publication/Understa2020'>[Link]</a> </li>
+ <li> Ruiyang Zhang,  Hu Zhang,  Hang Yu,  Zhedong Zheng, &quot;Harnessing Uncertainty-aware Bounding Boxes for Unsupervised 3D Object Detection.&quot; arXiv preprint arXiv:2408.00619, 2024.<a href='https://zdzheng.xyz/publication/Harnessi2024'>[Link]</a> </li>
  <li> Mu Chen,  Zhedong Zheng,  Yi Yang, &quot;Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation.&quot; ACM Multimedia, 2024.<a href='https://zdzheng.xyz/publication/Transfer2024'>[Link]</a> </li>
  <li> Han Yi,  Zhedong Zheng,  Xiangyu Xu,  Tat-Seng Chua, &quot;Progressive Text-to-3D Generation for Automatic 3D Prototyping.&quot; arXiv:2309.14600, 2023.<a href='https://zdzheng.xyz/publication/Progress2023'>[Link]</a> </li>
  <li> Leigang Qu,  Meng Liu,  Wenjie Wang,  Zhedong Zheng,  Liqiang Nie,  Tat-Seng Chua, &quot;Learnable Pillar-based Re-ranking for Image-Text Retrieval.&quot; SIGIR, 2023.<a href='https://zdzheng.xyz/publication/Learnabl2023'>[Link]</a> </li>
