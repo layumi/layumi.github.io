@@ -18,15 +18,17 @@ redirect_from:
 - [Guiyu Zhang](https://scholar.google.com/citations?user=NLPMoeAAAAAJ): SDU (B.S.) UCAS (M.S.)
 
 
+
+
 # Students I Have Mentored
 ## Singapore (NUS)
 
 - [Yiyang Chen](https://zdzheng.xyz/authors/Yiyang-Chen): Tsinghua (B.S.) 
 - Yiyao Huang: Tsinghua (B.S.) NUS (M.S.)
-- Jiayin Zhu: BIT (B.S.) NUS (Pursuing Ph.D)
-- [Meng Chu](https://zdzheng.xyz/authors/Meng-Chu): BUPT (B.S.) HKU (Pursuing Ph.D)
-- Lidong Zeng: DLUT (B.S.) 
-- Han Yi: ECUST (B.S.) UNC (Pursuing Ph.D)
+- Jiayin Zhu: BIT (B.S.) NUS (M.S.) NUS (Pursuing Ph.D)
+- [Meng Chu](https://zdzheng.xyz/authors/Meng-Chu): BUPT (B.S.) NUS (M.S.) HKU (Pursuing Ph.D)
+- Lidong Zeng: DLUT (B.S.) NUS (M.S.)
+- Han Yi: ECUST (B.S.) NUS (M.S.) UNC (Pursuing Ph.D)
 
 ## Australia (UTS)
 - [Chao Wang](https://zdzheng.xyz/authors/Chao-Wang): UTS (Pursuing Ph.D)
