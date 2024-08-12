@@ -10,8 +10,8 @@ redirect_from:
 
 # PhD
 
-- [Ruiyang Zhang](https://ruiyang-061x.github.io/): Fudan (B.S.)
-- Hao Ju: DLUT (B.S., M.S.) 
+- [Ruiyang Zhang](https://ruiyang-061x.github.io/): Fudan (B.S.) UM (Pursuing Ph.D)
+- Hao Ju: DLUT (B.S., M.S.) UM (Pursuing Ph.D)
 
 # RA
 
@@ -22,11 +22,11 @@ redirect_from:
 ## Singapore (NUS)
 
 - [Yiyang Chen](https://zdzheng.xyz/authors/Yiyang-Chen): Tsinghua (B.S.) 
-- [Yiyao Huang]: Tsinghua (B.S.) NUS (M.S.)
-- [Jiayin Zhu]: BIT (B.S.) NUS (Pursuing Ph.D)
+- Yiyao Huang: Tsinghua (B.S.) NUS (M.S.)
+- Jiayin Zhu: BIT (B.S.) NUS (Pursuing Ph.D)
 - [Meng Chu](https://zdzheng.xyz/authors/Meng-Chu): BUPT (B.S.) HKU (Pursuing Ph.D)
-- [Lidong Zeng]: DLUT (B.S.) 
-- [Han Yi]: ECUST (B.S.) UNC (Pursuing Ph.D)
+- Lidong Zeng: DLUT (B.S.) 
+- Han Yi: ECUST (B.S.) UNC (Pursuing Ph.D)
 
 ## Australia (UTS)
 - [Chao Wang](https://zdzheng.xyz/authors/Chao-Wang): UTS (Pursuing Ph.D)
@@ -39,9 +39,9 @@ redirect_from:
 ## China
 - [Yuchen Suo](https://zdzheng.xyz/authors/Yucheng-Suo): ZJU (Pursuing Ph.D)
 - [Xiaolong Shen](https://zdzheng.xyz/authors/Xiaolong-Shen): ZJU (Pursuing Ph.D)
-- [Jinliang Liu]: ZJU (Pursuing Ph.D)
+- Jinliang Liu: ZJU (Pursuing Ph.D)
 - [Xu Zhang](https://www.zdzheng.xyz/authors/Xu-Zhang): ZJU (Pursuing Ph.D)
 - [Chao Sun](https://zdzheng.xyz/authors/Chao-Sun): ZJU (B.S., M.S.)
 - [Shuyu Yang](https://zdzheng.xyz/authors/Shuyu-Yang): XJTU (Pursuing Ph.D)
 - [Yinan Zhou](https://zdzheng.xyz/authors/Yinan-Zhou): XJTU (Pursuing Ph.D)
-- [Lingyu Liu]: XJTU (Pursuing Ph.D)
+- Lingyu Liu: XJTU (Pursuing Ph.D)
