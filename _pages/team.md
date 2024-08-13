@@ -8,20 +8,20 @@ redirect_from:
 
 {% include base_path %}
 
-# PhD
+## PhD
 
 - [Ruiyang Zhang](https://ruiyang-061x.github.io/): Fudan (B.S.) UM (Pursuing Ph.D)
 - Hao Ju: DLUT (B.S., M.S.) UM (Pursuing Ph.D)
 
-# RA
+## RA
 
 - [Guiyu Zhang](https://scholar.google.com/citations?user=NLPMoeAAAAAJ): SDU (B.S.) UCAS (M.S.)
 
 
+<hr> 
 
-
-# Students I Have Mentored
-## Singapore (NUS)
+## Students I Have Mentored
+### Singapore (NUS)
 
 - [Yiyang Chen](https://zdzheng.xyz/authors/Yiyang-Chen): Tsinghua (B.S.) 
 - Yiyao Huang: Tsinghua (B.S.) NUS (M.S.)
@@ -30,7 +30,7 @@ redirect_from:
 - Lidong Zeng: DLUT (B.S.) NUS (M.S.)
 - Han Yi: ECUST (B.S.) NUS (M.S.) UNC (Pursuing Ph.D)
 
-## Australia (UTS)
+### Australia (UTS)
 - [Chao Wang](https://zdzheng.xyz/authors/Chao-Wang): UTS (Pursuing Ph.D)
 - [Mu Chen](https://zdzheng.xyz/authors/Mu-Chen): UTS (Pursuing Ph.D)
 - [Xuanmeng Zhang](https://zdzheng.xyz/authors/Xuanmeng-Zhang): UTS (Pursuing Ph.D)
@@ -38,7 +38,7 @@ redirect_from:
 - [Tingyu Wang](https://www.zdzheng.xyz/authors/Tingyu-Wang) UTS (Visiting)
 - [Zhikun Huang](https://zdzheng.xyz/authors/Zhikun-Huang) UTS (Visiting)
 
-## China
+### China
 - [Yuchen Suo](https://zdzheng.xyz/authors/Yucheng-Suo): ZJU (Pursuing Ph.D)
 - [Xiaolong Shen](https://zdzheng.xyz/authors/Xiaolong-Shen): ZJU (Pursuing Ph.D)
 - Jinliang Liu: ZJU (Pursuing Ph.D)
