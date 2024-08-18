@@ -8,7 +8,7 @@ author_profile: true
 ## 澳门大学
 
 郑哲东 (Zhedong Zheng) ,澳门大学计算机系tenure-track助理教授，专攻多模态生成和检索，具体研究方向和相关成果详见：https://www.zdzheng.xyz/research 。
-有兴趣的同学请发送个人CV 和 研究计划到邮箱：zhedongzheng@um.edu.mo；另外，本组也欢迎自费的访问博士后研究员，博士和研究助理申请，访问至少 6 个月。标题请设置为 博士申请 - 学校名称- 目前学历 - 姓名， 比如 博士申请 - 北航 - 大三 - 战鹰。
+有兴趣的同学请发送个人CV 和 研究计划到邮箱：zhedongzheng@um.edu.mo；另外，本组也欢迎联合项目博士申请(包括深圳先进技术研究院、广东省智能院 https://grs.um.edu.mo/index.php/phd-joint-programme/?lang=zh-hant)。标题请设置为 博士申请 - 学校名称- 目前学历 - 姓名， 比如 博士申请 - 北航 - 大三 - 战鹰。
 
 
 ### 1. 1名博士生加盟其课题组（2025年入学）
@@ -43,7 +43,7 @@ author_profile: true
 
 ### 导师简介
 
-郑哲东 (Zhedong Zheng)，本科毕业于复旦大学计算机科学系，博士毕业于悉尼科技大学，其博士论文获得学校优秀论文（每个学院一位）；曾于新加坡国立大学担任博士后研究员，博士期间曾于美国Nvidia和百度研究院实习。他的研究方向为表征学习和多媒体生成，在CVPR、ICCV、TPAMI、IJCV、ACM MM等国际顶级会议期刊发表论文41篇，其中包含21篇中国计算机协会CCF-A类论文、19篇IEEE/ACM汇刊、6篇ESI高被引论文，谷歌学术引用9,000余次，单篇AI生成论文超过2000次他引。
+郑哲东 (Zhedong Zheng)，本科毕业于复旦大学计算机科学系，博士毕业于悉尼科技大学，其博士论文获得学校优秀论文（每个学院一位）；曾于新加坡国立大学担任博士后研究员，博士期间曾于美国Nvidia和百度研究院实习。他的研究方向为表征学习和多媒体生成，在CVPR、ICCV、TPAMI、IJCV、ACM MM等国际顶级会议期刊发表论文49篇，其中包含22篇中国计算机协会CCF-A类论文、21篇IEEE/ACM汇刊、8篇ESI高被引论文，谷歌学术引用10,000余次，单篇AI生成论文超过2000次他引。
 
 一项核心AI生成技术的研究成果转化已被应用于全球顶级硬件制造商Nvidia的系列产品之中。获得2021年IEEE电路与系统学会杰出年轻作者奖（每年一位），之江实验室国际青年人才基金，连续两届CVPR智慧城市挑战赛冠军，入选斯坦福大学全球前2%顶尖科学家榜单（2021-2023）。担任TPAMI、IJCV、TIP、 TMM、TCSVT等国际人工智能期刊审稿人，CVPR、ICCV、ECCV、NeurIPS等国际人工智能会议审稿人，IJCAI、AAAI等机器学习会议高级程序委员（SPC）,  ACM MM国际多媒体会议领域主席（Area Chair）。
 
@@ -59,7 +59,7 @@ Google Scholar见https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ �
 澳门大学在上交计算机学科排名76-100位。大学具体排名如下：
 - Times Higher Education Young University Rankings：26
 - QS World University Rankings Top 50 Under 50: 44
-- QS World University Rankings：254
+- QS World University Rankings：245
 - Times Higher Education World University Rankings 2024: 193
 
 
