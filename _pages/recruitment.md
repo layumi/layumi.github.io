@@ -11,7 +11,7 @@ author_profile: true
 有兴趣的同学请发送个人CV 和 研究计划到邮箱：zhedongzheng@um.edu.mo；另外，本组也欢迎联合项目博士申请(包括深圳先进技术研究院、广东省智能院 https://grs.um.edu.mo/index.php/phd-joint-programme/?lang=zh-hant)。标题请设置为 博士申请 - 学校名称- 目前学历 - 姓名， 比如 博士申请 - 北航 - 大三 - 战鹰。
 
 
-### 1. 1名博士生加盟其课题组（2025年入学）
+### 1. 2名博士生加盟其课题组（2025年入学）
 
 1.1 背景要求：GPA 大于 3.4（背景优秀者可适当放宽）；计算机科学/软件工程背景；有 Tsinghua-A 论文发表者优先；默认会使用 python 和 pytorch 等写代码。
 
