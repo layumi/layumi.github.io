@@ -33,7 +33,11 @@ collection: pages
 permalink: /Awesome-Geo-localization
 author_profile: false
 ---
-
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
 """
 with open('./Awesome-Geolocalization/README.md', 'w') as file:
     file.write(metadataGEO)
@@ -47,7 +51,11 @@ collection: pages
 permalink: /Awesome-reID
 author_profile: false
 ---
-
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
 """
 with open('./Awesome-reID/README.md', 'w') as file:
     file.write(metadataAR)
