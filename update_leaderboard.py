@@ -35,7 +35,7 @@ author_profile: false
 ---
 
 """
-with open('./_pages/Awesome-Geolocalization.md', 'w') as file:
+with open('./Awesome-Geolocalization/README.md', 'w') as file:
     file.write(metadataGEO)
 os.system("curl -L https://raw.githubusercontent.com/layumi/University1652-Baseline/refs/heads/master/State-of-the-art/README.md >> ./Awesome-Geolocalization/README.md")
 
@@ -49,6 +49,6 @@ author_profile: false
 ---
 
 """
-with open('./_pages/Awesome-reID.md', 'w') as file:
+with open('./Awesome-reID/README.md', 'w') as file:
     file.write(metadataAR)
 os.system("curl -L https://raw.githubusercontent.com/layumi/Person_reID_baseline_pytorch/master/leaderboard/README.md  >> ./Awesome-reID/README.md")
