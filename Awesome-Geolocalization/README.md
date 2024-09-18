@@ -4,7 +4,11 @@ collection: pages
 permalink: /Awesome-Geo-localization
 author_profile: false
 ---
-
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
 ## Awesome Geo-localization
 
  * [University-1652 Dataset](#university-1652-dataset)
