@@ -9,7 +9,11 @@ redirect_from:
 <meta name="description" content="Open-source Code and Datasets for Person Re-ID and Person Search"/>
 <meta name="keywords" content="Code and Dataset, Person Re-ID, Object Re-ID, Person Retrieval, Domain Adaptation and Person Search" />
 
-
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
 
 <table class="imgtable" style="border-spacing: 80px; border-collapse: collapse; table-layout: fixed;">
 	<tbody><tr><td align="center">
