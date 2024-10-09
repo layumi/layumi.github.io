@@ -57,10 +57,10 @@ Google Scholar见https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ �
 澳门大学是澳门唯一一所国际化综合性公立大学，创立于1981年，位于澳门氹仔大学大马路，共设立有3个国家重点实验室：中药质量研究国家重点实验室、模拟与混合信号超大规模集成电路国家重点实验室、智慧城市物联网国家重点实验室。本课题组与智慧城市物联网国家重点实验室有紧密合作。
 
 澳门大学在上交计算机学科排名76-100位。大学具体排名如下：
-- Times Higher Education Young University Rankings：26
-- QS World University Rankings Top 50 Under 50: 44
+- Times Higher Education Young University Rankings：14
+- Times Higher Education World University Rankings 2024: 180
 - QS World University Rankings：245
-- Times Higher Education World University Rankings 2024: 193
+
 
 
 ### 相关链接
