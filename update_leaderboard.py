@@ -1,5 +1,8 @@
 import os
 
+os.system('cd ACMMM2023Workshop; git pull; cd ..')
+os.system('cd ACMMM2024Workshop-UAV; git pull; cd ..')
+
 metadataREID="""---
 title: \"Pytorch ReID\"
 collection: pages
