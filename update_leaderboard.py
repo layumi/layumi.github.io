@@ -1,5 +1,6 @@
 import os
 
+os.system('cd markdown_generator; python pubsFromBib.py; cd ..')
 os.system('cd ACMMM2023Workshop; git pull; cd ..')
 os.system('cd ACMMM2024Workshop-UAV; git pull; cd ..')
 
