@@ -19,3 +19,6 @@
 [submodule "ACMMM2024Workshop-UAV"]
 	path = ACMMM2024Workshop-UAV
 	url = https://github.com/layumi/ACMMM2024Workshop-UAV.git
+[submodule "MORE2025"]
+	path = MORE2025
+	url = https://github.com/layumi/MORE2025.git
