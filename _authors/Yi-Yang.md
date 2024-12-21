@@ -3,7 +3,7 @@ title: "Yi Yang"
 collection: authors
 permalink: /authors/Yi-Yang
 author_profile: false
-img: https://zdzheng.xyz/files/yi-yang.jpeg
+img: https://zdzheng.xyz/coauthors/yi-yang.jpeg
 ---
  <li> Xuanmeng Zhang,  Minyue Jiang,  Zhedong Zheng,  Xiao Tan,  Errui Ding,  Yi Yang, &quot;Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective.&quot; arXiv:2012.07620, 2020.<a href='https://zdzheng.xyz/publication/Understa2020'>[Link]</a> </li>
  <li> Mu Chen,  Zhedong Zheng,  Yi Yang, &quot;Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation.&quot; ACM Multimedia, 2024.<a href='https://zdzheng.xyz/publication/Transfer2024'>[Link]</a> </li>

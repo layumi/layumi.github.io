@@ -3,7 +3,7 @@ title: "Tingyu Wang"
 collection: authors
 permalink: /authors/Tingyu-Wang
 author_profile: false
-img: https://zdzheng.xyz/files/tingyu-wang.jpeg
+img: https://zdzheng.xyz/coauthors/tingyu-wang.jpeg
 ---
  <li> Meng Chu,  Zhedong Zheng,  Wei Ji,  Tingyu Wang,  Tat-Seng Chua, &quot;Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching.&quot; Proceedings of the European conference on computer vision (ECCV), 2024.<a href='https://zdzheng.xyz/publication/Towards-2024'>[Link]</a> </li>
  <li> Tingyu Wang,  Zhedong Zheng,  Zunjie Zhu,  Yuhan Gao,  Yi Yang,  Chenggang Yan, &quot;Learning cross-view geo-localization embeddings via dynamic weighted decorrelation regularization.&quot; IEEE Transactions on Geoscience and Remote Sensing, 2024.<a href='https://zdzheng.xyz/publication/Learning2024'>[Link]</a> </li>
