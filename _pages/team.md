@@ -34,9 +34,9 @@ redirect_from:
 - [Chao Wang](https://zdzheng.xyz/authors/Chao-Wang): UTS (Pursuing Ph.D)
 - [Mu Chen](https://zdzheng.xyz/authors/Mu-Chen): UTS (Pursuing Ph.D)
 - [Xuanmeng Zhang](https://zdzheng.xyz/authors/Xuanmeng-Zhang): UTS (Pursuing Ph.D)
-- [Chuchu Han](https://www.zdzheng.xyz/authors/Chuchu-Han) UTS (Visiting)
-- [Tingyu Wang](https://www.zdzheng.xyz/authors/Tingyu-Wang) UTS (Visiting)
-- [Zhikun Huang](https://zdzheng.xyz/authors/Zhikun-Huang) UTS (Visiting)
+- [Chuchu Han](https://www.zdzheng.xyz/authors/Chuchu-Han): UTS (Visiting)
+- [Tingyu Wang](https://www.zdzheng.xyz/authors/Tingyu-Wang): UTS (Visiting)
+- [Zhikun Huang](https://zdzheng.xyz/authors/Zhikun-Huang): UTS (Visiting)
 
 ### China
 - [Yuchen Suo](https://zdzheng.xyz/authors/Yucheng-Suo): ZJU (Pursuing Ph.D)

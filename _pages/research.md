@@ -8,6 +8,7 @@ redirect_from:
 
 
 ## Uncertainty Learning
+- Large Models [arXiv'24](https://www.zdzheng.xyz/publication/VL-Uncer2024)
 - Domain Adaptation [IJCV'21](https://zdzheng.xyz/publication/Rectifyi2021)
 - Depth Completion [PR'24](https://www.zdzheng.xyz/publication/Self-Ens2024)
 - Composed Retrieval [ICLR'24](https://www.zdzheng.xyz/publication/Composed2024)
@@ -32,7 +33,7 @@ This research area is to retrieval the relevant multi-media data including cross
 - 2D Vehicle [TMM'20](https://zdzheng.xyz/publication/VehicleN2020), [CVPRW'21](https://zdzheng.xyz/publication/Robust-V2021)
 - 3D Human / Objects [TNNLS'22](https://zdzheng.xyz/publication/Paramete2022), [TMM'22](https://zdzheng.xyz/publication/Self-sup2022)
 - Cross Modality (Image,Text, Video) [TOMM'20](https://zdzheng.xyz/publication/Dual-pat2020), [CVPRW'21](https://zdzheng.xyz/publication/Connecti2021), [TMM'22](https://zdzheng.xyz/publication/Align-an2022), [ACM MM'23](https://www.zdzheng.xyz/publication/Towards-2023), [ICLR'24](https://www.zdzheng.xyz/publication/Composed2024)
-- Cross View (Drone, Satellite, Ground) [ACM MM'20](https://zdzheng.xyz/publication/Universi2020), [TCSVT'21](https://zdzheng.xyz/publication/Each-par2021), [TIP'22](https://zdzheng.xyz/publication/Joint-Re2022) [ECCV'24](https://www.zdzheng.xyz/publication/Towards-2024)
+- Cross View (Drone, Satellite, Ground) [ACM MM'20](https://zdzheng.xyz/publication/Universi2020), [TCSVT'21](https://zdzheng.xyz/publication/Each-par2021), [TIP'22](https://zdzheng.xyz/publication/Joint-Re2022) [ECCV'24](https://www.zdzheng.xyz/publication/Towards-2024) 
 - Sign Language [TOMM'24](https://zdzheng.xyz/publication/StepNet-2024)
 - Adversarial Examples [IJCV'22](https://zdzheng.xyz/publication/U-turn-C2022)
 
