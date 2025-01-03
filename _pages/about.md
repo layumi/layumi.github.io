@@ -87,7 +87,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 <hr>
 
 
-<h2><i class="fa-regular fa-palette"></i> Others</h2>
+<h2><i class="fa-solid fa-palette fa-beat"></i> Others</h2>
 <ul>
 <li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
 <li>  I was a poster maker when I studied at Fudan University. You may check out <a href="https://www.zdzheng.xyz/poster_page">my posters</a>.</li>
