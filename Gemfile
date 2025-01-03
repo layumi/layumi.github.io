@@ -17,6 +17,7 @@ gem "github-pages", group: :jekyll_plugins
 # gem "jekyll"
 
 gem "wdm", "~> 0.1.1" if Gem.win_platform?
+gem 'nokogiri', '~> 1.17.2'
 gem "csv"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
@@ -30,4 +31,4 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.8"
-gem 'nokogiri', '~> 1.17', '>= 1.17.2'
+
