@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <meta name="description"
-  content="Zhedong Zheng is a distinguished postdoctoral research fellow at the National University of Singapore, specializing in person re-identification (reID). He obtained his Ph.D. from UTS's ReLER Lab, mentored by Prof. Yi Yang and Dr. Liang Zheng. With a strong foundation from Fudan University, he has collaborated with leading experts at Nvidia and Baidu. His focus on reID underscores his dedication to advancing this vital field.">  
+  content="Zhedong Zheng is  a tenure-track assistant professor with the University of Macau, specializing in person re-identification (reID). He obtained his Ph.D. from UTS's ReLER Lab, mentored by Prof. Yi Yang and Dr. Liang Zheng. With a strong foundation from Fudan University, he has collaborated with leading experts at Nvidia and Baidu. His focus on reID underscores his dedication to advancing this vital field.">  
 <meta name="keywords" content="Zhedong Zheng, Person Re-ID, Object Re-ID, Person Retrieval, Person Search" />
 		   
 Hi! I am currently a tenure-track assistant professor with the [University of Macau](https://www.fst.um.edu.mo/people/zhedongzheng/). Prior to this, I was a postdoctoral research fellow at School of Computing, National University of Singapore with <a href="https://www.chuatatseng.com">Prof. Tat-Seng Chua</a> and <a href="https://www.comp.nus.edu.sg/~ayao/">Prof. Angela Yao</a>. I received Ph.D. from the <a href="https://reler.net/">ReLER Lab</a>, <a href="https://www.uts.edu.au/">University of Technology Sydney (UTS) </a>, under the supervision of <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ">Prof. Yi Yang</a> and <a href="https://zheng-lab.cecs.anu.edu.au/">Dr. Liang Zheng</a> (co-supervisor). 
@@ -28,8 +28,8 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 <hr>
 
 
-<i class="fa-regular fa-compass fa-shake"></i>
-<h2>Research Statement</h2>
+
+<h2><i class="fa-regular fa-compass fa-shake"></i>Research Statement</h2>
 
 My work focuses on multi-view object matching and novel view synthesis and analysis, under a multi-camera scenario, e.g., swarm robotics, self-driving car, and smart city.
 
@@ -49,8 +49,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 <hr>
 
 
-<i class="fa-solid fa-mug-hot fa-bounce"></i>
-<h2>News</h2>
+<h2><i class="fa-solid fa-mug-hot fa-bounce"></i>News</h2>
 <ul>
 <li> One paper to appear at ACM MM 2024 (Oral)! <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation</a> </li>
 <li> Three papers to appear at ECCV 2024! <a href="https://www.zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, <a href="https://www.zdzheng.xyz/publication/Depth-aw2024">Blind Image Decomposition</a>, <a href="https://www.zdzheng.xyz/publication/Approach2024">Unsupervised 3D Object Detection</a>.</li> 
@@ -87,8 +86,8 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <hr>
 
-<i class="fa-regular fa-palette"></i>
-<h2>Others</h2>
+
+<h2><i class="fa-regular fa-palette"></i>Others</h2>
 <ul>
 <li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
 <li>  I was a poster maker when I studied at Fudan University. You may check out <a href="https://www.zdzheng.xyz/poster_page">my posters</a>.</li>
