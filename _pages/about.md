@@ -29,7 +29,7 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 
 
 
-<h2><i class="fa-regular fa-compass fa-shake"></i>Research Statement</h2>
+<h2><i class="fa-regular fa-compass fa-shake"></i> Research Statement</h2>
 
 My work focuses on multi-view object matching and novel view synthesis and analysis, under a multi-camera scenario, e.g., swarm robotics, self-driving car, and smart city.
 
@@ -49,7 +49,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 <hr>
 
 
-<h2><i class="fa-solid fa-mug-hot fa-bounce"></i>News</h2>
+<h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
 <li> One paper to appear at ACM MM 2024 (Oral)! <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation</a> </li>
 <li> Three papers to appear at ECCV 2024! <a href="https://www.zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, <a href="https://www.zdzheng.xyz/publication/Depth-aw2024">Blind Image Decomposition</a>, <a href="https://www.zdzheng.xyz/publication/Approach2024">Unsupervised 3D Object Detection</a>.</li> 
@@ -87,7 +87,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 <hr>
 
 
-<h2><i class="fa-regular fa-palette"></i>Others</h2>
+<h2><i class="fa-regular fa-palette"></i> Others</h2>
 <ul>
 <li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
 <li>  I was a poster maker when I studied at Fudan University. You may check out <a href="https://www.zdzheng.xyz/poster_page">my posters</a>.</li>
