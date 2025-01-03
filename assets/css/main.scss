@@ -34,7 +34,16 @@
 @import "sidebar";
 
 @import "vendor/font-awesome/fontawesome";
+
+.fa-beat, .fa-bounce, .fa-fade, .fa-beat-fade, .fa-flip, .fa-pulse, .fa-shake, .fa-spin, .fa-spin-pulse
+{
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
