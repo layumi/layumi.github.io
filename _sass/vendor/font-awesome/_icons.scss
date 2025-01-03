@@ -25,3 +25,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-twitter-square:before { content: fa-content($fa-var-twitter-square); }
 .#{$fa-css-prefix}-weibo:before { content: fa-content($fa-var-weibo); }
 .#{$fa-css-prefix}-zhihu:before { content: fa-content($fa-var-zhihu); }
+.#{$fa-css-prefix}-cog:before { content: fa-content($fa-var-cog); }
+.#{$fa-css-prefix}-mug-hot:before { content: fa-content($fa-var-mug-hot); }
+.#{$fa-css-prefix}-palette:before { content: fa-content($fa-var-palette); }
