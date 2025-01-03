@@ -1,30 +1,12 @@
+// specific icon class definition
+// -------------------------
+
 /* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
 readers do not read off random characters that represent icons */
 
-.#{$fa-css-prefix}-500px:before { content: fa-content($fa-var-500px); }
-.#{$fa-css-prefix}-envelope:before { content: fa-content($fa-var-envelope); }
-.#{$fa-css-prefix}-envelope-open:before { content: fa-content($fa-var-envelope-open); }
-.#{$fa-css-prefix}-envelope-open-text:before { content: fa-content($fa-var-envelope-open-text); }
-.#{$fa-css-prefix}-envelope-square:before { content: fa-content($fa-var-envelope-square); }
-.#{$fa-css-prefix}-facebook:before { content: fa-content($fa-var-facebook); }
-.#{$fa-css-prefix}-facebook-f:before { content: fa-content($fa-var-facebook-f); }
-.#{$fa-css-prefix}-facebook-messenger:before { content: fa-content($fa-var-facebook-messenger); }
-.#{$fa-css-prefix}-facebook-square:before { content: fa-content($fa-var-facebook-square); }
-.#{$fa-css-prefix}-git:before { content: fa-content($fa-var-git); }
-.#{$fa-css-prefix}-git-square:before { content: fa-content($fa-var-git-square); }
-.#{$fa-css-prefix}-github:before { content: fa-content($fa-var-github); }
-.#{$fa-css-prefix}-github-alt:before { content: fa-content($fa-var-github-alt); }
-.#{$fa-css-prefix}-github-square:before { content: fa-content($fa-var-github-square); }
-.#{$fa-css-prefix}-graduation-cap:before { content: fa-content($fa-var-graduation-cap); }
-.#{$fa-css-prefix}-linkedin:before { content: fa-content($fa-var-linkedin); }
-.#{$fa-css-prefix}-linkedin-in:before { content: fa-content($fa-var-linkedin-in); }
-.#{$fa-css-prefix}-researchgate:before { content: fa-content($fa-var-researchgate); }
-.#{$fa-css-prefix}-rss:before { content: fa-content($fa-var-rss); }
-.#{$fa-css-prefix}-rss-square:before { content: fa-content($fa-var-rss-square); }
-.#{$fa-css-prefix}-twitter:before { content: fa-content($fa-var-twitter); }
-.#{$fa-css-prefix}-twitter-square:before { content: fa-content($fa-var-twitter-square); }
-.#{$fa-css-prefix}-weibo:before { content: fa-content($fa-var-weibo); }
-.#{$fa-css-prefix}-zhihu:before { content: fa-content($fa-var-zhihu); }
-.#{$fa-css-prefix}-cog:before { content: fa-content($fa-var-cog); }
-.#{$fa-css-prefix}-mug-hot:before { content: fa-content($fa-var-mug-hot); }
-.#{$fa-css-prefix}-palette:before { content: fa-content($fa-var-palette); }
+@each $name, $icon in $fa-icons {
+  .#{$fa-css-prefix}-#{$name} {
+    #{$fa-icon-property}: unquote("\"#{ $icon }\"");
+  }
+}
+
