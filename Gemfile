@@ -30,3 +30,4 @@ group :jekyll_plugins do
 end
 
 gem "webrick", "~> 1.8"
+gem 'nokogiri', '1.10.10'
