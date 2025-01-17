@@ -19,7 +19,7 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 
 <strong>More details can be found in my [[CV]]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf). </strong>
 
-<p style="color: #CD853F;">I am actively looking for self-motivated PhD students at University of Macau. PhD students will be fully funded with fellowships. For more information, please visit <a href="https://www.zdzheng.xyz/recruitment/" style="color: #CD853F;">my recruitment page</a>.</p>
+<p style="color: #CD853F;">I am actively looking for self-motivated Ph.D. and Master students at University of Macau. PhD students will be fully funded with fellowships. For more information, please visit <a href="https://www.zdzheng.xyz/recruitment/" style="color: #CD853F;">my recruitment page</a>.</p>
 <!---
 <ul>
 <li> <mark>If you are a NUS Undergraduate / Master student who is interested in doing research/project with me, please contact me via email with your CV. My current email address is zdzheng AT nus.edu.sg . We will have at least two mentors to guide you and provide gpu resource supports.</mark></li> 
