@@ -15,7 +15,7 @@ author_profile: true
 
 1.1 背景要求：GPA 大于 3.4（背景优秀者可适当放宽）；计算机科学/软件工程背景；有 Tsinghua-A 论文发表者优先；默认会使用 python 和 pytorch 等写代码。
 
-1.2 提供全额奖学金（每月1.25 - 1.4W 澳门币, 特别优秀的学生为2W 澳门币），详情见https://grs.um.edu.mo/index.php/um-phd-scholarship/ 。
+1.2 提供全额奖学金（每月1.25 - 1.4W 澳门币, 特别优秀的学生为2W 澳门币），详情见 https://grs.um.edu.mo/index.php/um-phd-scholarship/ 。
 
 1.3 目前本组的学生背景如下：
 
@@ -49,9 +49,9 @@ author_profile: true
 
 ### 导师简介
 
-郑哲东 (Zhedong Zheng)，本科毕业于复旦大学计算机科学系，博士毕业于悉尼科技大学，其博士论文获得学校优秀论文（每个学院一位）；曾于新加坡国立大学担任博士后研究员，博士期间曾于美国Nvidia和百度研究院实习。他的研究方向为表征学习和多媒体生成，在CVPR、ICCV、TPAMI、IJCV、ACM MM等国际顶级会议期刊发表论文49篇，其中包含22篇中国计算机协会CCF-A类论文、21篇IEEE/ACM汇刊、8篇ESI高被引论文，谷歌学术引用10,000余次，单篇AI生成论文超过2000次他引。
+郑哲东 (Zhedong Zheng)，本科毕业于复旦大学计算机科学系，博士毕业于悉尼科技大学，其博士论文获得学校优秀论文（每个学院一位）；曾于新加坡国立大学担任博士后研究员，博士期间曾于美国Nvidia和百度研究院实习。他的研究方向为表征学习和多媒体生成，在CVPR、ICCV、TPAMI、IJCV、ACM MM等国际顶级会议期刊发表论文50篇，其中包含22篇中国计算机协会CCF-A类论文、22篇IEEE/ACM汇刊、9篇ESI高被引论文，谷歌学术引用10,000余次，单篇AI生成论文超过2000次他引。
 
-一项核心AI生成技术的研究成果转化已被应用于全球顶级硬件制造商Nvidia的系列产品之中。获得2021年IEEE电路与系统学会杰出年轻作者奖（每年一位），之江实验室国际青年人才基金，连续两届CVPR智慧城市挑战赛冠军，入选斯坦福大学全球前2%顶尖科学家榜单（2021-2023）。担任TPAMI、IJCV、TIP、 TMM、TCSVT等国际人工智能期刊审稿人，CVPR、ICCV、ECCV、NeurIPS等国际人工智能会议审稿人，IJCAI、AAAI等机器学习会议高级程序委员（SPC）,  ACM MM国际多媒体会议领域主席（Area Chair）。
+一项核心AI生成技术的研究成果转化已被应用于全球顶级硬件制造商Nvidia的系列产品之中。获得2021年IEEE电路与系统学会杰出年轻作者奖（每年一位），之江实验室国际青年人才基金，连续两届CVPR智慧城市挑战赛冠军，入选斯坦福大学全球前2%顶尖科学家榜单（2021-2023）。担任TPAMI、IJCV、TIP、 TMM、TCSVT等国际人工智能期刊审稿人，CVPR、ICCV、ECCV、NeurIPS等国际人工智能会议审稿人，IJCAI、AAAI等机器学习会议高级程序委员（SPC）,  ACM MM、ICASSP等多媒体会议领域主席（Area Chair）。
 
 Google Scholar见https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ ，更多信息可以查看https://zdzheng.xyz 。
 
