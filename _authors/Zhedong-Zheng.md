@@ -5,7 +5,7 @@ permalink: /authors/Zhedong-Zheng
 author_profile: false
 ---
  <li> Shuyu Yang,  Yaxiong Wang,  Li Zhu,  Zhedong Zheng, &quot;Beyond Walking: A Large-Scale Image-Text Benchmark for Text-based Person Anomaly Search.&quot; arXiv:2411.17776, 2024.<a href='https://zdzheng.xyz/publication/Beyond-W2024'>[Link]</a> </li>
- <li> Jintao Sun,  Zhedong Zheng,  Gangyi Ding, &quot;From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search.&quot; Proceedings of the ACM on Web Conference, 2025.<a href='https://zdzheng.xyz/publication/From-Dat2025'>[Link]</a> </li>
+ <li> Jintao Sun,  Hao Fei,  Gangyi Ding,  Zhedong Zheng, &quot;From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search.&quot; Proceedings of the ACM on Web Conference, 2025.<a href='https://zdzheng.xyz/publication/From-Dat2025'>[Link]</a> </li>
  <li> Hao Ju,  Zhedong Zheng, &quot;Video2BEV: Transforming Drone Videos to BEVs for Video-based Geo-localization.&quot; arXiv:2411.13610, 2024.<a href='https://zdzheng.xyz/publication/Video2BE2024'>[Link]</a> </li>
  <li> Ruiyang Zhang,  Hu Zhang,  Zhedong Zheng, &quot;VL-Uncertainty: Detecting Hallucination in Large Vision-Language Model via Uncertainty Estimation.&quot; arXiv:2411.11919, 2024.<a href='https://zdzheng.xyz/publication/VL-Uncer2024'>[Link]</a> </li>
  <li> Xuanmeng Zhang,  Minyue Jiang,  Zhedong Zheng,  Xiao Tan,  Errui Ding,  Yi Yang, &quot;Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective.&quot; arXiv:2012.07620, 2020.<a href='https://zdzheng.xyz/publication/Understa2020'>[Link]</a> </li>
