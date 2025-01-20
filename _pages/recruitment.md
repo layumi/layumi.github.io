@@ -4,6 +4,7 @@ title: "招生信息"
 author_profile: true
 ---
 
+[English Version](https://zdzheng.xyz/recruitment_en)
 
 ## 澳门大学
 
@@ -49,9 +50,12 @@ author_profile: true
 
 ### 导师简介
 
-郑哲东 (Zhedong Zheng)，本科毕业于复旦大学计算机科学系，博士毕业于悉尼科技大学，其博士论文获得学校优秀论文（每个学院一位）；曾于新加坡国立大学担任博士后研究员，博士期间曾于美国Nvidia和百度研究院实习。他的研究方向为表征学习和多媒体生成，在CVPR、ICCV、TPAMI、IJCV、ACM MM等国际顶级会议期刊发表论文50篇，其中包含22篇中国计算机协会CCF-A类论文、22篇IEEE/ACM汇刊、9篇ESI高被引论文，谷歌学术引用10,000余次，单篇AI生成论文超过2000次他引。
+郑哲东博士现任澳门大学科技学院助理教授。他获得悉尼科技大学博士学位，博士论文被评为学院优秀论文（每年仅授予一人），本科毕业于复旦大学。在学术生涯中，郑博士曾在新加坡国立大学担任博士后研究员，并在博士期间于NVIDIA研究院（美国）和百度公司实习。
 
-一项核心AI生成技术的研究成果转化已被应用于全球顶级硬件制造商Nvidia的系列产品之中。获得2021年IEEE电路与系统学会杰出年轻作者奖（每年一位），之江实验室国际青年人才基金，连续两届CVPR智慧城市挑战赛冠军，入选斯坦福大学全球前2%顶尖科学家榜单（2021-2023）。担任TPAMI、IJCV、TIP、 TMM、TCSVT等国际人工智能期刊审稿人，CVPR、ICCV、ECCV、NeurIPS等国际人工智能会议审稿人，IJCAI、AAAI等机器学习会议高级程序委员（SPC）,  ACM MM、ICASSP等多媒体会议领域主席（Area Chair）。
+郑博士的研究方向为表征学习和多媒体生成，在计算机视觉和人工智能领域做出了重要贡献。他在CVPR、ICCV、TPAMI、IJCV、ACM MM等国际顶级会议和期刊上发表了51篇论文，其中23篇为CCF-A类论文，22篇发表于IEEE/ACM Transactions，9篇入选ESI高被引论文。他的研究工作在Google Scholar上被引用超过10,000次，其中单篇论文引用量超过2,000次。尤为值得一提的是，他的一项核心技术研究成果已成功应用于全球顶尖硬件制造商NVIDIA的系列产品中。
+
+郑博士的贡献获得了多项国际认可，包括2021年IEEE电路与系统学会杰出青年作者奖（每年仅授予一人）、浙江实验室国际青年人才基金，以及连续两届CVPR AI City Challenge冠军。他还连续入选斯坦福大学全球前2%顶尖科学家榜单（2021–2024）。除了研究工作，郑博士还积极参与学术社区服务。他担任TPAMI、IJCV、TIP、TMM、TCSVT等顶级期刊的审稿人，以及CVPR、ICCV、ECCV、NeurIPS等顶级会议的评审专家。他还曾担任IJCAI和AAAI的高级程序委员会委员（SPC），并担任ACM MM和IEEE ICASSP的领域主席（Area Chair）。
+
 
 Google Scholar见https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ ，更多信息可以查看https://zdzheng.xyz 。
 
