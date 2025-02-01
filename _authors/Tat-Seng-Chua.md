@@ -1,10 +1,11 @@
 ---
-title: "Tat-Seng Chua"
+title: "Tat-seng Chua"
 collection: authors
-permalink: /authors/Tat-Seng-Chua
+permalink: /authors/Tat-seng-Chua
 author_profile: false
 img: https://zdzheng.xyz/coauthors/tat-seng-chua.jpeg
 ---
+ <li> Leyang Jin,  Wei Ji,  Tat-seng Chua,  Zhedong Zheng, &quot;Coarse-to-Fine Cross-modality Generation for Enhancing Vehicle Re-Identification with High-Fidelity Synthetic Data.&quot; IEEE International Conference on Robotics and Automation, 2025.<a href='https://zdzheng.xyz/publication/Coarse-t2025'>[Link]</a> </li>
  <li> Han Yi,  Zhedong Zheng,  Xiangyu Xu,  Tat-Seng Chua, &quot;Progressive Text-to-3D Generation for Automatic 3D Prototyping.&quot; arXiv:2309.14600, 2023.<a href='https://zdzheng.xyz/publication/Progress2023'>[Link]</a> </li>
  <li> Leigang Qu,  Meng Liu,  Wenjie Wang,  Zhedong Zheng,  Liqiang Nie,  Tat-Seng Chua, &quot;Learnable Pillar-based Re-ranking for Image-Text Retrieval.&quot; SIGIR, 2023.<a href='https://zdzheng.xyz/publication/Learnabl2023'>[Link]</a> </li>
  <li> Meng Chu,  Zhedong Zheng,  Wei Ji,  Tingyu Wang,  Tat-Seng Chua, &quot;Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching.&quot; Proceedings of the European conference on computer vision (ECCV), 2024.<a href='https://zdzheng.xyz/publication/Towards-2024'>[Link]</a> </li>

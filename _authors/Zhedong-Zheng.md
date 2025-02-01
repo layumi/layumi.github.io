@@ -5,6 +5,7 @@ permalink: /authors/Zhedong-Zheng
 author_profile: false
 ---
  <li> Shuyu Yang,  Yaxiong Wang,  Li Zhu,  Zhedong Zheng, &quot;Beyond Walking: A Large-Scale Image-Text Benchmark for Text-based Person Anomaly Search.&quot; arXiv:2411.17776, 2024.<a href='https://zdzheng.xyz/publication/Beyond-W2024'>[Link]</a> </li>
+ <li> Leyang Jin,  Wei Ji,  Tat-seng Chua,  Zhedong Zheng, &quot;Coarse-to-Fine Cross-modality Generation for Enhancing Vehicle Re-Identification with High-Fidelity Synthetic Data.&quot; IEEE International Conference on Robotics and Automation, 2025.<a href='https://zdzheng.xyz/publication/Coarse-t2025'>[Link]</a> </li>
  <li> Jintao Sun,  Hao Fei,  Gangyi Ding,  Zhedong Zheng, &quot;From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search.&quot; Proceedings of the ACM on Web Conference, 2025.<a href='https://zdzheng.xyz/publication/From-Dat2025'>[Link]</a> </li>
  <li> Hao Ju,  Zhedong Zheng, &quot;Video2BEV: Transforming Drone Videos to BEVs for Video-based Geo-localization.&quot; arXiv:2411.13610, 2024.<a href='https://zdzheng.xyz/publication/Video2BE2024'>[Link]</a> </li>
  <li> Guiyu Zhang,  Huan-ang Gao,  Zijian Jiang,  Hao Zhao,  Zhedong Zheng, &quot;Ctrl-u: Robust conditional image generation via uncertainty-aware reward modeling.&quot; ICLR, 2025.<a href='https://zdzheng.xyz/publication/Ctrl-u-R2025'>[Link]</a> </li>
