@@ -16,6 +16,13 @@ table, th, td {
 </style>
 
 <table class="imgtable" style="border-spacing: 80px; border-collapse: collapse; table-layout: fixed;">
+    <tbody><tr><td align="center">
+	<img src="https://github.com/Shuyu-XJTU/WWW2025Workshop/blob/main/CMP_Baseline_Code/assets/example.jpg?raw=true" alt="Pedestrian Anomaly Behavior " width="80%"> &nbsp;</td>
+	<td align="left"> <strong> PAB Dataset </strong> <strong><a href="https://github.com/Shuyu-XJTU/WWW2025Workshop/"> [website]</a></strong> 
+    We propose a new task, text-based person anomaly search, locating pedestrians engaged in both routine or anomalous activities via text. To enable the training and evaluation of this new task, we construct a large-scale image-text Pedestrian Anomaly Behavior (PAB) benchmark, featuring a broad spectrum of actions, e.g., running, performing, playing soccer, and the corresponding anomalies, e.g., lying, being hit, and falling of the same identity. The training set of PAB comprises 1,013,605 synthesized image-text pairs of both normalities and anomalies, while the test set includes 1,978 real-world image-text pairs. 
+	</td>
+</tr></tbody>
+	
 	<tbody><tr><td align="center">
     <img src="https://github.com/Shuyu-XJTU/APTM/blob/main/assets/examples.jpg?raw=true" alt="MALS" width="80%"> &nbsp;</td>
     <td align="left"> <strong> MALS Dataset </strong> <strong><a href="https://github.com/Shuyu-XJTU/APTM"> [website]</a></strong> 
