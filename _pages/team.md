@@ -12,15 +12,20 @@ redirect_from:
 
 - [Ruiyang Zhang](https://ruiyang-061x.github.io/): Fudan (B.S.) UM (Pursuing Ph.D)
 - Hao Ju: DLUT (B.S., M.S.) UM (Pursuing Ph.D)
+- [Jizheng Zhang](https://www.jizhengzhang.top/): Jilin (B.S.) UM (Pursuing Ph.D)
+
 
 ## RA
-
-- [Guiyu Zhang](https://scholar.google.com/citations?user=NLPMoeAAAAAJ): SDU (B.S.) UCAS (M.S.)
+- Yaxuan Li: HITSZ (B.S.)
 
 
 <hr> 
 
 ## Students I Have Mentored
+
+### Macau  
+- [Guiyu Zhang](https://scholar.google.com/citations?user=NLPMoeAAAAAJ): SDU (B.S.) UCAS (M.S.)
+
 ### Singapore (NUS)
 
 - [Yiyang Chen](https://zdzheng.xyz/authors/Yiyang-Chen): Tsinghua (B.S.) 
@@ -38,7 +43,7 @@ redirect_from:
 - [Tingyu Wang](https://www.zdzheng.xyz/authors/Tingyu-Wang): UTS (Visiting)
 - [Zhikun Huang](https://zdzheng.xyz/authors/Zhikun-Huang): UTS (Visiting)
 
-### China
+### Mainland
 - [Yuchen Suo](https://zdzheng.xyz/authors/Yucheng-Suo): ZJU (Pursuing Ph.D)
 - [Xiaolong Shen](https://zdzheng.xyz/authors/Xiaolong-Shen): ZJU (Pursuing Ph.D)
 - Jinliang Liu: ZJU (Pursuing Ph.D)
