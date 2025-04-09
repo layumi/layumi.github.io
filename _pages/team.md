@@ -12,7 +12,7 @@ redirect_from:
 
 - [Ruiyang Zhang](https://ruiyang-061x.github.io/): Fudan (B.S.) UM (Pursuing Ph.D)
 - Hao Ju: DLUT (B.S., M.S.) UM (Pursuing Ph.D)
-- [Jizheng Zhang](https://www.jizhengzhang.top/): Jilin (B.S.) UM (Pursuing Ph.D)
+- [Jizheng Zhang](https://www.jizhengzhang.top/): JLU (B.S.) UM (Pursuing Ph.D)
 
 
 ## RA
