@@ -100,7 +100,7 @@ Our research group collaborates closely with the **State Key Laboratory of Inter
 
 **University Rankings:**  
 - **Times Higher Education Young University Rankings**: 14th.  
-- **Times Higher Education World University Rankings 2024**: 180th.  
+- **Times Higher Education World University Rankings**: 180th.  
 - **QS World University Rankings**: 245th.  
 
 ---
