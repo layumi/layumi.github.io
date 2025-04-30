@@ -17,14 +17,14 @@ table, th, td {
 
 <table class="imgtable" style="border-spacing: 80px; border-collapse: collapse; table-layout: fixed;">
     <tbody><tr><td align="center">
-	<img src="https://github.com/Shuyu-XJTU/WWW2025Workshop/blob/main/CMP_Baseline_Code/assets/example.jpg?raw=true" alt="Pedestrian Anomaly Behavior " width="80%"> &nbsp;</td>
+	<img src="https://zdzheng.xyz/resource-img/MALS.jpg" alt="Pedestrian Anomaly Behavior " width="80%"> &nbsp;</td>
 	<td align="left"> <strong> PAB Dataset </strong> <strong><a href="https://github.com/Shuyu-XJTU/WWW2025Workshop/"> [website]</a></strong> 
     We propose a new task, text-based person anomaly search, locating pedestrians engaged in both routine or anomalous activities via text. To enable the training and evaluation of this new task, we construct a large-scale image-text Pedestrian Anomaly Behavior (PAB) benchmark, featuring a broad spectrum of actions, e.g., running, performing, playing soccer, and the corresponding anomalies, e.g., lying, being hit, and falling of the same identity. The training set of PAB comprises 1,013,605 synthesized image-text pairs of both normalities and anomalies, while the test set includes 1,978 real-world image-text pairs. 
 	</td>
 </tr></tbody>
 	
 	<tbody><tr><td align="center">
-    <img src="https://github.com/Shuyu-XJTU/APTM/blob/main/assets/examples.jpg?raw=true" alt="MALS" width="80%"> &nbsp;</td>
+    <img src="https://zdzheng.xyz/resource-img/MALS.jpg" alt="MALS" width="80%"> &nbsp;</td>
     <td align="left"> <strong> MALS Dataset </strong> <strong><a href="https://github.com/Shuyu-XJTU/APTM"> [website]</a></strong> 
 We present a large Multi-Attribute and Language Search dataset for text-based person retrieval, called MALS, and explore the feasibility of performing pre-training on both attribute recognition and image-text matching tasks in one stone. In particular, MALS contains 1, 510, 330 image-text pairs, which is about 37.5× larger than prevailing CUHK-PEDES, and all images are annotated with 27 attributes.
     </td>
@@ -32,7 +32,7 @@ We present a large Multi-Attribute and Language Search dataset for text-based pe
 
 
 	<tbody><tr><td align="center">
-<img src="https://user-images.githubusercontent.com/8390471/192081571-56b84733-238a-45e1-bbf4-988067dbcf51.png" alt="University-1652" width="80%"> &nbsp;</td>
+<img src="https://zdzheng.xyz/resource-img/University.jpg" alt="University-1652" width="80%"> &nbsp;</td>
     <td align="left"> <strong> University-1652 Dataset</strong>  <strong><a href="https://github.com/layumi/University1652-Baseline"> [website]</a></strong>  <strong><a href="https://github.com/layumi/University1652-Baseline/tree/master/State-of-the-art"> [SoTA]</a></strong> 
 We collect 1652 buildings of 72 universities around the world. University-1652 contains data from three platforms, i.e., synthetic drones, satellites and ground cameras of 1,652 university buildings around the world. To our knowledge, University-1652 is the first drone-based geo-localization dataset and enables two new tasks, i.e., drone-view target localization and drone navigation.
     </td>
@@ -41,14 +41,14 @@ We collect 1652 buildings of 72 universities around the world. University-1652 c
 
 
 	<tbody><tr><td align="center">
-<img src="https://github.com/vana77/Market-1501_Attribute/raw/master/sample_image.jpg?raw=true" alt="Pedestrian Attribute" width="80%"> &nbsp; </td>
+<img src="https://zdzheng.xyz/resource-img/attribute.jpg" alt="Pedestrian Attribute" width="80%"> &nbsp; </td>
     <td align="left"> <strong> Market-1501 and DukeMTMC-reID Attribute Datasets</strong>   <strong><a href="https://vana77.github.io"> [website]</a></strong>
 We manually annotate attribute labels for two large-scale re-ID datasets, and systematically investigate how person re-ID and attribute recognition benefit from each other. 
     </td>
 </tr></tbody>
  
 	<tbody><tr><td align="center">
-<img src="https://user-images.githubusercontent.com/8390471/208151146-b8564829-bd61-484d-850f-61ba75216388.jpg" alt="3D Market" width="80%"> &nbsp;</td>
+<img src="https://zdzheng.xyz/resource-img/3DMarket.jpg" alt="3D Market" width="80%"> &nbsp;</td>
    <td align="left"> <strong> 3D Market-1501 Dataset</strong>  <strong><a href="https://github.com/layumi/person-reid-3d"> [website]</a></strong> 
 You could find the point-cloud format Market-1501 Dataset at https://github.com/layumi/person-reid-3d.
     </td>
@@ -56,7 +56,7 @@ You could find the point-cloud format Market-1501 Dataset at https://github.com/
 
 
 	<tbody><tr><td align="center">
-<img src="https://user-images.githubusercontent.com/8390471/192081605-0c8a246f-e54c-41c7-9936-5ba8e22f5192.png" alt="DG-Market" width="80%"> &nbsp;</td>
+<img src="https://zdzheng.xyz/resource-img/DG-Market.jpg" alt="DG-Market" width="80%"> &nbsp;</td>
 <td align="left"> <strong> DG-Market Dataset</strong>  We provide our generated images and make a large-scale synthetic dataset called DG-Market. This dataset is generated by our [DG-Net](https://arxiv.org/abs/1904.07223) and consists of 128,307 images (613MB), about 10 times larger than the training set of original Market-1501 (even much more can be generated with DG-Net). It can be used as a source of unlabeled training dataset for semi-supervised learning. You may download the dataset from <a href="https://drive.google.com/file/d/126Gn90Tzpk3zWp2c7OBYPKc-ZjhptKDo/view?usp=sharing">[Google Drive]</a> (or <a href="https://pan.baidu.com/s/1n4M6s-qvE08J8SOOWtWfgw">[Baidu Disk]</a>) password: qxyh).
     </td>
 </tr></tbody></table>
