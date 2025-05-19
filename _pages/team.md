@@ -18,7 +18,7 @@ redirect_from:
 - [Ruiyang Zhang](https://ruiyang-061x.github.io/): Fudan (B.S.) UM (Pursuing Ph.D)
 - Hao Ju: DLUT (B.S., M.S.) UM (Pursuing Ph.D)
 - [Jizheng Zhang](https://www.jizhengzhang.top/): JLU (B.S.) UM (Pursuing Ph.D)
-
+- Jiahao Zhang: Nankai University (B.Eng.) CityU (M.S.) UM (Pursuing Ph.D)
 
 ## RA
 - Yaxuan Li: HITSZ (B.S.)
