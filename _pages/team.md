@@ -29,7 +29,7 @@ redirect_from:
 ## Students I Have Mentored
 
 ### Macau  
-- [Guiyu Zhang](https://scholar.google.com/citations?user=NLPMoeAAAAAJ): SDU (B.S.) UCAS (M.S.)
+- [Guiyu Zhang](https://www.zdzheng.xyz/authors/Guiyu-Zhang): SDU (B.S.) UCAS (M.S.)
 
 ### Singapore (NUS)
 
