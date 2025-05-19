@@ -8,6 +8,11 @@ redirect_from:
 
 {% include base_path %}
 
+
+## Postdoc
+- [Shaofei Huang](https://spyflying.github.io/)
+
+
 ## PhD
 
 - [Ruiyang Zhang](https://ruiyang-061x.github.io/): Fudan (B.S.) UM (Pursuing Ph.D)
