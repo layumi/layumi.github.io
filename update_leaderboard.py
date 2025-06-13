@@ -66,4 +66,8 @@ table, th, td {
 """
 with open('./Awesome-reID/README.md', 'w') as file:
     file.write(metadataAR)
+
 os.system("curl -L https://raw.githubusercontent.com/layumi/Person_reID_baseline_pytorch/master/leaderboard/README.md  >> ./Awesome-reID/README.md")
+
+os.system("git add .; git commit -m 'auto update'; git push"
+

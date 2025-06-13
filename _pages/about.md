@@ -51,6 +51,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
+<li> We are holding ACM Multimedia 2025 workshop on Aerial-view Imaging <a href="https://www.zdzheng.xyz/ACMMM2025Workshop-UAV/">[Call for papers]</a>  </li>
 <li> One paper to appear at ICLR 2025. <a href="https://www.zdzheng.xyz/publication/Ctrl-u-R2025">Conditional Generation</a> </li>
 <li> One paper to appear at ACM WWW 2025. <a href="https://www.zdzheng.xyz/publication/From-Dat2025">Text-based Person Search</a> </li>
 <li> One paper to appear at ACM MM 2024 (Oral)! <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation</a> </li>
@@ -74,13 +75,13 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 <li> We have released a new Drone-view Geo-localization Dataset, ACM Multimedia 2020.<strong> 
 	<a href="https://zdzheng.xyz/publication/Unive2020">[PDF]</a>
 	<a href="https://github.com/layumi/University1652-Baseline">[Dataset]</a> <a href="https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080">[Video]</a> <a href="https://zdzheng.xyz/files/ACM-MM-Talk.pdf">[Slide]</a></strong> </li>
+</ul>
+<!---	
 <li> People live in a 3D world. Why not conduct representation learning in the 3D space? <a href="https://arxiv.org/abs/2006.04569">[arXiv]</a> <a href="https://github.com/layumi/person-reid-3d">[code]</a></li>
 <li> We have achieved the <strong>1st</strong> place in AICity Challenge Vehicle Re-id Track, CVPR 2020. <a href="https://github.com/layumi/AICIty-reID-2020">[code] </a></li>
 <li> Two papers to appear at IJCAI 2020. <a href="https://zdzheng.xyz/publication/Unsup2020">[PDF1]</a><a href="https://github.com/layumi/Seg_Uncertainty">[code1]</a><a href="https://zdzheng.xyz/publication/Real-2020">[PDF2]</a>
 	<a href="https://github.com/huangzhikun1995/IPM-Net">[code2]</a></li>
 <li> One paper to appear at CVPR 2019 as oral presentation. <a href="https://zdzheng.xyz/publication/Joint2019">[PDF]</a><a href="https://www.youtube.com/watch?v=ubCrEAIpQs4">[3-min video]</a> <a href="https://github.com/NVlabs/DG-Net">[code]</a></li>
-</ul>
-<!---	
 <li> One paper to appear at ECCV 2018. <a href="https://arxiv.org/abd/1807.08260">[arXiv]</a> <a href="https://github.com/RoyalVane/MMAN">[code]</a> </li>
 <li> One paper to appear at CVPR 2018. <a href="https://arxiv.org/abs/1711.10295">[arXiv]</a> <a href="https://github.com/zhunzhong07/CamStyle">[code]</a> </li>
 <li> One paper to appear at ICCV 2017 as spotlight presentation. <a href="https://arxiv.org/abs/1701.07717">[arXiv]</a> <a href="https://github.com/layumi/Person-reID_GAN"> [code]</a> </li>
