@@ -57,6 +57,8 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 <li> We are holding two workshops at ACM Multimedia 2024 on Aerial-view Imaging <a href="https://www.zdzheng.xyz/ACMMM2024Workshop-UAV/">[Call for papers]</a> and Deep Multimodal Learning <a href="https://videorelation.nextcenter.org/MMGR24/">[Call for papers]</a> (EI-indexed).   </li>
 <li> One paper to appear at ICLR 2024 on Compositional Image Retrieval <a href="https://www.zdzheng.xyz/publication/Composed2024">[link]</a> <a href="https://github.com/Monoxide-Chen/uncertainty_retrieval">[code]</a> . </li> 
 <li> We are holding one workshop at ACM ICMR 2024 on Multimedia Object Re-identification <a href="https://www.zdzheng.xyz/MORE2024/">[Call for papers]</a> (EI-indexed).  </li>
+<details>
+	<summary>--View More--</summary>
 <li> Two papers to appear at ACM Multimedia 2023 on Text-image re-ID <a href="https://www.zdzheng.xyz/publication/Towards-2023">[link]</a> and Domain Adaptation <a href="https://www.zdzheng.xyz/publication/PiPa-Pix2023">[link]</a></li>
 <li> We are holding two workshops at ACM Multimedia 2023 on Aerial-view Imaging <a href="https://zdzheng.xyz/ACMMM2023Workshop/">[Call for papers]</a> and Deep Multimodal Learning <a href="https://videorelation.nextcenter.org/MMIR23/">[Call for papers]</a> (EI-indexed).   </li>
 <li> Two papers to appear at CVPR 2023. </li>
@@ -74,6 +76,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 	<a href="https://zdzheng.xyz/publication/Unive2020">[PDF]</a>
 	<a href="https://github.com/layumi/University1652-Baseline">[Dataset]</a> <a href="https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080">[Video]</a> <a href="https://zdzheng.xyz/files/ACM-MM-Talk.pdf">[Slide]</a></strong> </li>
 </ul>
+</details>
 <!---	
 <li> People live in a 3D world. Why not conduct representation learning in the 3D space? <a href="https://arxiv.org/abs/2006.04569">[arXiv]</a> <a href="https://github.com/layumi/person-reid-3d">[code]</a></li>
 <li> We have achieved the <strong>1st</strong> place in AICity Challenge Vehicle Re-id Track, CVPR 2020. <a href="https://github.com/layumi/AICIty-reID-2020">[code] </a></li>
