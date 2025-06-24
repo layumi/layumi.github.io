@@ -5,6 +5,9 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# GoogleScholar Settings
+google_scholar_stats_use_cdn : true
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Zhedong Zheng"
@@ -146,6 +149,7 @@ exclude:
   - README
   - tmp
   - vendor
+  - google_scholar_crawler
 keep_files:
   - .git
   - .svn
