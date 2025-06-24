@@ -69,5 +69,5 @@ with open('./Awesome-reID/README.md', 'w') as file:
 
 os.system("curl -L https://raw.githubusercontent.com/layumi/Person_reID_baseline_pytorch/master/leaderboard/README.md  >> ./Awesome-reID/README.md")
 
-os.system("git add .; git commit -m 'auto update'; git push"
+os.system("git add .; git commit -m 'auto update'; git push")
 
