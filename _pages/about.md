@@ -49,7 +49,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
-<li> 3 papers to appear at ICCV 2025. <a href="https://www.zdzheng.xyz/publication/Video2BE2024">Video2BEV</a> <a href="https://www.zdzheng.xyz/publication/Beyond-W2024">Anomaly Retrieval</a> <a href="https://www.zdzheng.xyz/publication/Harnessi2024">3D Detection</a>  </li>
+<li> 3 papers to appear at ICCV 2025. <a href="https://www.zdzheng.xyz/publication/Video2BE2025">Video2BEV</a> <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval</a> <a href="https://www.zdzheng.xyz/publication/Harnessi2025">3D Detection</a>  </li>
 <li> We are holding ACM Multimedia 2025 workshop on Aerial-view Imaging <a href="https://www.zdzheng.xyz/ACMMM2025Workshop-UAV/">[Call for papers]</a>  </li>
 <li> One paper to appear at ICLR 2025. <a href="https://www.zdzheng.xyz/publication/Ctrl-u-R2025">Conditional Generation</a> </li>
 <li> One paper to appear at ACM WWW 2025. <a href="https://www.zdzheng.xyz/publication/From-Dat2025">Text-based Person Search</a> </li>
