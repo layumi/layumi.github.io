@@ -54,15 +54,15 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 <li> One paper to appear at ICLR 2025. <a href="https://www.zdzheng.xyz/publication/Ctrl-u-R2025">Conditional Generation</a> </li>
 <li> One paper to appear at ACM WWW 2025. <a href="https://www.zdzheng.xyz/publication/From-Dat2025">Text-based Person Search</a> </li>
 <li> One paper to appear at ACM MM 2024 (Oral)! <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation</a> </li>
-<li> Three papers to appear at ECCV 2024! <a href="https://www.zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, <a href="https://www.zdzheng.xyz/publication/Depth-aw2024">Blind Image Decomposition</a>, <a href="https://www.zdzheng.xyz/publication/Approach2024">Unsupervised 3D Object Detection</a>.</li> 
+<li> 3 papers to appear at ECCV 2024! <a href="https://www.zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, <a href="https://www.zdzheng.xyz/publication/Depth-aw2024">Blind Image Decomposition</a>, <a href="https://www.zdzheng.xyz/publication/Approach2024">Unsupervised 3D Object Detection</a>.</li> 
 <details>
 	<summary>--View More--</summary>
 <li> We are holding two workshops at ACM Multimedia 2024 on Aerial-view Imaging <a href="https://www.zdzheng.xyz/ACMMM2024Workshop-UAV/">[Call for papers]</a> and Deep Multimodal Learning <a href="https://videorelation.nextcenter.org/MMGR24/">[Call for papers]</a> (EI-indexed).   </li>
 <li> One paper to appear at ICLR 2024 on Compositional Image Retrieval <a href="https://www.zdzheng.xyz/publication/Composed2024">[link]</a> <a href="https://github.com/Monoxide-Chen/uncertainty_retrieval">[code]</a> . </li> 
 <li> We are holding one workshop at ACM ICMR 2024 on Multimedia Object Re-identification <a href="https://www.zdzheng.xyz/MORE2024/">[Call for papers]</a> (EI-indexed).  </li>
-<li> Two papers to appear at ACM Multimedia 2023 on Text-image re-ID <a href="https://www.zdzheng.xyz/publication/Towards-2023">[link]</a> and Domain Adaptation <a href="https://www.zdzheng.xyz/publication/PiPa-Pix2023">[link]</a></li>
+<li> 2 papers to appear at ACM Multimedia 2023 on Text-image re-ID <a href="https://www.zdzheng.xyz/publication/Towards-2023">[link]</a> and Domain Adaptation <a href="https://www.zdzheng.xyz/publication/PiPa-Pix2023">[link]</a></li>
 <li> We are holding two workshops at ACM Multimedia 2023 on Aerial-view Imaging <a href="https://zdzheng.xyz/ACMMM2023Workshop/">[Call for papers]</a> and Deep Multimodal Learning <a href="https://videorelation.nextcenter.org/MMIR23/">[Call for papers]</a> (EI-indexed).   </li>
-<li> Two papers to appear at CVPR 2023. </li>
+<li> 2 papers to appear at CVPR 2023. </li>
 <li> One paper on Adversarial Retrieval Attacking is accepted by IJCV 2022. <a href="https://zdzheng.xyz/publication/U-turn-C2022">[link]</a></li> 
 <li> One paper on 3D Human Re-id is accepted by TNNLS 2022. <a href="https://zdzheng.xyz/publication/Paramete2022">[link]</a></li> 
 <li> One AdaBoost Domain Adaptation paper is accepted by TIP 2022. <a href="https://zdzheng.xyz/publication/Adaptive2022">[link]</a></li> 
