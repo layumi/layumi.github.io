@@ -20,12 +20,12 @@
         <li><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
       {% endif %}
       <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-	  <li><a href="/sitemap/">{{ site.data.ui-text[site.locale].feed_label | default: "Sitemap" }}</a></li>
+	  <li><a href="/sitemap/"> Sitemap</a></li>
     </ul>
   </div>
 
   <!-- ClustrMaps 地图 -->
-  <div style="flex: 0 0 300px; height: 150px; margin: 0 auto;">
+  <div style="flex: 0 0 150px; height: 75px; margin: 0 auto;">
     <link rel="preconnect" href="//cdn.clustrmaps.com">
     <link rel="dns-prefetch" href="//cdn.clustrmaps.com">
     <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353'></script>
