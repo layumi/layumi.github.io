@@ -109,7 +109,6 @@ Do not press the red button!
 <link rel="preconnect" href="//cdn.clustrmaps.com">
 <link rel="dns-prefetch" href="//cdn.clustrmaps.com">
 
-<a href="https://clustrmaps.com/site/18o2b"  title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=mhnrYabZI2bz_eHk1W_A8VvNxtAjYBrWfIfxbLnTRPQ&cl=ffffff" alt="clustrmaps" /></a>
 </div>
 
 <div>
