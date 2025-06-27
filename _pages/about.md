@@ -103,12 +103,6 @@ Do not press the red button!
 <a href="https://zdzheng.xyz/redbutton.html"> <img src="https://zdzheng.xyz/images/red.jpeg" alt="red" width="50" height="50"></a>
 <a href="https://zdzheng.xyz/greenbutton.html"> <img src="https://zdzheng.xyz/images/green.jpeg" alt="green" width="50" height="50"> </a>
 
-<hr>
-
-<div style='width:300px;height:150px;margin:0 auto'>
-<link rel="preconnect" href="//cdn.clustrmaps.com">
-<link rel="dns-prefetch" href="//cdn.clustrmaps.com">
-
 </div>
 
 <div>
