@@ -1,4 +1,24 @@
 <script src="{{ base_path }}/assets/js/main.min.js" async></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // 图片数组（替换为你的实际路径）
+    const images = [
+      "https://zdzheng.xyz/images/profile.webp",
+      "https://zdzheng.xyz/images/profile2.webp"
+    ];
+    
+    // 随机选择一张图片
+    const randomImage = images[Math.floor(Math.random() * images.length)];
+    
+    // 设置到img标签
+    const avatar = document.getElementById("random-avatar");
+    if (avatar) {
+      avatar.src = randomImage;
+    }
+  });
+</script>
+  
 {% include fetch_google_scholar_stats.html %}
 <!--
 {% include analytics.html %}
