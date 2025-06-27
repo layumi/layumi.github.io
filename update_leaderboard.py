@@ -4,8 +4,8 @@ os.system('cd markdown_generator; python pubsFromBib.py; cd ..')
 os.system('cd ACMMM2023Workshop; git pull origin main; cd ..')
 os.system('cd ACMMM2024Workshop-UAV; git pull origin main; cd ..')
 os.system('cd ACMMM2025Workshop-UAV; git pull origin main; cd ..')
-os.system('cd MORE2024; git pull; cd ..')
-os.system('cd MORE2025; git pull; cd ..')
+os.system('cd MORE2024; git pull origin main; cd ..')
+os.system('cd MORE2025; git pull origin main; cd ..')
 
 metadataREID="""---
 title: \"Pytorch ReID\"
