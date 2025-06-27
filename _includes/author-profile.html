@@ -4,11 +4,21 @@
 {% endif %}
 <div itemscope itemtype="https://schema.org/Person">
   <div class="author__avatar">
+	  <!--
     {% if author.avatar contains "://" %}
     	<img src="{{ author.avatar }}" alt="{{ author.name }}">
     {% else %}
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" >
-    {% endif %}
+    {% endif %}-->
+	{% if author.avatar contains "profile" %}
+	    <img id="random-avatar" class="author__avatar" alt="{{ author.name }}">
+	{% else %}
+	    {% if author.avatar contains "://" %}
+	        <img src="{{ author.avatar }}" alt="{{ author.name }}">
+	    {% else %}
+	        <img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}">
+	    {% endif %}
+	{% endif %}
   </div>
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
@@ -190,3 +200,23 @@
             </ul> -->
   </div>
 </div>
+
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // 图片数组（替换为你的实际路径）
+    const images = [
+      "https://zdzheng.xyz/images/profile.webp",
+      "https://zdzheng.xyz/images/profile2.webp"
+    ];
+    
+    // 随机选择一张图片
+    const randomImage = images[Math.floor(Math.random() * images.length)];
+    
+    // 设置到img标签
+    const avatar = document.getElementById("random-avatar");
+    if (avatar) {
+      avatar.src = randomImage;
+    }
+  });
+</script>
