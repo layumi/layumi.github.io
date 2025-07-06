@@ -32,9 +32,10 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 
 <h2><i class="fa-regular fa-compass fa-shake"></i> Research Statement</h2>
 
-My work focuses on multi-view object matching and novel view synthesis and analysis, under a multi-camera scenario, e.g., swarm robotics, self-driving car, and smart city.
+My work focuses on multi-view [object re-identification](https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:object_re_identification), [AIGC](https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:aigc) and [data-centric AI](https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:data_centric_ai), under a multi-camera scenario, e.g., swarm robotics, self-driving car, and smart city.
 
 The child understands a 3D object, not from a still image, but from multiple modalities (images / videos / audio) capturing the target of interest from different viewpoints.
+
 
 <!---
 Big data is the primary part of training data-driven models. There remain three scientific questions. 
@@ -52,7 +53,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
-<li> 3 papers to appear at ICCV 2025. <a href="https://www.zdzheng.xyz/publication/Video2BE2025">Video2BEV</a> <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval</a> <a href="https://www.zdzheng.xyz/publication/Harnessi2025">3D Detection</a>  </li>
+<li> 3 papers to appear at ICCV 2025. <a href="https://www.zdzheng.xyz/publication/Video2BE2025">Video2BEV</a>, <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval</a>, <a href="https://www.zdzheng.xyz/publication/Harnessi2025">3D Detection</a>  </li>
 <li> We are holding ACM Multimedia 2025 workshop on Aerial-view Imaging <a href="https://www.zdzheng.xyz/ACMMM2025Workshop-UAV/">[Call for papers]</a>  </li>
 <li> One paper to appear at ICLR 2025. <a href="https://www.zdzheng.xyz/publication/Ctrl-u-R2025">Conditional Generation</a> </li>
 <li> One paper to appear at ACM WWW 2025. <a href="https://www.zdzheng.xyz/publication/From-Dat2025">Text-based Person Search</a> </li>
