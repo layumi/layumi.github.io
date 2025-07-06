@@ -53,6 +53,9 @@ Throughout my academic journey, I have been fortunate to collaborate with severa
 
 Open-source projects can be found at my <a href='https://github.com/layumi'>[Github]</a>, and publications can be found at  [SCI](https://www.webofscience.com/wos/author/record/434956), [SCOPUS](https://www.scopus.com/authid/detail.uri?authorId=57200174037), or [Google Scholar](https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ). <strong>More details can be found in my [[CV]]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf). </strong>
 
+<hr>
+
+<h2><i class="fa-solid fa-bullhorn fa-beat"></i>Open Positions</h2>
 <p style="color: #CD853F;">I am actively looking for self-motivated Ph.D. and Master students at University of Macau. PhD students will be fully funded with fellowships. For more information, pls visit <a href="https://www.zdzheng.xyz/recruitment/" style="color: #CD853F;">Join Us</a>.</p>
 <!---
 <ul>
