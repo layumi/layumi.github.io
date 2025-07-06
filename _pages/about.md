@@ -7,42 +7,6 @@ redirect_from:
   - /about/
 ---
 
-<script type="application/ld+json">
-		    { "@context": "https://schema.org", 
-		     "@type": "Person",
-			 "name": "Zhedong Zheng",
-			 "gender": "Male",
-			 "description": "Computer Vision Researcher",
-			 "jobTitle": "Assistant Professor",
-		     "affiliation": {
-		       "@type": "Organization",
-		       "name": "University of Macau"
-		     },
-			 "alumniOf": [
-			 	{
-			 	 "@type": "CollegeOrUniversity",
-			 	 "name": "University of Technology Sydney"
-			 	},
-			 	{
-			 	 "@type": "CollegeOrUniversity",
-			 	 "name": "Fudan University"
-			 	}
-			 ],
-			 "url": "https://zdzheng.xyz",
-			 "image": "https://zdzheng.xyz/images/profile.webp",
-			 "sameAs": [
-			    "https://www.fst.um.edu.mo/people/zhedongzheng/",
-				"https://scholar.google.com/citations?user=XT17oUEAAAAJ",
-			 	"https://www.researchgate.net/profile/Zhedong-Zheng-2",
-				"https://www.facebook.com/zhedongzheng12",
-				"https://www.linkedin.com/in/zhedongzheng",
-				"https://github.com/layumi",
-				"http://orcid.org/0000-0002-2434-9050",
-				"https://www.zhihu.com/people/zhengzhedong"
-			 	]
-	        }
-</script>
-
 <meta name="description"
   content="Zhedong Zheng is  a tenure-track assistant professor with the University of Macau, specializing in person re-identification (reID). He obtained his Ph.D. from UTS's ReLER Lab, mentored by Prof. Yi Yang and Dr. Liang Zheng. With a strong foundation from Fudan University, he has collaborated with leading experts at Nvidia and Baidu. His focus on reID underscores his dedication to advancing this vital field.">  
 <meta name="keywords" content="Zhedong Zheng, Person Re-ID, Object Re-ID, Person Retrieval, Person Search" />
@@ -55,7 +19,7 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 
 <hr>
 
-<h2><i class="fa-solid fa-bullhorn fa-beat"></i>Open Positions</h2>
+<h2><i class="fa-solid fa-bullhorn fa-beat"></i> Open Positions</h2>
 <p style="color: #CD853F;">I am actively looking for self-motivated Ph.D. and Master students at University of Macau. PhD students will be fully funded with fellowships. For more information, pls visit <a href="https://www.zdzheng.xyz/recruitment/" style="color: #CD853F;">Join Us</a>.</p>
 <!---
 <ul>
