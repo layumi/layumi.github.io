@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Dual-pat2020
 date: 2020-01-01
 doi: 10.1145/3383184
-keywords: 
+keywords:text embeddings instance, path convolutional image, embeddings instance, 
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
 paperurl: 'https://zdzheng.xyz/files/TOMM20.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/33163432'

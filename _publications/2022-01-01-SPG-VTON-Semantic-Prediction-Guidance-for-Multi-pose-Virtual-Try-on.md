@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/SPG-VTON2022
 date: 2022-01-01
 doi: 10.1109/TMM.2022.3143712
-keywords: 
+keywords:vton semantic prediction, spg vton semantic, vton semantic, 
 venue: 'IEEE Transactions on Multimedia'
 paperurl: 'https://zdzheng.xyz/files/TMM_Hu.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Bingwen-Hu" class="author"> <img src= "https://zdzheng.xyz/coauthors/bingwen-hu.jpeg" alt="bingwen-hu" style="border-radius: 50%; height:20px; width:20px">Bingwen Hu</a>, <a href="https://zdzheng.xyz/authors/Ping-Liu" class="author"> <img src= "https://zdzheng.xyz/coauthors/ping-liu.jpeg" alt="ping-liu" style="border-radius: 50%; height:20px; width:20px">Ping Liu</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Mingwu-Ren" class="author"> <img src= "https://zdzheng.xyz/coauthors/mingwu-ren.jpeg" alt="mingwu-ren" style="border-radius: 50%; height:20px; width:20px">Mingwu Ren</a>'

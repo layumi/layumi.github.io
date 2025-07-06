@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Harnessi2025
 date: 2025-01-01
 doi: 
-keywords: 
+keywords:3d object detection, object detection, detection, 
 venue: 'ICCV'
 code: 'https://github.com/Ruiyang-061X/UA3D'
 author: '<a href="https://zdzheng.xyz/authors/Ruiyang-Zhang" class="author">Ruiyang Zhang</a>, <a href="https://zdzheng.xyz/authors/Hu-Zhang" class="author"> <img src= "https://zdzheng.xyz/coauthors/hu-zhang.jpg" alt="hu-zhang" style="border-radius: 50%; height:20px; width:20px">Hu Zhang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'

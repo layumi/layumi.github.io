@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Camstyle2019
 date: 2019-01-01
 doi: 10.1109/TIP.2018.2874313
-keywords: object re-identification, image retrieval, person re-id, person retrieval, person search, 
+keywords:method person identification, identification, person identification, object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'IEEE Transactions on Image Processing (TIP)'
 paperurl: 'https://zdzheng.xyz/files/TIP-08485427.pdf'
 code: 'https://github.com/zhunzhong07/CamStyle'

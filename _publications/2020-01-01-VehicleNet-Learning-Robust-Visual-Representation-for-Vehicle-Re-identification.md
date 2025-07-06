@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/VehicleN2020
 date: 2020-01-01
 doi: 10.1109/TMM.2020.3014488
-keywords: object re-identification, image retrieval, 
+keywords:vehiclenet learning robust, vehiclenet learning, representation vehicle identification, object re-identification, image retrieval, 
 venue: 'IEEE Transaction on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/TMM20.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/186905783'

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/3D-Magic2022
 date: 2022-01-01
 doi: 
-keywords: 
+keywords:magic mirror clothing, mirror clothing reconstruction, image causal perspective, 
 venue: 'arXiv:2204.13096'
 paperurl: 'https://zdzheng.xyz/files/3D_Recon.pdf'
 code: 'https://github.com/layumi/3D-Magic-Mirror'

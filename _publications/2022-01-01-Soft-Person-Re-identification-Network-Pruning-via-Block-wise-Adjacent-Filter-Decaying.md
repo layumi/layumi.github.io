@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Soft-Per2022
 date: 2022-01-01
 doi: 10.1109/TCYB.2021.3130047
-keywords: object re-identification, image retrieval, person re-id, person retrieval, person search, 
+keywords:filter decaying, adjacent filter decaying, filter, object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'IEEE Transactions on Cybernetics'
 paperurl: 'https://zdzheng.xyz/files/Wang_Soft.pdf'
 code: 'https://github.com/x-d-wang/Soft-Person-Reidentification-Network-Pruning-via-Blockwise-Adjacent-Filter-Decaying'

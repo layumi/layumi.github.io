@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/UniAD-In2025
 date: 2025-01-01
 doi: 
-keywords: 
+keywords:unified anomaly detection, anomaly detection, detection, 
 venue: 'ACM Multimedia'
 author: '<a href="https://zdzheng.xyz/authors/Xiaodong-Wang" class="author">Xiaodong Wang</a>, <a href="https://zdzheng.xyz/authors/Hongmin-Hu" class="author">Hongmin Hu</a>, <a href="https://zdzheng.xyz/authors/Fei-Yan" class="author">Fei Yan</a>, <a href="https://zdzheng.xyz/authors/Junwen-Lu" class="author">Junwen Lu</a>, <a href="https://zdzheng.xyz/authors/Zhiqiang-Zeng" class="author">Zhiqiang Zeng</a>, <a href="https://zdzheng.xyz/authors/Weidong-Hong" class="author">Weidong Hong</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'
 sqlauthor: '{"@type": "Person","name": "Xiaodong Wang"}, {"@type": "Person","name": "Hongmin Hu"}, {"@type": "Person","name": "Fei Yan"}, {"@type": "Person","name": "Junwen Lu"}, {"@type": "Person","name": "Zhiqiang Zeng"}, {"@type": "Person","name": "Weidong Hong"}, {"@type": "Person","name": "Zhedong Zheng"}'

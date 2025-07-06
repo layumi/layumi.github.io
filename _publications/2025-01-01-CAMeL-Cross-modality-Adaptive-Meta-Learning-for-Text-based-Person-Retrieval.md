@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/CAMeL-Cr2025
 date: 2025-01-01
 doi: 
-keywords: object re-identification, image retrieval, person re-id, person retrieval, person search, 
+keywords:meta learning text, adaptive meta learning, based person retrieval, object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'TIFS'
 paperurl: 'https://zdzheng.xyz/files/Yu_CAMeL.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Hang-Yu" class="author"> <img src= "https://zdzheng.xyz/coauthors/hang-yu.jpg" alt="hang-yu" style="border-radius: 50%; height:20px; width:20px">Hang Yu</a>, <a href="https://zdzheng.xyz/authors/Jiahao-Wen" class="author">Jiahao Wen</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'

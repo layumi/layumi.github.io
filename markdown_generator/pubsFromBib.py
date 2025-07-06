@@ -23,7 +23,21 @@ import string
 import html
 import os
 import re
+from keybert import KeyBERT
 
+kw_model = KeyBERT(model='paraphrase-MiniLM-L6-v2')
+
+def extract_keywords_bert(title, max_keywords=3):
+    keywords = kw_model.extract_keywords(
+        title, 
+        keyphrase_ngram_range=(1, 3),  # 1-3
+        top_n=max_keywords,
+        diversity=0.5  # diversity
+    )
+    result = ""
+    for kw in keywords:
+        result +=kw[0]+', '
+    return result
 
 os.system('rm -r ../_publications/*')
 os.system('rm -r ../_authors/*')
@@ -172,12 +186,12 @@ for pubsource in publist:
             citation = ""
             allauthor = ""
             doi = ""
-            keywords=" "
             single_authors = []
             if "doi" in b.keys():
                 doi = b["doi"]
             
             lower_title = clean_title.lower()
+            keywords=extract_keywords_bert(lower_title)
             if "re-identification" in lower_title or "reidentification" in lower_title or "retrieval" in lower_title:
                 keywords += "object re-identification, " 
                 keywords += "image retrieval, "
