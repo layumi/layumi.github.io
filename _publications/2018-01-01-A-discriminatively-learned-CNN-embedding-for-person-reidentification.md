@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/A-discri2018
 date: 2018-01-01
 doi: 10.1145/3159171
-keywords:discriminatively learned cnn, learned cnn embedding, embedding person reidentification, object re-identification, image retrieval, person re-id, person retrieval, person search, 
+keywords: discriminatively learned cnn, learned cnn embedding, embedding person reidentification, object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
 paperurl: 'https://zdzheng.xyz/files/TOMM18.pdf'
 code: 'https://github.com/layumi/2016_person_re-ID'

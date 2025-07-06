@@ -191,7 +191,7 @@ for pubsource in publist:
                 doi = b["doi"]
             
             lower_title = clean_title.lower()
-            keywords=extract_keywords_bert(lower_title)
+            keywords=" " + extract_keywords_bert(lower_title)
             if "re-identification" in lower_title or "reidentification" in lower_title or "retrieval" in lower_title:
                 keywords += "object re-identification, " 
                 keywords += "image retrieval, "

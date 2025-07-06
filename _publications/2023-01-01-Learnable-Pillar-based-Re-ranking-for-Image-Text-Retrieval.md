@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Learnabl2023
 date: 2023-01-01
 doi: 
-keywords:text retrieval, image text retrieval, retrieval, object re-identification, image retrieval, 
+keywords: text retrieval, image text retrieval, retrieval, object re-identification, image retrieval, 
 venue: 'SIGIR'
 paperurl: 'https://zdzheng.xyz/files/SIGIR23-Qu.pdf'
 code: 'https://github.com/lgqu/leaprr'

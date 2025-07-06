@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Unlabele2017
 date: 2017-01-01
 doi: 
-keywords:identification baseline vitro, samples generated gan, baseline vitro, object re-identification, image retrieval, person re-id, person retrieval, person search, 
+keywords: identification baseline vitro, samples generated gan, baseline vitro, object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'ICCV'
 paperurl: 'https://zdzheng.xyz/files/ICCV17.pdf'
 code: 'https://github.com/layumi/Person-reID_GAN'

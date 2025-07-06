@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Transfer2024
 date: 2024-01-01
 doi: 
-keywords:real world layouts, framework scene adaptation, world layouts depth, domain adaptation, 
+keywords: real world layouts, framework scene adaptation, world layouts depth, domain adaptation, 
 venue: 'ACM Multimedia'
 paperurl: 'https://zdzheng.xyz/files/ACMMM24-Layout.pdf'
 code: 'https://github.com/chen742/DCF'

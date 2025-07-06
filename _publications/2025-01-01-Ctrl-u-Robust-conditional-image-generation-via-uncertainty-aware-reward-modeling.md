@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Ctrl-u-R2025
 date: 2025-01-01
 doi: 
-keywords:ctrl robust conditional, ctrl robust, aware reward modeling, 
+keywords: ctrl robust conditional, ctrl robust, aware reward modeling, 
 venue: 'ICLR'
 code: 'https://github.com/grenoble-zhang/Ctrl-U'
 author: '<a href="https://zdzheng.xyz/authors/Guiyu-Zhang" class="author">Guiyu Zhang</a>, <a href="https://zdzheng.xyz/authors/Huan-ang-Gao" class="author">Huan-ang Gao</a>, <a href="https://zdzheng.xyz/authors/Zijian-Jiang" class="author">Zijian Jiang</a>, <a href="https://zdzheng.xyz/authors/Hao-Zhao" class="author">Hao Zhao</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Unsuperv2020_1
 date: 2020-01-01
 doi: 10.1109/tcyb.2020.2995496
-keywords:unsupervised eyeglasses removal, eyeglasses removal wild, unsupervised eyeglasses, 
+keywords: unsupervised eyeglasses removal, eyeglasses removal wild, unsupervised eyeglasses, 
 venue: 'IEEE Transactions on Cybernetics'
 paperurl: 'https://zdzheng.xyz/files/Hu_CYB20.pdf'
 code: 'https://github.com/Bingwen-Hu/ERGAN-Pytorch'

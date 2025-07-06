@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Active-d2024
 date: 2024-01-01
 doi: 10.1109/TASLP.2024.3374060
-keywords:task oriented conversation, oriented conversation, new slots task, 
+keywords: task oriented conversation, oriented conversation, new slots task, 
 venue: 'IEEE/ACM Transactions on Audio, Speech, and Language Processing'
 paperurl: 'https://zdzheng.xyz/files/TASLP-Wu.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Yuxia-Wu" class="author">Yuxia Wu</a>, <a href="https://zdzheng.xyz/authors/Tianhao-Dai" class="author">Tianhao Dai</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Lizi-Liao" class="author"> <img src= "https://zdzheng.xyz/coauthors/lizi-liao.jpg" alt="lizi-liao" style="border-radius: 50%; height:20px; width:20px">Lizi Liao</a>'

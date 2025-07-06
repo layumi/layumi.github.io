@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Multiple2024
 date: 2024-01-01
 doi: 10.1016/j.patcog.2024.110363
-keywords:view geo localization, geo localization, adaptive network aerial, visual geo-localization, 
+keywords: view geo localization, geo localization, adaptive network aerial, visual geo-localization, 
 venue: 'Pattern Recognition'
 paperurl: 'https://zdzheng.xyz/files/PR2024-Wang.pdf'
 code: 'https://github.com/wtyhub/MuseNet'

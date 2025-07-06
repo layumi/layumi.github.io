@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Are-Bina2023
 date: 2023-01-01
 doi: 
-keywords:annotations sufficient video, retrieval hierarchical uncertainty, video moment retrieval, object re-identification, image retrieval, 
+keywords: annotations sufficient video, retrieval hierarchical uncertainty, video moment retrieval, object re-identification, image retrieval, 
 venue: 'CVPR'
 paperurl: 'https://zdzheng.xyz/files/CVPR23-Ji.pdf'
 code: 'https://github.com/renjie-liang/HUAL'

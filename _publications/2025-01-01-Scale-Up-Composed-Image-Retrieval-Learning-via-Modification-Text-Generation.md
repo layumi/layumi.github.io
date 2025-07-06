@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Scale-Up2025
 date: 2025-01-01
 doi: 
-keywords:image retrieval learning, retrieval learning modification, retrieval learning, object re-identification, image retrieval, 
+keywords: image retrieval learning, retrieval learning modification, retrieval learning, object re-identification, image retrieval, 
 venue: 'IEEE Transactions on Multimedia'
 paperurl: 'https://zdzheng.xyz/files/TMM25-Scale.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Yinan-Zhou" class="author">Yinan Zhou</a>, <a href="https://zdzheng.xyz/authors/Yaxiong-Wang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yaxiong-wang.jpeg" alt="yaxiong-wang" style="border-radius: 50%; height:20px; width:20px">Yaxiong Wang</a>, <a href="https://zdzheng.xyz/authors/Haokun-Lin" class="author">Haokun Lin</a>, <a href="https://zdzheng.xyz/authors/Chen-Ma" class="author">Chen Ma</a>, <a href="https://zdzheng.xyz/authors/Li-Zhu" class="author">Li Zhu</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'

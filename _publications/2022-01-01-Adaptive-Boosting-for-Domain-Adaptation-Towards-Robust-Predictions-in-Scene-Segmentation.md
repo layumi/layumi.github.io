@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Adaptive2022
 date: 2022-01-01
 doi: 10.1109/TIP.2022.3195642
-keywords:predictions scene segmentation, robust predictions scene, adaptation robust predictions, domain adaptation, 
+keywords: predictions scene segmentation, robust predictions scene, adaptation robust predictions, domain adaptation, 
 venue: 'IEEE Transactions on Image Processing'
 paperurl: 'https://zdzheng.xyz/files/TIP_Adaboost.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/593571554'

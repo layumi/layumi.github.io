@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Learning2024
 date: 2024-01-01
 doi: 10.1109/TGRS.2024.3491757
-keywords:geo localization embeddings, view geo localization, localization embeddings dynamic, visual geo-localization, 
+keywords: geo localization embeddings, view geo localization, localization embeddings dynamic, visual geo-localization, 
 venue: 'IEEE Transactions on Geoscience and Remote Sensing'
 paperurl: 'https://zdzheng.xyz/files/TGRS-DWDR.pdf'
 code: 'https://github.com/wtyhub/DWDR'

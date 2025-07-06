@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/Multi-ps2018
 date: 2018-01-01
 doi: 10.1109/TIP.2018.2874715
-keywords:data person identification, person identification, identification, object re-identification, image retrieval, person re-id, person retrieval, person search, 
+keywords: data person identification, person identification, identification, object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'IEEE Transactions on Image Processing (TIP)'
 paperurl: 'https://zdzheng.xyz/files/TIP-08485730.pdf'
 code: 'https://github.com/Huang-3/MpRL-for-person-re-ID'
