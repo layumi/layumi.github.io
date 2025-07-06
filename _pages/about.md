@@ -7,6 +7,47 @@ redirect_from:
   - /about/
 ---
 
+<script type="application/ld+json">
+		    { "@context": "https://schema.org", 
+		     "@type": "Person",
+			 "name": "Zhedong Zheng",
+			 "gender": "Male",
+			 "description": "Computer Vision Researcher",
+			 "jobTitle": "Assistant Professor",
+		     "affiliation": {
+		       "@type": "Organization",
+		       "name": "University of Macau"
+		     },
+		     "hasOccupation": {
+		       "@type": "Occupation",
+		       "name": "Researcher",
+		       "description": "Computer Vision Researcher"
+		     },
+			 "alumniOf": [
+			 	{
+			 	 "@type": "CollegeOrUniversity",
+			 	 "name": "University of Technology Sydney"
+			 	},
+			 	{
+			 	 "@type": "CollegeOrUniversity",
+			 	 "name": "Fudan University"
+			 	}
+			 ],
+			 "url": "https://zdzheng.xyz",
+			 "image": "https://zdzheng.xyz/images/profile.webp",
+			 "sameAs": [
+			    "https://www.fst.um.edu.mo/people/zhedongzheng/",
+				"https://scholar.google.com/citations?user=XT17oUEAAAAJ",
+			 	"https://www.researchgate.net/profile/Zhedong-Zheng-2",
+				"https://www.facebook.com/zhedongzheng12",
+				"https://www.linkedin.com/in/zhedongzheng",
+				"https://github.com/layumi",
+				"http://orcid.org/0000-0002-2434-9050",
+				"https://www.zhihu.com/people/zhengzhedong"
+			 	]
+	        }
+</script>
+
 <meta name="description"
   content="Zhedong Zheng is  a tenure-track assistant professor with the University of Macau, specializing in person re-identification (reID). He obtained his Ph.D. from UTS's ReLER Lab, mentored by Prof. Yi Yang and Dr. Liang Zheng. With a strong foundation from Fudan University, he has collaborated with leading experts at Nvidia and Baidu. His focus on reID underscores his dedication to advancing this vital field.">  
 <meta name="keywords" content="Zhedong Zheng, Person Re-ID, Object Re-ID, Person Retrieval, Person Search" />
@@ -102,39 +143,6 @@ Do not press the red button!
 
 <a href="https://zdzheng.xyz/redbutton.html"> <img src="https://zdzheng.xyz/images/red.jpeg" alt="red" width="50" height="50"></a>
 <a href="https://zdzheng.xyz/greenbutton.html"> <img src="https://zdzheng.xyz/images/green.jpeg" alt="green" width="50" height="50"> </a>
-
-<div>
-<script type="application/ld+json">
-		    { "@context": "https://schema.org", 
-		     "@type": "Person",
-			 "name": "Zhedong Zheng",
-			 "gender": "Male",
-			 "Description": "Computer Vision Researcher",
-			 "jobTitle": "Assistant Professor at the University of Macau",
-			 "alumniOf": [
-			 	{
-			 	 "@type": "EducationalOrganization",
-			 	 "name": "University of Technology Sydney"
-			 	},
-			 	{
-			 	 "@type": "EducationalOrganization",
-			 	 "name": "Fudan University"
-			 	}
-			 ],
-			 "url": "https://zdzheng.xyz",
-			 "image": "https://zdzheng.xyz/images/profile.webp",
-			 "sameAs": [
-			 	"https://www.researchgate.net/profile/Zhedong-Zheng-2",
-				"https://www.facebook.com/zhedongzheng12",
-				"https://www.linkedin.com/in/zhedongzheng",
-				"https://github.com/layumi",
-				"https://scholar.google.com/citations?user=XT17oUEAAAAJ",
-				"http://orcid.org/0000-0002-2434-9050",
-				"https://www.zhihu.com/people/zhengzhedong"
-			 	]
-	        }
-</script>
-</div>
 
 
 
