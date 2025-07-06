@@ -18,11 +18,6 @@ redirect_from:
 		       "@type": "Organization",
 		       "name": "University of Macau"
 		     },
-		     "hasOccupation": {
-		       "@type": "Occupation",
-		       "name": "Researcher",
-		       "description": "Computer Vision Researcher"
-		     },
 			 "alumniOf": [
 			 	{
 			 	 "@type": "CollegeOrUniversity",
