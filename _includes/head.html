@@ -5,6 +5,8 @@
 {% include seo.html %}
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+<link rel="preconnect" href="https://cdn.clustrmaps.com">
+<link rel="dns-prefetch" href="https://cdn.clustrmaps.com">
 
 <!-- https://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">
@@ -53,7 +55,7 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/main.css" media="print" onload="this.media='all'">
 
 <!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
