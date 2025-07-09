@@ -107,8 +107,8 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 </ul>
 Do not press the red button!
 
-<a href="https://zdzheng.xyz/redbutton.html"> <img src="https://zdzheng.xyz/images/red.jpeg" alt="red" width="50" height="50"></a>
-<a href="https://zdzheng.xyz/greenbutton.html"> <img src="https://zdzheng.xyz/images/green.jpeg" alt="green" width="50" height="50"> </a>
+<a href="https://zdzheng.xyz/redbutton.html"> <img src="https://zdzheng.xyz/images/red.webp" alt="red" width="50" height="50"></a>
+<a href="https://zdzheng.xyz/greenbutton.html"> <img src="https://zdzheng.xyz/images/green.webp" alt="green" width="50" height="50"> </a>
 
 
 
