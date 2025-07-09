@@ -53,38 +53,75 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
-<li> supported by Macau Science and Technology Development Fund (FDCT), <strong>PI</strong>, “Robust Long-Tail Anomaly Recognition via Multi-Modality Learning ”, FDCT/0043/2025/RIA1, Aug. 2025-Aug. 2028. (Total: 2.13M MOP). 
-<li> 3 papers to appear at ICCV 2025. <a href="https://www.zdzheng.xyz/publication/Video2BE2025">Video2BEV</a>, <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval</a>, <a href="https://www.zdzheng.xyz/publication/Harnessi2025">3D Detection</a>  </li>
-<li> We are holding ACM Multimedia 2025 workshop on Aerial-view Imaging <a href="https://www.zdzheng.xyz/ACMMM2025Workshop-UAV/">[Call for papers]</a>  </li>
-<li> One paper to appear at ICLR 2025. <a href="https://www.zdzheng.xyz/publication/Ctrl-u-R2025">Conditional Generation</a> </li>
-<li> One paper to appear at ACM WWW 2025. <a href="https://www.zdzheng.xyz/publication/From-Dat2025">Text-based Person Search</a> </li>
-<li> One paper to appear at ACM MM 2024 (Oral)! <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation</a> </li>
-<li> 3 papers to appear at ECCV 2024! <a href="https://www.zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, <a href="https://www.zdzheng.xyz/publication/Depth-aw2024">Blind Image Decomposition</a>, <a href="https://www.zdzheng.xyz/publication/Approach2024">Unsupervised 3D Object Detection</a>.</li> 
+  <li><strong>PI</strong>, FDCT/0043/2025/RIA1, “Robust Long-Tail Anomaly Recognition via Multi-Modality Learning”, 2025–2028 (2.13M MOP)</li>
+
+  <li><strong>ICCV 2025:</strong> 3 papers — 
+    <a href="https://www.zdzheng.xyz/publication/Video2BE2025">Video2BEV</a>, 
+    <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval</a>, 
+    <a href="https://www.zdzheng.xyz/publication/Harnessi2025">3D Detection</a>
+  </li>
+
+  <li><strong>ICLR 2025:</strong> <a href="https://www.zdzheng.xyz/publication/Ctrl-u-R2025">Conditional Generation</a></li>
+  <li><strong>ACM WWW 2025:</strong> <a href="https://www.zdzheng.xyz/publication/From-Dat2025">Text-based Person Search</a></li>
+  <li><strong>ACM MM 2024 (Oral):</strong> <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation</a></li>
+
+  <li><strong>ECCV 2024:</strong> 3 papers — 
+    <a href="https://www.zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, 
+    <a href="https://www.zdzheng.xyz/publication/Depth-aw2024">Blind Image Decomposition</a>, 
+    <a href="https://www.zdzheng.xyz/publication/Approach2024">Unsupervised 3D Object Detection</a>
+  </li>
+
+  <li><strong>ACM MM 2025 Workshop:</strong> Aerial-view Imaging 
+    <a href="https://www.zdzheng.xyz/ACMMM2025Workshop-UAV/">[Call for Papers]</a>
+  </li>
 </ul>
+
 <details>
-	<summary>--View More--</summary>
-<ul>
-<li> We are holding two workshops at ACM Multimedia 2024 on Aerial-view Imaging <a href="https://www.zdzheng.xyz/ACMMM2024Workshop-UAV/">[Call for papers]</a> and Deep Multimodal Learning <a href="https://videorelation.nextcenter.org/MMGR24/">[Call for papers]</a> (EI-indexed).   </li>
-<li> One paper to appear at ICLR 2024 on Compositional Image Retrieval <a href="https://www.zdzheng.xyz/publication/Composed2024">[link]</a> <a href="https://github.com/Monoxide-Chen/uncertainty_retrieval">[code]</a> . </li> 
-<li> We are holding one workshop at ACM ICMR 2024 on Multimedia Object Re-identification <a href="https://www.zdzheng.xyz/MORE2024/">[Call for papers]</a> (EI-indexed).  </li>
-<li> 2 papers to appear at ACM Multimedia 2023 on Text-image re-ID <a href="https://www.zdzheng.xyz/publication/Towards-2023">[link]</a> and Domain Adaptation <a href="https://www.zdzheng.xyz/publication/PiPa-Pix2023">[link]</a></li>
-<li> We are holding two workshops at ACM Multimedia 2023 on Aerial-view Imaging <a href="https://zdzheng.xyz/ACMMM2023Workshop/">[Call for papers]</a> and Deep Multimodal Learning <a href="https://videorelation.nextcenter.org/MMIR23/">[Call for papers]</a> (EI-indexed).   </li>
-<li> 2 papers to appear at CVPR 2023. </li>
-<li> One paper on Adversarial Retrieval Attacking is accepted by IJCV 2022. <a href="https://zdzheng.xyz/publication/U-turn-C2022">[link]</a></li> 
-<li> One paper on 3D Human Re-id is accepted by TNNLS 2022. <a href="https://zdzheng.xyz/publication/Paramete2022">[link]</a></li> 
-<li> One AdaBoost Domain Adaptation paper is accepted by TIP 2022. <a href="https://zdzheng.xyz/publication/Adaptive2022">[link]</a></li> 
-<li> One Drone-based Geolocalization paper is accepted by TIP 2022. <a href="https://zdzheng.xyz/publication/Joint-Re2022">[link]</a></li> 
-<li> One Nerf paper to appear at CVPR 2022. <a href="https://zdzheng.xyz/publication/Multi-Vi2022">[link]</a></li> 
-<li> We are holding the special session at ICME 2022 on Beyond Accuracy: Responsible, Responsive, and Robust Multimedia Retrieval. <a href="https://zdzheng.xyz/ICME2022SS/">[Call for papers]</a>  </li>
-<li> My Ph.D. thesis was on the Chancellor's List. </li>
-<li> I was awarded 2021 IEEE Circuits and Systems Society Outstanding Young Author Award. Thanks a lot for  supports and understanding from my supervisors and friends. <a href="https://ieee-cas.org/award/outstanding-paper-awards/outstanding-young-author-award#recipients">[link]</a> </li>
-<li> One paper on Uncertainty is accepted by IJCV 2021. 
-	<a href="https://zdzheng.xyz/publication/Recti2021">[PDF]</a> <a href="https://github.com/layumi/Seg_Uncertainty">[code]</a> </li>
-<li> We have released a new Drone-view Geo-localization Dataset, ACM Multimedia 2020.<strong> 
-	<a href="https://zdzheng.xyz/publication/Unive2020">[PDF]</a>
-	<a href="https://github.com/layumi/University1652-Baseline">[Dataset]</a> <a href="https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080">[Video]</a> <a href="https://zdzheng.xyz/files/ACM-MM-Talk.pdf">[Slide]</a></strong> </li>
-</ul>
+  <summary>--View More--</summary>
+  <ul>
+    <li><strong>ACM MM 2024 Workshops:</strong> 
+      <a href="https://www.zdzheng.xyz/ACMMM2024Workshop-UAV/">Aerial-view Imaging</a>, 
+      <a href="https://videorelation.nextcenter.org/MMGR24/">Multimodal Learning</a>
+    </li>
+    <li><strong>ICLR 2024:</strong> 
+      <a href="https://www.zdzheng.xyz/publication/Composed2024">Compositional Retrieval</a> 
+      <a href="https://github.com/Monoxide-Chen/uncertainty_retrieval">[code]</a>
+    </li>
+    <li><strong>ACM ICMR 2024 Workshop:</strong> Multimedia Object Re-ID 
+      <a href="https://www.zdzheng.xyz/MORE2024/">[Call for Papers]</a>
+    </li>
+    <li><strong>ACM MM 2023:</strong> 
+      <a href="https://www.zdzheng.xyz/publication/Towards-2023">Text-image Re-ID</a>, 
+      <a href="https://www.zdzheng.xyz/publication/PiPa-Pix2023">Domain Adaptation</a>
+    </li>
+    <li><strong>CVPR 2023:</strong> 2 papers</li>
+    <li><strong>IJCV 2022:</strong> <a href="https://zdzheng.xyz/publication/U-turn-C2022">Adversarial Retrieval</a></li>
+    <li><strong>TNNLS 2022:</strong> <a href="https://zdzheng.xyz/publication/Paramete2022">3D Human Re-ID</a></li>
+    <li><strong>TIP 2022:</strong> 
+      <a href="https://zdzheng.xyz/publication/Adaptive2022">AdaBoost Adaptation</a>, 
+      <a href="https://zdzheng.xyz/publication/Joint-Re2022">Drone Geolocalization</a>
+    </li>
+    <li><strong>CVPR 2022:</strong> <a href="https://zdzheng.xyz/publication/Multi-Vi2022">NeRF</a></li>
+    <li><strong>ICME 2022:</strong> Special Session on Responsible Retrieval 
+      <a href="https://zdzheng.xyz/ICME2022SS/">[Call for Papers]</a>
+    </li>
+    <li><strong>Ph.D. Thesis:</strong> Chancellor’s List</li>
+    <li><strong>Award:</strong> 2021 IEEE CAS Outstanding Young Author Award 
+      <a href="https://ieee-cas.org/award/outstanding-paper-awards/outstanding-young-author-award#recipients">[link]</a>
+    </li>
+    <li><strong>IJCV 2021:</strong> 
+      <a href="https://zdzheng.xyz/publication/Recti2021">Uncertainty</a> 
+      <a href="https://github.com/layumi/Seg_Uncertainty">[code]</a>
+    </li>
+    <li><strong>ACM MM 2020:</strong> Drone-view Dataset 
+      <a href="https://zdzheng.xyz/publication/Unive2020">[PDF]</a> 
+      <a href="https://github.com/layumi/University1652-Baseline">[Dataset]</a> 
+      <a href="https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080">[Video]</a> 
+      <a href="https://zdzheng.xyz/files/ACM-MM-Talk.pdf">[Slide]</a>
+    </li>
+  </ul>
 </details>
+
 
 <!---	
 <li> People live in a 3D world. Why not conduct representation learning in the 3D space? <a href="https://arxiv.org/abs/2006.04569">[arXiv]</a> <a href="https://github.com/layumi/person-reid-3d">[code]</a></li>
