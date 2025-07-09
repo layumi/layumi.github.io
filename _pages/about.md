@@ -94,7 +94,10 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
       <a href="https://www.zdzheng.xyz/publication/Towards-2023">Text-image Re-ID</a>, 
       <a href="https://www.zdzheng.xyz/publication/PiPa-Pix2023">Domain Adaptation</a>
     </li>
-    <li><strong>CVPR 2023:</strong> 2 papers</li>
+    <li><strong>CVPR 2023:</strong> 2 papers — 
+      <a href="https://www.zdzheng.xyz/publication/Context-2023">Weather Removal</a>, 
+	  <a href="https://www.zdzheng.xyz/publication/Are-Bina2023">Video Moment Retrieval</a>
+	</li>  
     <li><strong>IJCV 2022:</strong> <a href="https://zdzheng.xyz/publication/U-turn-C2022">Adversarial Retrieval</a></li>
     <li><strong>TNNLS 2022:</strong> <a href="https://zdzheng.xyz/publication/Paramete2022">3D Human Re-ID</a></li>
     <li><strong>TIP 2022:</strong> 
