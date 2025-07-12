@@ -5,7 +5,7 @@ permalink: /publication/Macro-mi2018
 date: 2018-01-01
 doi: 10.1007/978-3-030-01240-3_26
 keywords: network human parsing, micro adversarial network, macro micro adversarial, person re-id, person retrieval, person search, 
-venue: 'ECCV'
+venue: 'European Conference on Computer Vision (ECCV)'
 paperurl: 'https://zdzheng.xyz/files/ECCV18.pdf'
 code: 'https://github.com/RoyalVane/MMAN'
 author: '<a href="https://zdzheng.xyz/authors/Yawei-Luo" class="author">Yawei Luo</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Liang-Zheng" class="author"> <img src= "https://zdzheng.xyz/coauthors/liang-zheng.jpg" alt="liang-zheng" style="border-radius: 50%; height:20px; width:20px">Liang Zheng</a>, <a href="https://zdzheng.xyz/authors/Tao-Guan" class="author">Tao Guan</a>, <a href="https://zdzheng.xyz/authors/Junqing-Yu" class="author">Junqing Yu</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'

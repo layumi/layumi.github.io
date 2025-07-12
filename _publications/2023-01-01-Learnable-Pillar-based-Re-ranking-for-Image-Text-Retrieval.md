@@ -5,7 +5,7 @@ permalink: /publication/Learnabl2023
 date: 2023-01-01
 doi: 
 keywords: text retrieval, image text retrieval, retrieval, object re-identification, image retrieval, 
-venue: 'SIGIR'
+venue: 'ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)'
 paperurl: 'https://zdzheng.xyz/files/SIGIR23-Qu.pdf'
 code: 'https://github.com/lgqu/leaprr'
 author: '<a href="https://zdzheng.xyz/authors/Leigang-Qu" class="author"> <img src= "https://zdzheng.xyz/coauthors/leigang-qu.jpeg" alt="leigang-qu" style="border-radius: 50%; height:20px; width:20px">Leigang Qu</a>, <a href="https://zdzheng.xyz/authors/Meng-Liu" class="author">Meng Liu</a>, <a href="https://zdzheng.xyz/authors/Wenjie-Wang" class="author">Wenjie Wang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Liqiang-Nie" class="author">Liqiang Nie</a>, <a href="https://zdzheng.xyz/authors/Tat-Seng-Chua" class="author"> <img src= "https://zdzheng.xyz/coauthors/tat-seng-chua.jpeg" alt="tat-seng-chua" style="border-radius: 50%; height:20px; width:20px">Tat-Seng Chua</a>'

@@ -5,7 +5,7 @@ permalink: /publication/Progress2023_1
 date: 2023-01-01
 doi: 
 keywords: image retrieval acceleration, retrieval acceleration, pruning image retrieval, object re-identification, image retrieval, 
-venue: 'IEEE Transactions on Multimedia'
+venue: 'IEEE Transactions on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/TMM-Pruning.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Xiaodong-Wang" class="author">Xiaodong Wang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yang-He" class="author"> <img src= "https://zdzheng.xyz/coauthors/yang-he.jpg" alt="yang-he" style="border-radius: 50%; height:20px; width:20px">Yang He</a>, <a href="https://zdzheng.xyz/authors/Fei-Yan" class="author">Fei Yan</a>, <a href="https://zdzheng.xyz/authors/Zhiqiang-Zeng" class="author">Zhiqiang Zeng</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
 sqlauthor: '{"@type": "Person","name": "Xiaodong Wang"}, {"@type": "Person","name": "Zhedong Zheng"}, {"@type": "Person","name": "Yang He"}, {"@type": "Person","name": "Fei Yan"}, {"@type": "Person","name": "Zhiqiang Zeng"}, {"@type": "Person","name": "Yi Yang"}'

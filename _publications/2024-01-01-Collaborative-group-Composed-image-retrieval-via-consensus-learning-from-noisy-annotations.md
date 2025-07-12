@@ -5,7 +5,7 @@ permalink: /publication/Collabor2024
 date: 2024-01-01
 doi: 10.1016/j.knosys.2024.112135
 keywords: image retrieval consensus, retrieval consensus learning, collaborative group, object re-identification, image retrieval, 
-venue: 'Knowledge-based Systems'
+venue: 'Knowledge-Based Systems (KBS)'
 paperurl: 'https://zdzheng.xyz/files/KBS-triplet.pdf'
 code: 'https://github.com/XuZhang2/Css-Net'
 author: '<a href="https://zdzheng.xyz/authors/Xu-Zhang" class="author">Xu Zhang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Linchao-Zhu" class="author"> <img src= "https://zdzheng.xyz/coauthors/linchao-zhu.jpeg" alt="linchao-zhu" style="border-radius: 50%; height:20px; width:20px">Linchao Zhu</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'

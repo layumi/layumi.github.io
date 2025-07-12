@@ -5,7 +5,7 @@ permalink: /publication/PiPa-Pix2023
 date: 2023-01-01
 doi: 
 keywords: adaptative semantic segmentation, semantic segmentation, segmentation, domain adaptation, 
-venue: 'ACM MM'
+venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/MM23_PiPa.pdf'
 code: 'https://github.com/chen742/PiPa'
 author: '<a href="https://zdzheng.xyz/authors/Mu-Chen" class="author"> <img src= "https://zdzheng.xyz/coauthors/mu-chen.jpeg" alt="mu-chen" style="border-radius: 50%; height:20px; width:20px">Mu Chen</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>, <a href="https://zdzheng.xyz/authors/Tat-Seng-Chua" class="author"> <img src= "https://zdzheng.xyz/coauthors/tat-seng-chua.jpeg" alt="tat-seng-chua" style="border-radius: 50%; height:20px; width:20px">Tat-Seng Chua</a>'

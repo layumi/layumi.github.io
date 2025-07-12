@@ -5,7 +5,7 @@ permalink: /publication/Joint-di2019
 date: 2019-01-01
 doi: 
 keywords: discriminative generative learning, joint discriminative generative, learning person identification, object re-identification, image retrieval, person re-id, person retrieval, person search, 
-venue: 'CVPR'
+venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://zdzheng.xyz/files/CVPR19.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/66408913'
 code: 'https://github.com/NVlabs/DG-Net'

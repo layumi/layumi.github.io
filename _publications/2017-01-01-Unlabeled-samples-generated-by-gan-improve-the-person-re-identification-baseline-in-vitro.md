@@ -5,7 +5,7 @@ permalink: /publication/Unlabele2017
 date: 2017-01-01
 doi: 
 keywords: identification baseline vitro, samples generated gan, baseline vitro, object re-identification, image retrieval, person re-id, person retrieval, person search, 
-venue: 'ICCV'
+venue: 'IEEE/CVF International Conference on Computer Vision (ICCV)'
 paperurl: 'https://zdzheng.xyz/files/ICCV17.pdf'
 code: 'https://github.com/layumi/Person-reID_GAN'
 author: '<strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Liang-Zheng" class="author"> <img src= "https://zdzheng.xyz/coauthors/liang-zheng.jpg" alt="liang-zheng" style="border-radius: 50%; height:20px; width:20px">Liang Zheng</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'

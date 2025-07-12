@@ -19,6 +19,7 @@
 from pybtex.database.input import bibtex
 import pybtex.database.input.bibtex 
 from time import strptime
+from VenueNorm import normalize_venue
 import string
 import html
 import os
@@ -270,7 +271,7 @@ for pubsource in publist:
 
             md += "\nkeywords:" + keywords
              
-            md += "\nvenue: '" + html_escape(venue) + "'"
+            md += "\nvenue: '" + normalize_venue(html_escape(venue)) + "'"
             
             url = False
             if "url" in b.keys():

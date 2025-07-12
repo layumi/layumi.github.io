@@ -5,7 +5,7 @@ permalink: /publication/Unsuperv2020
 date: 2020-01-01
 doi: 10.5555/3491440.3491590
 keywords: adaptation memory regularization, regularization vivo, memory regularization vivo, domain adaptation, 
-venue: 'IJCAI'
+venue: 'International Joint Conference on Artificial Intelligence (IJCAI)'
 paperurl: 'https://zdzheng.xyz/files/ijcai20.pdf'
 code: 'https://github.com/layumi/Seg_Uncertainty'
 author: '<strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'

@@ -5,7 +5,7 @@ permalink: /publication/U-turn-C2022
 date: 2022-01-01
 doi: 
 keywords: turn crafting adversarial, crafting adversarial queries, queries opposite direction, 
-venue: 'International Journal of Computer Vision (IJCV)'
+venue: 'International Journal of Computer Vision (IJCV) (International Journal of Computer Vision (IJCV))'
 paperurl: 'https://zdzheng.xyz/files/IJCV_Retrieval_Robustness_CameraReady.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/593319732'
 code: 'https://github.com/layumi/U_turn'

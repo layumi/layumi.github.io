@@ -5,7 +5,7 @@ permalink: /publication/Align-an2022
 date: 2022-01-01
 doi: 10.1109/TMM.2022.3204444
 keywords: boosting text video, text video retrieval, video retrieval, object re-identification, image retrieval, 
-venue: 'IEEE Transactions on Multimedia'
+venue: 'IEEE Transactions on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/TMM22-Xiaohan.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Xiaohan-Wang" class="author"> <img src= "https://zdzheng.xyz/coauthors/xiaohan-wang.jpg" alt="xiaohan-wang" style="border-radius: 50%; height:20px; width:20px">Xiaohan Wang</a>, <a href="https://zdzheng.xyz/authors/Linchao-Zhu" class="author"> <img src= "https://zdzheng.xyz/coauthors/linchao-zhu.jpeg" alt="linchao-zhu" style="border-radius: 50%; height:20px; width:20px">Linchao Zhu</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Mingliang-Xu" class="author">Mingliang Xu</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
 sqlauthor: '{"@type": "Person","name": "Xiaohan Wang"}, {"@type": "Person","name": "Linchao Zhu"}, {"@type": "Person","name": "Zhedong Zheng"}, {"@type": "Person","name": "Mingliang Xu"}, {"@type": "Person","name": "Yi Yang"}'

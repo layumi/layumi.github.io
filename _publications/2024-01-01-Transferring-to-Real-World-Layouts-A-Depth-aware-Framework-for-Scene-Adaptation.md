@@ -5,7 +5,7 @@ permalink: /publication/Transfer2024
 date: 2024-01-01
 doi: 
 keywords: real world layouts, framework scene adaptation, world layouts depth, domain adaptation, 
-venue: 'ACM Multimedia'
+venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/ACMMM24-Layout.pdf'
 code: 'https://github.com/chen742/DCF'
 author: '<a href="https://zdzheng.xyz/authors/Mu-Chen" class="author"> <img src= "https://zdzheng.xyz/coauthors/mu-chen.jpeg" alt="mu-chen" style="border-radius: 50%; height:20px; width:20px">Mu Chen</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'

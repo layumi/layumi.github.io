@@ -5,7 +5,7 @@ permalink: /publication/Universi2020
 date: 2020-01-01
 doi: 10.1145/3394171.3413896
 keywords: drone based geo, based geo localization, geo localization, visual geo-localization, 
-venue: 'ACM MM'
+venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/ACMMM20.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/110987552'
 code: 'https://github.com/layumi/University1652-Baseline'

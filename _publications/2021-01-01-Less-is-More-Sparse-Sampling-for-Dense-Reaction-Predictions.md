@@ -5,7 +5,7 @@ permalink: /publication/Less-is-2021
 date: 2021-01-01
 doi: 
 keywords: sparse sampling, sparse sampling dense, sampling dense reaction, 
-venue: 'CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place)'
+venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place)'
 paperurl: 'https://zdzheng.xyz/files/CVPRW2021_EEV.pdf'
 code: 'https://github.com/HenryLittle/EEV-Challenge-2021'
 author: '<a href="https://zdzheng.xyz/authors/Kezhou-Lin" class="author">Kezhou Lin</a>, <a href="https://zdzheng.xyz/authors/Xiaohan-Wang" class="author"> <img src= "https://zdzheng.xyz/coauthors/xiaohan-wang.jpg" alt="xiaohan-wang" style="border-radius: 50%; height:20px; width:20px">Xiaohan Wang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Linchao-Zhu" class="author"> <img src= "https://zdzheng.xyz/coauthors/linchao-zhu.jpeg" alt="linchao-zhu" style="border-radius: 50%; height:20px; width:20px">Linchao Zhu</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
