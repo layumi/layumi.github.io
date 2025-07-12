@@ -5,7 +5,7 @@ permalink: /publication/Unsuperv2020_1
 date: 2020-01-01
 doi: 10.1109/tcyb.2020.2995496
 keywords: unsupervised eyeglasses removal, eyeglasses removal wild, unsupervised eyeglasses, 
-venue: 'IEEE Transactions on Cybernetics'
+venue: 'IEEE Transactions on Cybernetics (TCYB)'
 paperurl: 'https://zdzheng.xyz/files/Hu_CYB20.pdf'
 code: 'https://github.com/Bingwen-Hu/ERGAN-Pytorch'
 author: '<a href="https://zdzheng.xyz/authors/Bingwen-Hu" class="author"> <img src= "https://zdzheng.xyz/coauthors/bingwen-hu.jpeg" alt="bingwen-hu" style="border-radius: 50%; height:20px; width:20px">Bingwen Hu</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Ping-Liu" class="author"> <img src= "https://zdzheng.xyz/coauthors/ping-liu.jpeg" alt="ping-liu" style="border-radius: 50%; height:20px; width:20px">Ping Liu</a>, <a href="https://zdzheng.xyz/authors/Wankou-Yang" class="author">Wankou Yang</a>, <a href="https://zdzheng.xyz/authors/Mingwu-Ren" class="author"> <img src= "https://zdzheng.xyz/coauthors/mingwu-ren.jpeg" alt="mingwu-ren" style="border-radius: 50%; height:20px; width:20px">Mingwu Ren</a>'

@@ -5,7 +5,7 @@ permalink: /publication/Approach2024
 date: 2024-01-01
 doi: 
 keywords: detection 2d scene, 3d object detection, object detection 2d, 
-venue: 'European Conference on Computer Vision (ECCV) (European Conference on Computer Vision (ECCV))'
+venue: 'European conference on computer vision (ECCV)'
 paperurl: 'https://zdzheng.xyz/files/ECCV24-Approach.pdf'
 blog: 'https://www.zhihu.com/question/660698707/answer/3575967153'
 code: 'https://github.com/Ruiyang-061X/LiSe'

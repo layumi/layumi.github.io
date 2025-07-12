@@ -5,7 +5,7 @@ permalink: /publication/Learning2024
 date: 2024-01-01
 doi: 10.1109/TGRS.2024.3491757
 keywords: geo localization embeddings, view geo localization, localization embeddings dynamic, visual geo-localization, 
-venue: 'IEEE Transactions on Geoscience and Remote Sensing'
+venue: 'IEEE Transactions on Geoscience and Remote Sensing (TGRS)'
 paperurl: 'https://zdzheng.xyz/files/TGRS-DWDR.pdf'
 code: 'https://github.com/wtyhub/DWDR'
 author: '<a href="https://zdzheng.xyz/authors/Tingyu-Wang" class="author"> <img src= "https://zdzheng.xyz/coauthors/tingyu-wang.jpeg" alt="tingyu-wang" style="border-radius: 50%; height:20px; width:20px">Tingyu Wang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Zunjie-Zhu" class="author">Zunjie Zhu</a>, <a href="https://zdzheng.xyz/authors/Yuhan-Gao" class="author">Yuhan Gao</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>, <a href="https://zdzheng.xyz/authors/Chenggang-Yan" class="author"> <img src= "https://zdzheng.xyz/coauthors/chenggang-yan.jpg" alt="chenggang-yan" style="border-radius: 50%; height:20px; width:20px">Chenggang Yan</a>'

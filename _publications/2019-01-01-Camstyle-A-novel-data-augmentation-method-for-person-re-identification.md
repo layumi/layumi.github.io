@@ -5,7 +5,7 @@ permalink: /publication/Camstyle2019
 date: 2019-01-01
 doi: 10.1109/TIP.2018.2874313
 keywords: method person identification, identification, person identification, object re-identification, image retrieval, person re-id, person retrieval, person search, 
-venue: 'IEEE Transactions on Image Processing (TIP) (IEEE Transactions on Image Processing (TIP))'
+venue: 'IEEE Transactions on Image Processing (TIP)'
 paperurl: 'https://zdzheng.xyz/files/TIP-08485427.pdf'
 code: 'https://github.com/zhunzhong07/CamStyle'
 author: '<a href="https://zdzheng.xyz/authors/Zhun-Zhong" class="author"> <img src= "https://zdzheng.xyz/coauthors/zhun-zhong.jpg" alt="zhun-zhong" style="border-radius: 50%; height:20px; width:20px">Zhun Zhong</a>, <a href="https://zdzheng.xyz/authors/Liang-Zheng" class="author"> <img src= "https://zdzheng.xyz/coauthors/liang-zheng.jpg" alt="liang-zheng" style="border-radius: 50%; height:20px; width:20px">Liang Zheng</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Shaozi-Li" class="author"> <img src= "https://zdzheng.xyz/coauthors/shaozi-li.jpg" alt="shaozi-li" style="border-radius: 50%; height:20px; width:20px">Shaozi Li</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
