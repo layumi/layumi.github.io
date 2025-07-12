@@ -21,6 +21,9 @@ venue_mapping_abbr = {
     "TNNLS": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)",
     "KBS": "Knowledge-Based Systems (KBS)",
     "AAAI": "AAAI Conference on Artificial Intelligence (AAAI)",
+    "TPAMI": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)",
+    "ACM WWW": "ACM Web Conference (ACM WWW)",
+    "WWW": "ACM Web Conference (ACM WWW)",
     "SIGIR": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)"
 }
 
@@ -46,5 +49,9 @@ venue_pattern = re.compile(
 def normalize_venue(text: str) -> str:
     def replace(match):
         raw = match.group(0)
+        # 如果它已经像 "XYZ (ABC)"，就跳过
+        if re.search(r"\(\s*[A-Z]+\s*\)", raw):
+            return raw
         return full_mapping.get(raw.upper(), raw)
     return venue_pattern.sub(replace, text)
+
