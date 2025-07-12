@@ -10,6 +10,7 @@ venue_mapping_abbr = {
     "ACM TOMM": "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",
     "ICLR": "International Conference on Learning Representations (ICLR)",
     "ICRA": "IEEE International Conference on Robotics and Automation (ICRA)",
+    "TASLP": "IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)",
     "TCYB": "IEEE Transactions on Cybernetics (TCYB)",
     "TMM": "IEEE Transactions on Multimedia (TMM)",
     "TOMM": "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",
