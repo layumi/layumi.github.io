@@ -7,6 +7,7 @@ venue_mapping_abbr = {
     "ECCV": "European Conference on Computer Vision (ECCV)",
     "ACM MM": "ACM International Conference on Multimedia (ACM MM)",
     "ACM MULTIMEDIA": "ACM International Conference on Multimedia (ACM MM)",
+    "ACM TOMM": "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",
     "ICLR": "International Conference on Learning Representations (ICLR)",
     "ICRA": "IEEE International Conference on Robotics and Automation (ICRA)",
     "TCYB": "IEEE Transactions on Cybernetics (TCYB)",

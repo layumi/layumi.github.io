@@ -5,7 +5,7 @@ permalink: /publication/StepNet-2024
 date: 2024-01-01
 doi: 10.1145/3656046
 keywords: sign language recognition, network sign language, language recognition, 
-venue: 'ACM ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
+venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
 paperurl: 'https://zdzheng.xyz/files/TOMM-Xiaolong-sign.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Xiaolong-Shen" class="author">Xiaolong Shen</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
 sqlauthor: '{"@type": "Person","name": "Xiaolong Shen"}, {"@type": "Person","name": "Zhedong Zheng"}, {"@type": "Person","name": "Yi Yang"}'

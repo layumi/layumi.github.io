@@ -5,7 +5,7 @@ permalink: /publication/High-Fid2024
 date: 2024-01-01
 doi: 10.1145/3656475
 keywords: 3d identity preservation, 3d identity, 2d 3d identity, 
-venue: 'ACM ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
+venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
 author: '<a href="https://zdzheng.xyz/authors/Jinliang-Liu" class="author">Jinliang Liu</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Zongxin-Yang" class="author">Zongxin Yang</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
 sqlauthor: '{"@type": "Person","name": "Jinliang Liu"}, {"@type": "Person","name": "Zhedong Zheng"}, {"@type": "Person","name": "Zongxin Yang"}, {"@type": "Person","name": "Yi Yang"}'
 citation: ' Jinliang Liu,  Zhedong Zheng,  Zongxin Yang,  Yi Yang, &quot;High Fidelity Makeup via 2D and 3D Identity Preservation Net.&quot; ACM TOMM, 2024. DOI: 10.1145/3656475'
