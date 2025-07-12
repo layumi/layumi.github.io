@@ -53,7 +53,6 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
-  <li><strong>PI</strong>, FDCT/0043/2025/RIA1, “Robust Long-Tail Anomaly Recognition via Multi-Modality Learning”, 2025–2028 MOP 2.13 million (≈ USD 260K)</li>
 
   <li><strong>ICCV 2025:</strong> 3 papers — 
     <a href="https://www.zdzheng.xyz/publication/Video2BE2025">Video2BEV</a>, 
@@ -127,6 +126,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 
 <!---	
+<li><strong>PI</strong>, FDCT/0043/2025/RIA1, “Robust Long-Tail Anomaly Recognition via Multi-Modality Learning”, 2025–2028 MOP 2.13 million (≈ USD 260K)</li>
 <li> People live in a 3D world. Why not conduct representation learning in the 3D space? <a href="https://arxiv.org/abs/2006.04569">[arXiv]</a> <a href="https://github.com/layumi/person-reid-3d">[code]</a></li>
 <li> We have achieved the <strong>1st</strong> place in AICity Challenge Vehicle Re-id Track, CVPR 2020. <a href="https://github.com/layumi/AICIty-reID-2020">[code] </a></li>
 <li> Two papers to appear at IJCAI 2020. <a href="https://zdzheng.xyz/publication/Unsup2020">[PDF1]</a><a href="https://github.com/layumi/Seg_Uncertainty">[code1]</a><a href="https://zdzheng.xyz/publication/Real-2020">[PDF2]</a>
