@@ -53,7 +53,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
-  <li><strong>PI</strong>, FDCT/0043/2025/RIA1, “Robust Long-Tail Anomaly Recognition via Multi-Modality Learning”, 2025–2028 (2.13M MOP)</li>
+  <li><strong>PI</strong>, FDCT/0043/2025/RIA1, “Robust Long-Tail Anomaly Recognition via Multi-Modality Learning”, 2025–2028 MOP 2.13 million (≈ USD 260K)</li>
 
   <li><strong>ICCV 2025:</strong> 3 papers — 
     <a href="https://www.zdzheng.xyz/publication/Video2BE2025">Video2BEV</a>, 

@@ -15,10 +15,9 @@ Publications:  [2025](#2025), [2024](#2024), [2023](#2023), [2022](#2022), [2021
 
 ### 2025
 
-{% for post in site.publications reversed %}
-  {%if post.pub_year == '2025' %}
-      {% include archive-single.html %}
-  {% endif %}
+{% assign pubs_2025 = site.publications | where:"pub_year", "2025" | sort: "venue" %}
+{% for post in pubs_2025 %}
+  {% include archive-single.html %}
 {% endfor %}
 
 ### 2024
