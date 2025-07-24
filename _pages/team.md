@@ -21,7 +21,7 @@ redirect_from:
 - Jiahao Zhang: Nankai University (B.Eng.) CityU (M.S.) UM (Pursuing Ph.D)
 
 ## RA
-- Yaxuan Li: HITSZ (B.S.)
+- [Yaxuan Li](https://scholar.google.com/citations?user=myfuA38AAAAJ): HITSZ (B.S.)
 
 
 <hr> 
