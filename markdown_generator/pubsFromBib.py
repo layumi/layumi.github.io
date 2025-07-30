@@ -75,6 +75,7 @@ def html_escape(text):
 coauthor_dict={}
 coauthor_dict['yi-yang'] = 'https://zdzheng.xyz/coauthors/yi-yang.jpeg'
 coauthor_dict['hu-zhang'] =   'https://zdzheng.xyz/coauthors/hu-zhang.jpg'
+coauthor_dict['guiyu-zhang'] =   'https://zdzheng.xyz/coauthors/guiyu-zhang.jpeg'
 coauthor_dict['hang-yu'] = 'https://zdzheng.xyz/coauthors/hang-yu.jpg'
 coauthor_dict['lizi-liao'] = 'https://zdzheng.xyz/coauthors/lizi-liao.jpg'
 coauthor_dict['liang-zheng'] = 'https://zdzheng.xyz/coauthors/liang-zheng.jpg'
