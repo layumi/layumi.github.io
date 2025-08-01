@@ -2,6 +2,7 @@
 title: "Beyond Walking: A Large-Scale Image-Text Benchmark for Text-based Person Anomaly Search"
 collection: publications
 permalink: /publication/Beyond-W2025
+excerpt: 'Highlight Presentation'
 date: 2025-01-01
 doi: 
 keywords: person anomaly search, anomaly search, text benchmark, person re-id, person retrieval, person search, 
@@ -14,7 +15,8 @@ sqlauthor: '{"@type": "Person","name": "Shuyu Yang"}, {"@type": "Person","name":
 citation: ' Shuyu Yang,  Yaxiong Wang,  Li Zhu,  Zhedong Zheng, &quot;Beyond Walking: A Large-Scale Image-Text Benchmark for Text-based Person Anomaly Search.&quot; ICCV, 2025.'
 pub_year: '2025'
 bib: >
-    @inproceedings{yang2024beyond,<br>author = "Yang, Shuyu and Wang, Yaxiong and Zhu, Li and Zheng, Zhedong",<br>title = "Beyond Walking: A Large-Scale Image-Text Benchmark for Text-based Person Anomaly Search",<br>booktitle = "ICCV",<br>code = "https://github.com/Shuyu-XJTU/CMP",<br>url = "https://zdzheng.xyz/files/Yang\_BeyondWalking.pdf",<br>blog = "https://mp.weixin.qq.com/s/AIm2IrzXmaN9K1P3nIMvzQ",<br>year = "2025"
+    @inproceedings{yang2024beyond,<br>author = "Yang, Shuyu and Wang, Yaxiong and Zhu, Li and Zheng, Zhedong",<br>title = "Beyond Walking: A Large-Scale Image-Text Benchmark for Text-based Person Anomaly Search",<br>booktitle = "ICCV",<br>code = "https://github.com/Shuyu-XJTU/CMP",<br>url = "https://zdzheng.xyz/files/Yang\_BeyondWalking.pdf",<br>blog = "https://mp.weixin.qq.com/s/AIm2IrzXmaN9K1P3nIMvzQ",<br>note = "Highlight Presentation",<br>year = "2025"
     }
 
 ---
+Highlight Presentation

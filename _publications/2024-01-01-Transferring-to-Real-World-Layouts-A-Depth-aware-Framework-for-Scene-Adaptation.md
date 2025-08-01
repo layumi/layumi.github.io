@@ -2,6 +2,7 @@
 title: "Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation"
 collection: publications
 permalink: /publication/Transfer2024
+excerpt: 'Oral Presentation'
 date: 2024-01-01
 doi: 
 keywords: real world layouts, framework scene adaptation, world layouts depth, domain adaptation, 
@@ -13,7 +14,8 @@ sqlauthor: '{"@type": "Person","name": "Mu Chen"}, {"@type": "Person","name": "Z
 citation: ' Mu Chen,  Zhedong Zheng,  Yi Yang, &quot;Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation.&quot; ACM Multimedia, 2024.'
 pub_year: '2024'
 bib: >
-    @inproceedings{chen2024transferring,<br>author = "Chen, Mu and Zheng, Zhedong and Yang, Yi",<br>title = "Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation",<br>code = "https://github.com/chen742/DCF",<br>url = "https://zdzheng.xyz/files/ACMMM24-Layout.pdf",<br>booktitle = "ACM Multimedia",<br>year = "2024"
+    @inproceedings{chen2024transferring,<br>author = "Chen, Mu and Zheng, Zhedong and Yang, Yi",<br>title = "Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation",<br>code = "https://github.com/chen742/DCF",<br>url = "https://zdzheng.xyz/files/ACMMM24-Layout.pdf",<br>booktitle = "ACM Multimedia",<br>note = "Oral Presentation",<br>year = "2024"
     }
 
 ---
+Oral Presentation
