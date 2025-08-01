@@ -56,9 +56,9 @@
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.collection == 'publications' %}
       {{post.author}}  <br />
-	  <i>{{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}{% if post.note %} ("{{post.note}}") {% endif %}</i>
+	  <i> test2 {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }} test3 {% if post.note %} ("{{post.note}}") {% endif %}</i>
 	          {% if post.paperurl %}
-		           <a href="{{post.paperurl}}">[pdf]</a>
+		           <a href="{{post.paperurl}}">[pdf]</a> test1
 		      {% endif %}
 		      {% if post.code %}
 			      <a href="{{post.code}}">[code]</a>
@@ -71,7 +71,7 @@
 			  {% endif %}
 		  <br />  
     {% elsif post.date %}
-         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+         <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p> 
     {% endif %}
 
 
