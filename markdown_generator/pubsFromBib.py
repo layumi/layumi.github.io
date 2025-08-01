@@ -189,9 +189,12 @@ for pubsource in publist:
             citation = ""
             allauthor = ""
             doi = ""
+            oral = ""
             single_authors = []
             if "doi" in b.keys():
                 doi = b["doi"]
+            if "note" in b.keys():
+                oral = b["note"]
             
             lower_title = clean_title.lower()
             keywords=" " + extract_keywords_bert(lower_title)
@@ -270,6 +273,8 @@ for pubsource in publist:
             md += "\ndate: " + str(pub_date) 
 
             md += "\ndoi: " + doi
+            
+            md += "\nnote: " + oral
 
             md += "\nkeywords:" + keywords
              
@@ -317,8 +322,8 @@ for pubsource in publist:
 
             
             ## Markdown description for individual page
-            if note:
-                md += "\n" + html_escape(b["note"]) + "\n"
+            #if note:
+            #    md += "\n" + html_escape(b["note"]) + "\n"
 
             #if url:
             #    md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
