@@ -5,6 +5,7 @@ permalink: /publication/Transfer2024
 excerpt: 'Oral Presentation'
 date: 2024-01-01
 doi: 
+oral: Oral Presentation
 keywords: real world layouts, framework scene adaptation, world layouts depth, domain adaptation, 
 venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/ACMMM24-Layout.pdf'
@@ -18,4 +19,3 @@ bib: >
     }
 
 ---
-Oral Presentation

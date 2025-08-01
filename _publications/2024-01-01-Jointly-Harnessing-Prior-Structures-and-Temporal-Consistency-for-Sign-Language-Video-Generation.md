@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Jointly-2024
 date: 2024-01-01
 doi: 10.1145/3648368
+oral: 
 keywords: language video generation, video generation, sign language video, 
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
 paperurl: 'https://zdzheng.xyz/files/TOMM_Suo.pdf'

@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Unsuperv2020
 date: 2020-01-01
 doi: 10.5555/3491440.3491590
+oral: 
 keywords: adaptation memory regularization, regularization vivo, memory regularization vivo, domain adaptation, 
 venue: 'International Joint Conference on Artificial Intelligence (IJCAI)'
 paperurl: 'https://zdzheng.xyz/files/ijcai20.pdf'

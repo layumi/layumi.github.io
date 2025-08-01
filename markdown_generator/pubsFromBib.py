@@ -274,7 +274,7 @@ for pubsource in publist:
 
             md += "\ndoi: " + doi
             
-            md += "\nnote: " + oral
+            md += "\noral: " + oral
 
             md += "\nkeywords:" + keywords
              

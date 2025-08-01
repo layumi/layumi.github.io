@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/From-Dat2025
 date: 2025-01-01
 doi: 
+oral: 
 keywords: based person search, data curation filtering, data curation, person re-id, person retrieval, person search, 
 venue: 'ACM Web Conference (ACM WWW)'
 paperurl: 'https://zdzheng.xyz/files/WWW25-WoRA.pdf'

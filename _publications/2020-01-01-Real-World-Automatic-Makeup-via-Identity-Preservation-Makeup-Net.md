@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Real-Wor2020
 date: 2020-01-01
 doi: 10.5555/3491440.3491531
+oral: 
 keywords: automatic makeup identity, makeup identity preservation, world automatic makeup, 
 venue: 'International Joint Conference on Artificial Intelligence (IJCAI)'
 paperurl: 'https://zdzheng.xyz/files/Huang_ijcai20.pdf'

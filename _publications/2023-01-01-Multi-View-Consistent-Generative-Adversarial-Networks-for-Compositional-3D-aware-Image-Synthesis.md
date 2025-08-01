@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Multi-Vi2023
 date: 2023-01-01
 doi: 
+oral: 
 keywords: aware image synthesis, image synthesis, networks compositional 3d, 
 venue: 'International Journal of Computer Vision (IJCV)'
 paperurl: 'https://zdzheng.xyz/files/Zhang_MVCGAN.pdf'

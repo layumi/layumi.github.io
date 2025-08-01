@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/SPG-VTON2022
 date: 2022-01-01
 doi: 10.1109/TMM.2022.3143712
+oral: 
 keywords: vton semantic prediction, spg vton semantic, vton semantic, 
 venue: 'IEEE Transactions on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/TMM_Hu.pdf'

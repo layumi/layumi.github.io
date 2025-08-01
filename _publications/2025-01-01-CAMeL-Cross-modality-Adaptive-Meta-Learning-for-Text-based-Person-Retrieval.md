@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/CAMeL-Cr2025
 date: 2025-01-01
 doi: 
+oral: 
 keywords: meta learning text, adaptive meta learning, based person retrieval, object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'IEEE Transactions on Information Forensics and Security (TIFS)'
 paperurl: 'https://zdzheng.xyz/files/Yu_CAMeL.pdf'

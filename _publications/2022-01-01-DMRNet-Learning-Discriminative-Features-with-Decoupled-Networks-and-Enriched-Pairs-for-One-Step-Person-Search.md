@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/DMRNet-L2022
 date: 2022-01-01
 doi: 
+oral: 
 keywords: dmrnet learning discriminative, dmrnet learning, learning discriminative features, person re-id, person retrieval, person search, 
 venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)'
 paperurl: 'https://zdzheng.xyz/files/Han_TPAMI22.pdf'

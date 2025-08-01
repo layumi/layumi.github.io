@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Unsuperv2020_1
 date: 2020-01-01
 doi: 10.1109/tcyb.2020.2995496
+oral: 
 keywords: unsupervised eyeglasses removal, eyeglasses removal wild, unsupervised eyeglasses, 
 venue: 'IEEE Transactions on Cybernetics (TCYB)'
 paperurl: 'https://zdzheng.xyz/files/Hu_CYB20.pdf'

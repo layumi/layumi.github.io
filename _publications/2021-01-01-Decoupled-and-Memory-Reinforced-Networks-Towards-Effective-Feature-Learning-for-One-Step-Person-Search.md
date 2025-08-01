@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Decouple2021
 date: 2021-01-01
 doi: 
+oral: 
 keywords: effective feature learning, feature learning, feature learning step, person re-id, person retrieval, person search, 
 venue: 'AAAI Conference on Artificial Intelligence (AAAI)'
 paperurl: 'https://zdzheng.xyz/files/Han_Person_Search.pdf'

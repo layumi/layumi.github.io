@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Thorax-d2020
 date: 2020-01-01
 doi: 10.1016/j.patrec.2019.11.040
+oral: 
 keywords: thorax disease classification, disease classification attention, guided convolutional neural, 
 venue: 'Pattern Recognition Letters (PRL)'
 paperurl: 'https://zdzheng.xyz/files/Guan_PRL20.pdf'

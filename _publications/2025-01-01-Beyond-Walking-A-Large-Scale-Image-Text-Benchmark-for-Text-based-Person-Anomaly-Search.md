@@ -5,6 +5,7 @@ permalink: /publication/Beyond-W2025
 excerpt: 'Highlight Presentation'
 date: 2025-01-01
 doi: 
+oral: Highlight Presentation
 keywords: person anomaly search, anomaly search, text benchmark, person re-id, person retrieval, person search, 
 venue: 'IEEE/CVF International Conference on Computer Vision (ICCV)'
 paperurl: 'https://zdzheng.xyz/files/Yang_BeyondWalking.pdf'
@@ -19,4 +20,3 @@ bib: >
     }
 
 ---
-Highlight Presentation

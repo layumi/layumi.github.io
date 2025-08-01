@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Pedestri2018
 date: 2018-01-01
 doi: 10.1109/TCSVT.2018.2873599
+oral: 
 keywords: pedestrian alignment network, pedestrian alignment, scale person identification, object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)'
 paperurl: 'https://zdzheng.xyz/files/TCSVT-08481710.pdf'

@@ -5,6 +5,7 @@ permalink: /publication/Unlabele2017
 excerpt: 'Spotlight Presentation'
 date: 2017-01-01
 doi: 
+oral: Spotlight Presentation
 keywords: identification baseline vitro, samples generated gan, baseline vitro, object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'IEEE/CVF International Conference on Computer Vision (ICCV)'
 paperurl: 'https://zdzheng.xyz/files/ICCV17.pdf'
@@ -18,4 +19,3 @@ bib: >
     }
 
 ---
-Spotlight Presentation

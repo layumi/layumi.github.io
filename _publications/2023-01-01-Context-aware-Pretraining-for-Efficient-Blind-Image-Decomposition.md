@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Context-2023
 date: 2023-01-01
 doi: 
+oral: 
 keywords: blind image decomposition, efficient blind image, image decomposition, 
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://zdzheng.xyz/files/CVPR2023-Wang.pdf'

@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Improvin2019
 date: 2019-01-01
 doi: 10.1016/j.patcog.2019.06.006
+oral: 
 keywords: attribute identity learning, identity learning, improving person identification, object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'Pattern Recognition (PR)'
 paperurl: 'https://zdzheng.xyz/files/PR19.pdf'

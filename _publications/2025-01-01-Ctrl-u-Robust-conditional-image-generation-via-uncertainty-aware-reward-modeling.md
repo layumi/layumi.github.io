@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Ctrl-u-R2025
 date: 2025-01-01
 doi: 
+oral: 
 keywords: ctrl robust conditional, ctrl robust, aware reward modeling, 
 venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://zdzheng.xyz/files/Guiyu_CtrlU.pdf'

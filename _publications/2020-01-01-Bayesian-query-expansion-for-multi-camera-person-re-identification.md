@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Bayesian2020
 date: 2020-01-01
 doi: 10.1016/j.patrec.2018.06.009
+oral: 
 keywords: camera person identification, bayesian query, multi camera person, object re-identification, image retrieval, person re-id, person retrieval, person search, 
 venue: 'Pattern Recognition Letters (PRL)'
 paperurl: 'https://zdzheng.xyz/files/PRLetter18.pdf'

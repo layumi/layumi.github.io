@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/StepNet-2024
 date: 2024-01-01
 doi: 10.1145/3656046
+oral: 
 keywords: sign language recognition, network sign language, language recognition, 
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
 paperurl: 'https://zdzheng.xyz/files/TOMM-Xiaolong-sign.pdf'

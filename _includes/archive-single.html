@@ -56,7 +56,7 @@
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.collection == 'publications' %}
       {{post.author}}  <br />
-	  <i> {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}  {% if post.note %} ( {{post.note}} ) {% endif %}</i>
+	  <i> {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}  {% if post.oral %} ( {{post.oral}} ) {% endif %}</i>
 	          {% if post.paperurl %}
 		           <a href="{{post.paperurl}}">[pdf]</a> 
 		      {% endif %}

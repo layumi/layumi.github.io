@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Progress2023
 date: 2023-01-01
 doi: 
+oral: 
 keywords: automatic 3d prototyping, 3d prototyping, prototyping, 
 venue: 'arXiv:2309.14600'
 video: 'https://www.youtube.com/watch?v=LH6-wKg30FQ'

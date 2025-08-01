@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Coarse-t2025
 date: 2025-01-01
 doi: 
+oral: 
 keywords: enhancing vehicle identification, vehicle identification high, vehicle identification, object re-identification, image retrieval, 
 venue: 'IEEE International Conference on Robotics and Automation (ICRA)'
 paperurl: 'https://zdzheng.xyz/files/ICRA25-Vehicle.pdf'

@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Align-an2022
 date: 2022-01-01
 doi: 10.1109/TMM.2022.3204444
+oral: 
 keywords: boosting text video, text video retrieval, video retrieval, object re-identification, image retrieval, 
 venue: 'IEEE Transactions on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/TMM22-Xiaohan.pdf'

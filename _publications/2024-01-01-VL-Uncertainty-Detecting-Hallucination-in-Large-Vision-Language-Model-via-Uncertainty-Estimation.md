@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/VL-Uncer2024
 date: 2024-01-01
 doi: 
+oral: 
 keywords: uncertainty detecting hallucination, language model uncertainty, vl uncertainty detecting, 
 venue: 'arXiv:2411.11919'
 code: 'https://github.com/Ruiyang-061X/VL-Uncertainty'

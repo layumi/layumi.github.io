@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Scale-Up2025
 date: 2025-01-01
 doi: 
+oral: 
 keywords: image retrieval learning, retrieval learning modification, retrieval learning, object re-identification, image retrieval, 
 venue: 'IEEE Transactions on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/TMM25-Scale.pdf'
