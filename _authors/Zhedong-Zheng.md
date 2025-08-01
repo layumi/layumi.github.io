@@ -5,6 +5,7 @@ permalink: /authors/Zhedong-Zheng
 author_profile: false
 ---
  <li> Xiaodong Wang,  Hongmin Hu,  Fei Yan,  Junwen Lu,  Zhiqiang Zeng,  Weidong Hong,  Zhedong Zheng, &quot;UniAD: Integrating Geometric and Semantic Cues for Unified Anomaly Detection.&quot; ACM Multimedia, 2025.<a href='https://zdzheng.xyz/publication/UniAD-In2025'>[Link]</a> </li>
+ <li> Qichao Dong,  Lingyu Liu,  Yaxiong Wang,  Jason Liu,  Zhedong Zheng, &quot;Domain-Agnostic Neural Oil Painting via Normalization Affine Test-Time Adaptation.&quot; ACM Multimedia (BNI Track), 2025.<a href='https://zdzheng.xyz/publication/Domain-A2025'>[Link]</a> </li>
  <li> Shuyu Yang,  Yaxiong Wang,  Li Zhu,  Zhedong Zheng, &quot;Beyond Walking: A Large-Scale Image-Text Benchmark for Text-based Person Anomaly Search.&quot; ICCV, 2025.<a href='https://zdzheng.xyz/publication/Beyond-W2025'>[Link]</a> </li>
  <li> Leyang Jin,  Wei Ji,  Tat-seng Chua,  Zhedong Zheng, &quot;Coarse-to-Fine Cross-modality Generation for Enhancing Vehicle Re-Identification with High-Fidelity Synthetic Data.&quot; IEEE International Conference on Robotics and Automation, 2025.<a href='https://zdzheng.xyz/publication/Coarse-t2025'>[Link]</a> </li>
  <li> Jintao Sun,  Hao Fei,  Gangyi Ding,  Zhedong Zheng, &quot;From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search.&quot; ACM Web Conference, 2025.<a href='https://zdzheng.xyz/publication/From-Dat2025'>[Link]</a> </li>
