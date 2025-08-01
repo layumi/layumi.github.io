@@ -53,7 +53,11 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
-
+  <li><strong>ACM MM 2025:</strong> 2 papers — 
+    <a href="https://www.zdzheng.xyz/publication/UniAD-In2025"> Anomaly Detection</a>, 
+    <a href="https://www.zdzheng.xyz/publication/Domain-A2025"> Neural Painting - BNI Track (Oral)</a>, 
+  </li>
+  
   <li><strong>ICCV 2025:</strong> 3 papers — 
     <a href="https://www.zdzheng.xyz/publication/Video2BE2025">Video2BEV</a>, 
     <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval (Highlight Presentation)</a>, 
