@@ -34,6 +34,8 @@ author_profile: true
 
 2.2 提供计算资源和独立工位，完成毕业论文不提供补助。若表现优秀可提供每月4k澳门币TA补助。
 
+2.3 本组之前硕士成果：发表一篇ACM MM BNI-track Oral.
+
 ### 3. 多名研究助理 （实习至少 6 个月）
 
 3.1 背景要求：有 Tsinghua-A 论文发表者优先；Gap-year 申请oversea读博者优先。

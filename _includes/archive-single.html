@@ -58,13 +58,15 @@
       {{post.author}}  <br />
 	  <i> {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}  {% if post.oral %} ({{post.oral}}) {% endif %}</i>
 	          {% if post.paperurl %}
-		           <a href="{{post.paperurl}}">[pdf]</a> 
+			       <i class="fas fa-file-pdf"></i>
+		           <a href="{{post.paperurl}}">[PDF]</a> 
 		      {% endif %}
 		      {% if post.code %}
-			      <a href="{{post.code}}">[code]</a>
+			      <i class="fab fa-github"></i>
+			      <a href="{{post.code}}">[Code]</a>
 			  {% endif %}
 		      {% if post.video %}
-			      <a href="{{post.video}}">[video]</a>
+			      <a href="{{post.video}}">[Video]</a>
 			  {% endif %}
 		      {% if post.blog %}
 			      <a href="{{post.blog}}">[中文解读]</a>
