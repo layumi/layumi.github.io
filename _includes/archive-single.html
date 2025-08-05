@@ -33,6 +33,9 @@
 	    .fa-file-pdf {
 	      color: #E41F26 !important;
 	    }
+		.oral-tag {
+		  color: orange;
+		}
 
 	    /* 可选 hover 效果 */
 	    a:hover .fa-github {
@@ -87,7 +90,7 @@
       <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
     {% elsif post.collection == 'publications' %}
       {{post.author}}  <br />
-	  <i> {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}  {% if post.oral %} ({{post.oral}}) {% endif %}</i>
+	  <i> {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}  {% if post.oral %} <span class="oral-tag">(<i class="fas fa-star"></i>{{post.oral}})</span> {% endif %}</i>
 	          {% if post.paperurl %}
 		           <a href="{{post.paperurl}}"><i class="fas fa-file-pdf"></i>PDF</a> 
 		      {% endif %}
