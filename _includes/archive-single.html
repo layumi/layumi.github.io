@@ -23,6 +23,21 @@
 			text-decoration: underline;
 			color: #0066cc;
 		}
+	    a:hover .fa-github {
+	      color: #333 !important;
+	    }
+
+	    a:hover .fa-zhihu {
+	      color: #006ddf !important;
+	    }
+
+	    a:hover .fa-youtube {
+	      color: #cc0000 !important;
+	    }
+
+	    a:hover .fa-file-pdf {
+	      color: #b51a1f !important;
+	    }
 	</style>
 </head>
 
@@ -58,16 +73,16 @@
       {{post.author}}  <br />
 	  <i> {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}  {% if post.oral %} ({{post.oral}}) {% endif %}</i>
 	          {% if post.paperurl %}
-		           <a href="{{post.paperurl}}"><i class="fas fa-file-pdf"></i> PDF</a> 
+		           <a href="{{post.paperurl}}"><i class="fas fa-file-pdf"></i>PDF</a> 
 		      {% endif %}
 		      {% if post.code %}
-			      <a href="{{post.code}}"><i class="fab fa-github"></i>Code </a>
+			      <a href="{{post.code}}"><i class="fab fa-github"></i>Code</a>
 			  {% endif %}
 		      {% if post.video %}
-			      <a href="{{post.video}}">[Video]</a>
+			      <a href="{{post.video}}"><i class="fab fa-youtube"></i>Video</a>
 			  {% endif %}
 		      {% if post.blog %}
-			      <a href="{{post.blog}}">[中文解读]</a>
+			      <a href="{{post.blog}}"><i class="fab fa-zhihu"></i>中文解读</a>
 			  {% endif %}
 		  <br />  
     {% elsif post.date %}
