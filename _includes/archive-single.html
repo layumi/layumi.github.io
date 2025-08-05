@@ -18,19 +18,19 @@
 			text-decoration: none !important;
 			color: #333333;
 		}
-	    .fa-github {
+	    a.code-link {
 	      color: #181717 !important;
 	    }
 
-	    .fa-zhihu {
+	    a.zhihu-link {
 	      color: #0084FF !important;
 	    }
 
-	    .fa-youtube {
+	    a.video-link {
 	      color: #FF0000 !important;
 	    }
 
-	    .fa-file-pdf {
+	    a.pdf-link {
 	      color: #E41F26 !important;
 	    }
 		.oral-tag {
@@ -38,19 +38,19 @@
 		}
 
 	    /* 可选 hover 效果 */
-	    a:hover .fa-github {
+	    a.code-link:hover {
 	      color: #333 !important;
 	    }
 
-	    a:hover .fa-zhihu {
+	    a.zhihu-link:hover  {
 	      color: #006ddf !important;
 	    }
 
-	    a:hover .fa-youtube {
+	    a.video-link:hover {
 	      color: #cc0000 !important;
 	    }
 
-	    a:hover .fa-file-pdf {
+	    a.pdf-link:hover{
 	      color: #b51a1f !important;
 	    }
 		.author:hover {
@@ -92,16 +92,16 @@
       {{post.author}}  <br />
 	  <i> {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}  {% if post.oral %} <span class="oral-tag">(<i class="fas fa-star"></i>{{post.oral}})</span> {% endif %}</i>
 	          {% if post.paperurl %}
-		           <a href="{{post.paperurl}}"><i class="fas fa-file-pdf"></i>PDF</a> 
+		           <a href="{{post.paperurl}}" class="pdf-link"><i class="fas fa-file-pdf"></i>PDF</a> 
 		      {% endif %}
 		      {% if post.code %}
-			      <a href="{{post.code}}"><i class="fab fa-github"></i>Code</a>
+			      <a href="{{post.code}}" class="code-link"><i class="fab fa-github"></i>Code</a>
 			  {% endif %}
 		      {% if post.video %}
-			      <a href="{{post.video}}"><i class="fab fa-youtube"></i>Video</a>
+			      <a href="{{post.video}}" class="video-link"><i class="fab fa-youtube"></i>Video</a>
 			  {% endif %}
 		      {% if post.blog %}
-			      <a href="{{post.blog}}"><i class="fab fa-zhihu"></i>中文解读</a>
+			      <a href="{{post.blog}}" class="zhihu-link"><i class="fab fa-zhihu"></i>中文解读</a>
 			  {% endif %}
 		  <br />  
     {% elsif post.date %}
