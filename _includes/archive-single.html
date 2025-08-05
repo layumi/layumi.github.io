@@ -14,6 +14,15 @@
 
 <head> 
 	<style>
+		.paper-card {
+		  background-color: #f9f9f9; /* 淡灰色背景 */
+		  padding: 16px;
+		  border-radius: 12px;
+		  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* 初始轻微阴影 */
+		  margin-bottom: 16px;
+		  transition: all 0.25s ease-in-out;
+		}
+		
 		.author {
 			text-decoration: none !important;
 			color: #333333;
@@ -57,10 +66,15 @@
 			text-decoration: underline;
 			color: #0066cc;
 		}
+		/* 悬停时的弹起效果 */
+		.paper-card:hover {
+		  transform: translateY(-4px); /* 微微上移 */
+		  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* 增强阴影 */
+		}
 	</style>
 </head>
 
-<div class="{{ include.type | default: 'list' }}__item">
+<div class="{{ include.type | default: 'list' }}__item paper-card">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
 <!--	
     {% if include.type == "grid" and teaser %}
