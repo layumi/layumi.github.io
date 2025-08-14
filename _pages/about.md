@@ -7,6 +7,70 @@ redirect_from:
   - /about/
 ---
 
+
+<head> 
+	<style>
+		.paper-card {
+		  background-color: #f9f9f9; /* 淡灰色背景 */
+		  padding: 16px;
+		  border-radius: 12px;
+		  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* 初始轻微阴影 */
+		  margin-bottom: 16px;
+		  transition: all 0.25s ease-in-out;
+		}
+		
+		.author {
+			text-decoration: none !important;
+			color: #333333;
+		}
+	    a.code-link {
+	      color: #181717 !important;
+	    }
+
+	    a.zhihu-link {
+	      color: #0084FF !important;
+	    }
+
+	    a.video-link {
+	      color: #FF0000 !important;
+	    }
+
+	    a.pdf-link {
+	      color: #E41F26 !important;
+	    }
+		.oral-tag {
+		  color: orange;
+		}
+
+	    /* 可选 hover 效果 */
+	    a.code-link:hover {
+	      color: #333 !important;
+	    }
+
+	    a.zhihu-link:hover  {
+	      color: #006ddf !important;
+	    }
+
+	    a.video-link:hover {
+	      color: #cc0000 !important;
+	    }
+
+	    a.pdf-link:hover{
+	      color: #b51a1f !important;
+	    }
+		.author:hover {
+			text-decoration: underline;
+			color: #0066cc;
+		}
+		/* 悬停时的弹起效果 */
+		.paper-card:hover {
+		  transform: translateY(-4px); /* 微微上移 */
+		  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* 增强阴影 */
+		}
+	</style>
+</head>
+
+
 <meta name="description"
   content="Zhedong Zheng is  a tenure-track assistant professor with the University of Macau, specializing in person re-identification (reID). He obtained his Ph.D. from UTS's ReLER Lab, mentored by Prof. Yi Yang and Dr. Liang Zheng. With a strong foundation from Fudan University, he has collaborated with leading experts at Nvidia and Baidu. His focus on reID underscores his dedication to advancing this vital field.">  
 <meta name="keywords" content="Zhedong Zheng, Person Re-ID, Object Re-ID, Person Retrieval, Person Search" />
@@ -55,18 +119,18 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 <ul>
   <li><strong>ACM MM 2025:</strong> 2 papers — 
     <a href="https://www.zdzheng.xyz/publication/UniAD-In2025"> Anomaly Detection</a>, 
-    <a href="https://www.zdzheng.xyz/publication/Domain-A2025"> Neural Painting - BNI Track (Oral)</a>, 
+    <a href="https://www.zdzheng.xyz/publication/Domain-A2025"> Neural Painting - BNI Track <span class="oral-tag">(<i class="fas fa-star"></i>{Oral)</span></a>, 
   </li>
   
   <li><strong>ICCV 2025:</strong> 3 papers — 
     <a href="https://www.zdzheng.xyz/publication/Video2BE2025">Video2BEV</a>, 
-    <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval (Highlight Presentation)</a>, 
+    <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval <span class="oral-tag">(<i class="fas fa-star"></i>{Highlight)</span></a>, 
     <a href="https://www.zdzheng.xyz/publication/Harnessi2025">3D Detection</a>
   </li>
 
   <li><strong>ICLR 2025:</strong> <a href="https://www.zdzheng.xyz/publication/Ctrl-u-R2025">Conditional Generation</a></li>
   <li><strong>ACM WWW 2025:</strong> <a href="https://www.zdzheng.xyz/publication/From-Dat2025">Text-based Person Search</a></li>
-  <li><strong>ACM MM 2024 (Oral):</strong> <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation</a></li>
+  <li><strong>ACM MM 2024:</strong> <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation <span class="oral-tag">(<i class="fas fa-star"></i>{Oral)</span></a></li>
 
   <li><strong>ECCV 2024:</strong> 3 papers — 
     <a href="https://www.zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, 
@@ -93,7 +157,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
     <li><strong>ACM ICMR 2024 Workshop:</strong> Multimedia Object Re-ID 
       <a href="https://www.zdzheng.xyz/MORE2024/">[Call for Papers]</a>
     </li>
-    <li><strong>ACM MM 2023:</strong> 
+    <li><strong>ACM MM 2023:</strong> 2 papers — 
       <a href="https://www.zdzheng.xyz/publication/Towards-2023">Text-image Re-ID</a>, 
       <a href="https://www.zdzheng.xyz/publication/PiPa-Pix2023">Domain Adaptation</a>
     </li>
@@ -103,7 +167,7 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 	</li>  
     <li><strong>IJCV 2022:</strong> <a href="https://zdzheng.xyz/publication/U-turn-C2022">Adversarial Retrieval</a></li>
     <li><strong>TNNLS 2022:</strong> <a href="https://zdzheng.xyz/publication/Paramete2022">3D Human Re-ID</a></li>
-    <li><strong>TIP 2022:</strong> 
+    <li><strong>TIP 2022:</strong> 2 papers — 
       <a href="https://zdzheng.xyz/publication/Adaptive2022">AdaBoost Adaptation</a>, 
       <a href="https://zdzheng.xyz/publication/Joint-Re2022">Drone Geolocalization</a>
     </li>
