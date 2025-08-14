@@ -119,18 +119,18 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 <ul>
   <li><strong>ACM MM 2025:</strong> 2 papers — 
     <a href="https://www.zdzheng.xyz/publication/UniAD-In2025"> Anomaly Detection</a>, 
-    <a href="https://www.zdzheng.xyz/publication/Domain-A2025"> Neural Painting - BNI Track <span class="oral-tag">(<i class="fas fa-star"></i>{Oral)</span></a>, 
+    <a href="https://www.zdzheng.xyz/publication/Domain-A2025"> Neural Painting - BNI Track <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a>, 
   </li>
   
   <li><strong>ICCV 2025:</strong> 3 papers — 
     <a href="https://www.zdzheng.xyz/publication/Video2BE2025">Video2BEV</a>, 
-    <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval <span class="oral-tag">(<i class="fas fa-star"></i>{Highlight)</span></a>, 
+    <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval <span class="oral-tag">(<i class="fas fa-star"></i>Highlight)</span></a>, 
     <a href="https://www.zdzheng.xyz/publication/Harnessi2025">3D Detection</a>
   </li>
 
   <li><strong>ICLR 2025:</strong> <a href="https://www.zdzheng.xyz/publication/Ctrl-u-R2025">Conditional Generation</a></li>
   <li><strong>ACM WWW 2025:</strong> <a href="https://www.zdzheng.xyz/publication/From-Dat2025">Text-based Person Search</a></li>
-  <li><strong>ACM MM 2024:</strong> <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation <span class="oral-tag">(<i class="fas fa-star"></i>{Oral)</span></a></li>
+  <li><strong>ACM MM 2024:</strong> <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a></li>
 
   <li><strong>ECCV 2024:</strong> 3 papers — 
     <a href="https://www.zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, 
