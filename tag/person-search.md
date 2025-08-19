@@ -1,10 +1,10 @@
 ---
 title: "person search"
 collection: tag
-permalink: /tag/person search
+permalink: /tag/person-search
 author_profile: false
 ---
-{% assign pubs_tag = site.publications | where:"keywords", person search | sort: "venue" %}
+{% assign pubs_tag = site.publications | where_exp:"item", "item.keywords contains 'person search'" | sort: "venue" %}
 {% for post in pubs_tag %}
   {% include archive-single.html %}
 {% endfor %}

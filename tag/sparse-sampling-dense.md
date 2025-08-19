@@ -1,10 +1,10 @@
 ---
 title: "sparse sampling dense"
 collection: tag
-permalink: /tag/sparse sampling dense
+permalink: /tag/sparse-sampling-dense
 author_profile: false
 ---
-{% assign pubs_tag = site.publications | where:"keywords", sparse sampling dense | sort: "venue" %}
+{% assign pubs_tag = site.publications | where_exp:"item", "item.keywords contains 'sparse sampling dense'" | sort: "venue" %}
 {% for post in pubs_tag %}
   {% include archive-single.html %}
 {% endfor %}

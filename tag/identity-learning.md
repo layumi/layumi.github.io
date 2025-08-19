@@ -1,10 +1,10 @@
 ---
 title: "identity learning"
 collection: tag
-permalink: /tag/identity learning
+permalink: /tag/identity-learning
 author_profile: false
 ---
-{% assign pubs_tag = site.publications | where:"keywords", identity learning | sort: "venue" %}
+{% assign pubs_tag = site.publications | where_exp:"item", "item.keywords contains 'identity learning'" | sort: "venue" %}
 {% for post in pubs_tag %}
   {% include archive-single.html %}
 {% endfor %}

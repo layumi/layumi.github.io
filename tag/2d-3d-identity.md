@@ -1,10 +1,10 @@
 ---
 title: "2d 3d identity"
 collection: tag
-permalink: /tag/2d 3d identity
+permalink: /tag/2d-3d-identity
 author_profile: false
 ---
-{% assign pubs_tag = site.publications | where:"keywords", 2d 3d identity | sort: "venue" %}
+{% assign pubs_tag = site.publications | where_exp:"item", "item.keywords contains '2d 3d identity'" | sort: "venue" %}
 {% for post in pubs_tag %}
   {% include archive-single.html %}
 {% endfor %}

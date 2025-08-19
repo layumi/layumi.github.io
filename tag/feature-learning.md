@@ -1,10 +1,10 @@
 ---
 title: "feature learning"
 collection: tag
-permalink: /tag/feature learning
+permalink: /tag/feature-learning
 author_profile: false
 ---
-{% assign pubs_tag = site.publications | where:"keywords", feature learning | sort: "venue" %}
+{% assign pubs_tag = site.publications | where_exp:"item", "item.keywords contains 'feature learning'" | sort: "venue" %}
 {% for post in pubs_tag %}
   {% include archive-single.html %}
 {% endfor %}

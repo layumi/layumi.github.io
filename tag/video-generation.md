@@ -1,10 +1,10 @@
 ---
 title: "video generation"
 collection: tag
-permalink: /tag/video generation
+permalink: /tag/video-generation
 author_profile: false
 ---
-{% assign pubs_tag = site.publications | where:"keywords", video generation | sort: "venue" %}
+{% assign pubs_tag = site.publications | where_exp:"item", "item.keywords contains 'video generation'" | sort: "venue" %}
 {% for post in pubs_tag %}
   {% include archive-single.html %}
 {% endfor %}

@@ -1,10 +1,10 @@
 ---
 title: "adaptive semantic segmentation"
 collection: tag
-permalink: /tag/adaptive semantic segmentation
+permalink: /tag/adaptive-semantic-segmentation
 author_profile: false
 ---
-{% assign pubs_tag = site.publications | where:"keywords", adaptive semantic segmentation | sort: "venue" %}
+{% assign pubs_tag = site.publications | where_exp:"item", "item.keywords contains 'adaptive semantic segmentation'" | sort: "venue" %}
 {% for post in pubs_tag %}
   {% include archive-single.html %}
 {% endfor %}

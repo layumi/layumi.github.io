@@ -1,10 +1,10 @@
 ---
 title: "3d identity preservation"
 collection: tag
-permalink: /tag/3d identity preservation
+permalink: /tag/3d-identity-preservation
 author_profile: false
 ---
-{% assign pubs_tag = site.publications | where:"keywords", 3d identity preservation | sort: "venue" %}
+{% assign pubs_tag = site.publications | where_exp:"item", "item.keywords contains '3d identity preservation'" | sort: "venue" %}
 {% for post in pubs_tag %}
   {% include archive-single.html %}
 {% endfor %}

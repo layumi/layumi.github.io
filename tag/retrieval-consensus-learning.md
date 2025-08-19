@@ -1,10 +1,10 @@
 ---
 title: "retrieval consensus learning"
 collection: tag
-permalink: /tag/retrieval consensus learning
+permalink: /tag/retrieval-consensus-learning
 author_profile: false
 ---
-{% assign pubs_tag = site.publications | where:"keywords", retrieval consensus learning | sort: "venue" %}
+{% assign pubs_tag = site.publications | where_exp:"item", "item.keywords contains 'retrieval consensus learning'" | sort: "venue" %}
 {% for post in pubs_tag %}
   {% include archive-single.html %}
 {% endfor %}

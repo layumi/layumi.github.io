@@ -1,10 +1,10 @@
 ---
 title: "localization embeddings dynamic"
 collection: tag
-permalink: /tag/localization embeddings dynamic
+permalink: /tag/localization-embeddings-dynamic
 author_profile: false
 ---
-{% assign pubs_tag = site.publications | where:"keywords", localization embeddings dynamic | sort: "venue" %}
+{% assign pubs_tag = site.publications | where_exp:"item", "item.keywords contains 'localization embeddings dynamic'" | sort: "venue" %}
 {% for post in pubs_tag %}
   {% include archive-single.html %}
 {% endfor %}

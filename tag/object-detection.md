@@ -1,10 +1,10 @@
 ---
 title: "object detection"
 collection: tag
-permalink: /tag/object detection
+permalink: /tag/object-detection
 author_profile: false
 ---
-{% assign pubs_tag = site.publications | where:"keywords", object detection | sort: "venue" %}
+{% assign pubs_tag = site.publications | where_exp:"item", "item.keywords contains 'object detection'" | sort: "venue" %}
 {% for post in pubs_tag %}
   {% include archive-single.html %}
 {% endfor %}
