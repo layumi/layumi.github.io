@@ -194,6 +194,9 @@ collections:
   authors:
     output: true
     permalink: /:collection/:path/
+  tag:
+    output: true
+    permalink: /:collection/:path/
 
 # Defaults
 defaults:

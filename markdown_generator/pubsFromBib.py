@@ -42,7 +42,7 @@ def extract_keywords_bert(title, max_keywords=3):
 
 os.system('rm -r ../_publications/*')
 os.system('rm -r ../_authors/*')
-os.system('rm -r ../tag/*')
+os.system('rm -r ../_tag/*')
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
@@ -219,8 +219,8 @@ for pubsource in publist:
                 if tag == ' ': continue
                 if tag[0] == ' ': tag = tag[1:]
                 tagname = tag.replace(' ','-')
-                if not os.path.isfile("tag/" + tagname + ".md"):
-                    with open("../tag/" + tagname + ".md", 'w') as f:
+                if not os.path.isfile("_tag/" + tagname + ".md"):
+                    with open("../_tag/" + tagname + ".md", 'w') as f:
                         f.write("---\ntitle: \""   + tag  + '"\n')
                         f.write("""collection: tag""")
                         f.write("""\npermalink: /tag/""" +tagname)
