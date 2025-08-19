@@ -1,5 +1,5 @@
 ---
-title: "unsupervised eyeglasses"
+title: "Unsupervised Eyeglasses"
 collection: tag
 permalink: /tag/unsupervised-eyeglasses
 author_profile: false

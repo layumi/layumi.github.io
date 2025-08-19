@@ -1,5 +1,5 @@
 ---
-title: "image retrieval consensus"
+title: "Image Retrieval Consensus"
 collection: tag
 permalink: /tag/image-retrieval-consensus
 author_profile: false

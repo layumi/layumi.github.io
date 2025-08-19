@@ -1,5 +1,5 @@
 ---
-title: "vision natural language"
+title: "Vision Natural Language"
 collection: tag
 permalink: /tag/vision-natural-language
 author_profile: false

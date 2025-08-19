@@ -1,5 +1,5 @@
 ---
-title: "weather recovery"
+title: "Weather Recovery"
 collection: tag
 permalink: /tag/weather-recovery
 author_profile: false

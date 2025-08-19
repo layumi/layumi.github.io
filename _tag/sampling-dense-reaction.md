@@ -1,5 +1,5 @@
 ---
-title: "sampling dense reaction"
+title: "Sampling Dense Reaction"
 collection: tag
 permalink: /tag/sampling-dense-reaction
 author_profile: false

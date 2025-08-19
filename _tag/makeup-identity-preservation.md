@@ -1,5 +1,5 @@
 ---
-title: "makeup identity preservation"
+title: "Makeup Identity Preservation"
 collection: tag
 permalink: /tag/makeup-identity-preservation
 author_profile: false

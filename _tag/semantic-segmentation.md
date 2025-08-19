@@ -1,5 +1,5 @@
 ---
-title: "semantic segmentation"
+title: "Semantic Segmentation"
 collection: tag
 permalink: /tag/semantic-segmentation
 author_profile: false

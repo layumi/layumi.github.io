@@ -1,5 +1,5 @@
 ---
-title: "retrieval consensus learning"
+title: "Retrieval Consensus Learning"
 collection: tag
 permalink: /tag/retrieval-consensus-learning
 author_profile: false

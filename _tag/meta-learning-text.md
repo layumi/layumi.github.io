@@ -1,5 +1,5 @@
 ---
-title: "meta learning text"
+title: "Meta Learning Text"
 collection: tag
 permalink: /tag/meta-learning-text
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "segmentation"
+title: "Segmentation"
 collection: tag
 permalink: /tag/segmentation
 author_profile: false

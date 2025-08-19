@@ -1,5 +1,5 @@
 ---
-title: "camera person identification"
+title: "Camera Person Identification"
 collection: tag
 permalink: /tag/camera-person-identification
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "crafting adversarial queries"
+title: "Crafting Adversarial Queries"
 collection: tag
 permalink: /tag/crafting-adversarial-queries
 author_profile: false

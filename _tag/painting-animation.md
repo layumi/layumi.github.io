@@ -1,5 +1,5 @@
 ---
-title: "painting animation"
+title: "Painting Animation"
 collection: tag
 permalink: /tag/painting-animation
 author_profile: false

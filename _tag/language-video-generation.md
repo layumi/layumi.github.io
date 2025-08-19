@@ -1,5 +1,5 @@
 ---
-title: "language video generation"
+title: "Language Video Generation"
 collection: tag
 permalink: /tag/language-video-generation
 author_profile: false

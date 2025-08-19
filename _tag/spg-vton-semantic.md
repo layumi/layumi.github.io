@@ -1,5 +1,5 @@
 ---
-title: "spg vton semantic"
+title: "Spg Vton Semantic"
 collection: tag
 permalink: /tag/spg-vton-semantic
 author_profile: false

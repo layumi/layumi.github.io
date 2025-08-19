@@ -1,5 +1,5 @@
 ---
-title: "robust predictions scene"
+title: "Robust Predictions Scene"
 collection: tag
 permalink: /tag/robust-predictions-scene
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "agnostic neural oil"
+title: "Agnostic Neural Oil"
 collection: tag
 permalink: /tag/agnostic-neural-oil
 author_profile: false

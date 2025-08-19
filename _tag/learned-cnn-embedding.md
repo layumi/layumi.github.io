@@ -1,5 +1,5 @@
 ---
-title: "learned cnn embedding"
+title: "Learned Cnn Embedding"
 collection: tag
 permalink: /tag/learned-cnn-embedding
 author_profile: false

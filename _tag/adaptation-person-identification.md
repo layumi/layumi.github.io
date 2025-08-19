@@ -1,5 +1,5 @@
 ---
-title: "adaptation person identification"
+title: "Adaptation Person Identification"
 collection: tag
 permalink: /tag/adaptation-person-identification
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "eyeglasses removal wild"
+title: "Eyeglasses Removal Wild"
 collection: tag
 permalink: /tag/eyeglasses-removal-wild
 author_profile: false

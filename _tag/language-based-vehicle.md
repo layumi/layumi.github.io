@@ -1,5 +1,5 @@
 ---
-title: "language based vehicle"
+title: "Language Based Vehicle"
 collection: tag
 permalink: /tag/language-based-vehicle
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "pedestrian alignment network"
+title: "Pedestrian Alignment Network"
 collection: tag
 permalink: /tag/pedestrian-alignment-network
 author_profile: false

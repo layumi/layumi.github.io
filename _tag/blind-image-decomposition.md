@@ -1,5 +1,5 @@
 ---
-title: "blind image decomposition"
+title: "Blind Image Decomposition"
 collection: tag
 permalink: /tag/blind-image-decomposition
 author_profile: false

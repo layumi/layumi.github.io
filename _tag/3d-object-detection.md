@@ -1,5 +1,5 @@
 ---
-title: "3d object detection"
+title: "3D Object Detection"
 collection: tag
 permalink: /tag/3d-object-detection
 author_profile: false

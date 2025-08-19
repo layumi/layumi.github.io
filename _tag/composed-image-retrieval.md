@@ -1,5 +1,5 @@
 ---
-title: "composed image retrieval"
+title: "Composed Image Retrieval"
 collection: tag
 permalink: /tag/composed-image-retrieval
 author_profile: false

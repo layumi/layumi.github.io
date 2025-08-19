@@ -1,5 +1,5 @@
 ---
-title: "text benchmark"
+title: "Text Benchmark"
 collection: tag
 permalink: /tag/text-benchmark
 author_profile: false

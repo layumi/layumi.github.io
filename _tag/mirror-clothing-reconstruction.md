@@ -1,5 +1,5 @@
 ---
-title: "mirror clothing reconstruction"
+title: "Mirror Clothing Reconstruction"
 collection: tag
 permalink: /tag/mirror-clothing-reconstruction
 author_profile: false

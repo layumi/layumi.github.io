@@ -1,5 +1,5 @@
 ---
-title: "networks compositional 3d"
+title: "Networks Compositional 3D"
 collection: tag
 permalink: /tag/networks-compositional-3d
 author_profile: false

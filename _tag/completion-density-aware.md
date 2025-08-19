@@ -1,5 +1,5 @@
 ---
-title: "completion density aware"
+title: "Completion Density Aware"
 collection: tag
 permalink: /tag/completion-density-aware
 author_profile: false

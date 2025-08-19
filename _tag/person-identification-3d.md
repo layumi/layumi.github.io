@@ -1,5 +1,5 @@
 ---
-title: "person identification 3d"
+title: "Person Identification 3D"
 collection: tag
 permalink: /tag/person-identification-3d
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "ctrl robust"
+title: "Ctrl Robust"
 collection: tag
 permalink: /tag/ctrl-robust
 author_profile: false

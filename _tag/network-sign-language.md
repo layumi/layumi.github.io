@@ -1,5 +1,5 @@
 ---
-title: "network sign language"
+title: "Network Sign Language"
 collection: tag
 permalink: /tag/network-sign-language
 author_profile: false

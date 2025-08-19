@@ -1,5 +1,5 @@
 ---
-title: "image retrieval ranking"
+title: "Image Retrieval Ranking"
 collection: tag
 permalink: /tag/image-retrieval-ranking
 author_profile: false

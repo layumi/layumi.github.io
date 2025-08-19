@@ -1,5 +1,5 @@
 ---
-title: "effective feature learning"
+title: "Effective Feature Learning"
 collection: tag
 permalink: /tag/effective-feature-learning
 author_profile: false

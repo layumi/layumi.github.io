@@ -1,5 +1,5 @@
 ---
-title: "grained uncertainty regularization"
+title: "Grained Uncertainty Regularization"
 collection: tag
 permalink: /tag/grained-uncertainty-regularization
 author_profile: false

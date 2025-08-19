@@ -1,5 +1,5 @@
 ---
-title: "sign language recognition"
+title: "Sign Language Recognition"
 collection: tag
 permalink: /tag/sign-language-recognition
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "visual representation vehicle"
+title: "Visual Representation Vehicle"
 collection: tag
 permalink: /tag/visual-representation-vehicle
 author_profile: false

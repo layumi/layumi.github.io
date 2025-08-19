@@ -1,5 +1,5 @@
 ---
-title: "filter decaying"
+title: "Filter Decaying"
 collection: tag
 permalink: /tag/filter-decaying
 author_profile: false

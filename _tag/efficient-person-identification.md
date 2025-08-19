@@ -1,5 +1,5 @@
 ---
-title: "efficient person identification"
+title: "Efficient Person Identification"
 collection: tag
 permalink: /tag/efficient-person-identification
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "embedding person reidentification"
+title: "Embedding Person Reidentification"
 collection: tag
 permalink: /tag/embedding-person-reidentification
 author_profile: false

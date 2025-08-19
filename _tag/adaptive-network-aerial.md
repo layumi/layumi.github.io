@@ -1,5 +1,5 @@
 ---
-title: "adaptive network aerial"
+title: "Adaptive Network Aerial"
 collection: tag
 permalink: /tag/adaptive-network-aerial
 author_profile: false

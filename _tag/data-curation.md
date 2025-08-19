@@ -1,5 +1,5 @@
 ---
-title: "data curation"
+title: "Data Curation"
 collection: tag
 permalink: /tag/data-curation
 author_profile: false

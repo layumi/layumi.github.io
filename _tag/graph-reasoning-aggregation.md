@@ -1,5 +1,5 @@
 ---
-title: "graph reasoning aggregation"
+title: "Graph Reasoning Aggregation"
 collection: tag
 permalink: /tag/graph-reasoning-aggregation
 author_profile: false

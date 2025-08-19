@@ -1,5 +1,5 @@
 ---
-title: "depth completion"
+title: "Depth Completion"
 collection: tag
 permalink: /tag/depth-completion
 author_profile: false

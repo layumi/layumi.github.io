@@ -1,5 +1,5 @@
 ---
-title: "person re-id"
+title: "Person Re-Id"
 collection: tag
 permalink: /tag/person-re-id
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "unsupervised eyeglasses removal"
+title: "Unsupervised Eyeglasses Removal"
 collection: tag
 permalink: /tag/unsupervised-eyeglasses-removal
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "efficient blind image"
+title: "Efficient Blind Image"
 collection: tag
 permalink: /tag/efficient-blind-image
 author_profile: false

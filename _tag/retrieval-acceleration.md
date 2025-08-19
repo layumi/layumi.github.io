@@ -1,5 +1,5 @@
 ---
-title: "retrieval acceleration"
+title: "Retrieval Acceleration"
 collection: tag
 permalink: /tag/retrieval-acceleration
 author_profile: false

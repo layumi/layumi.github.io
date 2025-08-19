@@ -1,5 +1,5 @@
 ---
-title: "retrieval large scale"
+title: "Retrieval Large Scale"
 collection: tag
 permalink: /tag/retrieval-large-scale
 author_profile: false

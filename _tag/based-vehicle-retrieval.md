@@ -1,5 +1,5 @@
 ---
-title: "based vehicle retrieval"
+title: "Based Vehicle Retrieval"
 collection: tag
 permalink: /tag/based-vehicle-retrieval
 author_profile: false

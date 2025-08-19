@@ -1,5 +1,5 @@
 ---
-title: "painting animation generation"
+title: "Painting Animation Generation"
 collection: tag
 permalink: /tag/painting-animation-generation
 author_profile: false

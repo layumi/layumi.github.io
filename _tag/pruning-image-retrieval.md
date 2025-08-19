@@ -1,5 +1,5 @@
 ---
-title: "pruning image retrieval"
+title: "Pruning Image Retrieval"
 collection: tag
 permalink: /tag/pruning-image-retrieval
 author_profile: false

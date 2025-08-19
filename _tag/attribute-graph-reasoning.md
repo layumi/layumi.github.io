@@ -1,5 +1,5 @@
 ---
-title: "attribute graph reasoning"
+title: "Attribute Graph Reasoning"
 collection: tag
 permalink: /tag/attribute-graph-reasoning
 author_profile: false

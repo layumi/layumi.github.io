@@ -1,5 +1,5 @@
 ---
-title: "filter"
+title: "Filter"
 collection: tag
 permalink: /tag/filter
 author_profile: false

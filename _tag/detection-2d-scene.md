@@ -1,5 +1,5 @@
 ---
-title: "detection 2d scene"
+title: "Detection 2D Scene"
 collection: tag
 permalink: /tag/detection-2d-scene
 author_profile: false

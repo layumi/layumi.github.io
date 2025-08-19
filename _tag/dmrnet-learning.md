@@ -1,5 +1,5 @@
 ---
-title: "dmrnet learning"
+title: "Dmrnet Learning"
 collection: tag
 permalink: /tag/dmrnet-learning
 author_profile: false

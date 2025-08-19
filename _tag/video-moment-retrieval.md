@@ -1,5 +1,5 @@
 ---
-title: "video moment retrieval"
+title: "Video Moment Retrieval"
 collection: tag
 permalink: /tag/video-moment-retrieval
 author_profile: false

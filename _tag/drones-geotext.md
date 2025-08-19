@@ -1,5 +1,5 @@
 ---
-title: "drones geotext"
+title: "Drones Geotext"
 collection: tag
 permalink: /tag/drones-geotext
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "new slots task"
+title: "New Slots Task"
 collection: tag
 permalink: /tag/new-slots-task
 author_profile: false

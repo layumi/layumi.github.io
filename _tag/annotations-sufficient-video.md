@@ -1,5 +1,5 @@
 ---
-title: "annotations sufficient video"
+title: "Annotations Sufficient Video"
 collection: tag
 permalink: /tag/annotations-sufficient-video
 author_profile: false

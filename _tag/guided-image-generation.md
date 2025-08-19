@@ -1,5 +1,5 @@
 ---
-title: "guided image generation"
+title: "Guided Image Generation"
 collection: tag
 permalink: /tag/guided-image-generation
 author_profile: false

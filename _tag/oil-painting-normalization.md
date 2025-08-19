@@ -1,5 +1,5 @@
 ---
-title: "oil painting normalization"
+title: "Oil Painting Normalization"
 collection: tag
 permalink: /tag/oil-painting-normalization
 author_profile: false

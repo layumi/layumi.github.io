@@ -1,5 +1,5 @@
 ---
-title: "domain adaptation"
+title: "Domain Adaptation"
 collection: tag
 permalink: /tag/domain-adaptation
 author_profile: false

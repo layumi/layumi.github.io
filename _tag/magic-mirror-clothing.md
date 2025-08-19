@@ -1,5 +1,5 @@
 ---
-title: "magic mirror clothing"
+title: "Magic Mirror Clothing"
 collection: tag
 permalink: /tag/magic-mirror-clothing
 author_profile: false

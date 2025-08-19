@@ -1,5 +1,5 @@
 ---
-title: "adversarial networks 3d"
+title: "Adversarial Networks 3D"
 collection: tag
 permalink: /tag/adversarial-networks-3d
 author_profile: false

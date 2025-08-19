@@ -1,5 +1,5 @@
 ---
-title: "vehiclenet learning robust"
+title: "Vehiclenet Learning Robust"
 collection: tag
 permalink: /tag/vehiclenet-learning-robust
 author_profile: false

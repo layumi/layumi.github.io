@@ -1,5 +1,5 @@
 ---
-title: "feature learning"
+title: "Feature Learning"
 collection: tag
 permalink: /tag/feature-learning
 author_profile: false

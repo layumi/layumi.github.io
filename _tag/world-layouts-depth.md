@@ -1,5 +1,5 @@
 ---
-title: "world layouts depth"
+title: "World Layouts Depth"
 collection: tag
 permalink: /tag/world-layouts-depth
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "unified anomaly detection"
+title: "Unified Anomaly Detection"
 collection: tag
 permalink: /tag/unified-anomaly-detection
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "collaborative group"
+title: "Collaborative Group"
 collection: tag
 permalink: /tag/collaborative-group
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "person search"
+title: "Person Search"
 collection: tag
 permalink: /tag/person-search
 author_profile: false

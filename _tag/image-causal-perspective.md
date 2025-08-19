@@ -1,5 +1,5 @@
 ---
-title: "image causal perspective"
+title: "Image Causal Perspective"
 collection: tag
 permalink: /tag/image-causal-perspective
 author_profile: false

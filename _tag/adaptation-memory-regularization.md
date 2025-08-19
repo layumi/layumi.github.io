@@ -1,5 +1,5 @@
 ---
-title: "adaptation memory regularization"
+title: "Adaptation Memory Regularization"
 collection: tag
 permalink: /tag/adaptation-memory-regularization
 author_profile: false

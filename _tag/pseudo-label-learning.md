@@ -1,5 +1,5 @@
 ---
-title: "pseudo label learning"
+title: "Pseudo Label Learning"
 collection: tag
 permalink: /tag/pseudo-label-learning
 author_profile: false

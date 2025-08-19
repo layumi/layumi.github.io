@@ -1,5 +1,5 @@
 ---
-title: "enhancing vehicle identification"
+title: "Enhancing Vehicle Identification"
 collection: tag
 permalink: /tag/enhancing-vehicle-identification
 author_profile: false

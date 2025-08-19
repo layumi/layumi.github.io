@@ -1,5 +1,5 @@
 ---
-title: "multi round thinking"
+title: "Multi Round Thinking"
 collection: tag
 permalink: /tag/multi-round-thinking
 author_profile: false

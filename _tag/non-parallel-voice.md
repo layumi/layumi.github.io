@@ -1,5 +1,5 @@
 ---
-title: "non parallel voice"
+title: "Non Parallel Voice"
 collection: tag
 permalink: /tag/non-parallel-voice
 author_profile: false

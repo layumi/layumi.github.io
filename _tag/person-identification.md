@@ -1,5 +1,5 @@
 ---
-title: "person identification"
+title: "Person Identification"
 collection: tag
 permalink: /tag/person-identification
 author_profile: false

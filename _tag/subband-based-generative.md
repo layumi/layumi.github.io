@@ -1,5 +1,5 @@
 ---
-title: "subband based generative"
+title: "Subband Based Generative"
 collection: tag
 permalink: /tag/subband-based-generative
 author_profile: false

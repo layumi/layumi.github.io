@@ -1,5 +1,5 @@
 ---
-title: "uncertainty regularization"
+title: "Uncertainty Regularization"
 collection: tag
 permalink: /tag/uncertainty-regularization
 author_profile: false

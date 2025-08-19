@@ -1,5 +1,5 @@
 ---
-title: "path convolutional image"
+title: "Path Convolutional Image"
 collection: tag
 permalink: /tag/path-convolutional-image
 author_profile: false

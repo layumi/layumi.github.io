@@ -1,5 +1,5 @@
 ---
-title: "vl uncertainty detecting"
+title: "Vl Uncertainty Detecting"
 collection: tag
 permalink: /tag/vl-uncertainty-detecting
 author_profile: false

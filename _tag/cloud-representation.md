@@ -1,5 +1,5 @@
 ---
-title: "cloud representation"
+title: "Cloud Representation"
 collection: tag
 permalink: /tag/cloud-representation
 author_profile: false

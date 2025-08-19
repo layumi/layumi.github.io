@@ -1,5 +1,5 @@
 ---
-title: "image retrieval learning"
+title: "Image Retrieval Learning"
 collection: tag
 permalink: /tag/image-retrieval-learning
 author_profile: false

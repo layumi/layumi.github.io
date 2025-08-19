@@ -1,5 +1,5 @@
 ---
-title: "adjacent filter decaying"
+title: "Adjacent Filter Decaying"
 collection: tag
 permalink: /tag/adjacent-filter-decaying
 author_profile: false

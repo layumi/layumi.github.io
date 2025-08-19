@@ -1,5 +1,5 @@
 ---
-title: "retrieval learning modification"
+title: "Retrieval Learning Modification"
 collection: tag
 permalink: /tag/retrieval-learning-modification
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "camera style adaptation"
+title: "Camera Style Adaptation"
 collection: tag
 permalink: /tag/camera-style-adaptation
 author_profile: false

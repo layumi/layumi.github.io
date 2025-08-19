@@ -1,5 +1,5 @@
 ---
-title: "regularization vivo"
+title: "Regularization Vivo"
 collection: tag
 permalink: /tag/regularization-vivo
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "samples generated gan"
+title: "Samples Generated Gan"
 collection: tag
 permalink: /tag/samples-generated-gan
 author_profile: false

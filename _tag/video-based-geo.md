@@ -1,5 +1,5 @@
 ---
-title: "video based geo"
+title: "Video Based Geo"
 collection: tag
 permalink: /tag/video-based-geo
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "discriminatively learned cnn"
+title: "Discriminatively Learned Cnn"
 collection: tag
 permalink: /tag/discriminatively-learned-cnn
 author_profile: false

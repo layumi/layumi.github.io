@@ -1,5 +1,5 @@
 ---
-title: "painting awakened training"
+title: "Painting Awakened Training"
 collection: tag
 permalink: /tag/painting-awakened-training
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "keypoint detection cross"
+title: "Keypoint Detection Cross"
 collection: tag
 permalink: /tag/keypoint-detection-cross
 author_profile: false

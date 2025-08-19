@@ -1,5 +1,5 @@
 ---
-title: "view geo localization"
+title: "View Geo Localization"
 collection: tag
 permalink: /tag/view-geo-localization
 author_profile: false

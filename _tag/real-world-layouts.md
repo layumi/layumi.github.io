@@ -1,5 +1,5 @@
 ---
-title: "real world layouts"
+title: "Real World Layouts"
 collection: tag
 permalink: /tag/real-world-layouts
 author_profile: false

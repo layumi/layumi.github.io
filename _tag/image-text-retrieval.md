@@ -1,5 +1,5 @@
 ---
-title: "image text retrieval"
+title: "Image Text Retrieval"
 collection: tag
 permalink: /tag/image-text-retrieval
 author_profile: false

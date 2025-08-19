@@ -1,5 +1,5 @@
 ---
-title: "multi camera person"
+title: "Multi Camera Person"
 collection: tag
 permalink: /tag/multi-camera-person
 author_profile: false

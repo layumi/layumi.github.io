@@ -1,5 +1,5 @@
 ---
-title: "detection"
+title: "Detection"
 collection: tag
 permalink: /tag/detection
 author_profile: false

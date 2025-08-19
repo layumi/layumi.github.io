@@ -1,5 +1,5 @@
 ---
-title: "vehicle identification rigid"
+title: "Vehicle Identification Rigid"
 collection: tag
 permalink: /tag/vehicle-identification-rigid
 author_profile: false

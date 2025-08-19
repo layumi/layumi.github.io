@@ -1,5 +1,5 @@
 ---
-title: "guided convolutional neural"
+title: "Guided Convolutional Neural"
 collection: tag
 permalink: /tag/guided-convolutional-neural
 author_profile: false

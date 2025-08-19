@@ -1,5 +1,5 @@
 ---
-title: "attribute identity learning"
+title: "Attribute Identity Learning"
 collection: tag
 permalink: /tag/attribute-identity-learning
 author_profile: false

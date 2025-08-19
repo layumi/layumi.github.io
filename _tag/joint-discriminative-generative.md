@@ -1,5 +1,5 @@
 ---
-title: "joint discriminative generative"
+title: "Joint Discriminative Generative"
 collection: tag
 permalink: /tag/joint-discriminative-generative
 author_profile: false

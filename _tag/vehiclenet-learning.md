@@ -1,5 +1,5 @@
 ---
-title: "vehiclenet learning"
+title: "Vehiclenet Learning"
 collection: tag
 permalink: /tag/vehiclenet-learning
 author_profile: false

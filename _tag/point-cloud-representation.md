@@ -1,5 +1,5 @@
 ---
-title: "point cloud representation"
+title: "Point Cloud Representation"
 collection: tag
 permalink: /tag/point-cloud-representation
 author_profile: false

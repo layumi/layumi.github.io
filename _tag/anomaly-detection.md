@@ -1,5 +1,5 @@
 ---
-title: "anomaly detection"
+title: "Anomaly Detection"
 collection: tag
 permalink: /tag/anomaly-detection
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "adaptive meta learning"
+title: "Adaptive Meta Learning"
 collection: tag
 permalink: /tag/adaptive-meta-learning
 author_profile: false

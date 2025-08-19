@@ -1,5 +1,5 @@
 ---
-title: "prototyping"
+title: "Prototyping"
 collection: tag
 permalink: /tag/prototyping
 author_profile: false

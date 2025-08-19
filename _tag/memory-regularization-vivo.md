@@ -1,5 +1,5 @@
 ---
-title: "memory regularization vivo"
+title: "Memory Regularization Vivo"
 collection: tag
 permalink: /tag/memory-regularization-vivo
 author_profile: false

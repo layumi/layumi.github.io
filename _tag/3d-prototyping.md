@@ -1,5 +1,5 @@
 ---
-title: "3d prototyping"
+title: "3D Prototyping"
 collection: tag
 permalink: /tag/3d-prototyping
 author_profile: false

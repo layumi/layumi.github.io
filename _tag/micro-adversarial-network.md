@@ -1,5 +1,5 @@
 ---
-title: "micro adversarial network"
+title: "Micro Adversarial Network"
 collection: tag
 permalink: /tag/micro-adversarial-network
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "adaptative semantic segmentation"
+title: "Adaptative Semantic Segmentation"
 collection: tag
 permalink: /tag/adaptative-semantic-segmentation
 author_profile: false

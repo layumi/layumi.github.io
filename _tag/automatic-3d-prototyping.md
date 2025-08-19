@@ -1,5 +1,5 @@
 ---
-title: "automatic 3d prototyping"
+title: "Automatic 3D Prototyping"
 collection: tag
 permalink: /tag/automatic-3d-prototyping
 author_profile: false

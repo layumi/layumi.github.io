@@ -1,5 +1,5 @@
 ---
-title: "object re-identification"
+title: "Object Re-Identification"
 collection: tag
 permalink: /tag/object-re-identification
 author_profile: false

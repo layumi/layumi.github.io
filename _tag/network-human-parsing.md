@@ -1,5 +1,5 @@
 ---
-title: "network human parsing"
+title: "Network Human Parsing"
 collection: tag
 permalink: /tag/network-human-parsing
 author_profile: false

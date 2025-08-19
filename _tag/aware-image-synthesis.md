@@ -1,5 +1,5 @@
 ---
-title: "aware image synthesis"
+title: "Aware Image Synthesis"
 collection: tag
 permalink: /tag/aware-image-synthesis
 author_profile: false

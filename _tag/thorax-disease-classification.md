@@ -1,5 +1,5 @@
 ---
-title: "thorax disease classification"
+title: "Thorax Disease Classification"
 collection: tag
 permalink: /tag/thorax-disease-classification
 author_profile: false

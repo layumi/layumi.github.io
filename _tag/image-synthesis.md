@@ -1,5 +1,5 @@
 ---
-title: "image synthesis"
+title: "Image Synthesis"
 collection: tag
 permalink: /tag/image-synthesis
 author_profile: false

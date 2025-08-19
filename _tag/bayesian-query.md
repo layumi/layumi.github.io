@@ -1,5 +1,5 @@
 ---
-title: "bayesian query"
+title: "Bayesian Query"
 collection: tag
 permalink: /tag/bayesian-query
 author_profile: false

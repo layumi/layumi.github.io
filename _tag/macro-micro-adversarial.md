@@ -1,5 +1,5 @@
 ---
-title: "macro micro adversarial"
+title: "Macro Micro Adversarial"
 collection: tag
 permalink: /tag/macro-micro-adversarial
 author_profile: false

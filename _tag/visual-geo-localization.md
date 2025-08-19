@@ -1,5 +1,5 @@
 ---
-title: "visual geo-localization"
+title: "Visual Geo-Localization"
 collection: tag
 permalink: /tag/visual-geo-localization
 author_profile: false

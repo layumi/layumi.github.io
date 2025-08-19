@@ -1,5 +1,5 @@
 ---
-title: "boosting text video"
+title: "Boosting Text Video"
 collection: tag
 permalink: /tag/boosting-text-video
 author_profile: false

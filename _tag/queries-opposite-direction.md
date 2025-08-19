@@ -1,5 +1,5 @@
 ---
-title: "queries opposite direction"
+title: "Queries Opposite Direction"
 collection: tag
 permalink: /tag/queries-opposite-direction
 author_profile: false

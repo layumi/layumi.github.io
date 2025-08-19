@@ -1,5 +1,5 @@
 ---
-title: "text video retrieval"
+title: "Text Video Retrieval"
 collection: tag
 permalink: /tag/text-video-retrieval
 author_profile: false

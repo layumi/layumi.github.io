@@ -1,5 +1,5 @@
 ---
-title: "video generation"
+title: "Video Generation"
 collection: tag
 permalink: /tag/video-generation
 author_profile: false

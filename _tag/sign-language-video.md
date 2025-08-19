@@ -1,5 +1,5 @@
 ---
-title: "sign language video"
+title: "Sign Language Video"
 collection: tag
 permalink: /tag/sign-language-video
 author_profile: false

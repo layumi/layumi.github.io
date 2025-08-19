@@ -1,5 +1,5 @@
 ---
-title: "feature learning step"
+title: "Feature Learning Step"
 collection: tag
 permalink: /tag/feature-learning-step
 author_profile: false

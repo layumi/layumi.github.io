@@ -1,5 +1,5 @@
 ---
-title: "person anomaly search"
+title: "Person Anomaly Search"
 collection: tag
 permalink: /tag/person-anomaly-search
 author_profile: false

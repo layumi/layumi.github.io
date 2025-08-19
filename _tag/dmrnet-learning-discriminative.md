@@ -1,5 +1,5 @@
 ---
-title: "dmrnet learning discriminative"
+title: "Dmrnet Learning Discriminative"
 collection: tag
 permalink: /tag/dmrnet-learning-discriminative
 author_profile: false

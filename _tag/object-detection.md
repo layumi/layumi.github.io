@@ -1,5 +1,5 @@
 ---
-title: "object detection"
+title: "Object Detection"
 collection: tag
 permalink: /tag/object-detection
 author_profile: false

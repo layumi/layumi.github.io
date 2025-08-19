@@ -1,5 +1,5 @@
 ---
-title: "text embeddings instance"
+title: "Text Embeddings Instance"
 collection: tag
 permalink: /tag/text-embeddings-instance
 author_profile: false

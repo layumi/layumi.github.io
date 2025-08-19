@@ -1,5 +1,5 @@
 ---
-title: "oriented conversation"
+title: "Oriented Conversation"
 collection: tag
 permalink: /tag/oriented-conversation
 author_profile: false

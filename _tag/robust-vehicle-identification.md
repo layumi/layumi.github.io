@@ -1,5 +1,5 @@
 ---
-title: "robust vehicle identification"
+title: "Robust Vehicle Identification"
 collection: tag
 permalink: /tag/robust-vehicle-identification
 author_profile: false

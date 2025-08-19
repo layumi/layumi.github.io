@@ -1,5 +1,5 @@
 ---
-title: "3d identity"
+title: "3D Identity"
 collection: tag
 permalink: /tag/3d-identity
 author_profile: false

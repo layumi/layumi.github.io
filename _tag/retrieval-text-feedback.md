@@ -1,5 +1,5 @@
 ---
-title: "retrieval text feedback"
+title: "Retrieval Text Feedback"
 collection: tag
 permalink: /tag/retrieval-text-feedback
 author_profile: false

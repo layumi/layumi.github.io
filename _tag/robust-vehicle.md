@@ -1,5 +1,5 @@
 ---
-title: "robust vehicle"
+title: "Robust Vehicle"
 collection: tag
 permalink: /tag/robust-vehicle
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "3d identity preservation"
+title: "3D Identity Preservation"
 collection: tag
 permalink: /tag/3d-identity-preservation
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "text retrieval"
+title: "Text Retrieval"
 collection: tag
 permalink: /tag/text-retrieval
 author_profile: false

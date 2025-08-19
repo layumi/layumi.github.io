@@ -1,5 +1,5 @@
 ---
-title: "cloud representation learning"
+title: "Cloud Representation Learning"
 collection: tag
 permalink: /tag/cloud-representation-learning
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "sparse sampling"
+title: "Sparse Sampling"
 collection: tag
 permalink: /tag/sparse-sampling
 author_profile: false

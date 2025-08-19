@@ -1,5 +1,5 @@
 ---
-title: "ranking graph neural"
+title: "Ranking Graph Neural"
 collection: tag
 permalink: /tag/ranking-graph-neural
 author_profile: false

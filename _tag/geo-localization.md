@@ -1,5 +1,5 @@
 ---
-title: "geo localization"
+title: "Geo Localization"
 collection: tag
 permalink: /tag/geo-localization
 author_profile: false

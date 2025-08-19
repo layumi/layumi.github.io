@@ -1,5 +1,5 @@
 ---
-title: "retrieval learning"
+title: "Retrieval Learning"
 collection: tag
 permalink: /tag/retrieval-learning
 author_profile: false

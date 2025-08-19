@@ -1,5 +1,5 @@
 ---
-title: "image retrieval acceleration"
+title: "Image Retrieval Acceleration"
 collection: tag
 permalink: /tag/image-retrieval-acceleration
 author_profile: false

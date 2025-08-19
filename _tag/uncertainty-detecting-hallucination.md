@@ -1,5 +1,5 @@
 ---
-title: "uncertainty detecting hallucination"
+title: "Uncertainty Detecting Hallucination"
 collection: tag
 permalink: /tag/uncertainty-detecting-hallucination
 author_profile: false

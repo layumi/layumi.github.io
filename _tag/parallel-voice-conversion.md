@@ -1,5 +1,5 @@
 ---
-title: "parallel voice conversion"
+title: "Parallel Voice Conversion"
 collection: tag
 permalink: /tag/parallel-voice-conversion
 author_profile: false

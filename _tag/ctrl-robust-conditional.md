@@ -1,5 +1,5 @@
 ---
-title: "ctrl robust conditional"
+title: "Ctrl Robust Conditional"
 collection: tag
 permalink: /tag/ctrl-robust-conditional
 author_profile: false

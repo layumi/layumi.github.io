@@ -1,5 +1,5 @@
 ---
-title: "language model uncertainty"
+title: "Language Model Uncertainty"
 collection: tag
 permalink: /tag/language-model-uncertainty
 author_profile: false

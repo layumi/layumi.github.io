@@ -1,5 +1,5 @@
 ---
-title: "language recognition"
+title: "Language Recognition"
 collection: tag
 permalink: /tag/language-recognition
 author_profile: false

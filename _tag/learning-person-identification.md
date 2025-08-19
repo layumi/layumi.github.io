@@ -1,5 +1,5 @@
 ---
-title: "learning person identification"
+title: "Learning Person Identification"
 collection: tag
 permalink: /tag/learning-person-identification
 author_profile: false

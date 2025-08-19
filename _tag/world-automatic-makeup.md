@@ -1,5 +1,5 @@
 ---
-title: "world automatic makeup"
+title: "World Automatic Makeup"
 collection: tag
 permalink: /tag/world-automatic-makeup
 author_profile: false

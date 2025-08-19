@@ -1,5 +1,5 @@
 ---
-title: "identity learning"
+title: "Identity Learning"
 collection: tag
 permalink: /tag/identity-learning
 author_profile: false

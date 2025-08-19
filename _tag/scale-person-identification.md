@@ -1,5 +1,5 @@
 ---
-title: "scale person identification"
+title: "Scale Person Identification"
 collection: tag
 permalink: /tag/scale-person-identification
 author_profile: false

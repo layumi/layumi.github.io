@@ -1,5 +1,5 @@
 ---
-title: "guided drones geotext"
+title: "Guided Drones Geotext"
 collection: tag
 permalink: /tag/guided-drones-geotext
 author_profile: false

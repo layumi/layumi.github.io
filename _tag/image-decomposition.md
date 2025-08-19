@@ -1,5 +1,5 @@
 ---
-title: "image decomposition"
+title: "Image Decomposition"
 collection: tag
 permalink: /tag/image-decomposition
 author_profile: false

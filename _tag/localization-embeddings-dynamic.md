@@ -1,5 +1,5 @@
 ---
-title: "localization embeddings dynamic"
+title: "Localization Embeddings Dynamic"
 collection: tag
 permalink: /tag/localization-embeddings-dynamic
 author_profile: false

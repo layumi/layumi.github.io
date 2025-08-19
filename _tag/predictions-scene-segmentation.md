@@ -1,5 +1,5 @@
 ---
-title: "predictions scene segmentation"
+title: "Predictions Scene Segmentation"
 collection: tag
 permalink: /tag/predictions-scene-segmentation
 author_profile: false

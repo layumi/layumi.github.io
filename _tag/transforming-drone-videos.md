@@ -1,5 +1,5 @@
 ---
-title: "transforming drone videos"
+title: "Transforming Drone Videos"
 collection: tag
 permalink: /tag/transforming-drone-videos
 author_profile: false

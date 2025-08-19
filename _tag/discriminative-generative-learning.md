@@ -1,5 +1,5 @@
 ---
-title: "discriminative generative learning"
+title: "Discriminative Generative Learning"
 collection: tag
 permalink: /tag/discriminative-generative-learning
 author_profile: false

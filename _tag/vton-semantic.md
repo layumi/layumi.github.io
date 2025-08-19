@@ -1,5 +1,5 @@
 ---
-title: "vton semantic"
+title: "Vton Semantic"
 collection: tag
 permalink: /tag/vton-semantic
 author_profile: false

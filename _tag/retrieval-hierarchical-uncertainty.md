@@ -1,5 +1,5 @@
 ---
-title: "retrieval hierarchical uncertainty"
+title: "Retrieval Hierarchical Uncertainty"
 collection: tag
 permalink: /tag/retrieval-hierarchical-uncertainty
 author_profile: false

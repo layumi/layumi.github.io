@@ -1,5 +1,5 @@
 ---
-title: "vton semantic prediction"
+title: "Vton Semantic Prediction"
 collection: tag
 permalink: /tag/vton-semantic-prediction
 author_profile: false

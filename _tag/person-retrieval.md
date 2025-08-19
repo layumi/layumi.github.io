@@ -1,5 +1,5 @@
 ---
-title: "person retrieval"
+title: "Person Retrieval"
 collection: tag
 permalink: /tag/person-retrieval
 author_profile: false

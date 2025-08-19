@@ -1,5 +1,5 @@
 ---
-title: "turn crafting adversarial"
+title: "Turn Crafting Adversarial"
 collection: tag
 permalink: /tag/turn-crafting-adversarial
 author_profile: false

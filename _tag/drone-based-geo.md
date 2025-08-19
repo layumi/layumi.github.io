@@ -1,5 +1,5 @@
 ---
-title: "drone based geo"
+title: "Drone Based Geo"
 collection: tag
 permalink: /tag/drone-based-geo
 author_profile: false

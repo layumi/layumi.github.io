@@ -1,5 +1,5 @@
 ---
-title: "matters local patterns"
+title: "Matters Local Patterns"
 collection: tag
 permalink: /tag/matters-local-patterns
 author_profile: false

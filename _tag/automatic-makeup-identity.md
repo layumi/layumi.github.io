@@ -1,5 +1,5 @@
 ---
-title: "automatic makeup identity"
+title: "Automatic Makeup Identity"
 collection: tag
 permalink: /tag/automatic-makeup-identity
 author_profile: false

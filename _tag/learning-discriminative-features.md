@@ -1,5 +1,5 @@
 ---
-title: "learning discriminative features"
+title: "Learning Discriminative Features"
 collection: tag
 permalink: /tag/learning-discriminative-features
 author_profile: false

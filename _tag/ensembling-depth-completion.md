@@ -1,5 +1,5 @@
 ---
-title: "ensembling depth completion"
+title: "Ensembling Depth Completion"
 collection: tag
 permalink: /tag/ensembling-depth-completion
 author_profile: false

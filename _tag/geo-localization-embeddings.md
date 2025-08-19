@@ -1,5 +1,5 @@
 ---
-title: "geo localization embeddings"
+title: "Geo Localization Embeddings"
 collection: tag
 permalink: /tag/geo-localization-embeddings
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "adaptation robust predictions"
+title: "Adaptation Robust Predictions"
 collection: tag
 permalink: /tag/adaptation-robust-predictions
 author_profile: false

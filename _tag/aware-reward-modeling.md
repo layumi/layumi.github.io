@@ -1,5 +1,5 @@
 ---
-title: "aware reward modeling"
+title: "Aware Reward Modeling"
 collection: tag
 permalink: /tag/aware-reward-modeling
 author_profile: false

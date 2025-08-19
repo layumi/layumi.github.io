@@ -1,5 +1,5 @@
 ---
-title: "language guided drones"
+title: "Language Guided Drones"
 collection: tag
 permalink: /tag/language-guided-drones
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "understanding image retrieval"
+title: "Understanding Image Retrieval"
 collection: tag
 permalink: /tag/understanding-image-retrieval
 author_profile: false

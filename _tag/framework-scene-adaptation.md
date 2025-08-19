@@ -1,5 +1,5 @@
 ---
-title: "framework scene adaptation"
+title: "Framework Scene Adaptation"
 collection: tag
 permalink: /tag/framework-scene-adaptation
 author_profile: false

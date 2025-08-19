@@ -1,5 +1,5 @@
 ---
-title: "thinking text guided"
+title: "Thinking Text Guided"
 collection: tag
 permalink: /tag/thinking-text-guided
 author_profile: false

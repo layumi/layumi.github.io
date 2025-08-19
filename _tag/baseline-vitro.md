@@ -1,5 +1,5 @@
 ---
-title: "baseline vitro"
+title: "Baseline Vitro"
 collection: tag
 permalink: /tag/baseline-vitro
 author_profile: false

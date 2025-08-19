@@ -1,5 +1,5 @@
 ---
-title: "neural oil painting"
+title: "Neural Oil Painting"
 collection: tag
 permalink: /tag/neural-oil-painting
 author_profile: false

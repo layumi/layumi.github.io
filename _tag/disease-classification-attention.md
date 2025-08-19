@@ -1,5 +1,5 @@
 ---
-title: "disease classification attention"
+title: "Disease Classification Attention"
 collection: tag
 permalink: /tag/disease-classification-attention
 author_profile: false

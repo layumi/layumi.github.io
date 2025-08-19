@@ -1,5 +1,5 @@
 ---
-title: "video2bev transforming drone"
+title: "Video2Bev Transforming Drone"
 collection: tag
 permalink: /tag/video2bev-transforming-drone
 author_profile: false
