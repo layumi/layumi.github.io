@@ -42,6 +42,7 @@ def extract_keywords_bert(title, max_keywords=3):
 
 os.system('rm -r ../_publications/*')
 os.system('rm -r ../_authors/*')
+os.system('rm -r ../tag/*')
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
@@ -212,8 +213,25 @@ for pubsource in publist:
                 
             if "geo-localization" in lower_title:
                 keywords += "visual geo-localization, " 
-                
-                
+               
+            tags = keywords.split(',')
+            for tag in tags:
+                if tag == ' ': continue
+                if tag[0] == ' ': tag = tag[1:]
+                tagname = tag.replace(' ','-')
+                if not os.path.isfile("tag/" + tagname + ".md"):
+                    with open("../tag/" + tagname + ".md", 'w') as f:
+                        f.write("---\ntitle: \""   + tag  + '"\n')
+                        f.write("""collection: tag""")
+                        f.write("""\npermalink: /tag/""" +tag)
+                        f.write("""\nauthor_profile: false""")
+                        f.write("\n---\n")
+                        f.write('{{% assign pubs_tag = site.publications | where:"keywords", {} | sort: "venue" %}}\n'
+        '{{% for post in pubs_tag %}}\n'
+        '  {{% include archive-single.html %}}\n'
+        '{{% endfor %}}'.format(tag))
+
+
             for author in bibdata.entries[bib_id].persons["author"]:
                 #print(author)
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "

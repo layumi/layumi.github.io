@@ -1,0 +1,10 @@
+---
+title: "bayesian query"
+collection: tag
+permalink: /tag/bayesian query
+author_profile: false
+---
+{% assign pubs_tag = site.publications | where:"keywords", bayesian query | sort: "venue" %}
+{% for post in pubs_tag %}
+  {% include archive-single.html %}
+{% endfor %}
