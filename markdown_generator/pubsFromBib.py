@@ -213,7 +213,8 @@ for pubsource in publist:
                 
             if "geo-localization" in lower_title:
                 keywords += "visual geo-localization, " 
-               
+            
+            keywords = keywords[:-2]
             tags = keywords.split(',')
             for tag in tags:
                 if tag == ' ': continue
@@ -222,10 +223,11 @@ for pubsource in publist:
                 if not os.path.isfile("_tag/" + tagname + ".md"):
                     with open("../_tag/" + tagname + ".md", 'w') as f:
                         f.write("---\ntitle: \""   + tag.title()  + '"\n')
-                        f.write("""collection: tag""")
+                        f.write("""layout: archive""")
+                        f.write("""\ncollection: tag""")
                         f.write("""\npermalink: /tag/""" +tagname)
                         f.write("""\nauthor_profile: false""")
-                        f.write("\n---\n")
+                        f.write("\n---\n\n")
                         f.write('{{% assign pubs_tag = site.publications | where_exp:"item", "item.keywords contains \'{}\'" | sort: "venue" %}}\n'
         '{{% for post in pubs_tag %}}\n'
         '  {{% include archive-single.html %}}\n'

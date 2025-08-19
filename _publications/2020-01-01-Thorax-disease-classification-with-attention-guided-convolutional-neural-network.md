@@ -5,7 +5,7 @@ permalink: /publication/Thorax-d2020
 date: 2020-01-01
 doi: 10.1016/j.patrec.2019.11.040
 oral: 
-keywords: thorax disease classification, disease classification attention, guided convolutional neural, 
+keywords: thorax disease classification, disease classification attention, guided convolutional neural
 venue: 'Pattern Recognition Letters (PRL)'
 paperurl: 'https://zdzheng.xyz/files/Guan_PRL20.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Qingji-Guan" class="author"> <img src= "https://zdzheng.xyz/coauthors/qingji-guan.jpg" alt="qingji-guan" style="border-radius: 50%; height:20px; width:20px">Qingji Guan</a>, <a href="https://zdzheng.xyz/authors/Yaping-Huang" class="author">Yaping Huang</a>, <a href="https://zdzheng.xyz/authors/Zhun-Zhong" class="author"> <img src= "https://zdzheng.xyz/coauthors/zhun-zhong.jpg" alt="zhun-zhong" style="border-radius: 50%; height:20px; width:20px">Zhun Zhong</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Liang-Zheng" class="author"> <img src= "https://zdzheng.xyz/coauthors/liang-zheng.jpg" alt="liang-zheng" style="border-radius: 50%; height:20px; width:20px">Liang Zheng</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'

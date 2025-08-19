@@ -6,7 +6,7 @@ excerpt: 'Oral Presentation'
 date: 2024-01-01
 doi: 
 oral: Oral Presentation
-keywords: real world layouts, framework scene adaptation, world layouts depth, domain adaptation, 
+keywords: real world layouts, framework scene adaptation, world layouts depth, domain adaptation
 venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/ACMMM24-Layout.pdf'
 code: 'https://github.com/chen742/DCF'

@@ -6,7 +6,7 @@ excerpt: 'Highlight Presentation'
 date: 2025-01-01
 doi: 
 oral: Highlight Presentation
-keywords: person anomaly search, anomaly search, text benchmark, person re-id, person retrieval, person search, 
+keywords: person anomaly search, anomaly search, text benchmark, person re-id, person retrieval, person search
 venue: 'IEEE/CVF International Conference on Computer Vision (ICCV)'
 paperurl: 'https://zdzheng.xyz/files/Yang_BeyondWalking.pdf'
 blog: 'https://mp.weixin.qq.com/s/AIm2IrzXmaN9K1P3nIMvzQ'

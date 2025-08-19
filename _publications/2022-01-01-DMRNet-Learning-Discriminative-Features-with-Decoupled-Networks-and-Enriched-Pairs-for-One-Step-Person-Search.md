@@ -5,7 +5,7 @@ permalink: /publication/DMRNet-L2022
 date: 2022-01-01
 doi: 
 oral: 
-keywords: dmrnet learning discriminative, dmrnet learning, learning discriminative features, person re-id, person retrieval, person search, 
+keywords: dmrnet learning discriminative, dmrnet learning, learning discriminative features, person re-id, person retrieval, person search
 venue: 'IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)'
 paperurl: 'https://zdzheng.xyz/files/Han_TPAMI22.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Chuchu-Han" class="author"> <img src= "https://zdzheng.xyz/coauthors/chuchu-han.jpg" alt="chuchu-han" style="border-radius: 50%; height:20px; width:20px">Chuchu Han</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Kai-Su" class="author">Kai Su</a>, <a href="https://zdzheng.xyz/authors/Dongdong-Yu" class="author">Dongdong Yu</a>, <a href="https://zdzheng.xyz/authors/Zehuan-Yuan" class="author">Zehuan Yuan</a>, <a href="https://zdzheng.xyz/authors/Changxin-Gao" class="author">Changxin Gao</a>, <a href="https://zdzheng.xyz/authors/Nong-Sang" class="author">Nong Sang</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'

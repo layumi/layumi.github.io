@@ -5,7 +5,7 @@ permalink: /publication/Coarse-t2025
 date: 2025-01-01
 doi: 
 oral: 
-keywords: enhancing vehicle identification, vehicle identification high, vehicle identification, object re-identification, image retrieval, 
+keywords: enhancing vehicle identification, vehicle identification high, vehicle identification, object re-identification, image retrieval
 venue: 'IEEE International Conference on Robotics and Automation (ICRA)'
 paperurl: 'https://zdzheng.xyz/files/ICRA25-Vehicle.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Leyang-Jin" class="author">Leyang Jin</a>, <a href="https://zdzheng.xyz/authors/Wei-Ji" class="author"> <img src= "https://zdzheng.xyz/coauthors/wei-ji.jpeg" alt="wei-ji" style="border-radius: 50%; height:20px; width:20px">Wei Ji</a>, <a href="https://zdzheng.xyz/authors/Tat-seng-Chua" class="author"> <img src= "https://zdzheng.xyz/coauthors/tat-seng-chua.jpeg" alt="tat-seng-chua" style="border-radius: 50%; height:20px; width:20px">Tat-seng Chua</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'

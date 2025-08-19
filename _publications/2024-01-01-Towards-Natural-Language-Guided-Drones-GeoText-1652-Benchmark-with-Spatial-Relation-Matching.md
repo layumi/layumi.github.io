@@ -5,7 +5,7 @@ permalink: /publication/Towards-2024
 date: 2024-01-01
 doi: 
 oral: 
-keywords: guided drones geotext, language guided drones, drones geotext, 
+keywords: guided drones geotext, language guided drones, drones geotext
 venue: 'European conference on computer vision (ECCV)'
 paperurl: 'https://zdzheng.xyz/files/ECCV24-GeoText.pdf'
 blog: 'https://www.zhihu.com/question/660698707/answer/3575966275'

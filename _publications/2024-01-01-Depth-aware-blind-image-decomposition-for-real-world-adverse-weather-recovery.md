@@ -5,7 +5,7 @@ permalink: /publication/Depth-aw2024
 date: 2024-01-01
 doi: 
 oral: 
-keywords: adverse weather recovery, weather recovery, blind image decomposition, 
+keywords: adverse weather recovery, weather recovery, blind image decomposition
 venue: 'European conference on computer vision (ECCV)'
 paperurl: 'https://zdzheng.xyz/files/ECCV24-DeBNet.pdf'
 code: 'https://github.com/Oli-iver/Depth-BID'

@@ -5,7 +5,7 @@ permalink: /publication/Multi-Vi2022
 date: 2022-01-01
 doi: 
 oral: 
-keywords: aware image synthesis, adversarial networks 3d, image synthesis, 
+keywords: aware image synthesis, adversarial networks 3d, image synthesis
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://zdzheng.xyz/files/Zhang_CVPR_2022.pdf'
 code: 'https://github.com/Xuanmeng-Zhang/MVCGAN'
