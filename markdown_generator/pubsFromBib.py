@@ -221,7 +221,7 @@ for pubsource in publist:
                 tagname = tag.replace(' ','-')
                 if not os.path.isfile("_tag/" + tagname + ".md"):
                     with open("../_tag/" + tagname + ".md", 'w') as f:
-                        f.write("---\ntitle: \""   + tag  + '"\n')
+                        f.write("---\ntitle: \""   + tag.title()  + '"\n')
                         f.write("""collection: tag""")
                         f.write("""\npermalink: /tag/""" +tagname)
                         f.write("""\nauthor_profile: false""")
