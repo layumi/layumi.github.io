@@ -5,7 +5,7 @@ permalink: /publication/Rectifyi2021
 date: 2021-01-01
 doi: 10.1007/s11263-020-01395-y
 oral: 
-keywords: adaptive semantic segmentation, pseudo label learning, semantic segmentation, domain adaptation
+keywords: adaptive semantic segmentation, pseudo label learning, semantic segmentation, domain adaptation, uncertainty learning
 venue: 'International Journal of Computer Vision (IJCV)'
 paperurl: 'https://zdzheng.xyz/files/Zheng-Yang2021_Article_RectifyingPseudoLabelLearningV.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/130220572'

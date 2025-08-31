@@ -5,7 +5,7 @@ permalink: /publication/Joint-Re2022
 date: 2022-01-01
 doi: 10.1109/TIP.2022.3175601
 oral: 
-keywords: view geo localization, keypoint detection cross, geo localization, visual geo-localization
+keywords: view geo localization, keypoint detection cross, geo localization, visual geo-localization, content-based retrieval
 venue: 'IEEE Transactions on Image Processing (TIP)'
 paperurl: 'https://zdzheng.xyz/files/TIP_RKNet.pdf'
 code: 'https://github.com/AggMan96/RK-Net'

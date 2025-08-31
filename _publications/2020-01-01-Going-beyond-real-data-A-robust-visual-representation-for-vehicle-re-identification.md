@@ -5,7 +5,7 @@ permalink: /publication/Going-be2020
 date: 2020-01-01
 doi: 
 oral: 
-keywords: representation vehicle identification, vehicle identification, visual representation vehicle, object re-identification, image retrieval
+keywords: representation vehicle identification, vehicle identification, visual representation vehicle, object re-identification, content-based retrieval
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops of AI City Challenge on City-Scale Multi-Camera Vehicle Re-Identification (the 1st Place of Track 2)'
 paperurl: 'https://openaccess.thecvf.com/content_CVPRW_2020/papers/w35/Zheng_Going_Beyond_Real_Data_A_Robust_Visual_Representation_for_Vehicle_CVPRW_2020_paper.pdf'
 code: 'https://github.com/layumi/AICIty-reID-2020'

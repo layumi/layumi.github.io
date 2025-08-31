@@ -5,7 +5,7 @@ permalink: /publication/Each-par2021
 date: 2021-01-01
 doi: 
 oral: 
-keywords: view geo localization, geo localization, matters local patterns, visual geo-localization
+keywords: view geo localization, geo localization, matters local patterns, visual geo-localization, content-based retrieval
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)'
 paperurl: 'https://zdzheng.xyz/files/Wang_LPN.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/365043015'

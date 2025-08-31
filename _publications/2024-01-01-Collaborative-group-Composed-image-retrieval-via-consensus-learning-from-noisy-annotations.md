@@ -5,7 +5,7 @@ permalink: /publication/Collabor2024
 date: 2024-01-01
 doi: 10.1016/j.knosys.2024.112135
 oral: 
-keywords: image retrieval consensus, retrieval consensus learning, collaborative group, object re-identification, image retrieval
+keywords: image retrieval consensus, retrieval consensus learning, collaborative group, object re-identification, content-based retrieval
 venue: 'Knowledge-Based Systems (KBS)'
 paperurl: 'https://zdzheng.xyz/files/KBS-triplet.pdf'
 code: 'https://github.com/XuZhang2/Css-Net'

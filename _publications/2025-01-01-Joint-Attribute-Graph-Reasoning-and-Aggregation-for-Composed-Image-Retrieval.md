@@ -5,7 +5,7 @@ permalink: /publication/Joint-At2025
 date: 2025-01-01
 doi: 
 oral: 
-keywords: graph reasoning aggregation, composed image retrieval, attribute graph reasoning, object re-identification, image retrieval
+keywords: graph reasoning aggregation, composed image retrieval, attribute graph reasoning, object re-identification, content-based retrieval
 venue: 'IEEE Transactions on Multimedia (TMM)'
 author: '<a href="https://zdzheng.xyz/authors/Xiaotong-Chen" class="author">Xiaotong Chen</a>, <a href="https://zdzheng.xyz/authors/Na-Cai" class="author">Na Cai</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Huaxin-Pang" class="author">Huaxin Pang</a>, <a href="https://zdzheng.xyz/authors/Ying-Qin" class="author">Ying Qin</a>, <a href="https://zdzheng.xyz/authors/Shikui-Wei" class="author">Shikui Wei</a>'
 sqlauthor: '{"@type": "Person","name": "Xiaotong Chen"}, {"@type": "Person","name": "Na Cai"}, {"@type": "Person","name": "Zhedong Zheng"}, {"@type": "Person","name": "Huaxin Pang"}, {"@type": "Person","name": "Ying Qin"}, {"@type": "Person","name": "Shikui Wei"}'

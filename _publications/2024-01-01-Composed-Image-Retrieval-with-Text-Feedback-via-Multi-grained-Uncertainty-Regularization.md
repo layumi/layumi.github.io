@@ -5,7 +5,7 @@ permalink: /publication/Composed2024
 date: 2024-01-01
 doi: 
 oral: 
-keywords: retrieval text feedback, grained uncertainty regularization, uncertainty regularization, object re-identification, image retrieval
+keywords: retrieval text feedback, grained uncertainty regularization, uncertainty regularization, object re-identification, content-based retrieval, uncertainty learning
 venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://zdzheng.xyz/files/ICLR2024_Chen.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/679550944'

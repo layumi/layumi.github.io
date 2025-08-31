@@ -5,7 +5,7 @@ permalink: /publication/Robust-V2021
 date: 2021-01-01
 doi: 
 oral: 
-keywords: robust vehicle identification, vehicle identification rigid, robust vehicle, object re-identification, image retrieval
+keywords: robust vehicle identification, vehicle identification rigid, robust vehicle, object re-identification, content-based retrieval
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshop of AI City Challenge on City-Scale Multi-Camera Vehicle Re-Identification (the 2nd Place of Track 2)'
 paperurl: 'https://zdzheng.xyz/files/CVPRW-2021-VehicleReid.pdf'
 code: 'https://github.com/Xuanmeng-Zhang/AICITY2021-Track2'

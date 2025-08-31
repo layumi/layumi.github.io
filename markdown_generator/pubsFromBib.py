@@ -201,7 +201,7 @@ for pubsource in publist:
             keywords=" " + extract_keywords_bert(lower_title)
             if "re-identification" in lower_title or "reidentification" in lower_title or "retrieval" in lower_title:
                 keywords += "object re-identification, " 
-                keywords += "image retrieval, "
+                keywords += "content-based retrieval, "
                 
             if "person" in lower_title or "pedestrian" in lower_title or "human" in lower_title:
                 keywords += "person re-id, "
@@ -213,6 +213,13 @@ for pubsource in publist:
                 
             if "geo-localization" in lower_title:
                 keywords += "visual geo-localization, " 
+                keywords += "content-based retrieval, "
+            
+            if "uncertainty" in lower_title:
+                keywords += "uncertainty learning, " 
+            
+            if "generation" in lower_title or "reconstruction" in lower_title or "generated" in lower_title or "synthesized" in lower_title:
+                keywords += "aigc, "
             
             keywords = keywords[:-2]
             tags = keywords.split(',')

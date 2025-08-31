@@ -7,15 +7,15 @@ redirect_from:
 ---
 
 
-## Uncertainty Learning
+## [Uncertainty Learning](https://www.zdzheng.xyz/tag/uncertainty-learning) 
 - Large Models [arXiv'24](https://www.zdzheng.xyz/publication/VL-Uncer2024)
 - Domain Adaptation [IJCV'21](https://zdzheng.xyz/publication/Rectifyi2021)
 - Depth Completion [PR'24](https://www.zdzheng.xyz/publication/Self-Ens2024)
 - Composed Retrieval [ICLR'24](https://www.zdzheng.xyz/publication/Composed2024)
 - Active Learning [CVPR'23](https://www.zdzheng.xyz/publication/Are-Bina2023)
-- 3D Bbox Detection [arXiv'24](https://www.zdzheng.xyz/publication/Harnessi2024)
+- 3D Bbox Detection [ICCV'25](https://www.zdzheng.xyz/publication/Harnessi2025)
 
-## Data Generation
+## [AIGC](https://www.zdzheng.xyz/tag/aigc)
 ![](https://zdzheng.xyz/resource-img/rainbow_github.webp)
 This research area is about generate diverse and high-fidelity data. Some methods focus on the generation quality, while others further focus on the recognition performance based on the generated data.
 - 2D Human [ICCV'17](https://zdzheng.xyz/publication/Unlabele2017), [ECCV'18](https://zdzheng.xyz/publication/Macro-mi2018), [TIP'18](https://zdzheng.xyz/publication/Multi-ps2018), [CVPR'19](https://www.zdzheng.xyz/publication/Joint-di2019), [TMM'22](https://zdzheng.xyz/publication/SPG-VTON2022)
@@ -26,7 +26,7 @@ This research area is about generate diverse and high-fidelity data. Some method
 - Sign Language [TOMM'24](https://zdzheng.xyz/publication/Jointly-2024) 
 
 
-## Content-based Retrieval 
+## [Content-based Retrieval](https://www.zdzheng.xyz/tag/image-retrieval) 
 ![](https://zdzheng.xyz/resource-img/3DMarket.jpg)
 This research area is to retrieval the relevant multi-media data including cross-view, cross-modality or other challenging cases. 
 - 2D Human [TOMM'18](https://zdzheng.xyz/publication/A-discri2018), [TCSVT'19](https://zdzheng.xyz/publication/Pedestri2018), [PR'19](https://zdzheng.xyz/publication/Improvin2019), [AAAI'21](https://zdzheng.xyz/publication/Decouple2021), [TPAMI'22](https://zdzheng.xyz/publication/DMRNet-L2022), [TCYB'22](https://zdzheng.xyz/publication/Soft-Per2022), [TMM'23](https://zdzheng.xyz/publication/Progress2023)
@@ -38,7 +38,7 @@ This research area is to retrieval the relevant multi-media data including cross
 - Adversarial Examples [IJCV'22](https://zdzheng.xyz/publication/U-turn-C2022)
 
 
-## Domain Adaptation 
+## [Domain Adaptation](https://www.zdzheng.xyz/tag/domain-adaptation) 
 ![](https://zdzheng.xyz/resource-img/pipeline.png)
 This research area is to minimize the gap between the generated data / simulation system with the real-world data / scenario during deployment. 
 - Person Re-ID [CVPR'18](https://zdzheng.xyz/publication/Camera-s2018), [TIP'19](https://zdzheng.xyz/publication/Camstyle2019)
