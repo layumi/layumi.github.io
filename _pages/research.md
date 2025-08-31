@@ -26,7 +26,7 @@ This research area is about generate diverse and high-fidelity data. Some method
 - Sign Language [TOMM'24](https://zdzheng.xyz/publication/Jointly-2024) 
 
 
-## [Content-based Retrieval](https://www.zdzheng.xyz/tag/image-retrieval) 
+## [Content-based Retrieval](https://www.zdzheng.xyz/tag/content-based-retrieval) 
 ![](https://zdzheng.xyz/resource-img/3DMarket.jpg)
 This research area is to retrieval the relevant multi-media data including cross-view, cross-modality or other challenging cases. 
 - 2D Human [TOMM'18](https://zdzheng.xyz/publication/A-discri2018), [TCSVT'19](https://zdzheng.xyz/publication/Pedestri2018), [PR'19](https://zdzheng.xyz/publication/Improvin2019), [AAAI'21](https://zdzheng.xyz/publication/Decouple2021), [TPAMI'22](https://zdzheng.xyz/publication/DMRNet-L2022), [TCYB'22](https://zdzheng.xyz/publication/Soft-Per2022), [TMM'23](https://zdzheng.xyz/publication/Progress2023)
