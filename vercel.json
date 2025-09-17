@@ -1,3 +1,11 @@
-{  
-    "cleanUrls": true
+{
+  "cleanUrls": true,
+  "build": {
+    "env": {
+      "NODE_VERSION": "22",
+      "LC_ALL": "C.UTF-8",
+      "LANG": "en_US.UTF-8",
+      "LANGUAGE": "en_US.UTF-8"
+    }
+  }
 }
