@@ -117,6 +117,10 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
+    <li><strong>NeurIPS 2025:</strong> 2 papers — 
+      <a href="https://www.zdzheng.xyz/publication/Weather2025"> WeatherPrompt</a>, 
+      <a href="https://www.zdzheng.xyz/publication/Vimo2025"> Motion Generation</a>, 
+    </li>
   <li><strong>PI</strong>, FDCT/0043/2025/RIA1, “Robust Long-Tail Anomaly Recognition via Multi-Modality Learning”, 2025–2028, MOP 2.13M</li>
   <li><strong>ACM MM Asia 2025 Brave New Idea Track:</strong> 
     <a href="https://mmasia2025.org/brave_new_ideas" style="color: #e74c3c; font-weight: bold;">Call for Papers</a> 

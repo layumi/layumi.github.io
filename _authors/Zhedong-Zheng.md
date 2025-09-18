@@ -5,6 +5,8 @@ permalink: /authors/Zhedong-Zheng
 author_profile: false
 ---
  <li> Xiaodong Wang,  Hongmin Hu,  Fei Yan,  Junwen Lu,  Zhiqiang Zeng,  Weidong Hong,  Zhedong Zheng, &quot;UniAD: Integrating Geometric and Semantic Cues for Unified Anomaly Detection.&quot; ACM Multimedia, 2025.<a href='https://zdzheng.xyz/publication/UniAD-In2025'>[Link]</a> </li>
+ <li> Jiahao Wen,  Hang Yu,  Zhedong Zheng, &quot;WeatherPrompt: Multi-modality Representation Learning for All-Weather Drone Visual Geo-Localization.&quot; NeurIPS, 2025.<a href='https://zdzheng.xyz/publication/WeatherP2025'>[Link]</a> </li>
+ <li> Haidong Xu,  Guangwei Xu,  Zhedong Zheng,  Xiatian Zhu,  Wei Ji,  Xiangtai Li,  Ruijie Guo,  Meishan Zhang,  Min Zhang,  Hao Fei, &quot;VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion Language Models.&quot; NeurIPS, 2025.<a href='https://zdzheng.xyz/publication/VimoRAG-2025'>[Link]</a> </li>
  <li> Qichao Dong,  Lingyu Liu,  Yaxiong Wang,  Jason Liu,  Zhedong Zheng, &quot;Domain-Agnostic Neural Oil Painting via Normalization Affine Test-Time Adaptation.&quot; ACM Multimedia - BNI Track, 2025.<a href='https://zdzheng.xyz/publication/Domain-A2025'>[Link]</a> </li>
  <li> Shuyu Yang,  Yaxiong Wang,  Li Zhu,  Zhedong Zheng, &quot;Beyond Walking: A Large-Scale Image-Text Benchmark for Text-based Person Anomaly Search.&quot; ICCV, 2025.<a href='https://zdzheng.xyz/publication/Beyond-W2025'>[Link]</a> </li>
  <li> Leyang Jin,  Wei Ji,  Tat-seng Chua,  Zhedong Zheng, &quot;Coarse-to-Fine Cross-modality Generation for Enhancing Vehicle Re-Identification with High-Fidelity Synthetic Data.&quot; IEEE International Conference on Robotics and Automation, 2025.<a href='https://zdzheng.xyz/publication/Coarse-t2025'>[Link]</a> </li>
