@@ -8,7 +8,9 @@ redirect_from:
 
 {% include base_path %}
 
-![](https://zdzheng.xyz/resource-img/lab-logo.webp)
+<div style="text-align: center;">
+  <img src="https://zdzheng.xyz/resource-img/lab-logo.webp" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+</div>
 
 ## Postdoc
 - [Shaofei Huang](https://spyflying.github.io/)
