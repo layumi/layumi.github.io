@@ -9,7 +9,7 @@ redirect_from:
 {% include base_path %}
 
 <div style="text-align: center;">
-  <img src="https://zdzheng.xyz/resource-img/lab-logo.webp" style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+  <img src="https://zdzheng.xyz/resource-img/lab-logo.webp" style="max-width: 50%; height: auto; display: block; margin: 0 auto;">
 </div>
 
 ## Postdoc
