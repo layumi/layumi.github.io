@@ -8,6 +8,7 @@ redirect_from:
 
 {% include base_path %}
 
+![](https://zdzheng.xyz/resource-img/lab-logo.webp)
 
 ## Postdoc
 - [Shaofei Huang](https://spyflying.github.io/)
