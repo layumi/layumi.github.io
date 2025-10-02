@@ -81,7 +81,7 @@ Google Scholar见https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ �
 [澳门大学计算机博士认可度怎么样？](https://www.zhihu.com/question/598710046)
 [澳门大学真的处在上升趋势么?](https://www.zhihu.com/question/541431807)
 
-<iframe src="https://www.youtube.com/embed/FINFZ8UuVus?si=KzWrZueKqOj9xOOE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/DwwOI9RbFhw?si=ElK70ielO8iL-fp2" title="澳門大學校園導賞（普通話） A Tour of the UM Campus (Mandarin)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-<iframe src="https://www.youtube.com/embed/a2-cTtqySRk?si=BYeCSqOu52IME10x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+<iframe src="https://www.youtube.com/embed/rs_LVsKSlK0?si=f875get9tia_MO_Z" title="新．起點 New Academic Year, New Chapter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
 
