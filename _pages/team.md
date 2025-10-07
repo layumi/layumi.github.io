@@ -1,14 +1,12 @@
 ---
 layout: archive
-title: "Team"
+title: "AI Generated Content and Data-centric Learning (AIGC-DL) Lab"
 permalink: /team/
 author_profile: true
 redirect_from:
 ---
 
 {% include base_path %}
-
-AI Generated Content and Data-centric Learning (AIGC-DL) Lab
 
 <div style="text-align: center;">
   <img src="https://zdzheng.xyz/resource-img/lab-logo.webp" style="max-width: 50%; height: auto; display: block; margin: 0 auto;">
