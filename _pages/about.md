@@ -122,10 +122,6 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
       <a href="https://www.zdzheng.xyz/publication/VimoRAG-2025"> Motion Generation</a>, 
     </li>
   <li><strong>PI</strong>, FDCT/0043/2025/RIA1, “Robust Long-Tail Anomaly Recognition via Multi-Modality Learning”, 2025–2028, MOP 2.13M</li>
-  <li><strong>ACM MM Asia 2025 Brave New Idea Track:</strong> 
-    <a href="https://mmasia2025.org/brave_new_ideas" style="color: #e74c3c; font-weight: bold;">Call for Papers</a> 
-    <span style="background: #ff9999; padding: 2px 6px; border-radius: 3px; margin-left: 5px;">New</span>
-  </li>
   <li><strong>ACM MM 2025:</strong> 2 papers — 
     <a href="https://www.zdzheng.xyz/publication/UniAD-In2025"> Anomaly Detection</a>, 
     <a href="https://www.zdzheng.xyz/publication/Domain-A2025"> Neural Painting - BNI Track <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a>, 
@@ -155,6 +151,10 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 <details>
   <summary>--View More--</summary>
   <ul>
+	 <li><strong>ACM MM Asia 2025 Brave New Idea Track:</strong> 
+	    <a href="https://mmasia2025.org/brave_new_ideas" style="color: #e74c3c; font-weight: bold;">Call for Papers</a> 
+	    <span style="background: #ff9999; padding: 2px 6px; border-radius: 3px; margin-left: 5px;">New</span>
+	 </li>
     <li><strong>ACM MM 2024 Workshops:</strong> 
       <a href="https://www.zdzheng.xyz/ACMMM2024Workshop-UAV/">Aerial-view Imaging</a>, 
       <a href="https://videorelation.nextcenter.org/MMGR24/">Multimodal Learning</a>
