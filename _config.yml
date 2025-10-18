@@ -292,6 +292,17 @@ whitelist:
   - jekyll-feed
   - jemoji
 
+minifier:
+  compress_css: true
+  compress_javascript: true
+  remove_comments: true
+  remove_spaces: true
+  
+picture:
+  source: "images"
+  output: "assets/images"
+  nomarkdown: true
+  liquid: true
 
 # Archives
 #  Type

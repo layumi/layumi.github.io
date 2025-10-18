@@ -41,7 +41,7 @@ redirect_from:
 - Jiayin Zhu: BIT (B.S.) NUS (M.S.) NUS (Pursuing Ph.D)
 - [Meng Chu](https://zdzheng.xyz/authors/Meng-Chu): BUPT (B.S.) NUS (M.S.) HKU (Pursuing Ph.D)
 - Lidong Zeng: DLUT (B.S.) NUS (M.S.)
-- Han Yi: ECUST (B.S.) NUS (M.S.) UNC (Pursuing Ph.D)
+- [Han Yi](https://texaser.github.io/): ECUST (B.S.) NUS (M.S.) UNC (Pursuing Ph.D)
 
 ### Australia (UTS)
 - [Chao Wang](https://zdzheng.xyz/authors/Chao-Wang): UTS (Pursuing Ph.D)

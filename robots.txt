@@ -1,1 +1,3 @@
-Sitemap: https://www.zdzheng.xyz/sitemap.xml
+User-agent: *
+Allow: /
+Sitemap: https://zdzheng.xyz/sitemap.xml

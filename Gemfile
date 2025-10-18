@@ -29,6 +29,8 @@ group :jekyll_plugins do
   gem 'jekyll-picture-tag'
   gem 'jekyll-seo-tag'
   gem 'jemoji'
+  gem 'jekyll-minifier'      # Compresses HTML, CSS, JS for faster page load
+  gem 'jekyll-scholar'       # Manages academic citations, enhances Google Scholar indexing
 end
 
 gem "webrick", "~> 1.8"
