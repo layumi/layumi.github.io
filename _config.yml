@@ -284,6 +284,10 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-seo-tag
+  - jekyll-minifier
+  - jekyll-scholar
+  
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -291,6 +295,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
+
 
 minifier:
   compress_css: true
