@@ -13,7 +13,7 @@ redirect_from:
 </div>
 
 ## Postdoc
-- [Shaofei Huang](https://spyflying.github.io/): PKU (B.S.) CAS (M.S., PhD)
+- [Shaofei Huang](https://spyflying.github.io/): PKU (B.S.) CAS (M.S., Ph.D)
 
 
 ## PhD
