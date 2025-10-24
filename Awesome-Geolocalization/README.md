@@ -21,7 +21,7 @@ Keywords: Cross-view Geo-localization, Spatial Intelligence, Aerial Agents.
 
 ### News 
 
-- Recently, we raise a special issue on Remote Sensing (IF=5.349) from now to ~~**16 June 2023**~~ **16 Dec 2023**. You are welcomed to submit your manuscript at (https://www.mdpi.com/journal/remotesensing/special_issues/EMPK490239), but you need to keep open-source fee in mind.
+- Multi-weather leaderboard is available at https://github.com/wtyhub/MuseNet/blob/master/State-of-the-art.md .
 
 ### University-1652 Dataset
 
@@ -70,6 +70,7 @@ Drone <-> Satellite
 | JRN-Geo | 95.13 | 95.85 | 96.72 | 94.93 | Zhou, H., Zhang, Y., Huang, T., Ge, F., Qi, M., Zhang, X., & Zhang, Y. (2025, May). JRN-Geo: A Joint Perception Network based on RGB and Normal images for Cross-view Geo-localization. ICRA 2025 | 
 | CGSI (DinoV2+BERT) | 95.45 | 96.10 | 96.58 | 95.38 | Sun, J., Huang, J., Jiang, X., Zhou, Y., & VONG, C. M. CGSI: Context-Guided and UAV’s Status Informed Multimodal Framework for Generalizable Cross-View Geo-Localization. TCSVT 2025 |
 
+[Multi-weather leaderboard](https://github.com/wtyhub/MuseNet/blob/master/State-of-the-art.md)
 
 Ground <-> Satellite
 
