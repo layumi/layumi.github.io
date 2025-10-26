@@ -228,7 +228,7 @@ Do not press the red button!
 <a href="https://zdzheng.xyz/greenbutton.html"> <img src="https://zdzheng.xyz/images/green.webp" alt="green" width="50" height="50"> </a>
 
 
-
+<!-- 添加Logo小人动画 -->
 <div id="lab-logo-container">
   <img id="lab-logo" src="https://zdzheng.xyz/resource-img/lab-logo.png" alt="Lab Logo">
 </div>
@@ -239,13 +239,10 @@ Do not press the red button!
     min-height: 100vh;
     overflow-x: hidden;
   }
-  #lab-logo-container {
-    position: fixed; /* 改为fixed，相对视口定位 */
-    z-index: 1000; /* 确保在导航栏之上 */
-  }
   #lab-logo {
-    width: 125px; /* 更新宽度 */
-    height: 100px; /* 更新高度 */
+    position: absolute;
+    width: 120px;
+    height: 100px;
     transition: transform 2s linear;
     cursor: pointer;
   }
@@ -269,72 +266,43 @@ Do not press the red button!
 
 <script>
   const logo = document.getElementById('lab-logo');
-  const navHeight = 100; // 假设导航栏高度100px，可根据实际调整
-
-  // 获取边界，限制顶部不低于导航栏
   const getBoundaries = () => ({
     maxX: window.innerWidth - logo.offsetWidth,
-    maxY: window.innerHeight - logo.offsetHeight,
-    minY: navHeight // 最小y坐标，避免遮挡导航
+    maxY: window.innerHeight - logo.offsetHeight
   });
-
-  // 随机生成目标位置
   const getRandomPosition = () => {
-    const { maxX, maxY, minY } = getBoundaries();
+    const { maxX, maxY } = getBoundaries();
     return {
       x: Math.random() * maxX,
-      y: minY + Math.random() * (maxY - minY) // y坐标从minY开始
+      y: Math.random() * maxY + 100
     };
   };
-
-  // 移动Logo
   const moveLogo = () => {
     const { x, y } = getRandomPosition();
     const currentX = parseFloat(logo.style.left || 0);
     const direction = x < currentX ? 'left' : 'right';
-
-    // 翻转方向
     logo.classList.remove('flip-left', 'flip-right');
     logo.classList.add(direction === 'left' ? 'flip-left' : 'flip-right');
-
-    // 添加走路动画
     logo.classList.add('walking');
-
-    // 更新位置，考虑滚动偏移
     logo.style.left = `${x}px`;
     logo.style.top = `${y}px`;
-
-    // 移动完成后停止动画
     setTimeout(() => {
       logo.classList.remove('walking');
       setTimeout(moveLogo, Math.random() * 2000 + 1000);
     }, 2000);
   };
-
-  // 初始化位置
   logo.style.left = '0px';
-  logo.style.top = `${navHeight}px`;
+  logo.style.top = '0px';
   moveLogo();
-
-  // 点击交互
   logo.addEventListener('click', () => {
     alert('You clicked the Lab Logo character!');
   });
-
-  // 窗口大小变化或滚动时更新位置
   window.addEventListener('resize', () => {
-    const { maxX, maxY, minY } = getBoundaries();
+    const { maxX, maxY } = getBoundaries();
     const currentX = parseFloat(logo.style.left || 0);
     const currentY = parseFloat(logo.style.top || 0);
     logo.style.left = `${Math.min(currentX, maxX)}px`;
-    logo.style.top = `${Math.max(minY, Math.min(currentY, maxY))}px`;
-  });
-
-  // 随页面滚动更新位置
-  window.addEventListener('scroll', () => {
-    const { maxX, maxY, minY } = getBoundaries();
-    const currentY = parseFloat(logo.style.top || 0);
-    logo.style.top = `${Math.max(minY, Math.min(currentY, maxY))}px`;
+    logo.style.top = `${Math.min(currentY, maxY)}px`;
   });
 </script>
   
