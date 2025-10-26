@@ -229,7 +229,82 @@ Do not press the red button!
 
 
 
+<div id="lab-logo-container">
+  <img id="lab-logo" src="https://zdzheng.xyz/resource-img/lab-logo.png" alt="Lab Logo">
+</div>
 
+<style>
+  body {
+    position: relative;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  #lab-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    transition: transform 2s linear;
+    cursor: pointer;
+  }
+  @keyframes waddle {
+    0% { transform: translate(0, 0) rotate(0deg); }
+    25% { transform: translate(0, -5px) rotate(-5deg); }
+    50% { transform: translate(0, 0) rotate(0deg); }
+    75% { transform: translate(0, -5px) rotate(5deg); }
+    100% { transform: translate(0, 0) rotate(0deg); }
+  }
+  .walking {
+    animation: waddle 0.5s infinite;
+  }
+  .flip-left {
+    transform: scaleX(-1);
+  }
+  .flip-right {
+    transform: scaleX(1);
+  }
+</style>
+
+<script>
+  const logo = document.getElementById('lab-logo');
+  const getBoundaries = () => ({
+    maxX: window.innerWidth - logo.offsetWidth,
+    maxY: window.innerHeight - logo.offsetHeight
+  });
+  const getRandomPosition = () => {
+    const { maxX, maxY } = getBoundaries();
+    return {
+      x: Math.random() * maxX,
+      y: Math.random() * maxY
+    };
+  };
+  const moveLogo = () => {
+    const { x, y } = getRandomPosition();
+    const currentX = parseFloat(logo.style.left || 0);
+    const direction = x < currentX ? 'left' : 'right';
+    logo.classList.remove('flip-left', 'flip-right');
+    logo.classList.add(direction === 'left' ? 'flip-left' : 'flip-right');
+    logo.classList.add('walking');
+    logo.style.left = `${x}px`;
+    logo.style.top = `${y}px`;
+    setTimeout(() => {
+      logo.classList.remove('walking');
+      setTimeout(moveLogo, Math.random() * 2000 + 1000);
+    }, 2000);
+  };
+  logo.style.left = '0px';
+  logo.style.top = '0px';
+  moveLogo();
+  logo.addEventListener('click', () => {
+    alert('你点击了实验室Logo小人！');
+  });
+  window.addEventListener('resize', () => {
+    const { maxX, maxY } = getBoundaries();
+    const currentX = parseFloat(logo.style.left || 0);
+    const currentY = parseFloat(logo.style.top || 0);
+    logo.style.left = `${Math.min(currentX, maxX)}px`;
+    logo.style.top = `${Math.min(currentY, maxY)}px`;
+  });
+</script>
   
 
 
