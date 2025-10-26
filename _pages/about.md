@@ -241,7 +241,7 @@ Do not press the red button!
   }
   #lab-logo {
     position: absolute;
-    width: 100px;
+    width: 125px;
     height: 100px;
     transition: transform 2s linear;
     cursor: pointer;
@@ -295,7 +295,7 @@ Do not press the red button!
   logo.style.top = '0px';
   moveLogo();
   logo.addEventListener('click', () => {
-    alert('你点击了实验室Logo小人！');
+    alert('You clicked the Lab Logo character!');
   });
   window.addEventListener('resize', () => {
     const { maxX, maxY } = getBoundaries();
