@@ -230,7 +230,7 @@ Do not press the red button!
 
 
 <div id="lab-logo-container">
-  <img id="lab-logo" src="/assets/images/lab-logo.png" alt="Lab Logo">
+  <img id="lab-logo" src="https://zdzheng.xyz/resource-img/lab-logo.png" alt="Lab Logo">
 </div>
 
 <style>
