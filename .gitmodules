@@ -25,3 +25,6 @@
 [submodule "ACMMM2025Workshop-UAV"]
 	path = ACMMM2025Workshop-UAV
 	url = https://github.com/spyflying/ACMMM2025Workshop-UAV.git
+[submodule "Awesome-Aerial-Spatial-Intelligence"]
+	path = Awesome-Aerial-Spatial-Intelligence
+	url = git@github.com:layumi/Awesome-Aerial-Spatial-Intelligence.git

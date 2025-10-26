@@ -6,6 +6,7 @@ os.system('cd ACMMM2024Workshop-UAV; git pull origin main; cd ..')
 os.system('cd ACMMM2025Workshop-UAV; git pull origin main; cd ..')
 os.system('cd MORE2024; git pull origin main; cd ..')
 os.system('cd MORE2025; git pull origin main; cd ..')
+os.system('cd Awesome-Aerial-Spatial-Intelligence; git pull origin main; cd ..')
 
 metadataREID="""---
 title: \"Pytorch ReID\"
