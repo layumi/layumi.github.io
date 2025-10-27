@@ -295,7 +295,7 @@ Do not press the red button!
   logo.style.top = '0px';
   moveLogo();
   logo.addEventListener('click', () => {
-    alert('You clicked the Lab Logo character!');
+    alert('You clicked our AIGC-DL Lab Mascot! Beep-boop!');
   });
   window.addEventListener('resize', () => {
     const { maxX, maxY } = getBoundaries();
