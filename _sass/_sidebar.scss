@@ -160,21 +160,43 @@
   font-family: $sans-serif;
   z-index: 10;
   cursor: pointer;
-  max-height: 400px; // 适配较大屏幕
-  overflow-y: auto;
+  // 添加这些来控制高度，但不影响布局
+  max-height: 400px; // 桌面端默认高度
+  overflow-y: auto; // 启用滚动
 
+  // 响应式：手机端调整
   @media (max-width: 768px) {
-    max-height: 200px; // 适配手机
+    max-height: 250px; // 手机上稍减小，避免占满屏
   }
 
   @media (max-width: 480px) {
-    max-height: 150px;
+    max-height: 200px;
   }
 
   li:last-child {
     a {
       margin-bottom: 0;
     }
+  }
+
+  // 额外：针对你的自定义列表添加滚动（防止长列表溢出）
+  .author__urls_nolisten {
+    max-height: 200px; // 每个列表独立滚动
+    overflow-y: auto;
+    margin-bottom: 10px; // 列表间距
+  }
+}
+
+// 确保 Follow 按钮不受影响
+.btn--inverse {
+  position: relative;
+  z-index: 11; // 按钮层级高于内容
+  display: block; // 手机上确保可见
+  margin-bottom: 10px;
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    padding: 8px 12px;
   }
 }
 
