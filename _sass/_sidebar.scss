@@ -155,30 +155,26 @@
 
 .author__urls-wrapper {
   position: relative;
-  display: block;
+  display: table-cell;
+  vertical-align: middle;
   font-family: $sans-serif;
   z-index: 10;
   cursor: pointer;
+  max-height: 400px; // 适配较大屏幕
+  overflow-y: auto;
+
+  @media (max-width: 768px) {
+    max-height: 200px; // 适配手机
+  }
+
+  @media (max-width: 480px) {
+    max-height: 150px;
+  }
 
   li:last-child {
     a {
       margin-bottom: 0;
     }
-  }
-
-  // 默认设置，适用于较大屏幕
-  max-height: 400px;
-  overflow-y: auto;
-
-  // 媒体查询：针对小屏幕（如手机）
-  @media (max-width: 768px) {
-    max-height: 200px; // 减少高度以适应手机屏幕
-    padding: 10px; // 添加内边距，改善可读性
-  }
-
-  // 可选：针对超小屏幕
-  @media (max-width: 480px) {
-    max-height: 150px; // 进一步调整高度
   }
 }
 
