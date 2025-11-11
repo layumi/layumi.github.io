@@ -9,7 +9,7 @@ table, th, td {
   border: 1px solid black;
 }
 </style>
-## Awesome Geo-localization
+# Awesome Geo-localization
 
  * [University-1652 Dataset](#university-1652-dataset) : a dataset containing 1652 locations of global universities, with images captured from ground, drone, and satellite perspectives.
  * [CVUSA Dataset](#cvusa) : a dataset in America, with pairs of ground-level images and satellite images. All ground-level images are panoramic images.
@@ -19,13 +19,13 @@ The dataset can be accessed from https://github.com/Liumouliu/OriCNN
 
 Keywords: Cross-view Geo-localization, Spatial Intelligence, Aerial Agents.
 
-### News 
+## News 
 
 - Multi-weather leaderboard is available at https://github.com/wtyhub/MuseNet/blob/master/State-of-the-art.md .
 
-### University-1652 Dataset
+## University-1652 Dataset
 
-Drone <-> Satellite 
+### Drone <-> Satellite 
 
 |Methods | R@1 | AP | R@1 | AP | Reference |
 | -------- | ----- | ---- | ---- |  ---- |  ---- |
@@ -78,7 +78,7 @@ Drone <-> Satellite
 
 [Multi-weather leaderboard](https://github.com/wtyhub/MuseNet/blob/master/State-of-the-art.md)
 
-Ground <-> Satellite
+### Ground <-> Satellite
 
 | Methods | Training Set | R@1 | AP | R@1 | AP | Reference |
 | -------- | -------- | ----- | ---- | ---- |  ---- |  ---- |
@@ -94,7 +94,7 @@ Ground <-> Satellite
 |VICI| Satellite + Drone + Ground | 27.49 | -  | - | - | |
 |VICI + VLM| Satellite + Drone + Ground | 30.21 | -  | - | - | |
 
-### CVUSA
+## CVUSA
 
 |Methods | R@1 | R@5 | R@10 | R@Top1 | Reference |
 | -------- | ----- | ---- | ---- |  ---- |  ---- |
@@ -141,7 +141,7 @@ Ground <-> Satellite
 |*: The method utilizes the polar transformation (assuming that all satellite images face north) as input. | |
  |** : The method utilizes the polar prior hint. |
 
-### CVACT val 
+## CVACT val 
 
 |Methods | R@1 | R@5 | R@10 | R@Top1 | Reference |
 | -------- | ----- | ---- | ---- |  ---- |  ---- |
