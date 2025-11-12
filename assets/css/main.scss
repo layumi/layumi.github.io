@@ -54,8 +54,8 @@ article h1 {
 
 /* --- 用于修复侧边栏过长的问题 --- */
 .sidebar {
-  max-height: calc(100vh - 10px);
+  max-height: calc(100vh - 85px);
   overflow-y: auto;
   position: sticky;
-  top: 5px; 
+  top: 65px; 
 }
