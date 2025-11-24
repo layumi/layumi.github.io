@@ -13,7 +13,7 @@ sqlauthor: '{"@type": "Person","name": "Xiaohan Wang"}, {"@type": "Person","name
 citation: ' Xiaohan Wang,  Linchao Zhu,  Zhedong Zheng,  Mingliang Xu,  Yi Yang, &quot;Align and tell: Boosting text-video retrieval with local alignment and fine-grained supervision.&quot; IEEE Transactions on Multimedia, 2022. DOI: 10.1109/TMM.2022.3204444'
 pub_year: '2022'
 bib: >
-    @article{wang2022align,<br>author = "Wang, Xiaohan and Zhu, Linchao and Zheng, Zhedong and Xu, Mingliang and Yang, Yi",<br>doi = "10.1109/TMM.2022.3204444",<br>title = "Align and tell: Boosting text-video retrieval with local alignment and fine-grained supervision",<br>journal = "IEEE Transactions on Multimedia",<br>url = "https://zdzheng.xyz/files/TMM22-Xiaohan.pdf",<br>year = "2022",<br>publisher = "IEEE"
+    @article{wang2022align,<br>author = "Wang, Xiaohan and Zhu, Linchao and Zheng, Zhedong and Xu, Mingliang and Yang, Yi",<br>title = "Align and tell: Boosting text-video retrieval with local alignment and fine-grained supervision",<br>journal = "IEEE Transactions on Multimedia",<br>url = "https://zdzheng.xyz/files/TMM22-Xiaohan.pdf",<br>doi = "10.1109/TMM.2022.3204444",<br>year = "2022",<br>publisher = "IEEE"
     }
 
 ---
