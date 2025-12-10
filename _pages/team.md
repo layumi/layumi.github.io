@@ -24,7 +24,6 @@ redirect_from:
 - Jiahao Zhang: Nankai University (B.Eng.) CityU (M.S.) UM (Pursuing Ph.D)
 
 ## RA
-- [Yaxuan Li](https://scholar.google.com/citations?user=myfuA38AAAAJ): HITSZ (B.S.)
 
 
 <hr> 
@@ -32,7 +31,9 @@ redirect_from:
 ## Students I Have Mentored
 
 ### Macau  
+- [Qichao Dong](https://www.zdzheng.xyz/authors/Qichao-Dong) UM (M.S.) work at HW
 - [Guiyu Zhang](https://www.zdzheng.xyz/authors/Guiyu-Zhang): SDU (B.S.) UCAS (M.S.)
+- [Yaxuan Li](https://scholar.google.com/citations?user=myfuA38AAAAJ): HITSZ (B.S.) Oxford (M.S.)
 
 ### Singapore (NUS)
 
