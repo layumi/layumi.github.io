@@ -1,7 +1,7 @@
 ---
 title: "Progressive local filter pruning for image retrieval acceleration"
 collection: publications
-permalink: /publication/Progress2023_1
+permalink: /publication/Progress2023
 date: 2023-01-01
 doi: 10.1109/TMM.2023.3256092
 oral: 
