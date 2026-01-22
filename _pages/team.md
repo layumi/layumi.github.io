@@ -22,6 +22,7 @@ redirect_from:
 - [Hao Ju](https://haodot.github.io/): DLUT (B.S., M.S.) UM (Pursuing Ph.D)
 - [Jizheng Zhang](https://www.jizhengzhang.top/): JLU (B.S.) UM (Pursuing Ph.D)
 - Jiahao Zhang: Nankai University (B.Eng.) CityU (M.S.) UM (Pursuing Ph.D)
+- [Feihong Shen](https://scholar.google.com/citations?user=pLQEkI0AAAAJ&hl=zh-CN): JLU (B.S.) UM (Pursuing Ph.D)
 
 ## RA
 
