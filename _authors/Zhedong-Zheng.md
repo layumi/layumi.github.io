@@ -5,6 +5,7 @@ permalink: /authors/Zhedong-Zheng
 author_profile: false
 ---
  <li> Xiaodong Wang,  Hongmin Hu,  Fei Yan,  Junwen Lu,  Zhiqiang Zeng,  Weidong Hong,  Zhedong Zheng, &quot;UniAD: Integrating Geometric and Semantic Cues for Unified Anomaly Detection.&quot; ACM Multimedia, 2025.<a href='https://zdzheng.xyz/publication/UniAD-In2025'>[Link]</a> </li>
+ <li> Ruiyang Zhang,  Dongzhan Zhou,  Zhedong Zheng, &quot;SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models.&quot; ICLR, 2026.<a href='https://zdzheng.xyz/publication/SketchTh2026'>[Link]</a> </li>
  <li> Haidong Xu,  Meishan Zhang,  Hao Ju,  Zhedong Zheng,  Erik Cambria,  Min Zhang,  Hao Fei, &quot;When Words Smile: Generating Diverse Emotional Facial Expressions from Text.&quot; Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025.<a href='https://zdzheng.xyz/publication/When-Wor2025'>[Link]</a> </li>
  <li> Jiahao Wen,  Hang Yu,  Zhedong Zheng, &quot;WeatherPrompt: Multi-modality Representation Learning for All-Weather Drone Visual Geo-Localization.&quot; NeurIPS, 2025.<a href='https://zdzheng.xyz/publication/WeatherP2025'>[Link]</a> </li>
  <li> Haidong Xu,  Guangwei Xu,  Zhedong Zheng,  Xiatian Zhu,  Wei Ji,  Xiangtai Li,  Ruijie Guo,  Meishan Zhang,  Min Zhang,  Hao Fei, &quot;VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion Language Models.&quot; NeurIPS, 2025.<a href='https://zdzheng.xyz/publication/VimoRAG-2025'>[Link]</a> </li>
