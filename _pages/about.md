@@ -232,7 +232,7 @@ Do not press the red button!
 
 <!-- 添加Logo小人动画 -->
 <div id="lab-logo-container">
-  <img id="lab-logo" src="https://zdzheng.xyz/resource-img/lab-logo-trans.webp" alt="Lab Logo">
+  <img id="lab-logo" src="https://zdzheng.xyz/resource-img/lab-logo-trans.webp" alt="Lab Logo" loading="lazy">
 </div>
 
 <style>
