@@ -68,6 +68,7 @@ redirect_from:
 		  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* 增强阴影 */
 		}
 	</style>
+	<link rel="preload" as="image" href="https://zdzheng.xyz/resource-img/lab-logo-trans.webp" fetchpriority="high">
 </head>
 
 
@@ -232,7 +233,7 @@ Do not press the red button!
 
 <!-- 添加Logo小人动画 -->
 <div id="lab-logo-container">
-  <img id="lab-logo" src="https://zdzheng.xyz/resource-img/lab-logo-trans.webp" alt="Lab Logo" loading="lazy">
+  <img id="lab-logo" src="https://zdzheng.xyz/resource-img/lab-logo-trans.webp" alt="Lab Logo" loading="eager">
 </div>
 
 <style>
