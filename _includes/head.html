@@ -2,10 +2,6 @@
 
 <meta charset="utf-8">
 
-<!-- For all browsers <link rel="preload" href="/assets/css/main.css" as="style">
-<link rel="stylesheet" href="/assets/css/main.css" media="all">-->
-<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
-
 <style>
   html {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -41,6 +37,10 @@
     text-decoration: underline;
   }
 </style>
+
+<!-- For all browsers <link rel="preload" href="/assets/css/main.css" as="style">
+<link rel="stylesheet" href="/assets/css/main.css" media="all">-->
+<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
 
 {% include seo.html %}
 
