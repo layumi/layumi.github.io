@@ -1,6 +1,18 @@
 {% include base_path %}
 
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style id="anti-fouc">
+  html { 
+    visibility: hidden !important; 
+    background: #fff;  /* 可選：先設背景色防白閃 */
+  }
+</style>
+
+<!-- For all browsers <link rel="preload" href="/assets/css/main.css" as="style">
+<link rel="stylesheet" href="/assets/css/main.css" media="all">-->
+<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
 
 <style>
   html {
@@ -37,10 +49,6 @@
     text-decoration: underline;
   }
 </style>
-
-<!-- For all browsers <link rel="preload" href="/assets/css/main.css" as="style">
-<link rel="stylesheet" href="/assets/css/main.css" media="all">-->
-<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
 
 {% include seo.html %}
 
@@ -104,7 +112,11 @@
 
 <meta http-equiv="cleartype" content="on">
 
-<!-- Non-critical CSS: async load (defer) -->
+<!-- Noscript fallback -->
 <noscript>
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <style>
+    html { visibility: visible !important; }
+    #lab-logo { opacity: 1 !important; visibility: visible !important; }
+  </style>
 </noscript>
