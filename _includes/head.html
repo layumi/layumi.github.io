@@ -2,6 +2,10 @@
 
 <meta charset="utf-8">
 
+<!-- For all browsers <link rel="preload" href="/assets/css/main.css" as="style">
+<link rel="stylesheet" href="/assets/css/main.css" media="all">-->
+<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+
 <style>
   html {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -91,10 +95,7 @@
 	        }
 </script>
 
-<!-- For all browsers -->
-<link rel="preload" href="/assets/css/main.css" as="style">
-<link rel="stylesheet" href="/assets/css/main.css" media="all">
-<noscript><link rel="stylesheet" href="/assets/css/main.css"></noscript>
+
 
 <!-- favicon -->
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
@@ -102,3 +103,8 @@
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
 
 <meta http-equiv="cleartype" content="on">
+
+<!-- Non-critical CSS: async load (defer) -->
+<noscript>
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</noscript>
