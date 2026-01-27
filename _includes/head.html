@@ -11,7 +11,7 @@
 
 <!-- For all browsers <link rel="preload" href="/assets/css/main.css" as="style">
 <link rel="stylesheet" href="/assets/css/main.css" media="all">-->
-<link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style" onload="this.rel='stylesheet'">
+<link rel="preload" href="/assets/css/main.css" as="style">
 
 <style>
   html {
@@ -113,7 +113,7 @@
 
 <!-- Noscript fallback -->
 <noscript>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="/assets/css/main.css" media="all">
   <style>
     html { visibility: visible !important; }
     #lab-logo { opacity: 1 !important; visibility: visible !important; }
