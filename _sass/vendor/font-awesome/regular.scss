@@ -16,7 +16,7 @@
   font-family: 'Font Awesome 6 Free';
   font-style: normal;
   font-weight: 400;
-  font-display: $fa-font-display;
+  font-display: swap;
   src: url('#{$fa-font-path}/fa-regular-400.woff2') format('woff2'),
     url('#{$fa-font-path}/fa-regular-400.ttf') format('truetype');
 }
