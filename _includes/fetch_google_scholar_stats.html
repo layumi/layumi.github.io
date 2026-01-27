@@ -1,19 +1,16 @@
 <script>
-    $(document).ready(function () {
-        {% if site.google_scholar_stats_use_cdn %}
-        var gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/{{ site.repository }}@'
-        {% else %}
-        var gsDataBaseUrl = 'https://raw.githubusercontent.com/{{ site.repository }}/'
-        {% endif %}
-        $.getJSON(gsDataBaseUrl + "google-scholar-stats/gs_data.json", function (data) {
-            // var totalCitation = data['citedby']
-            // document.getElementById('total_cit').innerHTML = totalCitation;
-            var citationEles = document.getElementsByClassName('show_paper_citations')
-            Array.prototype.forEach.call(citationEles, element => {
-                var paperId = element.getAttribute('data')
-                var numCitations = data['publications'][paperId]['num_citations']
-                element.innerHTML = '| Citations: ' + numCitations;
-            });
-        });
-    })
+    document.addEventListener('DOMContentLoaded', function () {
+        const gsDataBaseUrl = 'https://cdn.jsdelivr.net/gh/layumi/layumi.github.io@';
+        
+        fetch(gsDataBaseUrl + "google-scholar-stats/gs_data.json")
+            .then(response => response.json())
+            .then(data => {
+                document.querySelectorAll('.show_paper_citations').forEach(element => {
+                    const paperId = element.getAttribute('data');
+                    const numCitations = data.publications[paperId]?.num_citations || 0;
+                    element.innerHTML = '| Citations: ' + numCitations;
+                });
+            })
+            .catch(err => console.error('Failed to load citations:', err));
+    });
 </script>
