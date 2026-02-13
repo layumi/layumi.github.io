@@ -8,14 +8,14 @@ redirect_from:
 
 
 ## [Spatial Intelligence](https://www.zdzheng.xyz/tag/spatial-intelligence)
-- Cross View (Drone, Satellite, Ground) [ACM MM'20](https://zdzheng.xyz/publication/Universi2020), [TCSVT'21](https://zdzheng.xyz/publication/Each-par2021), [TIP'22](https://zdzheng.xyz/publication/Joint-Re2022) [TGRS'24](https://www.zdzheng.xyz/publication/Learning2024)
-- Multi-weather [PR'24](https://zdzheng.xyz/publication/Multiple2024) [NeurIPS'25](https://www.zdzheng.xyz/publication/WeatherP2025)
+- Cross View (Drone, Satellite, Ground) [ACM MM'20](https://zdzheng.xyz/publication/Universi2020), [TCSVT'21](https://zdzheng.xyz/publication/Each-par2021), [TIP'22](https://zdzheng.xyz/publication/Joint-Re2022), [TGRS'24](https://www.zdzheng.xyz/publication/Learning2024)
+- Multi-weather [PR'24](https://zdzheng.xyz/publication/Multiple2024), [NeurIPS'25](https://www.zdzheng.xyz/publication/WeatherP2025)
 - Cross Modality [ECCV'24](https://www.zdzheng.xyz/publication/Towards-2024) 
 - Video + 3DGS [ICCV'24](https://www.zdzheng.xyz/publication/Video2BE2025)
 
 
 ## [Uncertainty Learning](https://www.zdzheng.xyz/tag/uncertainty-learning) 
-- Large Models [arXiv'24](https://www.zdzheng.xyz/publication/VL-Uncer2024) [ICLR'26](https://www.zdzheng.xyz/publication/SketchTh2026) 
+- Large Models [arXiv'24](https://www.zdzheng.xyz/publication/VL-Uncer2024), [ICLR'26](https://www.zdzheng.xyz/publication/SketchTh2026) 
 - Domain Adaptation [IJCV'21](https://zdzheng.xyz/publication/Rectifyi2021)
 - Depth Completion [PR'24](https://www.zdzheng.xyz/publication/Self-Ens2024)
 - Composed Retrieval [ICLR'24](https://www.zdzheng.xyz/publication/Composed2024)
