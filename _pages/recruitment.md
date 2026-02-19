@@ -56,7 +56,7 @@ author_profile: true
 
 郑哲东博士现任澳门大学科技学院助理教授，于悉尼科技大学获得博士学位，博士论文被评为学院优秀论文（每年仅授予一人），本科毕业于复旦大学。在学术生涯中，郑博士曾在新加坡国立大学担任博士后研究员，并在博士期间于NVIDIA研究院（美国），阿里，和百度公司实习。
 
-郑博士的研究方向为表征学习和多媒体生成，他在CVPR、ICCV、TPAMI、IJCV、ACM MM等国际顶级会议和期刊上发表了65篇论文，其中31篇为CCF-A类论文，26篇发表于IEEE/ACM Transactions，9篇入选ESI高被引论文。他的研究工作在Google Scholar上被引用超过13,000次，其中单篇论文引用量超过2,500次。他的一项核心技术研究成果已成功应用于全球顶尖硬件制造商NVIDIA的系列产品中。
+郑博士的研究方向为表征学习和多媒体生成，他在CVPR、ICCV、TPAMI、IJCV、ACM MM等国际顶级会议和期刊上发表了68篇论文，其中31篇为CCF-A类论文，28篇发表于IEEE/ACM Transactions，9篇入选ESI高被引论文。他的研究工作在Google Scholar上被引用超过13,000次，其中单篇论文引用量超过2,500次。他的一项核心技术研究成果已成功应用于全球顶尖硬件制造商NVIDIA的系列产品中。
 
 郑博士的贡献获得了多项国际认可，包括2021年IEEE电路与系统学会杰出青年作者奖（每年仅授予一人）、浙江实验室国际青年人才基金，以及连续两届CVPR AI City Challenge冠军。他还连续入选斯坦福大学全球前2%顶尖科学家榜单（2021–2024）。除了研究工作，郑博士还积极参与学术社区服务。他担任TPAMI、IJCV、TIP、TMM、TCSVT等顶级期刊的审稿人，以及CVPR、ICCV、ECCV、NeurIPS等顶级会议的评审专家。他还曾担任IJCAI和AAAI的高级程序委员会委员（SPC），并担任ACM MM和IEEE ICASSP的领域主席（Area Chair）, ACM MM'25的Publication Chair。
 

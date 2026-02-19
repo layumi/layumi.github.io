@@ -19,7 +19,7 @@
 from pybtex.database.input import bibtex
 import pybtex.database.input.bibtex 
 from time import strptime
-from VenueNorm import normalize_venue
+from VenueNorm import normalize_venue, check_venue
 import string
 import html
 import os
@@ -141,6 +141,7 @@ aff_dict['Errui-Ding'] = '@ Baidu Research'
 
 
 html_filename_total = []
+all_pub,all_ccf,all_acmieee = 0,0,0
 
 for pubsource in publist:    
     parser = bibtex.Parser()
@@ -307,6 +308,10 @@ for pubsource in publist:
              
             md += "\nvenue: '" + normalize_venue(html_escape(venue)) + "'"
             
+            pub, ccf, acmieee = check_venue(normalize_venue(html_escape(venue)))
+            all_pub +=pub
+            all_ccf +=ccf
+            all_acmieee +=acmieee
             url = False
             if "url" in b.keys():
                 if len(str(b["url"])) > 5:
@@ -367,3 +372,5 @@ for pubsource in publist:
         except KeyError as e:
             print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
             continue
+            
+print("pubs: %d"%all_pub, "ccfA: %d"%all_ccf, "acm-ieee:%d"%all_acmieee)
