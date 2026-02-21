@@ -4,6 +4,7 @@ collection: authors
 permalink: /authors/Zhedong-Zheng
 author_profile: false
 ---
+ <li> Yuchen Zhang,  Yaxiong Wang,  Yujiao Wu,  Lianwei Wu,  Li Zhu,  Zhedong Zheng, &quot;The Coherence Trap: When MLLM-Crafted Narratives Exploit Manipulated Visual Contexts.&quot; CVPR, 2026.<a href='https://zdzheng.xyz/publication/The-Cohe2026'>[Link]</a> </li>
  <li> Xiaodong Wang,  Hongmin Hu,  Fei Yan,  Junwen Lu,  Zhiqiang Zeng,  Weidong Hong,  Zhedong Zheng, &quot;UniAD: Integrating Geometric and Semantic Cues for Unified Anomaly Detection.&quot; ACM Multimedia, 2025.<a href='https://zdzheng.xyz/publication/UniAD-In2025'>[Link]</a> </li>
  <li> Yiyao Huang,  Zhedong Zheng,  Ziwei Yu,  Yaxiong Wang,  Tze Tse,  Angela Yao, &quot;TIGeR: Text-Instructed Generation and Refinement for Template-Free Hand-Object Interaction.&quot; IEEE International Conference on Robotics and Automation (ICRA), 2026.<a href='https://zdzheng.xyz/publication/TIGeR-Te2026'>[Link]</a> </li>
  <li> Ruiyang Zhang,  Dongzhan Zhou,  Zhedong Zheng, &quot;SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models.&quot; ICLR, 2026.<a href='https://zdzheng.xyz/publication/SketchTh2026'>[Link]</a> </li>
