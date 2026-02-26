@@ -214,7 +214,7 @@ for pubsource in publist:
                 
             if "geo-localization" in lower_title:
                 keywords += "visual geo-localization, " 
-                keywords += "content-based retrieval, "
+                keywords += "spatial intelligence, "
             
             if "uncertainty" in lower_title:
                 keywords += "uncertainty learning, " 

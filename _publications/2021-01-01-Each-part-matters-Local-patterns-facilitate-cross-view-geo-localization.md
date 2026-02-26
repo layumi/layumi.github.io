@@ -5,7 +5,7 @@ permalink: /publication/Each-par2021
 date: 2021-01-01
 doi: 10.1109/TCSVT.2021.3061265
 oral: 
-keywords: geo localization, view geo localization, cross view geo, visual geo-localization, content-based retrieval
+keywords: geo localization, view geo localization, cross view geo, visual geo-localization, spatial intelligence
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)'
 paperurl: 'https://zdzheng.xyz/files/Wang_LPN.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/365043015'
