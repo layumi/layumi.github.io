@@ -5,7 +5,7 @@ permalink: /publication/Progress2026
 date: 2026-01-01
 doi: 
 oral: 
-keywords: automatic 3d prototyping, 3d prototyping, prototyping, aigc
+keywords: text 3d generation, automatic 3d prototyping, 3d prototyping, aigc
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
 video: 'https://www.youtube.com/watch?v=LH6-wKg30FQ'
 code: 'https://github.com/Texaser/MTN'

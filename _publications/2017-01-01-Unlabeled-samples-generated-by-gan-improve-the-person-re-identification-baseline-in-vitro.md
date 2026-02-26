@@ -6,7 +6,7 @@ excerpt: 'Spotlight Presentation'
 date: 2017-01-01
 doi: 
 oral: Spotlight Presentation
-keywords: identification baseline vitro, samples generated gan, baseline vitro, object re-identification, content-based retrieval, person re-id, person retrieval, person search, aigc
+keywords: gan improve person, samples generated gan, generated gan improve, object re-identification, content-based retrieval, person re-id, person retrieval, person search, aigc
 venue: 'IEEE/CVF International Conference on Computer Vision (ICCV)'
 paperurl: 'https://zdzheng.xyz/files/ICCV17.pdf'
 code: 'https://github.com/layumi/Person-reID_GAN'

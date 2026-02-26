@@ -5,7 +5,7 @@ permalink: /publication/CAMeL-Cr2025
 date: 2025-01-01
 doi: 10.1109/TIFS.2025.3565392
 oral: 
-keywords: meta learning text, adaptive meta learning, based person retrieval, object re-identification, content-based retrieval, person re-id, person retrieval, person search
+keywords: based person retrieval, person retrieval, text based person, object re-identification, content-based retrieval, person re-id, person retrieval, person search
 venue: 'IEEE Transactions on Information Forensics and Security (TIFS)'
 paperurl: 'https://zdzheng.xyz/files/Yu_CAMeL.pdf'
 code: 'https://github.com/Jahawn-Wen/CAMeL-reID'

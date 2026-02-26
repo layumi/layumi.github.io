@@ -5,7 +5,7 @@ permalink: /publication/Jointly-2024
 date: 2024-01-01
 doi: 10.1145/3648368
 oral: 
-keywords: language video generation, video generation, sign language video, aigc
+keywords: sign language video, language video generation, consistency sign language, aigc
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
 paperurl: 'https://zdzheng.xyz/files/TOMM_Suo.pdf'
 video: 'https://www.youtube.com/watch?v=2XL8o34hrHc'

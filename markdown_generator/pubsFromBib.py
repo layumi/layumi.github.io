@@ -26,7 +26,7 @@ import os
 import re
 from keybert import KeyBERT
 
-kw_model = KeyBERT(model='paraphrase-MiniLM-L6-v2')
+kw_model = KeyBERT(model='all-MiniLM-L6-v2')
 
 def extract_keywords_bert(title, max_keywords=3):
     keywords = kw_model.extract_keywords(

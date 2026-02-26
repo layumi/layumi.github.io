@@ -5,7 +5,7 @@ permalink: /publication/SketchTh2026
 date: 2026-01-01
 doi: 
 oral: 
-keywords: sketchthinker r1 efficient, sketch style reasoning, reasoning large multimodal
+keywords: reasoning large multimodal, large multimodal models, sketch style reasoning
 venue: 'International Conference on Learning Representations (ICLR)'
 code: 'https://github.com/Ruiyang-061X/SketchThinker-R1'
 author: '<a href="https://zdzheng.xyz/authors/Ruiyang-Zhang" class="author">Ruiyang Zhang</a>, <a href="https://zdzheng.xyz/authors/Dongzhan-Zhou" class="author">Dongzhan Zhou</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'

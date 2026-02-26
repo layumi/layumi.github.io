@@ -5,7 +5,7 @@ permalink: /publication/Learnabl2023
 date: 2023-01-01
 doi: 
 oral: 
-keywords: text retrieval, image text retrieval, retrieval, object re-identification, content-based retrieval
+keywords: ranking image text, image text retrieval, ranking image, object re-identification, content-based retrieval
 venue: 'ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)'
 paperurl: 'https://zdzheng.xyz/files/SIGIR23-Qu.pdf'
 code: 'https://github.com/lgqu/leaprr'

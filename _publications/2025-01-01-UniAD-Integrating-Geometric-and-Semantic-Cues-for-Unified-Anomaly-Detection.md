@@ -5,7 +5,7 @@ permalink: /publication/UniAD-In2025
 date: 2025-01-01
 doi: 
 oral: 
-keywords: unified anomaly detection, anomaly detection, detection
+keywords: unified anomaly detection, cues unified anomaly, anomaly detection
 venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/Wang_UniAD.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Xiaodong-Wang" class="author"> <img src= "https://zdzheng.xyz/coauthors/xiaodong-wang.jpg" alt="xiaodong-wang" style="border-radius: 50%; height:20px; width:20px">Xiaodong Wang</a>, <a href="https://zdzheng.xyz/authors/Hongmin-Hu" class="author">Hongmin Hu</a>, <a href="https://zdzheng.xyz/authors/Fei-Yan" class="author">Fei Yan</a>, <a href="https://zdzheng.xyz/authors/Junwen-Lu" class="author">Junwen Lu</a>, <a href="https://zdzheng.xyz/authors/Zhiqiang-Zeng" class="author">Zhiqiang Zeng</a>, <a href="https://zdzheng.xyz/authors/Weidong-Hong" class="author">Weidong Hong</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'

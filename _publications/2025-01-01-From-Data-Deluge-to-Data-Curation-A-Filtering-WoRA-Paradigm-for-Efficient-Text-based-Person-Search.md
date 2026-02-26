@@ -5,7 +5,7 @@ permalink: /publication/From-Dat2025
 date: 2025-01-01
 doi: 
 oral: 
-keywords: based person search, data curation filtering, data curation, person re-id, person retrieval, person search
+keywords: based person search, person search, text based person, person re-id, person retrieval, person search
 venue: 'ACM Web Conference (ACM WWW)'
 paperurl: 'https://zdzheng.xyz/files/WWW25-WoRA.pdf'
 blog: 'https://mp.weixin.qq.com/s/AGE5ZJyX6c5Y-PaKai-9OA'

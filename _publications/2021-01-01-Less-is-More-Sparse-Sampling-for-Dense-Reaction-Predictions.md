@@ -5,7 +5,7 @@ permalink: /publication/Less-is-2021
 date: 2021-01-01
 doi: 
 oral: 
-keywords: sparse sampling, sparse sampling dense, sampling dense reaction
+keywords: dense reaction predictions, sampling dense reaction, reaction predictions
 venue: 'CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place)'
 paperurl: 'https://zdzheng.xyz/files/CVPRW2021_EEV.pdf'
 code: 'https://github.com/HenryLittle/EEV-Challenge-2021'

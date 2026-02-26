@@ -5,7 +5,7 @@ permalink: /publication/WeatherP2025
 date: 2025-01-01
 doi: 
 oral: 
-keywords: learning weather drone, weatherprompt multi modality, weather drone visual, visual geo-localization, content-based retrieval
+keywords: weather drone visual, learning weather drone, drone visual geo, visual geo-localization, content-based retrieval
 venue: 'NeurIPS'
 paperurl: 'https://zdzheng.xyz/files/Wen_WeatherPrompt.pdf'
 code: 'https://github.com/Jahawn-Wen/WeatherPrompt'

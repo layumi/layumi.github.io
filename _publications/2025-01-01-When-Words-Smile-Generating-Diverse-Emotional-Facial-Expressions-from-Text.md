@@ -5,7 +5,7 @@ permalink: /publication/When-Wor2025
 date: 2025-01-01
 doi: 
 oral: 
-keywords: words smile generating, facial expressions text, words smile
+keywords: words smile generating, smile generating diverse, facial expressions text
 venue: 'Conference on Empirical Methods in Natural Language Processing (EMNLP)'
 paperurl: 'https://zdzheng.xyz/files/Haidong_When.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Haidong-Xu" class="author">Haidong Xu</a>, <a href="https://zdzheng.xyz/authors/Meishan-Zhang" class="author">Meishan Zhang</a>, <a href="https://zdzheng.xyz/authors/Hao-Ju" class="author">Hao Ju</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Erik-Cambria" class="author">Erik Cambria</a>, <a href="https://zdzheng.xyz/authors/Min-Zhang" class="author">Min Zhang</a>, <a href="https://zdzheng.xyz/authors/Hao-Fei" class="author"> <img src= "https://zdzheng.xyz/coauthors/hao-fei.jpg" alt="hao-fei" style="border-radius: 50%; height:20px; width:20px">Hao Fei</a>'

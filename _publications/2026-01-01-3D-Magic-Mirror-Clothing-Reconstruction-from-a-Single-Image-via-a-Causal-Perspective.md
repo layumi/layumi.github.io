@@ -5,7 +5,7 @@ permalink: /publication/3D-Magic2026
 date: 2026-01-01
 doi: 
 oral: 
-keywords: magic mirror clothing, mirror clothing reconstruction, image causal perspective, aigc
+keywords: mirror clothing reconstruction, magic mirror clothing, mirror clothing, aigc
 venue: 'npj Artificial Intelligence'
 paperurl: 'https://zdzheng.xyz/files/3D_Recon.pdf'
 code: 'https://github.com/layumi/3D-Magic-Mirror'

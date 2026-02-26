@@ -5,7 +5,7 @@ permalink: /publication/TIGeR-Te2026
 date: 2026-01-01
 doi: 
 oral: 
-keywords: hand object interaction, tiger text instructed, object interaction, aigc
+keywords: text instructed generation, object interaction, hand object interaction, aigc
 venue: 'IEEE International Conference on Robotics and Automation (ICRA)'
 paperurl: 'https://zdzheng.xyz/files/Huang_Tiger.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Yiyao-Huang" class="author">Yiyao Huang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Ziwei-Yu" class="author">Ziwei Yu</a>, <a href="https://zdzheng.xyz/authors/Yaxiong-Wang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yaxiong-wang.jpeg" alt="yaxiong-wang" style="border-radius: 50%; height:20px; width:20px">Yaxiong Wang</a>, <a href="https://zdzheng.xyz/authors/Tze-Tse" class="author">Tze Tse</a>, <a href="https://zdzheng.xyz/authors/Angela-Yao" class="author">Angela Yao</a>'

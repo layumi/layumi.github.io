@@ -5,7 +5,7 @@ permalink: /publication/Towards-2023
 date: 2023-01-01
 doi: 10.1145/3581783.3611709
 oral: 
-keywords: based person retrieval, person retrieval, retrieval large scale, object re-identification, content-based retrieval, person re-id, person retrieval, person search
+keywords: based person retrieval, person retrieval, person retrieval large, object re-identification, content-based retrieval, person re-id, person retrieval, person search
 venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/MM23_Yang.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/638229287'

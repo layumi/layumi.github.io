@@ -5,7 +5,7 @@ permalink: /publication/Harnessi2025
 date: 2025-01-01
 doi: 
 oral: 
-keywords: 3d object detection, object detection, detection, uncertainty learning
+keywords: 3d object detection, unsupervised 3d object, boxes unsupervised 3d, uncertainty learning
 venue: 'IEEE/CVF International Conference on Computer Vision (ICCV)'
 paperurl: 'https://zdzheng.xyz/files/Ruiyang_UA3D.pdf'
 code: 'https://github.com/Ruiyang-061X/UA3D'

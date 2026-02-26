@@ -5,7 +5,7 @@ permalink: /publication/Are-Bina2023
 date: 2023-01-01
 doi: 
 oral: 
-keywords: annotations sufficient video, retrieval hierarchical uncertainty, video moment retrieval, object re-identification, content-based retrieval, uncertainty learning
+keywords: active learning, based active learning, annotations sufficient video, object re-identification, content-based retrieval, uncertainty learning
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://zdzheng.xyz/files/CVPR23-Ji.pdf'
 code: 'https://github.com/renjie-liang/HUAL'

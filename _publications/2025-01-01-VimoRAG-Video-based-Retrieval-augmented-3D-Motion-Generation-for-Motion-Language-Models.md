@@ -5,7 +5,7 @@ permalink: /publication/VimoRAG-2025
 date: 2025-01-01
 doi: 
 oral: 
-keywords: video based retrieval, motion language models, generation motion language, object re-identification, content-based retrieval, aigc
+keywords: motion language models, generation motion language, motion language, object re-identification, content-based retrieval, aigc
 venue: 'NeurIPS'
 paperurl: 'https://zdzheng.xyz/files/Haidong_VimoRAG.pdf'
 code: 'https://walkermitty.github.io/VimoRAG/'

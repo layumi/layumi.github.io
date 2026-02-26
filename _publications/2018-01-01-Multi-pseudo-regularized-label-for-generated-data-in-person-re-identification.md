@@ -5,7 +5,7 @@ permalink: /publication/Multi-ps2018
 date: 2018-01-01
 doi: 10.1109/TIP.2018.2874715
 oral: 
-keywords: data person identification, person identification, identification, object re-identification, content-based retrieval, person re-id, person retrieval, person search, aigc
+keywords: data person identification, pseudo regularized label, regularized label generated, object re-identification, content-based retrieval, person re-id, person retrieval, person search, aigc
 venue: 'IEEE Transactions on Image Processing (TIP)'
 paperurl: 'https://zdzheng.xyz/files/TIP-08485730.pdf'
 code: 'https://github.com/Huang-3/MpRL-for-person-re-ID'

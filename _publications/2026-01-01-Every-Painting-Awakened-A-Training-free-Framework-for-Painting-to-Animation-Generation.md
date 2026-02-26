@@ -5,7 +5,7 @@ permalink: /publication/Every-Pa2026
 date: 2026-01-01
 doi: 
 oral: 
-keywords: painting animation generation, painting animation, painting awakened training, aigc
+keywords: painting animation generation, framework painting animation, painting animation, aigc
 venue: 'IEEE Transactions on Visualization and Computer Graphics'
 blog: 'https://mp.weixin.qq.com/s/6bgrQK3kD16Q8U1a6S52hA'
 code: 'https://painting-animation.github.io/animation/'
