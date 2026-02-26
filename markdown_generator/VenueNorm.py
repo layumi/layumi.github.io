@@ -16,6 +16,7 @@ venue_mapping_abbr = {
     "TOMM": "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",
     "TIP": "IEEE Transactions on Image Processing (TIP)",
     "TIFS": "IEEE Transactions on Information Forensics and Security (TIFS)",
+    "TVCG": "IEEE Transactions on Visualization and Computer Graphics",
     "TGRS": "IEEE Transactions on Geoscience and Remote Sensing (TGRS)",
     "IJCV": "International Journal of Computer Vision (IJCV)",
     "IJCAI": "International Joint Conference on Artificial Intelligence (IJCAI)",
@@ -97,6 +98,8 @@ ccf_info = {
     "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)": (False, True),
     "TOMM": (False, True),
     "EMNLP": (False, False), 
+    "TVCG": (True, True),
+    "IEEE Transactions on Visualization and Computer Graphics": (True, True),
     # 其他常见
     "TIFS": (True, True),                      # IEEE, CCF-A (安全领域)
     "IEEE Transactions on Information Forensics and Security (TIFS)": (True, True),
