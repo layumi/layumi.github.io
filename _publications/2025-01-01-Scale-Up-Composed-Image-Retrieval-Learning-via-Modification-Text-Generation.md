@@ -13,7 +13,7 @@ sqlauthor: '{"@type": "Person","name": "Yinan Zhou"}, {"@type": "Person","name":
 citation: ' Yinan Zhou,  Yaxiong Wang,  Haokun Lin,  Chen Ma,  Li Zhu,  Zhedong Zheng, &quot;Scale Up Composed Image Retrieval Learning via Modification Text Generation.&quot; IEEE Transactions on Multimedia, 2025. DOI: 10.1109/TMM.2025.3599088'
 pub_year: '2025'
 bib: >
-    @article{zhou2025,<br>author = "Zhou, Yinan and Wang, Yaxiong and Lin, Haokun and Ma, Chen and Zhu, Li and Zheng, Zhedong",<br>title = "Scale Up Composed Image Retrieval Learning via Modification Text Generation",<br>journal = "IEEE Transactions on Multimedia",<br>url = "https://zdzheng.xyz/files/TMM25-Scale.pdf",<br>doi = "10.1109/TMM.2025.3599088",<br>year = "2025"
+    @article{zhou2025scale,<br>author = "Zhou, Yinan and Wang, Yaxiong and Lin, Haokun and Ma, Chen and Zhu, Li and Zheng, Zhedong",<br>title = "Scale Up Composed Image Retrieval Learning via Modification Text Generation",<br>journal = "IEEE Transactions on Multimedia",<br>url = "https://zdzheng.xyz/files/TMM25-Scale.pdf",<br>doi = "10.1109/TMM.2025.3599088",<br>year = "2025"
     }
 
 ---
