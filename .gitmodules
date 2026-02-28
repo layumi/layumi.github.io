@@ -31,3 +31,6 @@
 [submodule "synthir"]
 	path = synthir
 	url = https://github.com/XDeadlocked/SynthIR_Web
+[submodule "synthir26"]
+	path = synthir26
+	url = https://github.com/XDeadlocked/SynthIR_Web
