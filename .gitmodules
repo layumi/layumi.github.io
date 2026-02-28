@@ -28,3 +28,6 @@
 [submodule "Awesome-Aerial-Spatial-Intelligence"]
 	path = Awesome-Aerial-Spatial-Intelligence
 	url = https://github.com/layumi/Awesome-Aerial-Spatial-Intelligence.git
+[submodule "synthir"]
+	path = synthir
+	url = https://github.com/XDeadlocked/SynthIR_Web
