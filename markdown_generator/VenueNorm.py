@@ -29,6 +29,7 @@ venue_mapping_abbr = {
     "TPAMI": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)",
     "ACM WWW": "ACM Web Conference (ACM WWW)",
     "WWW": "ACM Web Conference (ACM WWW)",
+    "npj AI": "npj Artificial Intelligence",
     "SIGIR": "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)"
 }
 
@@ -100,6 +101,7 @@ ccf_info = {
     "EMNLP": (False, False), 
     "TVCG": (True, True),
     "IEEE Transactions on Visualization and Computer Graphics": (True, True),
+    "npj Artificial Intelligence": (False, False),   
     # 其他常见
     "TIFS": (True, True),                      # IEEE, CCF-A (安全领域)
     "IEEE Transactions on Information Forensics and Security (TIFS)": (True, True),
