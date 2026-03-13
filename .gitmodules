@@ -31,3 +31,6 @@
 [submodule "synthir26"]
 	path = synthir26
 	url = https://github.com/XDeadlocked/SynthIR_Web
+[submodule "ACMMM2026Workshop-UAV"]
+	path = ACMMM2026Workshop-UAV
+	url = https://github.com/spyflying/ACMMM2026Workshop-UAV.git
