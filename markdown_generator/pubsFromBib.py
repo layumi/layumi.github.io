@@ -244,17 +244,18 @@ for pubsource in publist:
 
             for author in bibdata.entries[bib_id].persons["author"]:
                 #print(author)
+                author.last_names[0] = author.last_names[0].replace('*','')
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
                 #allauthor = allauthor +" "+author.first_names[0]+" "+author.last_names[0]+", "
-                coname = author.first_names[0]+"-"+author.last_names[0].replace('*','')
+                coname = author.first_names[0]+"-"+author.last_names[0]
                 coname = coname.lower()
                 if author.first_names[0]=="Zhedong":
-                    allauthor = allauthor+"<strong><a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a></strong>" +", "
+                    allauthor = allauthor+"<strong><a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0]+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a></strong>" +", "
                 elif coname in coauthor_dict: # add icon
-                    allauthor = allauthor + "<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\"> <img src= \"" + coauthor_dict[coname] + "\" alt=\"%s\""%coname + " style=\"border-radius: 50%; height:20px; width:20px\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
+                    allauthor = allauthor + "<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0]+"\" class=\"author\"> <img src= \"" + coauthor_dict[coname] + "\" alt=\"%s\""%coname + " style=\"border-radius: 50%; height:20px; width:20px\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
                 else:
-                    allauthor = allauthor+"<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0].replace('*','')+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
-                authors_filename = author.first_names[0]+"-"+author.last_names[0].replace('*','')+".md"
+                    allauthor = allauthor+"<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0]+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
+                authors_filename = author.first_names[0]+"-"+author.last_names[0]+".md"
                 single_authors.append(authors_filename)
                 if not os.path.isfile("../_authors/" + authors_filename):
                     with open("../_authors/" + authors_filename, 'w') as f:
