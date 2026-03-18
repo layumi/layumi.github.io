@@ -7,7 +7,7 @@ doi:
 oral: 
 keywords: text 3d generation, automatic 3d prototyping, 3d prototyping, aigc
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
-paperurl: 'https://zdzheng.xyz/files/TOMM_YiHan.pdf'
+paperurl: 'https://zdzheng.xyz/files/2026/TOMM_YiHan.pdf'
 video: 'https://www.youtube.com/watch?v=LH6-wKg30FQ'
 code: 'https://github.com/Texaser/MTN'
 author: '<a href="https://zdzheng.xyz/authors/Han-Yi" class="author">Han Yi</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Xiangyu-Xu" class="author">Xiangyu Xu</a>, <a href="https://zdzheng.xyz/authors/Tat-Seng-Chua" class="author"> <img src= "https://zdzheng.xyz/coauthors/tat-seng-chua.jpeg" alt="tat-seng-chua" style="border-radius: 50%; height:20px; width:20px">Tat-Seng Chua</a>'
@@ -15,7 +15,7 @@ sqlauthor: '{"@type": "Person","name": "Han Yi"}, {"@type": "Person","name": "Zh
 citation: ' Han Yi,  Zhedong Zheng,  Xiangyu Xu,  Tat-Seng Chua, &quot;Progressive Text-to-3D Generation for Automatic 3D Prototyping.&quot; ACM TOMM, 2026.'
 pub_year: '2026'
 bib: >
-    @article{yi2026progressive,<br>author = "Yi, Han and Zheng, Zhedong and Xu, Xiangyu and Chua, Tat-Seng",<br>title = "Progressive Text-to-3D Generation for Automatic 3D Prototyping",<br>journal = "ACM TOMM",<br>video = "https://www.youtube.com/watch?v=LH6-wKg30FQ",<br>code = "https://github.com/Texaser/MTN",<br>url = "https://zdzheng.xyz/files/TOMM\_YiHan.pdf",<br>year = "2026"
+    @article{yi2026progressive,<br>author = "Yi, Han and Zheng, Zhedong and Xu, Xiangyu and Chua, Tat-Seng",<br>title = "Progressive Text-to-3D Generation for Automatic 3D Prototyping",<br>journal = "ACM TOMM",<br>video = "https://www.youtube.com/watch?v=LH6-wKg30FQ",<br>code = "https://github.com/Texaser/MTN",<br>url = "https://zdzheng.xyz/files/2026/TOMM\_YiHan.pdf",<br>year = "2026"
     }
 
 ---
