@@ -117,6 +117,9 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
+    <li><strong>ACM MM 2026 Workshop:</strong> Aerial-view Imaging 
+      <a href="https://www.zdzheng.xyz/ACMMM2026Workshop-UAV/">[Call for Papers]</a>
+    </li>
 	<li> <strong>TVCG 2026:</strong> <a href="https://www.zdzheng.xyz/publication/Look-Com2026">🎨 Look, Compare and Draw </a></li>
 	<li> <strong>CVPR 2026:</strong> <a href="https://www.zdzheng.xyz/publication/The-Cohe2026">Manipulation Detection</a></li>
 	<li> <strong>ICLR 2026:</strong> <a href="https://www.zdzheng.xyz/publication/SketchTh2026">Efficient LLM</a></li>
@@ -146,15 +149,14 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
     <a href="https://www.zdzheng.xyz/publication/Depth-aw2024">Blind Image Decomposition</a>, 
     <a href="https://www.zdzheng.xyz/publication/Approach2024">Unsupervised 3D Object Detection</a>
   </li>
-
-  <li><strong>ACM MM 2025 Workshop:</strong> Aerial-view Imaging 
-    <a href="https://www.zdzheng.xyz/ACMMM2025Workshop-UAV/">[Call for Papers]</a>
-  </li>
 </ul>
 
 <details>
   <summary>--View More--</summary>
   <ul>
+	 <li><strong>ACM MM 2025 Workshop:</strong> Aerial-view Imaging 
+	    <a href="https://www.zdzheng.xyz/ACMMM2025Workshop-UAV/">[Call for Papers]</a>
+	 </li>
 	 <li><strong>ACM MM Asia 2025 Brave New Idea Track:</strong> 
 	    <a href="https://mmasia2025.org/brave_new_ideas" style="color: #e74c3c; font-weight: bold;">Call for Papers</a> 
 	    <span style="background: #ff9999; padding: 2px 6px; border-radius: 3px; margin-left: 5px;">New</span>
