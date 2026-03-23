@@ -25,8 +25,8 @@ redirect_from:
 - [Feihong Shen](https://vsfh.github.io/): JLU (B.S.) UM (Pursuing Ph.D)
 
 ## RA
-- Zheju Lin: Nankai University (B.Eng.)
-- Chen Xu: HITSZ (B.Eng.)
+- Zheju Lin: HITSZ (B.Eng.) 
+- Chen Xu: Nankai University (B.Eng.)
 
 <hr> 
 
