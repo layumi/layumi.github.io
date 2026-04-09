@@ -68,88 +68,94 @@ def normalize_venue(text: str) -> str:
 ccf_info = {
     # 格式: "全名或缩写": (ccf_a: bool, is_acm_ieee: bool, 备注)
     # 人工智能 / 计算机视觉领域
-    "CVPR": (True, False),                     # IEEE/CVF → IEEE
-    "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)": (True, False),
-    "ICCV": (True, False),                      # IEEE/CVF → IEEE
-    "IEEE/CVF International Conference on Computer Vision (ICCV)": (True, False),
-    "ECCV": (False, False),                    # CCF-B，非 ACM/IEEE
-    "European Conference on Computer Vision (ECCV)": (False, False),
-    "IJCV": (True, False),                     # Springer，非 ACM/IEEE
-    "International Journal of Computer Vision (IJCV)": (True, False),
-    "TPAMI": (True, True),                     # IEEE
-    "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)": (True, True),
-    "ICLR": (False, False),                    # CCF-B
-    "International Conference on Learning Representations (ICLR)": (False, False),
-    "AAAI": (True, False),                     # AAAI，非 ACM/IEEE
-    "AAAI Conference on Artificial Intelligence (AAAI)": (True, False),
-    "IJCAI": (True, False),                    # CCF-A，非 ACM/IEEE
-    "International Joint Conference on Artificial Intelligence (IJCAI)": (True, False),
-    "NeurIPS": (True, False),
+    "CVPR": (True, False, True, False),                     # IEEE/CVF → IEEE
+    "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)": (True, False, True, False),
+    "ICCV": (True, False, True, False),                      # IEEE/CVF → IEEE
+    "IEEE/CVF International Conference on Computer Vision (ICCV)": (True, False, True, False),
+    "ECCV": (False, False, True, False),                    # CCF-B，非 ACM/IEEE
+    "European Conference on Computer Vision (ECCV)": (False, False, True, False),
+    "IJCV": (True, False, False, True),                     # Springer，非 ACM/IEEE
+    "International Journal of Computer Vision (IJCV)": (True, False, False, True),
+    "TPAMI": (True, True, False, True),                     # IEEE
+    "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)": (True, True, False, True),
+    "ICLR": (False, False, True, False),                    # CCF-B
+    "International Conference on Learning Representations (ICLR)": (False, False, True, False),
+    "AAAI": (True, False, True, False),                     # AAAI，非 ACM/IEEE
+    "AAAI Conference on Artificial Intelligence (AAAI)": (True, False, True, False),
+    "IJCAI": (True, False, True, False),                    # CCF-A，非 ACM/IEEE
+    "International Joint Conference on Artificial Intelligence (IJCAI)": (True, False, True, False),
+    "NeurIPS": (True, False, True, False),
     # 多媒体 / 图形学领域
-    "ACM MM": (True, False),                    # ACM
-    "ACM International Conference on Multimedia (ACM MM)": (True, False),
-    "ACM MULTIMEDIA": (True, False),
-    "TMM": (False, True),                      # IEEE, CCF-B
-    "IEEE Transactions on Multimedia (TMM)": (False, True),
-    "TIP": (True, True),                       # IEEE, CCF-A (图形学与多媒体 A 类)
-    "IEEE Transactions on Image Processing (TIP)": (True, True),
-    "TCSVT": (False, True),                    # IEEE, CCF-B
-    "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)": (False, True),
-    "ACM TOMM": (False, True),                 # ACM, CCF-B
-    "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)": (False, True),
-    "TOMM": (False, True),
-    "EMNLP": (False, False), 
-    "TVCG": (True, True),
-    "IEEE Transactions on Visualization and Computer Graphics": (True, True),
-    "npj Artificial Intelligence": (False, False),   
+    "ACM MM": (True, False, True, False),                    # ACM
+    "ACM International Conference on Multimedia (ACM MM)": (True, False, True, False),
+    "ACM MULTIMEDIA": (True, False, True, False),
+    "TMM": (False, True, False, True),                      # IEEE, CCF-B
+    "IEEE Transactions on Multimedia (TMM)": (False, True, False, True),
+    "TIP": (True, True, False, True),                       # IEEE, CCF-A (图形学与多媒体 A 类)
+    "IEEE Transactions on Image Processing (TIP)": (True, True, False, True),
+    "TCSVT": (False, True, False, True),                    # IEEE, CCF-B
+    "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)": (False, True, False, True),
+    "ACM TOMM": (False, True, False, True),                 # ACM, CCF-B
+    "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)": (False, True, False, True),
+    "TOMM": (False, True, False, True),
+    "TVCG": (True, True, False, True),
+    "IEEE Transactions on Visualization and Computer Graphics": (True, True, False, True),
+    "npj Artificial Intelligence": (False, False, False, True),   
+    "EMNLP": (False, False, True, False), 
+    "Findings of ACL": (False, False, True, False), 
+    "ACL": (True, False, True, False), 
     # 其他常见
-    "Findings of ACL": (False, False), 
-    "ACL": (True, False), 
-    "TIFS": (True, True),                      # IEEE, CCF-A (安全领域)
-    "IEEE Transactions on Information Forensics and Security (TIFS)": (True, True),
-    "TNNLS": (False, True),                    # IEEE, CCF-B
-    "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)": (False, True),
-    "TCYB": (False, True),                     # IEEE, CCF-B
-    "IEEE Transactions on Cybernetics (TCYB)": (False, True),
-    "TGRS": (False, True),                     # IEEE, 非计算机类 A
-    "IEEE Transactions on Geoscience and Remote Sensing (TGRS)": (False, True),
-    "PR": (False, False),                      # Elsevier, CCF-B
-    "Pattern Recognition (PR)": (False, False),
-    "PRL": (False, False),                     # Elsevier, CCF-C
-    "Pattern Recognition Letters (PRL)": (False, False),
-    "KBS": (False, False),                     # Elsevier, CCF-B
-    "Knowledge-Based Systems (KBS)": (False, False),
-    "SIGIR": (True, False),                     # ACM, CCF-A
-    "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)": (True, False),
-    "ACM WWW": (True, False),                   # ACM, CCF-A
-    "ACM Web Conference (ACM WWW)": (True, False),
-    "WWW": (True, False),
-    "TASLP": (False, True),                    # IEEE/ACM, 通常 CCF-B
-    "IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)": (False, True),
-    "ICRA": (False, False),                     # IEEE, CCF-B
-    "IEEE International Conference on Robotics and Automation (ICRA)": (False, False),
+    "TIFS": (True, True, False, True),                      # IEEE, CCF-A (安全领域)
+    "IEEE Transactions on Information Forensics and Security (TIFS)": (True, True, False, True),
+    "TNNLS": (False, True, False, True),                    # IEEE, CCF-B
+    "IEEE Transactions on Neural Networks and Learning Systems (TNNLS)": (False, True, False, True),
+    "TCYB": (False, True, False, True),                     # IEEE, CCF-B
+    "IEEE Transactions on Cybernetics (TCYB)": (False, True, False, True),
+    "TGRS": (False, True, False, True),                     # IEEE, 非计算机类 A
+    "IEEE Transactions on Geoscience and Remote Sensing (TGRS)": (False, True, False, True),
+    "PR": (False, False, False, True),                      # Elsevier, CCF-B
+    "Pattern Recognition (PR)": (False, False, False, True),
+    "PRL": (False, False, False, True),                     # Elsevier, CCF-C
+    "Pattern Recognition Letters (PRL)": (False, False, False, True),
+    "KBS": (False, False, False, True),                     # Elsevier, CCF-B
+    "Knowledge-Based Systems (KBS)": (False, False, False, True),
+    "SIGIR": (True, False, True, False),                     # ACM, CCF-A
+    "ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)": (True, False, True, False),
+    "ACM WWW": (True, False, True, False),                   # ACM, CCF-A
+    "ACM Web Conference (ACM WWW)": (True, False, True, False),
+    "WWW": (True, False, True, False),
+    "TASLP": (False, True, False, True),                    # IEEE/ACM, 通常 CCF-B
+    "IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)": (False, True, False, True),
+    "ICRA": (False, False, True, False),                     # IEEE, CCF-B
+    "IEEE International Conference on Robotics and Automation (ICRA)": (False, False, True, False),
 }
 
 def check_venue(venue_name: str):
+    is_ccf_a, is_acm_ieee, is_conf, is_trans = False, False, False, False
     venue_name = venue_name.strip()
     key = venue_name.upper() if venue_name.isupper() else venue_name  # 尝试匹配缩写或全名
     if "Workshop" in key or "Workshops" in key:
-        return 0,0,0
+        print(venue_name+'is a workshop!')
+        return 0,0,0,0,0
+    if "arXiv" in key or "arxiv" in key:
+        print(venue_name+'is an arXiv!')
+        return 0,0,0,0,0
     # 尝试直接匹配
     if key in ccf_info:
-        is_ccf_a, is_acm_ieee = ccf_info[key]
+        is_ccf_a, is_acm_ieee, is_conf, is_trans = ccf_info[key]
     else:
         # 尝试模糊匹配（简单包含）
         found = False
         for k, v in ccf_info.items():
             if venue_name.lower() in k.lower() or k.lower() in venue_name.lower():
-                is_ccf_a, is_acm_ieee = v
+                is_ccf_a, is_acm_ieee, is_conf, is_trans = v
                 found = True
                 break
         if not found:
             print(venue_name+"not defined!")
-            return 0,0,0  # 未找到
-    return 1, 1 if is_ccf_a else 0, 1 if is_acm_ieee else 0
+            return 0,0,0,0,0  # 未找到
+    if is_trans: print("trans:"+venue_name)
+    return 1, 1 if is_ccf_a else 0, 1 if is_acm_ieee else 0, 1 if is_conf else 0, 1 if is_trans else 0
 
 if __name__ == "__main__":
     print(normalize_venue('International Journal of Computer Vision (IJCV)'))

@@ -141,7 +141,7 @@ aff_dict['Errui-Ding'] = '@ Baidu Research'
 
 
 html_filename_total = []
-all_pub,all_ccf,all_acmieee = 0,0,0
+all_pub,all_ccf,all_acmieee, all_conf, all_trans = 0,0,0,0,0
 
 for pubsource in publist:    
     parser = bibtex.Parser()
@@ -309,9 +309,11 @@ for pubsource in publist:
              
             md += "\nvenue: '" + normalize_venue(html_escape(venue)) + "'"
             
-            pub, ccf, acmieee = check_venue(normalize_venue(html_escape(venue)))
+            pub, ccf, acmieee, conf, trans = check_venue(normalize_venue(html_escape(venue)))
             all_pub +=pub
             all_ccf +=ccf
+            all_conf += conf
+            all_trans += trans
             all_acmieee +=acmieee
             url = False
             if "url" in b.keys():
@@ -374,4 +376,4 @@ for pubsource in publist:
             print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
             continue
             
-print("pubs: %d"%all_pub, "ccfA: %d"%all_ccf, "acm-ieee:%d"%all_acmieee)
+print("pubs: %d"%all_pub, "ccfA: %d"%all_ccf, "acm-ieee:%d"%all_acmieee, "conf:%d"%all_conf, "trans:%d"%all_trans)
