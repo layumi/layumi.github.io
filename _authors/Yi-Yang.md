@@ -5,10 +5,10 @@ permalink: /authors/Yi-Yang
 author_profile: false
 img: https://zdzheng.xyz/coauthors/yi-yang.jpeg
 ---
+ <li> Jian Ma,  Zhedong Zheng,  Hao Fei,  Feng Zheng,  Tat-Seng Chua,  Yi Yang, &quot;Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion.&quot; arXiv:2207.06057, 2022.<a href='https://zdzheng.xyz/publication/Subband-2022'>[Link]</a> </li>
  <li> Mu Chen,  Zhedong Zheng,  Yi Yang, &quot;Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation.&quot; ACM Multimedia, 2024.<a href='https://zdzheng.xyz/publication/Transfer2024'>[Link]</a> </li>
  <li> Chao Wang,  Zhedong Zheng,  Ruijie Quan,  Yifan Sun,  Yi Yang, &quot;Context-aware Pretraining for Efficient Blind Image Decomposition.&quot; CVPR, 2023.<a href='https://zdzheng.xyz/publication/Context-2023'>[Link]</a> </li>
  <li> Chao Wang,  Zhedong Zheng,  Ruijie Quan,  Yi Yang, &quot;Depth-aware blind image decomposition for real-world adverse weather recovery.&quot; European conference on computer vision (ECCV), 2024.<a href='https://zdzheng.xyz/publication/Depth-aw2024'>[Link]</a> </li>
- <li> Jian Ma,  Zhedong Zheng,  Hao Fei,  Feng Zheng,  Tat-Seng Chua,  Yi Yang, &quot;Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion.&quot; arXiv:2207.06057, 2022.<a href='https://zdzheng.xyz/publication/Subband-2022'>[Link]</a> </li>
  <li> Mu Chen,  Zhedong Zheng,  Yi Yang,  Tat-Seng Chua, &quot;PiPa: Pixel-and Patch-wise Self-supervised Learning for Domain Adaptative Semantic Segmentation.&quot; ACM MM, 2023.<a href='https://zdzheng.xyz/publication/PiPa-Pix2023'>[Link]</a> </li>
  <li> Kezhou Lin,  Xiaohan Wang,  Zhedong Zheng,  Linchao Zhu,  Yi Yang, &quot;Less is More: Sparse Sampling for Dense Reaction Predictions.&quot; CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place), 2021.<a href='https://zdzheng.xyz/publication/Less-is-2021'>[Link]</a> </li>
  <li> Shuai Bai,  Zhedong Zheng,  Xiaohan Wang,  Junyang Lin,  Zhu Zhang,  Chang Zhou,  Hongxia Yang,  Yi Yang, &quot;Connecting Language and Vision for Natural Language-Based Vehicle Retrieval.&quot; CVPR Workshop of AI City Challenge on Natural Language-Based Vehicle Retrieval (the 1st Place of Track 5), 2021.<a href='https://zdzheng.xyz/publication/Connecti2021'>[Link]</a> </li>
