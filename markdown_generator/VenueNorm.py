@@ -16,7 +16,7 @@ venue_mapping_abbr = {
     "TOMM": "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",
     "TIP": "IEEE Transactions on Image Processing (TIP)",
     "TIFS": "IEEE Transactions on Information Forensics and Security (TIFS)",
-    "TVCG": "IEEE Transactions on Visualization and Computer Graphics",
+    "TVCG": "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
     "TGRS": "IEEE Transactions on Geoscience and Remote Sensing (TGRS)",
     "IJCV": "International Journal of Computer Vision (IJCV)",
     "IJCAI": "International Joint Conference on Artificial Intelligence (IJCAI)",
