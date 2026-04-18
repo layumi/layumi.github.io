@@ -13,7 +13,7 @@ locale                   : "en-US"
 title                    : "Zhedong Zheng"
 title_separator          : "-"
 name                     : &name "Zhedong Zheng"
-description              : &description "Assistant Professor @ University of Macau"
+description              : &description "Assistant Professor @ University of Macau, IEEE Senior Member"
 url                      : "https://zdzheng.xyz" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "layumi/layumi.github.io"
@@ -86,7 +86,7 @@ analytics:
 author:
   name             : "Zhedong Zheng"
   avatar           : "profile.webp"
-  bio              : "Asst. Prof. @ UMacau"
+  bio              : "Asst. Prof. @ UMacau, IEEE Senior Member"
   location         : 
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=XT17oUEAAAAJ"
