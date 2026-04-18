@@ -375,5 +375,36 @@ for pubsource in publist:
         except KeyError as e:
             print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
             continue
+
+def insert_after_frontmatter(filepath, insert_text):
+    """智能更新：若统计句已存在则替换，否则在 front matter 后插入"""
+    insert_text = insert_text.strip()
+    
+    with open(filepath, 'r', encoding='utf-8') as f:
+        content = f.read()
+
+    # 1. 匹配旧统计句的正则（精确匹配数字变化部分）
+    old_pattern = r'I have published \d+ papers, including \d+ ccf-A and \d+ IEEE/ACM journals\.'
+
+    if re.search(old_pattern, content):
+        # ✅ 已存在 -> 仅替换这一句，不影响其他内容
+        new_content = re.sub(old_pattern, insert_text, content, count=1)
+        print("🔄 已替换现有统计信息")
+    else:
+        # ➕ 不存在 -> 在 YAML front matter 结束后插入
+        fm_pattern = r'^(\s*---\s*\n.*?\n\s*---\s*\n)'
+        match = re.match(fm_pattern, content, re.DOTALL)
+        if not match:
+            raise ValueError("❌ 未找到标准的 YAML front matter (--- ... ---)")
+        new_content = content[:match.end()] + insert_text + content[match.end():]
+        print("➕ 首次插入统计信息")
+
+    # 2. 写回文件
+    with open(filepath, 'w', encoding='utf-8') as f:
+        f.write(new_content)
+    print(f"✅ 更新完成: {filepath}")
+
             
 print("pubs: %d"%all_pub, "ccfA: %d"%all_ccf, "acm-ieee:%d"%all_acmieee, "conf:%d"%all_conf, "trans:%d"%all_trans)
+insert_text = "I have published %d papers, including %d ccf-A and %d IEEE/ACM journals. "%(all_pub, all_ccf, all_acmieee)
+insert_after_frontmatter("../_pages/publications.md", insert_text)
