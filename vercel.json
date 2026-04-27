@@ -7,5 +7,16 @@
       "LANG": "en_US.UTF-8",
       "LANGUAGE": "en_US.UTF-8"
     }
-  }
+  },
+  "headers": [
+    {
+      "source": "/sitemap.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/xml"
+        }
+      ]
+    }
+  ]
 }
