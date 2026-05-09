@@ -376,15 +376,13 @@ for pubsource in publist:
             print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
             continue
 
-def insert_after_frontmatter(filepath, insert_text):
+def insert_after_frontmatter(filepath, old_pattern, insert_text):
     """智能更新：若统计句已存在则替换，否则在 front matter 后插入"""
     insert_text = insert_text.strip()
     
     with open(filepath, 'r', encoding='utf-8') as f:
         content = f.read()
 
-    # 1. 匹配旧统计句的正则（精确匹配数字变化部分）
-    old_pattern = r'I have published \d+ papers, including \d+ ccf-A and \d+ IEEE/ACM journals\.'
 
     if re.search(old_pattern, content):
         # ✅ 已存在 -> 仅替换这一句，不影响其他内容
@@ -406,5 +404,11 @@ def insert_after_frontmatter(filepath, insert_text):
 
             
 print("pubs: %d"%all_pub, "ccfA: %d"%all_ccf, "acm-ieee:%d"%all_acmieee, "conf:%d"%all_conf, "trans:%d"%all_trans)
+old_pattern = r'I have published \d+ papers, including \d+ ccf-A and \d+ IEEE/ACM journals\.'
 insert_text = "I have published %d papers, including %d ccf-A and %d IEEE/ACM journals. "%(all_pub, all_ccf, all_acmieee)
-insert_after_frontmatter("../_pages/publications.md", insert_text)
+insert_after_frontmatter("../_pages/publications.md", old_pattern, insert_text)
+
+old_pattern = r'发表了\d+篇论文，其中\d+篇为CCF-A类论文，\d+篇发表于IEEE/ACM Transactions'
+insert_text = "发表了%d篇论文，其中%d篇为CCF-A类论文，%d篇发表于IEEE/ACM Transactions"%(all_pub, all_ccf, all_acmieee)
+insert_after_frontmatter("../_pages/recruitment.md", old_pattern, insert_text)
+
