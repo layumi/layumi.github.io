@@ -7,4 +7,5 @@ img: https://zdzheng.xyz/coauthors/hang-yu.jpg
 ---
  <li> Jiahao Wen,  Hang Yu,  Zhedong Zheng, &quot;WeatherPrompt: Multi-modality Representation Learning for All-Weather Drone Visual Geo-Localization.&quot; NeurIPS, 2025.<a href='https://zdzheng.xyz/publication/WeatherP2025'>[Link]</a> </li>
  <li> Ruiyang Zhang,  Hu Zhang,  Hang Yu,  Zhedong Zheng, &quot;Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene.&quot; European conference on computer vision (ECCV), 2024.<a href='https://zdzheng.xyz/publication/Approach2024'>[Link]</a> </li>
+ <li> Jiahao Wen,  Hang Yu,  Zhedong Zheng, &quot;FANet: Fovea Attention Network for Robust Aerial Geo-localization Across Diverse Weather Conditions.&quot; IEEE Transactions on Image Processing, 2026.<a href='https://zdzheng.xyz/publication/FANet-Fo2026'>[Link]</a> </li>
  <li> Hang Yu,  Jiahao Wen,  Zhedong Zheng, &quot;CAMeL: Cross-modality Adaptive Meta-Learning for Text-based Person Retrieval.&quot; TIFS, 2025.<a href='https://zdzheng.xyz/publication/CAMeL-Cr2025'>[Link]</a> </li>
