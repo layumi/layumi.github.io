@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Tingyu Wang"}, {"@type": "Person","name"
 citation: ' Tingyu Wang,  Zhedong Zheng,  Zunjie Zhu,  Yuhan Gao,  Yi Yang,  Chenggang Yan, &quot;Learning cross-view geo-localization embeddings via dynamic weighted decorrelation regularization.&quot; IEEE Transactions on Geoscience and Remote Sensing, 2024. DOI: 10.1109/TGRS.2024.3491757'
 pub_year: '2024'
 bib: >
-    @article{wang2022learning,<br>author = "Wang, Tingyu and Zheng, Zhedong and Zhu, Zunjie and Gao, Yuhan and Yang, Yi and Yan, Chenggang",<br>title = "Learning cross-view geo-localization embeddings via dynamic weighted decorrelation regularization",<br>journal = "IEEE Transactions on Geoscience and Remote Sensing",<br>doi = "10.1109/TGRS.2024.3491757",<br>url = "https://zdzheng.xyz/files/2024/TGRS-DWDR.pdf",<br>code = "https://github.com/wtyhub/DWDR",<br>year = "2024"
+    @article{wang2022learning,<br>author = "Wang, Tingyu and Zheng, Zhedong and Zhu, Zunjie and Gao, Yuhan and Yang, Yi and Yan, Chenggang",<br>title = "Learning cross-view geo-localization embeddings via dynamic weighted decorrelation regularization",<br>journal = "IEEE Transactions on Geoscience and Remote Sensing",<br>url = "https://zdzheng.xyz/files/2024/TGRS-DWDR.pdf",<br>code = "https://github.com/wtyhub/DWDR",<br>doi = "10.1109/TGRS.2024.3491757",<br>year = "2024"
     }
 
 ---
