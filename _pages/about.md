@@ -131,12 +131,12 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 	<li>Our work on multimedia aerial vision was <strong>showcased</strong> at the <a href="https://youtu.be/XYFWzEeey6g?si=dRHTX2V0kaZ_oIHY&t=10">UM 45th Anniversary Open Day</a></li>
     <li><strong>NeurIPS 2025:</strong> 2 papers — 
       <a href="https://www.zdzheng.xyz/publication/WeatherP2025"> WeatherPrompt</a>, 
-      <a href="https://www.zdzheng.xyz/publication/VimoRAG-2025"> Motion Generation</a>, 
+      <a href="https://www.zdzheng.xyz/publication/VimoRAG-2025"> Motion Generation</a>
     </li>
   <li><strong>PI</strong>, FDCT/0043/2025/RIA1, “Robust Long-Tail Anomaly Recognition via Multi-Modality Learning”, 2025–2028, MOP 2.13M</li>
   <li><strong>ACM MM 2025:</strong> 2 papers — 
     <a href="https://www.zdzheng.xyz/publication/UniAD-In2025"> Anomaly Detection</a>, 
-    <a href="https://www.zdzheng.xyz/publication/Domain-A2025"> Neural Painting - BNI Track <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a>, 
+    <a href="https://www.zdzheng.xyz/publication/Domain-A2025"> Neural Painting - BNI Track <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a>
   </li>
   
   <li><strong>ICCV 2025:</strong> 3 papers — 
