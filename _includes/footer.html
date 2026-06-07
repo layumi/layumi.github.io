@@ -1,9 +1,8 @@
 {% include base_path %}
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center;">
-  <!-- 社交图标部分 -->
+<div style="display: flex; justify-content: space-between; align-items: center;">
   <div class="page__footer-follow" style="flex: 1; min-width: 200px;">
-    <ul class="social-icons">
+   <ul class="social-icons" style=" display:flex; flex-wrap:nowrap; gap:12px; align-items:center; margin:0; ">
       {% if site.data.ui-text[site.locale].follow_label %}
         <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
       {% endif %}
@@ -25,7 +24,7 @@
   </div>
 
   <!-- ClustrMaps 地图 -->
-  <div style="flex: 0 0 150px; height: 75px; margin: 0 auto;">
+  <div style=" flex:0 0 120px; height:50px; overflow:hidden; ">
     <script async defer type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=-ZOGce-E9AwLSiGOii8eBx-yuoOBs9ciGma5_af-tl8&cl=ffffff&w=a"></script>
   </div>
 </div>
