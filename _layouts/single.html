@@ -49,10 +49,16 @@ layout: default
           <meta name="citation_publication_date" content="{{ page.date | date: "%Y/%m/%d" }}">
           <meta name="citation_date" content="{{ page.date | date: "%Y/%m/%d" }}">
         {% endif %}
-        {% if page.venue %}
-          <meta name="citation_journal_title" content="{{ page.venue | strip_html | escape_once }}">
-          <meta name="citation_conference_title" content="{{ page.venue | strip_html | escape_once }}">
-        {% endif %}
+		
+		{% if page.venue %}
+		  {% assign venue_lower = page.venue | downcase %}
+		  {% if venue_lower contains "conference" or venue_lower contains "proceedings" or venue_lower contains "symposium" or venue_lower contains "workshop" %}
+		    <meta name="citation_conference_title" content="{{ page.venue | strip_html | escape_once }}">
+		  {% else %}
+		    <meta name="citation_journal_title" content="{{ page.venue | strip_html | escape_once }}">
+		  {% endif %}
+		{% endif %}
+		
         {% if page.paperurl %}
           <meta name="citation_pdf_url" content="{{ page.paperurl | absolute_url }}">
         {% endif %}
