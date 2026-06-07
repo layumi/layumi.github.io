@@ -38,9 +38,10 @@ $type-size-7: 0.6875em !default;
     @include clearfix;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 0em;
+    margin-top: 0.1em;
+	margin-bottom: 0.1em;
     max-width: 100%;
-    padding: 0 0.2em 0.2em;
+    padding: 0 0.1em 0.1em;
 
     @include breakpoint($x-large) {   // 使用预估的 1280px 断点
       max-width: $x-large;
