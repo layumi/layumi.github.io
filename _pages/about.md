@@ -223,7 +223,6 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 
 <hr>
 
-
 <h2><i class="fa-solid fa-palette fa-beat"></i> Others</h2>
 <ul>
 <li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
@@ -234,7 +233,6 @@ Do not press the red button!
 
 <a href="https://zdzheng.xyz/redbutton.html"> <img src="https://zdzheng.xyz/images/red.webp" alt="red" width="50" height="50"></a>
 <a href="https://zdzheng.xyz/greenbutton.html"> <img src="https://zdzheng.xyz/images/green.webp" alt="green" width="50" height="50"> </a>
-
 
 <!-- 添加Logo小人动画 -->
 <div id="lab-logo-container">
@@ -282,7 +280,7 @@ Do not press the red button!
     const { maxX, maxY } = getBoundaries();
     return {
       x: Math.random() * maxX,
-      y: Math.random() * maxY + 100
+      y: Math.random() * (maxY -100) + 100
     };
   };
   const moveLogo = () => {
