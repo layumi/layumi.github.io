@@ -1,11 +1,18 @@
 /* ==========================================================================
-   FOOTER
+   FOOTER (已根据配置替换和预估变量)
    ========================================================================== */
+
+// 补充预估的响应式断点和字体变量
+$x-large: 1280px !default;
+$global-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !default;
+$sans-serif-narrow: "Arial Narrow", Arial, sans-serif !default;
+$type-size-6: 0.75em !default;
+$type-size-7: 0.6875em !default;
 
 .page__footer {
   @include clearfix;
-  background-color: var(--global-footer-bg-color);
-  color: var(--global-text-color-light);
+  background-color: #f2f3f3;          // 替换自 var(--global-footer-bg-color)
+  color: $light-gray;                 // 替换自 var(--global-text-color-light)
 
   float: left;
   margin-left: 0;
@@ -25,7 +32,7 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  border-top: 1px solid var(--global-dark-border-color);
+  border-top: 1px solid #bdc1c4;      // 替换自 var(--global-dark-border-color)
 
   footer {
     @include clearfix;
@@ -35,7 +42,7 @@
     max-width: 100%;
     padding: 0 1em 1em;
 
-    @include breakpoint($x-large) {
+    @include breakpoint($x-large) {   // 使用预估的 1280px 断点
       max-width: $x-large;
     }
   }
@@ -53,13 +60,13 @@
   .fab,
   .far,
   .fal {
-    color: var(--global-text-color-light);
+    color: $light-gray;               // 替换自 var(--global-text-color-light)
   }
 }
 
 .page__footer-copyright {
-  font-family: $global-font-family;
-  font-size: $type-size-7;
+  font-family: $global-font-family;   // 使用预估的标准系统字体
+  font-size: $type-size-7;            // 使用预估的极小字号 (约 11px)
 }
 
 .page__footer-follow {
@@ -73,8 +80,8 @@
     display: inline-block;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-family: $sans-serif-narrow;
-    font-size: $type-size-6;
+    font-family: $sans-serif-narrow;  // 使用预估的窄体字
+    font-size: $type-size-6;          // 使用预估的小字号 (约 12px)
     text-transform: uppercase;
   }
 
