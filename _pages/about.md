@@ -1,7 +1,6 @@
 ---
 permalink: /
 title: "Zhedong Zheng (郑哲东)"
-img: "https://zdzheng.xyz/images/profile.webp"
 seo_title: "Zhedong Zheng | Assistant Professor, University of Macau | Computer Vision, AIGC, Spatial Intelligence"
 excerpt: "Assistant Professor at the University of Macau. Research interests include Computer Vision, Spatial Intelligence, AIGC, Geo-localization, Person Re-identification and Data-centric AI."
 author_profile: true
