@@ -1,33 +1,95 @@
 {% include base_path %}
 
-<!-- 外层容器：单行布局，左右两端对齐 -->
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 15px; width: 100%;">
-  
-  <!-- 左侧社交区：允许自由压缩，避免换行 -->
-  <div class="page__footer-follow" style="flex: 1 1 auto; min-width: 0;">
-    <ul class="social-icons" style="margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 2px 10px; align-items: center;">
+<div style="
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:12px;
+  width:100%;
+">
+
+  <!-- Left: Social Links -->
+  <div class="page__footer-follow" style="
+    flex:1;
+    min-width:0;
+  ">
+    <ul class="social-icons" style="
+      margin:0;
+      padding:0;
+      list-style:none;
+      display:flex;
+      flex-wrap:wrap;
+      align-items:center;
+      gap:4px 12px;
+      line-height:1.2;
+      font-size:0.9rem;
+    ">
       {% if site.data.ui-text[site.locale].follow_label %}
-        <li style="padding: 2px 0;"><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+        <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
       {% endif %}
+
       {% if site.twitter.username %}
-        <li style="padding: 2px 0;"><a href="https://twitter.com/{{ site.twitter.username }}"><i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        <li>
+          <a href="https://twitter.com/{{ site.twitter.username }}">
+            <i class="fab fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
       {% endif %}
+
       {% if site.facebook.username %}
-        <li style="padding: 2px 0;"><a href="https://facebook.com/{{ site.facebook.username }}"><i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook</a></li>
+        <li>
+          <a href="https://facebook.com/{{ site.facebook.username }}">
+            <i class="fab fa-facebook-square" aria-hidden="true"></i> Facebook
+          </a>
+        </li>
       {% endif %}
+
       {% if site.author.github %}
-        <li style="padding: 2px 0;"><a href="https://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+        <li>
+          <a href="https://github.com/{{ site.author.github }}">
+            <i class="fab fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
       {% endif %}
+
       {% if site.author.bitbucket %}
-        <li style="padding: 2px 0;"><a href="https://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+        <li>
+          <a href="https://bitbucket.org/{{ site.author.bitbucket }}">
+            <i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket
+          </a>
+        </li>
       {% endif %}
-      <li style="padding: 2px 0;"><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
-      <li style="padding: 2px 0;"><a href="/sitemap/"> Sitemap</a></li>
+
+      <li>
+        <a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}">
+          <i class="fa fa-fw fa-rss-square" aria-hidden="true"></i>
+          {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}
+        </a>
+      </li>
+
+      <li>
+        <a href="/sitemap/">Sitemap</a>
+      </li>
     </ul>
   </div>
 
-  <!-- 右侧地图区：固定尺寸，防止撑高 -->
-  <div style="flex: 0 0 120px; height: 60px; overflow: hidden; display: flex; align-items: center; justify-content: center;">
-    <script async defer type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=-ZOGce-E9AwLSiGOii8eBx-yuoOBs9ciGma5_af-tl8&cl=ffffff&w=a"></script>
+  <!-- Right: Visitor Map -->
+  <div style="
+    flex:0 0 100px;
+    width:100px;
+    height:45px;
+    overflow:hidden;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  ">
+    <script
+      async
+      defer
+      type="text/javascript"
+      id="mapmyvisitors"
+      src="//mapmyvisitors.com/map.js?d=-ZOGce-E9AwLSiGOii8eBx-yuoOBs9ciGma5_af-tl8&cl=ffffff&w=a">
+    </script>
   </div>
+
 </div>
