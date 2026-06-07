@@ -1,6 +1,7 @@
 ---
 permalink: /
 title: "Zhedong Zheng (郑哲东)"
+seo_title: "Zhedong Zheng | Assistant Professor, University of Macau | Computer Vision, AIGC, Spatial Intelligence"
 excerpt: ""
 author_profile: true
 redirect_from: 
