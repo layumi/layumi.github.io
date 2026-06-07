@@ -269,7 +269,6 @@ Do not press the red button!
     transform: scaleX(1);
   }
 </style>
-
 <script>
   const logo = document.getElementById('lab-logo');
   const getBoundaries = () => ({
@@ -311,6 +310,3 @@ Do not press the red button!
     logo.style.top = `${Math.min(currentY, maxY)}px`;
   });
 </script>
-  
-
-
