@@ -3,6 +3,7 @@ permalink: /
 title: "Zhedong Zheng (郑哲东)"
 seo_title: "Zhedong Zheng | Assistant Professor, University of Macau | Computer Vision, AIGC, Spatial Intelligence"
 excerpt: ""
+description: "Assistant Professor at the University of Macau. Research interests include Computer Vision, Spatial Intelligence, AIGC, Geo-localization, Person Re-identification and Data-centric AI."
 author_profile: true
 redirect_from: 
   - /about/
@@ -70,11 +71,8 @@ redirect_from:
 		}
 	</style>
 </head>
-
-
-<meta name="description"
-  content="Zhedong Zheng is  a tenure-track assistant professor at the University of Macau,  where he hosts the AIGC-DL Lab, specializing in person re-identification (reID). He obtained his Ph.D. from UTS's ReLER Lab, mentored by Prof. Yi Yang and Dr. Liang Zheng. With a strong foundation from Fudan University, he has collaborated with leading experts at Nvidia and Baidu. His focus on reID underscores his dedication to advancing this vital field.">  
-<meta name="keywords" content="Zhedong Zheng, Person Re-ID, Object Re-ID, Person Retrieval, Person Search" />
+ 
+<meta name="keywords" content="Zhedong Zheng, 郑哲东, University of Macau, AIGC, Spatial Intelligence, Data-Centric AI, Object Re-identification, Person Re-ID, Vehicle Re-ID, Geo-localization, Domain Adaptation, Computer Vision, Deep Learning, Generative AI, 3D Vision, PhD positions Macau, Postdoc positions, Computer Vision Professor">
 		   
 Hi! I am currently a tenure-track assistant professor at the [University of Macau](https://www.fst.um.edu.mo/people/zhedongzheng/), where I host the [AIGC-DL Lab](https://www.fst.um.edu.mo/research/laboratories/ai-generated-content-aigc-and-data-centric-learning-laboratory/). Prior to this, I was a postdoctoral research fellow at School of Computing, National University of Singapore with <a href="https://www.chuatatseng.com">Prof. Tat-Seng Chua</a> and <a href="https://www.comp.nus.edu.sg/~ayao/">Prof. Angela Yao</a>. I received Ph.D. from the <a href="https://reler.net/">ReLER Lab</a>, <a href="https://www.uts.edu.au/">University of Technology Sydney (UTS) </a>, under the supervision of <a href="https://scholar.google.com/citations?user=RMSuNFwAAAAJ">Prof. Yi Yang</a> and <a href="https://zheng-lab.cecs.anu.edu.au/">Dr. Liang Zheng</a> (co-supervisor). 
 Before that, I completed my Bachelor's degree from <a href="https://www.fudan.edu.cn">Fudan University</a> in 2016, under the supervision of <a href="https://scholar.google.com.au/citations?user=DTbhX6oAAAAJ&hl=en">Prof. Xiangyang Xue</a>. 
@@ -146,21 +144,19 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
     <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval <span class="oral-tag">(<i class="fas fa-star"></i>Highlight)</span></a>, 
     <a href="https://www.zdzheng.xyz/publication/Harnessi2025">3D Detection</a>
   </li>
-
   <li><strong>ICLR 2025:</strong> <a href="https://www.zdzheng.xyz/publication/Ctrl-u-R2025">Conditional Generation</a></li>
   <li><strong>ACM WWW 2025:</strong> <a href="https://www.zdzheng.xyz/publication/From-Dat2025">Text-based Person Search</a></li>
-  <li><strong>ACM MM 2024:</strong> <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a></li>
-
-  <li><strong>ECCV 2024:</strong> 3 papers — 
-    <a href="https://www.zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, 
-    <a href="https://www.zdzheng.xyz/publication/Depth-aw2024">Blind Image Decomposition</a>, 
-    <a href="https://www.zdzheng.xyz/publication/Approach2024">Unsupervised 3D Object Detection</a>
-  </li>
 </ul>
 
 <details>
   <summary>--View More--</summary>
-  <ul>
+  <ul> 
+	 <li><strong>ACM MM 2024:</strong> <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a></li>
+     <li><strong>ECCV 2024:</strong> 3 papers — 
+        <a href="https://www.zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, 
+        <a href="https://www.zdzheng.xyz/publication/Depth-aw2024">Blind Image Decomposition</a>, 
+        <a href="https://www.zdzheng.xyz/publication/Approach2024">Unsupervised 3D Object Detection</a>
+     </li>
 	 <li><strong>ACM MM 2025 Workshop:</strong> Aerial-view Imaging 
 	    <a href="https://www.zdzheng.xyz/ACMMM2025Workshop-UAV/">[Call for Papers]</a>
 	 </li>

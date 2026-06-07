@@ -103,6 +103,8 @@ layout: default
 		{% if page.bib %}
 		  <meta name="description" content="{{page.citation}}">
 		  <pre class="bibtex-content">{{page.bib}}</pre>
+		{% elsif page.excerpt %}
+		  <meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | escape_once }}">
 		{% else %}
 		  <meta name="description" content="{{page.title}}">
 		{% endif %}
