@@ -22,8 +22,7 @@ layout: default
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
 	{% if page.bib %}
 	    <meta name="description" content="{{page.citation}}">
-		<meta name="og:description" content="{{page.citation}}">
-		<pre class="bibtex-content">{{page.bib}}</pre>
+		<meta name="og:description" content="{{page.citation}}">	
 	{% elsif page.excerpt %}
 		<meta name="description" content="{{ page.excerpt | strip_html | strip_newlines | escape_once }}">
 		<meta name="og:description" content="{{ page.excerpt | strip_html | strip_newlines | escape_once }}">
@@ -31,6 +30,7 @@ layout: default
 		<meta name="description" content="{{page.title}}">
 		<meta name="og:description" content="{{page.title}}">
 	{% endif %}	
+
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
 	{% if page.keywords %}<meta itemprop="keywords" content="{{ page.keywords }}">{% endif %}
@@ -125,6 +125,10 @@ layout: default
 		      {% endfor %}
 		    </div>
 		  </div>
+		{% endif %}
+		
+		{% if page.bib %}
+		    <pre class="bibtex-content">{{page.bib}}</pre>
 		{% endif %}
 		
 		{% if page.paperurl%} 
