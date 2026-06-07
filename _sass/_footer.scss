@@ -40,7 +40,7 @@ $type-size-7: 0.6875em !default;
     margin-right: auto;
     margin-top: 1em;
     max-width: 100%;
-    padding: 0 1em 1em;
+    padding: 0 0.5em 0.5em;
 
     @include breakpoint($x-large) {   // 使用预估的 1280px 断点
       max-width: $x-large;
@@ -78,8 +78,8 @@ $type-size-7: 0.6875em !default;
 
   li {
     display: inline-block;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     font-family: $sans-serif-narrow;  // 使用预估的窄体字
     font-size: $type-size-6;          // 使用预估的小字号 (约 12px)
     text-transform: uppercase;
