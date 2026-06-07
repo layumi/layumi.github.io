@@ -1,6 +1,7 @@
 ---
 permalink: /recruitment
 title: "招生信息"
+seo_title: "Open Positions | Zhedong Zheng (University of Macau) - AI PhD / Postdoc Recruitment"
 author_profile: true
 ---
 
