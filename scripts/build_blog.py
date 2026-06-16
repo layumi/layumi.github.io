@@ -66,7 +66,7 @@ for md_file in RAW_DIR.glob("*.md"):
     front_matter = {
         "title": title,
         "date": str(date.today()),
-        "permalink": f"/blogs/{make_slug(title)}",
+        "permalink": f"/blog/{make_slug(title)}",
         "tags": tags
     }
 
@@ -85,7 +85,7 @@ for md_file in RAW_DIR.glob("*.md"):
         + content
         + "\n\n---\n"
         + "本文首发于郑哲东个人主页：\n"
-        + f"https://www.zdzheng.xyz/blogs/{make_slug(title)}\n"
+        + f"https://www.zdzheng.xyz/blog/{make_slug(title)}\n"
         + "\n转载请注明出处。\n"
     )
 
