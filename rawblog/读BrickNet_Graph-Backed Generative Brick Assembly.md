@@ -3,7 +3,7 @@
 <img width="960" height="640" alt="image" src="https://github.com/user-attachments/assets/288b97a2-214d-4a27-96d1-d07a0a5ceda4" />
 
 
-论文地址：[https://arxiv.org/pdf/2604.22984](https://link.zhihu.com/?target=https%3A//arxiv.org/pdf/2604.22984)
+论文地址：https://arxiv.org/pdf/2604.22984
 
 发表于 CVPR2026
 
@@ -14,7 +14,7 @@
 
 ## 读前疑问:
 
-1.  题目中的 [Graph-backed](https://zhida.zhihu.com/search?content_id=276412897&content_type=Article&match_order=1&q=Graph-backed&zhida_source=entity) 是什么？ 基于Graph 匹配部件么？
+1.  题目中的 Graph-backed 是什么？ 基于Graph 匹配部件么？
 2.  先检索部件，再安上？ 那就是2步了，**检索+回归**。是这样么？
 3.  如果检索，那pool里几种部件？
 4.  如果回归部件位置，那对应的维度是几个？6DoF？
@@ -29,7 +29,7 @@
 
 1.  训练一个 language model来生成 Lego 砖的建筑顺序。
 2.  之前的工作是 离散，基于voxel的 tower，如上图，本文考虑了 更一般的 构件 + 5种连接方式，可以组成 成千上万的部件。
-3.  收集了一个数据集 有超过 100k的 人工设计的 [LDraw](https://zhida.zhihu.com/search?content_id=276412897&content_type=Article&match_order=1&q=LDraw&zhida_source=entity) 砖和场景。
+3.  收集了一个数据集 有超过 100k的 人工设计的 LDraw 砖和场景。
 
 （注：LDraw 是一个专门给乐高的 免费 设计软件）
 
@@ -45,7 +45,7 @@
 1.  数据集 320,808 样本, 9743 部件。 一共累计 40M块砖。 所以每个建筑平均 126.4 块砖。每个部件之间的连接形式（5种）都标注了。
 2.  借助 LDraw，有超过 24k个CAD复制，单位是LDU，1LDU 约等于 0.4mm。
 3.  定义了5种连接方式。 比如：最后一种fixed，是正好扣住没有freedom的。标注的话，就是检查凸点（stud）的类型和旋转矩阵，基本就能推理出来。
-4.  还做了 冲突（collision）检查，但是不好弄。（a）作者说，实际上拼lego，也是用力按上的 ，所以collision不太好评估；（b）因为lego建筑物不要求water-tight，作者说一些 [VHACD](https://zhida.zhihu.com/search?content_id=276412897&content_type=Article&match_order=1&q=VHACD&zhida_source=entity)方法不好用（我猜是一些整体的 convex检测？看有没有缝隙的）。 最终，作者是设计了一个pipline ， render the part library watertight 等等做了一个过滤，但没细说。
+4.  还做了 冲突（collision）检查，但是不好弄。（a）作者说，实际上拼lego，也是用力按上的 ，所以collision不太好评估；（b）因为lego建筑物不要求water-tight，作者说一些 VHACD 方法不好用（我猜是一些整体的 convex检测？看有没有缝隙的）。 最终，作者是设计了一个pipline ， render the part library watertight 等等做了一个过滤，但没细说。
 5.  graph，部件作为node，连接作为edge 。从任意起点，可以采样一个建筑顺序，和怎么连接的方式+ 6DoF。如下图。
 
 <img width="1040" height="591" alt="image" src="https://github.com/user-attachments/assets/3f61509a-6f71-45f0-a802-e9fb1fbe5ec6" />
@@ -66,7 +66,7 @@ BrickNet-PT 就是混合了SFT和 剩下所有的样本。
 
 给个\[Start\]这种开始的token，让模型 autoregress一个 物理上合理的，没有穿模的 结构。
 
-（1）作者用了 Brick-PT，然后每个序列采样了序列。每个序列最多有100个pieces。 finetune了不同大小的 [Qwen3 instruct](https://zhida.zhihu.com/search?content_id=276412897&content_type=Article&match_order=1&q=Qwen3+instruct&zhida_source=entity) 模型 ，序列长度限制在4096个token。
+（1）作者用了 Brick-PT，然后每个序列采样了序列。每个序列最多有100个pieces。 finetune了不同大小的 Qwen3 instruct 模型 ，序列长度限制在4096个token。
 
 loss用的是最基础的 下一步的 cross-entropy loss。
 
