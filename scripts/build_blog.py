@@ -33,7 +33,7 @@ def extract_keywords_bert(text, max_keywords=5):
 
 # ========== paths ==========
 RAW_DIR = Path('../rawblog')
-POST_DIR = Path('../_blogs')
+POST_DIR = Path('../_posts')
 POST_DIR.mkdir(exist_ok=True)
 
 
