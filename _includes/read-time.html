@@ -1,17 +1,30 @@
 {% if post.read_time %}
-  {% assign words = post.content | strip_html | number_of_words %}
+  {% assign content = post.content %}
 {% elsif page.read_time %}
-  {% assign words = page.content | strip_html | number_of_words %}
+  {% assign content = page.content %}
 {% endif %}
 
-{% if site.words_per_minute %}
-  {% if words < 180 %}
-	  {{ site.data.ui-text[site.locale].less_than | default: "less than" }} 1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-	{% elsif words < 360 %}
-	  1 {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-	{% else %}
-	  {{ words | divided_by:site.words_per_minute }} {{ site.data.ui-text[site.locale].minute_read | default: "minute read" }}
-	{% endif %}
-{% else %}
-  {{ site.data.ui-text[site.locale].undefined_wpm | "Undefined parameter words_per_minute at _config.yml" }}
+{% assign text = content | strip_html %}
+
+{%- comment -%} 英文词数 {%- endcomment -%}
+{% assign word_count = text | number_of_words %}
+
+{%- comment -%} 中文字符数（去掉空格） {%- endcomment -%}
+{% assign char_count = text | strip | size %}
+
+{%- comment -%}
+估算阅读时间：
+- 英文：200 wpm
+- 中文：450 chars/min
+取更合理的值
+{%- endcomment -%}
+
+{% assign time_en = word_count | divided_by: site.words_per_minute | default: 200 %}
+{% assign time_zh = char_count | divided_by: 450 %}
+
+{% assign read_time = time_en | plus: time_zh | divided_by: 2 %}
+{% if read_time < 1 %}
+  {% assign read_time = 1 %}
 {% endif %}
+
+{{ read_time }} {{ site.data.ui-text[site.locale].minute_read | default: "min read" }}
