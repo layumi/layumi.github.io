@@ -1,6 +1,6 @@
 import os
 
-os.system('git pull --rebase')
+os.system('git pull --rebase --autostash')
 os.system('cd markdown_generator; python pubsFromBib.py; cd ..')
 os.system('cd ACMMM2023Workshop; git pull origin main; cd ..')
 os.system('cd ACMMM2024Workshop-UAV; git pull origin main; cd ..')
