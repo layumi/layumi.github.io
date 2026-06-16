@@ -20,7 +20,7 @@
 <img width="2470" height="1396" alt="image" src="https://github.com/user-attachments/assets/385a8ca2-efaa-4945-b67d-ac45edbb7f5a" />
 
 1. 如上图，作者有多种训练的 instruction，（1）图搜文   （2）图搜图 （3）图+文 搜图 （4）还是图搜文 （5,6）VQA （7）文搜图
-通过finetune 基础的MLLM （LLaVa-Next） 得到 MM-Embed。
+通过finetune 基础的MLLM （LLaVa-Next） 得到 MM-Embed。需要注意这一步是没有文搜文。
 
 2. 如上图下方，给出 top-3 candidates， 做一个 binary的预测， Prompt用的是 “Does the answer correctly answer the question, True or False”. 给出概率进行rerank。
 
@@ -37,5 +37,18 @@
 
 # 实验
 1. 作者训练的数据集还是比较多的 。
-- M-BEIR 1.1M训练queries ， 190K测试queries， 5.6M gallery
-- 
+- M-BEIR 混合了我们常见的 MSCOCO （图文互搜），FashionIQ（图+文搜图），Fashion200k（图+文搜图），Visual News，WebQA（文搜文），OVEN，CIRR（图+文搜图），NIGHTS，InfoSeek，EDIS。 其中 1.1M训练queries ， 190K测试queries， 5.6M gallery 。
+
+<img width="2236" height="1200" alt="image" src="https://github.com/user-attachments/assets/3fbf51b9-066b-4a41-9a60-425f3e351255" />
+
+2. 我们 2025年TMM论文 https://www.zdzheng.xyz/files/2025/TMM25-Scale.pdf 用的是BLIP2 作为backbone。 FashionIQ 平均R10是 54.99； CIRR的 recall@5 是 84.92%，recall@10是91.74% 。
+
+3. 作者这边 FashionIQ是25.7 recall@10， CIRR是50.00% recall@5 。 那确实 不如blip2.
+
+4. 然后 MSCOCO 这个结果我也比较熟悉。 感觉也没到SOTA？
+
+<img width="1426" height="626" alt="image" src="https://github.com/user-attachments/assets/96744ba5-172f-4b9a-aea2-3b01e18a4770" />
+
+5. 如上图，作者还给了一个ablation study，关于图文互搜，在hard negatives 以后 M^hard 效果就好了。
+
+
