@@ -8,15 +8,16 @@ main:
     url: /team/
   - title: "Resources"
     url: /resources/
-  - title: "Seminar"
-    url: /seminar/
+  - title: "Blogs"
+    url: /blogs/
   - title: "Join Us"
     url: /recruitment/
   #- title: "Guide"
   #  url: /markdown/
   #- title: "Talks"
   #  url: /talks/    
-
+  #- title: "Seminar"
+  #  url: /seminar/
   #- title: "Teaching"
   #  url: /teaching/    
     
