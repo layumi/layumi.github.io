@@ -1,5 +1,6 @@
 import os
 
+os.system('git pull --rebase')
 os.system('cd markdown_generator; python pubsFromBib.py; cd ..')
 os.system('cd ACMMM2023Workshop; git pull origin main; cd ..')
 os.system('cd ACMMM2024Workshop-UAV; git pull origin main; cd ..')
@@ -9,6 +10,7 @@ os.system('cd synthir26; git pull origin main; cd ..')
 os.system('cd MORE2024; git pull origin main; cd ..')
 os.system('cd MORE2025; git pull origin main; cd ..')
 os.system('cd Awesome-Aerial-Spatial-Intelligence; git pull origin main; cd ..')
+os.system('cd scripts; python build_blog.py; cd ..')
 
 metadataREID="""---
 title: \"Pytorch ReID\"
