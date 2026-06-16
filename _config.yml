@@ -200,7 +200,7 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
+  # _blogs
   - scope:
       path: ""
       type: posts
