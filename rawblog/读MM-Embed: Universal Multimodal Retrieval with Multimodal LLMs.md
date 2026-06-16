@@ -49,6 +49,6 @@
 
 <img width="1426" height="626" alt="image" src="https://github.com/user-attachments/assets/96744ba5-172f-4b9a-aea2-3b01e18a4770" />
 
-5. 如上图，作者还给了一个ablation study，关于图文互搜，在hard negatives 以后 M^hard 效果就好了。
+5. 如上图，作者还给了一个ablation study，关于图文互搜，在hard negatives 以后 M^hard 效果就好了。来论证大模型的modality bias可以通过hard negatives来消除。 
 
 
