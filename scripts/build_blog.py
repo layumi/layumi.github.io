@@ -33,7 +33,7 @@ def extract_keywords_bert(text, max_keywords=5):
 
 # ========== paths ==========
 RAW_DIR = Path('../rawblog')
-POST_DIR = Path('../_posts')
+POST_DIR = Path('../_blogs')
 POST_DIR.mkdir(exist_ok=True)
 
 
@@ -66,9 +66,12 @@ for md_file in RAW_DIR.glob("*.md"):
     front_matter = {
         "title": title,
         "date": str(date.today()),
-        "permalink": f"/posts/{make_slug(title)}",
+        "permalink": f"/blogs/{make_slug(title)}",
         "tags": tags
     }
+
+    # ====== remove title in the content ========
+    content = "\n".join(lines[1:]).lstrip()
 
     # ===== output =====
     output = (
@@ -82,7 +85,7 @@ for md_file in RAW_DIR.glob("*.md"):
         + content
         + "\n\n---\n"
         + "本文首发于郑哲东个人主页：\n"
-        + f"https://www.zdzheng.xyz/posts/{make_slug(title)}\n"
+        + f"https://www.zdzheng.xyz/blogs/{make_slug(title)}\n"
         + "\n转载请注明出处。\n"
     )
 
