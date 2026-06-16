@@ -65,6 +65,7 @@ for md_file in RAW_DIR.glob("*.md"):
     # ===== front matter =====
     front_matter = {
         "title": title,
+        "collection": "blogs",
         "date": str(date.today()),
         "permalink": f"/blog/{make_slug(title)}",
         "tags": tags
