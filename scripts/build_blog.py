@@ -82,7 +82,7 @@ for md_file in RAW_DIR.glob("*.md"):
         + content
         + "\n\n---\n"
         + "本文首发于郑哲东个人主页：\n"
-        + "https://www.zdzheng.xyz\n"
+        + "https://www.zdzheng.xyz/posts/{make_slug(title)}\n"
         + "\n转载请注明出处。\n"
     )
 
