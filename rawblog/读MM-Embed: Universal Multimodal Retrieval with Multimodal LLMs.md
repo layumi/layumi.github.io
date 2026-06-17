@@ -36,7 +36,7 @@
 
 
 # 实验
-1. 作者训练的数据集还是比较多的 。
+1. 作者训练的数据集还是比较多的。但其实总量1.1M是不多的，所以模型也是finetune LLaVa-Next来的。
 - M-BEIR 混合了我们常见的 MSCOCO （图文互搜），FashionIQ（图+文搜图），Fashion200k（图+文搜图），Visual News，WebQA（文搜文），OVEN，CIRR（图+文搜图），NIGHTS，InfoSeek，EDIS。 其中 1.1M训练queries ， 190K测试queries， 5.6M gallery 。
 
 <img width="2236" height="1200" alt="image" src="https://github.com/user-attachments/assets/3fbf51b9-066b-4a41-9a60-425f3e351255" />
@@ -49,6 +49,14 @@
 
 <img width="1426" height="626" alt="image" src="https://github.com/user-attachments/assets/96744ba5-172f-4b9a-aea2-3b01e18a4770" />
 
-5. 如上图，作者还给了一个ablation study，关于图文互搜，在hard negatives 以后 M^hard 效果就好了。来论证大模型的modality bias可以通过hard negatives来消除。 
+5. 如上图 Table2，作者还给了一个ablation study，关于图文互搜，在hard negatives 以后 M^hard 效果就好了。来论证大模型的modality bias可以通过hard negatives来消除。 
 
+<img width="594" height="364" alt="image" src="https://github.com/user-attachments/assets/65d0100e-d82f-40e6-ab90-79efa8672696" />
 
+6. 如上 Table3， 通过对top10的ture false 排序，能进一步提升。但是提升VQA比较明显， Composed retrieval 就有下降。 （我觉得还是ture false这种binary的形式太简单了，容易overfit，当然作者说CIRR和FashionIQ有多个positive也确实是数据集的问题，不过大家都有遇到。题外话，我们组有个尝试 https://arxiv.org/abs/2509.04376 大家有兴趣的话可以参考，通过挖空填词更接近MLLM训练的情况。）
+
+<img width="846" height="486" alt="image" src="https://github.com/user-attachments/assets/ade59852-b0c9-4e34-b5c2-2ed017ee1390" />
+
+7. 作者在CIRCO 一个更高质量的composed retrieval 数据集上，发现rerank还是能提升的。（所以我也常常和学生说，结果差只要合理能解释，其实reviewer也能接受。当然，同时你也要给一个好的结果。）
+
+8. 
