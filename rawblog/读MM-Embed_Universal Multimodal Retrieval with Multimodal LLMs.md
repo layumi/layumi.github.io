@@ -1,4 +1,4 @@
-# 读 MM-Embed: Universal Multimodal Retrieval with Multimodal LLMs 
+# 读MM-Embed:Universal Multimodal Retrieval with Multimodal LLMs 
 
 发表于ICLR2025
 

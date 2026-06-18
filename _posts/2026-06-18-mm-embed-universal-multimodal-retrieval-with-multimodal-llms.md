@@ -1,15 +1,15 @@
 ---
-title: '读 MM-Embed: Universal Multimodal Retrieval with Multimodal LLMs'
+title: 读MM-Embed:Universal Multimodal Retrieval with Multimodal LLMs
 collection: blogs
 date: '2026-06-18'
 permalink: /blog/mm-embed-universal-multimodal-retrieval-with-multimodal-llms
 tags:
 - retrieval multimodal llms
 - multimodal retrieval multimodal
+- multimodal llms 读mm
 - retrieval multimodal
 - universal multimodal retrieval
 - multimodal retrieval
-- multimodal llms 发表于iclr2025
 ---
 
 感谢作者分享优秀工作。本文从个人研究兴趣出发，对论文进行梳理、总结与讨论，重点关注方法设计、实验设置及潜在改进方向。文中观点仅代表当前阅读阶段的理解，难免存在遗漏或误解，欢迎进一步交流与指正.
