@@ -197,6 +197,8 @@ collections:
   tag:
     output: true
     permalink: /:collection/:path/
+  rawblog:
+    output: false
 
 # Defaults
 defaults:

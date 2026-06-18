@@ -1,4 +1,5 @@
 ---
+感谢作者分享优秀工作。本文从个人研究兴趣出发，对论文进行梳理、总结与讨论，重点关注方法设计、实验设置及潜在改进方向。文中观点仅代表当前阅读阶段的理解，难免存在遗漏或误解，欢迎进一步交流与指正.
 title: 读BrickNet:Graph-Backed Generative Brick Assembly
 collection: blogs
 date: '2026-06-16'

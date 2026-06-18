@@ -1,5 +1,5 @@
 from pathlib import Path
-from datetime import date
+from datetime import date, datetime
 import yaml
 import re
 
@@ -44,6 +44,9 @@ def make_slug(text):
 
 for md_file in RAW_DIR.glob("*.md"):
 
+    # ===== 获取文件修改日期 =====
+    file_date = date.fromtimestamp(md_file.stat().st_mtime)
+
     content = md_file.read_text(encoding="utf-8")
 
     lines = content.splitlines()
@@ -66,7 +69,7 @@ for md_file in RAW_DIR.glob("*.md"):
     front_matter = {
         "title": title,
         "collection": "blogs",
-        "date": str(date.today()),
+        "date": str(file_date),
         "permalink": f"/blog/{make_slug(title)}",
         "tags": tags
     }
@@ -77,6 +80,7 @@ for md_file in RAW_DIR.glob("*.md"):
     # ===== output =====
     output = (
         "---\n"
+        + "感谢作者分享优秀工作。本文从个人研究兴趣出发，对论文进行梳理、总结与讨论，重点关注方法设计、实验设置及潜在改进方向。文中观点仅代表当前阅读阶段的理解，难免存在遗漏或误解，欢迎进一步交流与指正.\n"
         + yaml.dump(
             front_matter,
             allow_unicode=True,
@@ -90,7 +94,7 @@ for md_file in RAW_DIR.glob("*.md"):
         + "\n转载请注明出处。\n"
     )
 
-    output_name = f"{date.today()}-{make_slug(title)}.md"
+    output_name = f"{file_date}-{make_slug(title)}.md"
 
     (POST_DIR / output_name).write_text(
         output,
