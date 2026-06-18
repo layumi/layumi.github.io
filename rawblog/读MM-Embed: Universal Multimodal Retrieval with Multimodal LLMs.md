@@ -59,4 +59,10 @@
 
 7. 作者在CIRCO 一个更高质量的composed retrieval 数据集上，发现rerank还是能提升的。（所以我也常常和学生说，结果差只要合理能解释，其实reviewer也能接受。当然，同时你也要给一个好的结果。）
 
-8. 
+<img width="858" height="380" alt="image" src="https://github.com/user-attachments/assets/cabb9873-7df8-47b8-b126-bb40473b1a10" />
+
+8. 另外，如上表 Table5，有instruction 来finetune 对一些任务有提升，特别是文本query的，因为增强了文本理解。不过对于image query的帮助有点抖动。
+
+<img width="1149" height="604" alt="image" src="https://github.com/user-attachments/assets/ba192fc8-f138-4eef-ad31-8fc2b4f1cb6b" />
+
+9. 如上表 Table7， 可以看到 rerank 其实binary 任务的限制，只在组合搜索 VQA 搜文本好一些。其他大多数情况不太好。 
