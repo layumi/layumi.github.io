@@ -86,14 +86,15 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 <div style="flex:1; min-width:280px;">
 
 <h2><i class="fa-solid fa-bullhorn fa-beat"></i> Open Positions</h2>
-
 <p style="color:#CD853F;">
-I am actively looking for self-motivated Ph.D., Postdoc, and Master students at the University of Macau.
-PhD students will be fully funded with fellowships.
-For more information, please visit
+<ul>
+  <li>🎓 <strong>Ph.D. Students</strong> (Jan./Aug. 2027 intake, fully funded)</li>
+  <li>🔬 <strong>Postdoctoral Researchers</strong> (starting Aug. 2027)</li>
+  <li>📚 <strong>Master Students</strong> (incoming Aug. 2026 intake; contact me early for full two-year research training)</li>
+</ul>
 <a href="https://www.zdzheng.xyz/recruitment/" style="color:#CD853F;">
-Join Us
-</a>.
+→ Join Us
+</a>
 </p>
 
 </div>
