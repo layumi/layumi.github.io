@@ -1,5 +1,5 @@
 ---
-title: "Awesome reID"
+title: "Awesome reID | Benchmark & SOTA List"
 collection: pages
 permalink: /Awesome-reID
 author_profile: false

@@ -1,5 +1,5 @@
 ---
-title: "Awesome Segmentation Domain Adaptation"
+title: "Awesome Segmentation Domain Adaptation | GTA5 -> Cityscapes"
 collection: pages
 permalink: /Awesome-SegDA
 author_profile: false
