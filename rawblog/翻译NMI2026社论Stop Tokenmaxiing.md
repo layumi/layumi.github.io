@@ -10,7 +10,7 @@
 AI agentic 框架展现了半自动的编程，金融交易，医疗决策甚至是科学发现。 
 
 
-一个最新的新闻故事 说 公司特别爱顾源去用agentic AI，去最大化使用LLM，也就是 tokemaxxing。
+一个最新的新闻故事 说 公司特别爱员工去用agentic AI，去最大化使用LLM，也就是 tokemaxxing。
 在一些公司里甚至 出了leaderboards 来排序雇员的token使用量。 
 尽管token使用量 不是一个好的metric来估计产出量，但一些人认为这是一个有效的方法来鼓励思维的改变。
 老黄说他希望 nv的高级工程师 每个月用250k 刀的token。 
