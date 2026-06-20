@@ -79,6 +79,23 @@ Throughout my academic journey, I have been fortunate to collaborate with severa
 
 Open-source projects can be found at my <a href='https://github.com/layumi'>[Github]</a>, and publications can be found at  [SCI](https://www.webofscience.com/wos/author/record/434956), [SCOPUS](https://www.scopus.com/authid/detail.uri?authorId=57200174037), or [Google Scholar](https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ). <strong>More details can be found in my [[CV]]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf). </strong>
 
+<h2><i class="fa-regular fa-compass fa-shake"></i> Research Statement</h2>
+
+<p>
+My work focuses on multi-view
+<a href="https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:object_re_identification">object re-identification</a>,
+<a href="https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:aigc">AIGC</a>,
+and
+<a href="https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:data_centric_ai">data-centric AI</a>
+under multi-camera scenarios such as swarm robotics, autonomous driving, and smart cities.
+</p>
+
+<p>
+The child understands a 3D object not from a single image, but from multiple modalities
+(images, videos, and audio) captured from different viewpoints.
+</p>
+
+
 <hr>
 
 <div style="display:flex; gap:30px; flex-wrap:wrap; margin-bottom:20px;">
@@ -99,29 +116,6 @@ Join Us
 </div>
 
 <div style="flex:2; min-width:350px;">
-
-<h2><i class="fa-regular fa-compass fa-shake"></i> Research Statement</h2>
-
-<p>
-My work focuses on multi-view
-<a href="https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:object_re_identification">object re-identification</a>,
-<a href="https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:aigc">AIGC</a>,
-and
-<a href="https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:data_centric_ai">data-centric AI</a>
-under multi-camera scenarios such as swarm robotics, autonomous driving, and smart cities.
-</p>
-
-<p>
-The child understands a 3D object not from a single image, but from multiple modalities
-(images, videos, and audio) captured from different viewpoints.
-</p>
-
-</div>
-
-</div>
-
-<hr>
-
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
@@ -218,17 +212,10 @@ The child understands a 3D object not from a single image, but from multiple mod
   </ul>
 </details>
 
+</div>
 
-<!---	
-<li> People live in a 3D world. Why not conduct representation learning in the 3D space? <a href="https://arxiv.org/abs/2006.04569">[arXiv]</a> <a href="https://github.com/layumi/person-reid-3d">[code]</a></li>
-<li> We have achieved the <strong>1st</strong> place in AICity Challenge Vehicle Re-id Track, CVPR 2020. <a href="https://github.com/layumi/AICIty-reID-2020">[code] </a></li>
-<li> Two papers to appear at IJCAI 2020. <a href="https://zdzheng.xyz/publication/Unsup2020">[PDF1]</a><a href="https://github.com/layumi/Seg_Uncertainty">[code1]</a><a href="https://zdzheng.xyz/publication/Real-2020">[PDF2]</a>
-	<a href="https://github.com/huangzhikun1995/IPM-Net">[code2]</a></li>
-<li> One paper to appear at CVPR 2019 as oral presentation. <a href="https://zdzheng.xyz/publication/Joint2019">[PDF]</a><a href="https://www.youtube.com/watch?v=ubCrEAIpQs4">[3-min video]</a> <a href="https://github.com/NVlabs/DG-Net">[code]</a></li>
-<li> One paper to appear at ECCV 2018. <a href="https://arxiv.org/abd/1807.08260">[arXiv]</a> <a href="https://github.com/RoyalVane/MMAN">[code]</a> </li>
-<li> One paper to appear at CVPR 2018. <a href="https://arxiv.org/abs/1711.10295">[arXiv]</a> <a href="https://github.com/zhunzhong07/CamStyle">[code]</a> </li>
-<li> One paper to appear at ICCV 2017 as spotlight presentation. <a href="https://arxiv.org/abs/1701.07717">[arXiv]</a> <a href="https://github.com/layumi/Person-reID_GAN"> [code]</a> </li>
--->
+</div>
+
 
 <hr>
 
