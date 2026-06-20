@@ -46,3 +46,14 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+
+.lab-logo {
+  height: 1.35em;
+  width: auto;
+}
+
+.masthead__menu-item--lg a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
