@@ -107,7 +107,7 @@ Join Us
 	<li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence">Spatial Intelligence</a> </li>
 	<li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification">Object re-identification</a> </li>
 	<li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation">Domain Adaptation</a> </li>
-	See Research page for more details.
+	See <a href="https://www.zdzheng.xyz/research">Research</a> page for more details.
 </ul>
 
 </div>
