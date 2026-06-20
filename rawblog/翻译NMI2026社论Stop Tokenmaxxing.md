@@ -1,4 +1,4 @@
-# 翻译NMI2026社论StopTokenmaxiing
+# 翻译NMI2026社论StopTokenmaxxing
 
 链接：https://www.nature.com/articles/s42256-026-01253-5 
 
