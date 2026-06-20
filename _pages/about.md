@@ -100,13 +100,14 @@ Join Us
 
 <div style="flex:2; min-width:350px;">
 
-<h2><i class="fa-regular fa-compass fa-shake"></i> Research Statement</h2>
+<h2><i class="fa-regular fa-compass fa-shake"></i> Research Interests</h2>
 <ul>
 	<li>  <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:aigc">AIGC</a> </li>
     <li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:data_centric_ai">Data-centric AI</a> </li>
 	<li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence">Spatial Intelligence</a> </li>
 	<li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification">Object re-identification</a> </li>
 	<li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation">Domain Adaptation</a> </li>
+	See Research page for more details.
 </ul>
 
 </div>
