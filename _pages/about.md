@@ -101,10 +101,13 @@ Join Us
 <div style="flex:2; min-width:350px;">
 
 <h2><i class="fa-regular fa-compass fa-shake"></i> Research Statement</h2>
-
-- <a href="https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:aigc">AIGC</a>,
-- <a href="https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:data_centric_ai">data-centric AI</a>
-- <a href="https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:object_re_identification">object re-identification</a>
+<ul>
+	<li>  <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:aigc">AIGC</a> </li>
+    <li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:data_centric_ai">Data-centric AI</a> </li>
+	<li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence">Spatial Intelligence</a> </li>
+	<li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification">Object re-identification</a> </li>
+	<li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation">Domain Adaptation</a> </li>
+</ul>
 
 </div>
 
