@@ -1,5 +1,6 @@
 ---
-title: "Awesome Geo-localization | University1652 CVUSA CVACT Benchmark & SOTA List"
+title: "Awesome Geo-localization"
+seo_title: "Awesome Geo-localization | University1652 CVUSA CVACT Benchmark & SOTA List"
 collection: pages
 permalink: /Awesome-Geo-localization
 author_profile: false

@@ -13,7 +13,8 @@ os.system('cd Awesome-Aerial-Spatial-Intelligence; git pull origin main; cd ..')
 os.system('cd scripts; python build_blog.py; cd ..')
 
 metadataREID="""---
-title: \"Pytorch ReID | Easy to Use\"
+title: \"Pytorch ReID\"
+seo_title: \"Pytorch ReID | Easy to Use\"
 collection: pages
 permalink: /Pytorch-ReID
 author_profile: false
@@ -27,7 +28,8 @@ os.system("curl -L https://raw.githubusercontent.com/layumi/Person_reID_baseline
 
 
 metadataDA="""---
-title: \"Awesome Segmentation Domain Adaptation | GTA5 -> Cityscapes\"
+title: \"Awesome Segmentation Domain Adaptation\"
+seo_title: \"Awesome Segmentation Domain Adaptation | GTA5 -> Cityscapes\"
 collection: pages
 permalink: /Awesome-SegDA
 author_profile: false
@@ -40,7 +42,8 @@ os.system("curl -L https://raw.githubusercontent.com/layumi/Seg-Uncertainty/mast
 
 
 metadataGEO="""---
-title: \"Awesome Geo-localization | University1652 CVUSA CVACT Benchmark & SOTA List\"
+title: \"Awesome Geo-localization\"
+seo_title: \"Awesome Geo-localization | University1652 CVUSA CVACT Benchmark & SOTA List\"
 collection: pages
 permalink: /Awesome-Geo-localization
 author_profile: false
@@ -58,7 +61,8 @@ os.system("curl -L https://raw.githubusercontent.com/layumi/University1652-Basel
 
 
 metadataAR="""---
-title: \"Awesome reID | Benchmark & SOTA List\"
+title: \"Awesome reID\"
+seo_title: \"Awesome reID | Benchmark & SOTA List\"
 collection: pages
 permalink: /Awesome-reID
 author_profile: false
