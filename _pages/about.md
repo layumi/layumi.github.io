@@ -81,35 +81,45 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 
 <hr>
 
+<div style="display:flex; gap:30px; flex-wrap:wrap; margin-bottom:20px;">
+
+<div style="flex:1; min-width:280px;">
+
 <h2><i class="fa-solid fa-bullhorn fa-beat"></i> Open Positions</h2>
-<p style="color: #CD853F;">I am actively looking for self-motivated Ph.D., Postdoc, and Master students at University of Macau. PhD students will be fully funded with fellowships. For more information, pls visit <a href="https://www.zdzheng.xyz/recruitment/" style="color: #CD853F;">Join Us</a>.</p>
-<!---
-<ul>
-<li> <mark>If you are a NUS Undergraduate / Master student who is interested in doing research/project with me, please contact me via email with your CV. My current email address is zdzheng AT nus.edu.sg . We will have at least two mentors to guide you and provide gpu resource supports.</mark></li> 
-</ul>
--->	
-<hr>
 
+<p style="color:#CD853F;">
+I am actively looking for self-motivated Ph.D., Postdoc, and Master students at the University of Macau.
+PhD students will be fully funded with fellowships.
+For more information, please visit
+<a href="https://www.zdzheng.xyz/recruitment/" style="color:#CD853F;">
+Join Us
+</a>.
+</p>
 
+</div>
+
+<div style="flex:2; min-width:350px;">
 
 <h2><i class="fa-regular fa-compass fa-shake"></i> Research Statement</h2>
 
-My work focuses on multi-view [object re-identification](https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:object_re_identification), [AIGC](https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:aigc) and [data-centric AI](https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:data_centric_ai), under a multi-camera scenario, e.g., swarm robotics, self-driving car, and smart city.
+<p>
+My work focuses on multi-view
+<a href="https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:object_re_identification">object re-identification</a>,
+<a href="https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:aigc">AIGC</a>,
+and
+<a href="https://scholar.google.com.sg/citations?view_op=search_authors&hl=zh-CN&mauthors=label:data_centric_ai">data-centric AI</a>
+under multi-camera scenarios such as swarm robotics, autonomous driving, and smart cities.
+</p>
 
-The child understands a 3D object, not from a still image, but from multiple modalities (images / videos / audio) capturing the target of interest from different viewpoints.
+<p>
+The child understands a 3D object not from a single image, but from multiple modalities
+(images, videos, and audio) captured from different viewpoints.
+</p>
 
+</div>
 
-<!---
-Big data is the primary part of training data-driven models. There remain three scientific questions. 
+</div>
 
-- Data Generation:  How to obtain more data? Due to the annotation costs and privacy concerns,  we usually could not access the large-scale data easily.  
-
-- Prior Knowledge:  Does more data mean a better model? Deep learning also demands a deep understanding of data (robustness and explainability).
-
-- Efficiency:  How to train on million-scale data? What data matters most? Efficient training and inference is needed.  
-
-AI is not when a computer can write poetry. AI is when a computer want to write poetry. 
--->
 <hr>
 
 
@@ -128,28 +138,27 @@ AI is not when a computer can write poetry. AI is when a computer want to write 
 	<li> <strong>CVPR 2026:</strong> <a href="https://www.zdzheng.xyz/publication/The-Cohe2026">Manipulation Detection</a></li>
 	<li> <strong>ICLR 2026:</strong> <a href="https://www.zdzheng.xyz/publication/SketchTh2026">Efficient LLM</a></li>
 	<li>Our work on multimedia aerial vision was <strong>showcased</strong> at the <a href="https://youtu.be/XYFWzEeey6g?si=dRHTX2V0kaZ_oIHY&t=10">UM 45th Anniversary Open Day</a></li>
-    <li><strong>NeurIPS 2025:</strong> 2 papers — 
-      <a href="https://www.zdzheng.xyz/publication/WeatherP2025"> WeatherPrompt</a>, 
-      <a href="https://www.zdzheng.xyz/publication/VimoRAG-2025"> Motion Generation</a>
-    </li>
-  <li><strong>PI</strong>, FDCT/0043/2025/RIA1, “Robust Long-Tail Anomaly Recognition via Multi-Modality Learning”, 2025–2028, MOP 2.13M</li>
-  <li><strong>ACM MM 2025:</strong> 2 papers — 
-    <a href="https://www.zdzheng.xyz/publication/UniAD-In2025"> Anomaly Detection</a>, 
-    <a href="https://www.zdzheng.xyz/publication/Domain-A2025"> Neural Painting - BNI Track <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a>
-  </li>
-  
-  <li><strong>ICCV 2025:</strong> 3 papers — 
-    <a href="https://www.zdzheng.xyz/publication/Video2BE2025">Video2BEV</a>, 
-    <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval <span class="oral-tag">(<i class="fas fa-star"></i>Highlight)</span></a>, 
-    <a href="https://www.zdzheng.xyz/publication/Harnessi2025">3D Detection</a>
-  </li>
-  <li><strong>ICLR 2025:</strong> <a href="https://www.zdzheng.xyz/publication/Ctrl-u-R2025">Conditional Generation</a></li>
-  <li><strong>ACM WWW 2025:</strong> <a href="https://www.zdzheng.xyz/publication/From-Dat2025">Text-based Person Search</a></li>
 </ul>
 
 <details>
-  <summary>--View More--</summary>
+  <summary>Past News (2025-2020)</summary>
   <ul> 
+      <li><strong>NeurIPS 2025:</strong> 2 papers — 
+         <a href="https://www.zdzheng.xyz/publication/WeatherP2025"> WeatherPrompt</a>, 
+         <a href="https://www.zdzheng.xyz/publication/VimoRAG-2025"> Motion Generation</a>
+       </li>
+     <li><strong>PI</strong>, FDCT/0043/2025/RIA1, “Robust Long-Tail Anomaly Recognition via Multi-Modality Learning”, 2025–2028, MOP 2.13M</li>
+     <li><strong>ACM MM 2025:</strong> 2 papers — 
+       <a href="https://www.zdzheng.xyz/publication/UniAD-In2025"> Anomaly Detection</a>, 
+       <a href="https://www.zdzheng.xyz/publication/Domain-A2025"> Neural Painting - BNI Track <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a>
+     </li>
+     <li><strong>ICCV 2025:</strong> 3 papers — 
+       <a href="https://www.zdzheng.xyz/publication/Video2BE2025">Video2BEV</a>, 
+       <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval <span class="oral-tag">(<i class="fas fa-star"></i>Highlight)</span></a>, 
+       <a href="https://www.zdzheng.xyz/publication/Harnessi2025">3D Detection</a>
+     </li>
+     <li><strong>ICLR 2025:</strong> <a href="https://www.zdzheng.xyz/publication/Ctrl-u-R2025">Conditional Generation</a></li>
+     <li><strong>ACM WWW 2025:</strong> <a href="https://www.zdzheng.xyz/publication/From-Dat2025">Text-based Person Search</a></li>
 	 <li><strong>ACM MM 2024:</strong> <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a></li>
      <li><strong>ECCV 2024:</strong> 3 papers — 
         <a href="https://www.zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, 
