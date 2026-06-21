@@ -83,7 +83,7 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 
 <div style="display:flex; gap:30px; flex-wrap:wrap; margin-bottom:20px;">
 
-<div style="flex:1; min-width:280px;">
+<div style="flex:1; min-width:350px;">
 
 <h2><i class="fa-solid fa-bullhorn fa-beat"></i> Open Positions</h2>
 <p style="color:#CD853F;">
@@ -99,7 +99,7 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 
 </div>
 
-<div style="flex:2; min-width:350px;">
+<div style="flex:2; min-width:280px;">
 
 <h2><i class="fa-regular fa-compass fa-shake"></i> Research Interests</h2>
 <ul>
