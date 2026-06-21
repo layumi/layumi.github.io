@@ -89,7 +89,7 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 <p style="color:#CD853F;">
 <ul>
   <li>🎓 <strong>Ph.D. Students</strong> (Jan./Aug. 2027 intake, fully funded)</li>
-  <li>🔬 <strong>Postdoctoral Researchers</strong> (starting Aug. 2027)</li>
+  <li>🔬 <strong>Postdocs</strong> (starting Aug. 2027)</li>
   <li>📚 <strong>Master Students</strong> (incoming Aug. 2026 intake; contact me early for full two-year research training)</li>
 </ul>
 <a href="https://www.zdzheng.xyz/recruitment/" style="color:#CD853F;">
