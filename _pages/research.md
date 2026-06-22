@@ -229,16 +229,6 @@ svg.conn { width: 100%; overflow: visible; display: block; }
 
 </div>
 
-
-## [Uncertainty Learning](https://www.zdzheng.xyz/tag/uncertainty-learning) 
-- Large Models [arXiv'24](https://www.zdzheng.xyz/publication/VL-Uncer2024), [ICLR'26](https://www.zdzheng.xyz/publication/SketchTh2026) 
-- Domain Adaptation [IJCV'21](https://zdzheng.xyz/publication/Rectifyi2021)
-- Depth Completion [PR'24](https://www.zdzheng.xyz/publication/Self-Ens2024)
-- Composed Retrieval [ICLR'24](https://www.zdzheng.xyz/publication/Composed2024)
-- Active Learning [CVPR'23](https://www.zdzheng.xyz/publication/Are-Bina2023)
-- 3D Bbox Detection [ICCV'25](https://www.zdzheng.xyz/publication/Harnessi2025)
-- Conditional Generation [ICLR'25](https://www.zdzheng.xyz/publication/Ctrl-u-R2025)
-
 ## [AIGC](https://www.zdzheng.xyz/tag/aigc)
 ![](https://zdzheng.xyz/resource-img/rainbow_github.webp)
 This research area is about generate diverse and high-fidelity data. Some methods focus on the generation quality, while others further focus on the recognition performance based on the generated data.
@@ -252,7 +242,16 @@ This research area is about generate diverse and high-fidelity data. Some method
 - Painting [ACM MM'25 BNI](https://www.zdzheng.xyz/publication/Domain-A2025)
 
 
-## [Content-based Retrieval](https://www.zdzheng.xyz/tag/content-based-retrieval) 
+## [Uncertainty Estimation](https://www.zdzheng.xyz/tag/uncertainty-learning) 
+- Large Models [arXiv'24](https://www.zdzheng.xyz/publication/VL-Uncer2024), [ICLR'26](https://www.zdzheng.xyz/publication/SketchTh2026) 
+- Domain Adaptation [IJCV'21](https://zdzheng.xyz/publication/Rectifyi2021)
+- Depth Completion [PR'24](https://www.zdzheng.xyz/publication/Self-Ens2024)
+- Composed Retrieval [ICLR'24](https://www.zdzheng.xyz/publication/Composed2024)
+- Active Learning [CVPR'23](https://www.zdzheng.xyz/publication/Are-Bina2023)
+- 3D Bbox Detection [ICCV'25](https://www.zdzheng.xyz/publication/Harnessi2025)
+- Conditional Generation [ICLR'25](https://www.zdzheng.xyz/publication/Ctrl-u-R2025)
+
+## [Object Re-identification](https://www.zdzheng.xyz/tag/object-re-identification) 
 ![](https://zdzheng.xyz/resource-img/3DMarket.jpg)
 This research area is to retrieval the relevant multi-media data including cross-view, cross-modality or other challenging cases. 
 - 2D Human [TOMM'18](https://zdzheng.xyz/publication/A-discri2018), [TCSVT'19](https://zdzheng.xyz/publication/Pedestri2018), [PR'19](https://zdzheng.xyz/publication/Improvin2019), [AAAI'21](https://zdzheng.xyz/publication/Decouple2021), [TPAMI'22](https://zdzheng.xyz/publication/DMRNet-L2022), [TCYB'22](https://zdzheng.xyz/publication/Soft-Per2022), [TMM'23](https://zdzheng.xyz/publication/Progress2023)
