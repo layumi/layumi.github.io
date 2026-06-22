@@ -102,67 +102,59 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 <div style="flex:2; min-width:280px;">
 
 <h2><i class="fa-regular fa-compass fa-shake"></i> Research Interests</h2>
-<div class="pyramid-wrap">
-
-  <div class="tier" style="margin-bottom:0">
-    <a class="node n-root" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:data_centric_ai" target="_blank">
-      <span class="node-title">Data-Centric AI</span>
-      <span class="node-sub">Root framework</span>
+<div class="zd-pyramid-wrap">
+  <div class="zd-tier" style="margin-bottom:0">
+    <a class="zd-node zd-n-root" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:data_centric_ai" target="_blank">
+      <span class="zd-node-title">Data-Centric AI</span>
+      <span class="zd-node-sub">Root framework</span>
     </a>
   </div>
-
-  <div class="connector-row" style="max-width:520px;width:100%">
-    <svg class="conn" height="32" viewBox="0 0 520 32" preserveAspectRatio="none">
+  <div class="zd-connector-row" style="max-width:520px;width:100%">
+    <svg class="zd-conn" height="32" viewBox="0 0 520 32" preserveAspectRatio="none">
       <line x1="260" y1="0" x2="100" y2="32" stroke="#185FA5" stroke-width="1.5" stroke-dasharray="4 3"/>
       <line x1="260" y1="0" x2="420" y2="32" stroke="#185FA5" stroke-width="1.5" stroke-dasharray="4 3"/>
     </svg>
   </div>
-
-  <div class="tier tier-methods" style="gap:10px;max-width:540px;width:100%">
-    <a class="node n-aigc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:aigc" target="_blank">
-      <span class="node-title">AIGC</span>
-      <span class="node-sub">Generative data synthesis</span>
-      <span class="badge">Data scarcity</span>
+  <div class="zd-tier zd-tier-methods" style="gap:10px;max-width:540px;width:100%">
+    <a class="zd-node zd-n-aigc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:aigc" target="_blank">
+      <span class="zd-node-title">AIGC</span>
+      <span class="zd-node-sub">Generative data synthesis</span>
+      <span class="zd-badge">Data scarcity</span>
     </a>
-    <a class="node n-unc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:uncertainty_estimation" target="_blank">
-      <span class="node-title">Uncertainty estimation</span>
-      <span class="node-sub">Pseudo &amp; weak labels</span>
-      <span class="badge">Label scarcity</span>
+    <a class="zd-node zd-n-unc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:uncertainty_estimation" target="_blank">
+      <span class="zd-node-title">Uncertainty estimation</span>
+      <span class="zd-node-sub">Pseudo &amp; weak labels</span>
+      <span class="zd-badge">Label scarcity</span>
     </a>
   </div>
-
-  <div class="connector-row" style="max-width:660px;width:100%">
-    <svg class="conn" height="32" viewBox="0 0 660 32" preserveAspectRatio="none">
+  <div class="zd-connector-row" style="max-width:660px;width:100%">
+    <svg class="zd-conn" height="32" viewBox="0 0 660 32" preserveAspectRatio="none">
       <line x1="185" y1="0" x2="100"  y2="32" stroke="#993C1D" stroke-width="1.2" stroke-dasharray="3 3"/>
       <line x1="185" y1="0" x2="330"  y2="32" stroke="#185FA5" stroke-width="1.2" stroke-dasharray="3 3"/>
       <line x1="475" y1="0" x2="330"  y2="32" stroke="#185FA5" stroke-width="1.2" stroke-dasharray="3 3"/>
       <line x1="475" y1="0" x2="560"  y2="32" stroke="#534AB7" stroke-width="1.2" stroke-dasharray="3 3"/>
     </svg>
   </div>
-
-  <div class="tier tier-tasks" style="gap:8px;width:100%">
-    <a class="node n-reid" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification" target="_blank">
-      <span class="node-title">Object Re-identification</span>
-      <span class="node-sub">Person, vehicle, 3D</span>
-      <span class="badge">AIGC</span>
+  <div class="zd-tier zd-tier-tasks" style="gap:8px;width:100%">
+    <a class="zd-node zd-n-reid" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification" target="_blank">
+      <span class="zd-node-title">Object Re-identification</span>
+      <span class="zd-node-sub">Person, vehicle, 3D</span>
+      <span class="zd-badge">AIGC</span>
     </a>
-    <a class="node n-da" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation" target="_blank">
-      <span class="node-title">Domain adaptation</span>
-      <span class="node-sub">Segmentation, Re-ID</span>
-      <span class="badge">Uncertainty</span>
+    <a class="zd-node zd-n-da" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation" target="_blank">
+      <span class="zd-node-title">Domain adaptation</span>
+      <span class="zd-node-sub">Segmentation, Re-ID</span>
+      <span class="zd-badge">Uncertainty</span>
     </a>
-    <a class="node n-sp" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence" target="_blank">
-      <span class="node-title">Spatial intelligence</span>
-      <span class="node-sub">Geo-loc, 3DGS, UAV</span>
-      <span class="badge">AIGC</span>
+    <a class="zd-node zd-n-sp" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence" target="_blank">
+      <span class="zd-node-title">Spatial intelligence</span>
+      <span class="zd-node-sub">Geo-loc, 3DGS, UAV</span>
+      <span class="zd-badge">AIGC</span>
     </a>
   </div>
-
-  <div class="more-link">
-    <i class="ti ti-external-link" aria-hidden="true" style="font-size:13px"></i>
-    <a href="https://www.zdzheng.xyz/research" target="_blank">See Research page for more details</a>
+  <div class="zd-more-link">
+    <a href="https://www.zdzheng.xyz/research" target="_blank">→ See Research page for more details</a>
   </div>
-
 </div>
 
 </div>
