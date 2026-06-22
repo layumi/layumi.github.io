@@ -102,14 +102,68 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 <div style="flex:2; min-width:280px;">
 
 <h2><i class="fa-regular fa-compass fa-shake"></i> Research Interests</h2>
-<ul>
-	<li>  <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:aigc">AIGC</a> </li>
-    <li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:data_centric_ai">Data-centric AI</a> </li>
-	<li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence">Spatial Intelligence</a> </li>
-	<li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification">Object Re-identification</a> </li>
-	<li> <a href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation">Domain Adaptation</a> </li>
-	See <a href="https://www.zdzheng.xyz/research">Research</a> page for more details.
-</ul>
+<div class="pyramid-wrap">
+
+  <div class="tier" style="margin-bottom:0">
+    <a class="node n-root" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:data_centric_ai" target="_blank">
+      <span class="node-title">Data-Centric AI</span>
+      <span class="node-sub">Root framework</span>
+    </a>
+  </div>
+
+  <div class="connector-row" style="max-width:520px;width:100%">
+    <svg class="conn" height="32" viewBox="0 0 520 32" preserveAspectRatio="none">
+      <line x1="260" y1="0" x2="100" y2="32" stroke="#185FA5" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <line x1="260" y1="0" x2="420" y2="32" stroke="#185FA5" stroke-width="1.5" stroke-dasharray="4 3"/>
+    </svg>
+  </div>
+
+  <div class="tier tier-methods" style="gap:10px;max-width:540px;width:100%">
+    <a class="node n-aigc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:aigc" target="_blank">
+      <span class="node-title">AIGC</span>
+      <span class="node-sub">Generative data synthesis</span>
+      <span class="badge">Data scarcity</span>
+    </a>
+    <a class="node n-unc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:uncertainty_estimation" target="_blank">
+      <span class="node-title">Uncertainty estimation</span>
+      <span class="node-sub">Pseudo &amp; weak labels</span>
+      <span class="badge">Label scarcity</span>
+    </a>
+  </div>
+
+  <div class="connector-row" style="max-width:660px;width:100%">
+    <svg class="conn" height="32" viewBox="0 0 660 32" preserveAspectRatio="none">
+      <line x1="185" y1="0" x2="100"  y2="32" stroke="#993C1D" stroke-width="1.2" stroke-dasharray="3 3"/>
+      <line x1="185" y1="0" x2="330"  y2="32" stroke="#185FA5" stroke-width="1.2" stroke-dasharray="3 3"/>
+      <line x1="475" y1="0" x2="330"  y2="32" stroke="#185FA5" stroke-width="1.2" stroke-dasharray="3 3"/>
+      <line x1="475" y1="0" x2="560"  y2="32" stroke="#534AB7" stroke-width="1.2" stroke-dasharray="3 3"/>
+    </svg>
+  </div>
+
+  <div class="tier tier-tasks" style="gap:8px;width:100%">
+    <a class="node n-reid" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification" target="_blank">
+      <span class="node-title">Object Re-identification</span>
+      <span class="node-sub">Person, vehicle, 3D</span>
+      <span class="badge">AIGC</span>
+    </a>
+    <a class="node n-da" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation" target="_blank">
+      <span class="node-title">Domain adaptation</span>
+      <span class="node-sub">Segmentation, Re-ID</span>
+      <span class="badge">Uncertainty</span>
+    </a>
+    <a class="node n-sp" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence" target="_blank">
+      <span class="node-title">Spatial intelligence</span>
+      <span class="node-sub">Geo-loc, 3DGS, UAV</span>
+      <span class="badge">AIGC</span>
+    </a>
+  </div>
+
+  <div class="more-link">
+    <i class="ti ti-external-link" aria-hidden="true" style="font-size:13px"></i>
+    <a href="https://www.zdzheng.xyz/research" target="_blank">See Research page for more details</a>
+  </div>
+
+</div>
 
 </div>
 

@@ -6,12 +6,68 @@ author_profile: true
 redirect_from: 
 ---
 
+<div class="pyramid-wrap">
 
-## [Spatial Intelligence](https://www.zdzheng.xyz/tag/spatial-intelligence)
-- Cross View (Drone, Satellite, Ground) [ACM MM'20](https://zdzheng.xyz/publication/Universi2020), [TCSVT'21](https://zdzheng.xyz/publication/Each-par2021), [TIP'22](https://zdzheng.xyz/publication/Joint-Re2022), [TGRS'24](https://www.zdzheng.xyz/publication/Learning2024)
-- Multi-weather [PR'24](https://zdzheng.xyz/publication/Multiple2024), [NeurIPS'25](https://www.zdzheng.xyz/publication/WeatherP2025)
-- Cross Modality [ECCV'24](https://www.zdzheng.xyz/publication/Towards-2024) 
-- Video + 3DGS [ICCV'24](https://www.zdzheng.xyz/publication/Video2BE2025)
+  <div class="tier" style="margin-bottom:0">
+    <a class="node n-root" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:data_centric_ai" target="_blank">
+      <span class="node-title">Data-Centric AI</span>
+      <span class="node-sub">Root framework</span>
+    </a>
+  </div>
+
+  <div class="connector-row" style="max-width:520px;width:100%">
+    <svg class="conn" height="32" viewBox="0 0 520 32" preserveAspectRatio="none">
+      <line x1="260" y1="0" x2="100" y2="32" stroke="#185FA5" stroke-width="1.5" stroke-dasharray="4 3"/>
+      <line x1="260" y1="0" x2="420" y2="32" stroke="#185FA5" stroke-width="1.5" stroke-dasharray="4 3"/>
+    </svg>
+  </div>
+
+  <div class="tier tier-methods" style="gap:10px;max-width:540px;width:100%">
+    <a class="node n-aigc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:aigc" target="_blank">
+      <span class="node-title">AIGC</span>
+      <span class="node-sub">Generative data synthesis</span>
+      <span class="badge">Data scarcity</span>
+    </a>
+    <a class="node n-unc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:uncertainty_estimation" target="_blank">
+      <span class="node-title">Uncertainty estimation</span>
+      <span class="node-sub">Pseudo &amp; weak labels</span>
+      <span class="badge">Label scarcity</span>
+    </a>
+  </div>
+
+  <div class="connector-row" style="max-width:660px;width:100%">
+    <svg class="conn" height="32" viewBox="0 0 660 32" preserveAspectRatio="none">
+      <line x1="185" y1="0" x2="100"  y2="32" stroke="#993C1D" stroke-width="1.2" stroke-dasharray="3 3"/>
+      <line x1="185" y1="0" x2="330"  y2="32" stroke="#185FA5" stroke-width="1.2" stroke-dasharray="3 3"/>
+      <line x1="475" y1="0" x2="330"  y2="32" stroke="#185FA5" stroke-width="1.2" stroke-dasharray="3 3"/>
+      <line x1="475" y1="0" x2="560"  y2="32" stroke="#534AB7" stroke-width="1.2" stroke-dasharray="3 3"/>
+    </svg>
+  </div>
+
+  <div class="tier tier-tasks" style="gap:8px;width:100%">
+    <a class="node n-reid" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification" target="_blank">
+      <span class="node-title">Object Re-identification</span>
+      <span class="node-sub">Person, vehicle, 3D</span>
+      <span class="badge">AIGC</span>
+    </a>
+    <a class="node n-da" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation" target="_blank">
+      <span class="node-title">Domain adaptation</span>
+      <span class="node-sub">Segmentation, Re-ID</span>
+      <span class="badge">Uncertainty</span>
+    </a>
+    <a class="node n-sp" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence" target="_blank">
+      <span class="node-title">Spatial intelligence</span>
+      <span class="node-sub">Geo-loc, 3DGS, UAV</span>
+      <span class="badge">AIGC</span>
+    </a>
+  </div>
+
+  <div class="more-link">
+    <i class="ti ti-external-link" aria-hidden="true" style="font-size:13px"></i>
+    <a href="https://www.zdzheng.xyz/research" target="_blank">See Research page for more details</a>
+  </div>
+
+</div>
 
 
 ## [Uncertainty Learning](https://www.zdzheng.xyz/tag/uncertainty-learning) 
@@ -52,3 +108,9 @@ This research area is to retrieval the relevant multi-media data including cross
 This research area is to minimize the gap between the generated data / simulation system with the real-world data / scenario during deployment. 
 - Person Re-ID [CVPR'18](https://zdzheng.xyz/publication/Camera-s2018), [TIP'19](https://zdzheng.xyz/publication/Camstyle2019)
 - Semantic Segmenetation [IJCAI'20](https://zdzheng.xyz/publication/Unsuperv2020), [IJCV'21](https://zdzheng.xyz/publication/Rectifyi2021), [TIP'22](https://zdzheng.xyz/publication/Adaptive2022), [ACM MM'23](https://zdzheng.xyz/publication/PiPa-Pix2023), [ACM MM'24](https://www.zdzheng.xyz/publication/Transfer2024)
+
+## [Spatial Intelligence](https://www.zdzheng.xyz/tag/spatial-intelligence)
+- Cross View (Drone, Satellite, Ground) [ACM MM'20](https://zdzheng.xyz/publication/Universi2020), [TCSVT'21](https://zdzheng.xyz/publication/Each-par2021), [TIP'22](https://zdzheng.xyz/publication/Joint-Re2022), [TGRS'24](https://www.zdzheng.xyz/publication/Learning2024)
+- Multi-weather [PR'24](https://zdzheng.xyz/publication/Multiple2024), [NeurIPS'25](https://www.zdzheng.xyz/publication/WeatherP2025)
+- Cross Modality [ECCV'24](https://www.zdzheng.xyz/publication/Towards-2024) 
+- Video + 3DGS [ICCV'24](https://www.zdzheng.xyz/publication/Video2BE2025)
