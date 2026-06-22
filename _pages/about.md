@@ -102,59 +102,227 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 <div style="flex:2; min-width:280px;">
 
 <h2><i class="fa-regular fa-compass fa-shake"></i> Research Interests</h2>
-<div class="zd-pyramid-wrap">
-  <div class="zd-tier" style="margin-bottom:0">
-    <a class="zd-node zd-n-root" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:data_centric_ai" target="_blank">
-      <span class="zd-node-title">Data-Centric AI</span>
-      <span class="zd-node-sub">Root framework</span>
+<style>
+.pyramid-wrap {
+  font-family: var(--font-sans);
+  padding: 1.5rem 0.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+.tier {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 10px;
+  width: 100%;
+}
+.connector-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 32px;
+  position: relative;
+  width: 100%;
+}
+.node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: var(--border-radius-lg);
+  padding: 12px 14px;
+  text-decoration: none;
+  border: 1.5px solid;
+  cursor: pointer;
+  transition: filter 0.15s;
+  line-height: 1.35;
+}
+.node:hover { filter: brightness(0.95); }
+.node-title {
+  font-size: 13px;
+  font-weight: 500;
+  display: block;
+}
+.node-sub {
+  font-size: 11px;
+  display: block;
+  margin-top: 3px;
+  opacity: 0.75;
+}
+.badge {
+  font-size: 10px;
+  font-weight: 500;
+  padding: 2px 8px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 5px;
+}
+
+/* Root */
+.n-root {
+  background: #E6F1FB;
+  border-color: #185FA5;
+  color: #0C447C;
+  max-width: 240px;
+  width: 100%;
+  padding: 14px 20px;
+}
+.n-root .node-title { font-size: 15px; color: #042C53; }
+.n-root .node-sub { color: #185FA5; }
+
+/* Methods tier */
+.n-aigc {
+  background: #FAECE7;
+  border-color: #993C1D;
+  color: #712B13;
+  flex: 1;
+  max-width: 260px;
+}
+.n-aigc .node-title { color: #4A1B0C; }
+.n-aigc .node-sub { color: #993C1D; }
+.n-aigc .badge { background: #F5C4B3; color: #712B13; }
+
+.n-unc {
+  background: #EEEDFE;
+  border-color: #534AB7;
+  color: #3C3489;
+  flex: 1;
+  max-width: 260px;
+}
+.n-unc .node-title { color: #26215C; }
+.n-unc .node-sub { color: #534AB7; }
+.n-unc .badge { background: #CECBF6; color: #3C3489; }
+
+/* Task tier */
+.n-reid {
+  background: #FAEEDA;
+  border-color: #854F0B;
+  color: #633806;
+  flex: 1;
+}
+.n-reid .node-title { color: #412402; }
+.n-reid .node-sub { color: #854F0B; }
+.n-reid .badge { background: #FAC775; color: #633806; }
+
+.n-da {
+  background: #EAF3DE;
+  border-color: #3B6D11;
+  color: #27500A;
+  flex: 1;
+}
+.n-da .node-title { color: #173404; }
+.n-da .node-sub { color: #3B6D11; }
+.n-da .badge { background: #C0DD97; color: #27500A; }
+
+.n-sp {
+  background: #E1F5EE;
+  border-color: #0F6E56;
+  color: #085041;
+  flex: 1;
+}
+.n-sp .node-title { color: #04342C; }
+.n-sp .node-sub { color: #0F6E56; }
+.n-sp .badge { background: #9FE1CB; color: #085041; }
+
+/* SVG connectors */
+svg.conn { width: 100%; overflow: visible; display: block; }
+
+/* more link */
+.more-link {
+  font-size: 12px;
+  color: var(--color-text-secondary);
+  text-align: center;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.more-link a {
+  color: #185FA5;
+  text-decoration: none;
+  font-weight: 500;
+}
+.more-link a:hover { text-decoration: underline; }
+
+/* Mobile: stack method nodes vertically if narrow */
+@media (max-width: 480px) {
+  .tier-methods { flex-direction: column; align-items: center; }
+  .tier-methods .n-aigc,
+  .tier-methods .n-unc { max-width: 100%; width: 100%; }
+  .tier-tasks { flex-direction: column; align-items: center; }
+  .tier-tasks .n-reid,
+  .tier-tasks .n-da,
+  .tier-tasks .n-sp { max-width: 100%; width: 100%; }
+  svg.conn { display: none; }
+  .connector-row { height: 8px; }
+}
+</style>
+
+<div class="pyramid-wrap">
+
+  <div class="tier" style="margin-bottom:0">
+    <a class="node n-root" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:data_centric_ai" target="_blank">
+      <span class="node-title">Data-Centric AI</span>
+      <span class="node-sub">Root framework</span>
     </a>
   </div>
-  <div class="zd-connector-row" style="max-width:520px;width:100%">
-    <svg class="zd-conn" height="32" viewBox="0 0 520 32" preserveAspectRatio="none">
+
+  <div class="connector-row" style="max-width:520px;width:100%">
+    <svg class="conn" height="32" viewBox="0 0 520 32" preserveAspectRatio="none">
       <line x1="260" y1="0" x2="100" y2="32" stroke="#185FA5" stroke-width="1.5" stroke-dasharray="4 3"/>
       <line x1="260" y1="0" x2="420" y2="32" stroke="#185FA5" stroke-width="1.5" stroke-dasharray="4 3"/>
     </svg>
   </div>
-  <div class="zd-tier zd-tier-methods" style="gap:10px;max-width:540px;width:100%">
-    <a class="zd-node zd-n-aigc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:aigc" target="_blank">
-      <span class="zd-node-title">AIGC</span>
-      <span class="zd-node-sub">Generative data synthesis</span>
-      <span class="zd-badge">Data scarcity</span>
+
+  <div class="tier tier-methods" style="gap:10px;max-width:540px;width:100%">
+    <a class="node n-aigc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:aigc" target="_blank">
+      <span class="node-title">AIGC</span>
+      <span class="node-sub">Generative data synthesis</span>
+      <span class="badge">Data scarcity</span>
     </a>
-    <a class="zd-node zd-n-unc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:uncertainty_estimation" target="_blank">
-      <span class="zd-node-title">Uncertainty estimation</span>
-      <span class="zd-node-sub">Pseudo &amp; weak labels</span>
-      <span class="zd-badge">Label scarcity</span>
+    <a class="node n-unc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:uncertainty_estimation" target="_blank">
+      <span class="node-title">Uncertainty estimation</span>
+      <span class="node-sub">Pseudo &amp; weak labels</span>
+      <span class="badge">Label scarcity</span>
     </a>
   </div>
-  <div class="zd-connector-row" style="max-width:660px;width:100%">
-    <svg class="zd-conn" height="32" viewBox="0 0 660 32" preserveAspectRatio="none">
+
+  <div class="connector-row" style="max-width:660px;width:100%">
+    <svg class="conn" height="32" viewBox="0 0 660 32" preserveAspectRatio="none">
       <line x1="185" y1="0" x2="100"  y2="32" stroke="#993C1D" stroke-width="1.2" stroke-dasharray="3 3"/>
       <line x1="185" y1="0" x2="330"  y2="32" stroke="#185FA5" stroke-width="1.2" stroke-dasharray="3 3"/>
       <line x1="475" y1="0" x2="330"  y2="32" stroke="#185FA5" stroke-width="1.2" stroke-dasharray="3 3"/>
       <line x1="475" y1="0" x2="560"  y2="32" stroke="#534AB7" stroke-width="1.2" stroke-dasharray="3 3"/>
     </svg>
   </div>
-  <div class="zd-tier zd-tier-tasks" style="gap:8px;width:100%">
-    <a class="zd-node zd-n-reid" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification" target="_blank">
-      <span class="zd-node-title">Object Re-identification</span>
-      <span class="zd-node-sub">Person, vehicle, 3D</span>
-      <span class="zd-badge">AIGC</span>
+
+  <div class="tier tier-tasks" style="gap:8px;width:100%">
+    <a class="node n-reid" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification" target="_blank">
+      <span class="node-title">Object Re-identification</span>
+      <span class="node-sub">Person, vehicle, 3D</span>
+      <span class="badge">AIGC</span>
     </a>
-    <a class="zd-node zd-n-da" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation" target="_blank">
-      <span class="zd-node-title">Domain adaptation</span>
-      <span class="zd-node-sub">Segmentation, Re-ID</span>
-      <span class="zd-badge">Uncertainty</span>
+    <a class="node n-da" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation" target="_blank">
+      <span class="node-title">Domain adaptation</span>
+      <span class="node-sub">Segmentation, Re-ID</span>
+      <span class="badge">Uncertainty</span>
     </a>
-    <a class="zd-node zd-n-sp" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence" target="_blank">
-      <span class="zd-node-title">Spatial intelligence</span>
-      <span class="zd-node-sub">Geo-loc, 3DGS, UAV</span>
-      <span class="zd-badge">AIGC</span>
+    <a class="node n-sp" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence" target="_blank">
+      <span class="node-title">Spatial intelligence</span>
+      <span class="node-sub">Geo-loc, 3DGS, UAV</span>
+      <span class="badge">AIGC</span>
     </a>
   </div>
-  <div class="zd-more-link">
-    <a href="https://www.zdzheng.xyz/research" target="_blank">→ See Research page for more details</a>
+
+  <div class="more-link">
+    <i class="ti ti-external-link" aria-hidden="true" style="font-size:13px"></i>
+    <a href="https://www.zdzheng.xyz/research" target="_blank">See Research page for more details</a>
   </div>
+
 </div>
 
 </div>
