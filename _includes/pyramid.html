@@ -3,7 +3,7 @@
   <div class="card-header">
     <p class="card-eyebrow">Research topology</p>
     <h1 class="card-title">Data-Centric AI</h1>
-    <p class="card-desc">A three-layer directed acyclic graph mapping the research paradigm, underlying mechanisms, and application domains.</p>
+    <p class="card-desc">A three-layer directed acyclic graph mapping the research paradigm, underlying Mechanisms, and application domains.</p>
   </div>
 
   <div class="pyramid-wrap">
@@ -26,7 +26,7 @@
       </svg>
     </div>
 
-    <!-- ── L1 : Mechanisms ── -->
+    <!-- ── L1 : Mechanisms (coupling label floats in the gap) ── -->
     <div class="tier tier-methods">
       <a class="node n-aigc"
          href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:aigc"
@@ -35,46 +35,16 @@
         <span class="node-sub">Synthetic data · Pseudo-labels</span>
         <div class="badges"><span class="badge">Data scarcity</span></div>
       </a>
+      <div class="coupling-row" aria-hidden="true">
+        <span class="coupling-label">generates ↔ filters</span>
+      </div>
       <a class="node n-unc"
          href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:uncertainty_estimation"
          target="_blank" rel="noopener">
-        <span class="node-title">Uncertainty estimation</span>
-        <span class="node-sub">Noise modeling · Confidence calibration</span>
+        <span class="node-title">Uncertainty Estimation</span>
+        <span class="node-sub">Noise modeling · Confidence Calibration</span>
         <div class="badges"><span class="badge">Label scarcity</span></div>
       </a>
-    </div>
-
-    <!-- L1 bidirectional coupling -->
-    <div class="coupling-row">
-      <div class="coupling-line">
-        <svg width="100%" height="12" style="overflow:visible">
-          <line x1="0" y1="6" x2="100%" y2="6"
-                stroke="var(--edge-aigc)" stroke-width="1"
-                stroke-dasharray="3 2" marker-end="url(#arr-teal)"/>
-          <defs>
-            <marker id="arr-teal" viewBox="0 0 8 8" refX="7" refY="4"
-                    markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-              <path d="M1 1L7 4L1 7" fill="none" stroke="var(--edge-aigc)" stroke-width="1.4"
-                    stroke-linecap="round" stroke-linejoin="round"/>
-            </marker>
-          </defs>
-        </svg>
-      </div>
-      <span class="coupling-label">generates ↔ filters</span>
-      <div class="coupling-line">
-        <svg width="100%" height="12" style="overflow:visible;transform:scaleX(-1)">
-          <line x1="0" y1="6" x2="100%" y2="6"
-                stroke="var(--edge-unc)" stroke-width="1"
-                stroke-dasharray="3 2" marker-end="url(#arr-amber)"/>
-          <defs>
-            <marker id="arr-amber" viewBox="0 0 8 8" refX="7" refY="4"
-                    markerWidth="5" markerHeight="5" orient="auto-start-reverse">
-              <path d="M1 1L7 4L1 7" fill="none" stroke="var(--edge-unc)" stroke-width="1.4"
-                    stroke-linecap="round" stroke-linejoin="round"/>
-            </marker>
-          </defs>
-        </svg>
-      </div>
     </div>
 
     <!-- L1 → L2 connectors -->
@@ -96,7 +66,7 @@
       <a class="node n-sp"
          href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence"
          target="_blank" rel="noopener">
-        <span class="node-title">Spatial intelligence</span>
+        <span class="node-title">Spatial Intelligence</span>
         <span class="node-sub">Geo-loc · 3DGS · UAV</span>
         <div class="badges"><span class="badge">AIGC</span></div>
       </a>
@@ -113,31 +83,10 @@
       <a class="node n-da"
          href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation"
          target="_blank" rel="noopener">
-        <span class="node-title">Domain adaptation</span>
-        <span class="node-sub">Cross-dataset seg · Retrieval</span>
+        <span class="node-title">Domain Adaptation</span>
+        <span class="node-sub">Cross-dataset Seg. · Retrieval</span>
         <div class="badges"><span class="badge">Uncertainty</span></div>
       </a>
-    </div>
-
-    <!-- L2 lateral intra-layer transfers -->
-    <div class="lateral-row">
-      <svg class="conn" height="14" viewBox="0 0 720 14" preserveAspectRatio="none" style="overflow:visible">
-        <defs>
-          <marker id="arr-lat" viewBox="0 0 8 8" refX="7" refY="4"
-                  markerWidth="5" markerHeight="5" orient="auto">
-            <path d="M1 1L7 4L1 7" fill="none" stroke="var(--edge-lat)" stroke-width="1.3"
-                  stroke-linecap="round" stroke-linejoin="round"/>
-          </marker>
-        </defs>
-        <!-- Spatial → Re-ID -->
-        <line x1="226" y1="7" x2="280" y2="7"
-              stroke="var(--edge-lat)" stroke-width="0.9"
-              stroke-dasharray="3 3" marker-end="url(#arr-lat)"/>
-        <!-- Re-ID → Domain Adapt -->
-        <line x1="440" y1="7" x2="494" y2="7"
-              stroke="var(--edge-lat)" stroke-width="0.9"
-              stroke-dasharray="3 3" marker-end="url(#arr-lat)"/>
-      </svg>
     </div>
 
     <!-- ── Legend ── -->
@@ -153,10 +102,6 @@
       <div class="legend-item">
         <svg width="28" height="10"><line x1="0" y1="5" x2="28" y2="5" stroke="var(--edge-unc)" stroke-width="1.5" stroke-dasharray="3 2"/></svg>
         Uncertainty-driven
-      </div>
-      <div class="legend-item">
-        <div class="legend-line-dash"></div>
-        Intra-layer transfer
       </div>
     </div>
 
