@@ -255,25 +255,22 @@
     width: 100%;
     overflow: hidden;
   }
+  
   /* ── Responsive ── */
   @media (max-width: 640px) {
     .pyramid-container {
-      zoom: 0.58;
-      /* 防止内容溢出左边 */
       overflow: hidden;
-      display: flex;
-      justify-content: center;
     }
 
-    @supports not (zoom: 1) {
-      .pyramid-container {
-        zoom: unset;
-        overflow: hidden;
-        width: 100%;
-        /* scale 居中关键：先移到中心再缩放再移回来 */
-        transform: translateX(-50%) scale(0.58) translateX(50%);
-        transform-origin: left top;
-      }
+    .pyramid-wrap {
+      transform: scale(0.58);
+      transform-origin: top center;
+      /* 关键：让缩放基点在容器中心 */
+      position: relative;
+      left: 50%;
+      transform: translateX(-50%) scale(0.58);
+      transform-origin: top center;
+      margin-bottom: -350px; /* 根据实际内容高度调整 */
     }
 
     .tier-methods,
