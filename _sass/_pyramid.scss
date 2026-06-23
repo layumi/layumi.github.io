@@ -259,23 +259,23 @@
   @media (max-width: 640px) {
     .pyramid-container {
       zoom: 0.58;
+      /* 防止内容溢出左边 */
+      overflow: hidden;
+      width: 100%;
     }
 
     @supports not (zoom: 1) {
       .pyramid-container {
-        transform: scale(0.58);
-        transform-origin: top center;
-        /* scale 不影响占位，需要手动补偿高度 */
-        margin-bottom: -280px;
+        zoom: unset;
+        overflow: hidden;
+        width: 100%;
+        /* scale 居中关键：先移到中心再缩放再移回来 */
+        transform: translateX(-50%) scale(0.58) translateX(50%);
+        transform-origin: left top;
       }
     }
 
-    /* 强制第二层不换行 */
-    .tier-methods {
-      flex-wrap: nowrap;
-    }
-
-    /* 强制第三层三个节点均匀分布不换行 */
+    .tier-methods,
     .tier-tasks {
       flex-wrap: nowrap;
     }
