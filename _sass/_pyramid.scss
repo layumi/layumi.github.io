@@ -261,7 +261,8 @@
       zoom: 0.58;
       /* 防止内容溢出左边 */
       overflow: hidden;
-      width: 100%;
+      display: flex;
+      justify-content: center;
     }
 
     @supports not (zoom: 1) {
