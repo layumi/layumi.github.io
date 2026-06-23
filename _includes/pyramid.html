@@ -1,96 +1,172 @@
-<div class="pyramid-wrap">
+<div class="card">
 
-  <!-- ── L0 : Root paradigm ── -->
-  <div class="tier" style="margin-bottom:0">
-    <a class="node n-root" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:data_centric_ai" target="_blank">
-      <span class="node-title">Data-Centric AI</span>
-      <span class="node-sub">Curate · Label · Evaluate · Iterate</span>
-    </a>
+  <div class="card-header">
+    <p class="card-eyebrow">Research topology</p>
+    <h1 class="card-title">Data-Centric AI</h1>
+    <p class="card-desc">A three-layer directed acyclic graph mapping the research paradigm, underlying mechanisms, and application domains.</p>
   </div>
 
-  <!-- L0 → L1 connectors -->
-  <div class="connector-row" style="max-width:520px;width:100%">
-    <svg class="conn" height="32" viewBox="0 0 520 32" preserveAspectRatio="none">
-      <line x1="260" y1="0" x2="110" y2="32" stroke="#185FA5" stroke-width="1.5" stroke-dasharray="4 3"/>
-      <line x1="260" y1="0" x2="410" y2="32" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="4 3"/>
-    </svg>
-  </div>
+  <div class="pyramid-wrap">
 
-  <!-- ── L1 : Mechanisms ── -->
-  <div class="tier tier-methods" style="gap:10px;max-width:540px;width:100%">
-    <a class="node n-aigc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:aigc" target="_blank">
-      <span class="node-title">AIGC</span>
-      <span class="node-sub">Synthetic data · Pseudo-labels</span>
-      <span class="badge">Data scarcity</span>
-    </a>
-    <a class="node n-unc" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:uncertainty_estimation" target="_blank">
-      <span class="node-title">Uncertainty estimation</span>
-      <span class="node-sub">Noise modeling · Confidence calibration</span>
-      <span class="badge">Label scarcity</span>
-    </a>
-  </div>
+    <!-- ── L0 : Root paradigm ── -->
+    <div class="tier" style="margin-bottom:0">
+      <a class="node n-root"
+         href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:data_centric_ai"
+         target="_blank" rel="noopener">
+        <span class="node-title">Data-Centric AI</span>
+        <span class="node-sub">Curate · Label · Evaluate · Iterate</span>
+      </a>
+    </div>
 
-  <!-- L1 bidirectional coupling (AIGC ↔ Uncertainty) -->
-  <div class="connector-row" style="max-width:540px;width:100%;position:relative">
-    <svg class="conn" height="18" viewBox="0 0 540 18" preserveAspectRatio="none">
-      <!-- generates → (AIGC to Uncertainty) -->
-      <line x1="220" y1="9" x2="310" y2="9" stroke="#1D9E75" stroke-width="1.2" stroke-dasharray="3 2"/>
-      <polygon points="310,6 318,9 310,12" fill="#1D9E75"/>
-      <!-- ← filters (Uncertainty to AIGC) -->
-      <line x1="320" y1="9" x2="230" y2="9" stroke="#EF9F27" stroke-width="1" stroke-dasharray="3 2"/>
-      <polygon points="230,6 222,9 230,12" fill="#EF9F27"/>
-      <!-- coupling label -->
-      <text x="270" y="7" text-anchor="middle" font-size="9" fill="#888780">generates ↔ filters</text>
-    </svg>
-  </div>
+    <!-- L0 → L1 connectors -->
+    <div class="connector-row" style="max-width:560px">
+      <svg class="conn" height="32" viewBox="0 0 560 32" preserveAspectRatio="none">
+        <line x1="280" y1="0" x2="118" y2="32" stroke="#185FA5" stroke-width="1.5" stroke-dasharray="4 3"/>
+        <line x1="280" y1="0" x2="442" y2="32" stroke="#EF9F27" stroke-width="1.5" stroke-dasharray="4 3"/>
+      </svg>
+    </div>
 
-  <!-- L1 → L2 connectors (3 downstream nodes) -->
-  <div class="connector-row" style="max-width:700px;width:100%">
-    <svg class="conn" height="32" viewBox="0 0 700 32" preserveAspectRatio="none">
-      <!-- AIGC (x≈175) → Spatial (x≈110) -->
-      <line x1="175" y1="0" x2="110"  y2="32" stroke="#1D9E75" stroke-width="1.3" stroke-dasharray="3 3"/>
-      <!-- AIGC (x≈175) → Re-ID (x≈350) -->
-      <line x1="175" y1="0" x2="350"  y2="32" stroke="#1D9E75" stroke-width="1.3" stroke-dasharray="3 3"/>
-      <!-- Uncertainty (x≈525) → Re-ID (x≈350) -->
-      <line x1="525" y1="0" x2="350"  y2="32" stroke="#EF9F27" stroke-width="1.3" stroke-dasharray="3 3"/>
-      <!-- Uncertainty (x≈525) → Domain Adapt (x≈590) -->
-      <line x1="525" y1="0" x2="590"  y2="32" stroke="#EF9F27" stroke-width="1.3" stroke-dasharray="3 3"/>
-    </svg>
-  </div>
+    <!-- ── L1 : Mechanisms ── -->
+    <div class="tier tier-methods">
+      <a class="node n-aigc"
+         href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:aigc"
+         target="_blank" rel="noopener">
+        <span class="node-title">AIGC</span>
+        <span class="node-sub">Synthetic data · Pseudo-labels</span>
+        <div class="badges"><span class="badge">Data scarcity</span></div>
+      </a>
+      <a class="node n-unc"
+         href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:uncertainty_estimation"
+         target="_blank" rel="noopener">
+        <span class="node-title">Uncertainty estimation</span>
+        <span class="node-sub">Noise modeling · Confidence calibration</span>
+        <div class="badges"><span class="badge">Label scarcity</span></div>
+      </a>
+    </div>
 
-  <!-- ── L2 : Application domains ── -->
-  <div class="tier tier-tasks" style="gap:8px;width:100%;max-width:700px">
-    <a class="node n-sp" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence" target="_blank">
-      <span class="node-title">Spatial intelligence</span>
-      <span class="node-sub">Geo-loc · 3DGS · UAV</span>
-      <span class="badge">AIGC</span>
-    </a>
-    <a class="node n-reid" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification" target="_blank">
-      <span class="node-title">Object Re-ID</span>
-      <span class="node-sub">Person · Vehicle · 3D</span>
-      <span class="badge">AIGC</span>
-      <span class="badge">Uncertainty</span>
-    </a>
-    <a class="node n-da" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation" target="_blank">
-      <span class="node-title">Domain adaptation</span>
-      <span class="node-sub">Cross-dataset seg · Retrieval</span>
-      <span class="badge">Uncertainty</span>
-    </a>
-  </div>
+    <!-- L1 bidirectional coupling -->
+    <div class="coupling-row">
+      <div class="coupling-line">
+        <svg width="100%" height="12" style="overflow:visible">
+          <line x1="0" y1="6" x2="100%" y2="6"
+                stroke="var(--edge-aigc)" stroke-width="1"
+                stroke-dasharray="3 2" marker-end="url(#arr-teal)"/>
+          <defs>
+            <marker id="arr-teal" viewBox="0 0 8 8" refX="7" refY="4"
+                    markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+              <path d="M1 1L7 4L1 7" fill="none" stroke="var(--edge-aigc)" stroke-width="1.4"
+                    stroke-linecap="round" stroke-linejoin="round"/>
+            </marker>
+          </defs>
+        </svg>
+      </div>
+      <span class="coupling-label">generates ↔ filters</span>
+      <div class="coupling-line">
+        <svg width="100%" height="12" style="overflow:visible;transform:scaleX(-1)">
+          <line x1="0" y1="6" x2="100%" y2="6"
+                stroke="var(--edge-unc)" stroke-width="1"
+                stroke-dasharray="3 2" marker-end="url(#arr-amber)"/>
+          <defs>
+            <marker id="arr-amber" viewBox="0 0 8 8" refX="7" refY="4"
+                    markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+              <path d="M1 1L7 4L1 7" fill="none" stroke="var(--edge-unc)" stroke-width="1.4"
+                    stroke-linecap="round" stroke-linejoin="round"/>
+            </marker>
+          </defs>
+        </svg>
+      </div>
+    </div>
 
-  <!-- L2 lateral transfers (Spatial → Re-ID, Re-ID → DA) -->
-  <div class="connector-row" style="max-width:700px;width:100%">
-    <svg class="conn" height="14" viewBox="0 0 700 14" preserveAspectRatio="none">
-      <line x1="220" y1="7" x2="270" y2="7" stroke="#B4B2A9" stroke-width="0.9" stroke-dasharray="3 3"/>
-      <polygon points="270,4 278,7 270,10" fill="#B4B2A9"/>
-      <line x1="420" y1="7" x2="470" y2="7" stroke="#B4B2A9" stroke-width="0.9" stroke-dasharray="3 3"/>
-      <polygon points="470,4 478,7 470,10" fill="#B4B2A9"/>
-    </svg>
-  </div>
+    <!-- L1 → L2 connectors -->
+    <div class="connector-row" style="max-width:720px">
+      <svg class="conn" height="32" viewBox="0 0 720 32" preserveAspectRatio="none">
+        <!-- AIGC → Spatial -->
+        <line x1="190" y1="0" x2="110" y2="32" stroke="var(--edge-aigc)" stroke-width="1.3" stroke-dasharray="3 3"/>
+        <!-- AIGC → Re-ID -->
+        <line x1="190" y1="0" x2="360" y2="32" stroke="var(--edge-aigc)" stroke-width="1.3" stroke-dasharray="3 3"/>
+        <!-- Uncertainty → Re-ID -->
+        <line x1="530" y1="0" x2="360" y2="32" stroke="var(--edge-unc)"  stroke-width="1.3" stroke-dasharray="3 3"/>
+        <!-- Uncertainty → Domain Adapt -->
+        <line x1="530" y1="0" x2="610" y2="32" stroke="var(--edge-unc)"  stroke-width="1.3" stroke-dasharray="3 3"/>
+      </svg>
+    </div>
 
-  <div class="more-link">
-    <i class="ti ti-external-link" aria-hidden="true" style="font-size:13px"></i>
-    <a href="https://www.zdzheng.xyz/research" target="_blank">See Research page for more details</a>
-  </div>
+    <!-- ── L2 : Application domains ── -->
+    <div class="tier tier-tasks">
+      <a class="node n-sp"
+         href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence"
+         target="_blank" rel="noopener">
+        <span class="node-title">Spatial intelligence</span>
+        <span class="node-sub">Geo-loc · 3DGS · UAV</span>
+        <div class="badges"><span class="badge">AIGC</span></div>
+      </a>
+      <a class="node n-reid"
+         href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification"
+         target="_blank" rel="noopener">
+        <span class="node-title">Object Re-ID</span>
+        <span class="node-sub">Person · Vehicle · 3D</span>
+        <div class="badges">
+          <span class="badge badge-aigc">AIGC</span>
+          <span class="badge badge-unc">Uncertainty</span>
+        </div>
+      </a>
+      <a class="node n-da"
+         href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation"
+         target="_blank" rel="noopener">
+        <span class="node-title">Domain adaptation</span>
+        <span class="node-sub">Cross-dataset seg · Retrieval</span>
+        <div class="badges"><span class="badge">Uncertainty</span></div>
+      </a>
+    </div>
 
-</div>
+    <!-- L2 lateral intra-layer transfers -->
+    <div class="lateral-row">
+      <svg class="conn" height="14" viewBox="0 0 720 14" preserveAspectRatio="none" style="overflow:visible">
+        <defs>
+          <marker id="arr-lat" viewBox="0 0 8 8" refX="7" refY="4"
+                  markerWidth="5" markerHeight="5" orient="auto">
+            <path d="M1 1L7 4L1 7" fill="none" stroke="var(--edge-lat)" stroke-width="1.3"
+                  stroke-linecap="round" stroke-linejoin="round"/>
+          </marker>
+        </defs>
+        <!-- Spatial → Re-ID -->
+        <line x1="226" y1="7" x2="280" y2="7"
+              stroke="var(--edge-lat)" stroke-width="0.9"
+              stroke-dasharray="3 3" marker-end="url(#arr-lat)"/>
+        <!-- Re-ID → Domain Adapt -->
+        <line x1="440" y1="7" x2="494" y2="7"
+              stroke="var(--edge-lat)" stroke-width="0.9"
+              stroke-dasharray="3 3" marker-end="url(#arr-lat)"/>
+      </svg>
+    </div>
+
+    <!-- ── Legend ── -->
+    <div class="legend">
+      <div class="legend-item">
+        <svg width="28" height="10"><line x1="0" y1="5" x2="28" y2="5" stroke="#185FA5" stroke-width="1.5" stroke-dasharray="4 3"/></svg>
+        Cross-layer dependency
+      </div>
+      <div class="legend-item">
+        <svg width="28" height="10"><line x1="0" y1="5" x2="28" y2="5" stroke="var(--edge-aigc)" stroke-width="1.5" stroke-dasharray="3 2"/></svg>
+        AIGC-driven
+      </div>
+      <div class="legend-item">
+        <svg width="28" height="10"><line x1="0" y1="5" x2="28" y2="5" stroke="var(--edge-unc)" stroke-width="1.5" stroke-dasharray="3 2"/></svg>
+        Uncertainty-driven
+      </div>
+      <div class="legend-item">
+        <div class="legend-line-dash"></div>
+        Intra-layer transfer
+      </div>
+    </div>
+
+    <!-- ── Footer link ── -->
+    <div class="more-link">
+      <i class="ti ti-external-link" aria-hidden="true"></i>
+      <a href="https://www.zdzheng.xyz/research" target="_blank" rel="noopener">
+        See Research page for more details
+      </a>
+    </div>
+
+  </div><!-- /pyramid-wrap -->
+</div><!-- /card -->
