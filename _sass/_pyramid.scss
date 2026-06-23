@@ -258,17 +258,20 @@
   /* ── Responsive ── */
   @media (max-width: 640px) {
     .pyramid-container {
-      zoom: 0.55;
-    }
+	      overflow: hidden;
+	      width: 100%;
+	}
 
-    @supports not (zoom: 1) {
-      .pyramid-container {
-        transform: scale(0.55);
-        transform-origin: top center;
-        /* scale 不影响占位，需要手动补偿高度 */
-        margin-bottom: -280px;
-      }
-    }
+	.pyramid-wrap {
+	      /* pyramid 内容原始宽度约 720px */
+	      /* 缩放比 = 当前屏幕宽 / 720 */
+	      /* 用 vw 近似：100vw / 720 ≈ 0.139vw per px */
+	      width: 720px;
+	      transform: scale(calc(100vw / 720));
+	      transform-origin: top left;
+	      /* 补偿 scale 不影响文档流导致的高度塌陷 */
+	      margin-bottom: calc((100vw / 720 - 1) * 600px);
+	}
 
     /* 强制第二层不换行 */
     .tier-methods {
