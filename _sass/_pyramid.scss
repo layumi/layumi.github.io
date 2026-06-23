@@ -253,13 +253,28 @@
 
   /* ── Responsive ── */
   @media (max-width: 540px) {
-    .card { padding: 28px 18px 24px; }
-
-    .tier-tasks {
+    .tier {
       flex-direction: column;
       align-items: center;
+    }
 
-      .node { width: 100%; max-width: 320px; flex: unset; }
+    .tier-methods,
+    .tier-tasks {
+      flex-direction: column;
+      align-items: stretch;   /* 让节点撑满宽度 */
+      max-width: 100%;
+    }
+
+    .node {
+      width: 100%;
+      min-width: unset;       /* 取消 140px 最小宽度限制 */
+      flex: unset;
+    }
+
+    /* coupling pill 在竖排时居中即可 */
+    .coupling-row {
+      width: 100%;
+      justify-content: center;
     }
   }
 
