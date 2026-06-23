@@ -250,35 +250,22 @@
       &:hover { color: var(--c-sp-bd); }
     }
   }
-
+  
+  .pyramid-container {
+    width: 100%;
+    overflow: visible;
+  }
   /* ── Responsive ── */
   @media (max-width: 640px) {
-    .tier {
-      flex-direction: column;
-      align-items: stretch;
+    .pyramid-container {
+      zoom: 0.72;
     }
 
-    .tier-methods,
-    .tier-tasks {
-      max-width: 100%;
-    }
-
-    .node {
-      min-width: unset;
-      flex: unset;
-      width: 100%;
-    }
-
-    /* 关键：手机上把 coupling-row 移到两个 node 之间竖排显示 */
-    .coupling-row {
-      width: 100%;
-      justify-content: center;
-      padding: 2px 0;
-    }
-
-    /* connector SVG 在手机上意义不大，压缩高度 */
-    .connector-row svg {
-      height: 16px;
+    @supports not (zoom: 1) {
+      .pyramid-container {
+        transform: scale(0.72);
+        transform-origin: top center;
+      }
     }
   }
 
