@@ -252,7 +252,7 @@
   }
   
   .pyramid-container {
-    width: 95%;
+    width: 100%;
     overflow: hidden;
   }
   /* ── Responsive ── */
@@ -269,7 +269,7 @@
       .pyramid-container {
         zoom: unset;
         overflow: hidden;
-        width: 95%;
+        width: 100%;
         /* scale 居中关键：先移到中心再缩放再移回来 */
         transform: translateX(-50%) scale(0.58) translateX(50%);
         transform-origin: left top;
