@@ -99,7 +99,7 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 
 </div>
 
-<div style="flex:2; min-width:min(360px, 100%);">
+<div style="flex:2; min-width:0;">
 
 <h2><i class="fa-regular fa-compass fa-shake"></i> Research Interests</h2>
 
