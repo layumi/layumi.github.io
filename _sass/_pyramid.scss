@@ -252,29 +252,33 @@
   }
 
   /* ── Responsive ── */
-  @media (max-width: 540px) {
+  @media (max-width: 640px) {
     .tier {
       flex-direction: column;
-      align-items: center;
+      align-items: stretch;
     }
 
     .tier-methods,
     .tier-tasks {
-      flex-direction: column;
-      align-items: stretch;   /* 让节点撑满宽度 */
       max-width: 100%;
     }
 
     .node {
-      width: 100%;
-      min-width: unset;       /* 取消 140px 最小宽度限制 */
+      min-width: unset;
       flex: unset;
+      width: 100%;
     }
 
-    /* coupling pill 在竖排时居中即可 */
+    /* 关键：手机上把 coupling-row 移到两个 node 之间竖排显示 */
     .coupling-row {
       width: 100%;
       justify-content: center;
+      padding: 2px 0;
+    }
+
+    /* connector SVG 在手机上意义不大，压缩高度 */
+    .connector-row svg {
+      height: 16px;
     }
   }
 
