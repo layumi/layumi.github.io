@@ -280,14 +280,11 @@
 	}
 
 	.pyramid-wrap {
-	      /* pyramid 内容原始宽度约 720px */
-	      /* 缩放比 = 当前屏幕宽 / 720 */
-	      /* 用 vw 近似：100vw / 720 ≈ 0.139vw per px */
-	      width: 1000px;
-	      transform: scale(calc(100vw / 1000));
+	      width: 700px;
+	      transform: scale(calc((100vw - 48px) / 700));
 	      transform-origin: top center;
 	      /* 补偿 scale 不影响文档流导致的高度塌陷 */
-	      margin-bottom: calc((100vw / 1000 - 1) * 600px);
+	       margin-bottom: calc(((100vw - 48px) / 700 - 1) * 560px);
 	}
 
     /* 强制第二层不换行 */
