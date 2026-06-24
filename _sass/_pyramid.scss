@@ -285,7 +285,7 @@
   .pyramid-wrap {
       width: 580px;
       transform: scale(calc((100vw - 48px) / 580));
-      transform-origin: top center;
+      transform-origin: top left;
       /* 补偿 scale 不影响文档流导致的高度塌陷 */
        margin-bottom: calc(((100vw - 48px) / 580 - 1) * 580px);
   }
