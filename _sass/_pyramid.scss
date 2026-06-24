@@ -283,14 +283,7 @@
    }
 
   .pyramid-wrap {
-      width: 580px;
-      /* 改用实际 padding：#main 左右各 1em = 32px */
-      transform: scale(calc((100vw - 32px) / 580));
-      transform-origin: top left;
-      --scale: calc((100vw - 32px) / 580);
-      /* 负 margin 抵消布局宽度，让后续元素正常排列 */
-      margin-right: calc((100vw - 32px) - 580px);
-      margin-bottom: calc(360px * var(--scale) - 360px);
+      zoom: calc((100vw - 32px) / 580);
   }
 
   /* 强制第二层不换行 */
