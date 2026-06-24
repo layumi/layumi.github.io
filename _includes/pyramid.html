@@ -42,19 +42,15 @@
       </a>
     </div>
 
-    <!-- L1 → L2 connectors -->
-    <div class="connector-row" style="max-width:720px">
-      <svg class="conn" height="32" viewBox="0 0 720 32" preserveAspectRatio="none">
-        <!-- AIGC → Spatial -->
-        <line x1="190" y1="0" x2="110" y2="32" stroke="var(--edge-aigc)" stroke-width="1.3" stroke-dasharray="3 3"/>
-        <!-- AIGC → Re-ID -->
-        <line x1="190" y1="0" x2="360" y2="32" stroke="var(--edge-aigc)" stroke-width="1.3" stroke-dasharray="3 3"/>
-        <!-- Uncertainty → Re-ID -->
-        <line x1="530" y1="0" x2="360" y2="32" stroke="var(--edge-unc)"  stroke-width="1.3" stroke-dasharray="3 3"/>
-        <!-- Uncertainty → Domain Adapt -->
-        <line x1="530" y1="0" x2="610" y2="32" stroke="var(--edge-unc)"  stroke-width="1.3" stroke-dasharray="3 3"/>
-      </svg>
-    </div>
+  <!-- L1 → L2 连接线（对齐 tier-tasks 580px） -->
+  <div class="connector-row" style="max-width:580px">
+    <svg class="conn" height="32" viewBox="0 0 580 32" preserveAspectRatio="none">
+      <line x1="145" y1="0" x2="97"  y2="32" stroke="var(--edge-aigc)" stroke-width="1.3" stroke-dasharray="3 3"/>
+      <line x1="145" y1="0" x2="290" y2="32" stroke="var(--edge-aigc)" stroke-width="1.3" stroke-dasharray="3 3"/>
+      <line x1="435" y1="0" x2="290" y2="32" stroke="var(--edge-unc)"  stroke-width="1.3" stroke-dasharray="3 3"/>
+      <line x1="435" y1="0" x2="483" y2="32" stroke="var(--edge-unc)"  stroke-width="1.3" stroke-dasharray="3 3"/>
+    </svg>
+  </div>
 
     <!-- ── L2 : Application domains ── -->
     <div class="tier tier-tasks">
