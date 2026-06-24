@@ -282,9 +282,7 @@
   }
 	
   .pyramid-container {
-      clip-path: inset(0); 
       width: 100%;
-	  isolation: isolate;
    }
 
   .pyramid-wrap {
@@ -292,7 +290,8 @@
       transform: scale(calc((100vw - 48px) / 580));
       transform-origin: top left;
 	  --scale: calc((100vw - 48px) / 580);
-      margin-bottom: calc(420px * var(--scale) - 420px);
+      margin-right: calc(580px * (1 - (100vw - 48px) / 580) * -1);
+      margin-bottom: calc(360px * var(--scale) - 360px);
   }
 
   /* 强制第二层不换行 */
