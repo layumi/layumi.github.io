@@ -1,4 +1,9 @@
 /* ── Pyramid layout ── */
+.pyramid-container {
+  width: 100%;
+  overflow: hidden;
+}
+
 .pyramid-wrap {
   /* ── CSS Variables (scoped, no :root pollution) ── */
   --bg:          #f7f6f3;
@@ -268,39 +273,35 @@
     }
   }
   
+}
+/* ── Responsive ── */
+@media (max-width: 640px) {
   .pyramid-container {
-    width: 100%;
-    overflow: hidden;
-  }
-  /* ── Responsive ── */
-  @media (max-width: 640px) {
-    .pyramid-container {
-	      overflow: hidden;
-	      width: 100%;
-	}
+      overflow: hidden;
+      width: 100%;
+   }
 
-	.pyramid-wrap {
-	      width: 580px;
-	      transform: scale(calc((100vw - 48px) / 580));
-	      transform-origin: top center;
-	      /* 补偿 scale 不影响文档流导致的高度塌陷 */
-	       margin-bottom: calc(((100vw - 48px) / 580 - 1) * 580px);
-	}
-
-    /* 强制第二层不换行 */
-    .tier-methods {
-	  max-width: 560px;
-      flex-wrap: nowrap;
-    }
-
-    /* 强制第三层三个节点均匀分布不换行 */
-    .tier-tasks {
-	  max-width: 580px;
-      flex-wrap: nowrap;
-    }
+  .pyramid-wrap {
+      width: 580px;
+      transform: scale(calc((100vw - 48px) / 580));
+      transform-origin: top center;
+      /* 补偿 scale 不影响文档流导致的高度塌陷 */
+       margin-bottom: calc(((100vw - 48px) / 580 - 1) * 580px);
   }
 
-  @media (prefers-reduced-motion: reduce) {
-    .node { transition: none; }
+  /* 强制第二层不换行 */
+  .tier-methods {
+  max-width: 560px;
+    flex-wrap: nowrap;
   }
+
+  /* 强制第三层三个节点均匀分布不换行 */
+  .tier-tasks {
+  max-width: 580px;
+    flex-wrap: nowrap;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .node { transition: none; }
 }
