@@ -294,8 +294,11 @@
 
   /* 强制第三层三个节点均匀分布不换行 */
   .tier-tasks {
-    max-width: 580px;
+    max-width: 560px;
     flex-wrap: nowrap;
+  }
+  .tier-tasks .node {
+    min-width: 0;/* 覆盖原来的 min-width: 140px */
   }
   /* 节点文字稍微缩小一点，防止 badges 挤压 */
   .node-title { font-size: 12px; }
