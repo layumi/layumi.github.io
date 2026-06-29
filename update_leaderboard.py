@@ -18,6 +18,7 @@ seo_title: \"Pytorch ReID | Easy to Use\"
 collection: pages
 permalink: /Pytorch-ReID
 author_profile: false
+classes: wide
 ---
 
 """
@@ -33,6 +34,7 @@ seo_title: \"Awesome Segmentation Domain Adaptation | GTA5 -> Cityscapes\"
 collection: pages
 permalink: /Awesome-SegDA
 author_profile: false
+classes: wide
 ---
 
 """
@@ -47,6 +49,7 @@ seo_title: \"Awesome Geo-localization | University1652 CVUSA CVACT Benchmark & S
 collection: pages
 permalink: /Awesome-Geo-localization
 author_profile: false
+classes: wide
 ---
 <style>
 table, th, td {
@@ -66,6 +69,7 @@ seo_title: \"Awesome reID | Benchmark & SOTA List\"
 collection: pages
 permalink: /Awesome-reID
 author_profile: false
+classes: wide
 ---
 <style>
 table, th, td {
