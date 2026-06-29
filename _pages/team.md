@@ -32,6 +32,7 @@ redirect_from:
 ## Students I Have Mentored
 
 ### Macau  
+- [Yunsong Fang](https://www.zdzheng.xyz/authors/Yunsong-Fang) UM (M.S.)
 - [Qichao Dong](https://www.zdzheng.xyz/authors/Qichao-Dong) UM (M.S.) work at HW
 - [Guiyu Zhang](https://www.zdzheng.xyz/authors/Guiyu-Zhang): SDU (B.S.) UCAS (M.S.) UM (RA)
 - [Yaxuan Li](https://scholar.google.com/citations?user=myfuA38AAAAJ): HITSZ (B.S.) UM (RA) Oxford (Pursuing M.S.)
