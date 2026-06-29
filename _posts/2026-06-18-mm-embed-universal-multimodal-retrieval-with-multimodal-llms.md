@@ -1,6 +1,7 @@
 ---
 title: 读MM-Embed:Universal Multimodal Retrieval with Multimodal LLMs
 collection: blogs
+classes: wide
 date: '2026-06-18'
 permalink: /blog/mm-embed-universal-multimodal-retrieval-with-multimodal-llms
 tags:

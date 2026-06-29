@@ -69,6 +69,7 @@ for md_file in RAW_DIR.glob("*.md"):
     front_matter = {
         "title": title,
         "collection": "blogs",
+        "classes": "wide",
         "date": str(file_date),
         "permalink": f"/blog/{make_slug(title)}",
         "tags": tags

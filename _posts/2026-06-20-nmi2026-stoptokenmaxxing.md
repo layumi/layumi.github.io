@@ -1,6 +1,7 @@
 ---
 title: 翻译NMI2026社论StopTokenmaxxing
 collection: blogs
+classes: wide
 date: '2026-06-20'
 permalink: /blog/nmi2026-stoptokenmaxxing
 tags:

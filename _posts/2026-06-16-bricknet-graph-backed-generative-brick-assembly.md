@@ -1,6 +1,7 @@
 ---
 title: 读BrickNet:Graph-Backed Generative Brick Assembly
 collection: blogs
+classes: wide
 date: '2026-06-16'
 permalink: /blog/bricknet-graph-backed-generative-brick-assembly
 tags:

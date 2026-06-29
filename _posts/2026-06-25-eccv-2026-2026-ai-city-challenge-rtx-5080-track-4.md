@@ -1,6 +1,7 @@
 ---
 title: 【ECCV 2026】2026 AI City Challenge 奖项正式公布：冠军送 RTX 5080！附 Track 4 深度解析
 collection: blogs
+classes: wide
 date: '2026-06-25'
 permalink: /blog/eccv-2026-2026-ai-city-challenge-rtx-5080-track-4
 tags:
