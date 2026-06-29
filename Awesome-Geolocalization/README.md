@@ -4,6 +4,7 @@ seo_title: "Awesome Geo-localization | University1652 CVUSA CVACT Benchmark & SO
 collection: pages
 permalink: /Awesome-Geo-localization
 author_profile: false
+classes: wide
 ---
 <style>
 table, th, td {
@@ -16,6 +17,7 @@ table, th, td {
      - [University-WX](https://github.com/wtyhub/MuseNet): ***(Weather)*** Extension of University-1652 with multiple weathers on the fly. 
      - [University160k](https://codalab.lisn.upsaclay.fr/competitions/12672): ***(Larger Gallery)*** Large-scale extension of University-1652 with +167,486 distractors for realistic geo-localization testing. Always-open eval server & leaderboard: https://codalab.lisn.upsaclay.fr/competitions/12672
      - [GeoText-1652](https://github.com/MultimodalGeo/GeoText-1652): ***(Text)*** Dense text extension of University-1652.
+     - [RoadMap](https://www.zdzheng.xyz/publication/Road-Map2026): ***(RoadMap)*** Driving Roadmap extension of University-1652 (comming soon).
  - [CVUSA Dataset](#cvusa) : a dataset in America, with pairs of ground-level images and satellite images. All ground-level images are panoramic images.
 The dataset can be accessed from https://github.com/viibridges/crossnet
  - [CVACT Dataset](#cvact-val) : a dataset in Australia, with pairs of ground-level images and satellite images. All ground-level images are panoramic images.
