@@ -17,7 +17,7 @@ table, th, td {
      - [University-WX](https://github.com/wtyhub/MuseNet): ***(Weather)*** Extension of University-1652 with multiple weathers on the fly. 
      - [University160k](https://codalab.lisn.upsaclay.fr/competitions/12672): ***(Larger Gallery)*** Large-scale extension of University-1652 with +167,486 distractors for realistic geo-localization testing. Always-open eval server & leaderboard: https://codalab.lisn.upsaclay.fr/competitions/12672
      - [GeoText-1652](https://github.com/MultimodalGeo/GeoText-1652): ***(Text)*** Dense text extension of University-1652.
-     - [UniV](https://github.com/HaoDot/Video2BEV-Open): ***(Video)*** Video extension of Unviersity-1652 with 30 and 45 degree. 
+     - [UniV](https://github.com/HaoDot/Video2BEV-Open): ***(Video)*** Video extension with 30° and 45° viewing angles.
      - [RoadMap](https://www.zdzheng.xyz/publication/Road-Map2026): ***(RoadMap)*** Driving Roadmap extension of University-1652 (data is released).
  - [CVUSA Dataset](#cvusa) : a dataset in America, with pairs of ground-level images and satellite images. All ground-level images are panoramic images.
 The dataset can be accessed from https://github.com/viibridges/crossnet
@@ -67,6 +67,7 @@ Keywords: Cross-view Geo-localization, Spatial Intelligence, Aerial Agents.
 |FSRA (k=1)| 82.25 | 84.82 | 87.87 | 81.53 | Ming Dai, Jianhong Hu, Jiedong Zhuang, Enhui Zheng. A Transformer-Based Feature Segmentation and Region Alignment Method For UAV-View Geo-Localization. TCSVT 2022. [[Paper]](https://arxiv.org/pdf/2201.09206.pdf)  [[Code]](https://github.com/dmmm1997/fsra) |
 |WeatherPrompt (Normal Weather) | 82.78 | 85.18 |89.16 | 81.80 | Jiahao Wen, Hang Yu, and Zhedong Zheng. WeatherPrompt: Multi-modality Representation Learning for All-Weather Drone Visual Geo-Localization. NeurIPS 2025.  [[Paper]](https://arxiv.org/abs/2508.09560) [[Code]](https://github.com/Jahawn-Wen/WeatherPrompt) |
 |FSRA (k=3)| 84.51 | 86.71 | 88.45 | 83.37 | 
+| + UniGeoRS | 83.82 | 86.21 | 88.59 | 82.78 | Liang, X., Tang, H., Zhang, F., Yuan, S., Hu, C., Zheng, D., & Ma, K. (2026). UniGeoRS: A Unified Benchmark for Tri-view Geo-Localization. CVPR 2026.|
 |TransFG| 84.01 | 86.31 | 90.16 | 84.61 |  Zhao, H., Ren, K., Yue, T., Zhang, C., & Yuan, S. (2024). TransFG: A Cross-View Geo-Localization of Satellite and UAVs Imagery Pipeline Using Transformer-Based Feature Aggregation and Gradient Guidance. IEEE Transactions on Geoscience and Remote Sensing. |
 |PAAN | 84.51 | 86.78 | 91.01 | 82.28 | Duc Viet Bui, Masao Kubo, Hiroshi Sato. A Part-aware Attention Neural Network for Cross-view Geo-localization between UAV and Satellite.  Journal of Robotics Networking and Artificial Life 2022 [[Paper]](https://www.researchgate.net/profile/Viet-Bui-9/publication/366091845_A_Part-aware_Attention_Neural_Network_for_Cross-view_Geo-localization_between_UAV_and_Satellite/links/63914181e42faa7e75a6122e/A-Part-aware-Attention-Neural-Network-for-Cross-view-Geo-localization-between-UAV-and-Satellite.pdf) |
 |Swin-B + DWDR | 86.41 | 88.41 | 91.30 | 86.02 | Tingyu W, Zhedong Z, Zunjie Z, Yuhan G, Yi Y, and Chenggang Y. "Learning Cross-view Geo-localization Embeddings via Dynamic Weighted Decorrelation Regularization" IEEE Transactions on Geoscience and Remote Sensing, 2024. [[Paper]](https://ieeexplore.ieee.org/document/10744586) [[Code]](https://github.com/wtyhub/DWDR) |
@@ -85,6 +86,7 @@ Keywords: Cross-view Geo-localization, Spatial Intelligence, Aerial Agents.
 | CDM-Net | 95.13 | 96.04 | 96.68 | 94.05 | Zhou, Xin, Xuerong Yang, and Yanchun Zhang. "CDM-Net: A Framework for Cross-View Geo-Localization With Multimodal Data." TGRS 2025. |
 | JRN-Geo | 95.13 | 95.85 | 96.72 | 94.93 | Zhou, H., Zhang, Y., Huang, T., Ge, F., Qi, M., Zhang, X., & Zhang, Y. (2025, May). JRN-Geo: A Joint Perception Network based on RGB and Normal images for Cross-view Geo-localization. ICRA 2025 | 
 | CGSI (DinoV2+BERT) | 95.45 | 96.10 | 96.58 | 95.38 | Sun, J., Huang, J., Jiang, X., Zhou, Y., & VONG, C. M. CGSI: Context-Guided and UAV’s Status Informed Multimodal Framework for Generalizable Cross-View Geo-Localization. TCSVT 2025 |
+| GeoBridge | 95.82 | 97.77 | 97.14 | 95.05 | Z Song, J Zhang, D Wang, Z Zhou, W Liu, H Guo, E Wang, B Du (2026). Geobridge: A semantic-anchored multi-view foundation model bridging images and text for geo-localization. CVPR 2026| 
 
 [Multi-weather leaderboard](https://github.com/wtyhub/MuseNet/blob/master/State-of-the-art.md)
 
@@ -96,6 +98,7 @@ Keywords: Cross-view Geo-localization, Spatial Intelligence, Aerial Agents.
 |Instance Loss | Satellite + Ground | 0.62 | 1.60 | 0.86 | 1.00| Zheng Z, Zheng L, Garrett M, et al. Dual-Path Convolutional Image-Text Embedding with Instance Loss. TOMM 2020. [[Paper]](https://arxiv.org/abs/1711.05535)
 |Instance Loss | Satellite + Drone + Ground| 1.28 | 2.29 | 1.57 | 1.52| 
 |Instance Loss | Satellite + Drone + Ground + Google Image | 1.20 | 2.52 | 1.14 | 1.41| 
+|Baseline | + UniGeoRS dataset | 1.01 | 3.25 | - | - | Liang, X., Tang, H., Zhang, F., Yuan, S., Hu, C., Zheng, D., & Ma, K. UniGeoRS: A Unified Benchmark for Tri-view Geo-Localization. CVPR 2026.| 
 |LPN | Satellite + Ground | 0.74 | 1.83 | 1.43 | 1.31 | Tingyu W, Zhedong Z, Chenggang Y, and Yi Y. Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization. TCSVT 2021. [[Paper]](https://arxiv.org/abs/2008.11646)  [[Code]](https://github.com/wtyhub/LPN) |
 |LPN | Satellite + Drone + Ground | 0.81 | 2.21 | 1.85 | 1.66 | Tingyu W, Zhedong Z, Chenggang Y, and Yi Y. Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization. TCSVT 2021. [[Paper]](https://arxiv.org/abs/2008.11646)  [[Code]](https://github.com/wtyhub/LPN) |
 |CVGS| Unpaired Satellite + Drone + Ground | 0.89 | 2.80| - | - | Xie, K., Zhou, W., Huang, X., Guan, H., & Yulong, F. (2025). Self-supervised Cross-view Graph Search Framework for Ground-to-Satellite Geo-localization. TGRS 2025. | 
