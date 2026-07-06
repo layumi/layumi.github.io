@@ -1,44 +1,252 @@
 ---
 layout: archive
 title: "Resources"
+seo_title: Drone Geo-Localization | Person Re-ID | Datasets & Code
 permalink: /resources/
 author_profile: true
-redirect_from: 
+classes: wide
 ---
 
-<meta name="description" content="Open-source Code and Datasets for Person Re-ID and Person Search"/>
-<meta name="keywords" content="Code and Dataset, Person Re-ID, Object Re-ID, Person Retrieval, Domain Adaptation and Person Search" />
+<meta name="description" content="Open-source Code, Benchmarks and Datasets for UAV Geo-localization, Aerial Spatial Intelligence, Person Re-ID, Text-based Person Search and Anomaly Search"/>
+<meta name="keywords" content="UAV, Drone, Geo-localization, Spatial Intelligence, BEV, Code and Dataset, Person Re-ID, Object Re-ID, Person Retrieval, Anomaly Search, Domain Adaptation, Person Search" />
 
 <style>
-table, th, td {
-  border: 1px solid black;
+table.imgtable, table.imgtable th, table.imgtable td {
+  border: 1px solid #ccc;
+}
+table.cardtable, table.cardtable th, table.cardtable td {
+  border: none;
 }
 </style>
+
+<p align="center">
+  ⭐ If our datasets and code help your research, a <b>star on GitHub</b> is the best support! ⭐<br>
+  <sub>🌟 We are always looking for self-motivated PhD students / RAs / visiting students — see <a href="https://www.zdzheng.xyz/">Join Us</a>.</sub>
+</p>
+
+---
+
+## 🚁 UAV & Spatial Intelligence
+
+<p><i>Benchmarks, code and datasets for low-altitude aerial perception: cross-view geo-localization, BEV understanding and aerial reasoning.</i></p>
+
+<p align="center"><b>🎓 The University-1652 Family</b></p>
+
+<div align="center">
+  <table class="cardtable">
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/layumi/University1652-Baseline">
+          <h3>🎓</h3>
+          <b>University-1652</b>
+        </a>
+        <br><sub>Multi-view Multi-source Benchmark<br>Ground · Drone · Satellite · ACM MM'20</sub>
+        <br><br>
+        <a href="https://github.com/layumi/University1652-Baseline"><img src="https://img.shields.io/github/stars/layumi/University1652-Baseline.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/wtyhub/MuseNet">
+          <h3>🌦️</h3>
+          <b>University-WX</b>
+        </a>
+        <br><sub>Multi-Weather Extension on the Fly<br>Pattern Recognition'24</sub>
+        <br><br>
+        <a href="https://github.com/wtyhub/MuseNet"><img src="https://img.shields.io/github/stars/wtyhub/MuseNet.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/MultimodalGeo/GeoText-1652">
+          <h3>💬</h3>
+          <b>GeoText-1652</b>
+        </a>
+        <br><sub>Dense Text Extension<br>ECCV'24</sub>
+        <br><br>
+        <a href="https://github.com/MultimodalGeo/GeoText-1652"><img src="https://img.shields.io/github/stars/MultimodalGeo/GeoText-1652.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<p align="center"><b>🚀 New Open-Source Releases</b></p>
+
+<div align="center">
+  <table class="cardtable">
+    <tr>
+      <td align="center" width="25%">
+        <a href="https://github.com/YsongF/GeoFuse">
+          <h3>🛣️</h3>
+          <b>GeoFuse</b>
+        </a>
+        <br><sub>Road Maps as <b>Free</b> Geometric Priors<br>Weather-Invariant Drone Geo-Localization</sub>
+        <br><br>
+        <a href="https://github.com/YsongF/GeoFuse"><img src="https://img.shields.io/github/stars/YsongF/GeoFuse.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/JT-Sun/UAVReason">
+          <h3>🧠</h3>
+          <b>UAVReason</b>
+        </a>
+        <br><sub>Aerial Scene Reasoning &amp; Generation Benchmark</sub>
+        <br><br>
+        <a href="https://github.com/JT-Sun/UAVReason"><img src="https://img.shields.io/github/stars/JT-Sun/UAVReason.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/HaoDot/Video2BEV-Open">
+          <h3>🗺️</h3>
+          <b>Video2BEV</b>
+        </a>
+        <br><sub>Drone Video → Bird's-Eye-View</sub>
+        <br><br>
+        <a href="https://github.com/HaoDot/Video2BEV-Open"><img src="https://img.shields.io/github/stars/HaoDot/Video2BEV-Open.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+      <td align="center" width="25%">
+        <a href="https://github.com/YaxuanLi-cn/PairUAV">
+          <h3>🚁</h3>
+          <b>PairUAV</b>
+        </a>
+        <br><sub>Paired UAV Data for Matching</sub>
+        <br><br>
+        <a href="https://github.com/YaxuanLi-cn/PairUAV"><img src="https://img.shields.io/github/stars/YaxuanLi-cn/PairUAV.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<table class="imgtable" style="border-spacing: 80px; border-collapse: collapse; table-layout: fixed;">
+	<tbody><tr><td align="center">
+<img src="https://zdzheng.xyz/resource-img/University.jpg" alt="University-1652 drone satellite ground geo-localization dataset" width="80%"> &nbsp;</td>
+    <td align="left"> <strong> University-1652 Dataset</strong> <code>ACM MM 2020</code> <strong><a href="https://github.com/layumi/University1652-Baseline"> [website]</a></strong>  <strong><a href="https://www.zdzheng.xyz/Awesome-Geo-localization"> [SoTA]</a></strong> 
+We collect 1652 buildings of 72 universities around the world. University-1652 contains data from three platforms, i.e., synthetic drones, satellites and ground cameras of 1,652 university buildings around the world. To our knowledge, University-1652 is the first drone-based geo-localization dataset and enables two new tasks, i.e., drone-view target localization and drone navigation. Two official extensions are available: <a href="https://github.com/wtyhub/MuseNet">University-WX</a> (multi-weather, PR 2024) and <a href="https://github.com/MultimodalGeo/GeoText-1652">GeoText-1652</a> (dense text, ECCV 2024).
+    </td>
+</tr></tbody></table>
+
+**Community & Ecosystem**
+- 🛩️ Host of the **UAVM Workshop Series** on UAVs in Multimedia @ ACM Multimedia (2023–2026). <!-- TODO: 补上最新一届workshop的链接，例如 https://www.zdzheng.xyz/UAVM2026/ -->
+- 📚 [Awesome Geo-localization](https://www.zdzheng.xyz/Awesome-Geo-localization): curated papers, datasets and leaderboards.
+<!-- TODO: 数据集上传 Hugging Face 后，在此加一行 🤗 HF mirror 链接 -->
+
+---
+
+## 🔍 Person Re-ID & Text-based Retrieval
+
+<div align="center">
+  <table class="cardtable">
+    <tr>
+      <td align="center" colspan="3">
+        <a href="https://github.com/layumi/Person_reID_baseline_pytorch">
+          <h3>⛹️</h3>
+          <b>Person re-ID Baseline (PyTorch)</b>
+        </a>
+        <br><sub>A <b>Tiny, Friendly &amp; Strong</b> PyTorch Baseline for Person / Vehicle Re-ID<br>with Hands-on Tutorial · The Community Standard since 2017</sub>
+        <br><br>
+        <a href="https://github.com/layumi/Person_reID_baseline_pytorch"><img src="https://img.shields.io/github/stars/layumi/Person_reID_baseline_pytorch.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/layumi/3D-Magic-Mirror">
+          <h3>🪞</h3>
+          <b>3D Magic Mirror</b>
+        </a>
+        <br><sub>Clothing Reconstruction from a Single Image<br>via a Causal Perspective · npj AI'26</sub>
+        <br><br>
+        <a href="https://github.com/layumi/3D-Magic-Mirror"><img src="https://img.shields.io/github/stars/layumi/3D-Magic-Mirror.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/NVlabs/DG-Net">
+          <h3>✨</h3>
+          <b>DG-Net</b>
+        </a>
+        <br><sub>Joint Generation + Re-ID Learning<br>CVPR'19 Oral · NVIDIA</sub>
+        <br><br>
+        <a href="https://github.com/NVlabs/DG-Net"><img src="https://img.shields.io/github/stars/NVlabs/DG-Net.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/layumi/Person-reID_GAN">
+          <h3>🎨</h3>
+          <b>Person re-ID GAN</b>
+        </a>
+        <br><sub>GAN-based Augmentation (LSRO)<br>ICCV'17</sub>
+        <br><br>
+        <a href="https://github.com/layumi/Person-reID_GAN"><img src="https://img.shields.io/github/stars/layumi/Person-reID_GAN.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/layumi/Image-Text-Embedding">
+          <h3>📝</h3>
+          <b>Language Person Search</b>
+        </a>
+        <br><sub>Text-based Person Retrieval<br>Dual-Path Embedding</sub>
+        <br><br>
+        <a href="https://github.com/layumi/Image-Text-Embedding"><img src="https://img.shields.io/github/stars/layumi/Image-Text-Embedding.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Shuyu-XJTU/APTM">
+          <h3>🏷️</h3>
+          <b>APTM</b>
+        </a>
+        <br><sub>Attribute Prompt Learning &amp; Text Matching<br>MALS Benchmark (1.5M pairs) · ACM MM'23</sub>
+        <br><br>
+        <a href="https://github.com/Shuyu-XJTU/APTM"><img src="https://img.shields.io/github/stars/Shuyu-XJTU/APTM.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/Shuyu-XJTU/CMP">
+          <h3>🚨</h3>
+          <b>CMP</b>
+        </a>
+        <br><sub>Text-based Person <b>Anomaly</b> Search<br>PAB Benchmark (1M pairs) · ICCV'25 <b>Highlight</b></sub>
+        <br><br>
+        <a href="https://github.com/Shuyu-XJTU/CMP"><img src="https://img.shields.io/github/stars/Shuyu-XJTU/CMP.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="33%">
+        <a href="https://github.com/layumi/person-reid-3d">
+          <h3>🧊</h3>
+          <b>3D Person re-ID</b>
+        </a>
+        <br><sub>Parameter-Efficient Re-ID<br>in the 3D Space (OG-Net)</sub>
+        <br><br>
+        <a href="https://github.com/layumi/person-reid-3d"><img src="https://img.shields.io/github/stars/layumi/person-reid-3d.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/layumi/Pedestrian_Alignment">
+          <h3>🚶</h3>
+          <b>Pedestrian Alignment</b>
+        </a>
+        <br><sub>Pedestrian Alignment Network (PAN)<br>for Robust Re-ID</sub>
+        <br><br>
+        <a href="https://github.com/layumi/Pedestrian_Alignment"><img src="https://img.shields.io/github/stars/layumi/Pedestrian_Alignment.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+      <td align="center" width="33%">
+        <a href="https://github.com/layumi/2016_person_re-ID">
+          <h3>🔁</h3>
+          <b>2-Stream Person re-ID</b>
+        </a>
+        <br><sub>Verification + Identification<br>Baseline</sub>
+        <br><br>
+        <a href="https://github.com/layumi/2016_person_re-ID"><img src="https://img.shields.io/github/stars/layumi/2016_person_re-ID.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+    </tr>
+  </table>
+</div>
+
+### Datasets
 
 <table class="imgtable" style="border-spacing: 80px; border-collapse: collapse; table-layout: fixed;">
     <tbody><tr><td align="center">
 	<img src="https://zdzheng.xyz/resource-img/PAB.jpg" alt="Pedestrian Anomaly Behavior " width="80%"> &nbsp;</td>
-	<td align="left"> <strong> PAB Dataset </strong> <strong><a href="https://github.com/Shuyu-XJTU/WWW2025Workshop/"> [website]</a></strong> 
+	<td align="left"> <strong> PAB Dataset </strong> <code>ICCV 2025 Highlight</code> <strong><a href="https://github.com/Shuyu-XJTU/CMP"> [website]</a></strong> 
     We propose a new task, text-based person anomaly search, locating pedestrians engaged in both routine or anomalous activities via text. To enable the training and evaluation of this new task, we construct a large-scale image-text Pedestrian Anomaly Behavior (PAB) benchmark, featuring a broad spectrum of actions, e.g., running, performing, playing soccer, and the corresponding anomalies, e.g., lying, being hit, and falling of the same identity. The training set of PAB comprises 1,013,605 synthesized image-text pairs of both normalities and anomalies, while the test set includes 1,978 real-world image-text pairs. 
 	</td>
 </tr></tbody>
 	
 	<tbody><tr><td align="center">
     <img src="https://zdzheng.xyz/resource-img/MALS.jpg" alt="MALS" width="80%"> &nbsp;</td>
-    <td align="left"> <strong> MALS Dataset </strong> <strong><a href="https://github.com/Shuyu-XJTU/APTM"> [website]</a></strong> 
+    <td align="left"> <strong> MALS Dataset </strong> <code>ACM MM 2023</code> <strong><a href="https://github.com/Shuyu-XJTU/APTM"> [website]</a></strong> 
 We present a large Multi-Attribute and Language Search dataset for text-based person retrieval, called MALS, and explore the feasibility of performing pre-training on both attribute recognition and image-text matching tasks in one stone. In particular, MALS contains 1, 510, 330 image-text pairs, which is about 37.5× larger than prevailing CUHK-PEDES, and all images are annotated with 27 attributes.
     </td>
 </tr></tbody>
-
-
-	<tbody><tr><td align="center">
-<img src="https://zdzheng.xyz/resource-img/University.jpg" alt="University-1652" width="80%"> &nbsp;</td>
-    <td align="left"> <strong> University-1652 Dataset</strong>  <strong><a href="https://github.com/layumi/University1652-Baseline"> [website]</a></strong>  <strong><a href="https://github.com/layumi/University1652-Baseline/tree/master/State-of-the-art"> [SoTA]</a></strong> 
-We collect 1652 buildings of 72 universities around the world. University-1652 contains data from three platforms, i.e., synthetic drones, satellites and ground cameras of 1,652 university buildings around the world. To our knowledge, University-1652 is the first drone-based geo-localization dataset and enables two new tasks, i.e., drone-view target localization and drone navigation.
-    </td>
-</tr></tbody>
-
-
 
 	<tbody><tr><td align="center">
 <img src="https://zdzheng.xyz/resource-img/attribute.jpg" alt="Pedestrian Attribute" width="80%"> &nbsp; </td>
@@ -54,23 +262,33 @@ You could find the point-cloud format Market-1501 Dataset at https://github.com/
     </td>
 </tr></tbody>
 
-
 	<tbody><tr><td align="center">
 <img src="https://zdzheng.xyz/resource-img/DG-Market.jpg" alt="DG-Market" width="80%"> &nbsp;</td>
-<td align="left"> <strong> DG-Market Dataset</strong>  We provide our generated images and make a large-scale synthetic dataset called DG-Market. This dataset is generated by our [DG-Net](https://arxiv.org/abs/1904.07223) and consists of 128,307 images (613MB), about 10 times larger than the training set of original Market-1501 (even much more can be generated with DG-Net). It can be used as a source of unlabeled training dataset for semi-supervised learning. You may download the dataset from <a href="https://drive.google.com/file/d/126Gn90Tzpk3zWp2c7OBYPKc-ZjhptKDo/view?usp=sharing">[Google Drive]</a> (or <a href="https://pan.baidu.com/s/1n4M6s-qvE08J8SOOWtWfgw">[Baidu Disk]</a>) password: qxyh).
+<td align="left"> <strong> DG-Market Dataset</strong>  We provide our generated images and make a large-scale synthetic dataset called DG-Market. This dataset is generated by our <a href="https://arxiv.org/abs/1904.07223">DG-Net</a> and consists of 128,307 images (613MB), about 10 times larger than the training set of original Market-1501 (even much more can be generated with DG-Net). It can be used as a source of unlabeled training dataset for semi-supervised learning. You may download the dataset from <a href="https://drive.google.com/file/d/126Gn90Tzpk3zWp2c7OBYPKc-ZjhptKDo/view?usp=sharing">[Google Drive]</a> (or <a href="https://pan.baidu.com/s/1n4M6s-qvE08J8SOOWtWfgw">[Baidu Disk]</a>) password: qxyh).
     </td>
 </tr></tbody></table>
 
-- HQ-Market Super-resolution Dataset. <strong><a href="https://github.com/layumi/HQ-Market"> [website]</a></strong>
-- DukeMTMC-reID Dataset.  <strong><a href="https://github.com/layumi/Duke_evaluation"> [website]</a></strong>  <strong><a href="https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/leaderboard"> [SoTA]</a></strong> 
-- DukeMTMC-Pose Dataset.  <strong><a href="https://github.com/layumi/DukeMTMC-Pose"> [website]</a></strong> 
-- UTS Person-reID Tutorial.  <strong><a href="https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial"> [website]</a></strong> 
+<details>
+<summary><b>📦 Legacy Datasets & Tutorials</b> (click to expand)</summary>
+<ul>
+  <li>HQ-Market Super-resolution Dataset. <strong><a href="https://github.com/layumi/HQ-Market"> [website]</a></strong></li>
+  <li>DukeMTMC-reID Dataset. <strong><a href="https://github.com/layumi/Duke_evaluation"> [website]</a></strong>  <strong><a href="https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/leaderboard"> [SoTA]</a></strong></li>
+  <li>DukeMTMC-Pose Dataset. <strong><a href="https://github.com/layumi/DukeMTMC-Pose"> [website]</a></strong></li>
+  <li>UTS Person-reID Tutorial. <strong><a href="https://github.com/layumi/Person_reID_baseline_pytorch/tree/master/tutorial"> [website]</a></strong></li>
+</ul>
+</details>
+
+---
 
 ### Awesome Lists
-- [Awesome Segmentation Domain Adaptation](https://github.com/layumi/Seg-Uncertainty/tree/master/awesome-SegDA)
+- [Awesome Geo-localization](https://www.zdzheng.xyz/Awesome-Geo-localization)
 - [Awesome Vehicle Retrieval](https://github.com/layumi/Vehicle_reID-Collection)
+- [Awesome Segmentation Domain Adaptation](https://github.com/layumi/Seg-Uncertainty/tree/master/awesome-SegDA)
 - [Awesome Fools](https://github.com/layumi/Awesome-Fools)
-- [Awesome Geo-localization](https://github.com/layumi/University1652-Baseline/tree/master/State-of-the-art) 
+
+---
+
+## 🎓 For Students
 
 ### Motivations
 ![](https://zdzheng.xyz/files/optimizer.gif)
@@ -85,3 +303,9 @@ You could find the point-cloud format Market-1501 Dataset at https://github.com/
 - [How to have productive meetings with busy mentors?](http://kordinglab.com/2021/06/30/meeting-with-mentors.html)
 - [How to start writing papers?](http://kordinglab.com/2016/01/14/writing-guide.html)
 - [How to rebuttal? Devi Parikh](https://deviparikh.medium.com/how-we-write-rebuttals-dc84742fece1)
+
+---
+
+<p align="center">
+  <sub><i>Last updated: July 2026. If you build something cool on top of our benchmarks, we are happy to feature it — drop us an email!</i></sub>
+</p>
