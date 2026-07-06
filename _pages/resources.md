@@ -165,14 +165,6 @@ table.imgtable code {
   </table>
 </div>
 
-<table class="imgtable">
-	<tbody><tr><td align="center">
-<img src="https://zdzheng.xyz/resource-img/University.jpg" alt="University-1652 drone satellite ground geo-localization dataset" width="80%"> &nbsp;</td>
-    <td align="left"> <strong> University-1652 Dataset</strong> <code>ACM MM 2020</code> <strong><a href="https://github.com/layumi/University1652-Baseline"> [website]</a></strong>  <strong><a href="https://www.zdzheng.xyz/Awesome-Geo-localization"> [SoTA]</a></strong> 
-We collect 1652 buildings of 72 universities around the world. University-1652 contains data from three platforms, i.e., synthetic drones, satellites and ground cameras of 1,652 university buildings around the world. To our knowledge, University-1652 is the first drone-based geo-localization dataset and enables two new tasks, i.e., drone-view target localization and drone navigation. Two official extensions are available: <a href="https://github.com/wtyhub/MuseNet">University-WX</a> (multi-weather, PR 2024) and <a href="https://github.com/MultimodalGeo/GeoText-1652">GeoText-1652</a> (dense text, ECCV 2024).
-    </td>
-</tr></tbody></table>
-
 **Community & Ecosystem**
 - 🛩️ Host of the **UAVM Workshop Series** on UAVs in Multimedia @ ACM Multimedia (2023–2026). <!-- TODO: 补上最新一届workshop的链接，例如 https://www.zdzheng.xyz/UAVM2026/ -->
 - 📚 [Awesome Geo-localization](https://www.zdzheng.xyz/Awesome-Geo-localization): curated papers, datasets and leaderboards.
