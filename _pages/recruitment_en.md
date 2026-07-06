@@ -78,9 +78,9 @@ Interested students are welcome to send their **CV** and **research proposal** t
 
 **Dr. Zhedong Zheng** is an Assistant Professor at the Faculty of Science and Technology, University of Macau. He holds a PhD from the University of Technology Sydney, where his doctoral thesis was recognized as the school’s outstanding paper (awarded to one recipient per school), and a Bachelor’s degree from Fudan University. During his academic journey, Dr. Zheng has held prestigious research positions, including a postdoctoral fellowship at the National University of Singapore and internships at NVIDIA Research (USA) and Baidu Inc.  
 
-Dr. Zheng’s research focuses on **representation learning** and **multimedia generation**, with significant contributions to the fields of computer vision and artificial intelligence. He has published **70+ papers** in top-tier international conferences and journals, including **CVPR, ICCV, TPAMI, IJCV, and ACM MM**. Among these, **23 are CCF-A papers**, **22 are IEEE/ACM Transactions**, and **9 are ESI highly cited papers**. His work has garnered over **10,000 citations on Google Scholar**, with a single paper exceeding **2,000 citations**. Notably, his research on a core technology has been successfully integrated into a series of products by NVIDIA, a global leader in hardware innovation.  
+Dr. Zheng’s research focuses on **representation learning** and **multimedia generation**, with significant contributions to the fields of computer vision and artificial intelligence. He has published 80 papers in top-tier international conferences and journals, including CVPR, ICCV, TPAMI, IJCV, and ACM MM. Among these, 38 are CCF-A papers, 32 are IEEE/ACM Transactions, and 9 are ESI highly cited papers. His work has garnered over **14,000 citations on Google Scholar**, with a single paper exceeding **2,500 citations**. Notably, his research on a core technology has been successfully integrated into a series of products by NVIDIA, a global leader in hardware innovation.  
 
-Dr. Zheng’s contributions have been recognized with several prestigious awards, including the **2021 IEEE Circuits and Systems Society Outstanding Young Author Award** (awarded to one recipient annually), the **Zhejiang Laboratory International Young Talent Fund**, and consecutive championships at the **CVPR AI City Challenge**. He has also been consistently ranked in the **top 2% of Stanford University’s list of the world’s top scientists** (2021–2024).  
+Dr. Zheng’s contributions have been recognized with several prestigious awards, including the **2021 IEEE Circuits and Systems Society Outstanding Young Author Award** (awarded to one recipient annually), the **Zhejiang Laboratory International Young Talent Fund**, and consecutive championships at the **CVPR AI City Challenge**. He has also been consistently ranked in the **top 2% of Stanford University’s list of the world’s top scientists** (2021–2025).  
 
 In addition to his research, Dr. Zheng is an active contributor to the academic community. He serves as a reviewer for leading journals such as **TPAMI, IJCV, TIP, TMM, and TCSVT**, and top conferences including **CVPR, ICCV, ECCV, and NeurIPS**. He has also served as a **Senior Program Committee Member (SPC)** for **IJCAI** and **AAAI**, and as an **Area Chair** for **ACM MM** and **IEEE ICASSP**.  
 
@@ -101,8 +101,8 @@ Our research group collaborates closely with the **State Key Laboratory of Inter
 
 **University Rankings:**  
 - **Times Higher Education Young University Rankings**: 14th.  
-- **Times Higher Education World University Rankings**: 180th.  
-- **QS World University Rankings**: 245th.  
+- **Times Higher Education World University Rankings**: 145th.  
+- **QS World University Rankings**: 267th.  
 
 ---
 

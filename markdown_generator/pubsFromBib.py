@@ -408,7 +408,13 @@ old_pattern = r'I have published \d+ papers, including \d+ ccf-A and \d+ IEEE/AC
 insert_text = "I have published %d papers, including %d ccf-A and %d IEEE/ACM journals. "%(all_pub, all_ccf, all_acmieee)
 insert_after_frontmatter("../_pages/publications.md", old_pattern, insert_text)
 
+old_pattern = r'He has published \d+ papers in top-tier international conferences and journals, including CVPR, ICCV, TPAMI, IJCV, and ACM MM\. Among these, \d+ are CCF-A papers, \d+ are IEEE/ACM Transactions, and 9 are ESI highly cited papers\.'
+insert_text = "He has published %d papers in top-tier international conferences and journals, including CVPR, ICCV, TPAMI, IJCV, and ACM MM. Among these, %d are CCF-A papers, %d are IEEE/ACM Transactions, and 9 are ESI highly cited papers."%(all_pub, all_ccf, all_acmieee)
+insert_after_frontmatter("../_pages/recruitment_en.md", old_pattern, insert_text)
+
 old_pattern = r'发表了\d+篇论文，其中\d+篇为CCF-A类论文，\d+篇发表于IEEE/ACM Transactions'
 insert_text = "发表了%d篇论文，其中%d篇为CCF-A类论文，%d篇发表于IEEE/ACM Transactions"%(all_pub, all_ccf, all_acmieee)
 insert_after_frontmatter("../_pages/recruitment.md", old_pattern, insert_text)
+
+
 
