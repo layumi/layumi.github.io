@@ -11,11 +11,65 @@ classes: wide
 <meta name="keywords" content="UAV, Drone, Geo-localization, Spatial Intelligence, BEV, Code and Dataset, Person Re-ID, Object Re-ID, Person Retrieval, Anomaly Search, Domain Adaptation, Person Search" />
 
 <style>
-table.imgtable, table.imgtable th, table.imgtable td {
-  border: 1px solid #ccc;
-}
-table.cardtable, table.cardtable th, table.cardtable td {
+/* ---- Card grid: soft cards with hover lift ---- */
+table.cardtable {
+  border-collapse: separate;
+  border-spacing: 10px;
+  table-layout: fixed;
+  width: 100%;
   border: none;
+}
+table.cardtable td {
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  background: #fbfcfe;
+  padding: 18px 10px 14px;
+  vertical-align: top;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+table.cardtable td:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(15, 23, 42, .08);
+  border-color: #94a3b8;
+  background: #ffffff;
+}
+table.cardtable td a {
+  text-decoration: none;
+}
+table.cardtable h3 {
+  margin: 0 0 6px;
+  font-size: 26px;
+  line-height: 1;
+}
+table.cardtable sub {
+  color: #64748b;
+  line-height: 1.5;
+}
+
+/* ---- Dataset table: light row dividers instead of a black grid ---- */
+table.imgtable {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  overflow: hidden;
+  width: 100%;
+}
+table.imgtable td {
+  border: none;
+  border-bottom: 1px solid #edf2f7;
+  padding: 16px;
+  vertical-align: middle;
+}
+table.imgtable tbody:last-child td {
+  border-bottom: none;
+}
+table.imgtable code {
+  background: #eef2ff;
+  color: #4338ca;
+  border-radius: 6px;
+  padding: 1px 8px;
+  font-size: 12px;
 }
 </style>
 
@@ -111,7 +165,7 @@ table.cardtable, table.cardtable th, table.cardtable td {
   </table>
 </div>
 
-<table class="imgtable" style="border-spacing: 80px; border-collapse: collapse; table-layout: fixed;">
+<table class="imgtable">
 	<tbody><tr><td align="center">
 <img src="https://zdzheng.xyz/resource-img/University.jpg" alt="University-1652 drone satellite ground geo-localization dataset" width="80%"> &nbsp;</td>
     <td align="left"> <strong> University-1652 Dataset</strong> <code>ACM MM 2020</code> <strong><a href="https://github.com/layumi/University1652-Baseline"> [website]</a></strong>  <strong><a href="https://www.zdzheng.xyz/Awesome-Geo-localization"> [SoTA]</a></strong> 
@@ -233,7 +287,7 @@ We collect 1652 buildings of 72 universities around the world. University-1652 c
 
 ### Datasets
 
-<table class="imgtable" style="border-spacing: 80px; border-collapse: collapse; table-layout: fixed;">
+<table class="imgtable">
     <tbody><tr><td align="center">
 	<img src="https://zdzheng.xyz/resource-img/PAB.jpg" alt="Pedestrian Anomaly Behavior " width="80%"> &nbsp;</td>
 	<td align="left"> <strong> PAB Dataset </strong> <code>ICCV 2025 Highlight</code> <strong><a href="https://github.com/Shuyu-XJTU/CMP"> [website]</a></strong> 
