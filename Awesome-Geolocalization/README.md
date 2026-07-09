@@ -89,7 +89,10 @@ Keywords: Cross-view Geo-localization, Spatial Intelligence, Aerial Agents.
 | CDM-Net | 95.13 | 96.04 | 96.68 | 94.05 | Zhou, Xin, Xuerong Yang, and Yanchun Zhang. "CDM-Net: A Framework for Cross-View Geo-Localization With Multimodal Data." TGRS 2025. |
 | JRN-Geo | 95.13 | 95.85 | 96.72 | 94.93 | Zhou, H., Zhang, Y., Huang, T., Ge, F., Qi, M., Zhang, X., & Zhang, Y. (2025, May). JRN-Geo: A Joint Perception Network based on RGB and Normal images for Cross-view Geo-localization. ICRA 2025 | 
 | CGSI (DinoV2+BERT) | 95.45 | 96.10 | 96.58 | 95.38 | Sun, J., Huang, J., Jiang, X., Zhou, Y., & VONG, C. M. CGSI: Context-Guided and UAV’s Status Informed Multimodal Framework for Generalizable Cross-View Geo-Localization. TCSVT 2025 |
-| GeoBridge | 95.82 | 97.77 | 97.14 | 95.05 | Z Song, J Zhang, D Wang, Z Zhou, W Liu, H Guo, E Wang, B Du (2026). Geobridge: A semantic-anchored multi-view foundation model bridging images and text for geo-localization. CVPR 2026| 
+| ONLoc* | 95.65 | 96.45 | - | - | Qiao, Q., Liu, W., Liu, T., Shu, J., & Wang, P. (2026). OffNadirLoc: Benchmark and Framework for Challenging UAV-to-Satellite Geo-Localization under Large Off-Nadir Views. CVPR Findings 2026. | 
+| GeoBridge* | 95.82 | 97.77 | 97.14 | 95.05 | Z Song, J Zhang, D Wang, Z Zhou, W Liu, H Guo, E Wang, B Du (2026). Geobridge: A semantic-anchored multi-view foundation model bridging images and text for geo-localization. CVPR 2026| 
+
+* Extra dataset is used. 
 
 [Multi-weather leaderboard](https://github.com/wtyhub/MuseNet/blob/master/State-of-the-art.md)
 
@@ -106,9 +109,11 @@ Keywords: Cross-view Geo-localization, Spatial Intelligence, Aerial Agents.
 |LPN | Satellite + Drone + Ground | 0.81 | 2.21 | 1.85 | 1.66 | Tingyu W, Zhedong Z, Chenggang Y, and Yi Y. Each Part Matters: Local Patterns Facilitate Cross-view Geo-localization. TCSVT 2021. [[Paper]](https://arxiv.org/abs/2008.11646)  [[Code]](https://github.com/wtyhub/LPN) |
 |CVGS| Unpaired Satellite + Drone + Ground | 0.89 | 2.80| - | - | Xie, K., Zhou, W., Huang, X., Guan, H., & Yulong, F. (2025). Self-supervised Cross-view Graph Search Framework for Ground-to-Satellite Geo-localization. TGRS 2025. | 
 |PCLD| Satellite + Drone + Ground | 9.15 | 14.16 | - | - | Zeng, Z., Wang, Z., Yang, F., & Satoh, S. I. (2022). Geo-Localization via Ground-to-Satellite Cross-View Image Retrieval. IEEE Transactions on Multimedia. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9684950/) |
+| Street2orbit | Google Search| 25.57 | - | - | - |  Min, Jeongho, Dongyoung Kim, and Jaehyup Lee. "From Street to Orbit: Training-Free Cross-View Retrieval via Location Semantics and LLM Guidance." WACV. 2026. [[Code]](https://jeonghomin.github.io/street2orbit.github.io/) |
 |VICI| Satellite + Ground | 24.66 | -  | - | - | Zhang, X., Shore, T., Chen, C., Mendez, O., Hadfield, S., & Wshah, S. (2025). VICI: VLM-Instructed Cross-view Image-localisation. ACM MM UAVM Workshop 2025. [[Paper]](https://arxiv.org/pdf/2507.04107)[[Code]](https://github.com/tavisshore/VICI) |
 |VICI| Satellite + Drone + Ground | 27.49 | -  | - | - | |
 |VICI + VLM| Satellite + Drone + Ground | 30.21 | -  | - | - | |
+
 
 ## CVUSA
 
