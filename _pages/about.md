@@ -115,8 +115,8 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
 	<li> <strong>ACM MM 2026:</strong> 2 papers - 
-	<a href="https://www.zdzheng.xyz/publication/Process-2026">Dynamic Aerial Matching</a>, 
-	<a href="https://www.zdzheng.xyz/publication/Generati2026">Audio-Visual Semantic Segmentation</a>
+	<a href="https://www.zdzheng.xyz/publication/Scale-ad2026">Dynamic Aerial Matching</a>, 
+	<a href="https://www.zdzheng.xyz/publication/Acoustic2026">Audio-Visual Semantic Segmentation</a>
 	</li>
 	<li> <strong>ECCV 2026 Workshop:</strong> <a href="https://www.aicitychallenge.org/">AI City Challenge Track4</a></li>
 	<li> <strong>ACL 2026:</strong> 2 papers - 
