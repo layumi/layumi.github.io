@@ -4,6 +4,8 @@ collection: authors
 permalink: /authors/Zhedong-Zheng
 author_profile: false
 ---
+ <li> Tianrui Hui,  Shaofei Huang,  Qisong Han,  Yaxiong Wang,  Lechao Cheng,  Zhedong Zheng,  Zhun Zhong,  Richang Hong,  Meng Wang, &quot;Acoustically Grounded Cost Learning for Open-Vocabulary Audio-Visual Semantic Segmentation.&quot; ACM MM, 2026.<a href='https://zdzheng.xyz/publication/Acoustic2026'>[Link]</a> </li>
+ <li> Quan Chen,  Bolun Zheng,  Tingyu Wang,  Rongfeng Lu,  Yu Liu,  Zhedong Zheng, &quot;Scale-adaptive UAV Geo-localization via Height-aware Partition Learning.&quot; ACM MM, 2026.<a href='https://zdzheng.xyz/publication/Scale-ad2026'>[Link]</a> </li>
  <li> Hao Ju,  Hu Zhang,  Zhedong Zheng, &quot;AnomalyLMM: Bridging Generative Knowledge and Discriminative Retrieval for Text-Based Person Anomaly Search.&quot; arXiv:2509.04376, 2025.<a href='https://zdzheng.xyz/publication/AnomalyL2025'>[Link]</a> </li>
  <li> Jian Ma,  Zhedong Zheng,  Hao Fei,  Feng Zheng,  Tat-Seng Chua,  Yi Yang, &quot;Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion.&quot; arXiv:2207.06057, 2022.<a href='https://zdzheng.xyz/publication/Subband-2022'>[Link]</a> </li>
  <li> Jiahao Zhang,  Shaofei Huang,  Yaxiong Wang,  Zhedong Zheng, &quot;Pretrain-then-Adapt: Uncertainty-Aware Test-Time Adaptation for Text-based Person Search.&quot; SIGIR, 2026.<a href='https://zdzheng.xyz/publication/Pretrain2026'>[Link]</a> </li>
