@@ -5,7 +5,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-I have published 82 papers, including 40 ccf-A and 32 IEEE/ACM journals. You can also find my articles on <u><a href="https://scholar.google.com/citations?user=XT17oUEAAAAJ">my Google Scholar profile</a>.</u>
+I have published 82 papers, including 47 ccf-A and 32 IEEE/ACM journals. You can also find my articles on <u><a href="https://scholar.google.com/citations?user=XT17oUEAAAAJ">my Google Scholar profile</a>.</u>
 
 Publications:  [2026](#2026), [2025](#2025), [2024](#2024), [2023](#2023), [2022](#2022), [2021](#2021), [2020](#2020), [2019](#2019), [2018](#2018), [2017](#2017)
 

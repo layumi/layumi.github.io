@@ -66,7 +66,7 @@ def normalize_venue(text: str) -> str:
 
 
 ccf_info = {
-    # 格式: "全名或缩写": (ccf_a: bool, is_acm_ieee: bool, 备注)
+    # 格式: is_ccf_a, is_acm_ieee, is_conf, is_trans
     # 人工智能 / 计算机视觉领域
     "CVPR": (True, False, True, False),                     # IEEE/CVF → IEEE
     "IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)": (True, False, True, False),
@@ -78,19 +78,22 @@ ccf_info = {
     "International Journal of Computer Vision (IJCV)": (True, False, False, True),
     "TPAMI": (True, True, False, True),                     # IEEE
     "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)": (True, True, False, True),
-    "ICLR": (False, False, True, False),                    # CCF-B
+    # 格式: is_ccf_a, is_acm_ieee, is_conf, is_trans
+    "ICLR": (Trues, False, True, False),                    # CCF-B
     "International Conference on Learning Representations (ICLR)": (False, False, True, False),
     "AAAI": (True, False, True, False),                     # AAAI，非 ACM/IEEE
     "AAAI Conference on Artificial Intelligence (AAAI)": (True, False, True, False),
-    "IJCAI": (True, False, True, False),                    # CCF-A，非 ACM/IEEE
-    "International Joint Conference on Artificial Intelligence (IJCAI)": (True, False, True, False),
+    # 格式: is_ccf_a, is_acm_ieee, is_conf, is_trans
+    "IJCAI": (False, False, True, False),                    # CCF-A，非 ACM/IEEE
+    "International Joint Conference on Artificial Intelligence (IJCAI)": (False, False, True, False),
     "NeurIPS": (True, False, True, False),
     # 多媒体 / 图形学领域
     "ACM MM": (True, False, True, False),                    # ACM
     "ACM International Conference on Multimedia (ACM MM)": (True, False, True, False),
     "ACM MULTIMEDIA": (True, False, True, False),
-    "TMM": (False, True, False, True),                      # IEEE, CCF-B
-    "IEEE Transactions on Multimedia (TMM)": (False, True, False, True),
+    # 格式: is_ccf_a, is_acm_ieee, is_conf, is_trans
+    "TMM": (True, True, False, True),                      # IEEE, CCF-B
+    "IEEE Transactions on Multimedia (TMM)": (True, True, False, True),
     "TIP": (True, True, False, True),                       # IEEE, CCF-A (图形学与多媒体 A 类)
     "IEEE Transactions on Image Processing (TIP)": (True, True, False, True),
     "TCSVT": (False, True, False, True),                    # IEEE, CCF-B
