@@ -79,7 +79,7 @@ ccf_info = {
     "TPAMI": (True, True, False, True),                     # IEEE
     "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)": (True, True, False, True),
     # 格式: is_ccf_a, is_acm_ieee, is_conf, is_trans
-    "ICLR": (Trues, False, True, False),                    # CCF-B
+    "ICLR": (True, False, True, False),                    # CCF-B
     "International Conference on Learning Representations (ICLR)": (False, False, True, False),
     "AAAI": (True, False, True, False),                     # AAAI，非 ACM/IEEE
     "AAAI Conference on Artificial Intelligence (AAAI)": (True, False, True, False),
