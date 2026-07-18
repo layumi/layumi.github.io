@@ -247,6 +247,15 @@ table.imgtable code {
     </tr>
     <tr>
       <td align="center" width="33%">
+        <a href="https://github.com/nkuzjh/UATTA">
+          <h3>🎯</h3>
+          <b>UATTA</b>
+        </a>
+        <br><sub>Uncertainty-Aware Test-Time Adaptation<br>for Text-based Person Search · SIGIR'26</sub>
+        <br><br>
+        <a href="https://github.com/nkuzjh/UATTA"><img src="https://img.shields.io/github/stars/nkuzjh/UATTA.svg?style=social&label=Star" alt="GitHub stars"></a>
+      </td>
+      <td align="center" width="33%">
         <a href="https://github.com/layumi/person-reid-3d">
           <h3>🧊</h3>
           <b>3D Person re-ID</b>
@@ -263,15 +272,6 @@ table.imgtable code {
         <br><sub>Pedestrian Alignment Network (PAN)<br>for Robust Re-ID</sub>
         <br><br>
         <a href="https://github.com/layumi/Pedestrian_Alignment"><img src="https://img.shields.io/github/stars/layumi/Pedestrian_Alignment.svg?style=social&label=Star" alt="GitHub stars"></a>
-      </td>
-      <td align="center" width="33%">
-        <a href="https://github.com/layumi/2016_person_re-ID">
-          <h3>🔁</h3>
-          <b>2-Stream Person re-ID</b>
-        </a>
-        <br><sub>Verification + Identification<br>Baseline</sub>
-        <br><br>
-        <a href="https://github.com/layumi/2016_person_re-ID"><img src="https://img.shields.io/github/stars/layumi/2016_person_re-ID.svg?style=social&label=Star" alt="GitHub stars"></a>
       </td>
     </tr>
   </table>
