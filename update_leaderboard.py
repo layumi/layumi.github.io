@@ -1,4 +1,4 @@
-import os
+import os,re
 
 os.system('git pull --rebase --autostash')
 os.system('cd markdown_generator; python pubsFromBib.py; cd ..')
@@ -7,6 +7,19 @@ os.system('cd ACMMM2024Workshop-UAV; git pull origin main; cd ..')
 os.system('cd ACMMM2025Workshop-UAV; git pull origin main; cd ..')
 os.system('cd ACMMM2026Workshop-UAV; git pull origin main; cd ..')
 os.system('cd synthir26; git pull origin main; cd ..')
+path = 'synthir26/README.md'
+style = '<style>\ntable, th, td {\n  border: 1px solid black;\n}\n</style>\n'
+
+with open(path, encoding='utf-8') as f:
+    text = f.read()
+
+if '<style>' not in text:                      # 避免重复插入
+    m = re.match(r'^---\r?\n.*?\r?\n---\r?\n', text, re.S)
+    pos = m.end() if m else 0
+    text = text[:pos] + '\n' + style + text[pos:]
+    with open(path, 'w', encoding='utf-8') as f:
+        f.write(text)
+
 os.system('cd MORE2024; git pull origin main; cd ..')
 os.system('cd MORE2025; git pull origin main; cd ..')
 os.system('cd Awesome-Aerial-Spatial-Intelligence; git pull origin main; cd ..')
