@@ -6,6 +6,7 @@ date: 2026-01-01
 doi: 10.1109/TVCG.2026.3669142
 oral: 
 keywords: automatic oil painting, draw differential query, oil painting
+funding:2025A1515012281, 202401035, FDCT/0043/2025/RIA1
 venue: 'IEEE Transactions on Visualization and Computer Graphics (TVCG)'
 paperurl: 'https://zdzheng.xyz/files/2026/TVCG_Stroke_lingyu.pdf'
 code: 'https://differential-query-painter.github.io/DQ-painter/'

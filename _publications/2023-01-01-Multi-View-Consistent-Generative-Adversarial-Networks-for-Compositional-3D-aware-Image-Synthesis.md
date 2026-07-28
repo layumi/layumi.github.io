@@ -6,6 +6,7 @@ date: 2023-01-01
 doi: 10.1007/s11263-023-01805-x
 oral: 
 keywords: consistent generative adversarial, aware image synthesis, compositional 3d aware
+funding:
 venue: 'International Journal of Computer Vision (IJCV)'
 paperurl: 'https://zdzheng.xyz/files/2023/Zhang_MVCGAN.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Xuanmeng-Zhang" class="author"> <img src= "https://zdzheng.xyz/coauthors/xuanmeng-zhang.jpg" alt="xuanmeng-zhang" style="border-radius: 50%; height:20px; width:20px">Xuanmeng Zhang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Daiheng-Gao" class="author">Daiheng Gao</a>, <a href="https://zdzheng.xyz/authors/Bang-Zhang" class="author">Bang Zhang</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>, <a href="https://zdzheng.xyz/authors/Tat-Seng-Chua" class="author"> <img src= "https://zdzheng.xyz/coauthors/tat-seng-chua.jpeg" alt="tat-seng-chua" style="border-radius: 50%; height:20px; width:20px">Tat-Seng Chua</a>'

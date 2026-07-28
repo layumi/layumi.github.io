@@ -6,6 +6,7 @@ date: 2023-01-01
 doi: 
 oral: 
 keywords: adaptative semantic segmentation, semantic segmentation, segmentation, domain adaptation
+funding:
 venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/2023/MM23_PiPa.pdf'
 code: 'https://github.com/chen742/PiPa'

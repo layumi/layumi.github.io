@@ -6,6 +6,7 @@ date: 2020-01-01
 doi: 10.1109/TMM.2020.3014488
 oral: 
 keywords: vehiclenet learning robust, vehiclenet learning, representation vehicle identification, object re-identification, content-based retrieval
+funding:
 venue: 'IEEE Transactions on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/2020/TMM20.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/186905783'

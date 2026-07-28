@@ -6,6 +6,7 @@ date: 2025-01-01
 doi: 
 oral: 
 keywords: weather drone visual, learning weather drone, drone visual geo, visual geo-localization, spatial intelligence
+funding:MYRG-GRG2024-00077-FST-UMDF, SRG2024-00002-FST, FDCT/0043/2025/RIA1
 venue: 'NeurIPS'
 paperurl: 'https://zdzheng.xyz/files/2025/Wen_WeatherPrompt.pdf'
 code: 'https://github.com/Jahawn-Wen/WeatherPrompt'

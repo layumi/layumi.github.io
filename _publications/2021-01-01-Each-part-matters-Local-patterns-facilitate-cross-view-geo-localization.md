@@ -6,6 +6,7 @@ date: 2021-01-01
 doi: 10.1109/TCSVT.2021.3061265
 oral: 
 keywords: geo localization, view geo localization, cross view geo, visual geo-localization, spatial intelligence
+funding:
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)'
 paperurl: 'https://zdzheng.xyz/files/2021/Wang_LPN.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/365043015'

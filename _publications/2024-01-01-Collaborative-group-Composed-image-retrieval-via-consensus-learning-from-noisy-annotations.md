@@ -6,6 +6,7 @@ date: 2024-01-01
 doi: 10.1016/j.knosys.2024.112135
 oral: 
 keywords: image retrieval consensus, retrieval consensus, retrieval consensus learning, object re-identification, content-based retrieval
+funding:
 venue: 'Knowledge-Based Systems (KBS)'
 paperurl: 'https://zdzheng.xyz/files/2024/KBS-triplet.pdf'
 code: 'https://github.com/XuZhang2/Css-Net'

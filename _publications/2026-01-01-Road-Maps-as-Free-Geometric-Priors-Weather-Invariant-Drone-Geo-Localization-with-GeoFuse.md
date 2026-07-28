@@ -6,6 +6,7 @@ date: 2026-01-01
 doi: 
 oral: 
 keywords: drone geo localization, geometric priors weather, invariant drone geo, visual geo-localization, spatial intelligence
+funding:
 venue: 'arXiv:2605.14925'
 paperurl: 'https://zdzheng.xyz/files/2026/Roadmap_Yunsong.pdf'
 code: 'https://github.com/YsongF/GeoFuse'

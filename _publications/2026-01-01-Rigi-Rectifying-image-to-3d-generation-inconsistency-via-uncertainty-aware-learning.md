@@ -6,6 +6,7 @@ date: 2026-01-01
 doi: 
 oral: 
 keywords: uncertainty aware learning, image 3d generation, uncertainty aware, uncertainty learning, aigc
+funding:
 venue: 'IEEE Transactions on Image Processing (TIP)'
 paperurl: 'https://zdzheng.xyz/files/2026/RIGI_Jiacheng.pdf'
 code: 'https://rigi3d.github.io/'

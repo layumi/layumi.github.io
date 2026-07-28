@@ -238,9 +238,9 @@ for pubsource in publist:
                         f.write("""\nauthor_profile: false""")
                         f.write("\n---\n\n")
                         f.write('{{% assign pubs_tag = site.publications | where_exp:"item", "item.keywords contains \'{}\'" | sort: "venue" %}}\n'
-        '{{% for post in pubs_tag %}}\n'
-        '  {{% include archive-single.html %}}\n'
-        '{{% endfor %}}'.format(tag))
+                        '{{% for post in pubs_tag %}}\n'
+                        '  {{% include archive-single.html %}}\n'
+                        '{{% endfor %}}'.format(tag))
 
             # --- Funding ---
             # b["funding"] 形如: "NSFC-62306297, FDCT-0154/2022/A3"
@@ -338,6 +338,8 @@ for pubsource in publist:
             md += "\noral: " + oral
 
             md += "\nkeywords:" + keywords
+            
+            md += "\nfunding:" + funding_field
              
             md += "\nvenue: '" + normalize_venue(html_escape(venue)) + "'"
             

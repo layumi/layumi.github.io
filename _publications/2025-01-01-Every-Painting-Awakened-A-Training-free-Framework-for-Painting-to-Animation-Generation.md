@@ -6,6 +6,7 @@ date: 2025-01-01
 doi: 
 oral: 
 keywords: painting animation generation, framework painting animation, painting animation, aigc
+funding:
 venue: 'arXiv:2503.23736'
 blog: 'https://mp.weixin.qq.com/s/6bgrQK3kD16Q8U1a6S52hA'
 code: 'https://painting-animation.github.io/animation/'

@@ -7,6 +7,7 @@ date: 2025-01-01
 doi: 
 oral: Highlight Presentation
 keywords: person anomaly search, person anomaly, image text benchmark, person re-id, person retrieval, person search
+funding:FDCT/0043/2025/RIA1, 202401035
 venue: 'IEEE/CVF International Conference on Computer Vision (ICCV)'
 paperurl: 'https://zdzheng.xyz/files/2025/Yang_BeyondWalking.pdf'
 blog: 'https://mp.weixin.qq.com/s/AIm2IrzXmaN9K1P3nIMvzQ'

@@ -6,6 +6,7 @@ date: 2023-01-01
 doi: 
 oral: 
 keywords: blind image decomposition, pretraining efficient blind, efficient blind image
+funding:
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://zdzheng.xyz/files/2023/CVPR2023-Wang.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/646574198'

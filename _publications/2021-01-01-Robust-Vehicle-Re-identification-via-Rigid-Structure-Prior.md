@@ -6,6 +6,7 @@ date: 2021-01-01
 doi: 
 oral: 
 keywords: robust vehicle identification, vehicle identification rigid, rigid structure prior, object re-identification, content-based retrieval
+funding:
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshop of AI City Challenge on City-Scale Multi-Camera Vehicle Re-Identification (the 2nd Place of Track 2)'
 paperurl: 'https://zdzheng.xyz/files/2021/CVPRW-2021-VehicleReid.pdf'
 code: 'https://github.com/Xuanmeng-Zhang/AICITY2021-Track2'

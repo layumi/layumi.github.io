@@ -6,6 +6,7 @@ date: 2023-01-01
 doi: 
 oral: 
 keywords: ranking image text, image text retrieval, ranking image, object re-identification, content-based retrieval
+funding:
 venue: 'ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)'
 paperurl: 'https://zdzheng.xyz/files/2023/SIGIR23-Qu.pdf'
 code: 'https://github.com/lgqu/leaprr'

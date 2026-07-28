@@ -6,6 +6,7 @@ date: 2026-01-01
 doi: 
 oral: 
 keywords: uav reasoning generation, unifying uav reasoning, uav reasoning, aigc
+funding:
 venue: 'arXiv:2604.05377'
 paperurl: 'https://zdzheng.xyz/files/2026/Jintao_UAVReason.pdf'
 code: 'https://github.com/JT-Sun/UAVReason'

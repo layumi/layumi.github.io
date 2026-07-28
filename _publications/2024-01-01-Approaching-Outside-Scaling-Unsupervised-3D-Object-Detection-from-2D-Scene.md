@@ -6,6 +6,7 @@ date: 2024-01-01
 doi: 
 oral: 
 keywords: scaling unsupervised 3d, unsupervised 3d object, 3d object detection
+funding:SRG2024-00002-FST
 venue: 'European conference on computer vision (ECCV)'
 paperurl: 'https://zdzheng.xyz/files/2024/ECCV24-Approach.pdf'
 blog: 'https://www.zhihu.com/question/660698707/answer/3575967153'

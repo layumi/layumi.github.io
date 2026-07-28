@@ -7,6 +7,7 @@ date: 2025-01-01
 doi: 
 oral: Oral Presentation
 keywords: neural oil painting, agnostic neural oil, oil painting normalization, domain adaptation
+funding:FDCT/0043/2025/RIA1, 202401035, SRG2024-00002-FST
 venue: 'ACM International Conference on Multimedia (ACM MM) - BNI Track'
 paperurl: 'https://zdzheng.xyz/files/2025/Qichao_TTA.pdf'
 code: 'https://domain-agnostic-neural-oil-painting.github.io/DANP/'

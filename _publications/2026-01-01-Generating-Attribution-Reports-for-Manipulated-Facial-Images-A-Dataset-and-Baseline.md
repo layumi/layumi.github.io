@@ -6,6 +6,7 @@ date: 2026-01-01
 doi: 
 oral: 
 keywords: manipulated facial images, reports manipulated facial, facial images dataset
+funding:2025A1515012281, SBZ20250900116, FDCT/0043/2025/RIA1
 venue: 'ACL'
 paperurl: 'https://zdzheng.xyz/files/2026/ACL_Lian.pdf'
 code: 'https://github.com/NattyLianJc/Generating-Attribution-Reports'

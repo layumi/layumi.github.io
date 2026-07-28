@@ -6,6 +6,7 @@ date: 2026-01-01
 doi: 
 oral: 
 keywords: cultivating forensic reasoning, forensic reasoning generalizable, multimodal manipulation detection
+funding:202401035, MYRG-GRG2024-00077-FST-UMDF, 2025A1515012281
 venue: 'ACL'
 paperurl: 'https://zdzheng.xyz/files/2026/ACL_Yuchen.pdf'
 code: 'https://github.com/YcZhangSing/REFORM'

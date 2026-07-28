@@ -6,6 +6,7 @@ date: 2024-01-01
 doi: 10.1016/j.patcog.2024.110618
 oral: 
 keywords: ensembling depth completion, self ensembling depth, completion density aware
+funding:
 venue: 'Pattern Recognition (PR)'
 paperurl: 'https://zdzheng.xyz/files/2024/PR_SEED.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Xuanmeng-Zhang" class="author"> <img src= "https://zdzheng.xyz/coauthors/xuanmeng-zhang.jpg" alt="xuanmeng-zhang" style="border-radius: 50%; height:20px; width:20px">Xuanmeng Zhang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Minyue-Jiang" class="author">Minyue Jiang</a>, <a href="https://zdzheng.xyz/authors/Xiaoqing-Ye" class="author">Xiaoqing Ye</a>'

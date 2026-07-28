@@ -6,6 +6,7 @@ date: 2026-01-01
 doi: 10.1145/3803010
 oral: 
 keywords: understanding image retrieval, image retrieval ranking, image retrieval, object re-identification, content-based retrieval
+funding:2025A1515012281, 202401035, FDCT/0043/2025/RIA1, University of Macau Advanced Research Institute in Hengqin
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
 paperurl: 'https://zdzheng.xyz/files/2026/TOMM_GNN_Reranking.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/338777060'

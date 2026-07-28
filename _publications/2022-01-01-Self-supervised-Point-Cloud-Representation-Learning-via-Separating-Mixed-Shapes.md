@@ -6,6 +6,7 @@ date: 2022-01-01
 doi: 10.1109/TMM.2022.3206664
 oral: 
 keywords: supervised point cloud, point cloud representation, self supervised point
+funding:
 venue: 'IEEE Transactions on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/2022/TMM_3D_Pre_Training.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/623476158'

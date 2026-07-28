@@ -6,6 +6,7 @@ date: 2026-01-01
 doi: 10.1109/TMM.2026.3713776
 oral: 
 keywords: echo planning autonomous, echo planning, planning autonomous driving
+funding:FDCT/0043/2025/RIA1, 2025A1515012281, BZ2025029
 venue: 'IEEE Transactions on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/2026/TMM_jintao_planning.pdf'
 author: '<a href="https://zdzheng.xyz/authors/Jintao-Sun" class="author">Jintao Sun</a>, <a href="https://zdzheng.xyz/authors/Hu-Zhang" class="author"> <img src= "https://zdzheng.xyz/coauthors/hu-zhang.jpg" alt="hu-zhang" style="border-radius: 50%; height:20px; width:20px">Hu Zhang</a>, <a href="https://zdzheng.xyz/authors/Gangyi-Ding" class="author">Gangyi Ding</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'

@@ -6,6 +6,7 @@ date: 2022-01-01
 doi: 10.1007/s11263-022-01737-y
 oral: 
 keywords: crafting adversarial queries, turn crafting adversarial, adversarial queries opposite
+funding:
 venue: 'International Journal of Computer Vision (IJCV)'
 paperurl: 'https://zdzheng.xyz/files/2022/IJCV_Retrieval_Robustness_CameraReady.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/593319732'
