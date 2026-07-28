@@ -13,7 +13,7 @@ sqlauthor: '{"@type": "Person","name": "Jintao Sun"}, {"@type": "Person","name":
 citation: ' Jintao Sun,  Hu Zhang,  Gangyi Ding,  Zhedong Zheng, &quot;Echo planning for autonomous driving: From current observations to future trajectories and back.&quot; TMM, 2026. DOI: 10.1109/TMM.2026.3713776'
 pub_year: '2026'
 bib: >
-    @article{sun2026echo,<br>author = "Sun, Jintao and Zhang, Hu and Ding, Gangyi and Zheng, Zhedong",<br>title = "Echo planning for autonomous driving: From current observations to future trajectories and back",<br>url = "https://zdzheng.xyz/files/2026/TMM\_jintao\_planning.pdf",<br>doi = "10.1109/TMM.2026.3713776",<br>journal = "TMM",<br>year = "2026"
+    @article{sun2026echo,<br>author = "Sun, Jintao and Zhang, Hu and Ding, Gangyi and Zheng, Zhedong",<br>title = "Echo planning for autonomous driving: From current observations to future trajectories and back",<br>url = "https://zdzheng.xyz/files/2026/TMM\_jintao\_planning.pdf",<br>doi = "10.1109/TMM.2026.3713776",<br>funding = "FDCT/0043/2025/RIA1, 2025A1515012281, BZ2025029",<br>journal = "TMM",<br>year = "2026"
     }
 
 ---

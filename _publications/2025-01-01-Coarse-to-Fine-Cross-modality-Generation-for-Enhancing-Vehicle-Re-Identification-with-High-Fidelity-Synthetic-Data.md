@@ -13,7 +13,7 @@ sqlauthor: '{"@type": "Person","name": "Leyang Jin"}, {"@type": "Person","name":
 citation: ' Leyang Jin,  Wei Ji,  Tat-seng Chua,  Zhedong Zheng, &quot;Coarse-to-Fine Cross-modality Generation for Enhancing Vehicle Re-Identification with High-Fidelity Synthetic Data.&quot; IEEE International Conference on Robotics and Automation, 2025.'
 pub_year: '2025'
 bib: >
-    @inproceedings{jin2025coarse,<br>author = "Jin, Leyang and Ji, Wei and Chua, Tat-seng and Zheng, Zhedong",<br>title = "Coarse-to-Fine Cross-modality Generation for Enhancing Vehicle Re-Identification with High-Fidelity Synthetic Data",<br>booktitle = "IEEE International Conference on Robotics and Automation",<br>url = "https://zdzheng.xyz/files/2025/ICRA25-Vehicle.pdf",<br>year = "2025"
+    @inproceedings{jin2025coarse,<br>author = "Jin, Leyang and Ji, Wei and Chua, Tat-seng and Zheng, Zhedong",<br>title = "Coarse-to-Fine Cross-modality Generation for Enhancing Vehicle Re-Identification with High-Fidelity Synthetic Data",<br>booktitle = "IEEE International Conference on Robotics and Automation",<br>url = "https://zdzheng.xyz/files/2025/ICRA25-Vehicle.pdf",<br>funding = "SRG2024-00002-FST, MYRG-GRG2024-00077-FST-UMDF",<br>year = "2025"
     }
 
 ---

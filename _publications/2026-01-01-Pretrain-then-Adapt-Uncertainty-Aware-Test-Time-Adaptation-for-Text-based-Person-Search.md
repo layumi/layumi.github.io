@@ -15,7 +15,7 @@ sqlauthor: '{"@type": "Person","name": "Jiahao Zhang"}, {"@type": "Person","name
 citation: ' Jiahao Zhang,  Shaofei Huang,  Yaxiong Wang,  Zhedong Zheng, &quot;Pretrain-then-Adapt: Uncertainty-Aware Test-Time Adaptation for Text-based Person Search.&quot; SIGIR, 2026. DOI: 3805712.3809598'
 pub_year: '2026'
 bib: >
-    @inproceedings{zhang2026pretrain,<br>author = "Zhang, Jiahao and Huang, Shaofei and Wang, Yaxiong and Zheng, Zhedong",<br>title = "Pretrain-then-Adapt: Uncertainty-Aware Test-Time Adaptation for Text-based Person Search",<br>booktitle = "SIGIR",<br>url = "https://zdzheng.xyz/files/2026/SIGIR\_Jiahao.pdf",<br>blog = "https://zhuanlan.zhihu.com/p/2034741247034778727",<br>code = "https://github.com/nkuzjh/UATTA",<br>doi = "3805712.3809598",<br>year = "2026"
+    @inproceedings{zhang2026pretrain,<br>author = "Zhang, Jiahao and Huang, Shaofei and Wang, Yaxiong and Zheng, Zhedong",<br>title = "Pretrain-then-Adapt: Uncertainty-Aware Test-Time Adaptation for Text-based Person Search",<br>booktitle = "SIGIR",<br>url = "https://zdzheng.xyz/files/2026/SIGIR\_Jiahao.pdf",<br>blog = "https://zhuanlan.zhihu.com/p/2034741247034778727",<br>code = "https://github.com/nkuzjh/UATTA",<br>funding = "2025A1515012281, SBZ20250900116, MYRG-GRG2024-00077-FST-UMDF, FDCT/0043/2025/RIA1",<br>doi = "3805712.3809598",<br>year = "2026"
     }
 
 ---

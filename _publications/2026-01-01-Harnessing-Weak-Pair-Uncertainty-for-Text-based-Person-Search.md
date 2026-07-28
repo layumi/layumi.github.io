@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Jintao Sun"}, {"@type": "Person","name":
 citation: ' Jintao Sun,  Zhedong Zheng,  Gangyi Ding, &quot;Harnessing Weak Pair Uncertainty for Text-based Person Search.&quot; Pattern Recognition, 2026. DOI: 10.1016/j.patcog.2026.113783'
 pub_year: '2026'
 bib: >
-    @article{sun2026harnessing,<br>author = "Sun, Jintao and Zheng, Zhedong and Ding, Gangyi",<br>title = "Harnessing Weak Pair Uncertainty for Text-based Person Search",<br>journal = "Pattern Recognition",<br>url = "https://zdzheng.xyz/files/2026/PR\_Jintao.pdf",<br>code = "https://github.com/JT-Sun/WPU-TBPS",<br>doi = "10.1016/j.patcog.2026.113783",<br>year = "2026"
+    @article{sun2026harnessing,<br>author = "Sun, Jintao and Zheng, Zhedong and Ding, Gangyi",<br>title = "Harnessing Weak Pair Uncertainty for Text-based Person Search",<br>journal = "Pattern Recognition",<br>url = "https://zdzheng.xyz/files/2026/PR\_Jintao.pdf",<br>code = "https://github.com/JT-Sun/WPU-TBPS",<br>funding = "2025A1515012281, 202401035, FDCT/0043/2025/RIA1",<br>doi = "10.1016/j.patcog.2026.113783",<br>year = "2026"
     }
 
 ---

@@ -15,7 +15,7 @@ sqlauthor: '{"@type": "Person","name": "Shuyu Yang"}, {"@type": "Person","name":
 citation: ' Shuyu Yang,  Yaxiong Wang,  Yongrui Li,  Li Zhu,  Zhedong Zheng, &quot;Minimizing the pretraining gap: Domain-aligned text-based person retrieval.&quot; PR, 2026. DOI: 10.1016/j.patcog.2026.113511'
 pub_year: '2026'
 bib: >
-    @article{yang2026minimizing,<br>author = "Yang, Shuyu and Wang, Yaxiong and Li, Yongrui and Zhu, Li and Zheng, Zhedong",<br>title = "Minimizing the pretraining gap: Domain-aligned text-based person retrieval",<br>url = "https://zdzheng.xyz/files/2026/PR\_SDA\_Yang.pdf",<br>code = "https://github.com/Shuyu-XJTU/MRA",<br>blog = "https://zhuanlan.zhihu.com/p/2052778421856506671",<br>doi = "10.1016/j.patcog.2026.113511",<br>journal = "PR",<br>year = "2026"
+    @article{yang2026minimizing,<br>author = "Yang, Shuyu and Wang, Yaxiong and Li, Yongrui and Zhu, Li and Zheng, Zhedong",<br>title = "Minimizing the pretraining gap: Domain-aligned text-based person retrieval",<br>url = "https://zdzheng.xyz/files/2026/PR\_SDA\_Yang.pdf",<br>code = "https://github.com/Shuyu-XJTU/MRA",<br>blog = "https://zhuanlan.zhihu.com/p/2052778421856506671",<br>doi = "10.1016/j.patcog.2026.113511",<br>funding = "2025A1515012281, MYRG-GRG2024-00077-FST-UMDF, University of Macau Advanced Research Institute in Hengqin, FDCT/0043/2025/RIA1",<br>journal = "PR",<br>year = "2026"
     }
 
 ---

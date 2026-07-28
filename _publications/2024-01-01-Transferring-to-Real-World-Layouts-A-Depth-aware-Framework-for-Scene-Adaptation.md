@@ -15,7 +15,7 @@ sqlauthor: '{"@type": "Person","name": "Mu Chen"}, {"@type": "Person","name": "Z
 citation: ' Mu Chen,  Zhedong Zheng,  Yi Yang, &quot;Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation.&quot; ACM Multimedia, 2024.'
 pub_year: '2024'
 bib: >
-    @inproceedings{chen2024transferring,<br>author = "Chen, Mu and Zheng, Zhedong and Yang, Yi",<br>title = "Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation",<br>code = "https://github.com/chen742/DCF",<br>url = "https://zdzheng.xyz/files/2024/ACMMM24-Layout.pdf",<br>booktitle = "ACM Multimedia",<br>note = "Oral Presentation",<br>year = "2024"
+    @inproceedings{chen2024transferring,<br>author = "Chen, Mu and Zheng, Zhedong and Yang, Yi",<br>title = "Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation",<br>code = "https://github.com/chen742/DCF",<br>url = "https://zdzheng.xyz/files/2024/ACMMM24-Layout.pdf",<br>booktitle = "ACM Multimedia",<br>funding = "SRG2024-00002-FST",<br>note = "Oral Presentation",<br>year = "2024"
     }
 
 ---

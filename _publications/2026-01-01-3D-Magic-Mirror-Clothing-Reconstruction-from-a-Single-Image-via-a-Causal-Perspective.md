@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Zhedong Zheng"}, {"@type": "Person","nam
 citation: ' Zhedong Zheng,  Jiayin Zhu,  Wei Ji,  Yi Yang,  Tat-Seng Chua, &quot;3D Magic Mirror: Clothing Reconstruction from a Single Image via a Causal Perspective.&quot; npj Artificial Intelligence, 2026. DOI: 10.1038/s44387-026-00082-6'
 pub_year: '2026'
 bib: >
-    @article{zheng2026magic,<br>author = "Zheng, Zhedong and Zhu, Jiayin and Ji, Wei and Yang, Yi and Chua, Tat-Seng",<br>title = "3D Magic Mirror: Clothing Reconstruction from a Single Image via a Causal Perspective",<br>journal = "npj Artificial Intelligence",<br>url = "https://zdzheng.xyz/files/2026/3D\_Recon.pdf",<br>code = "https://github.com/layumi/3D-Magic-Mirror",<br>doi = "10.1038/s44387-026-00082-6",<br>year = "2026"
+    @article{zheng2026magic,<br>author = "Zheng, Zhedong and Zhu, Jiayin and Ji, Wei and Yang, Yi and Chua, Tat-Seng",<br>title = "3D Magic Mirror: Clothing Reconstruction from a Single Image via a Causal Perspective",<br>journal = "npj Artificial Intelligence",<br>url = "https://zdzheng.xyz/files/2026/3D\_Recon.pdf",<br>code = "https://github.com/layumi/3D-Magic-Mirror",<br>doi = "10.1038/s44387-026-00082-6",<br>funding = "FDCT/0043/2025/RIA1, 202401035, 2025A1515012281",<br>year = "2026"
     }
 
 ---

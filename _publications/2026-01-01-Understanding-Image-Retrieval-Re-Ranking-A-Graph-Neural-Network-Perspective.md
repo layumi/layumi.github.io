@@ -15,7 +15,7 @@ sqlauthor: '{"@type": "Person","name": "Xuanmeng Zhang"}, {"@type": "Person","na
 citation: ' Xuanmeng Zhang,  Minyue Jiang,  Zhedong Zheng,  Xiao Tan,  Errui Ding,  Yi Yang, &quot;Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective.&quot; ACM TOMM, 2026. DOI: 10.1145/3803010'
 pub_year: '2026'
 bib: >
-    @article{zhang2020understanding,<br>author = "Zhang, Xuanmeng and Jiang, Minyue and Zheng, Zhedong and Tan, Xiao and Ding, Errui and Yang, Yi",<br>title = "Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective",<br>journal = "ACM TOMM",<br>url = "https://zdzheng.xyz/files/2026/TOMM\_GNN\_Reranking.pdf",<br>code = "https://github.com/Xuanmeng-Zhang/gnn-re-ranking",<br>blog = "https://zhuanlan.zhihu.com/p/338777060",<br>doi = "10.1145/3803010",<br>year = "2026"
+    @article{zhang2020understanding,<br>author = "Zhang, Xuanmeng and Jiang, Minyue and Zheng, Zhedong and Tan, Xiao and Ding, Errui and Yang, Yi",<br>title = "Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspective",<br>journal = "ACM TOMM",<br>url = "https://zdzheng.xyz/files/2026/TOMM\_GNN\_Reranking.pdf",<br>code = "https://github.com/Xuanmeng-Zhang/gnn-re-ranking",<br>blog = "https://zhuanlan.zhihu.com/p/338777060",<br>funding = "2025A1515012281, 202401035, FDCT/0043/2025/RIA1, University of Macau Advanced Research Institute in Hengqin",<br>doi = "10.1145/3803010",<br>year = "2026"
     }
 
 ---

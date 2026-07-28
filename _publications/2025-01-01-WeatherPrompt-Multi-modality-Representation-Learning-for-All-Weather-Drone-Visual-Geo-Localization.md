@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Jiahao Wen"}, {"@type": "Person","name":
 citation: ' Jiahao Wen,  Hang Yu,  Zhedong Zheng, &quot;WeatherPrompt: Multi-modality Representation Learning for All-Weather Drone Visual Geo-Localization.&quot; NeurIPS, 2025.'
 pub_year: '2025'
 bib: >
-    @inproceedings{wen2025WeatherPrompt,<br>author = "Wen, Jiahao and Yu, Hang and Zheng, Zhedong",<br>title = "WeatherPrompt: Multi-modality Representation Learning for All-Weather Drone Visual Geo-Localization",<br>booktitle = "NeurIPS",<br>code = "https://github.com/Jahawn-Wen/WeatherPrompt",<br>url = "https://zdzheng.xyz/files/2025/Wen\_WeatherPrompt.pdf",<br>year = "2025"
+    @inproceedings{wen2025WeatherPrompt,<br>author = "Wen, Jiahao and Yu, Hang and Zheng, Zhedong",<br>title = "WeatherPrompt: Multi-modality Representation Learning for All-Weather Drone Visual Geo-Localization",<br>booktitle = "NeurIPS",<br>code = "https://github.com/Jahawn-Wen/WeatherPrompt",<br>url = "https://zdzheng.xyz/files/2025/Wen\_WeatherPrompt.pdf",<br>funding = "MYRG-GRG2024-00077-FST-UMDF, SRG2024-00002-FST, FDCT/0043/2025/RIA1",<br>year = "2025"
     }
 
 ---

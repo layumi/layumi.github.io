@@ -15,7 +15,7 @@ sqlauthor: '{"@type": "Person","name": "Qichao Dong"}, {"@type": "Person","name"
 citation: ' Qichao Dong,  Lingyu Liu,  Yaxiong Wang,  Jason Liu,  Zhedong Zheng, &quot;Domain-Agnostic Neural Oil Painting via Normalization Affine Test-Time Adaptation.&quot; ACM Multimedia - BNI Track, 2025.'
 pub_year: '2025'
 bib: >
-    @inproceedings{dong2025domain,<br>author = "Dong, Qichao and Liu, Lingyu and Wang, Yaxiong and Liu, Jason J. R. and Zheng, Zhedong",<br>title = "Domain-Agnostic Neural Oil Painting via Normalization Affine Test-Time Adaptation",<br>booktitle = "ACM Multimedia - BNI Track",<br>note = "Oral Presentation",<br>url = "https://zdzheng.xyz/files/2025/Qichao\_TTA.pdf",<br>code = "https://domain-agnostic-neural-oil-painting.github.io/DANP/",<br>year = "2025"
+    @inproceedings{dong2025domain,<br>author = "Dong, Qichao and Liu, Lingyu and Wang, Yaxiong and Liu, Jason J. R. and Zheng, Zhedong",<br>title = "Domain-Agnostic Neural Oil Painting via Normalization Affine Test-Time Adaptation",<br>booktitle = "ACM Multimedia - BNI Track",<br>note = "Oral Presentation",<br>url = "https://zdzheng.xyz/files/2025/Qichao\_TTA.pdf",<br>code = "https://domain-agnostic-neural-oil-painting.github.io/DANP/",<br>funding = "FDCT/0043/2025/RIA1, 202401035, SRG2024-00002-FST",<br>year = "2025"
     }
 
 ---

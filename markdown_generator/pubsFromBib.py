@@ -43,6 +43,7 @@ def extract_keywords_bert(title, max_keywords=3):
 os.system('rm -r ../_publications/*')
 os.system('rm -r ../_authors/*')
 os.system('rm -r ../_tag/*')
+os.system('rm -r ../_funding/*')
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
@@ -228,7 +229,7 @@ for pubsource in publist:
                 if tag == ' ': continue
                 if tag[0] == ' ': tag = tag[1:]
                 tagname = tag.replace(' ','-')
-                if not os.path.isfile("_tag/" + tagname + ".md"):
+                if not os.path.isfile("../_tag/" + tagname + ".md"):
                     with open("../_tag/" + tagname + ".md", 'w') as f:
                         f.write("---\ntitle: \""   + tag.title()  + '"\n')
                         f.write("""layout: archive""")
@@ -241,6 +242,37 @@ for pubsource in publist:
         '  {{% include archive-single.html %}}\n'
         '{{% endfor %}}'.format(tag))
 
+            # --- Funding ---
+            # b["funding"] 形如: "NSFC-62306297, FDCT-0154/2022/A3"
+            funding_field = b.get("funding", "").strip()   # 用 .get 兜底，没写 funding 的论文不报错
+            funding_list = []                               # 收集本文的基金号，稍后写进 publication front matter
+
+            if funding_field:
+                for grant in funding_field.split(','):
+                    grant = grant.strip()
+                    if not grant:
+                        continue
+                    funding_list.append(grant)
+            # 基金号可能带 '/' 或空格(如 FDCT-0154/2022/A3)，做 slug 供文件名/permalink 用
+                    grant_slug = grant.replace('/', '-').replace(' ', '-')
+                    fpath = "../_funding/" + grant_slug + ".md"
+
+                    if not os.path.isfile(fpath):           # 去重：多篇论文共用同一基金，只建一次页
+                        with open(fpath, 'w') as f:
+                            f.write("---\n")
+                            f.write('title: "' + grant + '"\n')
+                            f.write("layout: archive\n")
+                            f.write("collection: funding\n")
+                            f.write("permalink: /funding/" + grant_slug + "\n")
+                            f.write("author_profile: false\n")
+                            f.write("---\n\n")
+                            f.write(
+                                '{% assign pubs_fund = site.publications | where_exp:"item", '
+                                '"item.funding contains \'' + grant + '\'" | sort: "date" | reverse %}\n'
+                                '{% for post in pubs_fund %}\n'
+                                '  {% include archive-single.html %}\n'
+                                '{% endfor %}'
+                    )
 
             for author in bibdata.entries[bib_id].persons["author"]:
                 #print(author)

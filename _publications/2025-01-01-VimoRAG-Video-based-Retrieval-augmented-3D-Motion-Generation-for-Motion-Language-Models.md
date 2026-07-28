@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Haidong Xu"}, {"@type": "Person","name":
 citation: ' Haidong Xu,  Guangwei Xu,  Zhedong Zheng,  Xiatian Zhu,  Wei Ji,  Xiangtai Li,  Ruijie Guo,  Meishan Zhang,  Min Zhang,  Hao Fei, &quot;VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion Language Models.&quot; NeurIPS, 2025.'
 pub_year: '2025'
 bib: >
-    @inproceedings{xu2025VimoRAG,<br>author = "Xu, Haidong and Xu, Guangwei and Zheng, Zhedong and Zhu, Xiatian and Ji, Wei and Li, Xiangtai and Guo, Ruijie and Zhang, Meishan and Zhang, Min and Fei, Hao",<br>title = "VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion Language Models",<br>booktitle = "NeurIPS",<br>url = "https://zdzheng.xyz/files/2025/Haidong\_VimoRAG.pdf",<br>code = "https://walkermitty.github.io/VimoRAG/",<br>year = "2025"
+    @inproceedings{xu2025VimoRAG,<br>author = "Xu, Haidong and Xu, Guangwei and Zheng, Zhedong and Zhu, Xiatian and Ji, Wei and Li, Xiangtai and Guo, Ruijie and Zhang, Meishan and Zhang, Min and Fei, Hao",<br>title = "VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion Language Models",<br>booktitle = "NeurIPS",<br>url = "https://zdzheng.xyz/files/2025/Haidong\_VimoRAG.pdf",<br>code = "https://walkermitty.github.io/VimoRAG/",<br>funding = "2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF",<br>year = "2025"
     }
 
 ---

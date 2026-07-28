@@ -15,7 +15,7 @@ sqlauthor: '{"@type": "Person","name": "Jintao Sun"}, {"@type": "Person","name":
 citation: ' Jintao Sun,  Hao Fei,  Gangyi Ding,  Zhedong Zheng, &quot;From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search.&quot; ACM Web Conference, 2025.'
 pub_year: '2025'
 bib: >
-    @inproceedings{sun2025data,<br>author = "Sun, Jintao and Fei, Hao and Ding, Gangyi and Zheng, Zhedong",<br>title = "From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search",<br>booktitle = "ACM Web Conference",<br>url = "https://zdzheng.xyz/files/2025/WWW25-WoRA.pdf",<br>code = "https://github.com/JT-Sun/Filtering-WoRA",<br>blog = "https://mp.weixin.qq.com/s/AGE5ZJyX6c5Y-PaKai-9OA",<br>year = "2025"
+    @inproceedings{sun2025data,<br>author = "Sun, Jintao and Fei, Hao and Ding, Gangyi and Zheng, Zhedong",<br>title = "From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search",<br>booktitle = "ACM Web Conference",<br>url = "https://zdzheng.xyz/files/2025/WWW25-WoRA.pdf",<br>code = "https://github.com/JT-Sun/Filtering-WoRA",<br>blog = "https://mp.weixin.qq.com/s/AGE5ZJyX6c5Y-PaKai-9OA",<br>funding = "SRG2024-00002-FST, MYRG-GRG2024-00077-FST-UMDF",<br>year = "2025"
     }
 
 ---

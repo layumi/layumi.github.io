@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Yuchen Zhang"}, {"@type": "Person","name
 citation: ' Yuchen Zhang,  Yaxiong Wang,  Kecheng Han,  Yujiao Wu,  Lianwei Wu,  Li Zhu,  Zhedong Zheng, &quot;Cultivating Forensic Reasoning for Generalizable Multimodal Manipulation Detection.&quot; ACL, 2026.'
 pub_year: '2026'
 bib: >
-    @inproceedings{zhang2026process,<br>author = "Zhang, Yuchen and Wang, Yaxiong and Han, Kecheng and Wu, Yujiao and Wu, Lianwei and Zhu, Li and Zheng, Zhedong",<br>title = "Cultivating Forensic Reasoning for Generalizable Multimodal Manipulation Detection",<br>booktitle = "ACL",<br>code = "https://github.com/YcZhangSing/REFORM",<br>url = "https://zdzheng.xyz/files/2026/ACL\_Yuchen.pdf",<br>year = "2026"
+    @inproceedings{zhang2026process,<br>author = "Zhang, Yuchen and Wang, Yaxiong and Han, Kecheng and Wu, Yujiao and Wu, Lianwei and Zhu, Li and Zheng, Zhedong",<br>title = "Cultivating Forensic Reasoning for Generalizable Multimodal Manipulation Detection",<br>booktitle = "ACL",<br>code = "https://github.com/YcZhangSing/REFORM",<br>url = "https://zdzheng.xyz/files/2026/ACL\_Yuchen.pdf",<br>funding = "202401035, MYRG-GRG2024-00077-FST-UMDF, 2025A1515012281",<br>year = "2026"
     }
 
 ---

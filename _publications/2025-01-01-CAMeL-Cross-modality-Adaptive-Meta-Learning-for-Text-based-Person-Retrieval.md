@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Hang Yu"}, {"@type": "Person","name": "J
 citation: ' Hang Yu,  Jiahao Wen,  Zhedong Zheng, &quot;CAMeL: Cross-modality Adaptive Meta-Learning for Text-based Person Retrieval.&quot; TIFS, 2025. DOI: 10.1109/TIFS.2025.3565392'
 pub_year: '2025'
 bib: >
-    @article{hang2025CAMeL,<br>author = "Yu, Hang and Wen, Jiahao and Zheng, Zhedong",<br>title = "CAMeL: Cross-modality Adaptive Meta-Learning for Text-based Person Retrieval",<br>journal = "TIFS",<br>url = "https://zdzheng.xyz/files/2025/Yu\_CAMeL.pdf",<br>code = "https://github.com/Jahawn-Wen/CAMeL-reID",<br>doi = "10.1109/TIFS.2025.3565392",<br>year = "2025"
+    @article{hang2025CAMeL,<br>author = "Yu, Hang and Wen, Jiahao and Zheng, Zhedong",<br>title = "CAMeL: Cross-modality Adaptive Meta-Learning for Text-based Person Retrieval",<br>journal = "TIFS",<br>url = "https://zdzheng.xyz/files/2025/Yu\_CAMeL.pdf",<br>code = "https://github.com/Jahawn-Wen/CAMeL-reID",<br>funding = "202401035, 2025A1515012281",<br>doi = "10.1109/TIFS.2025.3565392",<br>year = "2025"
     }
 
 ---

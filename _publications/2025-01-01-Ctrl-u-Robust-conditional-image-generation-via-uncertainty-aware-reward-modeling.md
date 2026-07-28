@@ -15,7 +15,7 @@ sqlauthor: '{"@type": "Person","name": "Guiyu Zhang"}, {"@type": "Person","name"
 citation: ' Guiyu Zhang,  Huan-ang Gao,  Zijian Jiang,  Hao Zhao,  Zhedong Zheng, &quot;Ctrl-u: Robust conditional image generation via uncertainty-aware reward modeling.&quot; ICLR, 2025.'
 pub_year: '2025'
 bib: >
-    @inproceedings{zhang2025ctrl,<br>author = "Zhang, Guiyu and Gao, Huan-ang and Jiang, Zijian and Zhao, Hao and Zheng, Zhedong",<br>title = "Ctrl-u: Robust conditional image generation via uncertainty-aware reward modeling",<br>booktitle = "ICLR",<br>code = "https://github.com/grenoble-zhang/Ctrl-U",<br>url = "https://zdzheng.xyz/files/2025/Guiyu\_CtrlU.pdf",<br>blog = "https://mp.weixin.qq.com/s/UkfSpQG5u-uxQDanhJZtxA",<br>year = "2025"
+    @inproceedings{zhang2025ctrl,<br>author = "Zhang, Guiyu and Gao, Huan-ang and Jiang, Zijian and Zhao, Hao and Zheng, Zhedong",<br>title = "Ctrl-u: Robust conditional image generation via uncertainty-aware reward modeling",<br>booktitle = "ICLR",<br>code = "https://github.com/grenoble-zhang/Ctrl-U",<br>url = "https://zdzheng.xyz/files/2025/Guiyu\_CtrlU.pdf",<br>blog = "https://mp.weixin.qq.com/s/UkfSpQG5u-uxQDanhJZtxA",<br>funding = "SRG2024-00002-FST, MYRG-GRG2024-00077-FST-UMDF",<br>year = "2025"
     }
 
 ---

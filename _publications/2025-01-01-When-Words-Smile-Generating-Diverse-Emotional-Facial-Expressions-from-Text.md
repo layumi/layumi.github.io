@@ -13,7 +13,7 @@ sqlauthor: '{"@type": "Person","name": "Haidong Xu"}, {"@type": "Person","name":
 citation: ' Haidong Xu,  Meishan Zhang,  Hao Ju,  Zhedong Zheng,  Erik Cambria,  Min Zhang,  Hao Fei, &quot;When Words Smile: Generating Diverse Emotional Facial Expressions from Text.&quot; Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025.'
 pub_year: '2025'
 bib: >
-    @inproceedings{xu2025words,<br>author = "Xu, Haidong and Zhang, Meishan and Ju, Hao and Zheng, Zhedong and Cambria, Erik and Zhang, Min and Fei, Hao",<br>title = "When Words Smile: Generating Diverse Emotional Facial Expressions from Text",<br>booktitle = "Conference on Empirical Methods in Natural Language Processing (EMNLP)",<br>pages = "27016--27034",<br>url = "https://zdzheng.xyz/files/2025/Haidong\_When.pdf",<br>year = "2025"
+    @inproceedings{xu2025words,<br>author = "Xu, Haidong and Zhang, Meishan and Ju, Hao and Zheng, Zhedong and Cambria, Erik and Zhang, Min and Fei, Hao",<br>title = "When Words Smile: Generating Diverse Emotional Facial Expressions from Text",<br>booktitle = "Conference on Empirical Methods in Natural Language Processing (EMNLP)",<br>pages = "27016--27034",<br>url = "https://zdzheng.xyz/files/2025/Haidong\_When.pdf",<br>funding = "2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF",<br>year = "2025"
     }
 
 ---

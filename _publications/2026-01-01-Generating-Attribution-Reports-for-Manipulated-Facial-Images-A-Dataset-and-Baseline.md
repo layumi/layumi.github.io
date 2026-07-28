@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Jingchun Lian"}, {"@type": "Person","nam
 citation: ' Jingchun Lian,  Lingyu Liu,  Yaxiong Wang,  Yujiao Wu,  Lianwei Wu,  Li Zhu,  Zhedong Zheng, &quot;Generating Attribution Reports for Manipulated Facial Images: A Dataset and Baseline.&quot; ACL, 2026.'
 pub_year: '2026'
 bib: >
-    @inproceedings{lian2026generating,<br>author = "Lian, Jingchun and Liu, Lingyu and Wang, Yaxiong and Wu, Yujiao and Wu, Lianwei and Zhu, Li and Zheng, Zhedong",<br>title = "Generating Attribution Reports for Manipulated Facial Images: A Dataset and Baseline",<br>booktitle = "ACL",<br>code = "https://github.com/NattyLianJc/Generating-Attribution-Reports",<br>url = "https://zdzheng.xyz/files/2026/ACL\_Lian.pdf",<br>year = "2026"
+    @inproceedings{lian2026generating,<br>author = "Lian, Jingchun and Liu, Lingyu and Wang, Yaxiong and Wu, Yujiao and Wu, Lianwei and Zhu, Li and Zheng, Zhedong",<br>title = "Generating Attribution Reports for Manipulated Facial Images: A Dataset and Baseline",<br>booktitle = "ACL",<br>code = "https://github.com/NattyLianJc/Generating-Attribution-Reports",<br>url = "https://zdzheng.xyz/files/2026/ACL\_Lian.pdf",<br>funding = "2025A1515012281, SBZ20250900116, FDCT/0043/2025/RIA1",<br>year = "2026"
     }
 
 ---

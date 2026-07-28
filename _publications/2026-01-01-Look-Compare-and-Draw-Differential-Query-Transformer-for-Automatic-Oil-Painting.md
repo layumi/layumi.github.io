@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Lingyu Liu"}, {"@type": "Person","name":
 citation: ' Lingyu Liu,  Yaxiong Wang,  Li Zhu,  Lizi Liao,  Zhedong Zheng, &quot;Look, Compare and Draw: Differential Query Transformer for Automatic Oil Painting.&quot; TVCG, 2026. DOI: 10.1109/TVCG.2026.3669142'
 pub_year: '2026'
 bib: >
-    @article{liu2026look,<br>author = "Liu, Lingyu and Wang, Yaxiong and Zhu, Li and Liao, Lizi and Zheng, Zhedong",<br>title = "Look, Compare and Draw: Differential Query Transformer for Automatic Oil Painting",<br>journal = "TVCG",<br>code = "https://differential-query-painter.github.io/DQ-painter/",<br>url = "https://zdzheng.xyz/files/2026/TVCG\_Stroke\_lingyu.pdf",<br>doi = "10.1109/TVCG.2026.3669142",<br>year = "2026"
+    @article{liu2026look,<br>author = "Liu, Lingyu and Wang, Yaxiong and Zhu, Li and Liao, Lizi and Zheng, Zhedong",<br>title = "Look, Compare and Draw: Differential Query Transformer for Automatic Oil Painting",<br>journal = "TVCG",<br>code = "https://differential-query-painter.github.io/DQ-painter/",<br>url = "https://zdzheng.xyz/files/2026/TVCG\_Stroke\_lingyu.pdf",<br>doi = "10.1109/TVCG.2026.3669142",<br>funding = "2025A1515012281, 202401035, FDCT/0043/2025/RIA1",<br>year = "2026"
     }
 
 ---

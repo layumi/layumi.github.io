@@ -15,7 +15,7 @@ sqlauthor: '{"@type": "Person","name": "Hao Ju"}, {"@type": "Person","name": "Sh
 citation: ' Hao Ju,  Shaofei Huang,  Si Liu,  Zhedong Zheng, &quot;Video2BEV: Transforming Drone Videos to BEVs for Video-based Geo-localization.&quot; ICCV, 2025.'
 pub_year: '2025'
 bib: >
-    @inproceedings{ju2024video2bev,<br>author = "Ju, Hao and Huang, Shaofei and Liu, Si and Zheng, Zhedong",<br>title = "Video2BEV: Transforming Drone Videos to BEVs for Video-based Geo-localization",<br>booktitle = "ICCV",<br>url = "https://zdzheng.xyz/files/2025/Juhao\_Video2BEV.pdf",<br>code = "https://github.com/HaoDot/Video2BEV-Open",<br>blog = "https://mp.weixin.qq.com/s/JttE911pNsUHzdkL3B3l5g",<br>year = "2025"
+    @inproceedings{ju2024video2bev,<br>author = "Ju, Hao and Huang, Shaofei and Liu, Si and Zheng, Zhedong",<br>title = "Video2BEV: Transforming Drone Videos to BEVs for Video-based Geo-localization",<br>booktitle = "ICCV",<br>url = "https://zdzheng.xyz/files/2025/Juhao\_Video2BEV.pdf",<br>code = "https://github.com/HaoDot/Video2BEV-Open",<br>blog = "https://mp.weixin.qq.com/s/JttE911pNsUHzdkL3B3l5g",<br>funding = "2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF",<br>year = "2025"
     }
 
 ---

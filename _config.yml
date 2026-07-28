@@ -197,6 +197,9 @@ collections:
   tag:
     output: true
     permalink: /:collection/:path/
+  funding:
+    output: true
+    permalink: /:collection/:path/
   rawblog:
     output: false
 

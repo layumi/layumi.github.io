@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Chao Wang"}, {"@type": "Person","name": 
 citation: ' Chao Wang,  Zhedong Zheng,  Ruijie Quan,  Yi Yang, &quot;Depth-aware blind image decomposition for real-world adverse weather recovery.&quot; European conference on computer vision (ECCV), 2024.'
 pub_year: '2024'
 bib: >
-    @inproceedings{DeBNet,<br>author = "Wang, Chao and Zheng, Zhedong and Quan, Ruijie and Yang, Yi",<br>title = "Depth-aware blind image decomposition for real-world adverse weather recovery",<br>booktitle = "European conference on computer vision (ECCV)",<br>code = "https://github.com/Oli-iver/Depth-BID",<br>url = "https://zdzheng.xyz/files/2024/ECCV24-DeBNet.pdf",<br>year = "2024"
+    @inproceedings{DeBNet,<br>author = "Wang, Chao and Zheng, Zhedong and Quan, Ruijie and Yang, Yi",<br>title = "Depth-aware blind image decomposition for real-world adverse weather recovery",<br>booktitle = "European conference on computer vision (ECCV)",<br>code = "https://github.com/Oli-iver/Depth-BID",<br>url = "https://zdzheng.xyz/files/2024/ECCV24-DeBNet.pdf",<br>funding = "SRG2024-00002-FST",<br>year = "2024"
     }
 
 ---

@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Ruiyang Zhang"}, {"@type": "Person","nam
 citation: ' Ruiyang Zhang,  Dongzhan Zhou,  Zhedong Zheng, &quot;SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models.&quot; ICLR, 2026.'
 pub_year: '2026'
 bib: >
-    @inproceedings{zhang2026sketchthinker,<br>author = "Zhang, Ruiyang and Zhou, Dongzhan and Zheng, Zhedong",<br>title = "SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models",<br>booktitle = "ICLR",<br>url = "https://zdzheng.xyz/files/2026/ICLR\_SketchThinker.pdf",<br>code = "https://github.com/Ruiyang-061X/SketchThinker-R1",<br>year = "2026"
+    @inproceedings{zhang2026sketchthinker,<br>author = "Zhang, Ruiyang and Zhou, Dongzhan and Zheng, Zhedong",<br>title = "SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models",<br>booktitle = "ICLR",<br>url = "https://zdzheng.xyz/files/2026/ICLR\_SketchThinker.pdf",<br>code = "https://github.com/Ruiyang-061X/SketchThinker-R1",<br>funding = "2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF",<br>year = "2026"
     }
 
 ---

@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Ruiyang Zhang"}, {"@type": "Person","nam
 citation: ' Ruiyang Zhang,  Hu Zhang,  Zhedong Zheng, &quot;Harnessing Uncertainty-aware Bounding Boxes for Unsupervised 3D Object Detection.&quot; ICCV, 2025.'
 pub_year: '2025'
 bib: >
-    @inproceedings{zhang2024harnessing,<br>author = "Zhang, Ruiyang and Zhang, Hu and Zheng, Zhedong",<br>title = "Harnessing Uncertainty-aware Bounding Boxes for Unsupervised 3D Object Detection",<br>booktitle = "ICCV",<br>code = "https://github.com/Ruiyang-061X/UA3D",<br>url = "https://zdzheng.xyz/files/2025/Ruiyang\_UA3D.pdf",<br>year = "2025"
+    @inproceedings{zhang2024harnessing,<br>author = "Zhang, Ruiyang and Zhang, Hu and Zheng, Zhedong",<br>title = "Harnessing Uncertainty-aware Bounding Boxes for Unsupervised 3D Object Detection",<br>booktitle = "ICCV",<br>code = "https://github.com/Ruiyang-061X/UA3D",<br>url = "https://zdzheng.xyz/files/2025/Ruiyang\_UA3D.pdf",<br>funding = "2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF",<br>year = "2025"
     }
 
 ---

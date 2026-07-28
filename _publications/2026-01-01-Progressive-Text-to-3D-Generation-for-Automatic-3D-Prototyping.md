@@ -15,7 +15,7 @@ sqlauthor: '{"@type": "Person","name": "Han Yi"}, {"@type": "Person","name": "Zh
 citation: ' Han Yi,  Zhedong Zheng,  Xiangyu Xu,  Tat-Seng Chua, &quot;Progressive Text-to-3D Generation for Automatic 3D Prototyping.&quot; ACM TOMM, 2026. DOI: 10.1145/3797262'
 pub_year: '2026'
 bib: >
-    @article{yi2026progressive,<br>author = "Yi, Han and Zheng, Zhedong and Xu, Xiangyu and Chua, Tat-Seng",<br>title = "Progressive Text-to-3D Generation for Automatic 3D Prototyping",<br>journal = "ACM TOMM",<br>video = "https://www.youtube.com/watch?v=LH6-wKg30FQ",<br>code = "https://github.com/Texaser/MTN",<br>url = "https://zdzheng.xyz/files/2026/TOMM\_YiHan.pdf",<br>doi = "10.1145/3797262",<br>year = "2026"
+    @article{yi2026progressive,<br>author = "Yi, Han and Zheng, Zhedong and Xu, Xiangyu and Chua, Tat-Seng",<br>title = "Progressive Text-to-3D Generation for Automatic 3D Prototyping",<br>journal = "ACM TOMM",<br>video = "https://www.youtube.com/watch?v=LH6-wKg30FQ",<br>code = "https://github.com/Texaser/MTN",<br>url = "https://zdzheng.xyz/files/2026/TOMM\_YiHan.pdf",<br>doi = "10.1145/3797262",<br>funding = "2025A1515012281, 202401035, FDCT/0043/2025/RIA1",<br>year = "2026"
     }
 
 ---

@@ -15,7 +15,7 @@ sqlauthor: '{"@type": "Person","name": "Ruiyang Zhang"}, {"@type": "Person","nam
 citation: ' Ruiyang Zhang,  Hu Zhang,  Hang Yu,  Zhedong Zheng, &quot;Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene.&quot; European conference on computer vision (ECCV), 2024.'
 pub_year: '2024'
 bib: >
-    @inproceedings{LiSe,<br>author = "Zhang, Ruiyang and Zhang, Hu and Yu, Hang and Zheng, Zhedong",<br>title = "Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene",<br>booktitle = "European conference on computer vision (ECCV)",<br>code = "https://github.com/Ruiyang-061X/LiSe",<br>url = "https://zdzheng.xyz/files/2024/ECCV24-Approach.pdf",<br>blog = "https://www.zhihu.com/question/660698707/answer/3575967153",<br>year = "2024"
+    @inproceedings{LiSe,<br>author = "Zhang, Ruiyang and Zhang, Hu and Yu, Hang and Zheng, Zhedong",<br>title = "Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene",<br>booktitle = "European conference on computer vision (ECCV)",<br>code = "https://github.com/Ruiyang-061X/LiSe",<br>url = "https://zdzheng.xyz/files/2024/ECCV24-Approach.pdf",<br>blog = "https://www.zhihu.com/question/660698707/answer/3575967153",<br>funding = "SRG2024-00002-FST",<br>year = "2024"
     }
 
 ---

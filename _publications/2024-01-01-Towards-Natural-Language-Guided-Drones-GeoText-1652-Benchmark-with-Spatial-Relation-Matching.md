@@ -15,7 +15,7 @@ sqlauthor: '{"@type": "Person","name": "Meng Chu"}, {"@type": "Person","name": "
 citation: ' Meng Chu,  Zhedong Zheng,  Wei Ji,  Tingyu Wang,  Tat-Seng Chua, &quot;Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching.&quot; European conference on computer vision (ECCV), 2024.'
 pub_year: '2024'
 bib: >
-    @inproceedings{GeoText1652,<br>author = "Chu, Meng and Zheng, Zhedong and Ji, Wei and Wang, Tingyu and Chua, Tat-Seng",<br>title = "Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching",<br>booktitle = "European conference on computer vision (ECCV)",<br>code = "https://multimodalgeo.github.io/GeoText/",<br>url = "https://zdzheng.xyz/files/2024/ECCV24-GeoText.pdf",<br>blog = "https://www.zhihu.com/question/660698707/answer/3575966275",<br>year = "2024"
+    @inproceedings{GeoText1652,<br>author = "Chu, Meng and Zheng, Zhedong and Ji, Wei and Wang, Tingyu and Chua, Tat-Seng",<br>title = "Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching",<br>booktitle = "European conference on computer vision (ECCV)",<br>code = "https://multimodalgeo.github.io/GeoText/",<br>url = "https://zdzheng.xyz/files/2024/ECCV24-GeoText.pdf",<br>blog = "https://www.zhihu.com/question/660698707/answer/3575966275",<br>funding = "SRG2024-00002-FST",<br>year = "2024"
     }
 
 ---

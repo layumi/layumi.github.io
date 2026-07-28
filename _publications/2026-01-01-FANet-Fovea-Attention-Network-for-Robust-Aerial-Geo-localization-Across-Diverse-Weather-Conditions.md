@@ -14,7 +14,7 @@ sqlauthor: '{"@type": "Person","name": "Jiahao Wen"}, {"@type": "Person","name":
 citation: ' Jiahao Wen,  Hang Yu,  Zhedong Zheng, &quot;FANet: Fovea Attention Network for Robust Aerial Geo-localization Across Diverse Weather Conditions.&quot; IEEE Transactions on Image Processing, 2026. DOI: 10.1109/TIP.2026.3690315'
 pub_year: '2026'
 bib: >
-    @article{wen2026fanet,<br>author = "Wen, Jiahao and Yu, Hang and Zheng, Zhedong",<br>title = "FANet: Fovea Attention Network for Robust Aerial Geo-localization Across Diverse Weather Conditions",<br>journal = "IEEE Transactions on Image Processing",<br>doi = "10.1109/TIP.2026.3690315",<br>url = "https://zdzheng.xyz/files/2026/TIP\_FANet.pdf",<br>code = "https://github.com/Jahawn-Wen/FANet",<br>year = "2026"
+    @article{wen2026fanet,<br>author = "Wen, Jiahao and Yu, Hang and Zheng, Zhedong",<br>title = "FANet: Fovea Attention Network for Robust Aerial Geo-localization Across Diverse Weather Conditions",<br>journal = "IEEE Transactions on Image Processing",<br>doi = "10.1109/TIP.2026.3690315",<br>url = "https://zdzheng.xyz/files/2026/TIP\_FANet.pdf",<br>code = "https://github.com/Jahawn-Wen/FANet",<br>funding = "SBZ20250900116, FDCT/0043/2025/RIA1",<br>year = "2026"
     }
 
 ---
