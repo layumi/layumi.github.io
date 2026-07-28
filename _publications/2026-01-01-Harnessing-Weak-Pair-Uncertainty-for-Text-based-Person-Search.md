@@ -5,8 +5,8 @@ permalink: /publication/Harnessi2026
 date: 2026-01-01
 doi: 10.1016/j.patcog.2026.113783
 oral: 
-keywords: person search, based person search, text based person, person re-id, person retrieval, person search, uncertainty learning
-funding:2025A1515012281, 202401035, FDCT/0043/2025/RIA1
+keywords:  person search, based person search, text based person, person re-id, person retrieval, person search, uncertainty learning
+funding: 2025A1515012281, 202401035, FDCT/0043/2025/RIA1
 venue: 'Pattern Recognition (PR)'
 paperurl: 'https://zdzheng.xyz/files/2026/PR_Jintao.pdf'
 code: 'https://github.com/JT-Sun/WPU-TBPS'

@@ -5,8 +5,8 @@ permalink: /publication/CLIP-SR-2025
 date: 2025-01-01
 doi: 10.1109/TMM.2025.3618555
 oral: 
-keywords: processing super resolution, super resolution, image processing super
-funding:
+keywords:  processing super resolution, super resolution, image processing super
+funding: 
 venue: 'IEEE Transactions on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/2025/Hu_ClipSR.pdf'
 code: 'https://github.com/Bingwen-Hu/CLIP-SR'

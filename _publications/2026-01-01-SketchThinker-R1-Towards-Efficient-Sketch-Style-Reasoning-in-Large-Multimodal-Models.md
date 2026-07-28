@@ -5,8 +5,8 @@ permalink: /publication/SketchTh2026
 date: 2026-01-01
 doi: 
 oral: 
-keywords: reasoning large multimodal, large multimodal models, sketch style reasoning
-funding:2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF
+keywords:  reasoning large multimodal, large multimodal models, sketch style reasoning
+funding: 2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF
 venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://zdzheng.xyz/files/2026/ICLR_SketchThinker.pdf'
 code: 'https://github.com/Ruiyang-061X/SketchThinker-R1'

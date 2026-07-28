@@ -337,9 +337,9 @@ for pubsource in publist:
             
             md += "\noral: " + oral
 
-            md += "\nkeywords:" + keywords
+            md += "\nkeywords: " + keywords
             
-            md += "\nfunding:" + funding_field
+            md += "\nfunding: " + funding_field
              
             md += "\nvenue: '" + normalize_venue(html_escape(venue)) + "'"
             

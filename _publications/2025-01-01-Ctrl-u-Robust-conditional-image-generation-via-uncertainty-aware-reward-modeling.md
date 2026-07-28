@@ -5,8 +5,8 @@ permalink: /publication/Ctrl-u-R2025
 date: 2025-01-01
 doi: 
 oral: 
-keywords: image generation uncertainty, uncertainty aware reward, conditional image generation, uncertainty learning, aigc
-funding:SRG2024-00002-FST, MYRG-GRG2024-00077-FST-UMDF
+keywords:  image generation uncertainty, uncertainty aware reward, conditional image generation, uncertainty learning, aigc
+funding: SRG2024-00002-FST, MYRG-GRG2024-00077-FST-UMDF
 venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://zdzheng.xyz/files/2025/Guiyu_CtrlU.pdf'
 blog: 'https://mp.weixin.qq.com/s/UkfSpQG5u-uxQDanhJZtxA'

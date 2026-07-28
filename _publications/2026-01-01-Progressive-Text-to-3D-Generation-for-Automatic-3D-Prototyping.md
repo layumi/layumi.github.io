@@ -5,8 +5,8 @@ permalink: /publication/Progress2026
 date: 2026-01-01
 doi: 10.1145/3797262
 oral: 
-keywords: text 3d generation, automatic 3d prototyping, 3d prototyping, aigc
-funding:2025A1515012281, 202401035, FDCT/0043/2025/RIA1
+keywords:  text 3d generation, automatic 3d prototyping, 3d prototyping, aigc
+funding: 2025A1515012281, 202401035, FDCT/0043/2025/RIA1
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
 paperurl: 'https://zdzheng.xyz/files/2026/TOMM_YiHan.pdf'
 video: 'https://www.youtube.com/watch?v=LH6-wKg30FQ'

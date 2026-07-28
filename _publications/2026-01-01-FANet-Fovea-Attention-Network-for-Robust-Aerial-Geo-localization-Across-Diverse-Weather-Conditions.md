@@ -5,8 +5,8 @@ permalink: /publication/FANet-Fo2026
 date: 2026-01-01
 doi: 10.1109/TIP.2026.3690315
 oral: 
-keywords: localization diverse weather, aerial geo localization, robust aerial geo, visual geo-localization, spatial intelligence
-funding:SBZ20250900116, FDCT/0043/2025/RIA1
+keywords:  localization diverse weather, aerial geo localization, robust aerial geo, visual geo-localization, spatial intelligence
+funding: SBZ20250900116, FDCT/0043/2025/RIA1
 venue: 'IEEE Transactions on Image Processing (TIP)'
 paperurl: 'https://zdzheng.xyz/files/2026/TIP_FANet.pdf'
 code: 'https://github.com/Jahawn-Wen/FANet'

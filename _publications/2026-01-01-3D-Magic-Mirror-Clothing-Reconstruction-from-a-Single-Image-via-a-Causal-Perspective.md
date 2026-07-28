@@ -5,8 +5,8 @@ permalink: /publication/3D-Magic2026
 date: 2026-01-01
 doi: 10.1038/s44387-026-00082-6
 oral: 
-keywords: mirror clothing reconstruction, magic mirror clothing, mirror clothing, aigc
-funding:FDCT/0043/2025/RIA1, 202401035, 2025A1515012281
+keywords:  mirror clothing reconstruction, magic mirror clothing, mirror clothing, aigc
+funding: FDCT/0043/2025/RIA1, 202401035, 2025A1515012281
 venue: 'npj Artificial Intelligence'
 paperurl: 'https://zdzheng.xyz/files/2026/3D_Recon.pdf'
 code: 'https://github.com/layumi/3D-Magic-Mirror'

@@ -6,8 +6,8 @@ excerpt: 'Oral Presentation'
 date: 2019-01-01
 doi: 
 oral: Oral Presentation
-keywords: learning person identification, joint discriminative generative, person identification, object re-identification, content-based retrieval, person re-id, person retrieval, person search
-funding:
+keywords:  learning person identification, joint discriminative generative, person identification, object re-identification, content-based retrieval, person re-id, person retrieval, person search
+funding: 
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://zdzheng.xyz/files/2019/CVPR19.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/66408913'

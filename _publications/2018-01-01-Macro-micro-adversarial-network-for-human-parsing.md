@@ -5,8 +5,8 @@ permalink: /publication/Macro-mi2018
 date: 2018-01-01
 doi: 10.1007/978-3-030-01240-3_26
 oral: 
-keywords: network human parsing, macro micro adversarial, human parsing, person re-id, person retrieval, person search
-funding:
+keywords:  network human parsing, macro micro adversarial, human parsing, person re-id, person retrieval, person search
+funding: 
 venue: 'European Conference on Computer Vision (ECCV)'
 paperurl: 'https://zdzheng.xyz/files/2018/ECCV18.pdf'
 code: 'https://github.com/RoyalVane/MMAN'

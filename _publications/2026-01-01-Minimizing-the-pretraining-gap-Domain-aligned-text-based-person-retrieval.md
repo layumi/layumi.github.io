@@ -5,8 +5,8 @@ permalink: /publication/Minimizi2026
 date: 2026-01-01
 doi: 10.1016/j.patcog.2026.113511
 oral: 
-keywords: based person retrieval, person retrieval, text based person, object re-identification, content-based retrieval, person re-id, person retrieval, person search, domain adaptation
-funding:2025A1515012281, MYRG-GRG2024-00077-FST-UMDF, University of Macau Advanced Research Institute in Hengqin, FDCT/0043/2025/RIA1
+keywords:  based person retrieval, person retrieval, text based person, object re-identification, content-based retrieval, person re-id, person retrieval, person search, domain adaptation
+funding: 2025A1515012281, MYRG-GRG2024-00077-FST-UMDF, University of Macau Advanced Research Institute in Hengqin, FDCT/0043/2025/RIA1
 venue: 'Pattern Recognition (PR)'
 paperurl: 'https://zdzheng.xyz/files/2026/PR_SDA_Yang.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/2052778421856506671'

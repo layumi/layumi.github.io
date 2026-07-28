@@ -5,8 +5,8 @@ permalink: /publication/TIGeR-Te2026
 date: 2026-01-01
 doi: 
 oral: 
-keywords: text instructed generation, object interaction, hand object interaction, aigc
-funding:
+keywords:  text instructed generation, object interaction, hand object interaction, aigc
+funding: 
 venue: 'IEEE International Conference on Robotics and Automation (ICRA)'
 paperurl: 'https://zdzheng.xyz/files/2026/Huang_Tiger.pdf'
 code: 'https://github.com/huangyiyNUS/TIGeR/'

@@ -5,8 +5,8 @@ permalink: /publication/Unsuperv2020
 date: 2020-01-01
 doi: 10.5555/3491440.3491590
 oral: 
-keywords: scene adaptation memory, unsupervised scene adaptation, adaptation memory regularization, domain adaptation
-funding:
+keywords:  scene adaptation memory, unsupervised scene adaptation, adaptation memory regularization, domain adaptation
+funding: 
 venue: 'International Joint Conference on Artificial Intelligence (IJCAI)'
 paperurl: 'https://zdzheng.xyz/files/2020/ijcai20.pdf'
 code: 'https://github.com/layumi/Seg_Uncertainty'

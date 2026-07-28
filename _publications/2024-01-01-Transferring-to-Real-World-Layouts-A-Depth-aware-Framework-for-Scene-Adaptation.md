@@ -6,8 +6,8 @@ excerpt: 'Oral Presentation'
 date: 2024-01-01
 doi: 
 oral: Oral Presentation
-keywords: framework scene adaptation, depth aware framework, scene adaptation, domain adaptation
-funding:SRG2024-00002-FST
+keywords:  framework scene adaptation, depth aware framework, scene adaptation, domain adaptation
+funding: SRG2024-00002-FST
 venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/2024/ACMMM24-Layout.pdf'
 code: 'https://github.com/chen742/DCF'

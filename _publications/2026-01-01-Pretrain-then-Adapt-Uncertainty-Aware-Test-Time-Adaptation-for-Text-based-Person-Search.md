@@ -5,8 +5,8 @@ permalink: /publication/Pretrain2026
 date: 2026-01-01
 doi: 3805712.3809598
 oral: 
-keywords: based person search, person search, text based person, person re-id, person retrieval, person search, domain adaptation, uncertainty learning
-funding:2025A1515012281, SBZ20250900116, MYRG-GRG2024-00077-FST-UMDF, FDCT/0043/2025/RIA1
+keywords:  based person search, person search, text based person, person re-id, person retrieval, person search, domain adaptation, uncertainty learning
+funding: 2025A1515012281, SBZ20250900116, MYRG-GRG2024-00077-FST-UMDF, FDCT/0043/2025/RIA1
 venue: 'ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR)'
 paperurl: 'https://zdzheng.xyz/files/2026/SIGIR_Jiahao.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/2034741247034778727'

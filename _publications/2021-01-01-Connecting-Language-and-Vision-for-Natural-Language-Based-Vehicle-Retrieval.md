@@ -5,8 +5,8 @@ permalink: /publication/Connecti2021
 date: 2021-01-01
 doi: 
 oral: 
-keywords: based vehicle retrieval, vehicle retrieval, language based vehicle, object re-identification, content-based retrieval
-funding:
+keywords:  based vehicle retrieval, vehicle retrieval, language based vehicle, object re-identification, content-based retrieval
+funding: 
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshop of AI City Challenge on Natural Language-Based Vehicle Retrieval (the 1st Place of Track 5)'
 paperurl: 'https://zdzheng.xyz/files/2021/CVPRW2021_NLP_AICity.pdf'
 code: 'https://github.com/ShuaiBai623/AIC2021-T5-CLV'

@@ -5,8 +5,8 @@ permalink: /publication/Paramete2022
 date: 2022-01-01
 doi: 10.1109/TNNLS.2022.3214834
 oral: 
-keywords: efficient person identification, person identification 3d, person identification, object re-identification, content-based retrieval, person re-id, person retrieval, person search
-funding:
+keywords:  efficient person identification, person identification 3d, person identification, object re-identification, content-based retrieval, person re-id, person retrieval, person search
+funding: 
 venue: 'IEEE Transactions on Neural Networks and Learning Systems (TNNLS)'
 paperurl: 'https://zdzheng.xyz/files/2022/TNNLS_3D_PersonReID.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/149121098'

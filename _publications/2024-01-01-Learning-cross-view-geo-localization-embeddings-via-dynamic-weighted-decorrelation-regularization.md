@@ -5,8 +5,8 @@ permalink: /publication/Learning2024
 date: 2024-01-01
 doi: 10.1109/TGRS.2024.3491757
 oral: 
-keywords: geo localization embeddings, learning cross view, localization embeddings dynamic, visual geo-localization, spatial intelligence
-funding:
+keywords:  geo localization embeddings, learning cross view, localization embeddings dynamic, visual geo-localization, spatial intelligence
+funding: 
 venue: 'IEEE Transactions on Geoscience and Remote Sensing (TGRS)'
 paperurl: 'https://zdzheng.xyz/files/2024/TGRS-DWDR.pdf'
 code: 'https://github.com/wtyhub/DWDR'

@@ -5,8 +5,8 @@ permalink: /publication/VimoRAG-2025
 date: 2025-01-01
 doi: 
 oral: 
-keywords: motion language models, generation motion language, motion language, object re-identification, content-based retrieval, aigc
-funding:2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF
+keywords:  motion language models, generation motion language, motion language, object re-identification, content-based retrieval, aigc
+funding: 2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF
 venue: 'NeurIPS'
 paperurl: 'https://zdzheng.xyz/files/2025/Haidong_VimoRAG.pdf'
 code: 'https://walkermitty.github.io/VimoRAG/'

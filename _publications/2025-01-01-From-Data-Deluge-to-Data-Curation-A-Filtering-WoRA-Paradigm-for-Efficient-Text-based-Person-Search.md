@@ -5,8 +5,8 @@ permalink: /publication/From-Dat2025
 date: 2025-01-01
 doi: 
 oral: 
-keywords: based person search, person search, text based person, person re-id, person retrieval, person search
-funding:SRG2024-00002-FST, MYRG-GRG2024-00077-FST-UMDF
+keywords:  based person search, person search, text based person, person re-id, person retrieval, person search
+funding: SRG2024-00002-FST, MYRG-GRG2024-00077-FST-UMDF
 venue: 'ACM Web Conference (ACM WWW)'
 paperurl: 'https://zdzheng.xyz/files/2025/WWW25-WoRA.pdf'
 blog: 'https://mp.weixin.qq.com/s/AGE5ZJyX6c5Y-PaKai-9OA'

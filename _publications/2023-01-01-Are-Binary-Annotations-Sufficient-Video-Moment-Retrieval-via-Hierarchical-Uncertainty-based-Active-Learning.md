@@ -5,8 +5,8 @@ permalink: /publication/Are-Bina2023
 date: 2023-01-01
 doi: 
 oral: 
-keywords: active learning, based active learning, annotations sufficient video, object re-identification, content-based retrieval, uncertainty learning
-funding:
+keywords:  active learning, based active learning, annotations sufficient video, object re-identification, content-based retrieval, uncertainty learning
+funding: 
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://zdzheng.xyz/files/2023/CVPR23-Ji.pdf'
 code: 'https://github.com/renjie-liang/HUAL'

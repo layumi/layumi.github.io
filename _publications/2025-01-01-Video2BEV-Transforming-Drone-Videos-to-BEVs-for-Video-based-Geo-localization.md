@@ -5,8 +5,8 @@ permalink: /publication/Video2BE2025
 date: 2025-01-01
 doi: 
 oral: 
-keywords: video2bev transforming drone, transforming drone videos, drone videos bevs, visual geo-localization, spatial intelligence
-funding:2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF
+keywords:  video2bev transforming drone, transforming drone videos, drone videos bevs, visual geo-localization, spatial intelligence
+funding: 2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF
 venue: 'IEEE/CVF International Conference on Computer Vision (ICCV)'
 paperurl: 'https://zdzheng.xyz/files/2025/Juhao_Video2BEV.pdf'
 blog: 'https://mp.weixin.qq.com/s/JttE911pNsUHzdkL3B3l5g'
