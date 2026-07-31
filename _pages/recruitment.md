@@ -15,7 +15,7 @@ author_profile: true
 
 ### 1. 多名博士生加盟其课题组
 
-1.1 背景要求：GPA 大于 3.4（背景优秀者可适当放宽）；计算机科学/软件工程背景；有 Tsinghua-A 论文发表者优先；默认会使用 python 和 pytorch 等写代码。
+1.1 背景要求：GPA 大于 3.4（背景优秀者可适当放宽）；计算机科学/软件工程背景，本科进过实验室；有 Tsinghua-A 论文发表者优先；默认会使用 python 和 pytorch 等写代码。
 
 1.2 提供全额奖学金（每月1.25 - 1.4W 澳门币, 特别优秀的学生为2W 澳门币），详情见 https://grs.um.edu.mo/index.php/um-phd-scholarship/ 。
 
