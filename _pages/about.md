@@ -114,6 +114,7 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
+	<li><strong>PI</strong>, FDCT/0209/2025/AMJ, 2026–2029, MOP 1.66M</li>
 	<li> <strong>ACM MM 2026:</strong> 2 papers - 
 	<a href="https://www.zdzheng.xyz/publication/Scale-ad2026">Dynamic Aerial Matching</a>, 
 	<a href="https://www.zdzheng.xyz/publication/Acoustic2026">Audio-Visual Seg.</a>
@@ -140,7 +141,7 @@ Open-source projects can be found at my <a href='https://github.com/layumi'>[Git
          <a href="https://www.zdzheng.xyz/publication/WeatherP2025"> WeatherPrompt</a>, 
          <a href="https://www.zdzheng.xyz/publication/VimoRAG-2025"> Motion Generation</a>
        </li>
-     <li><strong>PI</strong>, FDCT/0043/2025/RIA1, “Robust Long-Tail Anomaly Recognition via Multi-Modality Learning”, 2025–2028, MOP 2.13M</li>
+     <li><strong>PI</strong>, FDCT/0043/2025/RIA1, 2025–2028, MOP 2.13M</li>
      <li><strong>ACM MM 2025:</strong> 2 papers — 
        <a href="https://www.zdzheng.xyz/publication/UniAD-In2025"> Anomaly Detection</a>, 
        <a href="https://www.zdzheng.xyz/publication/Domain-A2025"> Neural Painting - BNI Track <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a>
