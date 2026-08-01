@@ -3,35 +3,54 @@
    ========================================================================== */
 
 table {
-  margin-bottom: 0.1em;
+  margin-bottom: 1em;
   width: 100%;
   font-family: $global-font-family;
+  font-size: $type-size-6;
   border-collapse: collapse;
-  border: 0px solid $light-gray;
+  border: 1px solid $light-gray;
 
   & + table {
-    margin-top: 0.1em;
+    margin-top: 1em;
   }
 }
 
 thead {
   background-color: $lighter-gray;
-  border-bottom: 1px solid $light-gray;
+  border-bottom: 2px solid $light-gray;
 }
 
 th {
-  padding: 0.01em;
+  padding: 0.4em 0.6em;
   font-weight: bold;
   text-align: left;
-  border-right: 0px solid $light-gray;
+  border: 1px solid $light-gray;
 }
 
 td {
-  padding: 0.01em;
-  border-bottom: 0px solid $light-gray;
-  border-right: 0px solid $light-gray;
+  padding: 0.35em 0.6em;
+  border: 1px solid $light-gray;
 }
 
 tr, td, th {
   vertical-align: middle;
+}
+
+/* 斑马纹，长排行榜很有用；不想要就删掉 */
+tbody tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.025);
+}
+
+/* 窄屏时横向滚动而不是把表压扁 */
+.page__content {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+
+    @include breakpoint($medium) {
+      display: table;
+      white-space: normal;
+    }
+  }
 }

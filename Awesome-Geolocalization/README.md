@@ -6,11 +6,6 @@ permalink: /Awesome-Geo-localization
 author_profile: false
 classes: wide
 ---
-<style>
-table, th, td {
-  border: 1px solid black;
-}
-</style>
 # Awesome Geo-localization
 
  - [University-1652 Dataset](#university-1652-dataset) : a dataset containing 1652 locations of global universities, with images captured from ground, drone, and satellite perspectives. `ACM MM 2020`

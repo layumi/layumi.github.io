@@ -6,11 +6,6 @@ permalink: /Awesome-reID
 author_profile: false
 classes: wide
 ---
-<style>
-table, th, td {
-  border: 1px solid black;
-}
-</style>
 # LeaderBoard
 
 If you notice any result or the public code that has not been included in this table, please connect [Zhedong Zheng](mailto:zdzheng12@gmail.com) without hesitation to add the method. You are welcomed! 
