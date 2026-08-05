@@ -22,9 +22,9 @@ redirect_from:
 - [Hao Ju](https://haodot.github.io/): DLUT (B.S., M.S.) UM (Pursuing Ph.D)
 - [Jiahao Zhang](https://www.zdzheng.xyz/authors/Jiahao-Zhang): Nankai University (B.Eng.) CityU (M.S.) UM (Pursuing Ph.D)
 - [Feihong Shen](https://vsfh.github.io/): JLU (B.S.) UM (Pursuing Ph.D)
-- Zheju Lin: HITSZ (B.Eng.) UM (Pursuing Ph.D)
+- Zeju Lin: HITSZ (B.Eng.) UM (Pursuing Ph.D)
 - Chen Xu: Nankai University (B.Eng.) UM (Pursuing Ph.D)
-- Mengieong Hoi: UMacau (B.Eng.) UM (Pursuing Ph.D)
+- Mengieong Hoi: UMacau (B.S.) UM (Pursuing Ph.D)
 
 ## RA
 
