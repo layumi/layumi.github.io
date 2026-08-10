@@ -74,16 +74,14 @@ redirect_from:
 <meta name="keywords" content="Zhedong Zheng, 郑哲东, University of Macau, AIGC, Spatial Intelligence, Data-Centric AI, Object Re-identification, Person Re-ID, Vehicle Re-ID, Geo-localization, Domain Adaptation, Computer Vision, Deep Learning, Generative AI, 3D Vision, PhD positions Macau, Postdoc positions, Computer Vision Professor">
 		   
 
-Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](https://www.fic.um.edu.mo/people/zhedongzheng/), hosting the [AIGC-DL Lab](https://www.fic.um.edu.mo/research/laboratories/ai-generated-content-aigc-and-data-centric-learning-laboratory/).
-
-Previously Postdoc at [NUS](https://www.comp.nus.edu.sg/) (with Prof. Tat-Seng Chua & Prof. Angela Yao) · Ph.D. from [UTS ReLER Lab](https://reler.net/) (Prof. Yi Yang) · B.S. from [Fudan University](https://www.fudan.edu.cn).
+Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](https://www.fic.um.edu.mo/people/zhedongzheng/), hosting the [AIGC-DL Lab](https://www.fic.um.edu.mo/research/laboratories/ai-generated-content-aigc-and-data-centric-learning-laboratory/). Previously a postdoctoral research fellow at [NUS](https://www.comp.nus.edu.sg/) with [Prof. Tat-Seng Chua](https://www.chuatatseng.com) and [Prof. Angela Yao](https://www.comp.nus.edu.sg/~ayao/). I received my Ph.D. from the [ReLER Lab](https://reler.net/), [University of Technology Sydney](https://www.uts.edu.au/) (supervised by [Prof. Yi Yang](https://scholar.google.com/citations?user=RMSuNFwAAAAJ) and [Dr. Liang Zheng](https://zheng-lab.cecs.anu.edu.au/)), and my Bachelor’s degree from [Fudan University](https://www.fudan.edu.cn) (2016). I have collaborated with researchers from Nvidia and Baidu, and published **80+ papers** at top-tier venues <a href='https://scholar.google.com/citations?user=XT17oUEAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Flayumi%2Flayumi.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="googlescholar"></a>.
 
 ---
 
 <div style="display:flex; gap:20px; flex-wrap:wrap; margin: 24px 0 28px 0;">
 
   <div style="flex:1; min-width:200px; background:#f8f9fa; border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
-    <div style="font-size:13px; color:#666; margin-bottom:6px;">Google Scholar Ranking</div>
+    <div style="font-size:13px; color:#666; margin-bottom:6px;">Google Scholar Search Ranking</div>
     <div style="font-size:21px; font-weight:700; line-height:1.35;">
       <span style="color:#dc2626;">#2</span> Object Re-ID<br>
       <span style="color:#d97706;">#3</span> Uncertainty<br>
@@ -94,7 +92,7 @@ Previously Postdoc at [NUS](https://www.comp.nus.edu.sg/) (with Prof. Tat-Seng C
   <div style="flex:1; min-width:200px; background:#f8f9fa; border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
     <div style="font-size:13px; color:#666; margin-bottom:6px;">Open Source Impact</div>
     <div style="font-size:28px; font-weight:700; color:#111;">
-      > 9.2k
+      > 9k
     </div>
     <div style="font-size:14px; color:#555; margin-top:4px;">GitHub Stars</div>
   </div>
