@@ -109,7 +109,9 @@ Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](htt
 
 ---
 
-**Focus:** Building reliable AI through better data, uncertainty estimation, and multi-view spatial intelligence.
+<div style="border-left: 3px solid #d97706; padding: 12px 0 12px 18px; margin: 22px 0 8px 0;">
+  <strong>Focus:</strong> Building reliable AI through <strong>better data</strong>, <strong>uncertainty estimation</strong>, and <strong>multi-view spatial intelligence</strong>.
+</div>
 
 Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publications → [Google Scholar](https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ) &nbsp;·&nbsp; **[Full CV]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf)**
 
