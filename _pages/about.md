@@ -4,6 +4,7 @@ title: "Zhedong Zheng (郑哲东)"
 seo_title: "Zhedong Zheng | Assistant Professor, University of Macau | Computer Vision, AIGC, Spatial Intelligence"
 excerpt: "Assistant Professor at the University of Macau. Research interests include Computer Vision, Spatial Intelligence, AIGC, Geo-localization, Person Re-identification and Data-centric AI."
 author_profile: true
+classes: wide
 redirect_from: 
   - /about/
 ---
@@ -76,8 +77,6 @@ redirect_from:
 
 Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](https://www.fic.um.edu.mo/people/zhedongzheng/), hosting the [AIGC-DL Lab](https://www.fic.um.edu.mo/research/laboratories/ai-generated-content-aigc-and-data-centric-learning-laboratory/). Previously a postdoctoral research fellow at [NUS](https://www.comp.nus.edu.sg/) with [Prof. Tat-Seng Chua](https://www.chuatatseng.com) and [Prof. Angela Yao](https://www.comp.nus.edu.sg/~ayao/). I received my Ph.D. from the [ReLER Lab](https://reler.net/), [University of Technology Sydney](https://www.uts.edu.au/) (supervised by [Prof. Yi Yang](https://scholar.google.com/citations?user=RMSuNFwAAAAJ) and [Dr. Liang Zheng](https://zheng-lab.cecs.anu.edu.au/)), and my Bachelor’s degree from [Fudan University](https://www.fudan.edu.cn) (2016). I have collaborated with researchers from Nvidia and Baidu, and published **80+ papers** at top-tier venues <a href='https://scholar.google.com/citations?user=XT17oUEAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Flayumi%2Flayumi.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="googlescholar"></a>.
 
----
-
 <div style="display:flex; gap:20px; flex-wrap:wrap; margin: 24px 0 28px 0;">
 
   <div style="flex:1; min-width:200px; background:#f8f9fa; border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
@@ -92,7 +91,7 @@ Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](htt
   <div style="flex:1; min-width:200px; background:#f8f9fa; border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
     <div style="font-size:13px; color:#666; margin-bottom:6px;">Open Source Impact</div>
     <div style="font-size:28px; font-weight:700; color:#111;">
-      > 9k
+      > 9.2k
     </div>
     <div style="font-size:14px; color:#555; margin-top:4px;">GitHub Stars</div>
   </div>
@@ -101,12 +100,14 @@ Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](htt
     <div style="font-size:13px; color:#666; margin-bottom:6px;">Academic Output</div>
     <div style="font-size:22px; font-weight:700; line-height:1.35;">
       80+ papers<br>
-      H-index <span style="color:#059669;">40</span><br>
+      H-index <span style="color:#059669;">41</span><br>
       14k+ citations
     </div>
   </div>
 
 </div>
+
+---
 
 **Focus:** Building reliable AI through better data, uncertainty estimation, and multi-view spatial intelligence.
 
