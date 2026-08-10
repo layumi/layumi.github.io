@@ -83,7 +83,7 @@ Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](htt
     <div style="font-size:13px; color:#666; margin-bottom:6px;">Google Scholar Search Ranking</div>
     <div style="font-size:21px; font-weight:700; line-height:1.35;">
       <span style="color:#dc2626;">#2</span> Object Re-ID<br>
-      <span style="color:#d97706;">#3</span> Uncertainty<br>
+      <span style="color:#d97706;">#3</span> Uncertainty Estimation<br>
       <span style="color:#2563eb;">#6</span> Data-Centric AI
     </div>
   </div>
@@ -107,9 +107,8 @@ Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](htt
 
 </div>
 
----
 
-<div style="border-left: 3px solid #d97706; padding: 12px 0 12px 18px; margin: 22px 0 8px 0;">
+<div style="border-left: 3px solid #d97706; padding: 12px 0 12px 18px; margin: 32px 0 8px 0;">
   <strong>Focus:</strong> Building reliable AI through <strong>better data</strong>, <strong>uncertainty estimation</strong>, and <strong>multi-view spatial intelligence</strong>.
 </div>
 
