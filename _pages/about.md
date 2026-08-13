@@ -99,9 +99,9 @@ Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](htt
   <div style="flex:1; min-width:200px; background:#f8f9fa; border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
     <div style="font-size:13px; color:#666; margin-bottom:6px;">Academic Output</div>
     <div style="font-size:22px; font-weight:700; line-height:1.35;">
-      80+ papers<br>
+      <span style="color:#059669;">80+</span> papers<br>
       H-index <span style="color:#059669;">41</span><br>
-      14k+ citations
+      <span style="color:#059669;">14k+</span> citations
     </div>
   </div>
 
