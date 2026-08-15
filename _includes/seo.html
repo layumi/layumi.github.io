@@ -1,28 +1,22 @@
 {% include base_path %}
-
 <!-- begin SEO -->
 {% if site.url %}
   {% assign seo_url = site.url | append: site.baseurl %}
 {% endif %}
 {% assign seo_url = seo_url | default: site.github.url %}
-
 {% if page.seo_title %}
   {% assign seo_title = page.seo_title %}
 {% elsif page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% endif %}
-
 {% if site.url %}
   {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
 {% endif %}
-
 <title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
-
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
 {% endif %}
-
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
 {% if seo_author %}
   {% if seo_author.twitter %}
@@ -37,46 +31,57 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
+<!-- === ADDED: meta description (was missing from head) === -->
+{% if seo_description %}
+  <meta name="description" content="{{ seo_description }}">
+{% endif %}
+
 <meta property="og:locale" content="{{ site.locale | default: "en" }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:image" content="https://zdzheng.xyz/resource-img/lab-logo-trans.png">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+
+<!-- === ADDED: og:description (was missing) === -->
+{% if seo_description %}
+  <meta property="og:description" content="{{ seo_description }}">
+{% endif %}
+
+<!-- === ADDED: og:type for non-article pages (was missing) === -->
+{% if page.date %}
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+{% else %}
+  <meta property="og:type" content="website">
+{% endif %}
+
 {% if page.paperurl %}
     <meta property="og:paperurl" content="{{ page.paperurl}}">
 {% endif %}
-
 {% if page.abs %}
     <meta property="og:content" content="{{ page.abs}}">
 {% endif %}
-
 {% if page.code %}
     <meta property="og:code" content="{{ page.code}}">
 {% endif %}
-
-
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
-{% if site.twitter.username %}
-  <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
+<!-- === ADDED: Twitter Card (was entirely missing when no twitter username set) === -->
+{% if seo_description %}
+  <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
   <meta name="twitter:description" content="{{ seo_description }}">
-  <meta name="twitter:url" content="{{ canonical_url }}">
-
-  {% if page.header.image %}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
-  {% else %}
-    <meta name="twitter:card" content="summary">
-    {% if site.og_image %}
-      <meta name="twitter:image" content="{{ site.og_image | prepend: "/images/" | prepend: base_path }}">
-    {% endif %}
+  <meta name="twitter:image" content="https://zdzheng.xyz/resource-img/lab-logo-trans.png">
+  {% if site.twitter.username %}
+    <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
   {% endif %}
-
   {% if seo_author_twitter %}
     <meta name="twitter:creator" content="@{{ seo_author_twitter }}">
+  {% endif %}
+  {% if seo_url %}
+    <meta name="twitter:url" content="{{ canonical_url }}">
   {% endif %}
 {% endif %}
 
@@ -84,30 +89,21 @@
   {% if site.facebook.publisher %}
     <meta property="article:publisher" content="{{ site.facebook.publisher }}">
   {% endif %}
-
   {% if site.facebook.app_id %}
     <meta property="fb:app_id" content="{{ site.facebook.app_id }}">
   {% endif %}
 {% endif %}
-
 {% if page.header.image %}
   <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% elsif page.header.overlay_image %}
   <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% endif %}
-
-{% if page.date %}
-  <meta property="og:type" content="article">
-  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-{% endif %}
-
 {% if paginator.previous_page %}
   <link rel="prev" href="{{ paginator.previous_page_path | prepend: seo_url }}">
 {% endif %}
 {% if paginator.next_page %}
   <link rel="next" href="{{ paginator.next_page_path | prepend: seo_url }}">
 {% endif %}
-
 {% if site.og_image %}
   <script type="application/ld+json">
     {
@@ -118,7 +114,6 @@
     }
   </script>
 {% endif %}
-
 {% if site.social %}
   <script type="application/ld+json">
     {
@@ -130,7 +125,6 @@
     }
   </script>
 {% endif %}
-
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
 {% endif %}
@@ -143,4 +137,8 @@
 {% if site.yandex_site_verification %}
   <meta name="yandex-verification" content="{{ site.yandex_site_verification }}">
 {% endif %}
+
+<!-- === ADDED: llms.txt discovery link === -->
+<link rel="describedby" href="{{ site.url }}/llms.txt" type="text/markdown">
+
 <!-- end SEO -->
