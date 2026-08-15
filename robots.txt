@@ -1,3 +1,43 @@
+# ============================================================
+# AI Search / Inference Crawlers — ALLOW (to be referenced)
+# ============================================================
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# ============================================================
+# AI Training Crawlers — choice (currently ALLOW)
+# To block training data collection, change Disallow to Allow
+# ============================================================
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+# ============================================================
+# Fallback: all other crawlers
+# ============================================================
 User-agent: *
 Content-Signal: search=yes, ai-input=yes, ai-train=yes, use=full
 Allow: /
