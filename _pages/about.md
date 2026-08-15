@@ -124,7 +124,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 <h2><i class="fa-solid fa-bullhorn fa-beat"></i> Open Positions</h2>
 <p style="color:#CD853F;">
 <ul>
-  <li>🎓 <strong>Ph.D. Students</strong> (Jan./Aug. 2027 intake, fully funded)</li>
+  <li>🎓 <strong>Ph.D. Students</strong> (Aug. 2027 intake, fully funded)</li>
   <li>🔬 <strong>Postdocs</strong> (multiple funding lines, rolling basis / start anytime)</li>
   <li>📚 <strong>Master Students</strong> (incoming Aug. 2026 intake; contact me early for full two-year research training)</li>
 </ul>
