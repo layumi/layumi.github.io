@@ -24,7 +24,7 @@ redirect_from:
 - [Feihong Shen](https://vsfh.github.io/): JLU (B.S.) UM (Pursuing Ph.D)
 - Zeju Lin: HITSZ (B.Eng.) UM (Pursuing Ph.D)
 - Chen Xu: Nankai University (B.Eng.) UM (Pursuing Ph.D)
-- Mengieong Hoi: UMacau (B.S.) UM (Pursuing Ph.D)
+- [Mengieong Hoi](https://zdzheng.xyz/authors/Mengieong-Hoi): UMacau (B.S.) UM (Pursuing Ph.D)
 
 ## RA
 
@@ -34,6 +34,7 @@ redirect_from:
 ## Students I Have Mentored
 
 ### Macau  
+- [Weifeng Xu](https://zdzheng.xyz/authors/Weifeng-Xu) UM (M.S.)
 - [Yunsong Fang](https://www.zdzheng.xyz/authors/Yunsong-Fang) UM (M.S.)
 - [Qichao Dong](https://www.zdzheng.xyz/authors/Qichao-Dong) UM (M.S.) work at HW
 - [Guiyu Zhang](https://www.zdzheng.xyz/authors/Guiyu-Zhang): SDU (B.S.) UCAS (M.S.) UM (RA)
