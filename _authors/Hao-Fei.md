@@ -5,6 +5,7 @@ permalink: /authors/Hao-Fei
 author_profile: false
 img: https://zdzheng.xyz/coauthors/hao-fei.jpg
 ---
+ <li> Ruiyang Zhang,  Junhao Zhang,  Hao Fei,  Zhedong Zheng, &quot;Uncertainty-o: One Model-agnostic Framework for Unveiling Uncertainty in Large Multimodal Models.&quot; Findings of EMNLP, 2026.<a href='https://zdzheng.xyz/publication/Uncertai2026'>[Link]</a> </li>
  <li> Jian Ma,  Zhedong Zheng,  Hao Fei,  Feng Zheng,  Tat-Seng Chua,  Yi Yang, &quot;Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion.&quot; arXiv:2207.06057, 2022.<a href='https://zdzheng.xyz/publication/Subband-2022'>[Link]</a> </li>
  <li> Haidong Xu,  Meishan Zhang,  Hao Ju,  Zhedong Zheng,  Erik Cambria,  Min Zhang,  Hao Fei, &quot;When Words Smile: Generating Diverse Emotional Facial Expressions from Text.&quot; Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025.<a href='https://zdzheng.xyz/publication/When-Wor2025'>[Link]</a> </li>
  <li> Haidong Xu,  Guangwei Xu,  Zhedong Zheng,  Xiatian Zhu,  Wei Ji,  Xiangtai Li,  Ruijie Guo,  Meishan Zhang,  Min Zhang,  Hao Fei, &quot;VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion Language Models.&quot; NeurIPS, 2025.<a href='https://zdzheng.xyz/publication/VimoRAG-2025'>[Link]</a> </li>

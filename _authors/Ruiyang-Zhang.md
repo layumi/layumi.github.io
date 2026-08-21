@@ -4,6 +4,7 @@ collection: authors
 permalink: /authors/Ruiyang-Zhang
 author_profile: false
 ---
+ <li> Ruiyang Zhang,  Junhao Zhang,  Hao Fei,  Zhedong Zheng, &quot;Uncertainty-o: One Model-agnostic Framework for Unveiling Uncertainty in Large Multimodal Models.&quot; Findings of EMNLP, 2026.<a href='https://zdzheng.xyz/publication/Uncertai2026'>[Link]</a> </li>
  <li> Ruiyang Zhang,  Dongzhan Zhou,  Zhedong Zheng, &quot;SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models.&quot; ICLR, 2026.<a href='https://zdzheng.xyz/publication/SketchTh2026'>[Link]</a> </li>
  <li> Ruiyang Zhang,  Hu Zhang,  Zhedong Zheng, &quot;Harnessing Uncertainty-aware Bounding Boxes for Unsupervised 3D Object Detection.&quot; ICCV, 2025.<a href='https://zdzheng.xyz/publication/Harnessi2025'>[Link]</a> </li>
  <li> Ruiyang Zhang,  Hu Zhang,  Hang Yu,  Zhedong Zheng, &quot;Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene.&quot; European conference on computer vision (ECCV), 2024.<a href='https://zdzheng.xyz/publication/Approach2024'>[Link]</a> </li>

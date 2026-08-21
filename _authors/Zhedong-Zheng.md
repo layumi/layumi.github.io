@@ -4,6 +4,9 @@ collection: authors
 permalink: /authors/Zhedong-Zheng
 author_profile: false
 ---
+ <li> Ruiyang Zhang,  Junhao Zhang,  Hao Fei,  Zhedong Zheng, &quot;Uncertainty-o: One Model-agnostic Framework for Unveiling Uncertainty in Large Multimodal Models.&quot; Findings of EMNLP, 2026.<a href='https://zdzheng.xyz/publication/Uncertai2026'>[Link]</a> </li>
+ <li> Mengieong Hoi,  Chen Zhao,  Chaoyu Lei,  Huifang Zhou,  Zhedong Zheng, &quot;URGen: Uncertainty-guided Retrieval-augmented Generation for Guideline-Grounded Medical Question Answering.&quot; Findings of EMNLP, 2026.<a href='https://zdzheng.xyz/publication/URGen-Un2026'>[Link]</a> </li>
+ <li> Weifeng Xu,  Shaofei Huang,  Yaxiong Wang,  Zhedong Zheng, &quot;Causal Intervention with LMMs: Generative Text Facilitates Fine-Grained Pedestrian Anomaly Behavior Retrieval.&quot; Findings of EMNLP, 2026.<a href='https://zdzheng.xyz/publication/Causal-I2026'>[Link]</a> </li>
  <li> Tianrui Hui,  Shaofei Huang,  Qisong Han,  Yaxiong Wang,  Lechao Cheng,  Zhedong Zheng,  Zhun Zhong,  Richang Hong,  Meng Wang, &quot;Acoustically Grounded Cost Learning for Open-Vocabulary Audio-Visual Semantic Segmentation.&quot; ACM MM, 2026.<a href='https://zdzheng.xyz/publication/Acoustic2026'>[Link]</a> </li>
  <li> Quan Chen,  Bolun Zheng,  Tingyu Wang,  Rongfeng Lu,  Yu Liu,  Zhedong Zheng, &quot;Scale-adaptive UAV Geo-localization via Height-aware Partition Learning.&quot; ACM MM, 2026.<a href='https://zdzheng.xyz/publication/Scale-ad2026'>[Link]</a> </li>
  <li> Hao Ju,  Hu Zhang,  Zhedong Zheng, &quot;AnomalyLMM: Bridging Generative Knowledge and Discriminative Retrieval for Text-Based Person Anomaly Search.&quot; arXiv:2509.04376, 2025.<a href='https://zdzheng.xyz/publication/AnomalyL2025'>[Link]</a> </li>

@@ -105,8 +105,9 @@ ccf_info = {
     "IEEE Transactions on Visualization and Computer Graphics": (True, True, False, True),
     "npj Artificial Intelligence": (False, False, False, True),   
     "EMNLP": (False, False, True, False), 
-    "Findings of ACL": (False, False, True, False), 
+    "Findings of EMNLP": (False, False, True, False), 
     "ACL": (True, False, True, False), 
+    "Findings of ACL": (False, False, True, False), 
     # 其他常见
     "TIFS": (True, True, False, True),                      # IEEE, CCF-A (安全领域)
     "IEEE Transactions on Information Forensics and Security (TIFS)": (True, True, False, True),
