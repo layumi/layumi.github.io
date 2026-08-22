@@ -165,7 +165,8 @@ layout: default
 		       "@type": "PublicationVolume",
 		       "name": "{{ page.venue}}"
 		     },
-			 "keywords": ["{{ page.keywords}}"],
+			 {% assign kw_arr = page.keywords | split: "," %}
+             "keywords": [{% for kw in kw_arr %}"{{ kw | strip | escape_once }}"{% unless forloop.last %}, {% endunless %}{% endfor %}],
 		     "datePublished": "{{ page.date}}"
 	        }
 		    </script>
