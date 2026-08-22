@@ -18,6 +18,7 @@
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
 {% endif %}
 {% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
+
 {% if seo_author %}
   {% if seo_author.twitter %}
     {% assign seo_author_twitter = seo_author.twitter %}
@@ -28,7 +29,7 @@
       {% assign seo_author_twitter = seo_author  %}
     {% endif %}
   {% endif %}
-  {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
+  {% assign seo_author_twitter = seo_author_twitter | split: "," | first | strip_html | replace: "@", "" | strip %}
 {% endif %}
 
 <!-- === ADDED: meta description (was missing from head) === -->
