@@ -204,7 +204,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 
   <a class="talk-card" href="https://www.bilibili.com/video/BV138TszsEW9/">
     <div class="thumb">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/talks/uav.jpg" alt="Multimedia UAVs talk thumbnail" loading="lazy">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/uav.jpg" alt="Multimedia UAVs talk thumbnail" loading="lazy">
       <span class="dur">31 min</span>
     </div>
     <div class="talk-body">
@@ -217,7 +217,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 
   <a class="talk-card" href="https://www.bilibili.com/video/BV11K4y1f7eQ/">
     <div class="thumb">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/talks/retid.jpg" alt="Person Re-ID to Drone Localization talk thumbnail" loading="lazy">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/retid.jpg" alt="Person Re-ID to Drone Localization talk thumbnail" loading="lazy">
       <span class="dur">58 min</span>
     </div>
     <div class="talk-body">
@@ -230,7 +230,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 
   <a class="talk-card" href="https://www.bilibili.com/video/BV14p4y1s77p/">
     <div class="thumb">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/talks/aitime.jpg" alt="AI TIME PhD panel thumbnail" loading="lazy">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/aitime.jpg" alt="AI TIME PhD panel thumbnail" loading="lazy">
       <span class="dur">81 min</span>
     </div>
     <div class="talk-body">
