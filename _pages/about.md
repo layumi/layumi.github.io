@@ -149,7 +149,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
-<ul>https://zdzheng.xyz
+<ul>
 	<li><strong>PI</strong>, FDCT/0209/2025/AMJ, 2026–2029, MOP 1.66M</li>
 	<li> <strong>ACM MM 2026:</strong> 2 papers - 
 	<a href="https://zdzheng.xyz/publication/Scale-ad2026">Dynamic Aerial Matching</a>, 
@@ -254,7 +254,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 <li> We have achieved the <strong>1st</strong> place in AICity Challenge Vehicle Re-id Track, CVPR 2020. <a href="https://github.com/layumi/AICIty-reID-2020">[code] </a></li>
 <li> Two papers to appear at IJCAI 2020. <a href="https://zdzheng.xyz/publication/Unsuperv2020">[PDF1]</a><a href="https://github.com/layumi/Seg_Uncertainty">[code1]</a><a href="https://zdzheng.xyz/publication/Real-Wor2020">[PDF2]</a>
 	<a href="https://github.com/huangzhikun1995/IPM-Net">[code2]</a></li>
-<li> One paper to appear at CVPR 2019 as oral presentation. <a href="https://zdzheng.xyz/publication/Joint2019">[PDF]</a><a href="https://www.youtube.com/watch?v=ubCrEAIpQs4">[3-min video]</a> <a href="https://github.com/NVlabs/DG-Net">[code]</a></li>
+<li> One paper to appear at CVPR 2019 as oral presentation. <a href="https://zdzheng.xyz/publication/Joint-di2019">[PDF]</a><a href="https://www.youtube.com/watch?v=ubCrEAIpQs4">[3-min video]</a> <a href="https://github.com/NVlabs/DG-Net">[code]</a></li>
 <li> One paper to appear at ECCV 2018. <a href="https://arxiv.org/abd/1807.08260">[arXiv]</a> <a href="https://github.com/RoyalVane/MMAN">[code]</a> </li>
 <li> One paper to appear at CVPR 2018. <a href="https://arxiv.org/abs/1711.10295">[arXiv]</a> <a href="https://github.com/zhunzhong07/CamStyle">[code]</a> </li>
 <li> One paper to appear at ICCV 2017 as spotlight presentation. <a href="https://arxiv.org/abs/1701.07717">[arXiv]</a> <a href="https://github.com/layumi/Person-reID_GAN"> [code]</a> </li>
