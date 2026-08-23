@@ -69,6 +69,58 @@ redirect_from:
 		  transform: translateY(-4px); /* 微微上移 */
 		  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* 增强阴影 */
 		}
+
+		/* ===== 杂志感（新增区块样式） ===== */
+		.hero-slogan {
+		  font-family: Georgia, "Times New Roman", serif;
+		  font-size: 44px; font-weight: 700; line-height: 1.1;
+		  letter-spacing: -0.01em; margin: 8px 0 4px 0; color: #1c1917;
+		}
+		.hero-slogan .accent { color: #d97706; }
+		.hero-cn {
+		  font-family: Georgia, "Times New Roman", serif;
+		  font-size: 19px; color: #6b655f; margin-bottom: 10px;
+		}
+		.pillars { display: flex; gap: 10px; flex-wrap: wrap; margin: 12px 0 6px 0; }
+		.pillar {
+		  border: 1px solid #e8e2d8; background: #fff; border-radius: 999px;
+		  padding: 7px 15px; font-size: 14px; color: #1c1917;
+		}
+		.pillar b { color: #d97706; font-weight: 600; }
+		.talks-row { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 8px; }
+		.talk-card {
+		  flex: 1; min-width: 220px; background: #fff; border: 1px solid #e8e2d8;
+		  border-radius: 14px; overflow: hidden; transition: all 0.25s ease-in-out;
+		  display: block; text-decoration: none !important; color: #1c1917;
+		}
+		.talk-card:hover { transform: translateY(-4px); box-shadow: 0 8px 16px rgba(0,0,0,0.12); }
+		.talk-card .thumb { position: relative; }
+		.talk-card .thumb img { width: 100%; display: block; aspect-ratio: 16/9; object-fit: cover; }
+		.talk-card .dur {
+		  position: absolute; right: 10px; bottom: 10px; background: rgba(20,17,14,0.82);
+		  color: #fff; font-size: 12px; padding: 2px 8px; border-radius: 5px;
+		}
+		.talk-body { padding: 14px 16px 16px; }
+		.talk-body h3 {
+		  font-family: Georgia, "Times New Roman", serif; font-size: 17px;
+		  line-height: 1.35; margin: 0 0 4px 0; color: #1c1917;
+		}
+		.talk-cn { font-size: 13px; color: #6b655f; margin-bottom: 10px; }
+		.talk-meta { font-size: 12px; color: #9a928a; }
+		.talk-watch { display: inline-block; font-size: 13.5px; font-weight: 600; color: #d97706; margin-top: 8px; }
+		.quote-block {
+		  border-left: 3px solid #d97706; padding: 6px 0 6px 20px; margin: 22px 0;
+		}
+		.quote-block p {
+		  font-family: Georgia, "Times New Roman", serif; font-size: 18px;
+		  line-height: 1.55; color: #1c1917; margin: 0;
+		}
+		.quote-block cite {
+		  font-style: normal; font-size: 12.5px; color: #9a928a; letter-spacing: 0.04em;
+		  margin-top: 8px; display: block; text-transform: uppercase;
+		}
+		.quote-label { font-size: 12px; color: #d97706; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; }
+		h2.mag { font-family: Georgia, "Times New Roman", serif; }
 	</style>
 </head>
  
