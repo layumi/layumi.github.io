@@ -9,12 +9,9 @@
 {% elsif page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% endif %}
-{% if site.url %}
-  {% assign canonical_url = page.url | replace: "index.html", "" | prepend: site.url %}
-{% endif %}
 <title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 
-<!-- FIX 1: 空字符串不参与回退，且归一化 -->
+<!-- description: 空字符串不参与回退（Liquid 的 default 对空串不生效，必须 and != "" 判断） -->
 {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% if seo_description and seo_description != "" %}
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
@@ -34,25 +31,38 @@
   {% assign seo_author_twitter = seo_author_twitter | split: "," | first | strip_html | replace: "@", "" | strip %}
 {% endif %}
 
-<!-- FIX 2: 只有非空 description 才输出（不再出现空 meta） -->
+<!-- 共享分享图：og:image 与 twitter:image 统一使用 seo_og_image -->
+{% if page.og_image %}
+  {% assign seo_og_image = page.og_image | prepend: site.url %}
+{% elsif page.header.image %}
+  {% if page.header.image contains "://" %}
+    {% assign seo_og_image = page.header.image %}
+  {% else %}
+    {% assign seo_og_image = page.header.image | prepend: "/images/" | prepend: site.url %}
+  {% endif %}
+{% elsif page.header.overlay_image %}
+  {% if page.header.overlay_image contains "://" %}
+    {% assign seo_og_image = page.header.overlay_image %}
+  {% else %}
+    {% assign seo_og_image = page.header.overlay_image | prepend: "/images/" | prepend: site.url %}
+  {% endif %}
+{% else %}
+  {% assign seo_og_image = "https://zdzheng.xyz/resource-img/lab-logo-trans.png" %}
+{% endif %}
+
+<!-- 只有非空 description 才输出，不再出现空 meta -->
 {% if seo_description and seo_description != "" %}
   <meta name="description" content="{{ seo_description }}">
 {% endif %}
 
 <meta property="og:locale" content="{{ site.locale | default: "en" }}">
 <meta property="og:site_name" content="{{ site.title }}">
-
-<!-- FIX 3: og:image 支持页面级覆盖（以后换头像/分享图不用改模板） -->
-<meta property="og:image" content="{% if page.og_image %}{{ page.og_image | prepend: site.url }}{% else %}https://zdzheng.xyz/resource-img/lab-logo-trans.png{% endif %}">
-
-<!-- FIX 4: og:title 与 <title> 保持一致（带 site.title 后缀） -->
+<meta property="og:image" content="{{ seo_og_image }}">
 <meta property="og:title" content="{{ seo_title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
-
 {% if seo_description and seo_description != "" %}
   <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 
-<!-- === ADDED: og:type for non-article pages (was missing) === -->
 {% if page.date %}
   <meta property="og:type" content="article">
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
@@ -69,26 +79,27 @@
 {% if page.code %}
     <meta property="og:code" content="{{ page.code}}">
 {% endif %}
+
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
-<!-- === ADDED: Twitter Card (was entirely missing when no twitter username set) === -->
-{% if seo_description %}
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+<!-- Twitter Card: 独立于 description，任何页面都有卡片 -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ seo_title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
+{% if seo_description and seo_description != "" %}
   <meta name="twitter:description" content="{{ seo_description }}">
-  <meta name="twitter:image" content="https://zdzheng.xyz/resource-img/lab-logo-trans.png">
-  {% if site.twitter.username %}
-    <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
-  {% endif %}
-  {% if seo_author_twitter %}
-    <meta name="twitter:creator" content="@{{ seo_author_twitter }}">
-  {% endif %}
-  {% if seo_url %}
-    <meta name="twitter:url" content="{{ canonical_url }}">
-  {% endif %}
+{% endif %}
+<meta name="twitter:image" content="{{ seo_og_image }}">
+{% if site.twitter.username %}
+  <meta name="twitter:site" content="@{{ site.twitter.username | replace: "@", "" }}">
+{% endif %}
+{% if seo_author_twitter %}
+  <meta name="twitter:creator" content="@{{ seo_author_twitter }}">
+{% endif %}
+{% if seo_url %}
+  <meta name="twitter:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
 {% if site.facebook %}
@@ -98,11 +109,6 @@
   {% if site.facebook.app_id %}
     <meta property="fb:app_id" content="{{ site.facebook.app_id }}">
   {% endif %}
-{% endif %}
-{% if page.header.image %}
-  <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
-{% elsif page.header.overlay_image %}
-  <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% endif %}
 {% if paginator.previous_page %}
   <link rel="prev" href="{{ paginator.previous_page_path | prepend: seo_url }}">
@@ -144,7 +150,6 @@
   <meta name="yandex-verification" content="{{ site.yandex_site_verification }}">
 {% endif %}
 
-<!-- === ADDED: llms.txt discovery link === -->
+<!-- llms.txt discovery link -->
 <link rel="describedby" href="{{ site.url }}/llms.txt" type="text/markdown">
-
 <!-- end SEO -->
