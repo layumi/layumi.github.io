@@ -84,7 +84,7 @@ Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](htt
     <div style="font-size:21px; font-weight:700; line-height:1.35;">
       <span style="color:#dc2626;">#2</span> Object Re-ID<br>
       <span style="color:#d97706;">#3</span> Uncertainty Estimation<br>
-      <span style="color:#2563eb;">#6</span> Data-Centric AI
+      <span style="color:#2563eb;">#5</span> Data-Centric AI
     </div>
   </div>
 
