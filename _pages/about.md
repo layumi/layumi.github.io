@@ -167,13 +167,12 @@ Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](htt
 Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publications → [Google Scholar](https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ) &nbsp;·&nbsp; **[Full CV]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf)**
 
 
-<hr>
 
 <div style="display:flex; gap:30px; flex-wrap:wrap; margin-bottom:20px;">
 
 <div style="flex:1; min-width:240px;">
 
-<h2><i class="fa-solid fa-bullhorn fa-beat"></i> Open Positions</h2>
+<h2 class="mag"><i class="fa-solid fa-bullhorn fa-beat"></i> Open Positions</h2>
 <p style="color:#CD853F;">
 <ul>
   <li>🎓 <strong>Ph.D. Students</strong> (Aug. 2027 intake, fully funded)</li>
@@ -189,7 +188,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 
 <div style="flex:2; min-width:240px;">
 
-<h2><i class="fa-regular fa-compass fa-shake"></i> Research Interests</h2>
+<h2 class="mag"><i class="fa-regular fa-compass fa-shake"></i> Research Interests</h2>
 
 {% include pyramid.html %}
 
@@ -197,7 +196,6 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 
 </div>
 
-<hr>
 
 <h2 class="mag"><i class="fa-solid fa-microphone-lines"></i> Selected Talks</h2>
 <p style="color:#6b655f; font-size:14px;">Three public talks in Chinese — from person re-identification, to drone-view spatial intelligence, to multimedia UAVs for the low-altitude economy.</p>
@@ -245,7 +243,6 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 
 </div>
 
-<hr>
 
 <h2 class="mag"><i class="fa-regular fa-lightbulb"></i> Research Philosophy</h2>
 
@@ -267,9 +264,8 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
   <cite>Ctrl-U: Robust Conditional Image Generation via Uncertainty-aware Reward Modeling · ICLR 2025</cite>
 </div>
 
-<hr>
 
-<h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
+<h2 class="mag"><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
 	<li><strong>PI</strong>, FDCT/0209/2025/AMJ, 2026–2029, MOP 1.66M</li>
 	<li> <strong>ACM MM 2026:</strong> 2 papers - 
@@ -381,9 +377,8 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 <li> One paper to appear at ICCV 2017 as spotlight presentation. <a href="https://arxiv.org/abs/1701.07717">[arXiv]</a> <a href="https://github.com/layumi/Person-reID_GAN"> [code]</a> </li>
 -->
 
-<hr>
 
-<h2><i class="fa-solid fa-palette fa-beat"></i> Others</h2>
+<h2 class="mag"><i class="fa-solid fa-palette fa-beat"></i> Others</h2>
 <ul>
 <li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
 <li>  I was a poster maker when I studied at Fudan University. You may check out <a href="https://zdzheng.xyz/poster_page">my posters</a>.</li>
