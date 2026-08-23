@@ -1,6 +1,6 @@
 ---
 permalink: /recruitment
-title: "招生信息"
+title: "Join AIGC-DL Lab 招生信息"
 seo_title: "Open Positions | Zhedong Zheng (University of Macau) - AI PhD / Postdoc Recruitment"
 seo_description: "澳门大学郑哲东课题组长期招收博士生、博士后、毕业论文硕士与研究助理，研究方向为多模态生成与检索。"
 author_profile: true
