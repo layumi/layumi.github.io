@@ -225,6 +225,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
   <a class="talk-card" href="https://www.bilibili.com/video/BV138TszsEW9/">
     <div class="thumb">
       <img src="https://zdzheng.xyz/images/uav.jpg" alt="Multimedia UAVs talk thumbnail" loading="lazy">
+	  <span class="lang">ZH · INVITED TALK</span>
       <span class="dur">31 min</span>
     </div>
     <div class="talk-body">
@@ -238,6 +239,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
   <a class="talk-card" href="https://www.bilibili.com/video/BV11K4y1f7eQ/">
     <div class="thumb">
       <img src="https://zdzheng.xyz/images/retid.jpg" alt="Person Re-ID to Drone Localization talk thumbnail" loading="lazy">
+	  <span class="lang">ZH · INVITED TALK</span>
       <span class="dur">58 min</span>
     </div>
     <div class="talk-body">
