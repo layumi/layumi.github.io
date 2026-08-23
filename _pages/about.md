@@ -149,24 +149,24 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
-<ul>
+<ul>https://zdzheng.xyz
 	<li><strong>PI</strong>, FDCT/0209/2025/AMJ, 2026–2029, MOP 1.66M</li>
 	<li> <strong>ACM MM 2026:</strong> 2 papers - 
-	<a href="https://www.zdzheng.xyz/publication/Scale-ad2026">Dynamic Aerial Matching</a>, 
-	<a href="https://www.zdzheng.xyz/publication/Acoustic2026">Audio-Visual Seg.</a>
+	<a href="https://zdzheng.xyz/publication/Scale-ad2026">Dynamic Aerial Matching</a>, 
+	<a href="https://zdzheng.xyz/publication/Acoustic2026">Audio-Visual Seg.</a>
 	</li>
 	<li> <strong>ECCV 2026 Workshop:</strong> <a href="https://www.aicitychallenge.org/">AI City Challenge Track4</a></li>
 	<li> <strong>ACL 2026:</strong> 2 papers - 
-		<a href="https://www.zdzheng.xyz/publication/Process-2026">Multimodal Forgery Reasoning</a>, 
-		<a href="https://www.zdzheng.xyz/publication/Generati2026">Facial  Forgery Report</a>
+		<a href="https://zdzheng.xyz/publication/Cultivat2026">Multimodal Forgery Reasoning</a>, 
+		<a href="https://zdzheng.xyz/publication/Generati2026">Facial  Forgery Report</a>
 	</li>
-	<li> <strong>SIGIR 2026:</strong> <a href="https://www.zdzheng.xyz/publication/Pretrain2026">Pretrain then Adapt</a></li>
+	<li> <strong>SIGIR 2026:</strong> <a href="https://zdzheng.xyz/publication/Pretrain2026">Pretrain then Adapt</a></li>
     <li><strong>ACM MM 2026 Workshop:</strong> Aerial-view Imaging 
-      <a href="https://www.zdzheng.xyz/ACMMM2026Workshop-UAV/">[Call for Papers]</a>
+      <a href="https://zdzheng.xyz/ACMMM2026Workshop-UAV/">[Call for Papers]</a>
     </li>
-	<li> <strong>TVCG 2026:</strong> <a href="https://www.zdzheng.xyz/publication/Look-Com2026">🎨 Look, Compare and Draw </a></li>
-	<li> <strong>CVPR 2026:</strong> <a href="https://www.zdzheng.xyz/publication/The-Cohe2026">Manipulation Detection</a></li>
-	<li> <strong>ICLR 2026:</strong> <a href="https://www.zdzheng.xyz/publication/SketchTh2026">Efficient LLM</a></li>
+	<li> <strong>TVCG 2026:</strong> <a href="https://zdzheng.xyz/publication/Look-Com2026">🎨 Look, Compare and Draw </a></li>
+	<li> <strong>CVPR 2026:</strong> <a href="https://zdzheng.xyz/publication/The-Cohe2026">Manipulation Detection</a></li>
+	<li> <strong>ICLR 2026:</strong> <a href="https://zdzheng.xyz/publication/SketchTh2026">Efficient LLM</a></li>
 	<li>Our work on multimedia aerial vision was <strong>showcased</strong> at the <a href="https://youtu.be/XYFWzEeey6g?si=dRHTX2V0kaZ_oIHY&t=10">UM 45th Anniversary Open Day</a></li>
 </ul>
 
@@ -174,52 +174,52 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
   <summary>Past News (2025-2020)</summary>
   <ul> 
       <li><strong>NeurIPS 2025:</strong> 2 papers — 
-         <a href="https://www.zdzheng.xyz/publication/WeatherP2025"> WeatherPrompt</a>, 
-         <a href="https://www.zdzheng.xyz/publication/VimoRAG-2025"> Motion Generation</a>
+         <a href="https://zdzheng.xyz/publication/WeatherP2025"> WeatherPrompt</a>, 
+         <a href="https://zdzheng.xyz/publication/VimoRAG-2025"> Motion Generation</a>
        </li>
      <li><strong>PI</strong>, FDCT/0043/2025/RIA1, 2025–2028, MOP 2.13M</li>
      <li><strong>ACM MM 2025:</strong> 2 papers — 
-       <a href="https://www.zdzheng.xyz/publication/UniAD-In2025"> Anomaly Detection</a>, 
-       <a href="https://www.zdzheng.xyz/publication/Domain-A2025"> Neural Painting - BNI Track <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a>
+       <a href="https://zdzheng.xyz/publication/UniAD-In2025"> Anomaly Detection</a>, 
+       <a href="https://zdzheng.xyz/publication/Domain-A2025"> Neural Painting - BNI Track <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a>
      </li>
      <li><strong>ICCV 2025:</strong> 3 papers — 
-       <a href="https://www.zdzheng.xyz/publication/Video2BE2025">Video2BEV</a>, 
-       <a href="https://www.zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval <span class="oral-tag">(<i class="fas fa-star"></i>Highlight)</span></a>, 
-       <a href="https://www.zdzheng.xyz/publication/Harnessi2025">3D Detection</a>
+       <a href="https://zdzheng.xyz/publication/Video2BE2025">Video2BEV</a>, 
+       <a href="https://zdzheng.xyz/publication/Beyond-W2025">Anomaly Retrieval <span class="oral-tag">(<i class="fas fa-star"></i>Highlight)</span></a>, 
+       <a href="https://zdzheng.xyz/publication/Harnessi2025">3D Detection</a>
      </li>
-     <li><strong>ICLR 2025:</strong> <a href="https://www.zdzheng.xyz/publication/Ctrl-u-R2025">Conditional Generation</a></li>
-     <li><strong>ACM WWW 2025:</strong> <a href="https://www.zdzheng.xyz/publication/From-Dat2025">Text-based Person Search</a></li>
-	 <li><strong>ACM MM 2024:</strong> <a href="https://www.zdzheng.xyz/publication/Transfer2024">Domain Adaptation <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a></li>
+     <li><strong>ICLR 2025:</strong> <a href="https://zdzheng.xyz/publication/Ctrl-u-R2025">Conditional Generation</a></li>
+     <li><strong>ACM WWW 2025:</strong> <a href="https://zdzheng.xyz/publication/From-Dat2025">Text-based Person Search</a></li>
+	 <li><strong>ACM MM 2024:</strong> <a href="https://zdzheng.xyz/publication/Transfer2024">Domain Adaptation <span class="oral-tag">(<i class="fas fa-star"></i>Oral)</span></a></li>
      <li><strong>ECCV 2024:</strong> 3 papers — 
-        <a href="https://www.zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, 
-        <a href="https://www.zdzheng.xyz/publication/Depth-aw2024">Blind Image Decomposition</a>, 
-        <a href="https://www.zdzheng.xyz/publication/Approach2024">Unsupervised 3D Object Detection</a>
+        <a href="https://zdzheng.xyz/publication/Towards-2024">Text-guided Geolocalization</a>, 
+        <a href="https://zdzheng.xyz/publication/Depth-aw2024">Blind Image Decomposition</a>, 
+        <a href="https://zdzheng.xyz/publication/Approach2024">Unsupervised 3D Object Detection</a>
      </li>
 	 <li><strong>ACM MM 2025 Workshop:</strong> Aerial-view Imaging 
-	    <a href="https://www.zdzheng.xyz/ACMMM2025Workshop-UAV/">[Call for Papers]</a>
+	    <a href="https://zdzheng.xyz/ACMMM2025Workshop-UAV/">[Call for Papers]</a>
 	 </li>
 	 <li><strong>ACM MM Asia 2025 Brave New Idea Track:</strong> 
 	    <a href="https://mmasia2025.org/brave_new_ideas" style="color: #e74c3c; font-weight: bold;">Call for Papers</a> 
 	    <span style="background: #ff9999; padding: 2px 6px; border-radius: 3px; margin-left: 5px;">New</span>
 	 </li>
     <li><strong>ACM MM 2024 Workshops:</strong> 
-      <a href="https://www.zdzheng.xyz/ACMMM2024Workshop-UAV/">Aerial-view Imaging</a>, 
+      <a href="https://zdzheng.xyz/ACMMM2024Workshop-UAV/">Aerial-view Imaging</a>, 
       <a href="https://videorelation.nextcenter.org/MMGR24/">Multimodal Learning</a>
     </li>
     <li><strong>ICLR 2024:</strong> 
-      <a href="https://www.zdzheng.xyz/publication/Composed2024">Compositional Retrieval</a> 
+      <a href="https://zdzheng.xyz/publication/Composed2024">Compositional Retrieval</a> 
       <a href="https://github.com/Monoxide-Chen/uncertainty_retrieval">[code]</a>
     </li>
     <li><strong>ACM ICMR 2024 Workshop:</strong> Multimedia Object Re-ID 
-      <a href="https://www.zdzheng.xyz/MORE2024/">[Call for Papers]</a>
+      <a href="https://zdzheng.xyz/MORE2024/">[Call for Papers]</a>
     </li>
     <li><strong>ACM MM 2023:</strong> 2 papers — 
-      <a href="https://www.zdzheng.xyz/publication/Towards-2023">Text-image Re-ID</a>, 
-      <a href="https://www.zdzheng.xyz/publication/PiPa-Pix2023">Domain Adaptation</a>
+      <a href="https://zdzheng.xyz/publication/Towards-2023">Text-image Re-ID</a>, 
+      <a href="https://zdzheng.xyz/publication/PiPa-Pix2023">Domain Adaptation</a>
     </li>
     <li><strong>CVPR 2023:</strong> 2 papers — 
-      <a href="https://www.zdzheng.xyz/publication/Context-2023">Weather Removal</a>, 
-	  <a href="https://www.zdzheng.xyz/publication/Are-Bina2023">Video Moment Retrieval</a>
+      <a href="https://zdzheng.xyz/publication/Context-2023">Weather Removal</a>, 
+	  <a href="https://zdzheng.xyz/publication/Are-Bina2023">Video Moment Retrieval</a>
 	</li>  
     <li><strong>IJCV 2022:</strong> <a href="https://zdzheng.xyz/publication/U-turn-C2022">Adversarial Retrieval</a></li>
     <li><strong>TNNLS 2022:</strong> <a href="https://zdzheng.xyz/publication/Paramete2022">3D Human Re-ID</a></li>
@@ -236,11 +236,11 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
       <a href="https://ieee-cas.org/award/outstanding-paper-awards/outstanding-young-author-award#recipients">[link]</a>
     </li>
     <li><strong>IJCV 2021:</strong> 
-      <a href="https://zdzheng.xyz/publication/Recti2021">Uncertainty</a> 
+      <a href="https://zdzheng.xyz/publication/Rectifyi2021">Uncertainty</a> 
       <a href="https://github.com/layumi/Seg_Uncertainty">[code]</a>
     </li>
     <li><strong>ACM MM 2020:</strong> Drone-view Dataset 
-      <a href="https://zdzheng.xyz/publication/Unive2020">[PDF]</a> 
+      <a href="https://zdzheng.xyz/publication/Universi2020">[PDF]</a> 
       <a href="https://github.com/layumi/University1652-Baseline">[Dataset]</a> 
       <a href="https://www.youtube.com/embed/dzxXPp8tVn4?vq=hd1080">[Video]</a> 
       <a href="https://zdzheng.xyz/files/ACM-MM-Talk.pdf">[Slide]</a>
@@ -252,7 +252,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 <!---	
 <li> People live in a 3D world. Why not conduct representation learning in the 3D space? <a href="https://arxiv.org/abs/2006.04569">[arXiv]</a> <a href="https://github.com/layumi/person-reid-3d">[code]</a></li>
 <li> We have achieved the <strong>1st</strong> place in AICity Challenge Vehicle Re-id Track, CVPR 2020. <a href="https://github.com/layumi/AICIty-reID-2020">[code] </a></li>
-<li> Two papers to appear at IJCAI 2020. <a href="https://zdzheng.xyz/publication/Unsup2020">[PDF1]</a><a href="https://github.com/layumi/Seg_Uncertainty">[code1]</a><a href="https://zdzheng.xyz/publication/Real-2020">[PDF2]</a>
+<li> Two papers to appear at IJCAI 2020. <a href="https://zdzheng.xyz/publication/Unsuperv2020">[PDF1]</a><a href="https://github.com/layumi/Seg_Uncertainty">[code1]</a><a href="https://zdzheng.xyz/publication/Real-Wor2020">[PDF2]</a>
 	<a href="https://github.com/huangzhikun1995/IPM-Net">[code2]</a></li>
 <li> One paper to appear at CVPR 2019 as oral presentation. <a href="https://zdzheng.xyz/publication/Joint2019">[PDF]</a><a href="https://www.youtube.com/watch?v=ubCrEAIpQs4">[3-min video]</a> <a href="https://github.com/NVlabs/DG-Net">[code]</a></li>
 <li> One paper to appear at ECCV 2018. <a href="https://arxiv.org/abd/1807.08260">[arXiv]</a> <a href="https://github.com/RoyalVane/MMAN">[code]</a> </li>
@@ -265,7 +265,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 <h2><i class="fa-solid fa-palette fa-beat"></i> Others</h2>
 <ul>
 <li>  <a href="https://www.youtube.com/watch?v=kI3Oc-sxSoA">Shanghai</a> is my hometown, and it is a lovely place to have a sightseeing tour. </li>
-<li>  I was a poster maker when I studied at Fudan University. You may check out <a href="https://www.zdzheng.xyz/poster_page">my posters</a>.</li>
+<li>  I was a poster maker when I studied at Fudan University. You may check out <a href="https://zdzheng.xyz/poster_page">my posters</a>.</li>
 <li>  I sometimes write Chinese blogs and share insights at <a href="https://www.zhihu.com/people/zhengzhedong">Zhihu</a>.</li>
 </ul>
 Do not press the red button!
