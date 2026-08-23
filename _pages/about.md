@@ -179,7 +179,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
   <li>🔬 <strong>Postdocs</strong> (multiple funding lines, rolling basis / start anytime)</li>
   <li>📚 <strong>Master Students</strong> (incoming Aug. 2026 intake; contact me early for full two-year research training)</li>
 </ul>
-<a href="https://www.zdzheng.xyz/recruitment/" style="color:#CD853F;">
+<a href="https://zdzheng.xyz/recruitment/" style="color:#CD853F;">
 → Join Us
 </a>
 </p>
@@ -198,13 +198,28 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 
 
 <h2 class="mag"><i class="fa-solid fa-microphone-lines"></i> Selected Talks</h2>
-<p style="color:#6b655f; font-size:14px;">Three public talks in Chinese — from person re-identification, to drone-view spatial intelligence, to multimedia UAVs for the low-altitude economy.</p>
+<p style="color:#6b655f; font-size:14px;">One invited talk in English, three public talks in Chinese — from person re-identification, to drone-view spatial intelligence, to multimedia UAVs for the low-altitude economy.</p>
 
-<div style="display:flex; gap:18px; flex-wrap:wrap; margin-bottom:8px;">
+<div class="talks-row">
+
+  <a class="talk-card" href="https://www.bilibili.com/video/BV1yjysB9EZ5/?t=3031">
+    <div class="thumb">
+      <img src="https://zdzheng.xyz/images/asi.png" alt="Aerial Spatial Intelligence invited talk thumbnail" loading="lazy">
+      <span class="lang">EN · INVITED TALK</span>
+      <span class="start">Talk at 50:31</span>
+      <span class="dur">141 min</span>
+    </div>
+    <div class="talk-body">
+      <h3>Aerial Spatial Intelligence: Perception, Understanding and Decision Making</h3>
+      <div class="talk-cn">航空空间智能：感知、理解与决策 · Invited Talk @ UAVM Workshop, ACM MM 2025</div>
+      <div class="talk-meta">2025 · 194 views · full workshop recording</div>
+      <span class="talk-watch">Watch →</span>
+    </div>
+  </a>
 
   <a class="talk-card" href="https://www.bilibili.com/video/BV138TszsEW9/">
     <div class="thumb">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/uav.jpg" alt="Multimedia UAVs talk thumbnail" loading="lazy">
+      <img src="https://zdzheng.xyz/images/uav.jpg" alt="Multimedia UAVs talk thumbnail" loading="lazy">
       <span class="dur">31 min</span>
     </div>
     <div class="talk-body">
@@ -217,7 +232,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 
   <a class="talk-card" href="https://www.bilibili.com/video/BV11K4y1f7eQ/">
     <div class="thumb">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/retid.jpg" alt="Person Re-ID to Drone Localization talk thumbnail" loading="lazy">
+      <img src="https://zdzheng.xyz/images/retid.jpg" alt="Person Re-ID to Drone Localization talk thumbnail" loading="lazy">
       <span class="dur">58 min</span>
     </div>
     <div class="talk-body">
@@ -230,7 +245,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 
   <a class="talk-card" href="https://www.bilibili.com/video/BV14p4y1s77p/">
     <div class="thumb">
-      <img src="{{ site.url }}{{ site.baseurl }}/images/aitime.jpg" alt="AI TIME PhD panel thumbnail" loading="lazy">
+      <img src="https://zdzheng.xyz/images/aitime.jpg" alt="AI TIME PhD panel thumbnail" loading="lazy">
       <span class="dur">81 min</span>
     </div>
     <div class="talk-body">
