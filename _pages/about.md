@@ -134,6 +134,8 @@ redirect_from:
  
 <meta name="keywords" content="Zhedong Zheng, 郑哲东, University of Macau, AIGC, Spatial Intelligence, Data-Centric AI, Object Re-identification, Person Re-ID, Vehicle Re-ID, Geo-localization, Domain Adaptation, Computer Vision, Deep Learning, Generative AI, 3D Vision, PhD positions Macau, Postdoc positions, Computer Vision Professor">
 		   
+<p class="hero-role">Assistant Professor · University of Macau · AIGC-DL Lab</p>  
+<p class="hero-slogan">Better data, reliable AI. 更好的数据，更可靠的 AI</p>
 
 Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](https://www.fic.um.edu.mo/people/zhedongzheng/), hosting the [AIGC-DL Lab](https://www.fic.um.edu.mo/research/laboratories/ai-generated-content-aigc-and-data-centric-learning-laboratory/). Previously a postdoctoral research fellow at [NUS](https://www.comp.nus.edu.sg/) with [Prof. Tat-Seng Chua](https://www.chuatatseng.com) and [Prof. Angela Yao](https://www.comp.nus.edu.sg/~ayao/). I received my Ph.D. from the [ReLER Lab](https://reler.net/), [University of Technology Sydney](https://www.uts.edu.au/) (supervised by [Prof. Yi Yang](https://scholar.google.com/citations?user=RMSuNFwAAAAJ) and [Dr. Liang Zheng](https://zheng-lab.cecs.anu.edu.au/)), and my Bachelor’s degree from [Fudan University](https://www.fudan.edu.cn) (2016). I have published **80+ papers** at top-tier venues <a href='https://scholar.google.com/citations?user=XT17oUEAAAAJ'><img src="https://img.shields.io/endpoint?logo=Google%20Scholar&url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Flayumi%2Flayumi.github.io@google-scholar-stats%2Fgs_data_shieldsio.json&labelColor=f6f6f6&color=9cf&style=flat&label=citations" alt="googlescholar"></a>.
 
@@ -165,11 +167,6 @@ Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](htt
     </div>
   </div>
 
-</div>
-
-
-<div style="border-left: 3px solid #d97706; padding: 12px 0 12px 18px; margin: 32px 0 8px 0;">
-  <strong>Focus:</strong> Building reliable AI through <strong>better data</strong>, <strong>uncertainty estimation</strong>, and <strong>multi-view spatial intelligence</strong>.
 </div>
 
 Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publications → [Google Scholar](https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ) &nbsp;·&nbsp; **[Full CV]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf)**
