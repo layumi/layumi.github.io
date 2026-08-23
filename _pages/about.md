@@ -156,6 +156,7 @@ Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](htt
       > 9.2k
     </div>
     <div style="font-size:14px; color:#555; margin-top:4px;">GitHub Stars</div>
+	<div style="font-size:12px; color:#999; margin-top:6px;">incl. <a href="https://github.com/layumi/Person_reID_baseline_pytorch" style="color:#555; text-decoration:none;">Person_reID_baseline_pytorch</a> · 4.4k \&#9733;</div>
   </div>
 
   <div style="flex:1; min-width:200px; background:#f8f9fa; border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
