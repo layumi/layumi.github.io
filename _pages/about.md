@@ -93,13 +93,21 @@ redirect_from:
 		  border-radius: 14px; overflow: hidden; transition: all 0.25s ease-in-out;
 		  display: block; text-decoration: none !important; color: #1c1917;
 		}
-		.talk-card:hover { transform: translateY(-4px); box-shadow: 0 8px 16px rgba(0,0,0,0.12); }
-		.talk-card .thumb { position: relative; }
-		.talk-card .thumb img { width: 100%; display: block; aspect-ratio: 16/9; object-fit: cover; }
-		.talk-card .dur {
-		  position: absolute; right: 10px; bottom: 10px; background: rgba(20,17,14,0.82);
-		  color: #fff; font-size: 12px; padding: 2px 8px; border-radius: 5px;
-		}
+		.talk-card:hover { transform: translateY(-4px); box-shadow: 0 8px 16px rgba(0,0,0,0.12); }  
+			.talk-card .thumb { position: relative; }  
+			.talk-card .thumb img { width: 100%; display: block; aspect-ratio: 16/9; object-fit: cover; }  
+			.talk-card .dur {  
+			  position: absolute; right: 10px; bottom: 10px; background: rgba(20,17,14,0.82);  
+			  color: #fff; font-size: 12px; padding: 2px 8px; border-radius: 5px;  
+			}  
+			.talk-card .lang {  
+			  position: absolute; left: 10px; top: 10px; background: rgba(20,17,14,0.82);  
+			  color: #fff; font-size: 11px; letter-spacing: 0.06em; padding: 3px 9px; border-radius: 999px;  
+			}  
+			.talk-card .start {  
+			  position: absolute; left: 10px; bottom: 10px; background: rgba(20,17,14,0.82);  
+			  color: #fff; font-size: 12px; padding: 2px 8px; border-radius: 5px;  
+			}
 		.talk-body { padding: 14px 16px 16px; }
 		.talk-body h3 {
 		  font-family: Georgia, "Times New Roman", serif; font-size: 17px;
@@ -198,7 +206,7 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 
 
 <h2 class="mag"><i class="fa-solid fa-microphone-lines"></i> Selected Talks</h2>
-<p style="color:#6b655f; font-size:14px;">One invited talk in English, three public talks in Chinese — from person re-identification, to drone-view spatial intelligence, to multimedia UAVs for the low-altitude economy.</p>
+<p style="color:#6b655f; font-size:14px;">One invited talk in English, two public talks in Chinese — from person re-identification, to drone-view spatial intelligence, to multimedia UAVs for the low-altitude economy.</p>
 
 <div class="talks-row">
 
@@ -239,19 +247,6 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
       <h3>From Person Re-Identification to Drone Localization</h3>
       <div class="talk-cn">从行人重识别到无人机定位</div>
       <div class="talk-meta">2020 · 12.7k views · Bilibili</div>
-      <span class="talk-watch">Watch →</span>
-    </div>
-  </a>
-
-  <a class="talk-card" href="https://www.bilibili.com/video/BV14p4y1s77p/">
-    <div class="thumb">
-      <img src="https://zdzheng.xyz/images/aitime.jpg" alt="AI TIME PhD panel thumbnail" loading="lazy">
-      <span class="dur">81 min</span>
-    </div>
-    <div class="talk-body">
-      <h3>AI TIME PhD Panel — IJCAI 2020</h3>
-      <div class="talk-cn">AI TIME PhD IJCAI-4 嘉宾对谈</div>
-      <div class="talk-meta">2021 · 2.6k views · Bilibili</div>
       <span class="talk-watch">Watch →</span>
     </div>
   </a>
