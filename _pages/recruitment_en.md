@@ -1,6 +1,6 @@
 ---
 permalink: /recruitment_en
-title: "recruitment"
+title: "Join AIGC-DL Lab - Recruitment"
 seo_title: "Open Positions | Zhedong Zheng (University of Macau) - AI PhD / Postdoc Recruitment"
 author_profile: true
 ---
