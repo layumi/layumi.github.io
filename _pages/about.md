@@ -147,6 +147,75 @@ Open-source projects → [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publ
 
 <hr>
 
+<h2 class="mag"><i class="fa-solid fa-microphone-lines"></i> Selected Talks</h2>
+<p style="color:#6b655f; font-size:14px;">Three public talks in Chinese — from person re-identification, to drone-view spatial intelligence, to multimedia UAVs for the low-altitude economy.</p>
+
+<div style="display:flex; gap:18px; flex-wrap:wrap; margin-bottom:8px;">
+
+  <a class="talk-card" href="https://www.bilibili.com/video/BV138TszsEW9/">
+    <div class="thumb">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/talks/uav.jpg" alt="Multimedia UAVs talk thumbnail" loading="lazy">
+      <span class="dur">31 min</span>
+    </div>
+    <div class="talk-body">
+      <h3>Multimedia UAVs: Capturing the World from a New Perspective</h3>
+      <div class="talk-cn">赋能低空经济：无人机从感知到决策</div>
+      <div class="talk-meta">2025 · 2.1k views · Bilibili</div>
+      <span class="talk-watch">Watch →</span>
+    </div>
+  </a>
+
+  <a class="talk-card" href="https://www.bilibili.com/video/BV11K4y1f7eQ/">
+    <div class="thumb">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/talks/retid.jpg" alt="Person Re-ID to Drone Localization talk thumbnail" loading="lazy">
+      <span class="dur">58 min</span>
+    </div>
+    <div class="talk-body">
+      <h3>From Person Re-Identification to Drone Localization</h3>
+      <div class="talk-cn">从行人重识别到无人机定位</div>
+      <div class="talk-meta">2020 · 12.7k views · Bilibili</div>
+      <span class="talk-watch">Watch →</span>
+    </div>
+  </a>
+
+  <a class="talk-card" href="https://www.bilibili.com/video/BV14p4y1s77p/">
+    <div class="thumb">
+      <img src="{{ site.url }}{{ site.baseurl }}/images/talks/aitime.jpg" alt="AI TIME PhD panel thumbnail" loading="lazy">
+      <span class="dur">81 min</span>
+    </div>
+    <div class="talk-body">
+      <h3>AI TIME PhD Panel — IJCAI 2020</h3>
+      <div class="talk-cn">AI TIME PhD IJCAI-4 嘉宾对谈</div>
+      <div class="talk-meta">2021 · 2.6k views · Bilibili</div>
+      <span class="talk-watch">Watch →</span>
+    </div>
+  </a>
+
+</div>
+
+<hr>
+
+<h2 class="mag"><i class="fa-regular fa-lightbulb"></i> Research Philosophy</h2>
+
+<div class="quote-label">Spatial Intelligence</div>
+<div class="quote-block">
+  <p>"Drones could serve as the third platform to deal with the geo-localization problem."</p>
+  <cite>University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo-localization · ACM MM 2020</cite>
+</div>
+
+<div class="quote-label">Uncertainty Estimation</div>
+<div class="quote-block">
+  <p>"We explicitly estimate the prediction uncertainty during training to rectify the pseudo label learning."</p>
+  <cite>Rectifying Pseudo Label Learning via Uncertainty Estimation · IJCV 2021</cite>
+</div>
+
+<div class="quote-label">Data-centric AIGC</div>
+<div class="quote-block">
+  <p>"Given the inherent cognitive uncertainty within reward models, we explicitly leverage the prediction variance as an uncertainty indicator."</p>
+  <cite>Ctrl-U: Robust Conditional Image Generation via Uncertainty-aware Reward Modeling · ICLR 2025</cite>
+</div>
+
+<hr>
 
 <h2><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
