@@ -22,8 +22,8 @@ layout: default
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
 
 
-    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
-    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date_to_xmlschema }}">{% endif %}
 	{% if page.keywords %}<meta itemprop="keywords" content="{{ page.keywords }}">{% endif %}
 	{% if page.citation %}
 	    <meta name="citation_title" content="{{ page.title | strip_html | escape_once }}">
@@ -135,11 +135,11 @@ layout: default
 		
 		{% if page.img %}
 		  <img src="{{ page.img }}" width="30%" alt="{{page.title}}">
-		  <meta name="og:image" content="{{ page.img }}">
+		  <meta property="og:image" content="{{ page.img }}">
 		  <script type="application/ld+json">
 		      {"@context": "https://schema.org",
 		        "@type": "Person",
-				"name": "{{ page.title}}",
+				"name": "{{ site.social.name | default: site.name }}",
 				"image":"{{ page.img}}"
 			}
 		  </script>
@@ -147,18 +147,32 @@ layout: default
 		
 		
 		{% if page.citation%}  
+		    {% assign pub_name = "" %}
+		    {% if page.venue contains 'ACM' %}{% assign pub_name = 'ACM' %}
+		    {% elsif page.venue contains 'IEEE' %}{% assign pub_name = 'IEEE' %}
+		    {% elsif page.venue contains 'Springer' %}{% assign pub_name = 'Springer' %}{% endif %}
 		    <script type="application/ld+json">
 		    { "@context": "https://schema.org", 
 		     "@type": "ScholarlyArticle",
+		     "@id": "{{ page.url | absolute_url }}",
+		     "name": "{{ page.title | strip_html | escape_once }}",
+		     "headline": "{{ page.title | strip_html | escape_once }}",
+		     "url": "{{ page.url | absolute_url }}",
+		     "mainEntityOfPage": "{{ page.url | absolute_url }}",
 		     "author": [{{ page.sqlauthor}}],
-		     "headline": "{{ page.title}}",
 		     "isPartOf": {
 		       "@type": "PublicationVolume",
 		       "name": "{{ page.venue}}"
 		     },
+		     {% if pub_name != "" %}"publisher": {
+		       "@type": "Organization",
+		       "name": "{{ pub_name }}"
+		     },{% endif %}
+		     {% if page.abs %}"description": "{{ page.abs | strip_html | escape_once }}",{% endif %}
 			 {% assign kw_arr = page.keywords | split: "," %}
              "keywords": [{% for kw in kw_arr %}"{{ kw | strip | escape_once }}"{% unless forloop.last %}, {% endunless %}{% endfor %}],
-		     "datePublished": "{{ page.date}}"
+		     "inLanguage": "en",
+		     "datePublished": "{{ page.date | date_to_xmlschema }}"
 	        }
 		    </script>
 		{% endif %}
