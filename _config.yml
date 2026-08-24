@@ -158,6 +158,7 @@ exclude:
   - tmp
   - vendor
   - google_scholar_crawler
+  - markdown_generator
 keep_files:
   - .git
   - .svn
@@ -258,6 +259,12 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _tag — thin duplicate pages: exclude from sitemap + noindex
+  - scope:
+      path: "_tag"
+    values:
+      sitemap: false
+      noindex: true
   # _funding
   - scope:
       path: ""
