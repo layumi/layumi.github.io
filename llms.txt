@@ -1,6 +1,6 @@
 # Zhedong Zheng (郑哲东)
 
-> Tenure-track Assistant Professor at University of Macau, hosting the AIGC-DL Lab. Computer Vision researcher specializing in AIGC, Spatial Intelligence, Data-centric AI, Object Re-identification, and Domain Adaptation. 80+ papers, H-index 41, 14k+ citations. IEEE Senior Member.
+> Tenure-track Assistant Professor at University of Macau, hosting the AIGC-DL Lab. Computer Vision researcher specializing in AIGC, Spatial Intelligence, Data-centric AI, Object Re-identification, and Domain Adaptation. 90+ papers, H-index 41, 14k+ citations. IEEE Senior Member. Actively recruiting PhD students and postdocs; research is steadily published at CVPR, ICCV, ECCV, NeurIPS, ICLR, ACL, EMNLP, ACM MM, SIGIR, and ICRA.
 
 Zhedong Zheng earned his Ph.D. from the ReLER Lab at University of Technology Sydney (supervised by Prof. Yi Yang and Dr. Liang Zheng), his B.S. from Fudan University (2016), and was a postdoctoral fellow at NUS with Prof. Tat-Seng Chua and Prof. Angela Yao. His research focuses on building reliable AI through better data, uncertainty estimation, and multi-view spatial intelligence.
 
@@ -13,20 +13,34 @@ Zhedong Zheng earned his Ph.D. from the ReLER Lab at University of Technology Sy
 - [ORCID](https://orcid.org/0000-0002-2434-9050): 0000-0002-2434-9050 — primary academic identifier
 - [Google Scholar](https://scholar.google.com/citations?user=XT17oUEAAAAJ): Citation metrics and full publication record
 - [GitHub](https://github.com/layumi): Open-source projects (9.2k+ stars)
-- [University Profile](https://www.fst.um.edu.mo/people/zhedongzheng/): Official UM faculty page
+- [University Profile](https://www.fic.um.edu.mo/people/zhedongzheng/): Official UM faculty page
 - [Wikidata](https://www.wikidata.org/wiki/Q92121166): Q92121166 — linked open data entity
 - [LinkedIn](https://www.linkedin.com/in/zhedongzheng): Professional profile
 - [Zhihu](https://www.zhihu.com/people/zhengzhedong): Chinese-language blog and insights
 
 ## Research
 - [Research Interests](https://zdzheng.xyz/): AIGC, Data-centric AI, Spatial Intelligence, Object Re-identification, Domain Adaptation, Geo-localization, Person Re-identification, Vehicle Re-ID, 3D Vision, Generative AI, Uncertainty Estimation
-- [Publications](https://zdzheng.xyz/publications/): 80+ papers at top-tier venues (CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, ACM MM, ACL, etc.) with PDFs, code, datasets, and BibTeX
+- [Publications](https://zdzheng.xyz/publications/): 90+ papers at top-tier venues (CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, ACM MM, ACL, etc.) with PDFs, code, datasets, and BibTeX
 - [Funding](https://zdzheng.xyz/funding/): FDCT research grants (2025-2029)
-- [Team](https://zdzheng.xyz/authors/): Lab members and collaborators
-- [Blog](https://zdzheng.xyz/rawblog/): Research blog posts
+- [Team](https://zdzheng.xyz/team/): Lab members and collaborators
+- [Blog](https://zdzheng.xyz/blogs/): Research blog posts
+
+## Recent Highlights (2026)
+- [ACM MM 2026](https://zdzheng.xyz/publication/): two papers on dynamic aerial matching and audio-visual semantic segmentation
+- [ACL 2026](https://zdzheng.xyz/publication/): two papers on multimodal forgery reasoning and facial forgery attribution
+- [EMNLP 2026 Findings](https://zdzheng.xyz/publication/): three papers on uncertainty in multimodal models, medical RAG, and causal intervention
+- [CVPR 2026](https://zdzheng.xyz/publication/): manipulation detection against MLLM-crafted narratives
+- [ICLR 2026](https://zdzheng.xyz/publication/): efficient sketch-style reasoning in large multimodal models
+- [npj AI 2026](https://zdzheng.xyz/publication/): 3D Magic Mirror, clothing reconstruction from a single image
+- Journal works in TIP, TMM, PR, TVCG, TOMM, TNNLS on geo-localization, person search, and generative models
+
+## Key Datasets
+- [University-1652](https://github.com/layumi/University1652-Baseline): Multi-view multi-source benchmark for drone-based geo-localization (ACM MM 2020)
+- [GeoText-1652](https://multimodalgeo.github.io/GeoText/): Natural language-guided drone geo-localization benchmark (ECCV 2024)
+- [UniV](https://zdzheng.xyz/publication/Video2BE2025): Video-based geo-localization dataset extending University-1652 (ICCV 2025)
 
 ## Open Positions
-- [Recruitment](https://zdzheng.xyz/recruitment/): PhD students (Aug 2027 intake, fully funded), Postdocs (rolling basis), Master students (Aug 2026 intake)
+- [Recruitment](https://zdzheng.xyz/recruitment/): PhD students (Aug 2027 intake, fully funded), Postdocs (rolling basis, start anytime), Master students (Aug 2026 intake)
 
 ## Workshops & Challenges
 - [Aerial-view Imaging Workshop @ ACM MM 2026](https://www.zdzheng.xyz/ACMMM2026Workshop-UAV/): Call for Papers
@@ -38,7 +52,7 @@ Zhedong Zheng earned his Ph.D. from the ReLER Lab at University of Technology Sy
 - [Multimodal Learning Workshop @ ACM MM 2024](https://videorelation.nextcenter.org/MMGR24/): Workshop on multimodal learning
 
 ## Open Source & Awesome Lists
-- [Pytorch-ReID](https://github.com/layumi/Person_reID_baseline_pytorch): Popular person re-identification baseline (1.6k+ stars)
+- [Pytorch-ReID](https://github.com/layumi/Person_reID_baseline_pytorch): Popular person re-identification baseline (4.4k+ stars)
 - [Awesome-reID](https://zdzheng.xyz/Awesome-reID): Curated list of person re-identification resources
 - [Awesome-Aerial-Spatial-Intelligence](https://zdzheng.xyz/Awesome-Aerial-Spatial-Intelligence): Curated list of aerial spatial intelligence resources
 - [Awesome-Geo-localization](https://zdzheng.xyz/Awesome-Geo-localization): Curated list of geo-localization resources
