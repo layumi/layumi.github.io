@@ -8,6 +8,7 @@ Zhedong Zheng earned his Ph.D. from the ReLER Lab at University of Technology Sy
 - [Homepage](https://zdzheng.xyz/): Full bio, news, research interests, and open positions
 - [Full CV (PDF)](https://zdzheng.xyz/files/zhedong-resume.pdf): Complete academic CV
 - [Resources](https://zdzheng.xyz/resources/): Curated paper lists, awesome lists, and helpful links
+- [Full Publication List](https://zdzheng.xyz/llms-full.txt): Complete publication list with abstracts
 
 ## Identity & Verification
 - [ORCID](https://orcid.org/0000-0002-2434-9050): 0000-0002-2434-9050 — primary academic identifier
