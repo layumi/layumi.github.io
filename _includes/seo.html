@@ -1,5 +1,6 @@
 {% include base_path %}
 <!-- begin SEO -->
+{% if page.noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
 {% if site.url %}
   {% assign seo_url = site.url | append: site.baseurl %}
 {% endif %}
@@ -131,17 +132,7 @@
     }
   </script>
 {% endif %}
-{% if site.social %}
-  <script type="application/ld+json">
-    {
-      "@context" : "http://schema.org",
-      "@type" : "{% if site.social.type %}{{ site.social.type }}{% else %}Person{% endif %}",
-      "name" : "{{ site.social.name | default: site.name }}",
-      "url" : {{ seo_url | jsonify }},
-      "sameAs" : {{ site.social.links | jsonify }}
-    }
-  </script>
-{% endif %}
+<!-- 精简版 Person JSON-LD 已移除：head.html 中有更完整的 Person 结构化数据（含 worksFor/alumniOf/knowsAbout/sameAs×9），避免同页双 Person 实体歧义 -->
 {% if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}" />
 {% endif %}
