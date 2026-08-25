@@ -6,6 +6,15 @@
   year      = {2026}
 }
 
+@inproceedings{li2026last,
+  title={Last-Meter Precision Navigation for UAVs: A Diffusion-Refined Aerial Visual Servoing Approach},
+  abstract={In this work, we study the last-meter precision navigation for UAVs, e.g., autonomously reaching a target within the final 10 meters using monocular vision. This task is challenging due to scale ambiguity, rotation discontinuities, and the need for fine-grained spatial reasoning. Existing methods often fail under large viewpoint changes or lack generalization to unseen environments. To this end, we propose DreamNav, a coarse-to-fine diffusion-refined aerial visual servoing framework. In the first coarse-estimation stage, a robust regression policy employs a trigonometric parameterization to predict rotation by jointly modeling sine and cosine components, effectively mitigating optimization instabilities caused by angular periodicity. Given this coarse estimate, the second diffusion-refined stage utilizes a pre-trained world model to simulate future visual observations for candidate actions, selecting the trajectory that minimizes visual discrepancy with the target through a process of visual imagination. To support rigorous evaluation, we contribute PairUAV, a large-scale benchmark comprising 4.8 million image pairs across 72 scenes, curated from the University-1652 dataset. Extensive experiments show DreamNav outperforms strong visual servoing and foundation model baselines in accuracy and generalization, with zero-shot transfer to unseen scenes.},
+  author={Li, Yaxuan and Zeng, Jiarui and Huang, Shaofei and Zheng, Zhedong},
+  booktitle={arXiv preprint arXiv:2607.04352},
+  code = {https://github.com/YaxuanLi-cn/dreamNav},
+  year={2026}
+}
+
 @inproceedings{hoi2026urgen,
   title     = {{URGen}: Uncertainty-guided Retrieval-augmented Generation for Guideline-Grounded Medical Question Answering},
   author    = {Hoi, Mengieong and Zhao, Chen and Lei, Chaoyu and Zhou, Huifang and Zheng, Zhedong},
@@ -498,6 +507,9 @@ year={2024}
   note = {Spotlight Presentation},
   year={2017}
 }
+
+
+
 
 @inproceedings{luo2018macro,
   title={Macro-micro adversarial network for human parsing},

@@ -5,6 +5,7 @@ permalink: /authors/Zhedong-Zheng
 author_profile: false
 ---
  <li> Ruiyang Zhang,  Junhao Zhang,  Hao Fei,  Zhedong Zheng, &quot;Uncertainty-o: One Model-agnostic Framework for Unveiling Uncertainty in Large Multimodal Models.&quot; Findings of EMNLP, 2026.<a href='https://zdzheng.xyz/publication/Uncertai2026'>[Link]</a> </li>
+ <li> Yaxuan Li,  Jiarui Zeng,  Shaofei Huang,  Zhedong Zheng, &quot;Last-Meter Precision Navigation for UAVs: A Diffusion-Refined Aerial Visual Servoing Approach.&quot; arXiv preprint arXiv:2607.04352, 2026.<a href='https://zdzheng.xyz/publication/Last-Met2026'>[Link]</a> </li>
  <li> Mengieong Hoi,  Chen Zhao,  Chaoyu Lei,  Huifang Zhou,  Zhedong Zheng, &quot;URGen: Uncertainty-guided Retrieval-augmented Generation for Guideline-Grounded Medical Question Answering.&quot; Findings of EMNLP, 2026.<a href='https://zdzheng.xyz/publication/URGen-Un2026'>[Link]</a> </li>
  <li> Weifeng Xu,  Shaofei Huang,  Yaxiong Wang,  Zhedong Zheng, &quot;Causal Intervention with LMMs: Generative Text Facilitates Fine-Grained Pedestrian Anomaly Behavior Retrieval.&quot; Findings of EMNLP, 2026.<a href='https://zdzheng.xyz/publication/Causal-I2026'>[Link]</a> </li>
  <li> Tianrui Hui,  Shaofei Huang,  Qisong Han,  Yaxiong Wang,  Lechao Cheng,  Zhedong Zheng,  Zhun Zhong,  Richang Hong,  Meng Wang, &quot;Acoustically Grounded Cost Learning for Open-Vocabulary Audio-Visual Semantic Segmentation.&quot; ACM MM, 2026.<a href='https://zdzheng.xyz/publication/Acoustic2026'>[Link]</a> </li>
