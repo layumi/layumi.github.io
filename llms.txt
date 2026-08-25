@@ -1,6 +1,6 @@
 # Zhedong Zheng (郑哲东)
 
-> Tenure-track Assistant Professor at University of Macau, hosting the AIGC-DL Lab. Computer Vision researcher specializing in AIGC, Spatial Intelligence, Data-centric AI, Object Re-identification, and Domain Adaptation. 90+ papers, H-index 41, 14k+ citations. IEEE Senior Member. Actively recruiting PhD students and postdocs; research is steadily published at CVPR, ICCV, ECCV, NeurIPS, ICLR, ACL, EMNLP, ACM MM, SIGIR, and ICRA.
+> Tenure-track Assistant Professor at University of Macau, hosting the AIGC-DL Lab. Computer Vision researcher specializing in AIGC, Spatial Intelligence, Data-centric AI, Object Re-identification, and Domain Adaptation. 90+ papers (including preprints), H-index 41, 14k+ citations. IEEE Senior Member. Actively recruiting PhD students and postdocs; research is steadily published at CVPR, ICCV, ECCV, NeurIPS, ICLR, ACL, EMNLP, ACM MM, SIGIR, and ICRA.
 
 Zhedong Zheng earned his Ph.D. from the ReLER Lab at University of Technology Sydney (supervised by Prof. Yi Yang and Dr. Liang Zheng), his B.S. from Fudan University (2016), and was a postdoctoral fellow at NUS with Prof. Tat-Seng Chua and Prof. Angela Yao. His research focuses on building reliable AI through better data, uncertainty estimation, and multi-view spatial intelligence.
 
