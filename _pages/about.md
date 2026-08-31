@@ -170,7 +170,7 @@ Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](htt
 
 </div>
 
-Code: [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publication: [SCI](https://www.webofscience.com/wos/author/record/434956) &nbsp;·&nbsp; [SCOPUS](https://www.scopus.com/authid/detail.uri?authorId=57200174037) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ) &nbsp;·&nbsp; [CV]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf)
+Code ➞ [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publication ➞ [SCI](https://www.webofscience.com/wos/author/record/434956) &nbsp;·&nbsp; [SCOPUS](https://www.scopus.com/authid/detail.uri?authorId=57200174037) &nbsp;·&nbsp; [Google Scholar](https://scholar.google.com/citations?hl=en&user=XT17oUEAAAAJ) &nbsp;·&nbsp; [CV]({{ site.url }}{{ site.baseurl }}/files/zhedong-resume.pdf)
 
 
 
