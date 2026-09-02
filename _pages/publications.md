@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Publications"
+seo_title: "Publications | Person Re-ID, Drone Geo-localization, AIGC — Zhedong Zheng"
 permalink: /publications/
 author_profile: true
 ---
