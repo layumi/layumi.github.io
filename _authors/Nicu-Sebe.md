@@ -1,8 +1,7 @@
 ---
-title: "Zhiming Luo"
+title: "Nicu Sebe"
 collection: authors
-permalink: /authors/Zhiming-Luo
+permalink: /authors/Nicu-Sebe
 author_profile: false
-img: https://zdzheng.xyz/coauthors/zhiming-luo.jpeg
 ---
  <li> Jinliang Lin,  Zhedong Zheng,  Zhun Zhong,  Zhiming Luo,  Shaozi Li,  Yi Yang,  Nicu Sebe, &quot;Joint Representation Learning and Keypoint Detection for Cross-view Geo-localization.&quot; IEEE Transactions on Image Processing, 2022.<a href='https://zdzheng.xyz/publication/Joint-Re2022'>[Link]</a> </li>
