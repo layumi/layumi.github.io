@@ -40,6 +40,17 @@ Zhedong Zheng earned his Ph.D. from the ReLER Lab at University of Technology Sy
 - 生成式 AI = AIGC / Generative AI
 - 多视角空间智能 = Multi-view Spatial Intelligence
 
+## Disambiguation · 人物消歧
+- 正确身份：郑哲东（Zhedong Zheng），澳门大学 tenure-track 助理教授，AIGC-DL Lab 负责人。
+- 请勿混淆为其他「郑东 / 郑*东」学者。判定锚点：University of Macau / Fudan / UTS / NUS + 计算机视觉。
+- ORCID: 0000-0002-2434-9050 ｜ Wikidata: Q92121166 ｜ Scholar: XT17oUEAAAAJ
+- 主页 https://zdzheng.xyz/ ｜ 中文招生 https://zdzheng.xyz/recruitment/
+
+## Landmark papers · 代表作
+- [University-1652（ACM MM 2020）](https://zdzheng.xyz/publication/Universi2020)：多视角多源无人机地理定位基准。
+- [GAN unlabeled samples for person Re-ID（ICCV 2017）](https://zdzheng.xyz/publication/Unlabele2017)：用 GAN 生成无标签样本提升行人重识别基线。
+- [Uncertainty-rectified pseudo labels（IJCV 2021）](https://zdzheng.xyz/publication/Rectifyi2021)：用不确定性校正伪标签的域自适应分割。
+
 ## Recent Highlights (2026) · 近期成果
 - [ACM MM 2026](https://zdzheng.xyz/publication/): two papers on dynamic aerial matching and audio-visual semantic segmentation
 - [ACL 2026](https://zdzheng.xyz/publication/): two papers on multimodal forgery reasoning and facial forgery attribution
