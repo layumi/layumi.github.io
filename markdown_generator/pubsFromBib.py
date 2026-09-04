@@ -23,6 +23,17 @@ from VenueNorm import normalize_venue, check_venue
 import string
 import html
 import os
+import subprocess
+
+
+def get_git_date(fname):
+    """Last commit date (YYYY-MM-DD) of a tracked file, or '' if never committed."""
+    try:
+        return subprocess.run(["git", "log", "-1", "--format=%cs", "--", fname],
+                              capture_output=True, text=True,
+                              cwd=os.path.dirname(os.path.abspath(__file__))).stdout.strip()
+    except Exception:
+        return ""
 import re
 from keybert import KeyBERT
 
@@ -382,10 +393,13 @@ for pubsource in publist:
                 md += "\ncitation: '" + html_escape(citation) + "'"
 
             if "abs" in b.keys(): 
-                md += "\nabs: '" + b["abs"] + "'"
+                md += "\nabs: '" + b["abs"].replace("'", "''")  + "'"
             if "abstract" in b.keys():
-                md += "\nabs: '" + b["abstract"] + "'"
+                md += "\nabs: '" + b["abstract"].replace("'", "''")  + "'"
 
+            _lmd = get_git_date("../_publications/" + os.path.basename(md_filename))
+            if _lmd:
+                md += "\nlast_modified_at: " + _lmd
             md +="\npub_year: '" + html_escape(pub_year)+"'"
 
             bibx = "\nbib: >\n    " + bibdata.entries[bib_id].to_string('bibtex')[:-3] + "\n    }\n"
