@@ -1,0 +1,22 @@
+---
+title: "SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models"
+collection: publications
+permalink: /publication/SketchTh2026
+date: 2026-01-01
+doi: 
+oral: 
+keywords:  reasoning large multimodal, large multimodal models, sketch style reasoning
+funding: 2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF
+venue: 'International Conference on Learning Representations (ICLR)'
+paperurl: 'https://zdzheng.xyz/files/2026/ICLR_SketchThinker.pdf'
+code: 'https://github.com/Ruiyang-061X/SketchThinker-R1'
+author: '<a href="https://zdzheng.xyz/authors/Ruiyang-Zhang" class="author">Ruiyang Zhang</a>, <a href="https://zdzheng.xyz/authors/Dongzhan-Zhou" class="author">Dongzhan Zhou</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'
+sqlauthor: '{"@type": "Person","name": "Ruiyang Zhang"}, {"@type": "Person","name": "Dongzhan Zhou"}, {"@type": "Person","name": "Zhedong Zheng"}'
+citation: ' Ruiyang Zhang,  Dongzhan Zhou,  Zhedong Zheng, &quot;SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models.&quot; ICLR, 2026.'
+abs: 'Despite the empirical success of extensive, step-by-step reasoning in large multimodal models, long reasoning processes inevitably incur substantial computational overhead, i.e., in terms of higher token costs and increased response time, which undermines inference efficiency. In contrast, humans often employ sketch-style reasoning: a concise, goal-directed cognitive process that prioritizes salient information and enables efficient problem-solving. Inspired by this cognitive efficiency, we propose SketchThinker-R1, which incentivizes sketch-style reasoning ability in large multimodal models. Our method consists of three primary stages. In the Sketch-Mode Cold Start stage, we convert standard long reasoning process into sketch-style reasoning and finetune base multimodal model, instilling initial sketch-style reasoning capability. Next, we train SketchJudge Reward Model, which explicitly evaluates thinking process of model and assigns higher scores to sketch-style reasoning. Finally, we conduct Sketch-Thinking Reinforcement Learning under supervision of SketchJudge to further generalize sketch-style reasoning ability. Experimental evaluation on four benchmarks reveals that our SketchThinker-R1 achieves over 64\% reduction in reasoning token cost without compromising final answer accuracy. Qualitative analysis further shows that sketch-style reasoning focuses more on key cues during problem solving.'
+pub_year: '2026'
+bib: >
+    @inproceedings{zhang2026sketchthinker,<br>author = "Zhang, Ruiyang and Zhou, Dongzhan and Zheng, Zhedong",<br>title = "SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models",<br>abstract = "Despite the empirical success of extensive, step-by-step reasoning in large multimodal models, long reasoning processes inevitably incur substantial computational overhead, i.e., in terms of higher token costs and increased response time, which undermines inference efficiency. In contrast, humans often employ sketch-style reasoning: a concise, goal-directed cognitive process that prioritizes salient information and enables efficient problem-solving. Inspired by this cognitive efficiency, we propose SketchThinker-R1, which incentivizes sketch-style reasoning ability in large multimodal models. Our method consists of three primary stages. In the Sketch-Mode Cold Start stage, we convert standard long reasoning process into sketch-style reasoning and finetune base multimodal model, instilling initial sketch-style reasoning capability. Next, we train SketchJudge Reward Model, which explicitly evaluates thinking process of model and assigns higher scores to sketch-style reasoning. Finally, we conduct Sketch-Thinking Reinforcement Learning under supervision of SketchJudge to further generalize sketch-style reasoning ability. Experimental evaluation on four benchmarks reveals that our SketchThinker-R1 achieves over 64\\% reduction in reasoning token cost without compromising final answer accuracy. Qualitative analysis further shows that sketch-style reasoning focuses more on key cues during problem solving.",<br>booktitle = "ICLR",<br>url = "https://zdzheng.xyz/files/2026/ICLR\_SketchThinker.pdf",<br>code = "https://github.com/Ruiyang-061X/SketchThinker-R1",<br>funding = "2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF",<br>year = "2026"
+    }
+
+---

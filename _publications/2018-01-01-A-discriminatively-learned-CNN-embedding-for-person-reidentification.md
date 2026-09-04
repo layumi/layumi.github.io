@@ -1,0 +1,22 @@
+---
+title: "A discriminatively learned CNN embedding for person reidentification"
+collection: publications
+permalink: /publication/A-discri2018
+date: 2018-01-01
+doi: 10.1145/3159171
+oral: 
+keywords:  embedding person reidentification, cnn embedding person, discriminatively learned cnn, object re-identification, content-based retrieval, person re-id, person retrieval, person search
+funding: 
+venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
+paperurl: 'https://zdzheng.xyz/files/2018/TOMM18.pdf'
+code: 'https://github.com/layumi/2016_person_re-ID'
+author: '<strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Liang-Zheng" class="author"> <img src= "https://zdzheng.xyz/coauthors/liang-zheng.jpg" alt="liang-zheng" style="border-radius: 50%; height:20px; width:20px">Liang Zheng</a>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
+sqlauthor: '{"@type": "Person","name": "Zhedong Zheng"}, {"@type": "Person","name": "Liang Zheng"}, {"@type": "Person","name": "Yi Yang"}'
+citation: ' Zhedong Zheng,  Liang Zheng,  Yi Yang, &quot;A discriminatively learned CNN embedding for person reidentification.&quot; ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2018. DOI: 10.1145/3159171'
+abs: 'In this article, we revisit two popular convolutional neural networks in person re-identification (re-ID): verification and identification models. The two models have their respective advantages and limitations due to different loss functions. Here, we shed light on how to combine the two models to learn more discriminative pedestrian descriptors. Specifically, we propose a Siamese network that simultaneously computes the identification loss and verification loss. Given a pair of training images, the network predicts the identities of the two input images and whether they belong to the same identity. Our network learns a discriminative embedding and a similarity measurement at the same time, thus taking full usage of the re-ID annotations. Our method can be easily applied on different pretrained networks. Albeit simple, the learned embedding improves the state-of-the-art performance on two public person re-ID benchmarks. Further, we show that our architecture can also be applied to image retrieval.'
+pub_year: '2018'
+bib: >
+    @article{zheng2018discriminatively,<br>author = "Zheng, Zhedong and Zheng, Liang and Yang, Yi",<br>doi = "10.1145/3159171",<br>title = "A discriminatively learned CNN embedding for person reidentification",<br>abstract = "In this article, we revisit two popular convolutional neural networks in person re-identification (re-ID): verification and identification models. The two models have their respective advantages and limitations due to different loss functions. Here, we shed light on how to combine the two models to learn more discriminative pedestrian descriptors. Specifically, we propose a Siamese network that simultaneously computes the identification loss and verification loss. Given a pair of training images, the network predicts the identities of the two input images and whether they belong to the same identity. Our network learns a discriminative embedding and a similarity measurement at the same time, thus taking full usage of the re-ID annotations. Our method can be easily applied on different pretrained networks. Albeit simple, the learned embedding improves the state-of-the-art performance on two public person re-ID benchmarks. Further, we show that our architecture can also be applied to image retrieval.",<br>journal = "ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)",<br>volume = "14",<br>number = "1",<br>pages = "13",<br>year = "2018",<br>publisher = "ACM",<br>code = "https://github.com/layumi/2016\_person\_re-ID",<br>url = "https://zdzheng.xyz/files/2018/TOMM18.pdf"
+    }
+
+---

@@ -1,0 +1,23 @@
+---
+title: "Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation"
+collection: publications
+permalink: /publication/Adaptive2022
+date: 2022-01-01
+doi: 10.1109/TIP.2022.3195642
+oral: 
+keywords:  predictions scene segmentation, robust predictions scene, boosting domain adaptation, domain adaptation
+funding: 
+venue: 'IEEE Transactions on Image Processing (TIP)'
+paperurl: 'https://zdzheng.xyz/files/2022/TIP_Adaboost.pdf'
+blog: 'https://zhuanlan.zhihu.com/p/593571554'
+code: 'https://github.com/layumi/AdaBoost_Seg'
+author: '<strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'
+sqlauthor: '{"@type": "Person","name": "Zhedong Zheng"}, {"@type": "Person","name": "Yi Yang"}'
+citation: ' Zhedong Zheng,  Yi Yang, &quot;Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation.&quot; IEEE Transactions on Image Processing, 2022. DOI: 10.1109/TIP.2022.3195642'
+abs: 'Domain adaptation is to transfer the shared knowledge learned from the source domain to a new environment, i.e., target domain. One common practice is to train the model on both labeled source-domain data and unlabeled target-domain data. Yet the learned models are usually biased due to the strong supervision of the source domain. Most researchers adopt the early-stopping strategy to prevent over-fitting, but when to stop training remains a challenging problem since the lack of the target-domain validation set. In this paper, we propose one efficient bootstrapping method, called Adaboost Student, explicitly learning complementary models during training and liberating users from empirical early stopping. Adaboost Student combines the deep model learning with the conventional training strategy, i.e., adaptive boosting, and enables interactions between learned models and the data sampler. We adopt one adaptive data sampler to progressively facilitate learning on hard samples and aggregate "weak" models to prevent over-fitting. Extensive experiments show that (1) Without the need to worry about the stopping time, AdaBoost Student provides one robust solution by efficient complementary model learning during training. (2) AdaBoost Student is orthogonal to most domain adaptation methods, which can be combined with existing approaches to further improve the state-of-the-art performance. We have achieved competitive results on three widely-used scene segmentation domain adaptation benchmarks.'
+pub_year: '2022'
+bib: >
+    @article{zheng2022adaptive,<br>author = "Zheng, Zhedong and Yang, Yi",<br>doi = "10.1109/TIP.2022.3195642",<br>title = "Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation",<br>abstract = {Domain adaptation is to transfer the shared knowledge learned from the source domain to a new environment, i.e., target domain. One common practice is to train the model on both labeled source-domain data and unlabeled target-domain data. Yet the learned models are usually biased due to the strong supervision of the source domain. Most researchers adopt the early-stopping strategy to prevent over-fitting, but when to stop training remains a challenging problem since the lack of the target-domain validation set. In this paper, we propose one efficient bootstrapping method, called Adaboost Student, explicitly learning complementary models during training and liberating users from empirical early stopping. Adaboost Student combines the deep model learning with the conventional training strategy, i.e., adaptive boosting, and enables interactions between learned models and the data sampler. We adopt one adaptive data sampler to progressively facilitate learning on hard samples and aggregate "weak" models to prevent over-fitting. Extensive experiments show that (1) Without the need to worry about the stopping time, AdaBoost Student provides one robust solution by efficient complementary model learning during training. (2) AdaBoost Student is orthogonal to most domain adaptation methods, which can be combined with existing approaches to further improve the state-of-the-art performance. We have achieved competitive results on three widely-used scene segmentation domain adaptation benchmarks.},<br>journal = "IEEE Transactions on Image Processing",<br>url = "https://zdzheng.xyz/files/2022/TIP\_Adaboost.pdf",<br>code = "https://github.com/layumi/AdaBoost\_Seg",<br>blog = "https://zhuanlan.zhihu.com/p/593571554",<br>year = "2022"
+    }
+
+---
