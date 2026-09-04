@@ -3,6 +3,7 @@ title: "PiPa: Pixel-and Patch-wise Self-supervised Learning for Domain Adaptativ
 collection: publications
 permalink: /publication/PiPa-Pix2023
 date: 2023-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  adaptative semantic segmentation, semantic segmentation, segmentation, domain adaptation

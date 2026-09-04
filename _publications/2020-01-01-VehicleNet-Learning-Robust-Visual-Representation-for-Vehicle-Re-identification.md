@@ -3,6 +3,7 @@ title: "VehicleNet: Learning Robust Visual Representation for Vehicle Re-identif
 collection: publications
 permalink: /publication/VehicleN2020
 date: 2020-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TMM.2020.3014488
 oral: 
 keywords:  vehiclenet learning robust, vehiclenet learning, representation vehicle identification, object re-identification, content-based retrieval

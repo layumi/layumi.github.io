@@ -3,6 +3,7 @@ title: "Look, Compare and Draw: Differential Query Transformer for Automatic Oil
 collection: publications
 permalink: /publication/Look-Com2026
 date: 2026-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TVCG.2026.3669142
 oral: 
 keywords:  automatic oil painting, draw differential query, oil painting

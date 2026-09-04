@@ -3,6 +3,7 @@ title: "Video2BEV: Transforming Drone Videos to BEVs for Video-based Geo-localiz
 collection: publications
 permalink: /publication/Video2BE2025
 date: 2025-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  video2bev transforming drone, transforming drone videos, drone videos bevs, visual geo-localization, spatial intelligence

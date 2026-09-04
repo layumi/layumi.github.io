@@ -3,6 +3,7 @@ title: "When Words Smile: Generating Diverse Emotional Facial Expressions from T
 collection: publications
 permalink: /publication/When-Wor2025
 date: 2025-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  words smile generating, smile generating diverse, facial expressions text

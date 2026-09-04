@@ -3,6 +3,7 @@ title: "Bayesian query expansion for multi-camera person re-identification"
 collection: publications
 permalink: /publication/Bayesian2020
 date: 2020-01-01
+last_modified_at: 2026-08-24
 doi: 10.1016/j.patrec.2018.06.009
 oral: 
 keywords:  camera person identification, multi camera person, camera person, object re-identification, content-based retrieval, person re-id, person retrieval, person search

@@ -3,6 +3,7 @@ title: "Progressive local filter pruning for image retrieval acceleration"
 collection: publications
 permalink: /publication/Progress2023
 date: 2023-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TMM.2023.3256092
 oral: 
 keywords:  image retrieval acceleration, pruning image retrieval, image retrieval, object re-identification, content-based retrieval

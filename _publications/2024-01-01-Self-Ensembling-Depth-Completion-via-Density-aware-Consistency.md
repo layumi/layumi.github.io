@@ -3,6 +3,7 @@ title: "Self-Ensembling Depth Completion via Density-aware Consistency"
 collection: publications
 permalink: /publication/Self-Ens2024
 date: 2024-01-01
+last_modified_at: 2026-08-24
 doi: 10.1016/j.patcog.2024.110618
 oral: 
 keywords:  ensembling depth completion, self ensembling depth, completion density aware

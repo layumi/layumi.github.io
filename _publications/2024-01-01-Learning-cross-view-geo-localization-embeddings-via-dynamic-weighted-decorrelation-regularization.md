@@ -3,6 +3,7 @@ title: "Learning cross-view geo-localization embeddings via dynamic weighted dec
 collection: publications
 permalink: /publication/Learning2024
 date: 2024-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TGRS.2024.3491757
 oral: 
 keywords:  geo localization embeddings, learning cross view, localization embeddings dynamic, visual geo-localization, spatial intelligence

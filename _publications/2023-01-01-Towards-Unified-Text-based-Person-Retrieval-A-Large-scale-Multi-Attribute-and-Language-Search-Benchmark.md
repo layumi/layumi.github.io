@@ -3,6 +3,7 @@ title: "Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribu
 collection: publications
 permalink: /publication/Towards-2023
 date: 2023-01-01
+last_modified_at: 2026-08-23
 doi: 10.1145/3581783.3611709
 oral: 
 keywords:  based person retrieval, person retrieval, person retrieval large, object re-identification, content-based retrieval, person re-id, person retrieval, person search

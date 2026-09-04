@@ -3,6 +3,7 @@ title: "Soft Person Re-identification Network Pruning via Block-wise Adjacent Fi
 collection: publications
 permalink: /publication/Soft-Per2022
 date: 2022-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TCYB.2021.3130047
 oral: 
 keywords:  identification network pruning, adjacent filter decaying, network pruning block, object re-identification, content-based retrieval, person re-id, person retrieval, person search

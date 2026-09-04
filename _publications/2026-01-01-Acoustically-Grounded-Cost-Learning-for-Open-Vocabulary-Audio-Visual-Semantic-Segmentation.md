@@ -3,6 +3,7 @@ title: "Acoustically Grounded Cost Learning for Open-Vocabulary Audio-Visual Sem
 collection: publications
 permalink: /publication/Acoustic2026
 date: 2026-01-01
+last_modified_at: 2026-07-29
 doi: 
 oral: 
 keywords:  audio visual semantic, open vocabulary audio, vocabulary audio visual

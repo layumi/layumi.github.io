@@ -3,6 +3,7 @@ title: "Self-supervised Point Cloud Representation Learning via Separating Mixed
 collection: publications
 permalink: /publication/Self-sup2022
 date: 2022-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TMM.2022.3206664
 oral: 
 keywords:  supervised point cloud, point cloud representation, self supervised point

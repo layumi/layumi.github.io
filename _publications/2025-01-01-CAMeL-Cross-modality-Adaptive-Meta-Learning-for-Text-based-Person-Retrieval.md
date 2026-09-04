@@ -3,6 +3,7 @@ title: "CAMeL: Cross-modality Adaptive Meta-Learning for Text-based Person Retri
 collection: publications
 permalink: /publication/CAMeL-Cr2025
 date: 2025-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TIFS.2025.3565392
 oral: 
 keywords:  based person retrieval, person retrieval, text based person, object re-identification, content-based retrieval, person re-id, person retrieval, person search

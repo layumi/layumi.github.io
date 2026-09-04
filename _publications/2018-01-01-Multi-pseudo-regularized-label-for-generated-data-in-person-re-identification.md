@@ -3,6 +3,7 @@ title: "Multi-pseudo regularized label for generated data in person re-identific
 collection: publications
 permalink: /publication/Multi-ps2018
 date: 2018-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TIP.2018.2874715
 oral: 
 keywords:  data person identification, pseudo regularized label, regularized label generated, object re-identification, content-based retrieval, person re-id, person retrieval, person search, aigc

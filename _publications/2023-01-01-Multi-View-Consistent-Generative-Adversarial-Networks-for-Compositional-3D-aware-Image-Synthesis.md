@@ -3,6 +3,7 @@ title: "Multi-View Consistent Generative Adversarial Networks for Compositional 
 collection: publications
 permalink: /publication/Multi-Vi2023
 date: 2023-01-01
+last_modified_at: 2026-08-24
 doi: 10.1007/s11263-023-01805-x
 oral: 
 keywords:  consistent generative adversarial, aware image synthesis, compositional 3d aware

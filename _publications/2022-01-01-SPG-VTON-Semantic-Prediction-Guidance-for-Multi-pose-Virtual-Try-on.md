@@ -3,6 +3,7 @@ title: "SPG-VTON: Semantic Prediction Guidance for Multi-pose Virtual Try-on"
 collection: publications
 permalink: /publication/SPG-VTON2022
 date: 2022-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TMM.2022.3143712
 oral: 
 keywords:  multi pose virtual, pose virtual, pose virtual try

@@ -3,6 +3,7 @@ title: "Robust Vehicle Re-identification via Rigid Structure Prior"
 collection: publications
 permalink: /publication/Robust-V2021
 date: 2021-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  robust vehicle identification, vehicle identification rigid, rigid structure prior, object re-identification, content-based retrieval

@@ -3,6 +3,7 @@ title: "Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Sc
 collection: publications
 permalink: /publication/Approach2024
 date: 2024-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  scaling unsupervised 3d, unsupervised 3d object, 3d object detection

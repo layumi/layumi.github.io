@@ -3,6 +3,7 @@ title: "Joint Representation Learning and Keypoint Detection for Cross-view Geo-
 collection: publications
 permalink: /publication/Joint-Re2022
 date: 2022-01-01
+last_modified_at: 2026-09-02
 doi: 10.1109/TIP.2022.3175601
 oral: 
 keywords:  view geo localization, cross view geo, detection cross view, visual geo-localization, spatial intelligence

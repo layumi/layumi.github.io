@@ -3,6 +3,7 @@ title: "Generating Attribution Reports for Manipulated Facial Images: A Dataset 
 collection: publications
 permalink: /publication/Generati2026
 date: 2026-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  manipulated facial images, reports manipulated facial, facial images dataset

@@ -3,6 +3,7 @@ title: "TIGeR: Text-Instructed Generation and Refinement for Template-Free Hand-
 collection: publications
 permalink: /publication/TIGeR-Te2026
 date: 2026-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  text instructed generation, object interaction, hand object interaction, aigc

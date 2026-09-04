@@ -3,6 +3,7 @@ title: "Coarse-to-Fine Cross-modality Generation for Enhancing Vehicle Re-Identi
 collection: publications
 permalink: /publication/Coarse-t2025
 date: 2025-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  enhancing vehicle identification, vehicle identification, vehicle identification high, object re-identification, content-based retrieval, aigc

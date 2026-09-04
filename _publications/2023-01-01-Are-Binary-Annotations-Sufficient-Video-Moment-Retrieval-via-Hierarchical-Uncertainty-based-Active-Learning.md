@@ -3,6 +3,7 @@ title: "Are Binary Annotations Sufficient? Video Moment Retrieval via Hierarchic
 collection: publications
 permalink: /publication/Are-Bina2023
 date: 2023-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  active learning, based active learning, annotations sufficient video, object re-identification, content-based retrieval, uncertainty learning

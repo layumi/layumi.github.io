@@ -3,6 +3,7 @@ title: "Ctrl-u: Robust conditional image generation via uncertainty-aware reward
 collection: publications
 permalink: /publication/Ctrl-u-R2025
 date: 2025-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  image generation uncertainty, uncertainty aware reward, conditional image generation, uncertainty learning, aigc

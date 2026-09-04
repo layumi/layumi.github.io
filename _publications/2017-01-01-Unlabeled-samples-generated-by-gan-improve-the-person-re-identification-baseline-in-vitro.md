@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Unlabele2017
 excerpt: 'Spotlight Presentation'
 date: 2017-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: Spotlight Presentation
 keywords:  gan improve person, samples generated gan, generated gan improve, object re-identification, content-based retrieval, person re-id, person retrieval, person search, aigc

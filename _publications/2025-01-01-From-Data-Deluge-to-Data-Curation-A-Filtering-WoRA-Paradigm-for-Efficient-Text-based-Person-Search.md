@@ -3,6 +3,7 @@ title: "From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficie
 collection: publications
 permalink: /publication/From-Dat2025
 date: 2025-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  based person search, person search, text based person, person re-id, person retrieval, person search

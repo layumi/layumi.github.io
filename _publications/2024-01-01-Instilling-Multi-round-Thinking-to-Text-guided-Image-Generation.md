@@ -3,6 +3,7 @@ title: "Instilling Multi-round Thinking to Text-guided Image Generation"
 collection: publications
 permalink: /publication/Instilli2024
 date: 2024-01-01
+last_modified_at: 2026-08-24
 doi: 
 oral: 
 keywords:  guided image generation, image generation, text guided image, aigc

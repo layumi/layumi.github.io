@@ -3,6 +3,7 @@ title: "U-turn: Crafting Adversarial Queries with Opposite-direction Features"
 collection: publications
 permalink: /publication/U-turn-C2022
 date: 2022-01-01
+last_modified_at: 2026-08-24
 doi: 10.1007/s11263-022-01737-y
 oral: 
 keywords:  crafting adversarial queries, turn crafting adversarial, adversarial queries opposite

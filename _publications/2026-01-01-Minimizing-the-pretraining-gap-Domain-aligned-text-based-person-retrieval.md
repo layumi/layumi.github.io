@@ -3,6 +3,7 @@ title: "Minimizing the pretraining gap: Domain-aligned text-based person retriev
 collection: publications
 permalink: /publication/Minimizi2026
 date: 2026-01-01
+last_modified_at: 2026-08-24
 doi: 10.1016/j.patcog.2026.113511
 oral: 
 keywords:  based person retrieval, person retrieval, text based person, object re-identification, content-based retrieval, person re-id, person retrieval, person search, domain adaptation

@@ -3,6 +3,7 @@ title: "Scale Up Composed Image Retrieval Learning via Modification Text Generat
 collection: publications
 permalink: /publication/Scale-Up2025
 date: 2025-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TMM.2025.3599088
 oral: 
 keywords:  text generation, modification text generation, image retrieval learning, object re-identification, content-based retrieval, aigc

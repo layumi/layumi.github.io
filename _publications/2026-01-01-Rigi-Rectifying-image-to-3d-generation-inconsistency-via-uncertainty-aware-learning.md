@@ -3,6 +3,7 @@ title: "Rigi: Rectifying image-to-3d generation inconsistency via uncertainty-aw
 collection: publications
 permalink: /publication/Rigi-Rec2026
 date: 2026-01-01
+last_modified_at: 2026-08-24
 doi: 
 oral: 
 keywords:  uncertainty aware learning, image 3d generation, uncertainty aware, uncertainty learning, aigc

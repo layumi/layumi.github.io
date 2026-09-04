@@ -3,6 +3,7 @@ title: "Improving person re-identification by attribute and identity learning"
 collection: publications
 permalink: /publication/Improvin2019
 date: 2019-01-01
+last_modified_at: 2026-08-24
 doi: 10.1016/j.patcog.2019.06.006
 oral: 
 keywords:  improving person identification, attribute identity learning, identity learning, object re-identification, content-based retrieval, person re-id, person retrieval, person search

@@ -3,6 +3,7 @@ title: "Scale-adaptive UAV Geo-localization via Height-aware Partition Learning"
 collection: publications
 permalink: /publication/Scale-ad2026
 date: 2026-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  scale adaptive uav, uav geo localization, adaptive uav geo, visual geo-localization, spatial intelligence

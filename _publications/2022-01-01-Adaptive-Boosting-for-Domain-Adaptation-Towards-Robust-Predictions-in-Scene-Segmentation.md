@@ -3,6 +3,7 @@ title: "Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in S
 collection: publications
 permalink: /publication/Adaptive2022
 date: 2022-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TIP.2022.3195642
 oral: 
 keywords:  predictions scene segmentation, robust predictions scene, boosting domain adaptation, domain adaptation

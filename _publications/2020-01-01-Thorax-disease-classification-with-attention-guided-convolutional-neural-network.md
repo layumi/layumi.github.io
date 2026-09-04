@@ -3,6 +3,7 @@ title: "Thorax disease classification with attention guided convolutional neural
 collection: publications
 permalink: /publication/Thorax-d2020
 date: 2020-01-01
+last_modified_at: 2026-08-24
 doi: 10.1016/j.patrec.2019.11.040
 oral: 
 keywords:  thorax disease classification, disease classification attention, thorax disease

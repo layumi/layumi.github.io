@@ -3,6 +3,7 @@ title: "Every Painting Awakened: A Training-free Framework for Painting-to-Anima
 collection: publications
 permalink: /publication/Every-Pa2025
 date: 2025-01-01
+last_modified_at: 2026-08-24
 doi: 
 oral: 
 keywords:  painting animation generation, framework painting animation, painting animation, aigc

@@ -3,6 +3,7 @@ title: "Harnessing Weak Pair Uncertainty for Text-based Person Search"
 collection: publications
 permalink: /publication/Harnessi2026
 date: 2026-01-01
+last_modified_at: 2026-08-24
 doi: 10.1016/j.patcog.2026.113783
 oral: 
 keywords:  person search, based person search, text based person, person re-id, person retrieval, person search, uncertainty learning

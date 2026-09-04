@@ -3,6 +3,7 @@ title: "Understanding Image Retrieval Re-Ranking: A Graph Neural Network Perspec
 collection: publications
 permalink: /publication/Understa2026
 date: 2026-01-01
+last_modified_at: 2026-08-24
 doi: 10.1145/3803010
 oral: 
 keywords:  understanding image retrieval, image retrieval ranking, image retrieval, object re-identification, content-based retrieval

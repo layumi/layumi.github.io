@@ -3,6 +3,7 @@ title: "WeatherPrompt: Multi-modality Representation Learning for All-Weather Dr
 collection: publications
 permalink: /publication/WeatherP2025
 date: 2025-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  weather drone visual, learning weather drone, drone visual geo, visual geo-localization, spatial intelligence

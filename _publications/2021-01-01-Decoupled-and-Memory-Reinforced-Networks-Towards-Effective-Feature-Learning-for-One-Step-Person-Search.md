@@ -3,6 +3,7 @@ title: "Decoupled and Memory-Reinforced Networks: Towards Effective Feature Lear
 collection: publications
 permalink: /publication/Decouple2021
 date: 2021-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  memory reinforced networks, person search, reinforced networks effective, person re-id, person retrieval, person search

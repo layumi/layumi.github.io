@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Transfer2024
 excerpt: 'Oral Presentation'
 date: 2024-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: Oral Presentation
 keywords:  framework scene adaptation, depth aware framework, scene adaptation, domain adaptation

@@ -3,6 +3,7 @@ title: "Parameter-Efficient Person Re-identification in the 3D Space"
 collection: publications
 permalink: /publication/Paramete2022
 date: 2022-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TNNLS.2022.3214834
 oral: 
 keywords:  efficient person identification, person identification 3d, person identification, object re-identification, content-based retrieval, person re-id, person retrieval, person search

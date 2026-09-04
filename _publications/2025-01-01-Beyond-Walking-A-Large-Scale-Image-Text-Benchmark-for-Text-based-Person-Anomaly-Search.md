@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Beyond-W2025
 excerpt: 'Highlight Presentation'
 date: 2025-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: Highlight Presentation
 keywords:  person anomaly search, person anomaly, image text benchmark, person re-id, person retrieval, person search

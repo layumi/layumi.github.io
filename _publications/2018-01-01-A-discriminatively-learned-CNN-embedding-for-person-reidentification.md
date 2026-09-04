@@ -3,6 +3,7 @@ title: "A discriminatively learned CNN embedding for person reidentification"
 collection: publications
 permalink: /publication/A-discri2018
 date: 2018-01-01
+last_modified_at: 2026-08-24
 doi: 10.1145/3159171
 oral: 
 keywords:  embedding person reidentification, cnn embedding person, discriminatively learned cnn, object re-identification, content-based retrieval, person re-id, person retrieval, person search

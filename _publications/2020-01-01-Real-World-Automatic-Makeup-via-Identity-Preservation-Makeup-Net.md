@@ -3,6 +3,7 @@ title: "Real-World Automatic Makeup via Identity Preservation Makeup Net"
 collection: publications
 permalink: /publication/Real-Wor2020
 date: 2020-01-01
+last_modified_at: 2026-08-23
 doi: 10.5555/3491440.3491531
 oral: 
 keywords:  makeup identity preservation, automatic makeup identity, identity preservation makeup

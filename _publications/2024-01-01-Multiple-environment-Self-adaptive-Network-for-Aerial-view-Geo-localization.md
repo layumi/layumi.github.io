@@ -3,6 +3,7 @@ title: "Multiple-environment Self-adaptive Network for Aerial-view Geo-localizat
 collection: publications
 permalink: /publication/Multiple2024
 date: 2024-01-01
+last_modified_at: 2026-08-24
 doi: 10.1016/j.patcog.2024.110363
 oral: 
 keywords:  network aerial view, adaptive network aerial, aerial view geo, visual geo-localization, spatial intelligence

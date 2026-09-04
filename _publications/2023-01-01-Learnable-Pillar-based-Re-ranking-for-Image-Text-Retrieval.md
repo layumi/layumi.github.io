@@ -3,6 +3,7 @@ title: "Learnable Pillar-based Re-ranking for Image-Text Retrieval"
 collection: publications
 permalink: /publication/Learnabl2023
 date: 2023-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  ranking image text, image text retrieval, ranking image, object re-identification, content-based retrieval

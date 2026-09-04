@@ -3,6 +3,7 @@ title: "UniAD: Integrating Geometric and Semantic Cues for Unified Anomaly Detec
 collection: publications
 permalink: /publication/UniAD-In2025
 date: 2025-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  unified anomaly detection, cues unified anomaly, anomaly detection

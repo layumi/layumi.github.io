@@ -3,6 +3,7 @@ title: "Subband-based Generative Adversarial Network for Non-parallel Many-to-ma
 collection: publications
 permalink: /publication/Subband-2022
 date: 2022-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  parallel voice conversion, voice conversion, subband based generative

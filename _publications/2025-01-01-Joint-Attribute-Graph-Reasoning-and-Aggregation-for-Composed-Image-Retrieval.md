@@ -3,6 +3,7 @@ title: "Joint Attribute Graph Reasoning and Aggregation for Composed Image Retri
 collection: publications
 permalink: /publication/Joint-At2025
 date: 2025-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TMM.2026.3657153
 oral: 
 keywords:  attribute graph reasoning, joint attribute graph, image retrieval, object re-identification, content-based retrieval

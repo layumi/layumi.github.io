@@ -3,6 +3,7 @@ title: "Harnessing Uncertainty-aware Bounding Boxes for Unsupervised 3D Object D
 collection: publications
 permalink: /publication/Harnessi2025
 date: 2025-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  3d object detection, unsupervised 3d object, boxes unsupervised 3d, uncertainty learning

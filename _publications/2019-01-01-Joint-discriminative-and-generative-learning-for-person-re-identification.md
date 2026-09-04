@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Joint-di2019
 excerpt: 'Oral Presentation'
 date: 2019-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: Oral Presentation
 keywords:  learning person identification, joint discriminative generative, person identification, object re-identification, content-based retrieval, person re-id, person retrieval, person search

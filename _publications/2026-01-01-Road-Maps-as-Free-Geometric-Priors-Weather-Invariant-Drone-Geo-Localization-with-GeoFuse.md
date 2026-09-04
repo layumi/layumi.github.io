@@ -3,6 +3,7 @@ title: "Road Maps as Free Geometric Priors: Weather-Invariant Drone Geo-Localiza
 collection: publications
 permalink: /publication/Road-Map2026
 date: 2026-01-01
+last_modified_at: 2026-08-24
 doi: 
 oral: 
 keywords:  drone geo localization, geometric priors weather, invariant drone geo, visual geo-localization, spatial intelligence

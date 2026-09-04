@@ -3,6 +3,7 @@ title: "DMRNet++: Learning Discriminative Features with Decoupled Networks and E
 collection: publications
 permalink: /publication/DMRNet-L2022
 date: 2022-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TPAMI.2022.3221079
 oral: 
 keywords:  person search, dmrnet learning discriminative, dmrnet learning, person re-id, person retrieval, person search

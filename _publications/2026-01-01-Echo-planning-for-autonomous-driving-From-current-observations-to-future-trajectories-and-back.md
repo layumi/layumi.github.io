@@ -3,6 +3,7 @@ title: "Echo planning for autonomous driving: From current observations to futur
 collection: publications
 permalink: /publication/Echo-pla2026
 date: 2026-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TMM.2026.3713776
 oral: 
 keywords:  echo planning autonomous, echo planning, planning autonomous driving

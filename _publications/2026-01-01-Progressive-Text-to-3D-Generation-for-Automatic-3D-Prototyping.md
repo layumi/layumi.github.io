@@ -3,6 +3,7 @@ title: "Progressive Text-to-3D Generation for Automatic 3D Prototyping"
 collection: publications
 permalink: /publication/Progress2026
 date: 2026-01-01
+last_modified_at: 2026-08-24
 doi: 10.1145/3797262
 oral: 
 keywords:  text 3d generation, automatic 3d prototyping, 3d prototyping, aigc

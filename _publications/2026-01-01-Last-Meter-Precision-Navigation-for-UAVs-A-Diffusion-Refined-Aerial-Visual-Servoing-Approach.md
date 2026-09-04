@@ -3,6 +3,7 @@ title: "Last-Meter Precision Navigation for UAVs: A Diffusion-Refined Aerial Vis
 collection: publications
 permalink: /publication/Last-Met2026
 date: 2026-01-01
+last_modified_at: 2026-08-25
 doi: 
 oral: 
 keywords:  precision navigation uavs, aerial visual servoing, navigation uavs

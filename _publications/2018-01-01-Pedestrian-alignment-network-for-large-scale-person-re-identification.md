@@ -3,6 +3,7 @@ title: "Pedestrian alignment network for large-scale person re-identification"
 collection: publications
 permalink: /publication/Pedestri2018
 date: 2018-01-01
+last_modified_at: 2026-07-29
 doi: 10.1109/TCSVT.2018.2873599
 oral: 
 keywords:  pedestrian alignment network, pedestrian alignment, scale person identification, object re-identification, content-based retrieval, person re-id, person retrieval, person search

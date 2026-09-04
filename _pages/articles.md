@@ -1,6 +1,8 @@
 ---
 layout: archive
 title: "Publications"
+sitemap: false
+noindex: true
 permalink: /articles/
 author_profile: true
 redirect_from: 

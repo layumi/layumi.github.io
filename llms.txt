@@ -1,8 +1,8 @@
 # Zhedong Zheng (郑哲东)
 
-> Tenure-track Assistant Professor at University of Macau, hosting the AIGC-DL Lab. Computer Vision researcher specializing in AIGC, Spatial Intelligence, Data-centric AI, Object Re-identification, and Domain Adaptation. 90+ papers (including preprints), H-index 41, 14k+ citations. IEEE Senior Member. Actively recruiting PhD students and postdocs; research is steadily published at CVPR, ICCV, ECCV, NeurIPS, ICLR, ACL, EMNLP, ACM MM, SIGIR, and ICRA.
+> Tenure-track Assistant Professor at University of Macau, hosting the AIGC-DL Lab. Computer Vision researcher specializing in AIGC, Spatial Intelligence, Data-centric AI, Object Re-identification, and Domain Adaptation. 80+ published papers (96 listed incl. preprints), H-index 41, 14k+ citations. IEEE Senior Member. Actively recruiting PhD students and postdocs; research is steadily published at CVPR, ICCV, ECCV, NeurIPS, ICLR, ACL, EMNLP, ACM MM, SIGIR, and ICRA.
 
-> 郑哲东，澳门大学终身轨助理教授，AIGC-DL 实验室负责人。研究方向：计算机视觉、空间智能（无人机地理定位）、数据为中心的 AI、物体/行人重识别、域自适应、AIGC 与不确定性估计。已发表 90+ 篇论文，H-index 41，引用 14k+，IEEE 高级会员。长期招收博士生与博士后，成果持续发表于 CVPR / ICCV / ECCV / NeurIPS / ICLR / ACL / EMNLP / ACM MM / SIGIR / ICRA。
+> 郑哲东，澳门大学终身轨助理教授，AIGC-DL 实验室负责人。研究方向：计算机视觉、空间智能（无人机地理定位）、数据为中心的 AI、物体/行人重识别、域自适应、AIGC 与不确定性估计。已正式发表 80+ 篇论文（列表共 96 篇，含预印本），H-index 41，引用 14k+，IEEE 高级会员。长期招收博士生与博士后，成果持续发表于 CVPR / ICCV / ECCV / NeurIPS / ICLR / ACL / EMNLP / ACM MM / SIGIR / ICRA。
 
 Zhedong Zheng earned his Ph.D. from the ReLER Lab at University of Technology Sydney (supervised by Prof. Yi Yang and Dr. Liang Zheng), his B.S. from Fudan University (2016), and was a postdoctoral fellow at NUS with Prof. Tat-Seng Chua and Prof. Angela Yao. His research focuses on building reliable AI through better data, uncertainty estimation, and multi-view spatial intelligence.
 
@@ -23,7 +23,7 @@ Zhedong Zheng earned his Ph.D. from the ReLER Lab at University of Technology Sy
 
 ## Research · 研究方向
 - [Research Interests](https://zdzheng.xyz/): AIGC, Data-centric AI, Spatial Intelligence, Object Re-identification, Domain Adaptation, Geo-localization, Person Re-identification, Vehicle Re-ID, 3D Vision, Generative AI, Uncertainty Estimation
-- [Publications](https://zdzheng.xyz/publications/): 90+ papers at top-tier venues (CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, ACM MM, ACL, etc.) with PDFs, code, datasets, and BibTeX
+- [Publications](https://zdzheng.xyz/publications/): 80+ published papers (96 incl. preprints) at top-tier venues (CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, ACM MM, ACL, etc.) with PDFs, code, datasets, and BibTeX
 - [Funding](https://zdzheng.xyz/funding/): FDCT research grants (2025-2029)
 - [Team](https://zdzheng.xyz/team/): Lab members and collaborators
 - [Blog](https://zdzheng.xyz/blogs/): Research blog posts
@@ -52,12 +52,14 @@ Zhedong Zheng earned his Ph.D. from the ReLER Lab at University of Technology Sy
 - [Uncertainty-rectified pseudo labels（IJCV 2021）](https://zdzheng.xyz/publication/Rectifyi2021)：用不确定性校正伪标签的域自适应分割。
 
 ## Recent Highlights (2026) · 近期成果
-- [ACM MM 2026](https://zdzheng.xyz/publication/): two papers on dynamic aerial matching and audio-visual semantic segmentation
-- [ACL 2026](https://zdzheng.xyz/publication/): two papers on multimodal forgery reasoning and facial forgery attribution
-- [EMNLP 2026 Findings](https://zdzheng.xyz/publication/): three papers on uncertainty in multimodal models, medical RAG, and causal intervention
-- [CVPR 2026](https://zdzheng.xyz/publication/): manipulation detection against MLLM-crafted narratives
-- [ICLR 2026](https://zdzheng.xyz/publication/): efficient sketch-style reasoning in large multimodal models
-- [npj AI 2026](https://zdzheng.xyz/publication/): 3D Magic Mirror, clothing reconstruction from a single image
+- [Acoustically Grounded Cost Learning](https://zdzheng.xyz/publication/Acoustic2026) (ACM MM 2026): open-vocabulary audio-visual semantic segmentation
+- [Scale-adaptive UAV Geo-localization](https://zdzheng.xyz/publication/Scale-ad2026) (ACM MM 2026): height-aware partitioning for dynamic aerial matching
+- [Generating Attribution Reports for Manipulated Facial Images](https://zdzheng.xyz/publication/Generati2026) (ACL 2026): facial forgery attribution dataset and baseline
+- [Cultivating Forensic Reasoning](https://zdzheng.xyz/publication/Cultivat2026) (ACL 2026): reasoning-driven multimodal manipulation detection (REFORM)
+- [URGen](https://zdzheng.xyz/publication/URGen-Un2026) / [Causal Intervention with LMMs](https://zdzheng.xyz/publication/Causal-I2026) / [Uncertainty-o](https://zdzheng.xyz/publication/Uncertai2026) (EMNLP 2026 Findings): uncertainty in multimodal models, guideline-grounded medical RAG, and causal intervention for pedestrian anomaly retrieval
+- [The Coherence Trap](https://zdzheng.xyz/publication/The-Cohe2026) (CVPR 2026): manipulation detection against MLLM-crafted narratives
+- [SketchThinker-R1](https://zdzheng.xyz/publication/SketchTh2026) (ICLR 2026): efficient sketch-style reasoning in large multimodal models
+- [3D Magic Mirror](https://zdzheng.xyz/publication/3D-Magic2026) (npj AI 2026): clothing reconstruction from a single image
 - Journal works in TIP, TMM, PR, TVCG, TOMM, TNNLS on geo-localization, person search, and generative models
 
 ## Key Datasets · 关键数据集

@@ -3,6 +3,7 @@ title: "Camstyle: A novel data augmentation method for person re-identification"
 collection: publications
 permalink: /publication/Camstyle2019
 date: 2019-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TIP.2018.2874313
 oral: 
 keywords:  augmentation method person, novel data augmentation, data augmentation, object re-identification, content-based retrieval, person re-id, person retrieval, person search

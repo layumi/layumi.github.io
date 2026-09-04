@@ -3,6 +3,7 @@ title: "Each part matters: Local patterns facilitate cross-view geo-localization
 collection: publications
 permalink: /publication/Each-par2021
 date: 2021-01-01
+last_modified_at: 2026-07-29
 doi: 10.1109/TCSVT.2021.3061265
 oral: 
 keywords:  geo localization, view geo localization, cross view geo, visual geo-localization, spatial intelligence

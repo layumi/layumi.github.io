@@ -3,6 +3,7 @@ title: "Less is More: Sparse Sampling for Dense Reaction Predictions"
 collection: publications
 permalink: /publication/Less-is-2021
 date: 2021-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  dense reaction predictions, sampling dense reaction, reaction predictions

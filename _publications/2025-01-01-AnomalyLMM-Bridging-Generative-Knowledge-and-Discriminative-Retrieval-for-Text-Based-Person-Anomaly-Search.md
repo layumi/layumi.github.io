@@ -3,6 +3,7 @@ title: "AnomalyLMM: Bridging Generative Knowledge and Discriminative Retrieval f
 collection: publications
 permalink: /publication/AnomalyL2025
 date: 2025-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  person anomaly search, anomalylmm bridging generative, person anomaly, object re-identification, content-based retrieval, person re-id, person retrieval, person search

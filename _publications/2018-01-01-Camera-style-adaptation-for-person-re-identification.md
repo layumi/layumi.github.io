@@ -3,6 +3,7 @@ title: "Camera style adaptation for person re-identification"
 collection: publications
 permalink: /publication/Camera-s2018
 date: 2018-01-01
+last_modified_at: 2026-08-23
 doi: 10.1109/CVPR.2018.00541
 oral: 
 keywords:  adaptation person identification, camera style adaptation, person identification, object re-identification, content-based retrieval, person re-id, person retrieval, person search, domain adaptation

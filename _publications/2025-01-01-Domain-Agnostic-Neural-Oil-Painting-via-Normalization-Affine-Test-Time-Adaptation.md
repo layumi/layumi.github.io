@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Domain-A2025
 excerpt: 'Oral Presentation'
 date: 2025-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: Oral Presentation
 keywords:  neural oil painting, agnostic neural oil, oil painting normalization, domain adaptation

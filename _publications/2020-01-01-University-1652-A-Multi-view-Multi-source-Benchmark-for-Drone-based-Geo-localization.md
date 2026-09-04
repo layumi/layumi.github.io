@@ -3,6 +3,7 @@ title: "University-1652: A Multi-view Multi-source Benchmark for Drone-based Geo
 collection: publications
 permalink: /publication/Universi2020
 date: 2020-01-01
+last_modified_at: 2026-08-23
 doi: 10.1145/3394171.3413896
 oral: 
 keywords:  benchmark drone based, drone based geo, benchmark drone, visual geo-localization, spatial intelligence

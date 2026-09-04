@@ -53,8 +53,8 @@ layout: default
         {% if page.paperurl %}
           <meta name="citation_pdf_url" content="{{ page.paperurl | absolute_url }}">
         {% endif %}
-        {% if page.abs %}
-          <meta name="citation_abstract" content="{{ page.abs | strip_html | escape_once }}">
+        {% if page.abstract or page.abs %}
+          <meta name="citation_abstract" content="{{ page.abstract | default: page.abs | strip_html | escape_once }}">
         {% endif %}
         {% if page.keywords %}
           <meta name="citation_keywords" content="{{ page.keywords }}">
@@ -102,8 +102,8 @@ layout: default
 		  <p>Code is available at: <a href="{{ page.code }}"><u>{{ page.code }}</u></a></p>
 		{% endif %}
 		
-		{% if page.abs %}
-		  <p><strong>Abstract:</strong> {{ page.abs}} </p>
+		{% if page.abstract or page.abs %}
+		  <p><strong>Abstract:</strong> {{ page.abstract | default: page.abs }} </p>
 		{% endif %}
 			
 		
@@ -168,7 +168,7 @@ layout: default
 		       "@type": "Organization",
 		       "name": "{{ pub_name }}"
 		     },{% endif %}
-		     {% if page.abs %}"description": "{{ page.abs | strip_html | escape_once }}",{% endif %}
+		     {% if page.abstract or page.abs %}"description": "{{ page.abstract | default: page.abs | strip_html | escape_once }}",{% endif %}
 			 {% assign kw_arr = page.keywords | split: "," %}
              "keywords": [{% for kw in kw_arr %}"{{ kw | strip | escape_once }}"{% unless forloop.last %}, {% endunless %}{% endfor %}],
 		     "inLanguage": "en",

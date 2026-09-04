@@ -3,6 +3,7 @@ title: "Align and tell: Boosting text-video retrieval with local alignment and f
 collection: publications
 permalink: /publication/Align-an2022
 date: 2022-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TMM.2022.3204444
 oral: 
 keywords:  text video retrieval, video retrieval local, video retrieval, object re-identification, content-based retrieval

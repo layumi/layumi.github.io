@@ -3,6 +3,7 @@ title: "3D Magic Mirror: Clothing Reconstruction from a Single Image via a Causa
 collection: publications
 permalink: /publication/3D-Magic2026
 date: 2026-01-01
+last_modified_at: 2026-08-24
 doi: 10.1038/s44387-026-00082-6
 oral: 
 keywords:  mirror clothing reconstruction, magic mirror clothing, mirror clothing, aigc

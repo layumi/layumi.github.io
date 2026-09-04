@@ -3,6 +3,7 @@ title: "FANet: Fovea Attention Network for Robust Aerial Geo-localization Across
 collection: publications
 permalink: /publication/FANet-Fo2026
 date: 2026-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TIP.2026.3690315
 oral: 
 keywords:  localization diverse weather, aerial geo localization, robust aerial geo, visual geo-localization, spatial intelligence

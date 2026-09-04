@@ -3,6 +3,7 @@ title: "Unsupervised scene adaptation with memory regularization in vivo"
 collection: publications
 permalink: /publication/Unsuperv2020
 date: 2020-01-01
+last_modified_at: 2026-08-23
 doi: 10.5555/3491440.3491590
 oral: 
 keywords:  scene adaptation memory, unsupervised scene adaptation, adaptation memory regularization, domain adaptation

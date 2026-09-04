@@ -3,6 +3,7 @@ title: "Collaborative group: Composed image retrieval via consensus learning fro
 collection: publications
 permalink: /publication/Collabor2024
 date: 2024-01-01
+last_modified_at: 2026-08-24
 doi: 10.1016/j.knosys.2024.112135
 oral: 
 keywords:  image retrieval consensus, retrieval consensus, retrieval consensus learning, object re-identification, content-based retrieval

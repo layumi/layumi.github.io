@@ -3,6 +3,7 @@ title: "CLIP-SR: Collaborative Linguistic and Image Processing for Super-Resolut
 collection: publications
 permalink: /publication/CLIP-SR-2025
 date: 2025-01-01
+last_modified_at: 2026-08-24
 doi: 10.1109/TMM.2025.3618555
 oral: 
 keywords:  processing super resolution, super resolution, image processing super

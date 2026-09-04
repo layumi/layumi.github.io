@@ -3,6 +3,7 @@ title: "Pretrain-then-Adapt: Uncertainty-Aware Test-Time Adaptation for Text-bas
 collection: publications
 permalink: /publication/Pretrain2026
 date: 2026-01-01
+last_modified_at: 2026-08-23
 doi: 3805712.3809598
 oral: 
 keywords:  based person search, person search, text based person, person re-id, person retrieval, person search, domain adaptation, uncertainty learning

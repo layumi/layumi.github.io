@@ -3,6 +3,7 @@ title: "Going beyond real data: A robust visual representation for vehicle re-id
 collection: publications
 permalink: /publication/Going-be2020
 date: 2020-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  representation vehicle identification, vehicle identification, real data robust, object re-identification, content-based retrieval

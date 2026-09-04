@@ -3,6 +3,7 @@ title: "Macro-micro adversarial network for human parsing"
 collection: publications
 permalink: /publication/Macro-mi2018
 date: 2018-01-01
+last_modified_at: 2026-08-23
 doi: 10.1007/978-3-030-01240-3_26
 oral: 
 keywords:  network human parsing, macro micro adversarial, human parsing, person re-id, person retrieval, person search

@@ -3,6 +3,7 @@ title: "Connecting Language and Vision for Natural Language-Based Vehicle Retrie
 collection: publications
 permalink: /publication/Connecti2021
 date: 2021-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  based vehicle retrieval, vehicle retrieval, language based vehicle, object re-identification, content-based retrieval

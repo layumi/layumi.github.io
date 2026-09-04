@@ -3,6 +3,7 @@ title: "Composed Image Retrieval with Text Feedback via Multi-grained Uncertaint
 collection: publications
 permalink: /publication/Composed2024
 date: 2024-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  image retrieval text, composed image retrieval, image retrieval, object re-identification, content-based retrieval, uncertainty learning

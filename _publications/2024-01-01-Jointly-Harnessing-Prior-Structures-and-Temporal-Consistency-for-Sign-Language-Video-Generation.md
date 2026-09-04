@@ -3,6 +3,7 @@ title: "Jointly Harnessing Prior Structures and Temporal Consistency for Sign La
 collection: publications
 permalink: /publication/Jointly-2024
 date: 2024-01-01
+last_modified_at: 2026-08-24
 doi: 10.1145/3648368
 oral: 
 keywords:  sign language video, language video generation, consistency sign language, aigc

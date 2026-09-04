@@ -3,6 +3,7 @@ title: "Can Vision Language Models Reason from the Sky? Unifying UAV Reasoning a
 collection: publications
 permalink: /publication/Can-Visi2026
 date: 2026-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  uav reasoning generation, unifying uav reasoning, uav reasoning, aigc

@@ -3,6 +3,7 @@ title: "URGen: Uncertainty-guided Retrieval-augmented Generation for Guideline-G
 collection: publications
 permalink: /publication/URGen-Un2026
 date: 2026-01-01
+last_modified_at: 2026-08-21
 doi: 
 oral: 
 keywords:  medical question answering, retrieval augmented generation, question answering, object re-identification, content-based retrieval, uncertainty learning, aigc

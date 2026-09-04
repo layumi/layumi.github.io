@@ -3,6 +3,7 @@ title: "Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spat
 collection: publications
 permalink: /publication/Towards-2024
 date: 2024-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  drones geotext 1652, guided drones geotext, drones geotext

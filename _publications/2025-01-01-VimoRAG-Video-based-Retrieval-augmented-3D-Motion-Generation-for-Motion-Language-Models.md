@@ -3,6 +3,7 @@ title: "VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion
 collection: publications
 permalink: /publication/VimoRAG-2025
 date: 2025-01-01
+last_modified_at: 2026-08-23
 doi: 
 oral: 
 keywords:  motion language models, generation motion language, motion language, object re-identification, content-based retrieval, aigc

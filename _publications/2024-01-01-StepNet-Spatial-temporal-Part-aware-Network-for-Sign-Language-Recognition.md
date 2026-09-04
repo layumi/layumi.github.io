@@ -3,6 +3,7 @@ title: "StepNet: Spatial-temporal Part-aware Network for Sign Language Recogniti
 collection: publications
 permalink: /publication/StepNet-2024
 date: 2024-01-01
+last_modified_at: 2026-08-24
 doi: 10.1145/3656046
 oral: 
 keywords:  sign language recognition, network sign language, stepnet spatial temporal

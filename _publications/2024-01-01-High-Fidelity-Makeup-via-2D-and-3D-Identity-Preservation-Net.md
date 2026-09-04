@@ -3,6 +3,7 @@ title: "High Fidelity Makeup via 2D and 3D Identity Preservation Net"
 collection: publications
 permalink: /publication/High-Fid2024
 date: 2024-01-01
+last_modified_at: 2026-08-24
 doi: 10.1145/3656475
 oral: 
 keywords:  fidelity makeup 2d, 3d identity preservation, high fidelity makeup
