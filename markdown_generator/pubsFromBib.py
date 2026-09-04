@@ -381,7 +381,7 @@ for pubsource in publist:
             else:
                 md += "\ncitation: '" + html_escape(citation) + "'"
 
-            if "abs" in b.keys():
+            if "abs" in b.keys() or "abstract" in b.keys():
                 md += "\nabs: '" + b["abs"] + "'"
             md +="\npub_year: '" + html_escape(pub_year)+"'"
 

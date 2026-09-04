@@ -3,7 +3,6 @@ title: "Unsupervised Eyeglasses Removal in the Wild"
 collection: publications
 permalink: /publication/Unsuperv2020_1
 date: 2020-01-01
-last_modified_at: 2026-07-29
 doi: 10.1109/tcyb.2020.2995496
 oral: 
 keywords:  unsupervised eyeglasses removal, eyeglasses removal wild, unsupervised eyeglasses

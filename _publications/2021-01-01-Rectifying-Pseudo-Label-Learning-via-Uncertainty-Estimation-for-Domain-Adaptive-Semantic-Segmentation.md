@@ -3,7 +3,6 @@ title: "Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain A
 collection: publications
 permalink: /publication/Rectifyi2021
 date: 2021-01-01
-last_modified_at: 2026-07-29
 doi: 10.1007/s11263-020-01395-y
 oral: 
 keywords:  pseudo label learning, label learning uncertainty, adaptive semantic segmentation, domain adaptation, uncertainty learning

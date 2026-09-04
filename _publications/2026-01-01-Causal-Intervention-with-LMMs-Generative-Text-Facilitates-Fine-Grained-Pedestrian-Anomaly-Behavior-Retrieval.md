@@ -3,7 +3,6 @@ title: "Causal Intervention with LMMs: Generative Text Facilitates Fine-Grained 
 collection: publications
 permalink: /publication/Causal-I2026
 date: 2026-01-01
-last_modified_at: 2026-08-21
 doi: 
 oral: 
 keywords:  intervention lmms generative, pedestrian anomaly behavior, causal intervention lmms, object re-identification, content-based retrieval, person re-id, person retrieval, person search

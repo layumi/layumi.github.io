@@ -3,7 +3,6 @@ title: "Dual-path convolutional image-text embeddings with instance loss"
 collection: publications
 permalink: /publication/Dual-pat2020
 date: 2020-01-01
-last_modified_at: 2026-07-29
 doi: 10.1145/3383184
 oral: 
 keywords:  embeddings instance loss, text embeddings instance, image text embeddings
