@@ -37,6 +37,12 @@ _SUBS = [
     (re.compile(r"\\etc\b"), "etc."),
     (re.compile(r"\\wrt\b"), "w.r.t."),
     (re.compile(r"\\cf\b"), "cf."),
+    # LaTeX 符号命令（llms-full.txt 里因二次转义残留的形态）
+    (re.compile(r"\\textasciitilde\b"), "~"),
+    (re.compile(r"\\textgreater\b"), ">"),
+    (re.compile(r"\\textless\b"), "<"),
+    # 转义的可打印符号：\- \> \_ 等。放在命令规则之后，避免抢走 \eg 之类
+    (re.compile(r"\\([%&_#>$~^])"), r"\1"),
     # 兜底：去掉剩余反斜杠命令的标记，保留词本身
     (re.compile(r"\\([a-zA-Z]+)"), r"\1"),
 ]
