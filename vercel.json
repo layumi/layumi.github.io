@@ -2,6 +2,16 @@
   "cleanUrls": true,
   "redirects": [
     {
+      "source": "/more2024/",
+      "destination": "/MORE2024",
+      "permanent": true
+    },
+    {
+      "source": "/more2025/",
+      "destination": "/MORE2025",
+      "permanent": true
+    },
+    {
       "source": "/more2024",
       "destination": "/MORE2024",
       "permanent": true

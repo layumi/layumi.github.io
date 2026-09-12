@@ -18,6 +18,7 @@
 
 from pybtex.database.input import bibtex
 import pybtex.database.input.bibtex 
+from plain_text import to_plain_text
 from time import strptime
 from VenueNorm import normalize_venue, check_venue
 import string
@@ -397,10 +398,12 @@ for pubsource in publist:
             else:
                 md += "\ncitation: '" + html_escape(citation) + "'"
 
+            # 摘要走纯文本清洗（页面可见 + meta description + JSON-LD 都用这个字段）；
+            # bib: 块（下面 bibx）保持原始 BibTeX 不动，那份是给人复制进 .tex 的
             if "abs" in b.keys(): 
-                md += "\nabs: '" + b["abs"].replace("'", "''")  + "'"
+                md += "\nabs: '" + to_plain_text(b["abs"]).replace("'", "''")  + "'"
             if "abstract" in b.keys():
-                md += "\nabs: '" + b["abstract"].replace("'", "''")  + "'"
+                md += "\nabs: '" + to_plain_text(b["abstract"]).replace("'", "''")  + "'"
 
             _lmd = get_git_date("../_publications/" + os.path.basename(md_filename))
             if _lmd:
