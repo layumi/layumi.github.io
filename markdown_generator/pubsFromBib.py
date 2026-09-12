@@ -210,28 +210,33 @@ for pubsource in publist:
             if "note" in b.keys():
                 oral = b["note"]
             
-            lower_title = clean_title.lower()
+            # KeyBERT 必须吃「正常标题」：clean_title 已把空格换成连字符，分词器会把词切断
+            # （'re-identification' 被切成 're'+'identification'），产出 'boxes unsupervised 3d' 这类残片。
+            raw_title = b["title"].replace("{", "").replace("}", "").replace("\\", "")
+            lower_title = raw_title.lower()
+            # 下面的硬编码规则沿用原有的连字符形式匹配，保持行为完全不变
+            match_title = clean_title.lower()
             keywords=" " + extract_keywords_bert(lower_title)
-            if "re-identification" in lower_title or "reidentification" in lower_title or "retrieval" in lower_title:
+            if "re-identification" in match_title or "reidentification" in match_title or "retrieval" in match_title:
                 keywords += "object re-identification, " 
                 keywords += "content-based retrieval, "
                 
-            if "person" in lower_title or "pedestrian" in lower_title or "human" in lower_title:
+            if "person" in match_title or "pedestrian" in match_title or "human" in match_title:
                 keywords += "person re-id, "
                 keywords += "person retrieval, "
                 keywords += "person search, "
                 
-            if "adaptation" in lower_title or "domain" in lower_title:
+            if "adaptation" in match_title or "domain" in match_title:
                 keywords += "domain adaptation, "
                 
-            if "geo-localization" in lower_title:
+            if "geo-localization" in match_title:
                 keywords += "visual geo-localization, " 
                 keywords += "spatial intelligence, "
             
-            if "uncertainty" in lower_title:
+            if "uncertainty" in match_title:
                 keywords += "uncertainty learning, " 
             
-            if "generation" in lower_title or "reconstruction" in lower_title or "generated" in lower_title or "synthesized" in lower_title:
+            if "generation" in match_title or "reconstruction" in match_title or "generated" in match_title or "synthesized" in match_title:
                 keywords += "aigc, "
             
             keywords = keywords[:-2]

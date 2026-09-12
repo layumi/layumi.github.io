@@ -151,6 +151,13 @@ layout: default
 		    {% if page.venue contains 'ACM' %}{% assign pub_name = 'ACM' %}
 		    {% elsif page.venue contains 'IEEE' %}{% assign pub_name = 'IEEE' %}
 		    {% elsif page.venue contains 'Springer' %}{% assign pub_name = 'Springer' %}{% endif %}
+		    <!-- sameAs 只放真正「同一份工作」的标识：DOI 与 arXiv -->
+		    {% assign doi_url = "" %}
+		    {% if page.doi contains "10." %}{% assign doi_url = page.doi | prepend: "https://doi.org/" %}{% endif %}
+		    {% assign arxiv_url = "" %}
+		    {% if page.venue contains "arXiv:" %}{% assign arxiv_id = page.venue | split: "arXiv:" | last | split: " " | first | strip %}{% assign arxiv_url = "https://arxiv.org/abs/" | append: arxiv_id %}{% endif %}
+		    {% assign same_list = doi_url %}
+		    {% if arxiv_url != "" %}{% if same_list != "" %}{% assign same_list = same_list | append: "|" %}{% endif %}{% assign same_list = same_list | append: arxiv_url %}{% endif %}
 		    <script type="application/ld+json">
 		    { "@context": "https://schema.org", 
 		     "@type": "ScholarlyArticle",
@@ -172,9 +179,24 @@ layout: default
 			 {% assign kw_arr = page.keywords | split: "," %}
              "keywords": [{% for kw in kw_arr %}"{{ kw | strip | escape_once }}"{% unless forloop.last %}, {% endunless %}{% endfor %}],
 		     "inLanguage": "en",
+		     {% if doi_url != "" %}"identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": "{{ page.doi }}" },{% endif %}
+		     {% if same_list != "" %}"sameAs": [{% assign same_arr = same_list | split: "|" %}{% for u in same_arr %}"{{ u | strip }}"{% unless forloop.last %}, {% endunless %}{% endfor %}],{% endif %}
 		     "datePublished": "{{ page.date | date_to_xmlschema }}"
 	        }
 		    </script>
+		    {% if page.code and page.code != "" %}
+		    <!-- 代码仓是独立实体，用 SoftwareSourceCode 而不是塞进论文的 sameAs；isBasedOn 表示该实现基于本论文 -->
+		    <script type="application/ld+json">
+		    { "@context": "https://schema.org",
+		      "@type": "SoftwareSourceCode",
+		      "name": "{{ page.title | strip_html | escape_once }} (code)",
+		      "codeRepository": "{{ page.code }}",
+		      "url": "{{ page.code }}",
+		      "author": [{{ page.sqlauthor }}],
+		      "isBasedOn": { "@type": "ScholarlyArticle", "@id": "{{ page.url | absolute_url }}" }
+		    }
+		    </script>
+		    {% endif %}
 		{% endif %}
 		
     
