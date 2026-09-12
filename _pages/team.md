@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "AI Generated Content and Data-centric Learning (AIGC-DL) Lab"
+description: "Members of the AIGC-DL Lab at the University of Macau, led by Prof. Zhedong Zheng — postdocs, PhD students, research assistants and mentored students."
 permalink: /team/
 author_profile: true
 redirect_from:

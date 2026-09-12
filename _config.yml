@@ -291,6 +291,20 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # 子模块页面：README.md 托管在独立仓库（spyflying/ACMMM2025Workshop-UAV 等），
+  # 无法在本仓库改其 front matter，故按路径作用域在此下发 description。
+  - scope:
+      path: "ACMMM2026Workshop-UAV"
+    values:
+      description: "UAVM 2026 workshop at ACM Multimedia 2026 on UAVs in Multimedia: call for papers, challenge, important dates and best paper awards."
+  - scope:
+      path: "ACMMM2025Workshop-UAV"
+    values:
+      description: "UAVM 2025 workshop at ACM Multimedia 2025 on UAVs in Multimedia: call for papers, challenge, invited speakers and the 13 accepted papers."
+  - scope:
+      path: "synthir26"
+    values:
+      description: "SynthIR: the First Workshop on Synthetic Content in Information Retrieval Ecosystems, at SIGIR 2026 — call for papers, deadline 6 June 2026 and awards."
 
 
 # Sass/SCSS

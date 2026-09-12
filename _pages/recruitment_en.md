@@ -1,7 +1,8 @@
 ---
 permalink: /recruitment_en
 title: "Join AIGC-DL Lab - Recruitment"
-seo_title: "Open Positions | Zhedong Zheng (University of Macau) - AI PhD / Postdoc Recruitment"
+seo_title: "Open Positions | PhD, Postdoc & Internships at AIGC-DL Lab, University of Macau"
+description: "PhD, postdoc, research assistant and master's internship positions at AIGC-DL Lab, University of Macau. PhD scholarship MOP 12,500–14,000/month."
 author_profile: true
 ---
 

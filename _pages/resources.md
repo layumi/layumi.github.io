@@ -2,13 +2,12 @@
 layout: archive
 title: "Resources"
 seo_title: Drone Geo-Localization | Person Re-ID | Datasets & Code
+description: "Open-source code, benchmarks and datasets for UAV geo-localization, aerial spatial intelligence, person re-ID, text-based person search and anomaly search."
+keywords: UAV, Drone, Geo-localization, Spatial Intelligence, BEV, Code and Dataset, Person Re-ID, Object Re-ID, Person Retrieval, Anomaly Search, Domain Adaptation, Person Search
 permalink: /resources/
 author_profile: true
 classes: wide
 ---
-
-<meta name="description" content="Open-source Code, Benchmarks and Datasets for UAV Geo-localization, Aerial Spatial Intelligence, Person Re-ID, Text-based Person Search and Anomaly Search"/>
-<meta name="keywords" content="UAV, Drone, Geo-localization, Spatial Intelligence, BEV, Code and Dataset, Person Re-ID, Object Re-ID, Person Retrieval, Anomaly Search, Domain Adaptation, Person Search" />
 
 <style>
 /* ---- Card grid: soft cards with hover lift ---- */

@@ -2,6 +2,7 @@
 layout: archive
 title: "Publications"
 seo_title: "Publications | Person Re-ID, Drone Geo-localization, AIGC — Zhedong Zheng"
+description: "Complete publication list of Zhedong Zheng (University of Macau): person re-identification, drone geo-localization, AIGC and spatial intelligence, with PDF, code and dataset links."
 permalink: /publications/
 author_profile: true
 ---
