@@ -15,6 +15,7 @@ redirect_from:
 
 ## Postdoc
 - [Shaofei Huang](https://spyflying.github.io/): PKU (B.S.) CAS (M.S., Ph.D)
+- [Shuyu Yang](https://scholar.google.com.sg/citations?user=U8sKsVYAAAAJ): XJTU (B.S., Ph.D)
 
 
 ## PhD
