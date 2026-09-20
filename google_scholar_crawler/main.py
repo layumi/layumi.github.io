@@ -1,23 +1,31 @@
 """Fetch citation data from Google Scholar for the personal homepage.
 
-Design notes
-------------
-Google aggressively rate-limits datacenter IPs (GitHub Actions runners live in
-Azure ranges that are heavily abused by scrapers).  When Google returns 403,
-scholarly's internal retry loop can only rotate the session cookie -- with no
-proxy configured it cannot change the exit IP, so after `_max_retries` attempts
-it raises MaxTriesExceededException.
+Why this file looks the way it does
+-----------------------------------
+Google rate-limits datacenter IPs hard, and GitHub Actions runners live in
+Azure ranges that scrapers have burned.  Two facts drive the whole design:
 
-Empirically this job succeeded only ~20% of the time over 2026-03..2026-09.
-So the strategy here is:
+1. **scholarly's 403 handler is very slow.**  With no proxy configured, every
+   attempt after the first sleeps ``random.uniform(60, 120)`` seconds, and then
+   ``_get_page`` re-runs the entire loop through its "premium" path, doubling
+   the cost.  Measured: ``set_retries(10)`` makes a single blocked fetch take
+   ~28 minutes.  An earlier revision combined that with 4 outer rounds and
+   burned **116 minutes of runner time and still published nothing.**
 
-1. Give scholarly a longer, more patient internal retry budget (more attempts,
-   longer per-request timeout).
-2. Retry the *whole* fetch at this level too, sleeping between rounds, because
-   a fresh round builds brand-new sessions with fresh cookies.
-3. If every round fails, exit with a distinct status (75) instead of crashing,
-   so the workflow can treat "Google said no today" as a soft failure and keep
-   the previously published numbers rather than showing an error.
+   => Therefore this script deliberately keeps scholarly's internal retry
+      budget at 1 and does its own retrying.  Retrying is cheap here: the
+      expensive part is scholarly's internal backoff, not our loop.
+
+2. **The exit IP is what Google judges, and we cannot change it.**  A fresh
+   round does rebuild session + cookies, which is the only lever available
+   without a paid proxy.  So resilience comes from *many cheap rounds spaced
+   out in time*, not from one long patient attempt.
+
+The outer loop therefore:
+  * makes up to ``MAX_ROUNDS`` quick attempts,
+  * spaces them with jittered backoff (de-synchronising from the cron schedule),
+  * and exits 75 on total failure so the caller can tell "Google refused"
+    apart from "the code is broken".
 """
 
 import json
@@ -31,25 +39,30 @@ from scholarly import scholarly
 
 SCHOLAR_ID = 'XT17oUEAAAAJ'
 
-# Whole-run retry budget. Each round internally performs `MAX_INTERNAL_RETRIES`
-# attempts, so the total number of HTTP requests is bounded by the product.
-MAX_ROUNDS = 4
-MAX_INTERNAL_RETRIES = 10
-REQUEST_TIMEOUT = 30
-BASE_SLEEP = 20          # seconds before round 2, grows linearly
-JITTER = 15              # random additional seconds, de-synchronises from cron
+# One attempt is allowed a handful of quick internal retries -- enough to ride
+# out a transient blip, few enough that a hard block is detected in seconds
+# rather than minutes.  RAISE THIS ONLY IF YOU HAVE VERIFIED THE TIMING:
+# each internal retry after the first can cost up to 120s x 2 (secondary +
+# premium path), so set_retries(5) already means ~15 min per attempt.
+MAX_INTERNAL_RETRIES = 2
+REQUEST_TIMEOUT = 20
+
+MAX_ROUNDS = 8           # cheap attempts, spaced out
+BASE_SLEEP = 20          # seconds; grows linearly per round
+JITTER = 25              # random extra seconds, avoids cron-locked patterns
+MAX_TOTAL_SECONDS = 20 * 60   # global wall-clock ceiling, checked between rounds
 
 EXIT_ANTI_BOT = 75       # distinct code: Google refused, not a code bug
 
 
 def _configure_scholarly() -> None:
-    """Widen scholarly's retry/timeout envelope for flaky datacenter IPs."""
+    """Keep scholarly's own retry budget minimal; we retry at this level."""
     scholarly.set_retries(MAX_INTERNAL_RETRIES)
     scholarly.set_timeout(REQUEST_TIMEOUT)
 
 
 def _fetch_author():
-    """One fetch round: resolve the author id and fill all sections."""
+    """One attempt: resolve the author id and fill all sections."""
     author = scholarly.search_author_id(SCHOLAR_ID)
     scholarly.fill(
         author,
@@ -97,9 +110,12 @@ def _write_results(author) -> None:
 
 def main() -> int:
     _configure_scholarly()
+    started = time.time()
 
     author = None
+    attempts = 0
     for round_index in range(1, MAX_ROUNDS + 1):
+        attempts = round_index
         try:
             print(f'[round {round_index}/{MAX_ROUNDS}] fetching {SCHOLAR_ID} ...',
                   flush=True)
@@ -113,17 +129,27 @@ def main() -> int:
             if not _is_anti_bot_error(exc):
                 # A real bug -- fail loudly and immediately, do not mask it.
                 raise
-            if round_index < MAX_ROUNDS:
-                nap = BASE_SLEEP * round_index + random.uniform(0, JITTER)
-                print(f'[round {round_index}] sleeping {nap:.1f}s before retry',
-                      flush=True)
-                time.sleep(nap)
 
+        if round_index >= MAX_ROUNDS:
+            break
+        nap = BASE_SLEEP * round_index + random.uniform(0, JITTER)
+        if time.time() - started + nap > MAX_TOTAL_SECONDS:
+            print('[budget] wall-clock ceiling reached; stopping retries',
+                  flush=True)
+            break
+        print(f'[round {round_index}] sleeping {nap:.1f}s before retry',
+              flush=True)
+        time.sleep(nap)
+
+    elapsed = time.time() - started
     if author is None:
-        print(f'ALL {MAX_ROUNDS} ROUNDS FAILED (anti-bot).', flush=True)
+        print(f'::error::Google Scholar refused all {attempts} attempt(s) '
+              f'after {elapsed / 60:.1f} min. Citation data NOT updated; '
+              f'published numbers are unchanged.', flush=True)
         return EXIT_ANTI_BOT
 
     _write_results(author)
+    print(f'success in {elapsed / 60:.1f} min', flush=True)
     return 0
 
 

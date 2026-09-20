@@ -2,9 +2,9 @@ name: Get Citation Data
 
 on:
   schedule:
-    # Two attempts per day instead of one. Google blocks datacenter IPs
-    # intermittently; a second, offset run roughly doubles the chance that at
-    # least one of them gets through.
+    # Two attempts per day. Google blocks datacenter IPs intermittently, so a
+    # second offset run roughly doubles the chance that one of them gets
+    # through.
     - cron: '0 8 * * *'
     - cron: '0 20 * * *'
   workflow_dispatch:
@@ -15,6 +15,11 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # The script self-limits to ~20 min of retrying; this is the outer guard so
+    # a stuck job can never occupy a runner for hours. Keep it comfortably
+    # above the script's own ceiling (plus install time).
+    timeout-minutes: 30
+
     steps:
     - uses: actions/checkout@v4
 
@@ -27,23 +32,17 @@ jobs:
         cd ./google_scholar_crawler
         pip3 install -r requirements.txt
 
+    # No continue-on-error here on purpose. If Google refuses, this step goes
+    # red and the job fails -- a silent green tick that published nothing is
+    # worse than a visible failure.
     - name: Fetch citation data
-      id: fetch
-      continue-on-error: true
       run: |
         cd ./google_scholar_crawler
         python3 main.py
       env:
         GOOGLE_SCHOLAR_ID: 'XT17oUEAAAAJ'
 
-    - name: Report outcome
-      if: steps.fetch.outcome != 'success'
-      run: |
-        echo "::warning::Google Scholar refused this run (anti-bot). Keeping the"
-        echo "::warning::previously published numbers untouched."
-
     - name: Publish data
-      if: steps.fetch.outcome == 'success'
       run: |
         cd ./google_scholar_crawler/results
         git init --quiet
