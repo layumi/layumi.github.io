@@ -46,6 +46,7 @@ os.system("curl -L https://raw.githubusercontent.com/layumi/Seg-Uncertainty/mast
 metadataGEO="""---
 title: \"Awesome Geo-localization\"
 seo_title: \"Awesome Geo-localization | University1652 CVUSA CVACT Benchmark & SOTA List\"
+description: \"Curated drone and satellite geo-localization resources by Zhedong Zheng — University-1652, CVUSA and CVACT datasets, papers, code and leaderboards.\"
 collection: pages
 permalink: /Awesome-Geo-localization
 author_profile: false
@@ -61,6 +62,7 @@ os.system("curl -L https://raw.githubusercontent.com/layumi/University1652-Basel
 metadataAR="""---
 title: \"Awesome reID\"
 seo_title: \"Awesome reID | Benchmark & SOTA List\"
+description: \"Person re-identification benchmark and SOTA leaderboard by Zhedong Zheng — Market-1501, DukeMTMC-reID and MSMT17, with Rank-1 and mAP results.\"
 collection: pages
 permalink: /Awesome-reID
 author_profile: false
