@@ -5,7 +5,7 @@ permalink: /publication/Depth-aw2024
 date: 2024-01-01
 doi: 
 oral: 
-keywords:  blind image decomposition, weather recovery, depth aware blind
+keywords:  blind image decomposition, depth aware blind, aware blind image
 funding: SRG2024-00002-FST
 venue: 'European conference on computer vision (ECCV)'
 paperurl: 'https://zdzheng.xyz/files/2024/ECCV24-DeBNet.pdf'

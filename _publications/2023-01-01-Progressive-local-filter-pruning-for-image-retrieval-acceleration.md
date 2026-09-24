@@ -5,7 +5,7 @@ permalink: /publication/Progress2023
 date: 2023-01-01
 doi: 10.1109/TMM.2023.3256092
 oral: 
-keywords:  image retrieval acceleration, pruning image retrieval, image retrieval, object re-identification, content-based retrieval
+keywords:  pruning image retrieval, image retrieval acceleration, local filter pruning, object re-identification, content-based retrieval
 funding: 
 venue: 'IEEE Transactions on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/2023/TMM-Pruning.pdf'

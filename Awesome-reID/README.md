@@ -1,7 +1,6 @@
 ---
 title: "Awesome reID"
 seo_title: "Awesome reID | Benchmark & SOTA List"
-description: "Person re-identification benchmark and SOTA leaderboard by Zhedong Zheng — Market-1501, DukeMTMC-reID and MSMT17, with Rank-1 and mAP results."
 collection: pages
 permalink: /Awesome-reID
 author_profile: false

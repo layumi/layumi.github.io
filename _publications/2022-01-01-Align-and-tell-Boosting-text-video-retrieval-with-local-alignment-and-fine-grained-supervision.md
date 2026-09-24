@@ -5,7 +5,7 @@ permalink: /publication/Align-an2022
 date: 2022-01-01
 doi: 10.1109/TMM.2022.3204444
 oral: 
-keywords:  text video retrieval, video retrieval local, video retrieval, object re-identification, content-based retrieval
+keywords:  video retrieval local, text video retrieval, video retrieval, object re-identification, content-based retrieval
 funding: 
 venue: 'IEEE Transactions on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/2022/TMM22-Xiaohan.pdf'

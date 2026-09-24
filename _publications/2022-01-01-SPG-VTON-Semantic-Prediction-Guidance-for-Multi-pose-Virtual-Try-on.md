@@ -5,7 +5,7 @@ permalink: /publication/SPG-VTON2022
 date: 2022-01-01
 doi: 10.1109/TMM.2022.3143712
 oral: 
-keywords:  multi pose virtual, pose virtual, pose virtual try
+keywords:  pose virtual try, pose virtual, vton semantic prediction
 funding: 
 venue: 'IEEE Transactions on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/2022/TMM_Hu.pdf'

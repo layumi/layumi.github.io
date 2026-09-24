@@ -5,7 +5,7 @@ permalink: /publication/Adaptive2022
 date: 2022-01-01
 doi: 10.1109/TIP.2022.3195642
 oral: 
-keywords:  predictions scene segmentation, robust predictions scene, boosting domain adaptation, domain adaptation
+keywords:  boosting domain adaptation, domain adaptation robust, domain adaptation, domain adaptation
 funding: 
 venue: 'IEEE Transactions on Image Processing (TIP)'
 paperurl: 'https://zdzheng.xyz/files/2022/TIP_Adaboost.pdf'

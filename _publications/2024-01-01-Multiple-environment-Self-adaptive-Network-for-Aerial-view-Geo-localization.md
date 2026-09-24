@@ -5,7 +5,7 @@ permalink: /publication/Multiple2024
 date: 2024-01-01
 doi: 10.1016/j.patcog.2024.110363
 oral: 
-keywords:  network aerial view, adaptive network aerial, aerial view geo, visual geo-localization, spatial intelligence
+keywords:  adaptive network aerial, network aerial view, aerial view geo, visual geo-localization, spatial intelligence
 funding: 
 venue: 'Pattern Recognition (PR)'
 paperurl: 'https://zdzheng.xyz/files/2024/PR2024-Wang.pdf'

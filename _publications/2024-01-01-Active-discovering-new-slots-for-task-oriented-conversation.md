@@ -5,7 +5,7 @@ permalink: /publication/Active-d2024
 date: 2024-01-01
 doi: 10.1109/TASLP.2024.3374060
 oral: 
-keywords:  task oriented conversation, active discovering new, slots task oriented
+keywords:  task oriented conversation, slots task oriented, oriented conversation
 funding: 
 venue: 'IEEE/ACM Transactions on Audio, Speech, and Language Processing (TASLP)'
 paperurl: 'https://zdzheng.xyz/files/2024/TASLP-Wu.pdf'

@@ -5,7 +5,7 @@ permalink: /publication/PiPa-Pix2023
 date: 2023-01-01
 doi: 
 oral: 
-keywords:  adaptative semantic segmentation, semantic segmentation, segmentation, domain adaptation
+keywords:  adaptative semantic segmentation, semantic segmentation, learning domain adaptative, domain adaptation
 funding: 
 venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/2023/MM23_PiPa.pdf'

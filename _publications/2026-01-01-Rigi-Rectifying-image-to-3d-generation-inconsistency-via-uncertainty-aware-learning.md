@@ -5,7 +5,7 @@ permalink: /publication/Rigi-Rec2026
 date: 2026-01-01
 doi: 
 oral: 
-keywords:  uncertainty aware learning, image 3d generation, uncertainty aware, uncertainty learning, aigc
+keywords:  image 3d generation, 3d generation inconsistency, 3d generation, uncertainty learning, aigc
 funding: 
 venue: 'IEEE Transactions on Image Processing (TIP)'
 paperurl: 'https://zdzheng.xyz/files/2026/RIGI_Jiacheng.pdf'

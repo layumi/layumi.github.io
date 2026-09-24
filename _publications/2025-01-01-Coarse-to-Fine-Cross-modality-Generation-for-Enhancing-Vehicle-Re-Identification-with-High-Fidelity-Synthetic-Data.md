@@ -5,7 +5,7 @@ permalink: /publication/Coarse-t2025
 date: 2025-01-01
 doi: 
 oral: 
-keywords:  enhancing vehicle identification, vehicle identification, vehicle identification high, object re-identification, content-based retrieval, aigc
+keywords:  enhancing vehicle identification, fidelity synthetic data, vehicle identification, object re-identification, content-based retrieval, aigc
 funding: SRG2024-00002-FST, MYRG-GRG2024-00077-FST-UMDF
 venue: 'IEEE International Conference on Robotics and Automation (ICRA)'
 paperurl: 'https://zdzheng.xyz/files/2025/ICRA25-Vehicle.pdf'

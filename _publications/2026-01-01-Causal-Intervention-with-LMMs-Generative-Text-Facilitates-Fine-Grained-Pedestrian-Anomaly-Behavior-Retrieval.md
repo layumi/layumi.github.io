@@ -5,7 +5,7 @@ permalink: /publication/Causal-I2026
 date: 2026-01-01
 doi: 
 oral: 
-keywords:  intervention lmms generative, pedestrian anomaly behavior, causal intervention lmms, object re-identification, content-based retrieval, person re-id, person retrieval, person search
+keywords:  grained pedestrian anomaly, pedestrian anomaly behavior, intervention lmms generative, object re-identification, content-based retrieval, person re-id, person retrieval, person search
 funding: 
 venue: 'Findings of EMNLP'
 author: '<a href="https://zdzheng.xyz/authors/Weifeng-Xu" class="author">Weifeng Xu</a>, <a href="https://zdzheng.xyz/authors/Shaofei-Huang" class="author"> <img src= "https://zdzheng.xyz/coauthors/shaofei-huang.jpg" alt="shaofei-huang" style="border-radius: 50%; height:20px; width:20px">Shaofei Huang</a>, <a href="https://zdzheng.xyz/authors/Yaxiong-Wang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yaxiong-wang.jpeg" alt="yaxiong-wang" style="border-radius: 50%; height:20px; width:20px">Yaxiong Wang</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'

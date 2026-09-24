@@ -5,7 +5,7 @@ permalink: /publication/Dual-pat2020
 date: 2020-01-01
 doi: 10.1145/3383184
 oral: 
-keywords:  embeddings instance loss, text embeddings instance, image text embeddings
+keywords:  embeddings instance loss, image text embeddings, text embeddings instance
 funding: 
 venue: 'ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM)'
 paperurl: 'https://zdzheng.xyz/files/2020/TOMM20.pdf'

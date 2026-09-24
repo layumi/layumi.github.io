@@ -1,7 +1,6 @@
 ---
 title: "Awesome Geo-localization"
 seo_title: "Awesome Geo-localization | University1652 CVUSA CVACT Benchmark & SOTA List"
-description: "Curated drone and satellite geo-localization resources by Zhedong Zheng — University-1652, CVUSA and CVACT datasets, papers, code and leaderboards."
 collection: pages
 permalink: /Awesome-Geo-localization
 author_profile: false

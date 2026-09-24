@@ -5,7 +5,7 @@ permalink: /publication/Universi2020
 date: 2020-01-01
 doi: 10.1145/3394171.3413896
 oral: 
-keywords:  benchmark drone based, drone based geo, benchmark drone, visual geo-localization, spatial intelligence
+keywords:  benchmark drone based, benchmark drone, source benchmark drone, visual geo-localization, spatial intelligence
 funding: 
 venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/2020/ACMMM20.pdf'

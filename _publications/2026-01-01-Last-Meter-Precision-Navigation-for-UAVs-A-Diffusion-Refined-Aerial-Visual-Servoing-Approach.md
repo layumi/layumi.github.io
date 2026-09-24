@@ -5,7 +5,7 @@ permalink: /publication/Last-Met2026
 date: 2026-01-01
 doi: 
 oral: 
-keywords:  precision navigation uavs, aerial visual servoing, navigation uavs
+keywords:  precision navigation uavs, aerial visual servoing, navigation uavs diffusion
 funding: 
 venue: 'arXiv preprint arXiv:2607.04352'
 code: 'https://github.com/YaxuanLi-cn/dreamNav'

@@ -5,7 +5,7 @@ permalink: /publication/Self-Ens2024
 date: 2024-01-01
 doi: 10.1016/j.patcog.2024.110618
 oral: 
-keywords:  ensembling depth completion, self ensembling depth, completion density aware
+keywords:  ensembling depth completion, self ensembling depth, depth completion
 funding: 
 venue: 'Pattern Recognition (PR)'
 paperurl: 'https://zdzheng.xyz/files/2024/PR_SEED.pdf'

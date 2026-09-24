@@ -11,7 +11,7 @@ classes: wide
 
 ## 澳门大学
 
-郑哲东（Zhedong Zheng），澳门大学科技学院计算机及资讯科学系 tenure-track 助理教授，专攻空间智能与多模态数据生成。具体研究方向和相关成果详见 [研究主页](https://www.zdzheng.xyz/research)。
+郑哲东（Zhedong Zheng），澳门大学信息学院计算机及资讯科学系 tenure-track 助理教授，专攻空间智能与多模态数据生成。具体研究方向和相关成果详见 [研究主页](https://www.zdzheng.xyz/research)。
 
 有兴趣的同学请将**个人 CV** 和**研究计划**发送至邮箱 <zhedongzheng@um.edu.mo>，邮件标题请按以下格式设置：
 

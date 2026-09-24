@@ -5,7 +5,7 @@ permalink: /publication/Multi-Vi2023
 date: 2023-01-01
 doi: 10.1007/s11263-023-01805-x
 oral: 
-keywords:  consistent generative adversarial, aware image synthesis, compositional 3d aware
+keywords:  consistent generative adversarial, aware image synthesis, view consistent generative
 funding: 
 venue: 'International Journal of Computer Vision (IJCV)'
 paperurl: 'https://zdzheng.xyz/files/2023/Zhang_MVCGAN.pdf'

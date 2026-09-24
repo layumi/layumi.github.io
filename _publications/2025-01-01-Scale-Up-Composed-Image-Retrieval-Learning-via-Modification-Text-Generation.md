@@ -5,7 +5,7 @@ permalink: /publication/Scale-Up2025
 date: 2025-01-01
 doi: 10.1109/TMM.2025.3599088
 oral: 
-keywords:  text generation, modification text generation, image retrieval learning, object re-identification, content-based retrieval, aigc
+keywords:  retrieval learning modification, image retrieval learning, composed image retrieval, object re-identification, content-based retrieval, aigc
 funding: SRG2024-00002-FST, MYRG-GRG2024-00077-FST-UMDF
 venue: 'IEEE Transactions on Multimedia (TMM)'
 paperurl: 'https://zdzheng.xyz/files/2025/TMM25-Scale.pdf'
