@@ -4,6 +4,7 @@ collection: authors
 permalink: /authors/Zhedong-Zheng
 author_profile: false
 ---
+ <li> Ruiyang Zhang,  Qianguo Sun,  Chao Song,  Yiyan Qi,  Zhedong Zheng, &quot;VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning.&quot; NeurIPS, 2026.<a href='https://zdzheng.xyz/publication/VSearche2026'>[Link]</a> </li>
  <li> Ruiyang Zhang,  Junhao Zhang,  Hao Fei,  Zhedong Zheng, &quot;Uncertainty-o: One Model-agnostic Framework for Unveiling Uncertainty in Large Multimodal Models.&quot; Findings of EMNLP, 2026.<a href='https://zdzheng.xyz/publication/Uncertai2026'>[Link]</a> </li>
  <li> Yaxuan Li,  Jiarui Zeng,  Shaofei Huang,  Zhedong Zheng, &quot;Last-Meter Precision Navigation for UAVs: A Diffusion-Refined Aerial Visual Servoing Approach.&quot; arXiv preprint arXiv:2607.04352, 2026.<a href='https://zdzheng.xyz/publication/Last-Met2026'>[Link]</a> </li>
  <li> Mengieong Hoi,  Chen Zhao,  Chaoyu Lei,  Huifang Zhou,  Zhedong Zheng, &quot;URGen: Uncertainty-guided Retrieval-augmented Generation for Guideline-Grounded Medical Question Answering.&quot; Findings of EMNLP, 2026.<a href='https://zdzheng.xyz/publication/URGen-Un2026'>[Link]</a> </li>
