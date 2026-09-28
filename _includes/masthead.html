@@ -4,13 +4,11 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <button aria-label="Menu"><div class="navicon"></div></button>
+        <button><div class="navicon"></div></button>
         <ul class="visible-links">
 		  <li class="masthead__menu-item masthead__menu-item--lg masthead__logo-item">
 		    <a href="{{ base_path }}/">
-		      <!-- alt 留空：同一 <a> 里已有 "AIGC-DL Lab" 文字，图片是装饰性的，避免读屏重复播报；
-		           width/height 给浏览器固有比例，图片到达前就能留位（CLS / 审计 unsized-images） -->
-		      <img src="https://zdzheng.xyz/resource-img/lab-logo-trans.webp" class="lab-logo" alt="" width="60" height="48">
+		      <img src="https://zdzheng.xyz/resource-img/lab-logo-trans.webp" class="lab-logo">
 		      AIGC-DL Lab
 		    </a>
 		  </li>

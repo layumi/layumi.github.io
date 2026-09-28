@@ -46,12 +46,8 @@
     </ul>
   </div>
 
-  <!-- Right: Visitor Map
-       2026-09-28：改为「滚动后才注入」。原因：这个第三方组件的地图背景图在 map.js
-       跑起来之后才有 URL（审计实测 Resource load delay 1152ms），它的绘制成为移动端
-       LCP（3.9s，占满整个 Performance 失分）。滚动属于用户交互，LCP 在此之后不再更新，
-       所以延迟注入可以让 LCP 回到真正的内容元素上。从没滚动的访客本来也看不到页脚。 -->
-  <div id="visitor-map" style="
+  <!-- Right: Visitor Map -->
+  <div style="
     flex:0 0 100px;
     width:100px;
     height:45px;
@@ -59,32 +55,14 @@
     display:flex;
     align-items:center;
     justify-content:center;
-  "></div>
-  <script>
-    (function () {
-      var box = document.getElementById('visitor-map');
-      if (!box) return;
-      var loaded = false;
-      function injectMap() {
-        if (loaded) return;
-        loaded = true;
-        var s = document.createElement('script');
-        s.async = true;
-        s.defer = true;
-        s.type = 'text/javascript';
-        s.id = 'mapmyvisitors';
-        s.src = '//mapmyvisitors.com/map.js?d=-ZOGce-E9AwLSiGOii8eBx-yuoOBs9ciGma5_af-tl8&cl=ffffff&w=a';
-        box.appendChild(s);
-      }
-      // 只在**真实用户手势**之后注入。
-      // 不用 scroll 事件：Lighthouse 自己会程序化滚动页面截图，那会触发 scroll 但不属于
-      // 用户输入，地图会在截图阶段才加载、反而把 LCP 推得更晚。wheel / touchmove /
-      // keydown / pointerdown 都是真实输入事件（也都会终止 LCP 记录），所以从这里注入
-      // 既保证看到页脚的人能看到地图，也保证地图永远不参与 LCP。
-      ['wheel', 'touchmove', 'keydown', 'pointerdown'].forEach(function (ev) {
-        window.addEventListener(ev, injectMap, { passive: true, once: true });
-      });
-    })();
-  </script>
+  ">
+    <script
+      async
+      defer
+      type="text/javascript"
+      id="mapmyvisitors"
+      src="//mapmyvisitors.com/map.js?d=-ZOGce-E9AwLSiGOii8eBx-yuoOBs9ciGma5_af-tl8&cl=ffffff&w=a">
+    </script>
+  </div>
 
 </div>

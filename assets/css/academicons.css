@@ -3,30 +3,14 @@
  *  Fonts generated using FontForge - https://fontforge.org
  *  Square icons designed to be used alongside Font Awesome square icons - https://fortawesome.github.io/Font-Awesome/
  *  Licenses - Font: SIL OFL 1.1, CSS: MIT License
- *
- *  SUBSET — this theme uses exactly one Academicons glyph: ai-orcid (U+E9D9), in
- *  the sidebar on every page. The stock font carries 145 glyphs and is 131,616 B,
- *  which made it the largest single request on the site (larger than all the JS and
- *  CSS together, on desktop). It is subset to that one codepoint: 1,032 B as woff2.
- *
- *  To add an icon: note its codepoint from the .ai-*:before rules below, add it to
- *  the list, and regenerate from the full font (restore it from git history first —
- *  assets/fonts/academicons.woff is the original):
- *
- *    python3 -m fontTools.subset assets/fonts/academicons.woff \
- *      --unicodes="U+E9D9" \
- *      --output-file=assets/fonts/academicons-subset.woff2 --flavor=woff2 --layout-features='*'
- *    python3 -m fontTools.subset assets/fonts/academicons.woff \
- *      --unicodes="U+E9D9" \
- *      --output-file=assets/fonts/academicons-subset.woff --flavor=woff --layout-features='*'
  */
 @font-face {
     font-family: 'Academicons';
     font-style: normal;
     font-weight: 400;
     font-display: swap;
-    src:url('../fonts/academicons-subset.woff2') format('woff2'),
-        url('../fonts/academicons-subset.woff') format('woff');
+    src:url('../fonts/academicons.woff') format('woff'),
+        url('../fonts/academicons.ttf') format('truetype');
 }
 .ai {
   font-family: 'Academicons';
