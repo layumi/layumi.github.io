@@ -125,10 +125,17 @@
 {% if site.og_image %}
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org",
+      "@context": "https://schema.org",
       "@type": "Organization",
+      "name": "AIGC-DL Lab",
+      "alternateName": "AI-Generated Content and Data-Centric Learning Laboratory",
       "url": {{ seo_url | jsonify }},
-      "logo": {{ site.og_image | prepend: "/" | prepend: base_path | jsonify }}
+      "logo": {{ site.og_image | prepend: "/" | prepend: base_path | jsonify }},
+      "founder": {
+        "@type": "Person",
+        "name": {{ site.author.name | jsonify }},
+        "url": {{ seo_url | jsonify }}
+      }
     }
   </script>
 {% endif %}

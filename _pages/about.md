@@ -1,8 +1,8 @@
 ---
 permalink: /
 title: "Zhedong Zheng (郑哲东)"
-seo_title: "Zhedong Zheng | Assistant Professor, University of Macau | Computer Vision, AIGC, Spatial Intelligence"
-excerpt: "Assistant Professor at the University of Macau. Research interests include Computer Vision, Spatial Intelligence, AIGC, Geo-localization, Person Re-identification and Data-centric AI."
+seo_title: "Zhedong Zheng | Computer Vision, University of Macau"
+excerpt: "Assistant Professor at University of Macau (AIGC-DL Lab), computer vision. Creator of University-1652. 80+ papers, H-index 41. Recruiting PhD & postdocs."
 author_profile: true
 classes: wide
 redirect_from: 
@@ -399,78 +399,7 @@ Do not press the red button!
 <a href="https://zdzheng.xyz/redbutton.html"> <img src="https://zdzheng.xyz/images/red.webp" alt="red" width="50" height="50"></a>
 <a href="https://zdzheng.xyz/greenbutton.html"> <img src="https://zdzheng.xyz/images/green.webp" alt="green" width="50" height="50"> </a>
 
-<!-- 添加Logo小人动画 -->
-<div id="lab-logo-container">
-  <img id="lab-logo" src="https://zdzheng.xyz/resource-img/lab-logo-trans.webp" alt="Lab Logo" loading="lazy">
-</div>
-<style>
-  body {
-    position: relative;
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
-  #lab-logo {
-    position: absolute;
-    width: 120px;
-    height: 100px;
-    transition: transform 2s linear;
-    cursor: pointer;
-  }
-  @keyframes waddle {
-    0% { transform: translate(0, 0) rotate(0deg); }
-    25% { transform: translate(0, -5px) rotate(-5deg); }
-    50% { transform: translate(0, 0) rotate(0deg); }
-    75% { transform: translate(0, -5px) rotate(5deg); }
-    100% { transform: translate(0, 0) rotate(0deg); }
-  }
-  .walking {
-    animation: waddle 0.5s infinite;
-  }
-  .flip-left {
-    transform: scaleX(-1);
-  }
-  .flip-right {
-    transform: scaleX(1);
-  }
-</style>
-<script>
-  const logo = document.getElementById('lab-logo');
-  const getBoundaries = () => ({
-    maxX: window.innerWidth - logo.offsetWidth,
-    maxY: window.innerHeight - logo.offsetHeight
-  });
-  const getRandomPosition = () => {
-    const { maxX, maxY } = getBoundaries();
-    return {
-      x: Math.random() * maxX,
-      y: Math.random() * (maxY -100) + 100
-    };
-  };
-  const moveLogo = () => {
-    const { x, y } = getRandomPosition();
-    const currentX = parseFloat(logo.style.left || 0);
-    const direction = x < currentX ? 'left' : 'right';
-    logo.classList.remove('flip-left', 'flip-right');
-    logo.classList.add(direction === 'left' ? 'flip-left' : 'flip-right');
-    logo.classList.add('walking');
-    logo.style.left = `${x}px`;
-    logo.style.top = `${y}px`;
-    setTimeout(() => {
-      logo.classList.remove('walking');
-      setTimeout(moveLogo, Math.random() * 2000 + 1000);
-    }, 2000);
-  };
-  logo.style.left = '0px';
-  logo.style.top = '0px';
-  moveLogo();
-  logo.addEventListener('click', () => {
-    alert('You clicked our AIGC-DL Lab Mascot! Beep-boop!');
-  });
-  window.addEventListener('resize', () => {
-    const { maxX, maxY } = getBoundaries();
-    const currentX = parseFloat(logo.style.left || 0);
-    const currentY = parseFloat(logo.style.top || 0);
-    logo.style.left = `${Math.min(currentX, maxX)}px`;
-    logo.style.top = `${Math.min(currentY, maxY)}px`;
-  });
-</script>
+<!-- Lab mascot animation (walking logo) removed 2026-09-28:
+     it was flagged by Lighthouse as the mobile LCP element (absolute + JS-positioned + loading=lazy)
+     and caused ~57ms forced reflow. Also saved 54.9KB of image transfer.
+     The nav-bar logo in masthead.html is unaffected. -->

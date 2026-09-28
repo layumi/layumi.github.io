@@ -2,6 +2,7 @@
 title: "Blooming!!"
 excerpt: "Blooming!!"
 sitemap: false
+noindex: true
 permalink: /greenbutton.html
 ---
 
