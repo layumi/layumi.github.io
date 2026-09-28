@@ -1,0 +1,303 @@
+/* ==========================================================================
+   COSMOS THEME LAYER — 运行期浅色 / 暗色切换
+   ==========================================================================
+   三条设计约束，改动前请先读：
+
+   1. 浅色 token 的取值 = 引入本文件之前线上实际渲染的值（多数直接插值
+      _variables.scss，其余为逐值抄录）。因此浅色渲染零变化。
+      第 3 节的组件规则是**从改动前的构建产物 main.css 程序化生成**的，
+      不是手写的——手写映射曾导致 blockquote/toc/greedy-nav 等处取错原值。
+      若要增补规则，请同样从构建产物反推，不要凭记忆。
+   2. 暗色配色取自 cosmosai.cc（暖色近黑底 + 陶土橙/琥珀强调）。
+      关键对比度已实测，全部满足 WCAG AA：
+      on #15120E — 正文 16.3 · 次级 8.8 · 弱化 4.6 · 链接 8.2 · 强调 5.0
+      实心按钮「浅字 on 深填充」10.7 · 页脚 4.8
+   3. 只做叠加覆盖，不改 MM 核心组件文件；规则只写一次、由 token 驱动，
+      两套主题共用。
+
+   彻底回退：删除本文件 + assets/css/main.scss 里那一行 @import。
+
+   必须在 main.scss 最后 import（靠层叠顺序覆盖前面的同名规则）。
+   另有三个**优先级高于本文件**的内联样式块，改动时需同步：
+     _pages/about.md、_includes/archive-single.html、_includes/head/custom.html
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Token — 浅色
+   -------------------------------------------------------------------------- */
+:root {
+  color-scheme: light;
+
+  /* —— 由 _variables.scss 插值：与改动前逐值相同，浅色路径零回归 —— */
+  --ct-surface        : #{$background-color};
+  --ct-surface-2      : #{$code-background-color};
+  --ct-text           : #{$text-color};
+  --ct-mid            : #{$primary-color};
+  --ct-fill           : #{$primary-color};
+  --ct-border         : #{$border-color};
+  --ct-border-2       : #{$light-gray};
+
+  /* —— 其余浅色值取自改动前的实际渲染 —— */
+  --ct-strong         : #000;
+  --ct-text-mute      : #9ba1a6;
+  --ct-text-fig       : #777a7d;
+  --ct-text-hover-2   : #5c6266;
+  --ct-border-3       : #dee0e1;
+  --ct-link           : #{$link-color};
+  --ct-link-hover     : #{$link-color-hover};
+  --ct-on-accent      : #fff;
+  --ct-hero-bg        : #000;
+
+  /* —— 首页/归档页自定义组件（原散落在 about.md 与 archive-single.html） —— */
+  --ct-heading        : #1c1917;
+  --ct-text-2         : #6b655f;
+  --ct-text-3         : #9a928a;
+  --ct-card-bg        : #f9f9f9;
+  --ct-card-border    : #e8e2d8;
+  --ct-card-shadow    : rgba(0, 0, 0, 0.06);
+  --ct-card-shadow-h  : rgba(0, 0, 0, 0.12);
+  --ct-accent         : #d97706;
+  --ct-accent-2       : #cd853f;
+  --ct-link-pdf       : #e41f26;
+  --ct-link-pdf-hover : #b51a1f;
+  --ct-zhihu          : #0084ff;
+  --ct-zhihu-hover    : #006ddf;
+  --ct-author-hover   : #0066cc;
+  --ct-success        : #059669;
+  --ct-info           : #2563eb;
+  --ct-tag-bg         : #ff9999;
+  --ct-pre-bg         : gray;
+  --ct-pre-text       : white;
+}
+
+/* --------------------------------------------------------------------------
+   2. Token — 暗色（cosmosai.cc 调色板）
+   -------------------------------------------------------------------------- */
+html[data-theme="dark"] {
+  color-scheme: dark;
+
+  --ct-surface        : #15120E;
+  --ct-surface-2      : #1E1913;
+  --ct-text           : #F4EFE6;
+  --ct-mid            : #B9B1A1;
+  --ct-fill           : #3A342C;
+  --ct-border         : rgba(244, 239, 230, 0.10);
+  --ct-border-2       : rgba(244, 239, 230, 0.20);
+
+  --ct-strong         : #F4EFE6;
+  --ct-text-mute      : #857D6E;
+  --ct-text-fig       : #A79F92;
+  --ct-text-hover-2   : #F4EFE6;
+  --ct-border-3       : rgba(244, 239, 230, 0.28);
+  --ct-link           : #D8A24A;
+  --ct-link-hover     : #F36B3E;
+  --ct-on-accent      : #F4EFE6;
+  --ct-hero-bg        : #000;
+
+  --ct-heading        : #F4EFE6;
+  --ct-text-2         : #B9B1A1;
+  --ct-text-3         : #857D6E;
+  --ct-card-bg        : #15120E;
+  --ct-card-border    : rgba(244, 239, 230, 0.14);
+  --ct-card-shadow    : rgba(0, 0, 0, 0.45);
+  --ct-card-shadow-h  : rgba(0, 0, 0, 0.60);
+  --ct-accent         : #E2552A;
+  --ct-accent-2       : #D8A24A;
+  --ct-link-pdf       : #F36B3E;
+  --ct-link-pdf-hover : #D8A24A;
+  --ct-zhihu          : #85B7EB;
+  --ct-zhihu-hover    : #B5D4F4;
+  --ct-author-hover   : #D8A24A;
+  --ct-success        : #97C459;
+  --ct-info           : #85B7EB;
+  --ct-tag-bg         : #4A1B0C;
+  --ct-pre-bg         : #1E1913;
+  --ct-pre-text       : #F4EFE6;
+}
+
+/* --------------------------------------------------------------------------
+   3. MM 组件规则（自改动前的 main.css 程序化生成，共 88 条）
+   -------------------------------------------------------------------------- */
+html { background-color: var(--ct-surface) }
+a { color: var(--ct-link) }
+body { color: var(--ct-text) }
+u,ins { border-bottom: 1px solid var(--ct-text) }
+abbr[title],abbr[data-original-title] { border-bottom: 1px dotted var(--ct-text) }
+blockquote { border-left: 0.25em solid var(--ct-mid) }
+p>code,a>code,li>code,figcaption>code,td>code { background: var(--ct-surface-2); border: 1px solid var(--ct-border) }
+hr { border-top: 1px solid var(--ct-border) }
+figcaption { color: var(--ct-text-fig) }
+figcaption a { border-bottom: 1px solid var(--ct-border-2) }
+figcaption a:hover { color: var(--ct-strong); border-bottom-color: var(--ct-strong) }
+.screen-reader-text:focus,.screen-reader-shortcut:focus { background: var(--ct-surface) }
+.social-icons .fa { color: var(--ct-strong) }
+.navicon { background: var(--ct-on-accent) }
+.navicon:before,.navicon:after { background: var(--ct-on-accent) }
+.modal { background: var(--ct-surface); border: 1px solid var(--ct-border) }
+.modal__actions { border-top: 1px solid var(--ct-border) }
+.footnote { color: var(--ct-text-mute) }
+.footnotes { color: var(--ct-text-mute) }
+a.reversefootnote { color: var(--ct-mid) }
+table { border: 1px solid var(--ct-border-2) }
+thead { background-color: var(--ct-border); border-bottom: 2px solid var(--ct-border-2) }
+th { border: 1px solid var(--ct-border-2) }
+td { border: 1px solid var(--ct-border-2) }
+.btn { color: var(--ct-on-accent) !important; background-color: var(--ct-fill) }
+.btn--inverse { color: var(--ct-mid) !important; border: 1px solid var(--ct-border-2) !important; background-color: var(--ct-surface) }
+.btn--inverse:hover { color: var(--ct-on-accent) !important; border-color: var(--ct-mid) }
+.btn--light-outline { border: 1px solid var(--ct-surface) !important }
+.btn--info { background-color: var(--ct-link) }
+.masthead { border-bottom: 1px solid var(--ct-border) }
+.pagination li a { color: var(--ct-text-mute); border: 1px solid var(--ct-border-2) }
+.pagination li a:hover { color: var(--ct-link-hover) }
+.pagination li a.current { color: var(--ct-on-accent); background: var(--ct-fill) }
+.pagination li a.disabled { color: var(--ct-border-3) }
+.pagination--pager { color: var(--ct-border-2); border: 1px solid var(--ct-border-2) }
+.pagination--pager:hover { color: var(--ct-link-hover) }
+.pagination--pager.disabled { color: var(--ct-border-3) }
+.page__content+.pagination,.page__meta+.pagination,.comment__date+.pagination,.page__share+.pagination,.page__comments+.pagination { border-top: 1px solid var(--ct-border) }
+.greedy-nav { background: var(--ct-surface) }
+.greedy-nav a { color: var(--ct-mid) }
+.greedy-nav a:hover { color: var(--ct-text-hover-2) }
+.greedy-nav button { background-color: var(--ct-fill); color: var(--ct-on-accent) }
+.greedy-nav .visible-links a:before { background: var(--ct-border-2) }
+.greedy-nav .hidden-links { border: 1px solid var(--ct-border); background: var(--ct-surface) }
+.greedy-nav .hidden-links a:hover { color: var(--ct-text-hover-2); background: var(--ct-border-3) }
+.greedy-nav .hidden-links:before { border-color: var(--ct-border) transparent }
+.greedy-nav .hidden-links:after { border-color: var(--ct-on-accent) transparent }
+.greedy-nav .hidden-links li { border-bottom: 1px solid var(--ct-border) }
+.nav__list .active { color: var(--ct-on-accent); background: var(--ct-fill) }
+.nav__list .active:hover { color: var(--ct-on-accent) }
+.nav__sub-title { border-bottom: 1px solid var(--ct-border) }
+.toc { color: var(--ct-mid); background-color: var(--ct-surface); border: 1px solid var(--ct-border) }
+.toc .nav__title { color: var(--ct-on-accent); background: var(--ct-fill) }
+.toc__menu a { color: var(--ct-mid); border-bottom: 1px solid var(--ct-border) }
+.toc__menu a:hover { color: var(--ct-strong); background: var(--ct-border) }
+.page__footer { background-color: var(--ct-border); color: var(--ct-border-2); border-top: 1px solid var(--ct-border-2) }
+.page__footer .fas,.page__footer .fab,.page__footer .far,.page__footer .fal { color: var(--ct-border-2) }
+.page__content h2 { border-bottom: 1px solid var(--ct-border) }
+.page__hero--overlay a { color: var(--ct-on-accent) }
+.page__hero--overlay .page__title,.page__hero--overlay .page__meta,.page__hero--overlay .comment__date,.page__hero--overlay .page__lead,.page__hero--overlay .btn { color: var(--ct-on-accent) }
+.page__hero-caption { color: var(--ct-on-accent); background: var(--ct-hero-bg) }
+.page__hero-caption a { color: var(--ct-on-accent) }
+.page__share { border-top: 1px solid var(--ct-border) }
+.page__meta,.comment__date { color: var(--ct-text-mute) }
+.page__taxonomy-item { border: 1px solid var(--ct-border-2) }
+.page__taxonomy-item:hover { color: var(--ct-link-hover) }
+.page__comments-title { border-top: 1px solid var(--ct-border) }
+.page__comments-form { background: var(--ct-border) }
+.comment:not(:last-child) { border-bottom: 1px solid var(--ct-border) }
+.comment__avatar { border: 1px solid var(--ct-border) }
+.page__related { border-top: 1px solid var(--ct-border) }
+.archive__subtitle { color: var(--ct-text-mute); border-bottom: 1px solid var(--ct-border) }
+.feature__wrapper { border-bottom: 1px solid var(--ct-border) }
+.author__avatar img { border: 1px solid var(--ct-border) }
+.author__urls { border: 1px solid var(--ct-border); background: var(--ct-surface) }
+.author__urls:before { border-color: var(--ct-border) transparent }
+.author__urls:after { border-color: var(--ct-surface) transparent }
+.author__urls_nolisten { border: 1px solid var(--ct-border); background: var(--ct-surface) }
+.author__urls_nolisten:before { border-color: var(--ct-border) transparent }
+.author__urls_nolisten:after { border-color: var(--ct-surface) transparent }
+.pyramid-wrap .n-root .badge { color: var(--ct-on-accent) }
+.pyramid-wrap .n-aigc .badge { color: var(--ct-on-accent) }
+.pyramid-wrap .n-unc .badge { color: var(--ct-on-accent) }
+.pyramid-wrap .n-sp .badge { color: var(--ct-on-accent) }
+.pyramid-wrap .n-reid .badge-aigc { color: var(--ct-on-accent) }
+.pyramid-wrap .n-reid .badge-unc { color: var(--ct-on-accent) }
+.pyramid-wrap .n-da .badge { color: var(--ct-on-accent) }
+.fa-inverse { color: var(--fa-inverse, var(--ct-on-accent)) }
+
+/* 上面 .author__urls / .author__urls_nolisten 取的是基线里**被后续规则覆盖掉**的那一处
+   （下拉框样式，仅窄屏可见）。桌面端基线会在 >=57.8125em 处把它们重置为透明并隐藏箭头，
+   所以这里必须复刻同一条 media query —— 否则我方规则因位置更靠后会错误地赢下桌面端。 */
+@media (min-width: 57.8125em) {
+  .author__urls,
+  .author__urls_nolisten { border: 0; background: transparent; }
+  .author__urls:before,
+  .author__urls:after,
+  .author__urls_nolisten:before,
+  .author__urls_nolisten:after { display: none; }
+}
+
+/* --------------------------------------------------------------------------
+   4. 顶栏主题切换控件
+   -------------------------------------------------------------------------- */
+.masthead__menu {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+
+  /* nav 占满剩余宽度；min-width:0 让 greedy-nav 的溢出测量正常工作 */
+  #site-nav.greedy-nav {
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+}
+
+.theme-toggle {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid var(--ct-border-2);
+  border-radius: 50%;
+  background: var(--ct-surface);
+  color: var(--ct-mid);
+  cursor: pointer;
+  line-height: 1;
+  transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+
+  &:hover,
+  &:focus {
+    color: var(--ct-link);
+    border-color: var(--ct-link);
+    outline: none;
+  }
+
+  i { font-size: 14px; }
+}
+
+
+/* --------------------------------------------------------------------------
+   5. 暗色专属修正
+   -------------------------------------------------------------------------- */
+/* 品牌图标里近乎黑的（github #171516）在深底上会消失，需提亮 */
+html[data-theme="dark"] .social-icons .fa-github,
+html[data-theme="dark"] .social-icons .fa-github-alt,
+html[data-theme="dark"] .social-icons .fa-github-square { color: #F4EFE6; }
+html[data-theme="dark"] .social-icons .fa-linkedin  { color: #6FA8DC; }
+html[data-theme="dark"] .social-icons .fa-facebook  { color: #7CA0D8; }
+html[data-theme="dark"] .social-icons .fa-twitter   { color: #8FD0F5; }
+html[data-theme="dark"] .social-icons .fa-lastfm    { color: #E86A63; }
+html[data-theme="dark"] .social-icons .fa-instagram { color: #8FB0CF; }
+
+/* 选中态与演讲缩略图 */
+html[data-theme="dark"] ::selection { color: #090807; background: #D8A24A; }
+html[data-theme="dark"] .talk-card .thumb img { filter: brightness(0.9); }
+
+/* 金字塔：_pyramid.scss 内部已用 CSS 变量，这里覆盖取值。
+   暗色端按设计系统色阶反向取（900 填充 / 400 描边 / 100 文字）。 */
+html[data-theme="dark"] .pyramid-wrap {
+  --bg:          #0E0C0A;
+  --surface:     #15120E;
+  --border:      rgba(244, 239, 230, 0.14);
+  --border-soft: rgba(244, 239, 230, 0.08);
+
+  --text-primary:   #F4EFE6;
+  --text-secondary: #B9B1A1;
+  --text-tertiary:  #857D6E;
+
+  --c-root:    #CECBF6;  --c-root-bg: #26215C;  --c-root-bd: #7F77DD;
+  --c-aigc:    #9FE1CB;  --c-aigc-bg: #04342C;  --c-aigc-bd: #1D9E75;
+  --c-unc:     #FAC775;  --c-unc-bg:  #412402;  --c-unc-bd:  #BA7517;
+  --c-sp:      #B5D4F4;  --c-sp-bg:   #042C53;  --c-sp-bd:   #378ADD;
+  --c-reid:    #F5C4B3;  --c-reid-bg: #4A1B0C;  --c-reid-bd: #D85A30;
+  --c-da:      #C0DD97;  --c-da-bg:   #173404;  --c-da-bd:   #639922;
+
+  /* 连接线：浅色 #1D9E75 / #EF9F27，深底上提亮一档保证虚线可见 */
+  --edge-aigc: #5DCAA5;
+  --edge-unc:  #EF9F27;
+}

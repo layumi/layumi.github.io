@@ -13,87 +13,87 @@ redirect_from:
 <head> 
 	<style>
 		.paper-card {
-		  background-color: #f9f9f9; /* 淡灰色背景 */
+		  background-color: var(--ct-card-bg); /* 淡灰色背景 */
 		  padding: 16px;
 		  border-radius: 12px;
-		  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* 初始轻微阴影 */
+		  box-shadow: 0 2px 5px var(--ct-card-shadow); /* 初始轻微阴影 */
 		  margin-bottom: 16px;
 		  transition: all 0.25s ease-in-out;
 		}
 		
 		.author {
 			text-decoration: none !important;
-			color: #333333;
+			color: var(--ct-heading);
 		}
 	    a.code-link {
-	      color: #181717 !important;
+	      color: var(--ct-heading) !important;
 	    }
 
 	    a.zhihu-link {
-	      color: #0084FF !important;
+	      color: var(--ct-zhihu) !important;
 	    }
 
 	    a.video-link {
-	      color: #FF0000 !important;
+	      color: var(--ct-link-pdf) !important;
 	    }
 
 	    a.pdf-link {
-	      color: #E41F26 !important;
+	      color: var(--ct-link-pdf) !important;
 	    }
 		.oral-tag {
-		  color: orange;
+		  color: var(--ct-accent);
 		}
 
 	    /* 可选 hover 效果 */
 	    a.code-link:hover {
-	      color: #333 !important;
+	      color: var(--ct-heading) !important;
 	    }
 
 	    a.zhihu-link:hover  {
-	      color: #006ddf !important;
+	      color: var(--ct-zhihu-hover) !important;
 	    }
 
 	    a.video-link:hover {
-	      color: #cc0000 !important;
+	      color: var(--ct-link-pdf) !important;
 	    }
 
 	    a.pdf-link:hover{
-	      color: #b51a1f !important;
+	      color: var(--ct-link-pdf-hover) !important;
 	    }
 		.author:hover {
 			text-decoration: underline;
-			color: #0066cc;
+			color: var(--ct-author-hover);
 		}
 		/* 悬停时的弹起效果 */
 		.paper-card:hover {
 		  transform: translateY(-4px); /* 微微上移 */
-		  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* 增强阴影 */
+		  box-shadow: 0 8px 16px var(--ct-card-shadow-h); /* 增强阴影 */
 		}
 
 		/* ===== 杂志感（新增区块样式） ===== */
 		.hero-slogan {
 		  font-family: Georgia, "Times New Roman", serif;
 		  font-size: 44px; font-weight: 700; line-height: 1.1;
-		  letter-spacing: -0.01em; margin: 8px 0 4px 0; color: #1c1917;
+		  letter-spacing: -0.01em; margin: 8px 0 4px 0; color: var(--ct-heading);
 		}
-		.hero-slogan .accent { color: #d97706; }
+		.hero-slogan .accent { color: var(--ct-accent); }
 		.hero-cn {
 		  font-family: Georgia, "Times New Roman", serif;
-		  font-size: 19px; color: #6b655f; margin-bottom: 10px;
+		  font-size: 19px; color: var(--ct-text-2); margin-bottom: 10px;
 		}
 		.pillars { display: flex; gap: 10px; flex-wrap: wrap; margin: 12px 0 6px 0; }
 		.pillar {
-		  border: 1px solid #e8e2d8; background: #fff; border-radius: 999px;
-		  padding: 7px 15px; font-size: 14px; color: #1c1917;
+		  border: 1px solid var(--ct-card-border); background: var(--ct-surface); border-radius: 999px;
+		  padding: 7px 15px; font-size: 14px; color: var(--ct-heading);
 		}
-		.pillar b { color: #d97706; font-weight: 600; }
+		.pillar b { color: var(--ct-accent); font-weight: 600; }
 		.talks-row { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 8px; }
 		.talk-card {
-		  flex: 1; min-width: 220px; background: #fff; border: 1px solid #e8e2d8;
+		  flex: 1; min-width: 220px; background: var(--ct-surface); border: 1px solid var(--ct-card-border);
 		  border-radius: 14px; overflow: hidden; transition: all 0.25s ease-in-out;
-		  display: block; text-decoration: none !important; color: #1c1917;
+		  display: block; text-decoration: none !important; color: var(--ct-heading);
 		}
-		.talk-card:hover { transform: translateY(-4px); box-shadow: 0 8px 16px rgba(0,0,0,0.12); }  
+		.talk-card:hover { transform: translateY(-4px); box-shadow: 0 8px 16px var(--ct-card-shadow-h); }  
 			.talk-card .thumb { position: relative; }  
 			.talk-card .thumb img { width: 100%; display: block; aspect-ratio: 16/9; object-fit: cover; }  
 			.talk-card .dur {  
@@ -111,23 +111,23 @@ redirect_from:
 		.talk-body { padding: 14px 16px 16px; }
 		.talk-body h3 {
 		  font-family: Georgia, "Times New Roman", serif; font-size: 17px;
-		  line-height: 1.35; margin: 0 0 4px 0; color: #1c1917;
+		  line-height: 1.35; margin: 0 0 4px 0; color: var(--ct-heading);
 		}
-		.talk-cn { font-size: 13px; color: #6b655f; margin-bottom: 10px; }
-		.talk-meta { font-size: 12px; color: #9a928a; }
-		.talk-watch { display: inline-block; font-size: 13.5px; font-weight: 600; color: #d97706; margin-top: 8px; }
+		.talk-cn { font-size: 13px; color: var(--ct-text-2); margin-bottom: 10px; }
+		.talk-meta { font-size: 12px; color: var(--ct-text-3); }
+		.talk-watch { display: inline-block; font-size: 13.5px; font-weight: 600; color: var(--ct-accent); margin-top: 8px; }
 		.quote-block {
-		  border-left: 3px solid #d97706; padding: 6px 0 6px 20px; margin: 22px 0;
+		  border-left: 3px solid var(--ct-accent); padding: 6px 0 6px 20px; margin: 22px 0;
 		}
 		.quote-block p {
 		  font-family: Georgia, "Times New Roman", serif; font-size: 18px;
-		  line-height: 1.55; color: #1c1917; margin: 0;
+		  line-height: 1.55; color: var(--ct-heading); margin: 0;
 		}
 		.quote-block cite {
-		  font-style: normal; font-size: 12.5px; color: #9a928a; letter-spacing: 0.04em;
+		  font-style: normal; font-size: 12.5px; color: var(--ct-text-3); letter-spacing: 0.04em;
 		  margin-top: 8px; display: block; text-transform: uppercase;
 		}
-		.quote-label { font-size: 12px; color: #d97706; letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; }
+		.quote-label { font-size: 12px; color: var(--ct-accent); letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; }
 		h2.mag { font-family: Georgia, "Times New Roman", serif; }
 	</style>
 </head>
@@ -141,30 +141,30 @@ Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](htt
 
 <div style="display:flex; gap:20px; flex-wrap:wrap; margin: 24px 0 28px 0;">
 
-  <div style="flex:1; min-width:200px; background:#f8f9fa; border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
-    <div style="font-size:13px; color:#666; margin-bottom:6px;">Google Scholar Search Ranking</div>
+  <div style="flex:1; min-width:200px; background:var(--ct-card-bg); border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px var(--ct-card-shadow);">
+    <div style="font-size:13px; color:var(--ct-text-2); margin-bottom:6px;">Google Scholar Search Ranking</div>
     <div style="font-size:21px; font-weight:700; line-height:1.35;">
-      <span style="color:#dc2626;">#2</span> Object Re-ID<br>
-      <span style="color:#d97706;">#3</span> Uncertainty Estimation<br>
-      <span style="color:#2563eb;">#5</span> Data-Centric AI
+      <span style="color:var(--ct-link-pdf);">#2</span> Object Re-ID<br>
+      <span style="color:var(--ct-accent);">#3</span> Uncertainty Estimation<br>
+      <span style="color:var(--ct-info);">#5</span> Data-Centric AI
     </div>
   </div>
 
-  <div style="flex:1; min-width:200px; background:#f8f9fa; border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
-    <div style="font-size:13px; color:#666; margin-bottom:6px;">Open Source Impact</div>
-    <div style="font-size:28px; font-weight:700; color:#111;">
+  <div style="flex:1; min-width:200px; background:var(--ct-card-bg); border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px var(--ct-card-shadow);">
+    <div style="font-size:13px; color:var(--ct-text-2); margin-bottom:6px;">Open Source Impact</div>
+    <div style="font-size:28px; font-weight:700; color:var(--ct-heading);">
       > 9.2k
     </div>
-    <div style="font-size:14px; color:#555; margin-top:4px;">GitHub Stars</div>
-	<div style="font-size:12px; color:#999; margin-top:6px;">incl. <a href="https://github.com/layumi/Person_reID_baseline_pytorch" style="color:#555; text-decoration:none;">Person_reID_baseline_pytorch</a> · 4.4k \&#9733;</div>
+    <div style="font-size:14px; color:var(--ct-text-2); margin-top:4px;">GitHub Stars</div>
+	<div style="font-size:12px; color:var(--ct-text-3); margin-top:6px;">incl. <a href="https://github.com/layumi/Person_reID_baseline_pytorch" style="color:var(--ct-text-2); text-decoration:none;">Person_reID_baseline_pytorch</a> · 4.4k \&#9733;</div>
   </div>
 
-  <div style="flex:1; min-width:200px; background:#f8f9fa; border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.06);">
-    <div style="font-size:13px; color:#666; margin-bottom:6px;">Academic Output</div>
+  <div style="flex:1; min-width:200px; background:var(--ct-card-bg); border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px var(--ct-card-shadow);">
+    <div style="font-size:13px; color:var(--ct-text-2); margin-bottom:6px;">Academic Output</div>
     <div style="font-size:22px; font-weight:700; line-height:1.35;">
-      <span style="color:#059669;">80+</span> papers<br>
-      H-index <span style="color:#059669;">41</span><br>
-      <span style="color:#059669;">14k+</span> citations
+      <span style="color:var(--ct-success);">80+</span> papers<br>
+      H-index <span style="color:var(--ct-success);">41</span><br>
+      <span style="color:var(--ct-success);">14k+</span> citations
     </div>
   </div>
 
@@ -179,13 +179,13 @@ Code ➞ [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publication ➞ [SCI
 <div style="flex:1; min-width:240px;">
 
 <h2 class="mag"><i class="fa-solid fa-bullhorn fa-beat"></i> Open Positions</h2>
-<p style="color:#CD853F;">
+<p style="color:var(--ct-accent-2);">
 <ul>
   <li>🎓 <strong>Ph.D. Students</strong> (Aug. 2027 intake, fully funded)</li>
   <li>🔬 <strong>Postdocs</strong> (multiple funding lines, rolling basis / start anytime)</li>
   <li>📚 <strong>Master Students</strong> (incoming Aug. 2026 intake; contact me early for full two-year research training)</li>
 </ul>
-<a href="https://zdzheng.xyz/recruitment/" style="color:#CD853F;">
+<a href="https://zdzheng.xyz/recruitment/" style="color:var(--ct-accent-2);">
 → Join Us
 </a>
 </p>
@@ -204,7 +204,7 @@ Code ➞ [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publication ➞ [SCI
 
 
 <h2 class="mag"><i class="fa-solid fa-microphone-lines"></i> Selected Talks</h2>
-<p style="color:#6b655f; font-size:14px;">One invited talk in English, two public talks in Chinese — from person re-identification, to drone-view spatial intelligence, to multimedia UAVs for the low-altitude economy.</p>
+<p style="color:var(--ct-text-2); font-size:14px;">One invited talk in English, two public talks in Chinese — from person re-identification, to drone-view spatial intelligence, to multimedia UAVs for the low-altitude economy.</p>
 
 <div class="talks-row">
 
@@ -326,8 +326,8 @@ Code ➞ [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publication ➞ [SCI
 	    <a href="https://zdzheng.xyz/ACMMM2025Workshop-UAV/">[Call for Papers]</a>
 	 </li>
 	 <li><strong>ACM MM Asia 2025 Brave New Idea Track:</strong> 
-	    <a href="https://mmasia2025.org/brave_new_ideas" style="color: #e74c3c; font-weight: bold;">Call for Papers</a> 
-	    <span style="background: #ff9999; padding: 2px 6px; border-radius: 3px; margin-left: 5px;">New</span>
+	    <a href="https://mmasia2025.org/brave_new_ideas" style="color: var(--ct-link-pdf); font-weight: bold;">Call for Papers</a> 
+	    <span style="background: var(--ct-tag-bg); padding: 2px 6px; border-radius: 3px; margin-left: 5px;">New</span>
 	 </li>
     <li><strong>ACM MM 2024 Workshops:</strong> 
       <a href="https://zdzheng.xyz/ACMMM2024Workshop-UAV/">Aerial-view Imaging</a>, 

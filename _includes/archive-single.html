@@ -15,32 +15,32 @@
 <head> 
 	<style>
 		.paper-card {
-		  background-color: #f9f9f9; /* 淡灰色背景 */
+		  background-color: var(--ct-card-bg); /* 淡灰色背景 */
 		  padding: 16px;
 		  border-radius: 12px;
-		  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* 初始轻微阴影 */
+		  box-shadow: 0 2px 5px var(--ct-card-shadow); /* 初始轻微阴影 */
 		  margin-bottom: 16px;
 		  transition: all 0.25s ease-in-out;
 		}
 		
 		.author {
 			text-decoration: none !important;
-			color: #333333;
+			color: var(--ct-heading);
 		}
 	    a.code-link {
-	      color: #181717 !important;
+	      color: var(--ct-heading) !important;
 	    }
 
 	    a.zhihu-link {
-	      color: #0084FF !important;
+	      color: var(--ct-zhihu) !important;
 	    }
 
 	    a.video-link {
-	      color: #FF0000 !important;
+	      color: var(--ct-link-pdf) !important;
 	    }
 
 	    a.pdf-link {
-	      color: #E41F26 !important;
+	      color: var(--ct-link-pdf) !important;
 	    }
 		.oral-tag {
 		  color: orange;
@@ -48,28 +48,28 @@
 
 	    /* 可选 hover 效果 */
 	    a.code-link:hover {
-	      color: #333 !important;
+	      color: var(--ct-heading) !important;
 	    }
 
 	    a.zhihu-link:hover  {
-	      color: #006ddf !important;
+	      color: var(--ct-zhihu-hover) !important;
 	    }
 
 	    a.video-link:hover {
-	      color: #cc0000 !important;
+	      color: var(--ct-link-pdf) !important;
 	    }
 
 	    a.pdf-link:hover{
-	      color: #b51a1f !important;
+	      color: var(--ct-link-pdf-hover) !important;
 	    }
 		.author:hover {
 			text-decoration: underline;
-			color: #0066cc;
+			color: var(--ct-author-hover);
 		}
 		/* 悬停时的弹起效果 */
 		.paper-card:hover {
 		  transform: translateY(-4px); /* 微微上移 */
-		  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* 增强阴影 */
+		  box-shadow: 0 8px 16px var(--ct-card-shadow-h); /* 增强阴影 */
 		}
 	</style>
 </head>

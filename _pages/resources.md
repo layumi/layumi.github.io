@@ -11,6 +11,31 @@ classes: wide
 
 <style>
 /* ---- Card grid: soft cards with hover lift ---- */
+/* 页面局部主题变量：浅色保持原值，暗色跟随站点主题（html[data-theme="dark"]） */
+table.cardtable, table.imgtable {
+  --res-border:        #e2e8f0;
+  --res-card-bg:       #fbfcfe;
+  --res-card-hover-bg: #ffffff;
+  --res-card-shadow:   0 8px 20px rgba(15, 23, 42, .08);
+  --res-hover-border:  #94a3b8;
+  --res-sub:           #64748b;
+  --res-divider:       #edf2f7;
+  --res-code-bg:       #eef2ff;
+  --res-code-fg:       #4338ca;
+}
+html[data-theme="dark"] table.cardtable,
+html[data-theme="dark"] table.imgtable {
+  --res-border:        rgba(244, 239, 230, 0.14);
+  --res-card-bg:       #15120E;
+  --res-card-hover-bg: #1E1913;
+  --res-card-shadow:   0 8px 20px rgba(0, 0, 0, 0.5);
+  --res-hover-border:  rgba(244, 239, 230, 0.28);
+  --res-sub:           #B9B1A1;
+  --res-divider:       rgba(244, 239, 230, 0.08);
+  --res-code-bg:       #26215C;
+  --res-code-fg:       #CECBF6;
+}
+
 table.cardtable {
   border-collapse: separate;
   border-spacing: 10px;
@@ -19,18 +44,18 @@ table.cardtable {
   border: none;
 }
 table.cardtable td {
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--res-border);
   border-radius: 14px;
-  background: #fbfcfe;
+  background: var(--res-card-bg);
   padding: 18px 10px 14px;
   vertical-align: top;
   transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
 }
 table.cardtable td:hover {
   transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(15, 23, 42, .08);
-  border-color: #94a3b8;
-  background: #ffffff;
+  box-shadow: var(--res-card-shadow);
+  border-color: var(--res-hover-border);
+  background: var(--res-card-hover-bg);
 }
 table.cardtable td a {
   text-decoration: none;
@@ -41,7 +66,7 @@ table.cardtable h3 {
   line-height: 1;
 }
 table.cardtable sub {
-  color: #64748b;
+  color: var(--res-sub);
   line-height: 1.5;
 }
 
@@ -49,14 +74,14 @@ table.cardtable sub {
 table.imgtable {
   border-collapse: separate;
   border-spacing: 0;
-  border: 1px solid #e2e8f0;
+  border: 1px solid var(--res-border);
   border-radius: 14px;
   overflow: hidden;
   width: 100%;
 }
 table.imgtable td {
   border: none;
-  border-bottom: 1px solid #edf2f7;
+  border-bottom: 1px solid var(--res-divider);
   padding: 16px;
   vertical-align: middle;
 }
@@ -64,8 +89,8 @@ table.imgtable tbody:last-child td {
   border-bottom: none;
 }
 table.imgtable code {
-  background: #eef2ff;
-  color: #4338ca;
+  background: var(--res-code-bg);
+  color: var(--res-code-fg);
   border-radius: 6px;
   padding: 1px 8px;
   font-size: 12px;

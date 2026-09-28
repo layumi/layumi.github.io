@@ -1,5 +1,40 @@
 <script src="{{ base_path }}/assets/js/main.min.js" async></script>
 
+<!-- 主题切换。注意：本段是自包含实现，因为 assets/js/main.min.js 是用旧版
+     _main.js 构建的、不含 MM 原生的 setTheme/toggleTheme。
+     若将来跑 `npm run uglify` 重建 main.min.js（其中已含 #theme-toggle 的绑定），
+     请删掉本段，否则一次点击会被处理两次、等于没切。 -->
+<script>
+  (function () {
+    var root = document.documentElement;
+    var btn = document.getElementById('theme-toggle');
+    var icon = document.getElementById('theme-icon');
+    if (!btn) return;
+
+    function sync() {
+      var dark = root.getAttribute('data-theme') === 'dark';
+      btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+      if (icon) {
+        icon.classList.toggle('fa-sun', !dark);
+        icon.classList.toggle('fa-moon', dark);
+      }
+    }
+
+    btn.addEventListener('click', function () {
+      var dark = root.getAttribute('data-theme') === 'dark';
+      if (dark) {
+        root.removeAttribute('data-theme');
+      } else {
+        root.setAttribute('data-theme', 'dark');
+      }
+      try { localStorage.setItem('theme', dark ? 'light' : 'dark'); } catch (e) {}
+      sync();
+    });
+
+    sync();
+  })();
+</script>
+
 <script>
   document.addEventListener("DOMContentLoaded", function() {
     // 图片数组（替换为你的实际路径）

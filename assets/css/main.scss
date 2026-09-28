@@ -45,6 +45,10 @@
 @import "vendor/font-awesome/brands";
 @import "print";
 
+/* 主题层必须最后 import：靠层叠顺序覆盖前面的同名规则。
+   删除这一行 + _sass/_cosmos-theme.scss 即可完全回退。 */
+@import "cosmos-theme";
+
 
 .lab-logo {
   height: 1.35em;
