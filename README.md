@@ -11,15 +11,39 @@ and *wiped* by a script. The two workflows are described below and they are not 
 
 ## Deploy
 
-Push to `master` → GitHub Pages builds (Jekyll 3.10, ~30 s, ~693 HTML pages) → live in 1–2 min.
-`CNAME` pins the domain, Cloudflare sits in front. `vercel.json` also sits in the repo (it defines
-redirects such as `/more2024` → `/MORE2024`); the deployment observed from outside is GitHub Pages
-+ Cloudflare.
+Push to `master` → **Vercel** builds and serves the site (Jekyll 3.10, ~30 s, ~693 HTML pages) →
+live in 1–2 min. Cloudflare proxies in front (`server: cloudflare`, `cf-ray`), so the chain is
+browser → Cloudflare → Vercel (edge region `hkg1`) → GitHub.
+
+This is easy to get wrong — an earlier version of this file claimed GitHub Pages was serving
+production. Verified from response headers on 2026-09-28:
+
+| Probe | Result | What it proves |
+|---|---|---|
+| `curl -I /publications.html` | `308 → /publications` | `cleanUrls` in `vercel.json`. GitHub Pages would 404 — `_site/publications.html` does not exist |
+| `curl -I /more2024/` | `308 → /MORE2024` | the `redirects` in `vercel.json` are live, with Vercel's status code (308) |
+| any response | `x-vercel-cache`, `x-vercel-id: hkg1::…` | the origin is Vercel |
+
+`CNAME` still exists, and GitHub Pages is still configured, but only to 301 `layumi.github.io`
+onto the custom domain. Both hosts run Jekyll, which is why the mistake is easy to make.
+
+**Vercel already caches HTML on its own edge** (`x-vercel-cache: HIT`). A Cloudflare Cache Rule
+that also caches HTML therefore stacks a second cache in front of an already-cached origin — and
+it has a side effect, see the warning below.
 
 | Response | Cache header | Consequence |
 |---|---|---|
 | HTML | `max-age=0, must-revalidate` | an edit shows up immediately |
 | static assets — `assets/`, `images/`, fonts | `max-age=14400` | **4-hour window where a visitor gets new HTML + old CSS** |
+
+> **Do not make HTML browser-cacheable.** Two connected reasons. (1) The `max-age=0` on HTML is
+> what makes the asset-cache problem below *self-healing*: a returning visitor gets fresh HTML,
+> and the fresh HTML carries a new `?v=`, so the stale-CSS window only exists for a visitor who
+> is mid-session. (2) A Cloudflare Cache Rule setting *Eligible for cache* on HTML makes
+> Cloudflare apply the zone's Browser Cache TTL to it — observed 2026-09-28: HTML went from
+> `max-age=0` to `max-age=14400`, i.e. browsers then hold the HTML for 4 hours and the
+> self-healing in (1) is gone. Cloudflare's edge never produced a `HIT` anyway (three consecutive
+> requests: `MISS`, `REVALIDATED`, `REVALIDATED`), so the rule bought ~nothing.
 
 That second row has bitten twice: a newly added control appeared but its stylesheet was missing,
 so the button wrapped onto its own line and clicking it did nothing. It is now handled
