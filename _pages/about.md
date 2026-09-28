@@ -278,6 +278,7 @@ Code ➞ [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publication ➞ [SCI
 <h2 class="mag"><i class="fa-solid fa-mug-hot fa-bounce"></i> News</h2>
 <ul>
 	<li><strong>PI</strong>, FDCT/0209/2025/AMJ, 2026–2029, MOP 1.66M</li>
+	<li> <strong>NeurIPS 2026:</strong> <a href="https://zdzheng.xyz/publication/VSearche2026">Multimodal Search Agent</a></li>
 	<li> <strong>ACM MM 2026:</strong> 2 papers - 
 	<a href="https://zdzheng.xyz/publication/Scale-ad2026">Dynamic Aerial Matching</a>, 
 	<a href="https://zdzheng.xyz/publication/Acoustic2026">Audio-Visual Seg.</a>

@@ -24,7 +24,9 @@ from VenueNorm import normalize_venue, check_venue
 import string
 import html
 import os
+import shutil
 import subprocess
+import sys
 
 
 def get_git_date(fname):
@@ -52,10 +54,33 @@ def extract_keywords_bert(title, max_keywords=3):
         result +=kw[0]+', '
     return result
 
-os.system('rm -r ../_publications/*')
-os.system('rm -r ../_authors/*')
-os.system('rm -r ../_tag/*')
-os.system('rm -r ../_funding/*')
+# --- 生成目录重置 + 安全护栏 -------------------------------------------------
+# 这一步会清空 _publications/_authors/_tag/_funding，然后用 bib 重建。
+# 旧写法是 `os.system('rm -r ../_publications/*')`：如果工作目录不是
+# markdown_generator/，`../` 会指向仓库之外，等于删别人的东西。所以先把工作目录
+# 锁定到本文件所在目录，并确认那里确实是本站仓库。
+_HERE = os.path.dirname(os.path.abspath(__file__))
+_ROOT = os.path.dirname(_HERE)
+if os.path.basename(_HERE) != 'markdown_generator' or not os.path.isfile(os.path.join(_ROOT, '_config.yml')):
+    sys.exit('❌ 请从本站仓库的 markdown_generator/ 目录运行（会自动锁定路径）：\n'
+             '   cd markdown_generator && python3 pubsFromBib.py')
+os.chdir(_HERE)
+
+GENERATED_DIRS = ('_publications', '_authors', '_tag', '_funding')
+for _name in GENERATED_DIRS:
+    _dir = os.path.join(_ROOT, _name)
+    if not os.path.isdir(_dir):
+        print(f'   (跳过不存在的目录 {_name})')
+        continue
+    _n = 0
+    for _entry in os.listdir(_dir):
+        _p = os.path.join(_dir, _entry)
+        if os.path.isdir(_p):
+            shutil.rmtree(_p)
+        else:
+            os.remove(_p)
+        _n += 1
+    print(f'   清空 {_name}/ （{_n} 项）')
 #todo: incorporate different collection types rather than a catch all publications, requires other changes to template
 publist = {
     "proceeding": {
