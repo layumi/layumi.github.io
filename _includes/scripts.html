@@ -61,20 +61,24 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // 图片数组（替换为你的实际路径）
+    // 三张头像的固有尺寸各不相同（高 300 / 286 / 281），随机切换时必须把 width/height
+    // 一并写回 <img>：否则浏览器按首次渲染的旧比例留位，切换后会有轻微跳动（CLS），
+    // 也会一直挂在 Lighthouse 的 unsized-images 上。
     const images = [
-      "https://zdzheng.xyz/images/profile.webp",
-      "https://zdzheng.xyz/images/profile2.webp",
-	  "https://zdzheng.xyz/images/profile3.webp"
+      { src: "https://zdzheng.xyz/images/profile.webp",  w: 400, h: 300 },
+      { src: "https://zdzheng.xyz/images/profile2.webp", w: 400, h: 286 },
+      { src: "https://zdzheng.xyz/images/profile3.webp", w: 400, h: 281 }
     ];
-    
+
     // 随机选择一张图片
-    const randomImage = images[Math.floor(Math.random() * images.length)];
-    
+    const pick = images[Math.floor(Math.random() * images.length)];
+
     // 设置到img标签
     const avatar = document.getElementById("random-avatar");
     if (avatar) {
-      avatar.src = randomImage;
+      avatar.src = pick.src;
+      avatar.width = pick.w;
+      avatar.height = pick.h;
     }
   });
 </script>

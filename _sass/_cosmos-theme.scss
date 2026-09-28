@@ -35,7 +35,10 @@
   --ct-surface        : #{$background-color};
   --ct-surface-2      : #{$code-background-color};
   --ct-text           : #{$text-color};
-  --ct-mid            : #{$primary-color};
+  /* 对比度：模板原值 #7a8288 on #fff = 3.9:1，AA 正文需 4.5 → 同色相压深到 4.96:1。
+     只动「当文字用」的 mid（导航、Follow 按钮、次级文字）；当按钮填充用的
+     --ct-fill 保持模板原值，视觉上按钮底色不变。 */
+  --ct-mid            : #6a7176;
   --ct-fill           : #{$primary-color};
   --ct-border         : #{$border-color};
   --ct-border-2       : #{$light-gray};
@@ -46,8 +49,11 @@
   --ct-text-fig       : #777a7d;
   --ct-text-hover-2   : #5c6266;
   --ct-border-3       : #dee0e1;
-  --ct-link           : #{$link-color};
-  --ct-link-hover     : #{$link-color-hover};
+  /* 对比度：模板原值 #52adc8 on #fff 只有 2.57:1（AA 需 4.5），这是全站最多的一类
+     无障碍失败（移动端审计 30 处）。同色相压深；hover 也从 4.34:1 提到 5.67:1，
+     保持「hover 更深」的方向。暗色主题本来就用琥珀色，已是 AA，不受影响。 */
+  --ct-link           : #2b7794;
+  --ct-link-hover     : #1f6f8b;
   --ct-on-accent      : #fff;
   --ct-hero-bg        : #000;
 

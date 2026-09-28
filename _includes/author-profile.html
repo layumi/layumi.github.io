@@ -11,7 +11,7 @@
     	<img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}" >
     {% endif %}-->
 	{% if author.avatar contains "profile" %}
-	    <img id="random-avatar" class="author__avatar" src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}">
+	    <img id="random-avatar" class="author__avatar" src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" alt="{{ author.name }}" width="400" height="300">
 	{% else %}
 	    {% if author.avatar contains "://" %}
 	        <img src="{{ author.avatar }}" alt="{{ author.name }}">
