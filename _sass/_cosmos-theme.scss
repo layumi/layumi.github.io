@@ -28,6 +28,9 @@
 :root {
   color-scheme: light;
 
+  /* 页面底色（html）。暗色下比 surface 更深，形成两层暗色层次，也避免橡皮筋滚动露白 */
+  --ct-bg             : #fff;
+
   /* —— 由 _variables.scss 插值：与改动前逐值相同，浅色路径零回归 —— */
   --ct-surface        : #{$background-color};
   --ct-surface-2      : #{$code-background-color};
@@ -75,6 +78,7 @@
    -------------------------------------------------------------------------- */
 html[data-theme="dark"] {
   color-scheme: dark;
+  --ct-bg             : #090807;
 
   --ct-surface        : #15120E;
   --ct-surface-2      : #1E1913;
@@ -116,9 +120,10 @@ html[data-theme="dark"] {
 }
 
 /* --------------------------------------------------------------------------
-   3. MM 组件规则（自改动前的 main.css 程序化生成，共 88 条）
+   3. MM 组件规则（由引入主题层之前的 main.css 程序化生成，共 88 条；
+      重新生成：python3 theme-rules-gen.py --baseline <旧 main.css> --apply）
    -------------------------------------------------------------------------- */
-html { background-color: var(--ct-surface) }
+html { background-color: var(--ct-bg) }
 a { color: var(--ct-link) }
 body { color: var(--ct-text) }
 u,ins { border-bottom: 1px solid var(--ct-text) }
@@ -131,8 +136,8 @@ figcaption a { border-bottom: 1px solid var(--ct-border-2) }
 figcaption a:hover { color: var(--ct-strong); border-bottom-color: var(--ct-strong) }
 .screen-reader-text:focus,.screen-reader-shortcut:focus { background: var(--ct-surface) }
 .social-icons .fa { color: var(--ct-strong) }
-.navicon { background: var(--ct-on-accent) }
-.navicon:before,.navicon:after { background: var(--ct-on-accent) }
+.navicon { background: var(--ct-surface) }
+.navicon:before,.navicon:after { background: var(--ct-surface) }
 .modal { background: var(--ct-surface); border: 1px solid var(--ct-border) }
 .modal__actions { border-top: 1px solid var(--ct-border) }
 .footnote { color: var(--ct-text-mute) }
@@ -187,17 +192,21 @@ td { border: 1px solid var(--ct-border-2) }
 .page__comments-title { border-top: 1px solid var(--ct-border) }
 .page__comments-form { background: var(--ct-border) }
 .comment:not(:last-child) { border-bottom: 1px solid var(--ct-border) }
-.comment__avatar { border: 1px solid var(--ct-border) }
+@media (min-width: 57.8125em) {
+  .comment__avatar { border: 1px solid var(--ct-border) }
+}
 .page__related { border-top: 1px solid var(--ct-border) }
 .archive__subtitle { color: var(--ct-text-mute); border-bottom: 1px solid var(--ct-border) }
 .feature__wrapper { border-bottom: 1px solid var(--ct-border) }
-.author__avatar img { border: 1px solid var(--ct-border) }
+@media (min-width: 57.8125em) {
+  .author__avatar img { border: 1px solid var(--ct-border) }
+}
 .author__urls { border: 1px solid var(--ct-border); background: var(--ct-surface) }
 .author__urls:before { border-color: var(--ct-border) transparent }
-.author__urls:after { border-color: var(--ct-surface) transparent }
+.author__urls:after { border-color: var(--ct-on-accent) transparent }
 .author__urls_nolisten { border: 1px solid var(--ct-border); background: var(--ct-surface) }
 .author__urls_nolisten:before { border-color: var(--ct-border) transparent }
-.author__urls_nolisten:after { border-color: var(--ct-surface) transparent }
+.author__urls_nolisten:after { border-color: var(--ct-on-accent) transparent }
 .pyramid-wrap .n-root .badge { color: var(--ct-on-accent) }
 .pyramid-wrap .n-aigc .badge { color: var(--ct-on-accent) }
 .pyramid-wrap .n-unc .badge { color: var(--ct-on-accent) }
@@ -206,10 +215,10 @@ td { border: 1px solid var(--ct-border-2) }
 .pyramid-wrap .n-reid .badge-unc { color: var(--ct-on-accent) }
 .pyramid-wrap .n-da .badge { color: var(--ct-on-accent) }
 .fa-inverse { color: var(--fa-inverse, var(--ct-on-accent)) }
-
-/* 上面 .author__urls / .author__urls_nolisten 取的是基线里**被后续规则覆盖掉**的那一处
-   （下拉框样式，仅窄屏可见）。桌面端基线会在 >=57.8125em 处把它们重置为透明并隐藏箭头，
-   所以这里必须复刻同一条 media query —— 否则我方规则因位置更靠后会错误地赢下桌面端。 */
+/* 上面 .author__urls / .author__urls_nolisten 取的是基线里**窄屏下拉框**那一处
+   （display:none + 白底浮层）。基线在 >=57.8125em 处有一条把它们重置为透明、
+   并隐藏小箭头的规则——那条规则不含任何颜色字面值，因此生成器不会输出它，
+   必须在这里复刻。否则我方规则因位置更靠后会错误地赢下桌面端。 */
 @media (min-width: 57.8125em) {
   .author__urls,
   .author__urls_nolisten { border: 0; background: transparent; }
@@ -225,6 +234,7 @@ td { border: 1px solid var(--ct-border-2) }
 .masthead__menu {
   display: flex;
   align-items: center;
+  flex-wrap: nowrap;
   gap: 6px;
 
   /* nav 占满剩余宽度；min-width:0 让 greedy-nav 的溢出测量正常工作 */
@@ -301,3 +311,38 @@ html[data-theme="dark"] .pyramid-wrap {
   --edge-aigc: #5DCAA5;
   --edge-unc:  #EF9F27;
 }
+
+/* --------------------------------------------------------------------------
+   6. 手机端
+   -------------------------------------------------------------------------- */
+/* 32px 的点击热区偏小（Apple 建议 >=44px 的可点区域），小屏加大 */
+@media (max-width: 37.5em) {
+  .theme-toggle {
+    width: 36px;
+    height: 36px;
+  }
+  .theme-toggle i { font-size: 15px; }
+}
+
+/* --------------------------------------------------------------------------
+   7. 暗色专项修正
+   —— 下面几处的 token 是按「边框 / 填充」语义映射的，被当成文字色或悬停底色
+      使用时在深底上会过淡到不可读，所以单独覆盖。
+   -------------------------------------------------------------------------- */
+/* 页脚：浅色是 #f2f3f3 底 + #bdc1c4 字（本来就是刻意的极淡装饰文字）。
+   这两个 token 到暗色会变成 10% / 20% 的白色叠加，叠加后几乎隐形，
+   因此改用不透明底色 + 满足 AA 的文字色（#857D6E on #100E0B ≈ 4.6）。 */
+html[data-theme="dark"] .page__footer {
+  background-color: #100E0B;
+  color: #857D6E;
+}
+html[data-theme="dark"] .page__footer .fas,
+html[data-theme="dark"] .page__footer .fab,
+html[data-theme="dark"] .page__footer .far,
+html[data-theme="dark"] .page__footer .fal { color: #857D6E; }
+
+/* 手机端下拉菜单的悬停底色：token 是 28% 白，当底色太亮，收回 8% */
+html[data-theme="dark"] .greedy-nav .hidden-links a:hover { background: rgba(244, 239, 230, 0.08); }
+
+/* 选中态 */
+html[data-theme="dark"] ::selection { color: #090807; background: #D8A24A; }

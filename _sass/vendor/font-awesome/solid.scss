@@ -17,8 +17,11 @@
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url('#{$fa-font-path}/fa-solid-900.woff2') format('woff2'),
-    url('#{$fa-font-path}/fa-solid-900.ttf') format('truetype');
+  /* 本地修改：字体会被重新子集化（见 fa-subset.sh），但线上静态资源缓存 4 小时，
+     浏览器会继续用旧字体导致新图标（如主题切换的 fa-sun/fa-moon）不显示。
+     这里加上构建版本号强制刷新。$ct-asset-version 定义在 assets/css/main.scss。 */
+  src: url('#{$fa-font-path}/fa-solid-900.woff2?v=#{$ct-asset-version}') format('woff2'),
+    url('#{$fa-font-path}/fa-solid-900.ttf?v=#{$ct-asset-version}') format('truetype');
 }
 
 .fas,

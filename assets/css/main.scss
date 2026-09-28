@@ -2,6 +2,15 @@
 ---
 
 /*
+ * 资源版本号：每次构建都会变，用来给 main.css / main.min.js / 图标字体加 ?v=。
+ * 起因：线上静态资源 max-age=14400（4 小时），而 HTML 是不缓存的，
+ * 于是访客会拿到「新 HTML + 旧 CSS」——曾导致主题切换点了没反应、顶栏图标换行。
+ * 同一个 site.time 也在 _includes/head.html 与 _includes/scripts.html 里使用，
+ * 三处必须一致，否则同一份 CSS 会被下载两次。
+ */
+$ct-asset-version: "{{ site.time | date: '%s' }}";
+
+/*
  *    Minimal Mistakes Jekyll Theme
  *
  *  - Michael Rose

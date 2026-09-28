@@ -16,8 +16,9 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url('#{$fa-font-path}/fa-brands-400.woff2') format('woff2'),
-    url('#{$fa-font-path}/fa-brands-400.ttf') format('truetype');
+  /* 本地修改：同 solid.scss，加构建版本号绕过 4 小时静态资源缓存 */
+  src: url('#{$fa-font-path}/fa-brands-400.woff2?v=#{$ct-asset-version}') format('woff2'),
+    url('#{$fa-font-path}/fa-brands-400.ttf?v=#{$ct-asset-version}') format('truetype');
 }
 
 .fab,

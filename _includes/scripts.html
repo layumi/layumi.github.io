@@ -1,37 +1,61 @@
-<script src="{{ base_path }}/assets/js/main.min.js" async></script>
+<script src="{{ base_path }}/assets/js/main.min.js?v={{ site.time | date: '%s' }}" async></script>
 
-<!-- 主题切换。注意：本段是自包含实现，因为 assets/js/main.min.js 是用旧版
-     _main.js 构建的、不含 MM 原生的 setTheme/toggleTheme。
-     若将来跑 `npm run uglify` 重建 main.min.js（其中已含 #theme-toggle 的绑定），
-     请删掉本段，否则一次点击会被处理两次、等于没切。 -->
+<!-- 主题切换。三态循环：自动 → 浅色 → 深色 → 自动。
+     「自动」= 访客本地时间处于夜间（默认 19:00–06:59）**或**系统偏好深色；选择存在 localStorage。
+     解析逻辑在 _includes/head.html 的防闪烁脚本里（挂到 window.__ctTheme），本段只负责交互。
+
+     注意：本段是自包含实现，因为 assets/js/main.min.js 是用旧版 _main.js 构建的、
+     不含 MM 原生的 setTheme/toggleTheme。若将来跑 `npm run uglify` 重建 main.min.js
+     （其中已含 #theme-toggle 的绑定），请删掉本段，否则一次点击会被处理两次、等于没切。 -->
 <script>
   (function () {
     var root = document.documentElement;
     var btn = document.getElementById('theme-toggle');
     var icon = document.getElementById('theme-icon');
-    if (!btn) return;
+    var T = window.__ctTheme;
+    if (!btn || !T) return;
 
-    function sync() {
-      var dark = root.getAttribute('data-theme') === 'dark';
-      btn.setAttribute('aria-pressed', dark ? 'true' : 'false');
+    var ORDER = ['auto', 'light', 'dark'];
+    var NAME = { auto: '自动', light: '浅色', dark: '深色' };
+
+    function mode() { return root.getAttribute('data-theme-mode') || 'auto'; }
+    function resolved() { return root.getAttribute('data-theme') === 'dark' ? 'dark' : 'light'; }
+
+    function paint() {
+      var m = mode(), r = resolved();
+      btn.setAttribute('data-mode', m);
+      btn.setAttribute('aria-pressed', r === 'dark' ? 'true' : 'false');
+      var label = '主题：' + NAME[m] + (m === 'auto' ? '（跟随系统时间/偏好）' : '') + '，当前' + NAME[r];
+      btn.setAttribute('aria-label', label + '，点击切换');
+      btn.title = label;
       if (icon) {
-        icon.classList.toggle('fa-sun', !dark);
-        icon.classList.toggle('fa-moon', dark);
+        icon.classList.toggle('fa-sun', r === 'light');
+        icon.classList.toggle('fa-moon', r === 'dark');
       }
     }
 
+    function setMode(m) {
+      try { localStorage.setItem('theme', m); } catch (e) {}
+      T.apply(m);
+      paint();
+    }
+
     btn.addEventListener('click', function () {
-      var dark = root.getAttribute('data-theme') === 'dark';
-      if (dark) {
-        root.removeAttribute('data-theme');
-      } else {
-        root.setAttribute('data-theme', 'dark');
-      }
-      try { localStorage.setItem('theme', dark ? 'light' : 'dark'); } catch (e) {}
-      sync();
+      setMode(ORDER[(ORDER.indexOf(mode()) + 1) % ORDER.length]);
     });
 
-    sync();
+    // 自动模式下跟随系统偏好变化；回到页面时按当前时间重新判定（比如跨过 19:00）
+    function refresh() { if (mode() === 'auto') { T.apply('auto'); paint(); } }
+    try {
+      var mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
+      if (mq) {
+        if (mq.addEventListener) mq.addEventListener('change', refresh);
+        else if (mq.addListener) mq.addListener(refresh);
+      }
+    } catch (e) {}
+    document.addEventListener('visibilitychange', function () { if (!document.hidden) refresh(); });
+
+    paint();
   })();
 </script>
 
