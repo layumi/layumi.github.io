@@ -53,14 +53,14 @@ redirect_from:
 
 ### Australia (UTS)
 - [Chao Wang](https://zdzheng.xyz/authors/Chao-Wang): UTS (Pursuing Ph.D)
-- [Mu Chen](https://zdzheng.xyz/authors/Mu-Chen): UTS (Pursuing Ph.D)
-- [Xuanmeng Zhang](https://zdzheng.xyz/authors/Xuanmeng-Zhang): UTS (Pursuing Ph.D)
+- [Mu Chen](https://zdzheng.xyz/authors/Mu-Chen): UTS (Ph.D) MBZUAI (Postdoc)
+- [Xuanmeng Zhang](https://zdzheng.xyz/authors/Xuanmeng-Zhang): UTS (Ph.D) NVIDIA
 - [Chuchu Han](https://www.zdzheng.xyz/authors/Chuchu-Han): UTS (Visiting)
-- [Tingyu Wang](https://www.zdzheng.xyz/authors/Tingyu-Wang): UTS (Visiting)
+- [Tingyu Wang](https://www.zdzheng.xyz/authors/Tingyu-Wang): UTS (Visiting) HDU (Lecturer)
 - [Zhikun Huang](https://zdzheng.xyz/authors/Zhikun-Huang): UTS (Visiting)
 
 ### Mainland
-- [Yuchen Suo](https://zdzheng.xyz/authors/Yucheng-Suo): ZJU (Pursuing Ph.D)
+- [Yuchen Suo](https://zdzheng.xyz/authors/Yucheng-Suo): ZJU (Ph.D) JD
 - [Xiaolong Shen](https://zdzheng.xyz/authors/Xiaolong-Shen): ZJU (Pursuing Ph.D)
 - Jinliang Liu: ZJU (Pursuing Ph.D)
 - [Xu Zhang](https://www.zdzheng.xyz/authors/Xu-Zhang): ZJU (Pursuing Ph.D)
