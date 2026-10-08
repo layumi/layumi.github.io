@@ -164,7 +164,7 @@ Hi! I am a tenure-track **Assistant Professor** at the [University of Macau](htt
     <div style="font-size:22px; font-weight:700; line-height:1.35;">
       <span style="color:var(--ct-success);">80+</span> papers<br>
       H-index <span style="color:var(--ct-success);">41</span><br>
-      <span style="color:var(--ct-success);">14k+</span> citations
+      <span style="color:var(--ct-success);">15k+</span> citations
     </div>
   </div>
 
