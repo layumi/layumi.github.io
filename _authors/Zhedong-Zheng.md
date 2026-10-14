@@ -4,6 +4,8 @@ collection: authors
 permalink: /authors/Zhedong-Zheng
 author_profile: false
 ---
+ <li> Jiarui Zeng,  Kun Shi,  Chiman Vong,  Zhedong Zheng, &quot;SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image.&quot; arXiv:2610.11049, 2026.<a href='https://zdzheng.xyz/publication/SatFix-A2026'>[Link]</a> </li>
+ <li> Lingyu Liu,  Yaxiong Wang,  Li Zhu,  Zhedong Zheng, &quot;Uncertainty-Aware Consistency Distillation for Few-Step Video Generation.&quot; arXiv:2609.39132, 2026.<a href='https://zdzheng.xyz/publication/Uncertai2026'>[Link]</a> </li>
  <li> Ruiyang Zhang,  Qianguo Sun,  Chao Song,  Yiyan Qi,  Zhedong Zheng, &quot;VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning.&quot; NeurIPS, 2026.<a href='https://zdzheng.xyz/publication/VSearche2026'>[Link]</a> </li>
  <li> Ruiyang Zhang,  Junhao Zhang,  Hao Fei,  Zhedong Zheng, &quot;Uncertainty-o: One Model-agnostic Framework for Unveiling Uncertainty in Large Multimodal Models.&quot; Findings of EMNLP, 2026.<a href='https://zdzheng.xyz/publication/Uncertai2026_1'>[Link]</a> </li>
  <li> Yaxuan Li,  Jiarui Zeng,  Shaofei Huang,  Zhedong Zheng, &quot;Last-Meter Precision Navigation for UAVs: A Diffusion-Refined Aerial Visual Servoing Approach.&quot; arXiv preprint arXiv:2607.04352, 2026.<a href='https://zdzheng.xyz/publication/Last-Met2026'>[Link]</a> </li>

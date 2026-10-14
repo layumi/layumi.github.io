@@ -4,4 +4,5 @@ collection: authors
 permalink: /authors/Jiarui-Zeng
 author_profile: false
 ---
+ <li> Jiarui Zeng,  Kun Shi,  Chiman Vong,  Zhedong Zheng, &quot;SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image.&quot; arXiv:2610.11049, 2026.<a href='https://zdzheng.xyz/publication/SatFix-A2026'>[Link]</a> </li>
  <li> Yaxuan Li,  Jiarui Zeng,  Shaofei Huang,  Zhedong Zheng, &quot;Last-Meter Precision Navigation for UAVs: A Diffusion-Refined Aerial Visual Servoing Approach.&quot; arXiv preprint arXiv:2607.04352, 2026.<a href='https://zdzheng.xyz/publication/Last-Met2026'>[Link]</a> </li>
