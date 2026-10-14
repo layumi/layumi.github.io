@@ -1,7 +1,7 @@
 ---
 title: "Uncertainty-o: One Model-agnostic Framework for Unveiling Uncertainty in Large Multimodal Models"
 collection: publications
-permalink: /publication/Uncertai2026
+permalink: /publication/Uncertai2026_1
 date: 2026-01-01
 doi: 
 oral: 
