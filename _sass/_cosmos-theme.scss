@@ -164,6 +164,14 @@ td { border: 1px solid var(--ct-border-2) }
 .greedy-nav { background: var(--ct-surface) }
 .greedy-nav a { color: var(--ct-mid) }
 .greedy-nav a:hover { color: var(--ct-text-hover-2) }
+
+/* 品牌（logo + 站名）在 .greedy-nav 外面，需要单独取同一套颜色与底色，
+   否则暗色下左侧会露出更深的页面底色，形成接缝。 */
+.masthead--split .masthead__brand {
+  color: var(--ct-mid);
+  background: var(--ct-surface);
+}
+.masthead--split .masthead__brand:hover { color: var(--ct-text-hover-2) }
 .greedy-nav button { background-color: var(--ct-fill); color: var(--ct-on-accent) }
 .greedy-nav .visible-links a:before { background: var(--ct-border-2) }
 .greedy-nav .hidden-links { border: 1px solid var(--ct-border); background: var(--ct-surface) }

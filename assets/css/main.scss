@@ -70,6 +70,76 @@ $ct-asset-version: "{{ site.time | date: '%s' }}";
   gap: 6px;
 }
 
+/* ==========================================================================
+   顶栏：品牌靠左、导航靠右（桌面端）
+   --------------------------------------------------------------------------
+   结构见 _includes/masthead.html 的 .masthead--split（品牌已移出
+   <ul class="visible-links">）。这里只放结构性规则，颜色/底色放在主题层
+   _sass/_cosmos-theme.scss §4，跟着 --ct-* token 走。
+   ========================================================================== */
+
+.masthead--split .masthead__menu {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  /* 不留 gap：品牌与导航各自带 --ct-surface 底色，中间留缝会在暗色下露出
+     更深的页面底色。间距由品牌的 padding-right 提供。 */
+  gap: 0;
+}
+
+/* 分隔由 gap 移到开关自身，视觉上与改动前的 6px 一致 */
+.masthead--split .theme-toggle {
+  margin-left: 6px;
+}
+
+.masthead--split .masthead__brand {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding-right: 2em;
+  font-weight: 700;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+/* 品牌搬走后，第一个可见链接会命中 `.visible-links li:first-child` 的加粗与
+   零左距，这里还原成普通链接，手机端才和改动前一致。 */
+.masthead--split .visible-links > li:first-child {
+  font-weight: normal;
+}
+
+.masthead--split .visible-links > li:first-child > a {
+  margin-left: 1rem;
+}
+
+.masthead--split #site-nav.greedy-nav {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+/* 只在汉堡按钮被收起（＝所有链接都放得下）时才右对齐。
+   `.visible-links` 仍是 display:table（收缩到内容宽度），作为 flex item 宽 =
+   max-content，所以 greedy-nav 的 $vlinks.width() 拿到的依旧是真实内容宽度；
+   折叠判定只看内容宽度、与对齐方式无关，因此切换对齐不会引起折叠/展开抖动。
+   为什么不能无条件右对齐：按钮是 `position: absolute; right: 0`，占的是导航
+   内部的一段宽度而不是流内空间。一直右对齐时链接会被推到按钮底下——实测
+   768px 下 "Resources" 被汉堡压掉半个词。:has() 不被支持时退回左对齐，只是
+   少了个对齐效果，不影响功能。 */
+@media screen and (min-width: 48em) {
+  .masthead--split #site-nav.greedy-nav:has(> button.hidden) {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  /* 右对齐后最后一个链接（Join Us）紧贴圆形开关，太挤；给一点呼吸。
+     只在汉堡收起时生效，手机/平板上仍是原来的 6px。 */
+  .masthead--split .masthead__menu:has(> #site-nav > button.hidden) .theme-toggle {
+    margin-left: 22px;
+  }
+}
+
 /* 宽屏层必须最后 import：靠层叠顺序与媒体查询覆盖上面的容器宽度。
    删除这一行 + _sass/_widescreen.scss 即可完全回退。 */
 @import "widescreen";

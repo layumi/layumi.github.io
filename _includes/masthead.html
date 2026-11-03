@@ -1,17 +1,25 @@
 {% include base_path %}
 
-<div class="masthead">
+{% comment %}
+  品牌（logo + 站名）从 <ul class="visible-links"> 里搬到了 <nav> 外面。
+  原因：greedy-nav 把 .visible-links 当一张表来量宽度（$vlinks.width() vs
+  $nav.width()）决定折叠几个链接。只要品牌还在这个表里，它就跟着链接一起被
+  推到右边；而要「品牌靠左、链接靠右」，两者必须是两个独立的盒。搬到 nav
+  外面之后 .visible-links 只剩链接，宽度仍是内容宽度，折叠逻辑照旧；同时
+  nav 是 flex:1，$nav.width() 不含品牌，可用宽度也算得准。
+  手机端不加 justify-content，导航仍在左、汉堡仍在右，与改动前一致。
+{% endcomment %}
+
+<div class="masthead masthead--split">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
+      <a class="masthead__brand" href="{{ base_path }}/">
+        <img src="https://zdzheng.xyz/resource-img/lab-logo-trans.webp" class="lab-logo" alt="AIGC-DL Lab logo">
+        <span>AIGC-DL Lab</span>
+      </a>
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
         <ul class="visible-links">
-		  <li class="masthead__menu-item masthead__menu-item--lg masthead__logo-item">
-		    <a href="{{ base_path }}/">
-		      <img src="https://zdzheng.xyz/resource-img/lab-logo-trans.webp" class="lab-logo" alt="AIGC-DL Lab logo">
-		      AIGC-DL Lab
-		    </a>
-		  </li>
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
