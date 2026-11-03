@@ -71,15 +71,22 @@ redirect_from:
 		}
 
 		/* ===== 杂志感（新增区块样式） ===== */
+		/* The slogan is a subtitle, not a second headline: keep it below the
+		   page title in size and weight, and let it breathe on one line. */
 		.hero-slogan {
 		  font-family: Georgia, "Times New Roman", serif;
-		  font-size: 44px; font-weight: 700; line-height: 1.1;
+		  font-size: 26px; font-weight: 600; line-height: 1.3;
 		  letter-spacing: -0.01em; margin: 8px 0 4px 0; color: var(--ct-heading);
+		  text-wrap: balance;
 		}
 		.hero-slogan .accent { color: var(--ct-accent); }
 		.hero-cn {
 		  font-family: Georgia, "Times New Roman", serif;
-		  font-size: 19px; color: var(--ct-text-2); margin-bottom: 10px;
+		  font-size: 15px; color: var(--ct-text-2); margin-bottom: 10px;
+		}
+		@media screen and (max-width: 768px) {
+		  .hero-slogan { font-size: 20px; }
+		  .hero-cn { font-size: 13px; }
 		}
 		.pillars { display: flex; gap: 10px; flex-wrap: wrap; margin: 12px 0 6px 0; }
 		.pillar {
