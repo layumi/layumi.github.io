@@ -1,77 +1,150 @@
 /* ==========================================================================
    Wide-screen layout (desktop 16:9)
    --------------------------------------------------------------------------
-   Reference: cosmosebike.com — full-width canvas, inner grid, prose capped
-   at a readable measure.
+   Reference: cosmosai.cc. What is worth borrowing from it is not the colours
+   but the composition rules:
+     - a shell that is always *filled* — no column of dead canvas on the right
+     - ONE reading measure for running text (it uses 52–60ch)
+     - cards / media allowed to be wider than the text measure, so the wide
+       blocks read as a figure column and the text as a text column
+     - generous vertical rhythm between bands
+   Its served CSS, for reference: shell 1480px, sub-containers 1100/980/820px,
+   text measures 52–60ch, body font fluid from 18.8 to 23.3px.
+
+   Geometry of this theme (measured, not guessed): the content column is
+   `(shell − 36px) × 10/12 − 73px`, because `.page` is `span(10 of 12)` plus a
+   73px `prefix(0.5 of 12)`. That is why widening `#main` alone barely moved
+   the text: the extra width was swallowed by the `suffix(2 of 12)` padding
+   until it was zeroed below.
+
+   Resulting numbers (content column / running text):
+     1440–1699px → 1280px shell → 964px content → 721px text   (13" Mac)
+     1700–2099px → 1560px shell → 1197px content → 721px text  (16" Mac, 27" QHD @1080p)
+     2100px+     → 1780px shell → 1380px content → 721px text  (27" QHD @native)
 
    Behaviour:
-     < 1440px  : untouched (mobile / tablet / small laptops keep the old layout)
-     >= 1440px : main + masthead widen to 1680px (or 92vw), prose capped at 72ch
-     >= 1800px : main + masthead widen to 1760px (or 90vw), hero type scales up
+     < 1440px   : untouched — phones, tablets, and the 1280×800 MacBook Air
+     >= 1440px  : dead right gutter removed, text keeps a 72ch measure
+     >= 1800px  : talk cards become a filling grid (before this, cards got
+                  *smaller* as the window grew, because the row was a flexbox
+                  capped by the column: 337px per card at 2560 vs 407px at 1512)
 
    Opt-in full-bleed block (use sparingly, e.g. a hero band or image strip):
      <div class="wide-bleed"> ... </div>
    ========================================================================== */
 
-$ws-wide: 1680px;
-$ws-ultra: 1760px;
+$ws-13: 1280px;
+$ws-16: 1560px;
+$ws-27: 1780px;
 /* 72ch is the usual typographic ceiling: roughly 70–80 Latin characters or
-   36–40 CJK characters per line at the site's 16px base size. */
+   36–40 CJK characters per line at the site's 18px base size. */
 $ws-prose: 72ch;
+/* Publication cards are one-per-row; cap them so the citation line cannot run
+   past the widest content column. 1380px matches the 27" column exactly, so in
+   practice this only guards against a future wider shell — a lower value left a
+   visible 175px dead band on /publications/ with the year rules aligned to the
+   cards but the shell ending further right. */
+$ws-card: 1380px;
 
 @media screen and (min-width: 1440px) {
   #main,
   .masthead__inner-wrap {
-    max-width: min(#{$ws-wide}, 92vw);
+    max-width: min(#{$ws-13}, 92vw);
     margin-left: auto;
     margin-right: auto;
   }
 
-  /* Cards, media and tables may use the full canvas. Long-form text should not:
-     a 1680px line of Chinese or English is unreadable. Only direct paragraph
-     and quote children are capped; lists and card grids keep the full width,
-     and the hero lines are excluded because they set their own type scale. */
+  /* ---- 1. Reclaim the dead right gutter ----------------------------------
+     `.page` carries `suffix(2 of 12)` as padding-right — 292px at 2560. It
+     never holds content; it only pushed the column away from the right edge,
+     so the text stopped at 1067px inside a 1724px shell and roughly 690px of
+     the canvas sat empty. Full-bleed on 27". `.archive` (publications, team,
+     blog list) already has no suffix. */
+  #main .page {
+    padding-right: 0;
+  }
+
+  /* ---- 2. One measure for running text ----------------------------------
+     Media, cards, diagrams and the two-column bands keep the full column.
+     Only direct children are capped, so the lists inside the flex bands
+     ("Open Positions") keep their own narrower width. */
   #main .page__content > p:not(.hero-role):not(.hero-slogan):not(.hero-cn),
   #main .page__content > blockquote {
     max-width: $ws-prose;
   }
 
-  /* Card rows get more air and a larger minimum card width. The #main prefix
-     is deliberate: about.md ships its own <style> block with the same class
-     names, and an ID selector keeps this layer winning without !important. */
+  /* ---- 3. Archive pages: section rules line up with the cards ------------
+     On /publications/ the `##` year heading draws a 1px rule the full column
+     width above cards that are 1200px wide, leaving a ragged right edge on the
+     most visited secondary page. */
+  #main .archive > h2,
+  #main .archive > h1,
+  #main .archive > hr {
+    max-width: $ws-card;
+  }
+
+  /* ---- 4. Cards ---------------------------------------------------------- */
   #main .talks-row {
     gap: 24px;
   }
 
   #main .talk-card {
-    min-width: 300px;
+    min-width: 280px;
   }
 
-  /* Publication cards are one-per-row; capping them stops the citation line
-     from stretching across the whole canvas. */
   #main .paper-card {
-    max-width: 1200px;
+    max-width: $ws-card;
+  }
+}
+
+/* 16" laptop and 27" QHD running at the 1920 "looks like" resolution. */
+@media screen and (min-width: 1700px) {
+  #main,
+  .masthead__inner-wrap {
+    max-width: min(#{$ws-16}, 92vw);
+  }
+}
+
+/* A native-resolution 27" QHD, or anything wider. Nothing above this matters:
+   the text measure is already fixed, so extra canvas only pads the margins. */
+@media screen and (min-width: 2100px) {
+  #main,
+  .masthead__inner-wrap {
+    max-width: min(#{$ws-27}, 92vw);
   }
 }
 
 @media screen and (min-width: 1800px) {
-  #main,
-  .masthead__inner-wrap {
-    max-width: min(#{$ws-ultra}, 90vw);
-    margin-left: auto;
-    margin-right: auto;
+  /* Talk cards: a grid that fills the column instead of a flexbox whose items
+     shrink as the viewport grows. auto-fit collapses the empty tracks, so the
+     card count in the row is whatever the cards themselves are. */
+  #main .talks-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 26px;
   }
 
+  #main .talk-card {
+    min-width: 0;
+  }
+
+  /* Vertical rhythm: give each band a little more air on a large canvas. */
+  #main .page__content > h2 {
+    margin-top: 3em;
+  }
+
+  #main .page__content > h2:first-child {
+    margin-top: 1em;
+  }
+
+  /* The hero lines sit outside the prose cap, so they are the one place where
+     the type has to be scaled by hand. */
   #main .hero-slogan {
     font-size: 28px;
   }
 
   #main .hero-cn {
     font-size: 16px;
-  }
-
-  #main .talks-row {
-    gap: 28px;
   }
 }
 
