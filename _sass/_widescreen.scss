@@ -1,0 +1,84 @@
+/* ==========================================================================
+   Wide-screen layout (desktop 16:9)
+   --------------------------------------------------------------------------
+   Reference: cosmosebike.com — full-width canvas, inner grid, prose capped
+   at a readable measure.
+
+   Behaviour:
+     < 1440px  : untouched (mobile / tablet / small laptops keep the old layout)
+     >= 1440px : main + masthead widen to 1680px (or 92vw), prose capped at 72ch
+     >= 1800px : main + masthead widen to 1760px (or 90vw), hero type scales up
+
+   Opt-in full-bleed block (use sparingly, e.g. a hero band or image strip):
+     <div class="wide-bleed"> ... </div>
+   ========================================================================== */
+
+$ws-wide: 1680px;
+$ws-ultra: 1760px;
+/* 72ch is the usual typographic ceiling: roughly 70–80 Latin characters or
+   36–40 CJK characters per line at the site's 16px base size. */
+$ws-prose: 72ch;
+
+@media screen and (min-width: 1440px) {
+  #main,
+  .masthead__inner-wrap {
+    max-width: min(#{$ws-wide}, 92vw);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Cards, media and tables may use the full canvas. Long-form text should not:
+     a 1680px line of Chinese or English is unreadable. Only direct paragraph
+     and quote children are capped; lists and card grids keep the full width,
+     and the hero lines are excluded because they set their own type scale. */
+  #main .page__content > p:not(.hero-role):not(.hero-slogan):not(.hero-cn),
+  #main .page__content > blockquote {
+    max-width: $ws-prose;
+  }
+
+  /* Card rows get more air and a larger minimum card width. The #main prefix
+     is deliberate: about.md ships its own <style> block with the same class
+     names, and an ID selector keeps this layer winning without !important. */
+  #main .talks-row {
+    gap: 24px;
+  }
+
+  #main .talk-card {
+    min-width: 300px;
+  }
+
+  /* Publication cards are one-per-row; capping them stops the citation line
+     from stretching across the whole canvas. */
+  #main .paper-card {
+    max-width: 1200px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  #main,
+  .masthead__inner-wrap {
+    max-width: min(#{$ws-ultra}, 90vw);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #main .hero-slogan {
+    font-size: 52px;
+  }
+
+  #main .hero-cn {
+    font-size: 21px;
+  }
+
+  #main .talks-row {
+    gap: 28px;
+  }
+}
+
+/* Opt-in full-bleed block. Keeps the content in normal flow but lets a band
+   span the viewport. Useful for hero backgrounds or edge-to-edge galleries. */
+.wide-bleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}

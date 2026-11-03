@@ -70,3 +70,7 @@ $ct-asset-version: "{{ site.time | date: '%s' }}";
   gap: 6px;
 }
 
+/* 宽屏层必须最后 import：靠层叠顺序与媒体查询覆盖上面的容器宽度。
+   删除这一行 + _sass/_widescreen.scss 即可完全回退。 */
+@import "widescreen";
+
