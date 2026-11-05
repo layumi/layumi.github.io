@@ -2,8 +2,10 @@
 
 <meta charset="utf-8">
 
-<!-- 主题：默认「自动」——按访客**本地时间**（默认 19:00–06:59 视为夜间）与系统偏好
-     （prefers-color-scheme）共同决定；访客在顶栏显式切换过之后，就一直用他的选择。
+<!-- 主题：默认「自动」——**只看访客本地时间**（默认 19:00–06:59 视为夜间）；
+     访客在顶栏显式切换过之后，就一直用他的选择（存 localStorage.theme）。
+     系统深色偏好（prefers-color-scheme）**不参与判定**：开发机常驻深色主题，
+     一旦把它 OR 进来，白天来访也会得到夜间模板。
      必须在样式表之前同步执行，首屏前就定好 html[data-theme]，否则深色访客会先闪一下白底。
      切换逻辑在 _includes/scripts.html，两处共用下面挂在 window 上的 __ctTheme。 -->
 <script>
@@ -17,9 +19,6 @@
         return (v === 'light' || v === 'dark' || v === 'auto') ? v : 'auto';
       } catch (e) { return 'auto'; }
     }
-    function sysDark() {
-      return !!(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
-    }
     function isNight(d) {
       var h = (d || new Date()).getHours();
       return h >= NIGHT_START || h < NIGHT_END;
@@ -27,7 +26,7 @@
     function resolve(mode) {
       mode = mode || stored();
       if (mode === 'light' || mode === 'dark') return mode;      // 访客显式选择优先
-      return (isNight() || sysDark()) ? 'dark' : 'light';        // 自动：夜间或系统深色
+      return isNight() ? 'dark' : 'light';                       // 自动：只按本地时间
     }
     function apply(mode) {
       var m = mode || stored();
@@ -39,7 +38,7 @@
     }
     window.__ctTheme = {
       resolve: resolve, apply: apply, stored: stored,
-      isNight: isNight, sysDark: sysDark, NIGHT: [NIGHT_START, NIGHT_END]
+      isNight: isNight, NIGHT: [NIGHT_START, NIGHT_END]
     };
     apply();
   })();

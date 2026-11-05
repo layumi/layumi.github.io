@@ -1,7 +1,7 @@
 <script src="{{ base_path }}/assets/js/main.min.js?v={{ site.time | date: '%s' }}" async></script>
 
 <!-- 主题切换。三态循环：自动 → 浅色 → 深色 → 自动。
-     「自动」= 访客本地时间处于夜间（默认 19:00–06:59）**或**系统偏好深色；选择存在 localStorage。
+     「自动」= 访客本地时间处于夜间（默认 19:00–06:59），**不看系统深色偏好**；选择存在 localStorage。
      解析逻辑在 _includes/head.html 的防闪烁脚本里（挂到 window.__ctTheme），本段只负责交互。
 
      注意：本段是自包含实现，因为 assets/js/main.min.js 是用旧版 _main.js 构建的、
@@ -25,7 +25,7 @@
       var m = mode(), r = resolved();
       btn.setAttribute('data-mode', m);
       btn.setAttribute('aria-pressed', r === 'dark' ? 'true' : 'false');
-      var label = '主题：' + NAME[m] + (m === 'auto' ? '（跟随系统时间/偏好）' : '') + '，当前' + NAME[r];
+      var label = '主题：' + NAME[m] + (m === 'auto' ? '（跟随本地时间）' : '') + '，当前' + NAME[r];
       btn.setAttribute('aria-label', label + '，点击切换');
       btn.title = label;
       if (icon) {
@@ -44,15 +44,8 @@
       setMode(ORDER[(ORDER.indexOf(mode()) + 1) % ORDER.length]);
     });
 
-    // 自动模式下跟随系统偏好变化；回到页面时按当前时间重新判定（比如跨过 19:00）
+    // 自动模式下按当前时间重新判定（比如开着页面跨过 19:00，或切回标签页时）
     function refresh() { if (mode() === 'auto') { T.apply('auto'); paint(); } }
-    try {
-      var mq = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)');
-      if (mq) {
-        if (mq.addEventListener) mq.addEventListener('change', refresh);
-        else if (mq.addListener) mq.addListener(refresh);
-      }
-    } catch (e) {}
     document.addEventListener('visibilitychange', function () { if (!document.hidden) refresh(); });
 
     paint();
