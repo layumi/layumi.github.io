@@ -140,6 +140,37 @@ $ct-asset-version: "{{ site.time | date: '%s' }}";
   }
 }
 
+/* ==========================================================================
+   侧边栏社交链接：桌面端 ORCID 与 Zhihu 并排一行
+   --------------------------------------------------------------------------
+   两者标签都很短，各占一行等于白占一行高度。
+   断点用 `breakpoint($large)`，即 `min-width: 57.8125em` = **925px** —— 必须与
+   `_sidebar.scss` 里 `.author__urls` 从「点一下弹出的浮层」（display:none →
+   position:absolute）切换成常显竖列表的那个断点**完全一致**。低于它时保持原样，
+   手机端仍是点一下出 list。
+   （注意 `_variables.scss` 里 118–122 行的 400/500/550/1200/1800 是一整段注释，
+   实际生效的是 125–129 行的 `!default` 值：$large = 925px、$x-large = 1280px。）
+   其余条目用 `grid-column: 1 / -1` 各占整行，因此只有这两个会落到同一行，
+   顺序仍由模板决定（ORCID 在前）。
+   ========================================================================== */
+@include breakpoint($large) {
+  .author__urls.social-icons {
+    display: grid;
+    /* minmax(0, 1fr) 而不是 1fr：li 上有 white-space: nowrap，用 1fr 时
+       min-content 会把轨道撑宽、把侧边栏顶出去。 */
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 12px;
+  }
+
+  .author__urls.social-icons > li {
+    grid-column: 1 / -1;
+  }
+
+  .author__urls.social-icons > .author__urls-pair {
+    grid-column: auto / span 1;
+  }
+}
+
 /* 宽屏层必须最后 import：靠层叠顺序与媒体查询覆盖上面的容器宽度。
    删除这一行 + _sass/_widescreen.scss 即可完全回退。 */
 @import "widescreen";

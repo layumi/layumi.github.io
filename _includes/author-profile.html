@@ -112,10 +112,10 @@
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
       {% endif %}
       {% if author.orcid %}
-        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i> ORCID</a></li>
+        <li class="author__urls-pair"><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i> ORCID</a></li>
       {% endif %}
       {% if author.zhihu %}
-        <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-zhihu icon-pad-right" aria-hidden="true"></i> Zhihu</a></li>
+        <li class="author__urls-pair"><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-zhihu icon-pad-right" aria-hidden="true"></i> Zhihu</a></li>
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-wikipedia-w icon-pad-right" aria-hidden="true"></i> Wikipedia</a></li>
