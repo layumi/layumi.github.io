@@ -159,10 +159,15 @@ $ct-asset-version: "{{ site.time | date: '%s' }}";
 @include breakpoint($large) {
   .author__urls-pair {
     display: grid;
-    /* minmax(0, 1fr) 而不是 1fr：li 上有 white-space: nowrap，
-       用 1fr 时 min-content 会把轨道撑宽、把侧边栏顶出去。 */
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    column-gap: 12px;
+    /* auto auto + justify-content: start → 两列按内容宽度排，**不**均分侧边栏。
+       均分的两列会把第二项推到侧边栏中线，中间留一大片空白，而且整行会顶到
+       侧边栏最右缘。这里只要一个「4 个空格」的间隔。
+       0.6em ≈ 8px：`.author__urls a` 自带 5px padding-right，两者相加 ≈ 13px，
+       在本站 13.5px 的字号下正好是 4 个空格的观感。 */
+    grid-auto-flow: column;
+    grid-template-columns: auto auto;
+    justify-content: start;
+    column-gap: 0.6em;
   }
 }
 
