@@ -36,8 +36,14 @@
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-link" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].website_label | default: "Website" }}</a></li>
       {% endif %}
-      {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
+      {% comment %} Email 与 ORCID 并排成一行（桌面端由 .author__urls-pair 的双列网格
+         实现，见 main.scss）。两者包在同一个 <li> 里，父级 <ul> 不必改成网格，
+         所以其余条目在桌面和手机上的表现都和改动前完全一致。 {% endcomment %}
+      {% if author.email or author.orcid %}
+        <li class="author__urls-pair">
+          {% if author.email %}<a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a>{% endif %}
+          {% if author.orcid %}<a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i> ORCID</a>{% endif %}
+        </li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-key" aria-hidden="true"></i> Keybase</a></li>
@@ -69,8 +75,12 @@
       {% if author.bitbucket %}
         <li><a href="https://bitbucket.org/{{ author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
       {% endif %}
-      {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}"><i class="fab fa-github" aria-hidden="true"></i> Github</a></li>
+      {% comment %} Github 与 Zhihu 并排成一行，做法同上。 {% endcomment %}
+      {% if author.github or author.zhihu %}
+        <li class="author__urls-pair">
+          {% if author.github %}<a href="https://github.com/{{ author.github }}"><i class="fab fa-github" aria-hidden="true"></i> Github</a>{% endif %}
+          {% if author.zhihu %}<a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-zhihu icon-pad-right" aria-hidden="true"></i> Zhihu</a>{% endif %}
+        </li>
       {% endif %}
       {% if author.stackoverflow %}
         <li><a href="https://www.stackoverflow.com/users/{{ author.stackoverflow }}"><i class="fa fab -fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow</a></li>
@@ -110,12 +120,6 @@
       {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></li>
-      {% endif %}
-      {% if author.orcid %}
-        <li class="author__urls-pair"><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i> ORCID</a></li>
-      {% endif %}
-      {% if author.zhihu %}
-        <li class="author__urls-pair"><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-zhihu icon-pad-right" aria-hidden="true"></i> Zhihu</a></li>
       {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-wikipedia-w icon-pad-right" aria-hidden="true"></i> Wikipedia</a></li>
