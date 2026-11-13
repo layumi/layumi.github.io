@@ -190,7 +190,7 @@ Code ➞ [GitHub](https://github.com/layumi) &nbsp;·&nbsp; Publication ➞ [SCI
 <ul>
   <li>🎓 <strong>Ph.D. Students</strong> (Aug. 2027 intake, fully funded)</li>
   <li>🔬 <strong>Postdocs</strong> (multiple funding lines, rolling basis / start anytime)</li>
-  <li>📚 <strong>Master Students</strong> (incoming Aug. 2026 intake; contact me early for full two-year research training)</li>
+  <li>📚 <strong>Master Students</strong> (incoming Aug. 2027 intake; contact me early for full two-year research training)</li>
 </ul>
 <a href="https://zdzheng.xyz/recruitment/" style="color:var(--ct-accent-2);">
 → Join Us
