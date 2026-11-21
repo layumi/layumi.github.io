@@ -127,12 +127,20 @@
     {
       "@context": "https://schema.org",
       "@type": "Organization",
+      "@id": "https://zdzheng.xyz/#organization",
       "name": "AIGC-DL Lab",
       "alternateName": "AI-Generated Content and Data-Centric Learning Laboratory",
       "url": {{ seo_url | jsonify }},
       "logo": {{ site.og_image | prepend: "/" | prepend: base_path | jsonify }},
+      {% comment %}
+        founder 必须引用 Person 的 @id，否则这里会再产生一个同名匿名 Person：
+        和 head.html 里那个带 sameAs×9 的完整 Person 不在同一个节点上，等于
+        同一页有两个"Zhedong Zheng"。@id 与 name 并存的原因：不做跨页解引用的
+        消费方（多数 LLM 抓取器）拿不到 name 就会丢掉作者名。
+      {% endcomment %}
       "founder": {
         "@type": "Person",
+        "@id": "https://zdzheng.xyz/#person",
         "name": {{ site.author.name | jsonify }},
         "url": {{ seo_url | jsonify }}
       }
