@@ -67,6 +67,7 @@ else you add under `assets/` should be versioned the same way.
 | Nav bar | `_data/navigation.yml` | |
 | Site title / description / og:image / URL | `_config.yml` | |
 | `<head>`, meta, JSON-LD | `_includes/head.html`, `_includes/seo.html` | |
+| Google Scholar Highwire tags (`citation_*`) on paper pages | `_layouts/single.html` | venue 走「关键词 + `conf_names` 缩写表」二分（裸写 `NeurIPS`/`ACL` 也算会议）；arXiv 条目**只**出 `citation_arxiv_id`，不出刊名/会议名 |
 | Sidebar, avatar, social links | `_includes/author-profile.html` | |
 | Archive (paper list) cards | `_includes/archive-single.html` | shared by `publications/`, `blogs/`, tags |
 | Styling / light-dark theme | `assets/css/main.scss`, `_sass/` | see "Theme" |
@@ -142,8 +143,10 @@ tokens; the Minimal Mistakes components are untouched, so the light path cannot 
 revert = delete that file + its one `@import`.
 
 - **Modes**: `auto` (default) → dark when the visitor's local clock is in the night window
-  (`NIGHT_START` / `NIGHT_END`, currently 19:00–06:59, in `_includes/head.html`) **or** their
-  system is dark; plus `light` / `dark`. An explicit choice is stored in `localStorage.theme` and
+  (`NIGHT_START` / `NIGHT_END`, currently 19:00–06:59, in `_includes/head.html`); plus `light` / `dark`.
+  **System `prefers-color-scheme` is deliberately not consulted** — dev machines usually run a dark
+  system theme, which made the time rule dead (visiting at noon returned the night template).
+  Do not "helpfully" OR it back in. An explicit choice is stored in `localStorage.theme` and
   always wins. The button cycles auto → light → dark.
 - **One source of truth**: the no-flash script in `_includes/head.html`, which runs before the
   stylesheet (no white flash for dark visitors) and exposes `window.__ctTheme`.

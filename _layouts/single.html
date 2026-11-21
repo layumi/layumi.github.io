@@ -43,10 +43,37 @@ layout: default
 		
 		{% if page.venue %}
 		  {% assign venue_lower = page.venue | downcase %}
-		  {% if venue_lower contains "conference" or venue_lower contains "proceedings" or venue_lower contains "symposium" or venue_lower contains "workshop" %}
-		    <meta name="citation_conference_title" content="{{ page.venue | strip_html | escape_once }}">
+		  {% comment %}
+		    预印本既不是期刊也不是会议。若照旧走下面的判断，arXiv 条目会得到
+		    citation_journal_title = "arXiv:2610.11049"，Scholar 会把这一串记成刊名。
+		    这里两者都不出，只保留下面的 citation_arxiv_id。
+		  {% endcomment %}
+		  {% if venue_lower contains "arxiv" %}
 		  {% else %}
-		    <meta name="citation_journal_title" content="{{ page.venue | strip_html | escape_once }}">
+		    {% assign venue_is_conf = false %}
+		    {% if venue_lower contains "conference" or venue_lower contains "proceedings" or venue_lower contains "symposium" or venue_lower contains "workshop" %}
+		      {% assign venue_is_conf = true %}
+		    {% endif %}
+		    {% comment %}
+		      裸缩写的会议（NeurIPS / ACL / Findings of EMNLP …）不含上面那几个词，
+		      会被误判成期刊。补一份缩写表，命中即算会议。
+		      表里刻意不放 2–3 个字母的歧义串（如 mm），避免误伤
+		      "ACM Transactions on Multimedia"；ACM MM 用 "acm mm" 匹配。
+		    {% endcomment %}
+		    {% unless venue_is_conf %}
+		      {% assign conf_names = "neurips,nips,icml,iclr,cvpr,iccv,eccv,accv,wacv,bmvc,acl,emnlp,naacl,coling,aaai,ijcai,sigir,cikm,wsdm,kdd,uai,aistats,icra,iros,icme,icassp,avss,itsc,findings,acm mm" | split: "," %}
+		      {% for conf_name in conf_names %}
+		        {% if venue_lower contains conf_name %}
+		          {% assign venue_is_conf = true %}
+		          {% break %}
+		        {% endif %}
+		      {% endfor %}
+		    {% endunless %}
+		    {% if venue_is_conf %}
+		      <meta name="citation_conference_title" content="{{ page.venue | strip_html | escape_once }}">
+		    {% else %}
+		      <meta name="citation_journal_title" content="{{ page.venue | strip_html | escape_once }}">
+		    {% endif %}
 		  {% endif %}
 		{% endif %}
 		
