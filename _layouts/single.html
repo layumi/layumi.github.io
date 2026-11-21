@@ -53,6 +53,16 @@ layout: default
         {% if page.paperurl %}
           <meta name="citation_pdf_url" content="{{ page.paperurl | absolute_url }}">
         {% endif %}
+        {% comment %} Highwire tags read by Google Scholar. citation_doi has to be <meta>, JSON-LD identifier/sameAs are ignored by Scholar. {% endcomment %}
+        {% if page.doi and page.doi contains "10." %}
+          <meta name="citation_doi" content="{{ page.doi | strip }}">
+        {% endif %}
+        {% if page.venue and page.venue contains "arXiv:" %}
+          {% assign citation_arxiv_id = page.venue | split: "arXiv:" | last | split: " " | first | strip %}
+          {% if citation_arxiv_id != "" %}
+            <meta name="citation_arxiv_id" content="{{ citation_arxiv_id }}">
+          {% endif %}
+        {% endif %}
         {% if page.abs %}
           <meta name="citation_abstract" content="{{ page.abstract | default: page.abs | replace: '\', '\\\\' | strip_html | escape_once }}">
         {% endif %}
@@ -147,6 +157,13 @@ layout: default
 		
 		
 		{% if page.citation%}  
+		    {% comment %}
+		      sqlauthor 由 pubsFromBib.py 生成，只有 name 没有 @id，导致每篇论文的「Zhedong Zheng」
+		      都是匿名节点，Google 拼不成「1 个人 ← 99 篇论文」。这里在渲染时给本人补上指向
+		      规范实体的 @id（head.html 的 Person 用同一个 @id）。生成器格式若变化，replace 静默不生效，
+		      输出退回原样，不会报错。
+		    {% endcomment %}
+		    {% assign sqlauthor_fixed = page.sqlauthor | replace: '{"@type": "Person","name": "Zhedong Zheng"}', '{"@type": "Person","@id": "https://zdzheng.xyz/#person","name": "Zhedong Zheng"}' %}
 		    {% assign pub_name = "" %}
 		    {% if page.venue contains 'ACM' %}{% assign pub_name = 'ACM' %}
 		    {% elsif page.venue contains 'IEEE' %}{% assign pub_name = 'IEEE' %}
@@ -166,7 +183,7 @@ layout: default
 		     "headline": "{{ page.title | strip_html | escape_once }}",
 		     "url": "{{ page.url | absolute_url }}",
 		     "mainEntityOfPage": "{{ page.url | absolute_url }}",
-		     "author": [{{ page.sqlauthor}}],
+		     "author": [{{ sqlauthor_fixed }}],
 		     "isPartOf": {
 		       "@type": "PublicationVolume",
 		       "name": "{{ page.venue}}"
@@ -192,7 +209,7 @@ layout: default
 		      "name": "{{ page.title | strip_html | escape_once }} (code)",
 		      "codeRepository": "{{ page.code }}",
 		      "url": "{{ page.code }}",
-		      "author": [{{ page.sqlauthor }}],
+		      "author": [{{ sqlauthor_fixed }}],
 		      "isBasedOn": { "@type": "ScholarlyArticle", "@id": "{{ page.url | absolute_url }}" }
 		    }
 		    </script>

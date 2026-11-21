@@ -106,6 +106,7 @@
 {
   "@context": "https://schema.org",
   "@type": "Person",
+  "@id": "https://zdzheng.xyz/#person",
   "name": "Zhedong Zheng",
   "alternateName": ["郑哲东", "Zheng Zhedong"],
   "givenName": "Zhedong",
@@ -119,7 +120,13 @@
     "@type": "Organization",
     "name": "University of Macau",
     "alternateName": "澳门大学",
-    "url": "https://www.um.edu.mo/"
+    "url": "https://www.um.edu.mo/",
+    "department": {
+      "@type": "Organization",
+      "name": "Faculty of Information Science and Computing",
+      "alternateName": ["信息学院", "FIC"],
+      "url": "https://www.fic.um.edu.mo/"
+    }
   },
   "affiliation": {
     "@type": "Organization",
@@ -171,10 +178,10 @@
 
 
 
-<!-- favicon -->
-<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+<!-- favicon — 必须绝对路径：/authors/X 之类的二级页会把相对路径解析成 /authors/images/…（404） -->
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
 
 <meta http-equiv="cleartype" content="on">
 

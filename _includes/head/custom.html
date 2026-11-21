@@ -1,13 +1,11 @@
 {% include base_path %}
 
-<!-- start custom head snippets -->
-<link rel="apple-touch-icon" href="https://zdzheng.xyz/images/apple-touch-icon-180x180.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://zdzheng.xyz/images/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://zdzheng.xyz/images/favicon-16x16.png">
-<link rel="shortcut icon" href="/images/favicon.ico">
-<link rel="mask-icon" href="https://zdzheng.xyz/images/safari-pinned-tab.svg" color="#000000">
+<!-- 图标 32/16/apple-touch 由 _includes/head.html 统一输出（绝对路径），此处不再重复。
+     下面几条是 head.html 没有的。注：此前这里引用的两个图标文件在仓库中并不存在，已改指真实存在的文件。 -->
+<link rel="shortcut icon" href="/favicon.ico">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#000000">
 <meta name="msapplication-TileColor" content="#000000">
-<meta name="msapplication-TileImage" content="https://zdzheng.xyz/images/mstile-144x144.png">
+<meta name="msapplication-TileImage" content="/images/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css?v={{ site.time | date: '%s' }}" media="print" onload="this.media='all'">
