@@ -180,15 +180,29 @@ layout: default
 		    现在只在 authors 集合里输出，主体是页面本人；og:image 移到 seo.html
 		    的 <head> 里（写在 body 里 Facebook/Twitter 不读）。
 		  {% endcomment %}
-		  <img src="{{ page.img }}" width="30%" alt="{{ page.title | escape_once }}">
+		  <img class="page-photo" src="{{ page.img }}" alt="{{ page.title | escape_once }}">
 		  {% if page.collection == 'authors' %}
+		  {% comment %}
+		    共作人的 ORCID / 主页来自 _data/coauthor_links.yml，只收录
+		    「姓名全等 + 该 ORCID 的作品列表里确有本站论文标题」双信号命中的记录，
+		    空记录（ORCID 作品对公众不可见）一律不猜。slug 取 URL 最后一段，
+		    因为 permalink 是 /authors/:path，而显示名与 slug 可能不一致。
+		  {% endcomment %}
+		  {% assign co_slug = page.url | split: "/" | last %}
+		  {% assign co_link = site.data.coauthor_links[co_slug] %}
+		  {% assign co_same = "" %}
+		  {% if co_link.orcid %}{% assign co_same = co_link.orcid | prepend: "https://orcid.org/" %}{% endif %}
+		  {% for u in co_link.urls %}
+		    {% if co_same == "" %}{% assign co_same = u %}{% else %}{% assign co_same = co_same | append: "|" | append: u %}{% endif %}
+		  {% endfor %}
 		  <script type="application/ld+json">
 		      {"@context": "https://schema.org",
 		        "@type": "Person",
 		        "@id": {{ page.url | absolute_url | append: "#person" | jsonify }},
 		        "name": {{ page.title | jsonify }},
 		        "image": {{ page.img | jsonify }},
-		        "url": {{ page.url | absolute_url | jsonify }}
+		        "url": {{ page.url | absolute_url | jsonify }}{% if co_same != "" %},
+		        "sameAs": [{% assign co_arr = co_same | split: "|" %}{% for x in co_arr %}{{ x | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}]{% endif %}
 		      }
 		  </script>
 		  {% endif %}

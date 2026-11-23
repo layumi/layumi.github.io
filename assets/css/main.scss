@@ -184,6 +184,18 @@ $ct-asset-version: "{{ site.time | date: '%s' }}";
   padding: 0;
 }
 
+/* 作者页头像。原来写成 <img width="30%">，而 width 属性只接受整数像素
+   （W3C 校验器报 Bad value “30%”），浏览器只是容忍了这个历史怪癖。
+   改由 CSS 承担，渲染宽度不变；height:auto 让图片按原比例。
+   max-width 锁住大屏：宽屏层把内容列放宽到 1375 后，30% 会涨到 412px，
+   而原图多数只有 160–320px 宽，放大 2.2 倍以上必然发虚。
+   300px 等于 1512 视口下的现值（294px），所以 13"/16" 屏幕视觉零变化。 */
+.page-photo {
+  width: 30%;
+  max-width: 300px;
+  height: auto;
+}
+
 /* 宽屏层必须最后 import：靠层叠顺序与媒体查询覆盖上面的容器宽度。
    删除这一行 + _sass/_widescreen.scss 即可完全回退。 */
 @import "widescreen";

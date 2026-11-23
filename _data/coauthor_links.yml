@@ -1,0 +1,70 @@
+# 共作人的外部标识（ORCID / 自填主页）。
+# 由 find_coauthor_ids.py 生成，判据是双信号：
+#   ① 用本站论文标题在 ORCID 用 work-titles: 反查，返回该 ORCID 记录；
+#   ② 姓名 family 全等 + given 首字/全等；
+#   ③ 再回读该 ORCID 的作品列表，确认标题真的命中（matched 为命中篇数）。
+# 只按姓名猜的一律不写进来 —— 同名学者太多，ORCID 里 0 作品的记录无法核验，直接舍弃。
+# homepage 只取 ORCID 记录里本人自填的 researcher-urls，不外部推断。
+
+Bingwen-Hu:            # Bingwen Hu · 命中 3 篇
+  orcid: "0000-0003-4890-1775"
+Chuchu-Han:            # Chuchu Han · 命中 1 篇
+  orcid: "0000-0001-9403-353X"
+Hang-Yu:            # Hang Yu · 命中 3 篇
+  orcid: "0000-0003-3444-9992"
+Hongxia-Yang:            # Hongxia Yang · 命中 1 篇
+  orcid: "0000-0002-0580-9728"
+  urls:
+    - "https://scholar.google.com/citations?user=iJlC5mMAAAAJ&hl=en"
+Jinliang-Lin:            # Jinliang Lin · 命中 1 篇
+  orcid: "0000-0001-8903-3295"
+Leigang-Qu:            # Leigang Qu · 命中 1 篇
+  orcid: "0009-0004-6555-3834"
+Liang-Zheng:            # Liang Zheng · 命中 11 篇
+  orcid: "0000-0002-1464-9500"
+  urls:
+    - "https://zheng-lab-anu.github.io/"
+Lizi-Liao:            # Lizi Liao · 命中 2 篇
+  orcid: "0000-0002-9973-3305"
+  urls:
+    - "https://liziliao.github.io/"
+Mu-Chen:            # Mu Chen · 命中 2 篇
+  orcid: "0009-0003-8283-3486"
+  urls:
+    - "https://chen742.github.io/"
+Nenggan-Zheng:            # Nenggan Zheng · 命中 1 篇
+  orcid: "0000-0002-0211-8817"
+Qiang-Wu:            # Qiang Wu · 命中 1 篇
+  orcid: "0000-0001-5641-2483"
+  urls:
+    - "http://www.uts.edu.au/staff/qiang.wu"
+Qingji-Guan:            # Qingji Guan · 命中 1 篇
+  orcid: "0000-0002-0155-940X"
+Ruijie-Quan:            # Ruijie Quan · 命中 1 篇
+  orcid: "0000-0003-4077-1398"
+Shaofei-Huang:            # Shaofei Huang · 命中 3 篇
+  orcid: "0000-0001-8996-9907"
+Shuyu-Yang:            # Shuyu Yang · 命中 2 篇
+  orcid: "0000-0003-0409-1467"
+Tao-Ruan:            # Tao Ruan · 命中 1 篇
+  orcid: "0000-0002-6718-7223"
+Wei-Ji:            # Wei Ji · 命中 3 篇
+  orcid: "0000-0002-8106-9768"
+  urls:
+    - "https://jiwei0523.github.io/"
+Xin-Yu:            # Xin Yu · 命中 1 篇
+  orcid: "0000-0002-0269-5649"
+  urls:
+    - "https://xinyu-au.github.io/"
+Xuanmeng-Zhang:            # Xuanmeng Zhang · 命中 3 篇
+  orcid: "0000-0002-6939-4074"
+Yang-He:            # Yang He · 命中 1 篇
+  orcid: "0000-0002-2257-6073"
+  urls:
+    - "https://scholar.google.com/citations?user=vvnFsIIAAAAJ&hl=en"
+Yu-Wu:            # Yu Wu · 命中 1 篇
+  orcid: "0000-0002-1680-8253"
+  urls:
+    - "https://yu-wu.net"
+Zhiming-Luo:            # Zhiming Luo · 命中 1 篇
+  orcid: "0000-0002-3411-9582"
