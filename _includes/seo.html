@@ -7,6 +7,12 @@
 {% assign seo_url = seo_url | default: site.github.url %}
 {% if page.seo_title %}
   {% assign seo_title = page.seo_title %}
+{% elsif page.collection == 'authors' and page.title == site.author.name %}
+  {% comment %}
+    /authors/Zhedong-Zheng 走通用拼接会得到「Zhedong Zheng - Zhedong Zheng」，
+    而这页是 99 篇的完整列表，与 /publications/ 抢同一批词。给它一个可区分的标题。
+  {% endcomment %}
+  {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " Complete Publication List" %}
 {% elsif page.title %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
 {% endif %}
@@ -15,6 +21,21 @@
 <!-- description: 空字符串不参与回退（Liquid 的 default 对空串不生效，必须 and != "" 判断） -->
 {% if page.bib and page.citation %}
   {% assign seo_description = page.citation %}
+{% elsif page.collection == 'authors' %}
+  {% comment %}
+    作者页正文是一串 <li>，既没有 description 也没有空行（excerpt 分隔符），
+    于是 page.excerpt 回退成整篇引用列表，description / og:description /
+    twitter:description 各输出一份：Yaxiong Wang 3026 字，Zhedong 本人那页
+    20,049 字。Google 只取前 ~155–160 字，真实摘要会从「Lingyu Liu, ...」
+    半截开始，读者看不出这页是谁。这里按共作篇数生成一句真描述。
+  {% endcomment %}
+  {% assign n_pub = page.content | split: '<li>' | size | minus: 1 %}
+  {% assign pub_word = "papers" %}{% if n_pub == 1 %}{% assign pub_word = "paper" %}{% endif %}
+  {% if page.title == site.author.name %}
+    {% assign seo_description = page.title | append: " — complete publication list: " | append: n_pub | append: " papers with titles, venues and links to code, PDF and abstract." %}
+  {% else %}
+    {% assign seo_description = page.title | append: " co-authored " | append: n_pub | append: " " | append: pub_word | append: " with Zhedong Zheng at the University of Macau. Titles, venues and links for each." %}
+  {% endif %}
 {% else %}
   {% assign seo_description = page.description | default: page.excerpt | default: site.description %}
 {% endif %}
@@ -40,6 +61,13 @@
 <!-- 共享分享图：og:image 与 twitter:image 统一使用 seo_og_image -->
 {% if page.og_image %}
   {% assign seo_og_image = page.og_image | prepend: site.url %}
+{% elsif page.collection == 'authors' and page.img %}
+  {% comment %}
+    page.img 是 https 绝对地址，直接用。以前这条被写在 single.html 的 <body> 里，
+    而 Facebook / Twitter / Slack 只解析 <head> 的 og:image，所以分享卡其实一直是
+    lab logo，body 那条是死的。
+  {% endcomment %}
+  {% assign seo_og_image = page.img %}
 {% elsif page.header.image %}
   {% if page.header.image contains "://" %}
     {% assign seo_og_image = page.header.image %}

@@ -171,15 +171,27 @@ layout: default
 		{% endif %}
 		
 		{% if page.img %}
-		  <img src="{{ page.img }}" width="30%" alt="{{page.title}}">
-		  <meta property="og:image" content="{{ page.img }}">
+		  {% comment %}
+		    这里原来把 page.img 直接挂到 site.social.name（＝ Zhedong Zheng）名下，
+		    于是 47 个共作人页各输出一个匿名 Person：
+		        {"@type":"Person","name":"Zhedong Zheng","image":"<共作人的照片>"}
+		    即「Zhedong Zheng 的照片 = Yaxiong Wang 的照片」，与同页 #person 的
+		    profile.webp 直接冲突，同时把作者页真正的主体（page.title）当成空气。
+		    现在只在 authors 集合里输出，主体是页面本人；og:image 移到 seo.html
+		    的 <head> 里（写在 body 里 Facebook/Twitter 不读）。
+		  {% endcomment %}
+		  <img src="{{ page.img }}" width="30%" alt="{{ page.title | escape_once }}">
+		  {% if page.collection == 'authors' %}
 		  <script type="application/ld+json">
 		      {"@context": "https://schema.org",
 		        "@type": "Person",
-				"name": "{{ site.social.name | default: site.name }}",
-				"image":"{{ page.img}}"
-			}
+		        "@id": {{ page.url | absolute_url | append: "#person" | jsonify }},
+		        "name": {{ page.title | jsonify }},
+		        "image": {{ page.img | jsonify }},
+		        "url": {{ page.url | absolute_url | jsonify }}
+		      }
 		  </script>
+		  {% endif %}
 		{% endif %}
 		
 		
@@ -248,7 +260,14 @@ layout: default
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {{ content }}
+        {% comment %}
+          作者页的正文是一串裸 <li>（由 pubsFromBib.py 生成，没有 <ul> 包裹），
+          192 个页面都是无效 HTML，屏幕阅读器也读不出列表语义。在渲染时补一层
+          <ul>；.author-pub-list 在 main.scss 里把 margin/padding 归零，
+          所以像素位置与改前一致。
+        {% endcomment %}
+        {% if page.collection == 'authors' %}<ul class="author-pub-list">{{ content }}</ul>
+        {% else %}{{ content }}{% endif %}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
 
