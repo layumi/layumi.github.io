@@ -2,7 +2,7 @@
 permalink: /
 title: "Zhedong Zheng (郑哲东)"
 seo_title: "Zhedong Zheng | Computer Vision, University of Macau"
-excerpt: "Assistant Professor at the Faculty of Information Science and Computing (FIC), University of Macau; PI of the AIGC-DL Lab. Creator of University-1652. 80+ papers, H-index 41. Recruiting PhD & postdocs."
+excerpt: "Assistant Professor at the Faculty of Information Science and Computing (FIC), University of Macau; PI of the AIGC-DL Lab. Creator of University-1652. 80+ papers, H-index 43. Recruiting PhD & postdocs."
 author_profile: true
 classes: wide
 redirect_from: 
@@ -170,7 +170,7 @@ Hi! I am a tenure-track **Assistant Professor** at the [Faculty of Information S
     <div style="font-size:13px; color:var(--ct-text-2); margin-bottom:6px;">Academic Output</div>
     <div style="font-size:22px; font-weight:700; line-height:1.35;">
       <span style="color:var(--ct-success);">80+</span> papers<br>
-      H-index <span style="color:var(--ct-success);">41</span><br>
+      H-index <span style="color:var(--ct-success);">43</span><br>
       <span style="color:var(--ct-success);">15k+</span> citations
     </div>
   </div>

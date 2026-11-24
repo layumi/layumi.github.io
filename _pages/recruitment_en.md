@@ -67,8 +67,10 @@ Interested students are welcome to send their **CV** and **research proposal** t
 - Preference for candidates with publications in CVPR/ICCV/ECCV/PAMI/IJCV.  
 - Candidates preparing for faculty positions are encouraged to apply.  
 
-**4.2 Stipend:**  
-- MOP 28,000/month, with funding available for one year.  
+**4.2 Stipend (two funding lines):**
+
+- **Macau campus (UM Postdoctoral Fellow):** MOP 330,000-480,000 per year (MOP 28,000-40,000 per month), effective tax approximately 5%. Duration: 2 years. Full support for overseas talent programme applications where eligible.
+- **Hengqin (HUMRI postdoctoral programme):** approximately CNY 520,000 per year (base salary CNY 120,000 + living allowance CNY 300,000 + housing allowance CNY 100,000), 2-year term, up to approximately CNY 1.04 million in total (policy cap, not guaranteed). Full-time on site in Hengqin, Zhuhai. Individual income tax capped at 15% for qualifying talent. As a mainland post, this line is not eligible for overseas talent programmes.
 
 **4.3 Collaborations:**  
 - Opportunities for paid visits and collaborations with institutions such as the National University of Singapore, the University of Nottingham, and the University of Auckland.  
