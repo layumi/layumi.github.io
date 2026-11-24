@@ -160,11 +160,19 @@ coauthor_dict['chang-zhou'] = 'https://zdzheng.xyz/coauthors/chang-zhou.jpeg'
 coauthor_dict['errui-ding'] = 'https://zdzheng.xyz/coauthors/errui-ding.jpeg'
 coauthor_dict['nenggan-zheng'] = 'https://zdzheng.xyz/coauthors/nenggan-zheng.jpg'
 
+# ⚠ 目前不生效：作者页用的 coname 在第 325 行被 .lower() 过，而这里的键都是首字母大写，
+#   所以下面第 345 行的 `if coname in aff_dict` 永远为假 —— 这 15 条机构一条都没进过输出
+#   （实测 _authors/*.md 里 <i> 出现 0 次）。要启用必须三处一起改：
+#     ① 键统一成小写；② 判定处用未 lower 的值或统一 lower；
+#     ③ _layouts/single.html 把 <i> 挪到 <ul class="author-pub-list"> 外面，
+#        否则 <i> 会落在 <ul> 里，是无效 HTML。
 aff_dict={}
 aff_dict['Yi-Yang'] = 'Professor @ ZJU'
 aff_dict['Tat-Seng-Chua'] = 'Professor @ NUS'
 aff_dict['Linchao-Zhu'] = 'AP @ ZJU'
-aff_dict['Liang-Zheng'] = 'Senior Lecturer @ ANU'
+aff_dict['Liang-Zheng'] = 'Professor @ ANU'  # 2026-11 核：ORCID 记载 2026-06 由 Associate Professor 升 Professor。
+                                             # ORCID 另有一条 2026-10 起 University of Sydney (Professor)，但本人主页、
+                                             # Google Scholar、OpenAlex 仍都是 ANU，四对一 → 先按 ANU 写，待本人确认再改。
 aff_dict['Zhun-Zhong'] = 'AP @ the University of Trento'
 aff_dict['Zhiding-Yu'] = 'Senior Scientist @ Nvidia'
 aff_dict['Yutian-Lin'] = 'AP @ Wuhan University'
@@ -172,7 +180,8 @@ aff_dict['Yunchao-Wei'] = 'Professor @ Beijing Jiaotong University'
 aff_dict['Tingyu-Wang'] = 'AP @ Hangzhou Dianzi University'
 aff_dict['Xuanmeng-Zhang'] = 'PhD Student @ UTS'
 aff_dict['Leigang-Qu'] = 'PhD Student @ NUS'
-aff_dict['Mu-Chen'] = 'PhD Student @ UTS'
+aff_dict['Mu-Chen'] = 'Postdoc @ MBZUAI'  # 2026-11 核：本人主页与 ORCID 一致 —— 2026-02 起 MBZUAI 博后，
+                                          # UTS 博士 2022–2025 已毕业。
 aff_dict['Xu-Zhang'] = 'PhD Student @ ZJU'
 aff_dict['Yifan-Sun'] = '@ Baidu Research'
 aff_dict['Errui-Ding'] = '@ Baidu Research'
