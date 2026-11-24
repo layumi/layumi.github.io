@@ -18,13 +18,13 @@
    until it was zeroed below.
 
    Resulting numbers (content column / running text):
-     1440–1699px → 1280px shell → 964px content → 721px text   (13" Mac)
-     1700–2099px → 1560px shell → 1197px content → 721px text  (16" Mac, 27" QHD @1080p)
-     2100px+     → 1780px shell → 1380px content → 721px text  (27" QHD @native)
+     1440–1699px → 1280px shell → 964px content → 801px text  (13" Mac)
+     1700–2099px → 1560px shell → 1197px content → 801px text (16" Mac, 27" QHD @1080p)
+     2100px+     → 1780px shell → 1380px content → 801px text (27" QHD @native)
 
    Behaviour:
      < 1440px   : untouched — phones, tablets, and the 1280×800 MacBook Air
-     >= 1440px  : dead right gutter removed, text keeps a 72ch measure
+     >= 1440px  : dead right gutter removed, text keeps an 80ch measure
      >= 1800px  : talk cards become a filling grid (before this, cards got
                   *smaller* as the window grew, because the row was a flexbox
                   capped by the column: 337px per card at 2560 vs 407px at 1512)
@@ -36,9 +36,14 @@
 $ws-13: 1280px;
 $ws-16: 1560px;
 $ws-27: 1780px;
-/* 72ch is the usual typographic ceiling: roughly 70–80 Latin characters or
-   36–40 CJK characters per line at the site's 18px base size. */
-$ws-prose: 72ch;
+/* Running-text measure. 72ch (721px) was the typographic ideal but too tight for
+   this site: the homepage bio wrapped to 6 lines and read as a narrow ribbon
+   inside a 980px column. 80ch = 801px is the first step that actually changes
+   anything — measured 6→5 lines at 1512, and 6→5 at 2560 too. Going further
+   (84/88ch) buys nothing at 1512 because the column caps at 980px, and 100ch+
+   only pays off on 27" (4 lines) at the cost of ~110 characters per line.
+   Full column (980/1375px) would give 5/3 lines but that is 124ch on 27". */
+$ws-prose: 80ch;
 /* Publication cards are one-per-row; cap them so the citation line cannot run
    past the widest content column. 1380px matches the 27" column exactly, so in
    practice this only guards against a future wider shell — a lower value left a
