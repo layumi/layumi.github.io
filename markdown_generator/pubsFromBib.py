@@ -239,11 +239,20 @@ for pubsource in publist:
             allauthor = ""
             doi = ""
             oral = ""
+            arxiv = ""
             single_authors = []
             if "doi" in b.keys():
                 doi = b["doi"]
             if "note" in b.keys():
                 oral = b["note"]
+            # arXiv 编号：优先取 bib 的 eprint 字段。它既可能是裸编号（2003.03773），
+            # 也可能被写成 "arXiv:2003.03773" 或整条 abs 链接，这里统一归一化成裸编号，
+            # 供 single.html 生成 citation_arxiv_id 与 JSON-LD sameAs。
+            if "eprint" in b.keys() and str(b["eprint"]).strip():
+                arxiv = str(b["eprint"]).strip()
+                arxiv = arxiv.rsplit("arxiv.org/abs/", 1)[-1].split("arXiv:")[-1].strip()
+                arxiv = arxiv.split()[0] if arxiv.split() else ""
+                arxiv = re.sub(r"v\d+$", "", arxiv)
             
             # KeyBERT 必须吃「正常标题」：clean_title 已把空格换成连字符，分词器会把词切断
             # （'re-identification' 被切成 're'+'identification'），产出 'boxes unsupervised 3d' 这类残片。
@@ -385,6 +394,9 @@ for pubsource in publist:
             md += "\ndate: " + str(pub_date) 
 
             md += "\ndoi: " + doi
+
+            if arxiv:
+                md += "\narxiv: '" + arxiv + "'"
             
             md += "\noral: " + oral
 

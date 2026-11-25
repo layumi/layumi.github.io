@@ -84,11 +84,19 @@ layout: default
         {% if page.doi and page.doi contains "10." %}
           <meta name="citation_doi" content="{{ page.doi | strip }}">
         {% endif %}
-        {% if page.venue and page.venue contains "arXiv:" %}
-          {% assign citation_arxiv_id = page.venue | split: "arXiv:" | last | split: " " | first | strip %}
-          {% if citation_arxiv_id != "" %}
-            <meta name="citation_arxiv_id" content="{{ citation_arxiv_id }}">
-          {% endif %}
+        {% comment %}
+          arXiv 编号优先取 frontmatter 的 arxiv（pubsFromBib.py 由 bib 的 eprint 归一化写入），
+          回退到 venue 里的 "arXiv:xxxx"（早期预印本条目的写法）。已发表论文的 venue 是刊名，
+          不含 arXiv，只靠旧逻辑永远取不到值，页面就接不上 arXiv 节点。
+        {% endcomment %}
+        {% assign arxiv_id = "" %}
+        {% if page.arxiv %}
+          {% assign arxiv_id = page.arxiv | split: "arXiv:" | last | strip %}
+        {% elsif page.venue and page.venue contains "arXiv:" %}
+          {% assign arxiv_id = page.venue | split: "arXiv:" | last | split: " " | first | strip %}
+        {% endif %}
+        {% if arxiv_id != "" %}
+          <meta name="citation_arxiv_id" content="{{ arxiv_id }}">
         {% endif %}
         {% if page.abs %}
           <meta name="citation_abstract" content="{{ page.abstract | default: page.abs | replace: '\', '\\\\' | strip_html | escape_once }}">
@@ -114,11 +122,25 @@ layout: default
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.modified | date: "%Y-%m-%d" }}">{{ page.modified | date: "%B %d, %Y" }}</time></p>
         {% endif %}
         
+        {% comment %}
+          预印本判定：venue 还停在 "arXiv:xxxx" / "arXiv preprint ..."（或压根没填 venue）。
+          已中稿的 venue 是真实刊名／会议名。这份判定管两处展示：
+          ① 头部信息行——预印本写 "Preprint: arXiv:xxxx"，不谎报 Published；
+          ② 下面 BibTeX 区块里的 eprint / archivePrefix（已发表裁掉）。
+          已发表条目的 arXiv 编号只留在 head 的 citation_arxiv_id 与 JSON-LD sameAs 里，页面不可见。
+        {% endcomment %}
+        {% assign is_preprint = false %}
+        {% if page.venue contains "arXiv" %}{% assign is_preprint = true %}{% endif %}
+        {% if page.venue == blank %}{% assign is_preprint = true %}{% endif %}
         {% if page.collection == 'teaching' %}
           <p> {{ page.type }}, <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif page.venue and page.date %}
 		  <p>Authors: {{ page.author }} </p>
+          {% if is_preprint and page.arxiv %}
+          <p>Preprint: <a href="https://arxiv.org/abs/{{ page.arxiv }}" target="_blank" rel="noopener"><u>arXiv:{{ page.arxiv }}</u></a>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% else %}
           <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          {% endif %}
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}
@@ -162,7 +184,47 @@ layout: default
 		{% endif %}
 		
 		{% if page.bib %}
-		    <pre class="bibtex-content">{{page.bib}}</pre>
+		{% comment %}
+		  展示层统一裁掉 bib 里的 abstract / abs / blog / url / month 字段：
+		  摘要页面上已有单独的 Abstract 段，url / blog 正文里都有链接，month 对引用没意义。
+		  已中稿的条目再裁掉 eprint / archivePrefix：刊名或 DOI 已经能定位，arXiv 编号是冗余；
+		  还没中的（is_preprint）保留 eprint，那是它唯一的定位符。
+		  bib 是 YAML 里的一段字符串，字段之间用 <br> 分隔，收尾的 "}" 与最后一个字段
+		  粘在一起，所以先摘掉末尾的 "}"（以及它前面可能有的逗号），逐字段过滤后再补回 "<br>}"。
+		{% endcomment %}
+		{% assign bib_display = page.bib | strip %}
+		{% assign bib_last = bib_display | slice: -1, 1 %}
+		{% if bib_last == "}" %}
+		  {% assign bib_cut = bib_display | size | minus: 1 %}
+		  {% assign bib_display = bib_display | slice: 0, bib_cut | strip %}
+		  {% assign bib_last = bib_display | slice: -1, 1 %}
+		{% endif %}
+		{% if bib_last == "," %}
+		  {% assign bib_cut = bib_display | size | minus: 1 %}
+		  {% assign bib_display = bib_display | slice: 0, bib_cut | strip %}
+		{% endif %}
+		{% assign bib_fields = bib_display | split: "<br>" %}
+		{% assign bib_out = "" %}
+		{% for bib_field in bib_fields %}
+		  {% assign bib_key = bib_field | strip | split: "=" | first | strip | downcase %}
+		  {% assign bib_drop = false %}
+		  {% if bib_key == "abstract" or bib_key == "abs" or bib_key == "blog" or bib_key == "url" or bib_key == "month" %}{% assign bib_drop = true %}{% endif %}
+		  {% unless is_preprint %}{% if bib_key == "eprint" or bib_key == "archiveprefix" %}{% assign bib_drop = true %}{% endif %}{% endunless %}
+		  {% unless bib_drop %}
+		    {% if bib_out == "" %}
+		      {% assign bib_out = bib_field | strip %}
+		    {% else %}
+		      {% assign bib_out = bib_out | append: "<br>" | append: bib_field | strip %}
+		    {% endif %}
+		  {% endunless %}
+		{% endfor %}
+		{% assign bib_last = bib_out | slice: -1, 1 %}
+		{% if bib_last == "," %}
+		  {% assign bib_cut = bib_out | size | minus: 1 %}
+		  {% assign bib_out = bib_out | slice: 0, bib_cut %}
+		{% endif %}
+		{% assign bib_out = bib_out | append: "<br>}" %}
+		    <pre class="bibtex-content">{{ bib_out }}</pre>
 		{% endif %}
 		
 		{% if page.paperurl%} 
@@ -225,7 +287,10 @@ layout: default
 		    {% assign doi_url = "" %}
 		    {% if page.doi contains "10." %}{% assign doi_url = page.doi | prepend: "https://doi.org/" %}{% endif %}
 		    {% assign arxiv_url = "" %}
-		    {% if page.venue contains "arXiv:" %}{% assign arxiv_id = page.venue | split: "arXiv:" | last | split: " " | first | strip %}{% assign arxiv_url = "https://arxiv.org/abs/" | append: arxiv_id %}{% endif %}
+		    {% assign arxiv_id_ld = "" %}
+		    {% if page.arxiv %}{% assign arxiv_id_ld = page.arxiv | split: "arXiv:" | last | strip %}
+		    {% elsif page.venue contains "arXiv:" %}{% assign arxiv_id_ld = page.venue | split: "arXiv:" | last | split: " " | first | strip %}{% endif %}
+		    {% if arxiv_id_ld != "" %}{% assign arxiv_url = "https://arxiv.org/abs/" | append: arxiv_id_ld %}{% endif %}
 		    {% assign same_list = doi_url %}
 		    {% if arxiv_url != "" %}{% if same_list != "" %}{% assign same_list = same_list | append: "|" %}{% endif %}{% assign same_list = same_list | append: arxiv_url %}{% endif %}
 		    <script type="application/ld+json">

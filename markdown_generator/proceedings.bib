@@ -1,5 +1,7 @@
 @inproceedings{zeng2026satfix,
   title={SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image},
+  eprint = {2610.11049},
+  archivePrefix = {arXiv},
   author={Zeng, Jiarui and Shi, Kun and Vong, Chiman and Zheng, Zhedong},
   booktitle={arXiv:2610.11049},
   year={2026}
@@ -7,6 +9,8 @@
 
 @inproceedings{liu2026uncertainty,
   title={Uncertainty-Aware Consistency Distillation for Few-Step Video Generation},
+  eprint = {2609.39132},
+  archivePrefix = {arXiv},
   author={Liu, Lingyu and Wang, Yaxiong and Zhu, Li and Zheng, Zhedong},
   booktitle={arXiv:2609.39132},
   year={2026}
@@ -14,6 +18,8 @@
 
 @inproceedings{zhang2026vsearcher,
   title     = {VSearcher: Long-Horizon Multimodal Search Agent via Reinforcement Learning},
+  eprint = {2603.02795},
+  archivePrefix = {arXiv},
   author    = {Zhang, Ruiyang and Sun, Qianguo and Song, Chao and Qi, Yiyan and Zheng, Zhedong},
   booktitle = {NeurIPS},
   year      = {2026},
@@ -23,6 +29,8 @@
 
 @inproceedings{zhang2026uncertaintyo,
   title     = {Uncertainty-o: One Model-agnostic Framework for Unveiling Uncertainty in Large Multimodal Models},
+  eprint = {2506.07575},
+  archivePrefix = {arXiv},
   abstract = {Large Multimodal Models (LMMs), harnessing the complementarity among diverse modalities, are often considered more robust than pure Language Large Models (LLMs); yet do LMMs know what they do not know? There are three key open questions remaining: (1) how to evaluate the uncertainty of diverse LMMs in a unified manner, (2) how to prompt LMMs to show its uncertainty, and (3) how to quantify uncertainty for downstream tasks. In an attempt to address these challenges, we introduce Uncertainty-o: (1) a model-agnostic framework designed to reveal uncertainty in LMMs regardless of their modalities, architectures, or capabilities, (2) an empirical exploration of multimodal prompt perturbations to uncover LMM uncertainty, offering insights and findings, and (3) derive the formulation of multimodal semantic uncertainty, which enables quantifying uncertainty from multimodal responses. Experiments across 18 benchmarks spanning various modalities and 10 LMMs (both open- and closed-source) demonstrate the effectiveness of Uncertainty-o in reliably estimating LMM uncertainty, thereby enhancing downstream tasks such as hallucination detection, hallucination mitigation, and uncertainty-aware Chain-of-Thought reasoning.},
   author    = {Zhang, Ruiyang and Zhang, Junhao and Fei, Hao and Zheng, Zhedong},
   booktitle = {Findings of EMNLP},
@@ -31,6 +39,8 @@
 
 @inproceedings{li2026last,
   title={Last-Meter Precision Navigation for UAVs: A Diffusion-Refined Aerial Visual Servoing Approach},
+  eprint = {2607.04352},
+  archivePrefix = {arXiv},
   abstract={In this work, we study the last-meter precision navigation for UAVs, e.g., autonomously reaching a target within the final 10 meters using monocular vision. This task is challenging due to scale ambiguity, rotation discontinuities, and the need for fine-grained spatial reasoning. Existing methods often fail under large viewpoint changes or lack generalization to unseen environments. To this end, we propose DreamNav, a coarse-to-fine diffusion-refined aerial visual servoing framework. In the first coarse-estimation stage, a robust regression policy employs a trigonometric parameterization to predict rotation by jointly modeling sine and cosine components, effectively mitigating optimization instabilities caused by angular periodicity. Given this coarse estimate, the second diffusion-refined stage utilizes a pre-trained world model to simulate future visual observations for candidate actions, selecting the trajectory that minimizes visual discrepancy with the target through a process of visual imagination. To support rigorous evaluation, we contribute PairUAV, a large-scale benchmark comprising 4.8 million image pairs across 72 scenes, curated from the University-1652 dataset. Extensive experiments show DreamNav outperforms strong visual servoing and foundation model baselines in accuracy and generalization, with zero-shot transfer to unseen scenes.},
   author={Li, Yaxuan and Zeng, Jiarui and Huang, Shaofei and Zheng, Zhedong},
   booktitle={arXiv preprint arXiv:2607.04352},
@@ -56,6 +66,8 @@
 
 @inproceedings{hui2026acoustically,
   title     = {Acoustically Grounded Cost Learning for Open-Vocabulary Audio-Visual Semantic Segmentation},
+  eprint = {2608.29121},
+  archivePrefix = {arXiv},
   abstract  ={Open-Vocabulary Audio-Visual Semantic Segmentation (OV-AVSS) aims to perform pixel-level segmentation of sound-emitting objects from an open set of categories. The previous method relies on a class-agnostic foreground definition, which groups semantically diverse objects into a heterogeneous positive set, causing the model to learn unstable sounding patterns and produce unreliable proposals. To address this, we reformulate the objective to be category-specific and propose a novel Acoustically Grounded Cost Learning (AGCL) framework to transform the static, audio-agnostic visual-text priors into dynamic, audio-grounded cost representations. For intra-category soundingness discovery, we devise Audio-Modulated Cost Generation (AMCG) and Audio-Guided Temporal Aggregation (AGTA) modules to enable both frame-level sounding region highlighting and video-level temporal refinement with a low-intrusive audio injection mechanism. For inter-category distractor discrimination, we introduce a Synergistic Distractor Mining (SDM) strategy, which selectively penalizes acoustically and semantically confusing negative categories to learn more discriminative decision boundaries. Extensive experiments on the AVSBench-OV dataset demonstrate that our method significantly outperforms previous state-of-the-art approaches, particularly on unseen categories. Code will be released to facilitate further research.},
   author    = {Hui, Tianrui and Huang, Shaofei and Han, Qisong and Wang, Yaxiong and Cheng, Lechao and Zheng, Zhedong and Zhong, Zhun and Hong, Richang and Wang, Meng},
   booktitle = {ACM MM},
@@ -64,6 +76,8 @@
 
 @inproceedings{chen2026scale,
   title     = {Scale-adaptive {UAV} Geo-localization via Height-aware Partition Learning},
+  eprint = {2412.11535},
+  archivePrefix = {arXiv},
   abstract = {UAV Geo-Localization faces significant challenges due to the drastic appearance discrepancy between dronecaptured images and satellite views. Existing methods typically assume a consistent scaling factor across views and rely on predefined partition alignment to extract viewpoint-invariant representations through part-level feature construction. However, this scaling assumption often fails in real-world scenarios, where variations in drone flight states lead to scale mismatches between cross-view images, resulting in severe performance degradation. To address this issue, we propose a scale-adaptive partition learning framework that leverages known drone flight height to predict scale factors and dynamically adjust feature extraction. Our key contribution is a height-aware adjustment strategy, which calculates the relative height ratio between drone and satellite views, dynamically adjusting partition sizes to explicitly align semantic information between partition pairs. This strategy is integrated into a Scale-adaptive Local Partition Network (SaLPN), building upon an existing square partition strategy to extract both finegrained and global features. Additionally, we propose a saliencyguided refinement strategy to enhance part-level features, further improving retrieval accuracy. Extensive experiments validate that our height-aware, scale-adaptive approach achieves stateof-the-art geo-localization accuracy in various scale-inconsistent scenarios and exhibits strong robustness against scale variations. The code will be made publicly available.},
   author    = {Chen, Quan and Zheng, Bolun and Wang, Tingyu and Lu, Rongfeng and Liu, Yu and Zheng, Zhedong},
   booktitle = {ACM MM},
@@ -72,6 +86,8 @@
 
 @inproceedings{ju2025anomalylmm,
   title={AnomalyLMM: Bridging Generative Knowledge and Discriminative Retrieval for Text-Based Person Anomaly Search},
+  eprint = {2509.04376},
+  archivePrefix = {arXiv},
   abstract = {With growing public safety demands, text-based person anomaly search has emerged as a critical task, aiming to retrieve individuals with abnormal behaviors via natural language descriptions. Unlike conventional person search, this task presents two unique challenges: (1) fine-grained cross-modal alignment between textual anomalies and visual behaviors, and (2) anomaly recognition under sparse real-world samples. While Large Multi-modal Models (LMMs) excel in multi-modal understanding, their potential for fine-grained anomaly retrieval remains underexplored, hindered by: (1) a domain gap between generative knowledge and discriminative retrieval, and (2) the absence of efficient adaptation strategies for deployment. In this work, we propose AnomalyLMM, the first framework that harnesses LMMs for text-based person anomaly search. Our key contributions are: (1) A novel coarse-to-fine pipeline integrating LMMs to bridge generative world knowledge with retrieval-centric anomaly detection; (2) A training-free adaptation cookbook featuring masked cross-modal prompting, behavioral saliency prediction, and knowledge-aware re-ranking, enabling zero-shot focus on subtle anomaly cues. As the first study to explore LMMs for this task, we conduct a rigorous evaluation on the PAB dataset, the only publicly available benchmark for text-based person anomaly search, with its curated real-world anomalies covering diverse scenarios (e.g., falling, collision, and being hit). Experiments show the effectiveness of the proposed method, surpassing the competitive baseline by +0.96\% Recall@1 accuracy. Notably, our method reveals interpretable alignment between textual anomalies and visual behaviors, validated via qualitative analysis. Our code and models will be released for future research.},
   author={Ju, Hao and Zhang, Hu and Zheng, Zhedong},
   booktitle={arXiv:2509.04376},
@@ -80,6 +96,8 @@
 
 @inproceedings{ma2022subband,
   title={Subband-based Generative Adversarial Network for Non-parallel Many-to-many Voice Conversion},
+  eprint = {2207.06057},
+  archivePrefix = {arXiv},
   abstract = {Voice conversion is to generate a new speech with the source content and a target voice style. In this paper, we focus on one general setting, i.e., non-parallel many-to-many voice conversion, which is close to the real-world scenario. As the name implies, non-parallel many-to-many voice conversion does not require the paired source and reference speeches and can be applied to arbitrary voice transfer. In recent years, Generative Adversarial Networks (GANs) and other techniques such as Conditional Variational Autoencoders (CVAEs) have made considerable progress in this field. However, due to the sophistication of voice conversion, the style similarity of the converted speech is still unsatisfactory. Inspired by the inherent structure of mel-spectrogram, we propose a new voice conversion framework, i.e., Subband-based Generative Adversarial Network for Voice Conversion (SGAN-VC). SGAN-VC converts each subband content of the source speech separately by explicitly utilizing the spatial characteristics between different subbands. SGAN-VC contains one style encoder, one content encoder, and one decoder. In particular, the style encoder network is designed to learn style codes for different subbands of the target speaker. The content encoder network can capture the content information on the source speech. Finally, the decoder generates particular subband content. In addition, we propose a pitch-shift module to fine-tune the pitch of the source speaker, making the converted tone more accurate and explainable. Extensive experiments demonstrate that the proposed approach achieves state-of-the-art performance on VCTK Corpus and AISHELL3 datasets both qualitatively and quantitatively, whether on seen or unseen data. Furthermore, the content intelligibility of SGAN-VC on unseen data even exceeds that of StarGANv2-VC with ASR network assistance.},
   author={Ma, Jian and Zheng, Zhedong and Fei, Hao and Zheng, Feng and Chua, Tat-Seng and Yang, Yi},
   booktitle={arXiv:2207.06057},
@@ -96,12 +114,16 @@
   code ={https://github.com/nkuzjh/UATTA},
   funding = {2025A1515012281, SBZ20250900116, MYRG-GRG2024-00077-FST-UMDF, FDCT/0043/2025/RIA1},
   doi={10.1145/3805712.3809598},
+  eprint = {2604.08598},
+  archivePrefix = {arXiv},
   year={2026}
 }
 
 @inproceedings{sun2026uavreason,
     author    = {Jintao Sun and Hu Zhang and Donglin Di and Gangyi Ding and Zhedong Zheng},
     title     = {Can Vision Language Models Reason from the Sky? Unifying UAV Reasoning and Generation},
+    eprint = {2604.05377},
+    archivePrefix = {arXiv},
     abstract = {Vision-Language Models have achieved strong progress in ground-view visual understanding, yet they remain brittle in high-altitude Unmanned Aerial Vehicle scenes, where objects are tiny and densely packed, textures are repetitive, and top-down orientations are ambiguous. We introduce UAVReason, a large-scale UAV-native dataset and evaluation suite for studying unified aerial reasoning and generation under this nadir-view domain shift. UAVReason aligns RGB imagery, depth maps, semantic segmentation masks, captions, and question-answer pairs within a consistent aerial domain. It contains 23.6K captioned frames, 273K VQA pairs including 68.2K two-frame temporal questions, and 188.8K cross-modal generation samples across RGB, depth, and segmentation modalities. We further adapt UAVReason-Bagel as a unified understanding-and-generation baseline that jointly optimizes language reasoning and dense visual generation objectives. Experiments show that general-purpose VLMs and off-the-shelf unified generators struggle with UAV-native grounding, while UAVReason-Bagel substantially improves over its pretrained counterpart, increasing VQA-1F F1 from 0.394 to 0.711, VQA-2F F1 from 0.427 to 0.822, and heading-aware VQA F1 from 0.798 to 0.973. For generation, it improves segmentation mIoU to 0.143 and reduces KID from 0.078 to 0.048 for depth-segmentation-text-conditioned RGB synthesis. More importantly, our ablations reveal a bidirectional synergy between synthesis and reasoning. Dense generation objectives improve temporal semantic consistency, while language-level reasoning regularizes sparse-condition image synthesis. These results suggest that unified reasoning and generation provide effective geometry-aware structural priors for physically grounded aerial intelligence. All data, code, and evaluation tools will be released.},
     booktitle = {arXiv:2604.05377},
 	url = {https://zdzheng.xyz/files/2026/Jintao_UAVReason.pdf},
@@ -112,6 +134,8 @@
 @inproceedings{lian2026generating,
     author    = {Jingchun Lian and Lingyu Liu and Yaxiong Wang and Yujiao Wu and Lianwei Wu and Li Zhu and Zhedong Zheng},
     title     = {Generating Attribution Reports for Manipulated Facial Images: A Dataset and Baseline},
+    eprint = {2412.19685},
+    archivePrefix = {arXiv},
     abstract = {Existing facial forgery detection methods typically focus on binary classification or pixel-level localization, providing little semantic insight into the nature of the manipulation. To address this, we introduce Forgery Attribution Report Generation, a new multimodal task that jointly localizes forged regions ("Where") and generates natural language explanations grounded in the editing process ("Why"). This dual-focus approach goes beyond traditional forensics, providing a comprehensive understanding of the manipulation. To enable research in this domain, we present Multi-Modal Tamper Tracing (MMTT), a large-scale dataset of 152,217 samples, each with a process-derived ground-truth mask and a human-authored textual description, ensuring high annotation precision and linguistic richness. We further propose ForgeryTalker, a unified end-to-end framework that integrates vision and language via a shared encoder (image encoder + Q-former) and dual decoders for mask and text generation, enabling coherent cross-modal reasoning. Experiments show that ForgeryTalker achieves competitive performance on both report generation and forgery localization subtasks, i.e., 59.3 CIDEr and 73.67 IoU, respectively, establishing a baseline for explainable multimedia forensics. Dataset and code will be released to foster future research.},
     booktitle = {ACL},
 	code ={https://github.com/NattyLianJc/Generating-Attribution-Reports},
@@ -123,6 +147,8 @@
 @inproceedings{zhang2026process,
     author    = {Yuchen Zhang and Yaxiong Wang and Kecheng Han and Yujiao Wu and Lianwei Wu and Li Zhu and Zhedong Zheng},
     title     = {Cultivating Forensic Reasoning for Generalizable Multimodal Manipulation Detection},
+    eprint = {2603.01993},
+    archivePrefix = {arXiv},
     abstract = {Recent advances in generative AI have significantly enhanced the realism of multimodal media manipulation, thereby posing substantial challenges to manipulation detection. Existing manipulation detection and grounding approaches predominantly focus on manipulation type classification under result-oriented supervision, which not only lacks interpretability but also tends to overfit superficial artifacts. In this paper, we argue that generalizable detection requires incorporating explicit forensic reasoning, rather than merely classifying a limited set of manipulation types, which fails to generalize to unseen manipulation patterns. To this end, we propose REFORM, a reasoning-driven framework that shifts learning from outcome fitting to process modeling. REFORM adopts a three-stage curriculum that first induces forensic rationales, then aligns reasoning with final judgments, and finally refines logical consistency via reinforcement learning. To support this paradigm, we introduce ROM, a large-scale dataset with rich reasoning annotations. Extensive experiments show that REFORM establishes new state-of-the-art performance with superior generalization, achieving 81.52\% ACC on ROM, 76.65\% ACC on DGM4, and 74.9 F1 on MMFakeBench.},
     booktitle = {ACL},
 	code = {https://github.com/YcZhangSing/REFORM},
@@ -145,6 +171,8 @@
 @inproceedings{huang2026tiger,
   author    = {Yiyao Huang and Zhedong Zheng and Ziwei Yu and Yaxiong Wang and Tze Ho Elden Tse and Angela Yao},
   title     = {TIGeR: Text-Instructed Generation and Refinement for Template-Free Hand-Object Interaction},
+  eprint = {2506.00953},
+  archivePrefix = {arXiv},
   abstract = {Pre-defined 3D object templates are widely used in 3D reconstruction of hand-object interactions. However, they often require substantial manual efforts to capture or source, and inherently restrict the adaptability of models to unconstrained interaction scenarios, e.g., heavily-occluded objects. To overcome this bottleneck, we propose a new Text-Instructed Generation and Refinement (TIGeR) framework, harnessing the power of intuitive text-driven priors to steer the object shape refinement and pose estimation. We use a two-stage framework: a text-instructed prior generation and vision-guided refinement. As the name implies, we first leverage off-the-shelf models to generate shape priors according to the text description without tedious 3D crafting. Considering the geometric gap between the synthesized prototype and the real object interacted with the hand, we further calibrate the synthesized prototype via 2D-3D collaborative attention. TIGeR achieves competitive performance, i.e., 1.979 and 5.468 object Chamfer distance on the widely-used Dex-YCB and Obman datasets, respectively, surpassing existing template-free methods. Notably, the proposed framework shows robustness to occlusion, while maintaining compatibility with heterogeneous prior sources, e.g., retrieved hand-crafted prototypes, in practical deployment scenarios.},
   booktitle = {IEEE International Conference on Robotics and Automation (ICRA)},
   url = {https://zdzheng.xyz/files/2026/Huang_Tiger.pdf},
@@ -154,6 +182,8 @@
 
 @inproceedings{zhang2026sketchthinker,
   title={SketchThinker-R1: Towards Efficient Sketch-Style Reasoning in Large Multimodal Models},
+  eprint = {2601.02825},
+  archivePrefix = {arXiv},
   abstract = {Despite the empirical success of extensive, step-by-step reasoning in large multimodal models, long reasoning processes inevitably incur substantial computational overhead, i.e., in terms of higher token costs and increased response time, which undermines inference efficiency. In contrast, humans often employ sketch-style reasoning: a concise, goal-directed cognitive process that prioritizes salient information and enables efficient problem-solving. Inspired by this cognitive efficiency, we propose SketchThinker-R1, which incentivizes sketch-style reasoning ability in large multimodal models. Our method consists of three primary stages. In the Sketch-Mode Cold Start stage, we convert standard long reasoning process into sketch-style reasoning and finetune base multimodal model, instilling initial sketch-style reasoning capability. Next, we train SketchJudge Reward Model, which explicitly evaluates thinking process of model and assigns higher scores to sketch-style reasoning. Finally, we conduct Sketch-Thinking Reinforcement Learning under supervision of SketchJudge to further generalize sketch-style reasoning ability. Experimental evaluation on four benchmarks reveals that our SketchThinker-R1 achieves over 64\% reduction in reasoning token cost without compromising final answer accuracy. Qualitative analysis further shows that sketch-style reasoning focuses more on key cues during problem solving.},
   author={Zhang, Ruiyang and Zhou, Dongzhan and Zheng, Zhedong},
   booktitle={ICLR},
@@ -175,6 +205,8 @@
 
 @inproceedings{xu2025words,
   title={When Words Smile: Generating Diverse Emotional Facial Expressions from Text},
+  eprint = {2412.02508},
+  archivePrefix = {arXiv},
   abstract = {Enabling digital humans to express rich emotions has significant applications in dialogue systems, gaming, and other interactive scenarios. While recent advances in talking head synthesis have achieved impressive results in lip synchronization, they tend to overlook the rich and dynamic nature of facial expressions. To fill this critical gap, we introduce an end-to-end text-to-expression model that explicitly focuses on emotional dynamics. Our model learns expressive facial variations in a continuous latent space and generates expressions that are diverse, fluid, and emotionally coherent. To support this task, we introduce EmoAva, a large-scale and high-quality dataset containing 15,000 text-3D expression pairs. Extensive experiments on both existing datasets and EmoAva demonstrate that our method significantly outperforms baselines across multiple evaluation metrics, marking a significant advancement in the field.},
   author={Xu, Haidong and Zhang, Meishan and Ju, Hao and Zheng, Zhedong and Cambria, Erik and Zhang, Min and Fei, Hao},
   booktitle={Conference on Empirical Methods in Natural Language Processing (EMNLP)},
@@ -186,6 +218,8 @@
 
 @inproceedings{wen2025WeatherPrompt,
   title={WeatherPrompt: Multi-modality Representation Learning for All-Weather Drone Visual Geo-Localization},
+  eprint = {2508.09560},
+  archivePrefix = {arXiv},
   abstract = {Visual geo-localization for drones faces critical degradation under weather perturbations, \eg, rain and fog, where existing methods struggle with two inherent limitations: 1) Heavy reliance on limited weather categories that constrain generalization, and 2) Suboptimal disentanglement of entangled scene-weather features through pseudo weather categories. We present WeatherPrompt, a multi-modality learning paradigm that establishes weather-invariant representations through fusing the image embedding with the text context. Our framework introduces two key contributions: First, a Training-free Weather Reasoning mechanism that employs off-the-shelf large multi-modality models to synthesize multi-weather textual descriptions through human-like reasoning. It improves the scalability to unseen or complex weather, and could reflect different weather strength. Second, to better disentangle the scene and weather feature, we propose a multi-modality framework with the dynamic gating mechanism driven by the text embedding to adaptively reweight and fuse visual features across modalities. The framework is further optimized by the cross-modal objectives, including image-text contrastive learning and image-text matching, which maps the same scene with different weather conditions closer in the respresentation space. Extensive experiments validate that, under diverse weather conditions, our method achieves competitive recall rates compared to state-of-the-art drone geo-localization methods. Notably, it improves Recall@1 by +13.37\\% under night conditions and by 18.69\\% under fog and snow conditions.},
   author={ Wen, Jiahao and Yu, Hang and Zheng, Zhedong },
   booktitle={NeurIPS},
@@ -197,6 +231,8 @@
 
 @inproceedings{xu2025VimoRAG,
   title={VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion Language Models},
+  eprint = {2508.12081},
+  archivePrefix = {arXiv},
   abstract = {This paper introduces VimoRAG, a novel video-based retrieval-augmented motion generation framework for motion large language models (LLMs). As motion LLMs face severe out-of-domain/out-of-vocabulary issues due to limited annotated data, VimoRAG leverages large-scale in-the-wild video databases to enhance 3D motion generation by retrieving relevant 2D human motion signals. While video-based motion RAG is nontrivial, we address two key bottlenecks: (1) developing an effective motion-centered video retrieval model that distinguishes human poses and actions, and (2) mitigating the issue of error propagation caused by suboptimal retrieval results. We design the Gemini Motion Video Retriever mechanism and the Motion-centric Dual-alignment DPO Trainer, enabling effective retrieval and generation processes. Experimental results show that VimoRAG significantly boosts the performance of motion LLMs constrained to text-only input. All the resources are available at https://walkermitty.github.io/VimoRAG/},
   author={Xu, Haidong and Xu, Guangwei and Zheng, Zhedong and Zhu, Xiatian and Ji, Wei and Li, Xiangtai and Guo, Ruijie and Zhang, Meishan and Zhang, Min and Fei, Hao},
   booktitle={NeurIPS},
@@ -220,6 +256,8 @@
 
 @inproceedings{yang2024beyond,
   title={Beyond Walking: A Large-Scale Image-Text Benchmark for Text-based Person Anomaly Search},
+  eprint = {2411.17776},
+  archivePrefix = {arXiv},
   abstract = {Text-based person search aims to retrieve specific individuals across camera networks using natural language descriptions. However, current benchmarks often exhibit biases towards common actions like walking or standing, neglecting the critical need for identifying abnormal behaviors in real-world scenarios. To meet such demands, we propose a new task, text-based person anomaly search, locating pedestrians engaged in both routine or anomalous activities via text. To enable the training and evaluation of this new task, we construct a large-scale image-text Pedestrian Anomaly Behavior (PAB) benchmark, featuring a broad spectrum of actions, e.g., running, performing, playing soccer, and the corresponding anomalies, e.g., lying, being hit, and falling of the same identity. The training set of PAB comprises 1,013,605 synthesized image-text pairs of both normalities and anomalies, while the test set includes 1,978 real-world image-text pairs. To validate the potential of PAB, we introduce a cross-modal pose-aware framework, which integrates human pose patterns with identity-based hard negative pair sampling. Extensive experiments on the proposed benchmark show that synthetic training data facilitates the fine-grained behavior retrieval, and the proposed pose-aware method arrives at 84.93\% recall@1 accuracy, surpassing other competitive methods. The dataset, model, and code are available at https://github.com/Shuyu-XJTU/CMP.},
   author={Yang, Shuyu and Wang, Yaxiong and Zhu, Li and Zheng, Zhedong},
   booktitle={ICCV},
@@ -243,6 +281,8 @@
 
 @inproceedings{sun2025data,
   title={From Data Deluge to Data Curation: A Filtering-WoRA Paradigm for Efficient Text-based Person Search},
+  eprint = {2404.10292},
+  archivePrefix = {arXiv},
   abstract = {In text-based person search endeavors, data generation has emerged as a prevailing practice, addressing concerns over privacy preservation and the arduous task of manual annotation. Although the number of synthesized data can be infinite in theory, the scientific conundrum persists that how much generated data optimally fuels subsequent model training. We observe that only a subset of the data in these constructed datasets plays a decisive role. Therefore, we introduce a new Filtering-WoRA paradigm, which contains a filtering algorithm to identify this crucial data subset and WoRA (Weighted Low-Rank Adaptation) learning strategy for light fine-tuning. The filtering algorithm is based on the cross-modality relevance to remove the lots of coarse matching synthesis pairs. As the number of data decreases, we do not need to fine-tune the entire model. Therefore, we propose a WoRA learning strategy to efficiently update a minimal portion of model parameters. WoRA streamlines the learning process, enabling heightened efficiency in extracting knowledge from fewer, yet potent, data instances. Extensive experimentation validates the efficacy of pretraining, where our model achieves advanced and efficient retrieval performance on challenging real-world benchmarks. Notably, on the CUHK-PEDES dataset, we have achieved a competitive mAP of 67.02\% while reducing model training time by 19.82\%.},
   author={Sun, Jintao and Fei, Hao and Ding, Gangyi and Zheng, Zhedong},
   booktitle={ACM Web Conference},
@@ -255,6 +295,8 @@
 
 @inproceedings{ju2024video2bev,
   title={Video2BEV: Transforming Drone Videos to BEVs for Video-based Geo-localization},
+  eprint = {2411.13610},
+  archivePrefix = {arXiv},
   abstract = {Existing approaches to drone visual geo-localization predominantly adopt the image-based setting, where a single drone-view snapshot is matched with images from other platforms. Such task formulation, however, underutilizes the inherent video output of the drone and is sensitive to occlusions and environmental constraints. To address these limitations, we formulate a new video-based drone geo-localization task and propose the Video2BEV paradigm. This paradigm transforms the video into a Bird's Eye View (BEV), simplifying the subsequent matching process. In particular, we employ Gaussian Splatting to reconstruct a 3D scene and obtain the BEV projection. Different from the existing transform methods, e.g., polar transform, our BEVs preserve more fine-grained details without significant distortion. To further improve model scalability toward diverse BEVs and satellite figures, our Video2BEV paradigm also incorporates a diffusion-based module for generating hard negative samples, which facilitates discriminative feature learning. To validate our approach, we introduce UniV, a new video-based geo-localization dataset that extends the image-based University-1652 dataset. UniV features flight paths at 30 and 45 elevation angles with increased frame rates of up to 10 frames per second (FPS). Extensive experiments on the UniV dataset show that our Video2BEV paradigm achieves competitive recall rates and outperforms conventional video-based methods. Compared to other methods, our proposed approach exhibits robustness at lower elevations with more occlusions.},
   author={Ju, Hao and Huang, Shaofei and Liu, Si and Zheng, Zhedong},
   booktitle={ICCV},
@@ -267,6 +309,8 @@
 
 @inproceedings{zhang2025ctrl,
   title={Ctrl-u: Robust conditional image generation via uncertainty-aware reward modeling},
+  eprint = {2410.11236},
+  archivePrefix = {arXiv},
   abstract = {In this paper, we focus on the task of conditional image generation, where an image is synthesized according to user instructions. The critical challenge underpinning this task is ensuring both the fidelity of the generated images and their semantic alignment with the provided conditions. To tackle this issue, previous studies have employed supervised perceptual losses derived from pre-trained models, i.e., reward models, to enforce alignment between the condition and the generated result. However, we observe one inherent shortcoming: considering the diversity of synthesized images, the reward model usually provides inaccurate feedback when encountering newly generated data, which can undermine the training process. To address this limitation, we propose an uncertainty-aware reward modeling, called Ctrl-U, including uncertainty estimation and uncertainty-aware regularization, designed to reduce the adverse effects of imprecise feedback from the reward model. Given the inherent cognitive uncertainty within reward models, even images generated under identical conditions often result in a relatively large discrepancy in reward loss. Inspired by the observation, we explicitly leverage such prediction variance as an uncertainty indicator. Based on the uncertainty estimation, we regularize the model training by adaptively rectifying the reward. In particular, rewards with lower uncertainty receive higher loss weights, while those with higher uncertainty are given reduced weights to allow for larger variability. The proposed uncertainty regularization facilitates reward fine-tuning through consistency construction. Extensive experiments validate the effectiveness of our methodology in improving the controllability and generation quality, as well as its scalability across diverse conditional scenarios.},
   author={Zhang, Guiyu and Gao, Huan-ang and Jiang, Zijian and Zhao, Hao and Zheng, Zhedong},
   booktitle={ICLR},
@@ -280,6 +324,8 @@
 
 @inproceedings{zhang2024harnessing,
   title={Harnessing Uncertainty-aware Bounding Boxes for Unsupervised 3D Object Detection},
+  eprint = {2408.00619},
+  archivePrefix = {arXiv},
   abstract = {Unsupervised 3D object detection aims to identify objects of interest from unlabeled raw data, such as LiDAR points. Recent approaches usually adopt pseudo 3D bounding boxes (3D bboxes) from clustering algorithm to initialize the model training. However, pseudo bboxes inevitably contain noise, and such inaccuracies accumulate to the final model, compromising the performance. Therefore, in an attempt to mitigate the negative impact of inaccurate pseudo bboxes, we introduce a new uncertainty-aware framework for unsupervised 3D object detection, dubbed UA3D. In particular, our method consists of two phases: uncertainty estimation and uncertainty regularization. (1) In the uncertainty estimation phase, we incorporate an extra auxiliary detection branch alongside the original primary detector. The prediction disparity between the primary and auxiliary detectors could reflect fine-grained uncertainty at the box coordinate level. (2) Based on the assessed uncertainty, we adaptively adjust the weight of every 3D bbox coordinate via uncertainty regularization, refining the training process on pseudo bboxes. For pseudo bbox coordinate with high uncertainty, we assign a relatively low loss weight. Extensive experiments verify that the proposed method is robust against the noisy pseudo bboxes, yielding substantial improvements on nuScenes and Lyft compared to existing approaches, with increases of +6.9\% AP-BEV and +2.5\% AP-3D on nuScenes, and +4.1\% AP-BEV and +2.0\% AP-3D on Lyft.},
   author={Zhang, Ruiyang and Zhang, Hu and Zheng, Zhedong},
   booktitle={ICCV},
@@ -291,6 +337,8 @@
 
 @inproceedings{chen2024transferring,
   title={Transferring to Real-World Layouts: A Depth-aware Framework for Scene Adaptation},
+  eprint = {2311.12682},
+  archivePrefix = {arXiv},
   abstract = {Scene segmentation via unsupervised domain adaptation (UDA) enables the transfer of knowledge acquired from source synthetic data to real-world target data, which largely reduces the need for manual pixel-level annotations in the target domain. To facilitate domain-invariant feature learning, existing methods typically mix data from both the source domain and target domain by simply copying and pasting pixels. Such vanilla methods are usually sub-optimal since they do not take into account how well the mixed layouts correspond to real-world scenarios. Real-world scenarios are with an inherent layout. The model suffers from confusion in predicting the target domain due to the unrealistic mixing. For instance, it is not reasonable to directly paste the near pedestrian pixels into the remote sky area. Based on such observation, we propose a depth-aware framework to explicitly leverage depth estimation to mix categories and facilitate two complementary tasks, i.e., segmentation and depth learning in an end-to-end manner. Besides, several public datasets do not provide depth annotation. Therefore, we leverage the off-the-shelf depth estimation network to obtain the pseudo depth. Extensive experiments show that our methods, even with pseudo depth, achieve competitive performance, i.e., 77.7 mIoU on GTA to Cityscapes and 69.3 mIoU on Synthia to Cityscapes.},
   author={Chen, Mu and Zheng, Zhedong and Yang, Yi },
   code = {https://github.com/chen742/DCF},
@@ -303,6 +351,8 @@
 
 @inproceedings{qu2023learnable,
   title={Learnable Pillar-based Re-ranking for Image-Text Retrieval},
+  eprint = {2304.12570},
+  archivePrefix = {arXiv},
   abstract = {Image-text retrieval aims to bridge the modality gap and retrieve cross-modal content based on semantic similarities. Prior work usually focuses on the pairwise relations (i.e., whether a data sample matches another) but ignores the higher-order neighbor relations (i.e., a matching structure among multiple data samples). Re-ranking, a popular post-processing practice, has revealed the superiority of capturing neighbor relations in single-modality retrieval tasks. However, it is ineffective to directly extend existing re-ranking algorithms to image-text retrieval. In this paper, we analyze the reason from four perspectives, i.e., generalization, flexibility, sparsity, and asymmetry, and propose a novel learnable pillar-based re-ranking paradigm. Concretely, we first select top-ranked intra- and inter-modal neighbors as pillars, and then reconstruct data samples with the neighbor relations between them and the pillars. In this way, each sample can be mapped into a multimodal pillar space only using similarities, ensuring generalization. After that, we design a neighbor-aware graph reasoning module to flexibly exploit the relations and excavate the sparse positive items within a neighborhood. We also present a structure alignment constraint to promote cross-modal collaboration and align the asymmetric modalities. On top of various base backbones, we carry out extensive experiments on two benchmark datasets, i.e., Flickr30K and MS-COCO, demonstrating the effectiveness, superiority, generalization, and transferability of our proposed re-ranking paradigm.},
   author={Qu, Leigang and Liu, Meng and Wang, Wenjie and Zheng, Zhedong and Nie, Liqiang and Chua, Tat-Seng},
   booktitle={SIGIR},
@@ -323,7 +373,9 @@
 }
 
 @inproceedings{GeoText1652, 
-title={Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching}, 
+title={Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching},
+eprint = {2311.12751},
+archivePrefix = {arXiv},
 abstract = {Navigating drones through natural language commands remains challenging due to the dearth of accessible multi-modal datasets and the stringent precision requirements for aligning visual and textual data. To address this pressing need, we introduce GeoText-1652, a new natural language-guided geo-localization benchmark. This dataset is systematically constructed through an interactive human-computer process leveraging Large Language Model (LLM) driven annotation techniques in conjunction with pre-trained vision models. GeoText-1652 extends the established University-1652 image dataset with spatial-aware text annotations, thereby establishing one-to-one correspondences between image, text, and bounding box elements. We further introduce a new optimization objective to leverage fine-grained spatial associations, called blending spatial matching, for region-level spatial relation matching. Extensive experiments reveal that our approach maintains a competitive recall rate comparing other prevailing cross-modality methods. This underscores the promising potential of our approach in elevating drone control and navigation through the seamless integration of natural language commands in real-world scenarios.},
 author={Chu, Meng and Zheng, Zhedong and Ji, Wei and Wang, Tingyu and Chua, Tat-Seng}, 
 booktitle={European conference on computer vision (ECCV)},
@@ -347,6 +399,8 @@ year={2024}
 
 @inproceedings{LiSe,
   title={Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene},
+  eprint = {2407.08569},
+  archivePrefix = {arXiv},
   abstract = {The open-world 3D object detection is to accurately detect objects in unstructured environments with no explicit supervisory signals. This task, given sparse LiDAR point clouds, often results in compromised performance for detecting small or distant objects due to the inherent sparsity and limited spatial resolution. In this paper, we are among the early attempts to integrate LiDAR data with 2D images for open-world 3D detection and introduce a new method, dubbed LiDAR-2D Self-paced Learning (LiSe). We argue that RGB images serve as a valuable complement to LiDAR data, offering precise 2D localization cues, particularly when scarce LiDAR points are available for certain objects. Considering the unique characteristics of both modalities, our framework devises a self-paced learning pipeline that incorporates adaptive sampling and weak model aggregation strategies. The adaptive sampling strategy dynamically tunes the distribution of pseudo labels during training, countering the tendency of models to overfit on easily detected samples, such as nearby and large-sized objects. By doing so, it ensures a balanced learning trajectory across varying object scales and distances. The weak model aggregation component consolidates the strengths of models trained under different pseudo label distributions, culminating in a robust and powerful final model. Experimental evaluations validate the efficacy of our proposed LiSe method, manifesting significant improvements of +7.1\% AP-BEV and +3.4\% AP-3D on nuScenes compared to existing techniques.},
   author={Zhang, Ruiyang and Zhang, Hu and Yu, Hang and Zheng, Zhedong},
   booktitle={European conference on computer vision (ECCV)},
@@ -371,6 +425,8 @@ year={2024}
 
 @inproceedings{chen2023pipa,
   title={PiPa: Pixel-and Patch-wise Self-supervised Learning for Domain Adaptative Semantic Segmentation},
+  eprint = {2211.07609},
+  archivePrefix = {arXiv},
   abstract = {Unsupervised Domain Adaptation (UDA) aims to enhance the generalization of the learned model to other domains. The domain-invariant knowledge is transferred from the model trained on labeled source domain, e.g., video game, to unlabeled target domains, e.g., real-world scenarios, saving annotation expenses. Existing UDA methods for semantic segmentation usually focus on minimizing the inter-domain discrepancy of various levels, e.g., pixels, features, and predictions, for extracting domain-invariant knowledge. However, the primary intra-domain knowledge, such as context correlation inside an image, remains underexplored. In an attempt to fill this gap, we propose a unified pixel- and patch-wise self-supervised learning framework, called PiPa, for domain adaptive semantic segmentation that facilitates intra-image pixel-wise correlations and patch-wise semantic consistency against different contexts. The proposed framework exploits the inherent structures of intra-domain images, which: (1) explicitly encourages learning the discriminative pixel-wise features with intra-class compactness and inter-class separability, and (2) motivates the robust feature learning of the identical patch against different contexts or fluctuations. Extensive experiments verify the effectiveness of the proposed method, which obtains competitive accuracy on the two widely-used UDA benchmarks, i.e., 75.6 mIoU on GTA to Cityscapes and 68.2 mIoU on Synthia to Cityscapes. Moreover, our method is compatible with other UDA approaches to further improve the performance without introducing extra parameters.},
   author={Chen, Mu and Zheng, Zhedong and Yang, Yi and Chua, Tat-Seng},
   booktitle={ACM MM},
@@ -380,7 +436,9 @@ year={2024}
 }
 
 @inproceedings{lin2021more,
-      title={Less is More: Sparse Sampling for Dense Reaction Predictions}, 
+      title={Less is More: Sparse Sampling for Dense Reaction Predictions},
+      eprint = {2106.01764},
+      archivePrefix = {arXiv},
       abstract = {Obtaining viewer responses from videos can be useful for creators and streaming platforms to analyze the video performance and improve the future user experience. In this report, we present our method for 2021 Evoked Expression from Videos Challenge. In particular, our model utilizes both audio and image modalities as inputs to predict emotion changes of viewers. To model long-range emotion changes, we use a GRU-based model to predict one sparse signal with 1Hz. We observe that the emotion changes are smooth. Therefore, the final dense prediction is obtained via linear interpolating the signal, which is robust to the prediction fluctuation. Albeit simple, the proposed method has achieved pearson's correlation score of 0.04430 on the final private test set.},
       author={Kezhou Lin and Xiaohan Wang and Zhedong Zheng and Linchao Zhu and Yi Yang},
       booktitle={CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place)},
@@ -391,6 +449,8 @@ year={2024}
 
 @inproceedings{zheng2021connecting,
   title={Connecting Language and Vision for Natural Language-Based Vehicle Retrieval},
+  eprint = {2105.14897},
+  archivePrefix = {arXiv},
   abstract = {Vehicle search is one basic task for the efficient traffic management in terms of the AI City. Most existing practices focus on the image-based vehicle matching, including vehicle re-identification and vehicle tracking. In this paper, we apply one new modality, i.e., the language description, to search the vehicle of interest and explore the potential of this task in the real-world scenario. The natural language-based vehicle search poses one new challenge of fine-grained understanding of both vision and language modalities. To connect language and vision, we propose to jointly train the state-of-the-art vision models with the transformer-based language model in an end-to-end manner. Except for the network structure design and the training strategy, several optimization objectives are also re-visited in this work. The qualitative and quantitative experiments verify the effectiveness of the proposed method. Our proposed method has achieved the 1st place on the 5th AI City Challenge, yielding competitive performance 18.69\% MRR accuracy on the private test set. We hope this work can pave the way for the future study on using language description effectively and efficiently for real-world vehicle retrieval systems. The code will be available at https://github.com/ShuaiBai623/AIC2021-T5-CLV.},
   author={Bai, Shuai and Zheng, Zhedong and Wang, Xiaohan and Lin, Junyang and Zhang, Zhu and Zhou, Chang and Yang, Hongxia and Yang, Yi},
   booktitle={CVPR Workshop of AI City Challenge on Natural Language-Based Vehicle Retrieval (the 1st Place of Track 5)},
@@ -428,11 +488,15 @@ year={2024}
   code={https://github.com/Shuyu-XJTU/APTM},
   url = {https://zdzheng.xyz/files/2023/MM23_Yang.pdf}, 
   doi = {10.1145/3581783.3611709},
+  eprint = {2306.02898},
+  archivePrefix = {arXiv},
   year={2023}
 }
 
 @inproceedings{zhang2022multiview,
   title={Multi-View Consistent Generative Adversarial Networks for 3D-aware Image Synthesis},
+  eprint = {2204.06307},
+  archivePrefix = {arXiv},
   abstract = {3D-aware image synthesis aims to generate images of objects from multiple views by learning a 3D representation. However, one key challenge remains: existing approaches lack geometry constraints, hence usually fail to generate multi-view consistent images. To address this challenge, we propose Multi-View Consistent Generative Adversarial Networks (MVCGAN) for high-quality 3D-aware image synthesis with geometry constraints. By leveraging the underlying 3D geometry information of generated images, i.e., depth and camera transformation matrix, we explicitly establish stereo correspondence between views to perform multi-view joint optimization. In particular, we enforce the photometric consistency between pairs of views and integrate a stereo mixup mechanism into the training process, encouraging the model to reason about the correct 3D shape. Besides, we design a two-stage training strategy with feature-level multi-view joint optimization to improve the image quality. Extensive experiments on three datasets demonstrate that MVCGAN achieves the state-of-the-art performance for 3D-aware image synthesis.},
   author={Zhang, Xuanmeng and Zheng, Zhedong and Gao, Daiheng and Zhang, Bang and Pan, Pan and Yang, Yi},
   booktitle={CVPR},
@@ -443,6 +507,8 @@ year={2024}
 
 @inproceedings{zheng2019joint,
   title={Joint discriminative and generative learning for person re-identification},
+  eprint = {1904.07223},
+  archivePrefix = {arXiv},
   abstract = {Person re-identification (re-id) remains challenging due to significant intra-class variations across different cameras. Recently, there has been a growing interest in using generative models to augment training data and enhance the invariance to input changes. The generative pipelines in existing methods, however, stay relatively separate from the discriminative re-id learning stages. Accordingly, re-id models are often trained in a straightforward manner on the generated data. In this paper, we seek to improve learned re-id embeddings by better leveraging the generated data. To this end, we propose a joint learning framework that couples re-id learning and data generation end-to-end. Our model involves a generative module that separately encodes each person into an appearance code and a structure code, and a discriminative module that shares the appearance encoder with the generative module. By switching the appearance or structure codes, the generative module is able to generate high-quality cross-id composed images, which are online fed back to the appearance encoder and used to improve the discriminative module. The proposed joint learning framework renders significant improvement over the baseline without using generated data, leading to the state-of-the-art performance on several benchmark datasets.},
   author={Zheng, Zhedong and Yang, Xiaodong and Yu, Zhiding and Zheng, Liang and Yang, Yi and Kautz, Jan},
   booktitle={CVPR},
@@ -456,6 +522,8 @@ year={2024}
 
 @inproceedings{han2021decoupled,
   title={Decoupled and Memory-Reinforced Networks: Towards Effective Feature Learning for One-Step Person Search},
+  eprint = {2102.10795},
+  archivePrefix = {arXiv},
   abstract = {The goal of person search is to localize and match query persons from scene images. For high efficiency, one-step methods have been developed to jointly handle the pedestrian detection and identification sub-tasks using a single network. There are two major challenges in the current one-step approaches. One is the mutual interference between the optimization objectives of multiple sub-tasks. The other is the sub-optimal identification feature learning caused by small batch size when end-to-end training. To overcome these problems, we propose a decoupled and memory-reinforced network (DMRNet). Specifically, to reconcile the conflicts of multiple objectives, we simplify the standard tightly coupled pipelines and establish a deeply decoupled multi-task learning framework. Further, we build a memory-reinforced mechanism to boost the identification feature learning. By queuing the identification features of recently accessed instances into a memory bank, the mechanism augments the similarity pair construction for pairwise metric learning. For better encoding consistency of the stored features, a slow-moving average of the network is applied for extracting these features. In this way, the dual networks reinforce each other and converge to robust solution states. Experimentally, the proposed method obtains 93.2\% and 46.9\% mAP on CUHK-SYSU and PRW datasets, which exceeds all the existing one-step methods.},
   author={Han, Chuchu and Zheng, Zhedong and Gao, Changxin and Sang, Nong and Yang, Yi},
   booktitle={AAAI},
@@ -473,6 +541,8 @@ year={2024}
   url={https://zdzheng.xyz/files/2020/ACMMM20.pdf},
   blog={https://zhuanlan.zhihu.com/p/110987552},
   doi={10.1145/3394171.3413896},
+  eprint = {2002.12186},
+  archivePrefix = {arXiv},
   year={2020}
 }
 
@@ -484,11 +554,15 @@ year={2024}
   code = {https://github.com/layumi/Seg_Uncertainty},
   url={https://zdzheng.xyz/files/2020/ijcai20.pdf},
   doi={10.5555/3491440.3491590},
+  eprint={1912.11164},
+  archivePrefix = {arXiv},
   year={2020}
 }
 
 @inproceedings{chen2024composed,
   title={Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization},
+  eprint = {2211.07394},
+  archivePrefix = {arXiv},
   abstract = {We investigate composed image retrieval with text feedback. Users gradually look for the target of interest by moving from coarse to fine-grained feedback. However, existing methods merely focus on the latter, i.e., fine-grained search, by harnessing positive and negative pairs during training. This pair-based paradigm only considers the one-to-one distance between a pair of specific points, which is not aligned with the one-to-many coarse-grained retrieval process and compromises the recall rate. In an attempt to fill this gap, we introduce a unified learning approach to simultaneously modeling the coarse- and fine-grained retrieval by considering the multi-grained uncertainty. The key idea underpinning the proposed method is to integrate fine- and coarse-grained retrieval as matching data points with small and large fluctuations, respectively. Specifically, our method contains two modules: uncertainty modeling and uncertainty regularization. (1) The uncertainty modeling simulates the multi-grained queries by introducing identically distributed fluctuations in the feature space. (2) Based on the uncertainty modeling, we further introduce uncertainty regularization to adapt the matching objective according to the fluctuation range. Compared with existing methods, the proposed strategy explicitly prevents the model from pushing away potential candidates in the early stage, and thus improves the recall rate. On the three public datasets, i.e., FashionIQ, Fashion200k, and Shoes, the proposed method has achieved +4.03\%, +3.38\%, and +2.40\% Recall@50 accuracy over a strong baseline, respectively.},
   author={Chen, Yiyang and Zheng, Zhedong and Ji, Wei and Qu, Leigang and Chua, Tat-Seng},
   booktitle={International Conference on Learning Representations (ICLR)},
@@ -519,11 +593,15 @@ year={2024}
   code = {https://github.com/zhunzhong07/CamStyle},
   url = {https://zdzheng.xyz/files/2018/CVPR18.pdf},
   doi = {10.1109/CVPR.2018.00541},
+  eprint = {1711.10295},
+  archivePrefix = {arXiv},
   year={2018}
 }
 
 @inproceedings{zheng2017unlabeled,
   title={Unlabeled samples generated by gan improve the person re-identification baseline in vitro},
+  eprint = {1701.07717},
+  archivePrefix = {arXiv},
   abstract = {The main contribution of this paper is a simple semi-supervised pipeline that only uses the original training set without collecting extra data. It is challenging in 1) how to obtain more training data only from the training set and 2) how to use the newly generated data. In this work, the generative adversarial network (GAN) is used to generate unlabeled samples. We propose the label smoothing regularization for outliers (LSRO). This method assigns a uniform label distribution to the unlabeled images, which regularizes the supervised model and improves the baseline. We verify the proposed method on a practical problem: person re-identification (re-ID). This task aims to retrieve a query person from other cameras. We adopt the deep convolutional generative adversarial network (DCGAN) for sample generation, and a baseline convolutional neural network (CNN) for representation learning. Experiments show that adding the GAN-generated data effectively improves the discriminative ability of learned CNN embeddings. On three large-scale datasets, Market-1501, CUHK03 and DukeMTMC-reID, we obtain +4.37\%, +1.6\% and +2.46\% improvement in rank-1 precision over the baseline CNN, respectively. We additionally apply the proposed method to fine-grained bird recognition and achieve a +0.6\% improvement over a strong baseline. The code is available at https://github.com/layumi/Person-reID_GAN.},
   author={Zheng, Zhedong and Zheng, Liang and Yang, Yi},
   booktitle={ICCV},
@@ -546,5 +624,7 @@ year={2024}
   code={https://github.com/RoyalVane/MMAN},
   url = {https://zdzheng.xyz/files/2018/ECCV18.pdf},
   doi = {10.1007/978-3-030-01240-3_26},
+  eprint = {1807.08260},
+  archivePrefix = {arXiv},
   year={2018}
 }

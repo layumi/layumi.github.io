@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Less-is-2021
 date: 2021-01-01
 doi: 
+arxiv: '2106.01764'
 oral: 
 keywords:  dense reaction predictions, sampling dense reaction, sparse sampling
 funding: 
@@ -17,7 +18,7 @@ abs: 'Obtaining viewer responses from videos can be useful for creators and stre
 last_modified_at: 2026-10-08
 pub_year: '2021'
 bib: >
-    @inproceedings{lin2021more,<br>author = "Lin, Kezhou and Wang, Xiaohan and Zheng, Zhedong and Zhu, Linchao and Yang, Yi",<br>title = "Less is More: Sparse Sampling for Dense Reaction Predictions",<br>abstract = "Obtaining viewer responses from videos can be useful for creators and streaming platforms to analyze the video performance and improve the future user experience. In this report, we present our method for 2021 Evoked Expression from Videos Challenge. In particular, our model utilizes both audio and image modalities as inputs to predict emotion changes of viewers. To model long-range emotion changes, we use a GRU-based model to predict one sparse signal with 1Hz. We observe that the emotion changes are smooth. Therefore, the final dense prediction is obtained via linear interpolating the signal, which is robust to the prediction fluctuation. Albeit simple, the proposed method has achieved pearson's correlation score of 0.04430 on the final private test set.",<br>booktitle = "CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place)",<br>url = "https://zdzheng.xyz/files/2021/CVPRW2021\_EEV.pdf",<br>code = "https://github.com/HenryLittle/EEV-Challenge-2021",<br>year = "2021"
+    @inproceedings{lin2021more,<br>author = "Lin, Kezhou and Wang, Xiaohan and Zheng, Zhedong and Zhu, Linchao and Yang, Yi",<br>title = "Less is More: Sparse Sampling for Dense Reaction Predictions",<br>eprint = "2106.01764",<br>archivePrefix = "arXiv",<br>abstract = "Obtaining viewer responses from videos can be useful for creators and streaming platforms to analyze the video performance and improve the future user experience. In this report, we present our method for 2021 Evoked Expression from Videos Challenge. In particular, our model utilizes both audio and image modalities as inputs to predict emotion changes of viewers. To model long-range emotion changes, we use a GRU-based model to predict one sparse signal with 1Hz. We observe that the emotion changes are smooth. Therefore, the final dense prediction is obtained via linear interpolating the signal, which is robust to the prediction fluctuation. Albeit simple, the proposed method has achieved pearson's correlation score of 0.04430 on the final private test set.",<br>booktitle = "CVPR Workshop of Affective Understanding in Video on Evoked Expressions from Videos (EEV) Challenge (the 2nd Place)",<br>url = "https://zdzheng.xyz/files/2021/CVPRW2021\_EEV.pdf",<br>code = "https://github.com/HenryLittle/EEV-Challenge-2021",<br>year = "2021"
     }
 
 ---

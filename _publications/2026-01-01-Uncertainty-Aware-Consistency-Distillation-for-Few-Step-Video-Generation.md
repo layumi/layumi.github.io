@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/Uncertai2026
 date: 2026-01-01
 doi: 
+arxiv: '2609.39132'
 oral: 
 keywords:  aware consistency distillation, distillation step video, consistency distillation, uncertainty learning, aigc
 funding: 
@@ -14,7 +15,7 @@ citation: ' Lingyu Liu,  Yaxiong Wang,  Li Zhu,  Zhedong Zheng, &quot;Uncertaint
 last_modified_at: 2026-10-29
 pub_year: '2026'
 bib: >
-    @inproceedings{liu2026uncertainty,<br>author = "Liu, Lingyu and Wang, Yaxiong and Zhu, Li and Zheng, Zhedong",<br>title = "Uncertainty-Aware Consistency Distillation for Few-Step Video Generation",<br>booktitle = "arXiv:2609.39132",<br>year = "2026"
+    @inproceedings{liu2026uncertainty,<br>author = "Liu, Lingyu and Wang, Yaxiong and Zhu, Li and Zheng, Zhedong",<br>title = "Uncertainty-Aware Consistency Distillation for Few-Step Video Generation",<br>eprint = "2609.39132",<br>archivePrefix = "arXiv",<br>booktitle = "arXiv:2609.39132",<br>year = "2026"
     }
 
 ---

@@ -4,6 +4,7 @@ collection: publications
 permalink: /publication/SatFix-A2026
 date: 2026-01-01
 doi: 
+arxiv: '2610.11049'
 oral: 
 keywords:  visual localization uavs, uavs satellite maps, localization uavs satellite
 funding: 
@@ -14,7 +15,7 @@ citation: ' Jiarui Zeng,  Kun Shi,  Chiman Vong,  Zhedong Zheng, &quot;SatFix: A
 last_modified_at: 2026-10-29
 pub_year: '2026'
 bib: >
-    @inproceedings{zeng2026satfix,<br>author = "Zeng, Jiarui and Shi, Kun and Vong, Chiman and Zheng, Zhedong",<br>title = "SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image",<br>booktitle = "arXiv:2610.11049",<br>year = "2026"
+    @inproceedings{zeng2026satfix,<br>author = "Zeng, Jiarui and Shi, Kun and Vong, Chiman and Zheng, Zhedong",<br>title = "SatFix: Absolute Visual Localization of UAVs in Satellite Maps from a Single Oblique Image",<br>eprint = "2610.11049",<br>archivePrefix = "arXiv",<br>booktitle = "arXiv:2610.11049",<br>year = "2026"
     }
 
 ---

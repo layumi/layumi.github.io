@@ -1,5 +1,7 @@
 @article{fang2026road,
   title={Road Maps as Free Geometric Priors: Weather-Invariant Drone Geo-Localization with GeoFuse},
+  eprint = {2605.14925},
+  archivePrefix = {arXiv},
   abstract = {Drone-view geo-localization aims to match a query drone image, often captured under adverse weather conditions (e.g., rain, snow, fog), against a gallery of geo-tagged satellite images. Weather-induced degradations in the drone view, such as noise, reduced visibility, and partial occlusions, severely exacerbate the intrinsic cross-view domain gap. While prior methods predominantly rely on weather-specific architectures or data augmentations, they have largely overlooked road map data, a readily available modality that provides strong, inherently weather-invariant geometric layout cues (e.g., road networks and building footprints) at negligible additional cost. We introduce GeoFuse, a cross-modal fusion framework that integrates precisely aligned road map tiles with satellite imagery to yield more discriminative and weather-resilient representations. We first augment the existing University-1652 and DenseUAV benchmarks with geo-aligned road maps, supplying structural priors robust to meteorological variations. Building on this, we propose a flexible fusion module that combines satellite and road map features via token-level and channel-level interactions, with a lightweight dynamic gating mechanism that adaptively weights modality contributions per instance. Finally, we employ class-level cross-view contrastive learning to promote robust alignment between weather-degraded drone features and the fused satellite-roadmap representations. Extensive experiments under diverse weather conditions show that GeoFuse consistently outperforms state-of-the-art methods, achieving +3.46\% and +23.18\% Recall@1 accuracy on the University-1652 and DenseUAV benchmarks, respectively.},
   author={Fang, Yunsong and Wang, Tingyu and Zheng, Zhedong},
   journal={arXiv:2605.14925},
@@ -10,6 +12,8 @@
 
 @article{zhang2024vl,
   title={VL-Uncertainty: Detecting Hallucination in Large Vision-Language Model via Uncertainty Estimation},
+  eprint = {2411.11919},
+  archivePrefix = {arXiv},
   abstract = {Given the higher information load processed by large vision-language models (LVLMs) compared to single-modal LLMs, detecting LVLM hallucinations requires more human and time expense, and thus rise a wider safety concerns. In this paper, we introduce VL-Uncertainty, the first uncertainty-based framework for detecting hallucinations in LVLMs. Different from most existing methods that require ground-truth or pseudo annotations, VL-Uncertainty utilizes uncertainty as an intrinsic metric. We measure uncertainty by analyzing the prediction variance across semantically equivalent but perturbed prompts, including visual and textual data. When LVLMs are highly confident, they provide consistent responses to semantically equivalent queries. However, when uncertain, the responses of the target LVLM become more random. Considering semantically similar answers with different wordings, we cluster LVLM responses based on their semantic content and then calculate the cluster distribution entropy as the uncertainty measure to detect hallucination. Our extensive experiments on 10 LVLMs across four benchmarks, covering both free-form and multi-choice tasks, show that VL-Uncertainty significantly outperforms strong baseline methods in hallucination detection.},
   author={Zhang, Ruiyang and Zhang, Hu and Zheng, Zhedong},
   booktitle={arXiv:2411.11919},
@@ -19,6 +23,8 @@
 
 @article{wang2026rigi,
   title={Rigi: Rectifying image-to-3d generation inconsistency via uncertainty-aware learning},
+  eprint = {2411.18866},
+  archivePrefix = {arXiv},
   abstract = {Given a single image of a target object, image-to-3D generation aims to reconstruct its texture and geometric shape. Recent methods often utilize intermediate media, such as multi-view images or videos, to bridge the gap between input image and the 3D target, thereby guiding the generation of both shape and texture. However, inconsistencies in the generated multi-view snapshots frequently introduce noise and artifacts along object boundaries, undermining the 3D reconstruction process. To address this challenge, we leverage 3D Gaussian Splatting (3DGS) for 3D reconstruction, and explicitly integrate uncertainty-aware learning into the reconstruction process. By capturing the stochasticity between two Gaussian models, we estimate an uncertainty map, which is subsequently used for uncertainty-aware regularization to rectify the impact of inconsistencies. Specifically, we optimize both Gaussian models simultaneously, calculating the uncertainty map by evaluating the discrepancies between rendered images from identical viewpoints. Based on the uncertainty map, we apply adaptive pixel-wise loss weighting to regularize the models, reducing reconstruction intensity in high-uncertainty regions. This approach dynamically detects and mitigates conflicts in multi-view labels, leading to smoother results and effectively reducing artifacts. Extensive experiments show the effectiveness of our method in improving 3D generation quality by reducing inconsistencies and artifacts.},
   author={Wang, Jiacheng and Zheng, Zhedong and Xu, Wei and Liu, Ping},
   url={https://zdzheng.xyz/files/2026/RIGI_Jiacheng.pdf},
@@ -48,11 +54,15 @@
   code = {https://github.com/JT-Sun/WPU-TBPS},
   funding = {2025A1515012281, 202401035, FDCT/0043/2025/RIA1},
   doi={10.1016/j.patcog.2026.113783},
+  eprint = {2604.08877},
+  archivePrefix = {arXiv},
   year={2026}
 }
 
 @article{liu2025every,
   title={Every Painting Awakened: A Training-free Framework for Painting-to-Animation Generation},
+  eprint = {2503.23736},
+  archivePrefix = {arXiv},
   abstract = {We introduce a training-free framework specifically designed to bring real-world static paintings to life through image-to-video (I2V) synthesis, addressing the persistent challenge of aligning these motions with textual guidance while preserving fidelity to the original artworks. Existing I2V methods, primarily trained on natural video datasets, often struggle to generate dynamic outputs from static paintings. It remains challenging to generate motion while maintaining visual consistency with real-world paintings. This results in two distinct failure modes: either static outputs due to limited text-based motion interpretation or distorted dynamics caused by inadequate alignment with real-world artistic styles. We leverage the advanced text-image alignment capabilities of pre-trained image models to guide the animation process. Our approach introduces synthetic proxy images through two key innovations: (1) Dual-path score distillation: We employ a dual-path architecture to distill motion priors from both real and synthetic data, preserving static details from the original painting while learning dynamic characteristics from synthetic frames. (2) Hybrid latent fusion: We integrate hybrid features extracted from real paintings and synthetic proxy images via spherical linear interpolation in the latent space, ensuring smooth transitions and enhancing temporal consistency. Experimental evaluations confirm that our approach significantly improves semantic alignment with text prompts while faithfully preserving the unique characteristics and integrity of the original paintings. Crucially, by achieving enhanced dynamic effects without requiring any model training or learnable parameters, our framework enables plug-and-play integration with existing I2V methods, making it an ideal solution for animating real-world paintings. More animated examples can be found on our project website.},
   author={Liu, Lingyu and Wang, Yaxiong and Zhu, Li and Zheng, Zhedong},
   journal={arXiv:2503.23736},
@@ -63,6 +73,8 @@
 
 @article{zeng2024instilling,
   title={Instilling Multi-round Thinking to Text-guided Image Generation},
+  eprint = {2401.08472},
+  archivePrefix = {arXiv},
   abstract = {This paper delves into the text-guided image editing task, focusing on modifying a reference image according to user-specified textual feedback to embody specific attributes. Despite recent advancements, a persistent challenge remains that the single-round generation often overlooks crucial details, particularly in the realm of fine-grained changes like shoes or sleeves. This issue compounds over multiple rounds of interaction, severely limiting customization quality. In an attempt to address this challenge, we introduce a new self-supervised regularization, \ie, multi-round regularization, which is compatible with existing methods. Specifically, the multi-round regularization encourages the model to maintain consistency across different modification orders. It builds upon the observation that the modification order generally should not affect the final result. Different from traditional one-round generation, the mechanism underpinning the proposed method is the error amplification of initially minor inaccuracies in capturing intricate details. Qualitative and quantitative experiments affirm that the proposed method achieves high-fidelity editing quality, especially the local modification, in both single-round and multiple-round generation, while also showcasing robust generalization to irregular text inputs. The effectiveness of our semantic alignment with textual feedback is further substantiated by the retrieval improvements on FahisonIQ and Fashion200k.},
   author={Zeng, Lidong and Zheng, Zhedong and Wei, Yinwei and Chua, Tat-seng},
   journal={arXiv:2401.08472},
@@ -78,6 +90,8 @@
   code={https://github.com/Texaser/MTN},
   url={https://zdzheng.xyz/files/2026/TOMM_YiHan.pdf},
   doi={10.1145/3797262},
+  eprint = {2309.14600},
+  archivePrefix = {arXiv},
   funding = {2025A1515012281, 202401035, FDCT/0043/2025/RIA1},
   year={2026}
 }
@@ -91,6 +105,8 @@
   code = {https://github.com/Jahawn-Wen/CAMeL-reID},
   funding = {202401035, 2025A1515012281},
   doi = {10.1109/TIFS.2025.3565392},
+  eprint = {2504.18782},
+  archivePrefix = {arXiv},
   year={2025}
 }
 
@@ -100,6 +116,8 @@
   author={Sun, Jintao and Zhang, Hu and Ding, Gangyi and Zheng, Zhedong},
   url = {https://zdzheng.xyz/files/2026/TMM_jintao_planning.pdf}, 
   doi = {10.1109/TMM.2026.3713776},
+  eprint = {2505.18945},
+  archivePrefix = {arXiv},
   funding = {FDCT/0043/2025/RIA1, 2025A1515012281, BZ2025029},
   journal={TMM},
   year={2026}
@@ -113,6 +131,8 @@
   code = {https://github.com/Shuyu-XJTU/MRA},
   blog = {https://zhuanlan.zhihu.com/p/2052778421856506671},
   doi = {10.1016/j.patcog.2026.113511},
+  eprint = {2507.10195},
+  archivePrefix = {arXiv},
   funding = {2025A1515012281, MYRG-GRG2024-00077-FST-UMDF, University of Macau Advanced Research Institute in Hengqin, FDCT/0043/2025/RIA1},
   journal={PR},
   year={2026}
@@ -126,6 +146,8 @@
   url = {https://zdzheng.xyz/files/2026/3D_Recon.pdf}, 
   code = {https://github.com/layumi/3D-Magic-Mirror}, 
   doi = {10.1038/s44387-026-00082-6},
+  eprint = {2204.13096},
+  archivePrefix = {arXiv},
   funding = {FDCT/0043/2025/RIA1, 202401035, 2025A1515012281},
   year={2026}
 }
@@ -139,6 +161,8 @@
   url = {https://zdzheng.xyz/files/2025/Hu_ClipSR.pdf},
   code = {https://github.com/Bingwen-Hu/CLIP-SR},
   doi = {10.1109/TMM.2025.3618555},
+  eprint = {2412.11609},
+  archivePrefix = {arXiv},
   publisher={IEEE}
 }
 
@@ -161,6 +185,8 @@
   blog={https://zhuanlan.zhihu.com/p/338777060},
   funding = {2025A1515012281, 202401035, FDCT/0043/2025/RIA1, University of Macau Advanced Research Institute in Hengqin},
   doi = {10.1145/3803010},
+  eprint = {2012.07620},
+  archivePrefix = {arXiv},
   year={2026}
 }
 
@@ -181,6 +207,8 @@
   journal={IEEE Transactions on Multimedia},
   url ={https://zdzheng.xyz/files/2025/TMM25-Scale.pdf},
   doi = {10.1109/TMM.2025.3599088},
+  eprint = {2504.05316},
+  archivePrefix = {arXiv},
   funding = {SRG2024-00002-FST, MYRG-GRG2024-00077-FST-UMDF},
   year={2025}
 }
@@ -193,6 +221,8 @@
   code = {https://differential-query-painter.github.io/DQ-painter/},
   url = {https://zdzheng.xyz/files/2026/TVCG_Stroke_lingyu.pdf},
   doi = {10.1109/TVCG.2026.3669142},
+  eprint = {2603.27720},
+  archivePrefix = {arXiv},
   funding = {2025A1515012281, 202401035, FDCT/0043/2025/RIA1},
   year={2026}
 }
@@ -215,6 +245,8 @@
   url={https://zdzheng.xyz/files/2024/TGRS-DWDR.pdf},
   code={https://github.com/wtyhub/DWDR},
   doi={10.1109/TGRS.2024.3491757},
+  eprint = {2211.05296},
+  archivePrefix = {arXiv},
   year={2024}
 }
 
@@ -224,6 +256,8 @@
   author={Zhang, Xu and Zheng, Zhedong and Zhu, Linchao and Yang, Yi},
   journal={Knowledge-based Systems},
   doi={10.1016/j.knosys.2024.112135},
+  eprint = {2306.02092},
+  archivePrefix = {arXiv},
   url = {https://zdzheng.xyz/files/2024/KBS-triplet.pdf},
   code={https://github.com/XuZhang2/Css-Net},
   year={2024}
@@ -254,6 +288,8 @@
   author={Wang, Tingyu and Zheng, Zhedong and Sun, Yaoqi and Yan, Chenggang and Yang, Yi and Chua, Tat-Seng},
   journal={Pattern Recognition},
   doi={10.1016/j.patcog.2024.110363},
+  eprint = {2204.08381},
+  archivePrefix = {arXiv},
   url = {https://zdzheng.xyz/files/2024/PR2024-Wang.pdf},
   code = {https://github.com/wtyhub/MuseNet},
   year={2024}
@@ -304,6 +340,8 @@
   code={https://github.com/cyysc1998/3d-pretraining},
   blog={https://zhuanlan.zhihu.com/p/623476158},
   doi={10.1109/TMM.2022.3206664},
+  eprint = {2109.00452},
+  archivePrefix = {arXiv},
   year={2022}
 }
 
@@ -314,6 +352,8 @@
   journal={IEEE Transactions on Multimedia},
   url = {https://zdzheng.xyz/files/2022/TMM_Hu.pdf},
   doi={10.1109/TMM.2022.3143712},
+  eprint = {2108.01578},
+  archivePrefix = {arXiv},
   year={2022}
 }
 
@@ -345,6 +385,8 @@
   author={Suo, Yucheng and Zheng, Zhedong and Wang, Xiaohan and Zhang, Bang and Yang, Yi},
   journal={ACM TOMM},
   doi={10.1145/3648368},
+  eprint = {2207.03714},
+  archivePrefix = {arXiv},
   url={https://zdzheng.xyz/files/2024/TOMM_Suo.pdf},
   video={https://www.youtube.com/watch?v=2XL8o34hrHc},
   year={2024}
@@ -357,6 +399,8 @@
   journal={IEEE Transactions on Multimedia},
   url = {https://zdzheng.xyz/files/2023/TMM-Pruning.pdf},
   doi = {10.1109/TMM.2023.3256092},
+  eprint = {2001.08878},
+  archivePrefix = {arXiv},
   year={2023}
 }
 
@@ -367,12 +411,16 @@
   journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing},
   url = {https://zdzheng.xyz/files/2024/TASLP-Wu.pdf},
   doi={10.1109/TASLP.2024.3374060},
+  eprint = {2305.04049},
+  archivePrefix = {arXiv},
   year={2024},
   publisher={IEEE}
 }
 
 @article{zheng2022adaptive,
   doi={10.1109/TIP.2022.3195642},
+  eprint = {2103.15685},
+  archivePrefix = {arXiv},
   title={Adaptive Boosting for Domain Adaptation: Towards Robust Predictions in Scene Segmentation},
   abstract = {Domain adaptation is to transfer the shared knowledge learned from the source domain to a new environment, i.e., target domain. One common practice is to train the model on both labeled source-domain data and unlabeled target-domain data. Yet the learned models are usually biased due to the strong supervision of the source domain. Most researchers adopt the early-stopping strategy to prevent over-fitting, but when to stop training remains a challenging problem since the lack of the target-domain validation set. In this paper, we propose one efficient bootstrapping method, called Adaboost Student, explicitly learning complementary models during training and liberating users from empirical early stopping. Adaboost Student combines the deep model learning with the conventional training strategy, i.e., adaptive boosting, and enables interactions between learned models and the data sampler. We adopt one adaptive data sampler to progressively facilitate learning on hard samples and aggregate "weak" models to prevent over-fitting. Extensive experiments show that (1) Without the need to worry about the stopping time, AdaBoost Student provides one robust solution by efficient complementary model learning during training. (2) AdaBoost Student is orthogonal to most domain adaptation methods, which can be combined with existing approaches to further improve the state-of-the-art performance. We have achieved competitive results on three widely-used scene segmentation domain adaptation benchmarks.},
   author={Zheng, Zhedong and Yang, Yi},
@@ -385,6 +433,8 @@
 
 @article{zheng2020person,
   doi={10.1109/TNNLS.2022.3214834},
+  eprint = {2006.04569},
+  archivePrefix = {arXiv},
   title={Parameter-Efficient Person Re-identification in the 3D Space},
   abstract = {People live in a 3D world. However, existing works on person re-identification (re-id) mostly consider the semantic representation learning in a 2D space, intrinsically limiting the understanding of people. In this work, we address this limitation by exploring the prior knowledge of the 3D body structure. Specifically, we project 2D images to a 3D space and introduce a novel parameter-efficient Omni-scale Graph Network (OG-Net) to learn the pedestrian representation directly from 3D point clouds. OG-Net effectively exploits the local information provided by sparse 3D points and takes advantage of the structure and appearance information in a coherent manner. With the help of 3D geometry information, we can learn a new type of deep re-id feature free from noisy variants, such as scale and viewpoint. To our knowledge, we are among the first attempts to conduct person re-identification in the 3D space. We demonstrate through extensive experiments that the proposed method (1) eases the matching difficulty in the traditional 2D space, (2) exploits the complementary information of 2D appearance and 3D structure, (3) achieves competitive results with limited parameters on four large-scale person re-id datasets, and (4) has good scalability to unseen datasets. Our code, models and generated 3D human data are publicly available at https://github.com/layumi/person-reid-3d .},
   author={Zheng, Zhedong and Wang, Xiaohan and Zheng, Nenggan and Yang, Yi},
@@ -397,6 +447,8 @@
 
 @article{Zheng_2021,
 	doi = {10.1007/s11263-020-01395-y},
+	eprint = {2003.03773},
+	archivePrefix = {arXiv},
 	year = {2021},
 	month = {jan},
 	publisher = {Springer},
@@ -421,6 +473,8 @@
   url = {https://zdzheng.xyz/files/2021/Wang_LPN.pdf},
   blog = {https://zhuanlan.zhihu.com/p/365043015},
   doi={10.1109/TCSVT.2021.3061265},
+  eprint = {2008.11646},
+  archivePrefix = {arXiv},
   publisher={IEEE},
   abs={Cross-view geo-localization is to spot images of the same geographic target from different platforms, e.g., drone-view cameras and satellites. It is challenging in the large visual appearance changes caused by extreme viewpoint variations. Existing methods usually concentrate on mining the fine-grained feature of the geographic target in the image center, but underestimate the contextual information in neighbor areas. In this work, we argue that neighbor areas can be leveraged as auxiliary information, enriching discriminative clues for geolocalization. Specifically, we introduce a simple and effective deep neural network, called Local Pattern Network (LPN), to take advantage of contextual information in an end-to-end manner. Without using extra part estimators, LPN adopts a square-ring feature partition strategy, which provides the attention according to the distance to the image center. It eases the part matching and enables the part-wise representation learning. Owing to the square-ring partition design, the proposed LPN has good scalability to rotation variations and achieves competitive results on three prevailing benchmarks, i.e., University-1652, CVUSA and CVACT. Besides, we also show the proposed LPN can be easily embedded into other frameworks to further boost performance.}
 }
@@ -437,12 +491,16 @@
   blog={https://zhuanlan.zhihu.com/p/33163432},
   url={https://zdzheng.xyz/files/2020/TOMM20.pdf},
   doi = {10.1145/3383184},
+  eprint = {1711.05535},
+  archivePrefix = {arXiv},
   publisher={ACM New York, NY, USA},
   abs={Matching images and sentences demands a fine understanding of both modalities. In this paper, we propose a new system to discriminatively embed the image and text to a shared visual-textual space. In this field, most existing works apply the ranking loss to pull the positive image / text pairs close and push the negative pairs apart from each other. However, directly deploying the ranking loss is hard for network learning, since it starts from the two heterogeneous features to build inter-modal relationship. To address this problem, we propose the instance loss which explicitly considers the intra-modal data distribution. It is based on an unsupervised assumption that each image / text group can be viewed as a class. So the network can learn the fine granularity from every image/text group. The experiment shows that the instance loss offers better weight initialization for the ranking loss, so that more discriminative embeddings can be learned. Besides, existing works usually apply the off-the-shelf features, i.e., word2vec and fixed visual feature. So in a minor contribution, this paper constructs an end-to-end dual-path convolutional network to learn the image and text representations. End-to-end learning allows the system to directly learn from the data and fully utilize the supervision. On two generic retrieval datasets (Flickr30k and MSCOCO), experiments demonstrate that our method yields competitive accuracy compared to state-of-the-art methods. Moreover, in language based person retrieval, we improve the state of the art by a large margin. The code has been made publicly available.}
 }
 
 @article{Hu_2020,
 	doi = {10.1109/tcyb.2020.2995496},
+	eprint = {1909.06989},
+	archivePrefix = {arXiv},
 	year = {2020},
 	publisher = {IEEE},
 	pages = {1--13},
@@ -471,6 +529,8 @@
 
 @article{zheng2018pedestrian,
   doi={10.1109/TCSVT.2018.2873599},
+  eprint = {1707.00408},
+  archivePrefix = {arXiv},
   title={Pedestrian alignment network for large-scale person re-identification},
   author={Zheng, Zhedong and Zheng, Liang and Yang, Yi},
   journal={IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)},
@@ -487,6 +547,8 @@
 
 @article{guan2020thorax,
   doi = {10.1016/j.patrec.2019.11.040},
+  eprint = {1801.09927},
+  archivePrefix = {arXiv},
   title={Thorax disease classification with attention guided convolutional neural network},
   abstract = {This paper considers the task of thorax disease diagnosis on chest X-ray (CXR) images. Most existing methods generally learn a network with global images as input. However, thorax diseases usually happen in (small) localized areas which are disease speciﬁc. Thus training CNNs using global images may be af- fected by the (excessive) irrelevant noisy areas. Besides, due to the poor alignment of some CXR images, the existence of irregular borders hinders the network performance. For addressing the above problems, we propose to integrate the global and local cues into a three-branch attention guided convolution neu- ral network (AG-CNN) to identify thorax diseases. An attention guided mask inference based cropping strategy is proposed to avoid noise and improve alignment in the global branch. AG-CNN also integrates the global cues to compensate the lost discriminative cues by the local branch. Speciﬁcally, we ﬁrst learn a global CNN branch using global images. Then, guided by the attention heatmap generated from the global branch, we infer a mask to crop a discriminative region from the global image. The local region is used for training a local CNN branch. Lastly, we concatenate the last pooling layers of both the global and local branches for ﬁne-tuning the fusion branch. Experiments on the ChestX-ray14 dataset demonstrate that after integrating the local cues with the global information, the average AUC scores are improved by AG-CNN.},
   author={Guan, Qingji and Huang, Yaping and Zhong, Zhun and Zheng, Zhedong and Zheng, Liang and Yang, Yi},
@@ -500,6 +562,8 @@
 
 @article{lin2019improving,
   doi = {10.1016/j.patcog.2019.06.006},
+  eprint = {1703.07220},
+  archivePrefix = {arXiv},
   title={Improving person re-identification by attribute and identity learning},
   abstract = {Person re-identification (re-ID) and attribute recognition share a common target at learning pedestrian descriptions. Their difference consists in the granularity. Most existing re-ID methods only take identity labels of pedestrians into consideration. However, we find the attributes, containing detailed local descriptions, are beneficial in allowing the re-ID model to learn more discriminative feature representations. In this paper, based on the complementarity of attribute labels and ID labels, we propose an attribute-person recognition (APR) network, a multi-task network which learns a re-ID embedding and at the same time predicts pedestrian attributes. We manually annotate attribute labels for two large-scale re-ID datasets, and systematically investigate how person re-ID and attribute recognition benefit from each other. In addition, we re-weight the attribute predictions considering the dependencies and correlations among the attributes. The experimental results on two large-scale re-ID benchmarks demonstrate that by learning a more discriminative representation, APR achieves competitive re-ID performance compared with the state-of-the-art methods. We use APR to speed up the retrieval process by ten times with a minor accuracy drop of 2.92\% on Market-1501. Besides, we also apply APR on the attribute recognition task and demonstrate improvement over the baselines.},
   author={Lin, Yutian and Zheng, Liang and Zheng, Zhedong and Wu, Yu and Hu, Zhilan and Yan, Chenggang and Yang, Yi},
@@ -514,6 +578,8 @@
 
 @article{huang2018multi,
   doi = {10.1109/TIP.2018.2874715},
+  eprint = {1801.06742},
+  archivePrefix = {arXiv},
   title={Multi-pseudo regularized label for generated data in person re-identification},
   abstract = {Sufficient training data normally is required to train deeply learned models. However, due to the expensive manual process for labelling large number of images, the amount of available training data is always limited. To produce more data for training a deep network, Generative Adversarial Network (GAN) can be used to generate artificial sample data. However, the generated data usually does not have annotation labels. To solve this problem, in this paper, we propose a virtual label called Multi-pseudo Regularized Label (MpRL) and assign it to the generated data. With MpRL, the generated data will be used as the supplementary of real training data to train a deep neural network in a semi-supervised learning fashion. To build the corresponding relationship between the real data and generated data, MpRL assigns each generated data a proper virtual label which reflects the likelihood of the affiliation of the generated data to pre-defined training classes in the real data domain. Unlike the traditional label which usually is a single integral number, the virtual label proposed in this work is a set of weight-based values each individual of which is a number in (0,1] called multi-pseudo label and reflects the degree of relation between each generated data to every pre-defined class of real data. A comprehensive evaluation is carried out by adopting two state-of-the-art convolutional neural networks (CNNs) in our experiments to verify the effectiveness of MpRL. Experiments demonstrate that by assigning MpRL to generated data, we can further improve the person re-ID performance on five re-ID datasets, i.e., Market-1501, DukeMTMC-reID, CUHK03, VIPeR, and CUHK01. The proposed method obtains +6.29\%, +6.30\%, +5.58\%, +5.84\%, and +3.48\% improvements in rank-1 accuracy over a strong CNN baseline on the five datasets respectively, and outperforms state-of-the-art methods.},
   author={Huang, Yan and Xu, Jingsong and Wu, Qiang and Zheng, Zhedong and Zhang, Zhaoxiang and Zhang, Jian},
@@ -542,6 +608,8 @@
 
 @article{zheng2018discriminatively,
   doi = {10.1145/3159171},
+  eprint = {1611.05666},
+  archivePrefix = {arXiv},
   title={A discriminatively learned CNN embedding for person reidentification},
   abstract = {In this article, we revisit two popular convolutional neural networks in person re-identification (re-ID): verification and identification models. The two models have their respective advantages and limitations due to different loss functions. Here, we shed light on how to combine the two models to learn more discriminative pedestrian descriptors. Specifically, we propose a Siamese network that simultaneously computes the identification loss and verification loss. Given a pair of training images, the network predicts the identities of the two input images and whether they belong to the same identity. Our network learns a discriminative embedding and a similarity measurement at the same time, thus taking full usage of the re-ID annotations. Our method can be easily applied on different pretrained networks. Albeit simple, the learned embedding improves the state-of-the-art performance on two public person re-ID benchmarks. Further, we show that our architecture can also be applied to image retrieval.},
   author={Zheng, Zhedong and Zheng, Liang and Yang, Yi},
@@ -557,6 +625,8 @@
 
 @article{zheng2020vehiclenet,
   doi = {10.1109/TMM.2020.3014488},
+  eprint = {2004.06305},
+  archivePrefix = {arXiv},
   title={VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification},
   abstract = {One fundamental challenge of vehicle re-identification (re-id) is to learn robust and discriminative visual representation, given the significant intra-class vehicle variations across different camera views. As the existing vehicle datasets are limited in terms of training images and viewpoints, we propose to build a unique large-scale vehicle dataset (called VehicleNet) by harnessing four public vehicle datasets, and design a simple yet effective two-stage progressive approach to learning more robust visual representation from VehicleNet. The first stage of our approach is to learn the generic representation for all domains (i.e., source vehicle datasets) by training with the conventional classification loss. This stage relaxes the full alignment between the training and testing domains, as it is agnostic to the target vehicle domain. The second stage is to fine-tune the trained model purely based on the target vehicle set, by minimizing the distribution discrepancy between our VehicleNet and any target domain. We discuss our proposed multi-source dataset VehicleNet and evaluate the effectiveness of the two-stage progressive representation learning through extensive experiments. We achieve the state-of-art accuracy of 86.07\% mAP on the private test set of AICity Challenge, and competitive results on two other public vehicle re-id datasets, i.e., VeRi-776 and VehicleID. We hope this new VehicleNet dataset and the learned robust representations can pave the way for vehicle re-id in the real-world environments.},
   author={Zheng, Zhedong and Ruan, Tao and Wei, Yunchao and Yang, Yi and Mei, Tao},
