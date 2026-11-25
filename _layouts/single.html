@@ -185,12 +185,16 @@ layout: default
 		
 		{% if page.bib %}
 		{% comment %}
-		  展示层统一裁掉 bib 里的 abstract / abs / blog / url / month 字段：
-		  摘要页面上已有单独的 Abstract 段，url / blog 正文里都有链接，month 对引用没意义。
-		  已中稿的条目再裁掉 eprint / archivePrefix：刊名或 DOI 已经能定位，arXiv 编号是冗余；
-		  还没中的（is_preprint）保留 eprint，那是它唯一的定位符。
-		  bib 是 YAML 里的一段字符串，字段之间用 <br> 分隔，收尾的 "}" 与最后一个字段
-		  粘在一起，所以先摘掉末尾的 "}"（以及它前面可能有的逗号），逐字段过滤后再补回 "<br>}"。
+		  展示层在这里统一处理 bib，md 里的原文一个字不改：
+		  ① 字段顺序对齐 Google Scholar 的读法：author → title → journal/booktitle → year →
+		     volume → number → pages → publisher → doi → eprint → code …，
+		     白名单之外的字段按原序兜底追加，一个都不丢；
+		  ② 裁掉 abstract / abs / blog / url / month / funding：摘要页面上已单独成段，
+		     url / blog 正文里都有链接，funding 不外露；
+		  ③ 已中稿的再裁掉 eprint / archivePrefix——编号只留给 head 的 citation_arxiv_id
+		     和 JSON-LD sameAs，页面不可见；预印本（is_preprint）保留，那是它唯一的定位符。
+		  bib 是 YAML 里的一段字符串，字段之间用 <br> 分隔，收尾的 "}" 与最后一个字段粘在一起，
+		  所以先摘掉末尾的 "}" 和逗号，再逐字段重组，最后补回 "<br>}"。
 		{% endcomment %}
 		{% assign bib_display = page.bib | strip %}
 		{% assign bib_last = bib_display | slice: -1, 1 %}
@@ -203,19 +207,60 @@ layout: default
 		  {% assign bib_cut = bib_display | size | minus: 1 %}
 		  {% assign bib_display = bib_display | slice: 0, bib_cut | strip %}
 		{% endif %}
+		{% comment %} 去掉各字段自带的尾逗号，统一在输出时补，避免出现 ",," {% endcomment %}
+		{% assign bib_display = bib_display | replace: ",<br>", "<br>" %}
 		{% assign bib_fields = bib_display | split: "<br>" %}
-		{% assign bib_out = "" %}
+		{% assign bib_head = bib_fields.first | strip %}
+		{% assign bib_head_last = bib_head | slice: -1, 1 %}
+		{% if bib_head_last != "," %}{% assign bib_head = bib_head | append: "," %}{% endif %}
+		{% assign bib_out = bib_head %}
+		{% comment %} 期刊条目要保证 doi 与 note 都在：先扫一遍取 doi 值、判断是不是期刊 {% endcomment %}
+		{% assign bib_is_journal = false %}
+		{% assign bib_doi = "" %}
 		{% for bib_field in bib_fields %}
 		  {% assign bib_key = bib_field | strip | split: "=" | first | strip | downcase %}
-		  {% assign bib_drop = false %}
-		  {% if bib_key == "abstract" or bib_key == "abs" or bib_key == "blog" or bib_key == "url" or bib_key == "month" %}{% assign bib_drop = true %}{% endif %}
-		  {% unless is_preprint %}{% if bib_key == "eprint" or bib_key == "archiveprefix" %}{% assign bib_drop = true %}{% endif %}{% endunless %}
-		  {% unless bib_drop %}
-		    {% if bib_out == "" %}
-		      {% assign bib_out = bib_field | strip %}
-		    {% else %}
-		      {% assign bib_out = bib_out | append: "<br>" | append: bib_field | strip %}
+		  {% if bib_key == "journal" %}{% assign bib_is_journal = true %}{% endif %}
+		  {% if bib_key == "doi" %}
+		    {% assign bib_doi = bib_field | split: "=" | last | strip | remove: '"' | remove: "{" | remove: "}" | remove: "," | strip %}
+		  {% endif %}
+		{% endfor %}
+		{% assign bib_seen = "|" %}
+		{% assign bib_order = "author|title|journal|booktitle|year|volume|number|pages|publisher|doi|note|eprint|archiveprefix|code|video" | split: "|" %}
+		{% for bib_want in bib_order %}
+		  {% assign bib_mark = bib_want | prepend: "|" | append: "|" %}
+		  {% unless bib_seen contains bib_mark %}
+		    {% assign bib_allow = true %}
+		    {% if bib_want == "eprint" or bib_want == "archiveprefix" %}{% unless is_preprint %}{% assign bib_allow = false %}{% endunless %}{% endif %}
+		    {% if bib_allow %}
+		      {% for bib_field in bib_fields %}
+		        {% assign bib_key = bib_field | strip | split: "=" | first | strip | downcase %}
+		        {% if bib_key == bib_want %}
+		          {% assign bib_piece = bib_field | strip %}
+		          {% assign bib_out = bib_out | append: "<br>" | append: bib_piece | append: "," %}
+		          {% assign bib_seen = bib_seen | append: bib_want | append: "|" %}
+		        {% endif %}
+		      {% endfor %}
+		      {% if bib_want == "note" %}{% unless bib_seen contains bib_mark %}
+		        {% if bib_is_journal and bib_doi != "" %}
+		          {% assign bib_out = bib_out | append: "<br>" | append: 'note = {\mbox{doi}:\url{' | append: bib_doi | append: '}}' | append: "," %}
+		          {% assign bib_seen = bib_seen | append: "note|" %}
+		        {% endif %}
+		      {% endunless %}{% endif %}
 		    {% endif %}
+		  {% endunless %}
+		{% endfor %}
+		{% assign bib_skip = "abstract|abs|blog|url|month|funding" | split: "|" %}
+		{% for bib_field in bib_fields %}
+		  {% assign bib_key = bib_field | strip | split: "=" | first | strip | downcase %}
+		  {% assign bib_mark = bib_key | prepend: "|" | append: "|" %}
+		  {% assign bib_hit = false %}
+		  {% if bib_key contains "@" %}{% assign bib_hit = true %}{% endif %}
+		  {% for bib_bad in bib_skip %}{% if bib_key == bib_bad %}{% assign bib_hit = true %}{% endif %}{% endfor %}
+		  {% unless is_preprint %}{% if bib_key == "eprint" or bib_key == "archiveprefix" %}{% assign bib_hit = true %}{% endif %}{% endunless %}
+		  {% if bib_seen contains bib_mark %}{% assign bib_hit = true %}{% endif %}
+		  {% unless bib_hit %}
+		    {% assign bib_piece = bib_field | strip %}
+		    {% assign bib_out = bib_out | append: "<br>" | append: bib_piece | append: "," %}
 		  {% endunless %}
 		{% endfor %}
 		{% assign bib_last = bib_out | slice: -1, 1 %}
