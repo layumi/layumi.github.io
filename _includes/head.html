@@ -85,6 +85,12 @@
 </style>
 
 {% include seo.html %}
+{% comment %}
+  Highwire / Google Scholar 的 citation_* 标签必须落在 <head> 里。原先写在
+  _layouts/single.html 的 body 中，HTML 不合规范，Google 的富结果解析会忽略
+  body 内的 <meta>（Scholar 抓全文档，所以一直还能读到）。
+{% endcomment %}
+{% include citation_meta.html %}
 
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
 <link rel="preconnect" href="https://mapmyvisitors.com">

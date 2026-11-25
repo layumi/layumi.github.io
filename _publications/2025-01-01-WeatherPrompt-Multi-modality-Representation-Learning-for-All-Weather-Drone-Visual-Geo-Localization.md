@@ -2,6 +2,7 @@
 title: "WeatherPrompt: Multi-modality Representation Learning for All-Weather Drone Visual Geo-Localization"
 collection: publications
 permalink: /publication/WeatherP2025
+og_image: '/images/teaser/WeatherP2025.jpg'
 date: 2025-01-01
 doi: 
 arxiv: '2508.09560'

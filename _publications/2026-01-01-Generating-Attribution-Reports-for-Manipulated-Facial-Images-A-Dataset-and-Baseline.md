@@ -2,6 +2,7 @@
 title: "Generating Attribution Reports for Manipulated Facial Images: A Dataset and Baseline"
 collection: publications
 permalink: /publication/Generati2026
+og_image: '/images/teaser/Generati2026.jpg'
 date: 2026-01-01
 doi: 
 arxiv: '2412.19685'

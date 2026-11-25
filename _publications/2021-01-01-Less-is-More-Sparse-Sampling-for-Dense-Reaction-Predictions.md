@@ -2,6 +2,7 @@
 title: "Less is More: Sparse Sampling for Dense Reaction Predictions"
 collection: publications
 permalink: /publication/Less-is-2021
+og_image: '/images/teaser/Less-is-2021.jpg'
 date: 2021-01-01
 doi: 
 arxiv: '2106.01764'

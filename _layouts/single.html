@@ -25,91 +25,6 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date_to_xmlschema }}">{% endif %}
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date_to_xmlschema }}">{% endif %}
 	{% if page.keywords %}<meta itemprop="keywords" content="{{ page.keywords }}">{% endif %}
-	{% if page.citation %}
-	    <meta name="citation_title" content="{{ page.title | strip_html | escape_once }}">
-        {% if page.author %}
-          {% assign authors_with_html = page.author | split: "," %}
-          {% for author_html in authors_with_html %}
-            {% assign trimmed_author = author_html | strip_html | strip %}
-            {% if trimmed_author != "" %}
-              <meta name="citation_author" content="{{ trimmed_author }}">
-            {% endif %}
-          {% endfor %}
-        {% endif %}
-        {% if page.date %}
-          <meta name="citation_publication_date" content="{{ page.date | date: "%Y/%m/%d" }}">
-          <meta name="citation_date" content="{{ page.date | date: "%Y/%m/%d" }}">
-        {% endif %}
-		
-		{% if page.venue %}
-		  {% assign venue_lower = page.venue | downcase %}
-		  {% comment %}
-		    预印本既不是期刊也不是会议。若照旧走下面的判断，arXiv 条目会得到
-		    citation_journal_title = "arXiv:2610.11049"，Scholar 会把这一串记成刊名。
-		    这里两者都不出，只保留下面的 citation_arxiv_id。
-		  {% endcomment %}
-		  {% if venue_lower contains "arxiv" %}
-		  {% else %}
-		    {% assign venue_is_conf = false %}
-		    {% if venue_lower contains "conference" or venue_lower contains "proceedings" or venue_lower contains "symposium" or venue_lower contains "workshop" %}
-		      {% assign venue_is_conf = true %}
-		    {% endif %}
-		    {% comment %}
-		      裸缩写的会议（NeurIPS / ACL / Findings of EMNLP …）不含上面那几个词，
-		      会被误判成期刊。补一份缩写表，命中即算会议。
-		      表里刻意不放 2–3 个字母的歧义串（如 mm），避免误伤
-		      "ACM Transactions on Multimedia"；ACM MM 用 "acm mm" 匹配。
-		    {% endcomment %}
-		    {% unless venue_is_conf %}
-		      {% assign conf_names = "neurips,nips,icml,iclr,cvpr,iccv,eccv,accv,wacv,bmvc,acl,emnlp,naacl,coling,aaai,ijcai,sigir,cikm,wsdm,kdd,uai,aistats,icra,iros,icme,icassp,avss,itsc,findings,acm mm" | split: "," %}
-		      {% for conf_name in conf_names %}
-		        {% if venue_lower contains conf_name %}
-		          {% assign venue_is_conf = true %}
-		          {% break %}
-		        {% endif %}
-		      {% endfor %}
-		    {% endunless %}
-		    {% if venue_is_conf %}
-		      <meta name="citation_conference_title" content="{{ page.venue | strip_html | escape_once }}">
-		    {% else %}
-		      <meta name="citation_journal_title" content="{{ page.venue | strip_html | escape_once }}">
-		    {% endif %}
-		  {% endif %}
-		{% endif %}
-		
-        {% if page.paperurl %}
-          <meta name="citation_pdf_url" content="{{ page.paperurl | absolute_url }}">
-        {% endif %}
-        {% comment %} Highwire tags read by Google Scholar. citation_doi has to be <meta>, JSON-LD identifier/sameAs are ignored by Scholar. {% endcomment %}
-        {% if page.doi and page.doi contains "10." %}
-          <meta name="citation_doi" content="{{ page.doi | strip }}">
-        {% endif %}
-        {% comment %}
-          arXiv 编号优先取 frontmatter 的 arxiv（pubsFromBib.py 由 bib 的 eprint 归一化写入），
-          回退到 venue 里的 "arXiv:xxxx"（早期预印本条目的写法）。已发表论文的 venue 是刊名，
-          不含 arXiv，只靠旧逻辑永远取不到值，页面就接不上 arXiv 节点。
-        {% endcomment %}
-        {% assign arxiv_id = "" %}
-        {% if page.arxiv %}
-          {% assign arxiv_id = page.arxiv | split: "arXiv:" | last | strip %}
-        {% elsif page.venue and page.venue contains "arXiv:" %}
-          {% assign arxiv_id = page.venue | split: "arXiv:" | last | split: " " | first | strip %}
-        {% endif %}
-        {% if arxiv_id != "" %}
-          <meta name="citation_arxiv_id" content="{{ arxiv_id }}">
-        {% endif %}
-        {% if page.abs %}
-          <meta name="citation_abstract" content="{{ page.abstract | default: page.abs | replace: '\', '\\\\' | strip_html | escape_once }}">
-        {% endif %}
-        {% if page.keywords %}
-          <meta name="citation_keywords" content="{{ page.keywords }}">
-        {% endif %}
-        {% if page.venue contains "ACM" %}
-          <meta name="citation_publisher" content="ACM">
-        {% elsif page.venue contains "IEEE" %}
-          <meta name="citation_publisher" content="IEEE">
-        {% endif %}
-	{% endif %}
 
     <div class="page__inner-wrap">
       {% unless page.header.overlay_color or page.header.overlay_image %}
@@ -359,6 +274,25 @@ layout: default
 		     "headline": "{{ page.title | strip_html | escape_once }}",
 		     "url": "{{ page.url | absolute_url }}",
 		     "mainEntityOfPage": "{{ page.url | absolute_url }}",
+		     {% comment %}
+		       image：优先用 scripts/make_teasers.py 生成的论文首页图（1200×630）。
+		       没有本地 PDF 的条目退回站点默认图，保证每篇都有 image。
+		       写成 ImageObject 并给出宽高，富结果不必再抓一次图才知道尺寸。
+		     {% endcomment %}
+		     {% assign jsonld_img = page.og_image %}
+		     {% assign jsonld_img_w = 1200 %}
+		     {% assign jsonld_img_h = 630 %}
+		     {% if jsonld_img == nil or jsonld_img == blank %}
+		       {% assign jsonld_img = site.og_image | prepend: "/" %}
+		       {% assign jsonld_img_w = 600 %}
+		       {% assign jsonld_img_h = 480 %}
+		     {% endif %}
+		     "image": {
+		       "@type": "ImageObject",
+		       "url": "{{ jsonld_img | absolute_url }}",
+		       "width": {{ jsonld_img_w }},
+		       "height": {{ jsonld_img_h }}
+		     },
 		     "author": [{{ sqlauthor_fixed }}],
 		     "isPartOf": {
 		       "@type": "PublicationVolume",
@@ -368,7 +302,17 @@ layout: default
 		       "@type": "Organization",
 		       "name": "{{ pub_name }}"
 		     },{% endif %}
-		     {% if page.abstract or page.abs %}"description": "{{ page.abstract | default: page.abs | replace: '\', '\\\\' | strip_html | escape_once }}",{% endif %}
+		     {% comment %}
+		       abstract 放摘要全文（LLM / GEO 抓取时这段最有用），
+		       description 只留前 300 字符，两个字段不必各存一份 1.4 KB 的同样文字。
+		       转义用 jsonify：此前用 escape_once，会把 " 变成 &quot;、& 变成 &amp;，
+		       而 JSON-LD 里的 HTML 实体不会被解析器还原，读出来就是脏文本。
+		     {% endcomment %}
+		     {% if page.abstract or page.abs %}
+		       {% assign jsonld_abs = page.abstract | default: page.abs | strip_html | normalize_whitespace %}
+		       "abstract": {{ jsonld_abs | replace: "</", "<\/" | jsonify }},
+		       "description": {{ jsonld_abs | truncate: 300 | replace: "</", "<\/" | jsonify }},
+		     {% endif %}
 			 {% assign kw_arr = page.keywords | split: "," %}
              "keywords": [{% for kw in kw_arr %}"{{ kw | strip | escape_once }}"{% unless forloop.last %}, {% endunless %}{% endfor %}],
 		     "inLanguage": "en",

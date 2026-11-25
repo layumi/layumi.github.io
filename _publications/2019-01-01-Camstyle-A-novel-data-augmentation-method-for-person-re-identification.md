@@ -2,6 +2,7 @@
 title: "Camstyle: A novel data augmentation method for person re-identification"
 collection: publications
 permalink: /publication/Camstyle2019
+og_image: '/images/teaser/Camstyle2019.jpg'
 date: 2019-01-01
 doi: 10.1109/TIP.2018.2874313
 oral: 

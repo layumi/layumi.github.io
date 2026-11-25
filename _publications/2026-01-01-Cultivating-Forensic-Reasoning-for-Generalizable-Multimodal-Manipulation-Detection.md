@@ -2,6 +2,7 @@
 title: "Cultivating Forensic Reasoning for Generalizable Multimodal Manipulation Detection"
 collection: publications
 permalink: /publication/Cultivat2026
+og_image: '/images/teaser/Cultivat2026.jpg'
 date: 2026-01-01
 doi: 
 arxiv: '2603.01993'

@@ -4,4 +4,4 @@ collection: authors
 permalink: /authors/Chao-Sun
 author_profile: false
 ---
- <li> Chao Sun,  Zhedong Zheng,  Xiaohan Wang,  Mingliang Xu,  Yi Yang, &quot;Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes.&quot; IEEE Transactions on Multimedia, 2022.<a href='https://zdzheng.xyz/publication/Self-sup2022'>[Link]</a> </li>
+ <li> Chao Sun,  Zhedong Zheng,  Xiaohan Wang,  Mingliang Xu,  Yi Yang, &quot;Self-supervised Point Cloud Representation Learning via Separating Mixed Shapes.&quot; IEEE Transactions on Multimedia (TMM), 2022.<a href='https://zdzheng.xyz/publication/Self-sup2022'>[Link]</a> </li>

@@ -19,7 +19,24 @@
 <title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 
 <!-- description: 空字符串不参与回退（Liquid 的 default 对空串不生效，必须 and != "" 判断） -->
-{% if page.bib and page.citation %}
+{% if page.collection == 'publications' and page.abs %}
+  {% comment %}
+    论文页原先直接拿 citation 当 description，搜出来是「Han Yi, Zhedong Zheng, ...
+    ACM TOMM, 2026. DOI: ...」这种文献条目，开头是作者名，读者看不出这页讲什么。
+    改用摘要首句（截到 155 字符，含省略号），这是搜索与 LLM 引用时最容易被摘出来的部分。
+  {% endcomment %}
+  {% assign seo_description = page.abs | strip_html | strip_newlines | strip | truncate: 155 %}
+{% elsif page.collection == 'publications' and page.venue %}
+  {% comment %} 少数条目没有 abs 字段（如尚未补摘要的预印本），退回「标题 + venue + 年份」，仍不写引用串 {% endcomment %}
+  {% comment %}
+    注意：Liquid 不支持把带 filter 的表达式放进括号里当参数——
+    `append: (page.date | date: "%Y")` 会把前面拼好的一整串丢掉，只剩 "2026."。
+    所以先 assign 出年份，再逐步 append。
+  {% endcomment %}
+  {% assign seo_pub_year = page.date | date: "%Y" %}
+  {% assign seo_description = page.title | strip_html | append: ". " | append: page.venue %}
+  {% assign seo_description = seo_description | append: ", " | append: seo_pub_year | append: "." %}
+{% elsif page.bib and page.citation %}
   {% assign seo_description = page.citation %}
 {% elsif page.collection == 'authors' %}
   {% comment %}
@@ -120,7 +137,15 @@
 {% endif %}
 
 <!-- Twitter Card: 独立于 description，任何页面都有卡片 -->
+{% comment %}
+  page.og_image 是 scripts/make_teasers.py 生成的 1200×630 论文首页图，
+  这种尺寸要用 summary_large_image 才会铺满整张卡；其余页面仍用 summary。
+{% endcomment %}
+{% if page.og_image %}
+<meta name="twitter:card" content="summary_large_image">
+{% else %}
 <meta name="twitter:card" content="summary">
+{% endif %}
 <meta name="twitter:title" content="{{ seo_title | default: site.title | strip_html | strip_newlines | escape_once }}">
 {% if seo_description and seo_description != "" %}
   <meta name="twitter:description" content="{{ seo_description }}">

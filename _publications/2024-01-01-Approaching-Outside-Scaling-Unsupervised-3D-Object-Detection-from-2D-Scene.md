@@ -2,6 +2,7 @@
 title: "Approaching Outside: Scaling Unsupervised 3D Object Detection from 2D Scene"
 collection: publications
 permalink: /publication/Approach2024
+og_image: '/images/teaser/Approach2024.jpg'
 date: 2024-01-01
 doi: 
 arxiv: '2407.08569'

@@ -4,4 +4,4 @@ collection: authors
 permalink: /authors/Weidong-Hong
 author_profile: false
 ---
- <li> Xiaodong Wang,  Hongmin Hu,  Fei Yan,  Junwen Lu,  Zhiqiang Zeng,  Weidong Hong,  Zhedong Zheng, &quot;UniAD: Integrating Geometric and Semantic Cues for Unified Anomaly Detection.&quot; ACM Multimedia, 2025.<a href='https://zdzheng.xyz/publication/UniAD-In2025'>[Link]</a> </li>
+ <li> Xiaodong Wang,  Hongmin Hu,  Fei Yan,  Junwen Lu,  Zhiqiang Zeng,  Weidong Hong,  Zhedong Zheng, &quot;UniAD: Integrating Geometric and Semantic Cues for Unified Anomaly Detection.&quot; ACM International Conference on Multimedia (ACM MM), 2025.<a href='https://zdzheng.xyz/publication/UniAD-In2025'>[Link]</a> </li>

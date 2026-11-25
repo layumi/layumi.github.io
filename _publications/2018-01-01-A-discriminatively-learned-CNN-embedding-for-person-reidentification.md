@@ -2,6 +2,7 @@
 title: "A discriminatively learned CNN embedding for person reidentification"
 collection: publications
 permalink: /publication/A-discri2018
+og_image: '/images/teaser/A-discri2018.jpg'
 date: 2018-01-01
 doi: 10.1145/3159171
 arxiv: '1611.05666'

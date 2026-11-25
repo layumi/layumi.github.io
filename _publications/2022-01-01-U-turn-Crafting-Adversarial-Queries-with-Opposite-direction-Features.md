@@ -2,6 +2,7 @@
 title: "U-turn: Crafting Adversarial Queries with Opposite-direction Features"
 collection: publications
 permalink: /publication/U-turn-C2022
+og_image: '/images/teaser/U-turn-C2022.jpg'
 date: 2022-01-01
 doi: 10.1007/s11263-022-01737-y
 oral: 

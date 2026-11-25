@@ -2,6 +2,7 @@
 title: "Each part matters: Local patterns facilitate cross-view geo-localization"
 collection: publications
 permalink: /publication/Each-par2021
+og_image: '/images/teaser/Each-par2021.jpg'
 date: 2021-01-01
 doi: 10.1109/TCSVT.2021.3061265
 arxiv: '2008.11646'

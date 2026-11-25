@@ -2,6 +2,7 @@
 title: "Road Maps as Free Geometric Priors: Weather-Invariant Drone Geo-Localization with GeoFuse"
 collection: publications
 permalink: /publication/Road-Map2026
+og_image: '/images/teaser/Road-Map2026.jpg'
 date: 2026-01-01
 doi: 
 arxiv: '2605.14925'

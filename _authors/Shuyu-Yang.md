@@ -5,6 +5,6 @@ permalink: /authors/Shuyu-Yang
 author_profile: false
 img: https://zdzheng.xyz/coauthors/shuyu-yang.jpeg
 ---
- <li> Shuyu Yang,  Yaxiong Wang,  Li Zhu,  Zhedong Zheng, &quot;Beyond Walking: A Large-Scale Image-Text Benchmark for Text-based Person Anomaly Search.&quot; ICCV, 2025.<a href='https://zdzheng.xyz/publication/Beyond-W2025'>[Link]</a> </li>
- <li> Shuyu Yang,  Yinan Zhou,  Zhedong Zheng,  Yaxiong Wang,  Yujiao Wu,  Li Zhu, &quot;Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribute and Language Search Benchmark.&quot; ACM MM, 2023.<a href='https://zdzheng.xyz/publication/Towards-2023'>[Link]</a> </li>
- <li> Shuyu Yang,  Yaxiong Wang,  Yongrui Li,  Li Zhu,  Zhedong Zheng, &quot;Minimizing the pretraining gap: Domain-aligned text-based person retrieval.&quot; PR, 2026.<a href='https://zdzheng.xyz/publication/Minimizi2026'>[Link]</a> </li>
+ <li> Shuyu Yang,  Yaxiong Wang,  Li Zhu,  Zhedong Zheng, &quot;Beyond Walking: A Large-Scale Image-Text Benchmark for Text-based Person Anomaly Search.&quot; IEEE/CVF International Conference on Computer Vision (ICCV), 2025.<a href='https://zdzheng.xyz/publication/Beyond-W2025'>[Link]</a> </li>
+ <li> Shuyu Yang,  Yinan Zhou,  Zhedong Zheng,  Yaxiong Wang,  Yujiao Wu,  Li Zhu, &quot;Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribute and Language Search Benchmark.&quot; ACM International Conference on Multimedia (ACM MM), 2023.<a href='https://zdzheng.xyz/publication/Towards-2023'>[Link]</a> </li>
+ <li> Shuyu Yang,  Yaxiong Wang,  Yongrui Li,  Li Zhu,  Zhedong Zheng, &quot;Minimizing the pretraining gap: Domain-aligned text-based person retrieval.&quot; Pattern Recognition (PR), 2026.<a href='https://zdzheng.xyz/publication/Minimizi2026'>[Link]</a> </li>

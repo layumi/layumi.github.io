@@ -125,6 +125,16 @@ if SKIP_PUBS:
 else:
     run(f'"{PY}" pubsFromBib.py', cwd=os.path.join(ROOT, 'markdown_generator'))
 
+# ---------------------------------------- 2b. 论文首页分享图（og:image）
+# 必须在 pubsFromBib.py 之后：它清空 _publications 重建，og_image 由这一步重新写回。
+# 渲染失败（比如没装 PyMuPDF）不应该中止整条流水线，所以 check=False，只记一条警告。
+if SKIP_PUBS:
+    print('\n-- skip-pubs: 跳过分享图生成')
+else:
+    rc, _ = run(f'"{PY}" scripts/make_teasers.py', check=False)
+    if rc != 0:
+        warn('分享图生成失败（缺 PyMuPDF？pip install pymupdf），og:image 会退回站点 logo')
+
 # ------------------------------------------------------------ 3. 更新各子模块
 if SKIP_SUBMODULES:
     print('\n-- skip-submodules: 跳过子模块')

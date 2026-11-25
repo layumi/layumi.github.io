@@ -2,6 +2,7 @@
 title: "Rectifying Pseudo Label Learning via Uncertainty Estimation for Domain Adaptive Semantic Segmentation"
 collection: publications
 permalink: /publication/Rectifyi2021
+og_image: '/images/teaser/Rectifyi2021.jpg'
 date: 2021-01-01
 doi: 10.1007/s11263-020-01395-y
 arxiv: '2003.03773'

@@ -2,6 +2,7 @@
 title: "Multi-pseudo regularized label for generated data in person re-identification"
 collection: publications
 permalink: /publication/Multi-ps2018
+og_image: '/images/teaser/Multi-ps2018.jpg'
 date: 2018-01-01
 doi: 10.1109/TIP.2018.2874715
 arxiv: '1801.06742'

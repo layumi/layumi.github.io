@@ -2,6 +2,7 @@
 title: "VimoRAG: Video-based Retrieval-augmented 3D Motion Generation for Motion Language Models"
 collection: publications
 permalink: /publication/VimoRAG-2025
+og_image: '/images/teaser/VimoRAG-2025.jpg'
 date: 2025-01-01
 doi: 
 arxiv: '2508.12081'

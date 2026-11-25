@@ -2,6 +2,7 @@
 title: "Pedestrian alignment network for large-scale person re-identification"
 collection: publications
 permalink: /publication/Pedestri2018
+og_image: '/images/teaser/Pedestri2018.jpg'
 date: 2018-01-01
 doi: 10.1109/TCSVT.2018.2873599
 arxiv: '1707.00408'

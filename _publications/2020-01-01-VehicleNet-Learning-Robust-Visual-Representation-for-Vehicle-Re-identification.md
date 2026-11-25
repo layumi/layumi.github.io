@@ -2,6 +2,7 @@
 title: "VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification"
 collection: publications
 permalink: /publication/VehicleN2020
+og_image: '/images/teaser/VehicleN2020.jpg'
 date: 2020-01-01
 doi: 10.1109/TMM.2020.3014488
 arxiv: '2004.06305'

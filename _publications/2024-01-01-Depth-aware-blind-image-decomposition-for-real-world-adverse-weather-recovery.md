@@ -2,6 +2,7 @@
 title: "Depth-aware blind image decomposition for real-world adverse weather recovery"
 collection: publications
 permalink: /publication/Depth-aw2024
+og_image: '/images/teaser/Depth-aw2024.jpg'
 date: 2024-01-01
 doi: 
 oral: 

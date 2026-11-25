@@ -2,6 +2,7 @@
 title: "TIGeR: Text-Instructed Generation and Refinement for Template-Free Hand-Object Interaction"
 collection: publications
 permalink: /publication/TIGeR-Te2026
+og_image: '/images/teaser/TIGeR-Te2026.jpg'
 date: 2026-01-01
 doi: 
 arxiv: '2506.00953'

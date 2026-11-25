@@ -1,0 +1,85 @@
+	{% if page.citation %}
+	    <meta name="citation_title" content="{{ page.title | strip_html | escape_once }}">
+        {% if page.author %}
+          {% assign authors_with_html = page.author | split: "," %}
+          {% for author_html in authors_with_html %}
+            {% assign trimmed_author = author_html | strip_html | strip %}
+            {% if trimmed_author != "" %}
+              <meta name="citation_author" content="{{ trimmed_author }}">
+            {% endif %}
+          {% endfor %}
+        {% endif %}
+        {% if page.date %}
+          <meta name="citation_publication_date" content="{{ page.date | date: "%Y/%m/%d" }}">
+          <meta name="citation_date" content="{{ page.date | date: "%Y/%m/%d" }}">
+        {% endif %}
+		
+		{% if page.venue %}
+		  {% assign venue_lower = page.venue | downcase %}
+		  {% comment %}
+		    预印本既不是期刊也不是会议。若照旧走下面的判断，arXiv 条目会得到
+		    citation_journal_title = "arXiv:2610.11049"，Scholar 会把这一串记成刊名。
+		    这里两者都不出，只保留下面的 citation_arxiv_id。
+		  {% endcomment %}
+		  {% if venue_lower contains "arxiv" %}
+		  {% else %}
+		    {% assign venue_is_conf = false %}
+		    {% if venue_lower contains "conference" or venue_lower contains "proceedings" or venue_lower contains "symposium" or venue_lower contains "workshop" %}
+		      {% assign venue_is_conf = true %}
+		    {% endif %}
+		    {% comment %}
+		      裸缩写的会议（NeurIPS / ACL / Findings of EMNLP …）不含上面那几个词，
+		      会被误判成期刊。补一份缩写表，命中即算会议。
+		      表里刻意不放 2–3 个字母的歧义串（如 mm），避免误伤
+		      "ACM Transactions on Multimedia"；ACM MM 用 "acm mm" 匹配。
+		    {% endcomment %}
+		    {% unless venue_is_conf %}
+		      {% assign conf_names = "neurips,nips,icml,iclr,cvpr,iccv,eccv,accv,wacv,bmvc,acl,emnlp,naacl,coling,aaai,ijcai,sigir,cikm,wsdm,kdd,uai,aistats,icra,iros,icme,icassp,avss,itsc,findings,acm mm" | split: "," %}
+		      {% for conf_name in conf_names %}
+		        {% if venue_lower contains conf_name %}
+		          {% assign venue_is_conf = true %}
+		          {% break %}
+		        {% endif %}
+		      {% endfor %}
+		    {% endunless %}
+		    {% if venue_is_conf %}
+		      <meta name="citation_conference_title" content="{{ page.venue | strip_html | escape_once }}">
+		    {% else %}
+		      <meta name="citation_journal_title" content="{{ page.venue | strip_html | escape_once }}">
+		    {% endif %}
+		  {% endif %}
+		{% endif %}
+		
+        {% if page.paperurl %}
+          <meta name="citation_pdf_url" content="{{ page.paperurl | absolute_url }}">
+        {% endif %}
+        {% comment %} Highwire tags read by Google Scholar. citation_doi has to be <meta>, JSON-LD identifier/sameAs are ignored by Scholar. {% endcomment %}
+        {% if page.doi and page.doi contains "10." %}
+          <meta name="citation_doi" content="{{ page.doi | strip }}">
+        {% endif %}
+        {% comment %}
+          arXiv 编号优先取 frontmatter 的 arxiv（pubsFromBib.py 由 bib 的 eprint 归一化写入），
+          回退到 venue 里的 "arXiv:xxxx"（早期预印本条目的写法）。已发表论文的 venue 是刊名，
+          不含 arXiv，只靠旧逻辑永远取不到值，页面就接不上 arXiv 节点。
+        {% endcomment %}
+        {% assign arxiv_id = "" %}
+        {% if page.arxiv %}
+          {% assign arxiv_id = page.arxiv | split: "arXiv:" | last | strip %}
+        {% elsif page.venue and page.venue contains "arXiv:" %}
+          {% assign arxiv_id = page.venue | split: "arXiv:" | last | split: " " | first | strip %}
+        {% endif %}
+        {% if arxiv_id != "" %}
+          <meta name="citation_arxiv_id" content="{{ arxiv_id }}">
+        {% endif %}
+        {% if page.abs %}
+          <meta name="citation_abstract" content="{{ page.abstract | default: page.abs | replace: '\', '\\\\' | strip_html | escape_once }}">
+        {% endif %}
+        {% if page.keywords %}
+          <meta name="citation_keywords" content="{{ page.keywords }}">
+        {% endif %}
+        {% if page.venue contains "ACM" %}
+          <meta name="citation_publisher" content="ACM">
+        {% elsif page.venue contains "IEEE" %}
+          <meta name="citation_publisher" content="IEEE">
+        {% endif %}
+	{% endif %}

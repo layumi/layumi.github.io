@@ -2,6 +2,7 @@
 title: "Can Vision Language Models Reason from the Sky? Unifying UAV Reasoning and Generation"
 collection: publications
 permalink: /publication/Can-Visi2026
+og_image: '/images/teaser/Can-Visi2026.jpg'
 date: 2026-01-01
 doi: 
 arxiv: '2604.05377'

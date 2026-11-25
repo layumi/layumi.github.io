@@ -2,6 +2,7 @@
 title: "Composed Image Retrieval with Text Feedback via Multi-grained Uncertainty Regularization"
 collection: publications
 permalink: /publication/Composed2024
+og_image: '/images/teaser/Composed2024.jpg'
 date: 2024-01-01
 doi: 
 arxiv: '2211.07394'

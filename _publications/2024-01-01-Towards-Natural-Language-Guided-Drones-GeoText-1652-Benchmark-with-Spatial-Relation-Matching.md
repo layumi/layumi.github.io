@@ -2,6 +2,7 @@
 title: "Towards Natural Language-Guided Drones: GeoText-1652 Benchmark with Spatial Relation Matching"
 collection: publications
 permalink: /publication/Towards-2024
+og_image: '/images/teaser/Towards-2024.jpg'
 date: 2024-01-01
 doi: 
 arxiv: '2311.12751'

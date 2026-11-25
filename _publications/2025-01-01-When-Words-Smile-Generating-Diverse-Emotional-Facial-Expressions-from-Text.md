@@ -2,6 +2,7 @@
 title: "When Words Smile: Generating Diverse Emotional Facial Expressions from Text"
 collection: publications
 permalink: /publication/When-Wor2025
+og_image: '/images/teaser/When-Wor2025.jpg'
 date: 2025-01-01
 doi: 
 arxiv: '2412.02508'
