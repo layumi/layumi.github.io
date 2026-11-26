@@ -7,7 +7,7 @@ date: 2025-01-01
 doi: 
 arxiv: '2408.00619'
 oral: 
-keywords:  3d object detection, unsupervised 3d object, aware bounding boxes, uncertainty learning
+keywords:  3d object detection, unsupervised 3d object, aware bounding boxes, uncertainty learning, uncertainty estimation
 funding: 2025A1515012281, 202401035, MYRG-GRG2024-00077-FST-UMDF
 venue: 'IEEE/CVF International Conference on Computer Vision (ICCV)'
 paperurl: 'https://zdzheng.xyz/files/2025/Ruiyang_UA3D.pdf'

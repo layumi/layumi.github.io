@@ -7,7 +7,7 @@ date: 2026-01-01
 doi: 10.1016/j.patcog.2026.113783
 arxiv: '2604.08877'
 oral: 
-keywords:  person search, based person search, text based person, person re-id, person retrieval, person search, uncertainty learning
+keywords:  person search, based person search, text based person, person re-id, person retrieval, person search, uncertainty learning, uncertainty estimation
 funding: 2025A1515012281, 202401035, FDCT/0043/2025/RIA1
 venue: 'Pattern Recognition (PR)'
 paperurl: 'https://zdzheng.xyz/files/2026/PR_Jintao.pdf'

@@ -7,7 +7,7 @@ date: 2021-01-01
 doi: 10.1007/s11263-020-01395-y
 arxiv: '2003.03773'
 oral: 
-keywords:  pseudo label learning, label learning uncertainty, adaptive semantic segmentation, domain adaptation, uncertainty learning
+keywords:  pseudo label learning, label learning uncertainty, adaptive semantic segmentation, domain adaptation, uncertainty learning, uncertainty estimation
 funding: 
 venue: 'International Journal of Computer Vision (IJCV)'
 paperurl: 'https://zdzheng.xyz/files/2021/Zheng-Yang2021_Article_RectifyingPseudoLabelLearningV.pdf'

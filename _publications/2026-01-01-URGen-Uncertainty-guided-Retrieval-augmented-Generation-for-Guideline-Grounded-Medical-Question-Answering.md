@@ -5,7 +5,7 @@ permalink: /publication/URGen-Un2026
 date: 2026-01-01
 doi: 
 oral: 
-keywords:  medical question answering, retrieval augmented generation, uncertainty guided retrieval, object re-identification, content-based retrieval, uncertainty learning, aigc
+keywords:  medical question answering, retrieval augmented generation, uncertainty guided retrieval, object re-identification, content-based retrieval, uncertainty learning, uncertainty estimation, aigc
 funding: 
 venue: 'Findings of EMNLP'
 author: '<a href="https://zdzheng.xyz/authors/Mengieong-Hoi" class="author">Mengieong Hoi</a>, <a href="https://zdzheng.xyz/authors/Chen-Zhao" class="author">Chen Zhao</a>, <a href="https://zdzheng.xyz/authors/Chaoyu-Lei" class="author">Chaoyu Lei</a>, <a href="https://zdzheng.xyz/authors/Huifang-Zhou" class="author">Huifang Zhou</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'

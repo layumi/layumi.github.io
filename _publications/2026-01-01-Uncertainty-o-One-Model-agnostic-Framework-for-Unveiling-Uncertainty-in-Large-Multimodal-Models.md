@@ -6,7 +6,7 @@ date: 2026-01-01
 doi: 
 arxiv: '2506.07575'
 oral: 
-keywords:  uncertainty large multimodal, large multimodal models, multimodal models, uncertainty learning
+keywords:  uncertainty large multimodal, large multimodal models, multimodal models, uncertainty learning, uncertainty estimation
 funding: 
 venue: 'Findings of EMNLP'
 author: '<a href="https://zdzheng.xyz/authors/Ruiyang-Zhang" class="author">Ruiyang Zhang</a>, <a href="https://zdzheng.xyz/authors/Junhao-Zhang" class="author">Junhao Zhang</a>, <a href="https://zdzheng.xyz/authors/Hao-Fei" class="author"> <img src= "https://zdzheng.xyz/coauthors/hao-fei.jpg" alt="hao-fei" style="border-radius: 50%; height:20px; width:20px">Hao Fei</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'

@@ -1,10 +1,15 @@
+{% comment %}
+  研究金字塔：内容与配色手写，节点链接指向站内 tag 页，不再链到 Google Scholar 的
+  label 作者搜索（那个页面列的是所有带该标签的学者，不是本人的工作）。
+  下面 5 个 /tag/<slug> 只由 markdown_generator/pubsFromBib.py 的标题规则产出，
+  属于「稳定 tag」；在那里改 slug 会断链，脚本末尾有 PINNED_TAGS 自检会报警。
+{% endcomment %}
  <div class="pyramid-container">
     <div class="pyramid-wrap">
     <!-- ── L0 : Root paradigm ── -->
     <div class="tier" style="margin-bottom:0">
       <a class="node n-root"
-         href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:data_centric_ai"
-         target="_blank" rel="noopener">
+         href="{{ '/publications/' | relative_url }}">
         <span class="node-title">Data-Centric AI</span>
         <span class="node-sub">Curate · Label · Evaluate · Iterate</span>
       </a>
@@ -21,8 +26,7 @@
     <!-- ── L1 : Mechanisms (coupling label floats in the gap) ── -->
     <div class="tier tier-methods">
       <a class="node n-aigc"
-         href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:aigc"
-         target="_blank" rel="noopener">
+         href="{{ '/tag/aigc' | relative_url }}">
         <span class="node-title">AIGC</span>
         <span class="node-sub">Synthetic data · Pseudo-labels</span>
         <div class="badges"><span class="badge">Data scarcity</span></div>
@@ -33,8 +37,7 @@
 	    <span class="coupling-label">rectifies</span>
 	  </div>
       <a class="node n-unc"
-         href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:uncertainty_estimation"
-         target="_blank" rel="noopener">
+         href="{{ '/tag/uncertainty-estimation' | relative_url }}">
         <span class="node-title">Uncertainty Estimation</span>
         <span class="node-sub">Noise modeling · Calibration</span>
         <div class="badges"><span class="badge">Label scarcity</span></div>
@@ -54,15 +57,13 @@
     <!-- ── L2 : Application domains ── -->
     <div class="tier tier-tasks">
       <a class="node n-sp"
-         href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:spatial_intelligence"
-         target="_blank" rel="noopener">
+         href="{{ '/tag/spatial-intelligence' | relative_url }}">
         <span class="node-title">Spatial Intelligence</span>
         <span class="node-sub">Geo-loc · 3DGS</span>
         <div class="badges"><span class="badge">AIGC</span></div>
       </a>
       <a class="node n-reid"
-         href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification"
-         target="_blank" rel="noopener">
+         href="{{ '/tag/object-re-identification' | relative_url }}">
         <span class="node-title">Object Re-ID</span>
         <span class="node-sub">Multi-view · 3D</span>
         <div class="badges">
@@ -71,8 +72,7 @@
         </div>
       </a>
       <a class="node n-da"
-         href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:domain_adaptation"
-         target="_blank" rel="noopener">
+         href="{{ '/tag/domain-adaptation' | relative_url }}">
         <span class="node-title">Domain Adaptation</span>
         <span class="node-sub">Cross-dataset Seg. · Retrieval</span>
         <div class="badges"><span class="badge">Uncertainty</span></div>

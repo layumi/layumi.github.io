@@ -261,6 +261,13 @@ for pubsource in publist:
             # 下面的硬编码规则沿用原有的连字符形式匹配，保持行为完全不变
             match_title = clean_title.lower()
             keywords=" " + extract_keywords_bert(lower_title)
+            # 下面这段是「稳定 tag」的唯一来源：按标题里的关键词命中整套固定词表，
+            # 产出的 slug（object-re-identification / content-based-retrieval / person-re-id /
+            # person-retrieval / person-search / domain-adaptation / visual-geo-localization /
+            # spatial-intelligence / uncertainty-learning / uncertainty-estimation / aigc）
+            # 被 _includes/pyramid.html 的节点链接直接引用，改词会断链。
+            # KeyBERT 那部分（keywords 初值）只用于页面上的关键词云，产出的是 1–2 篇规模的
+            # 长尾 tag，不要拿它当导航目标。改完请跑文件末尾的 PINNED_TAGS 自检。
             if "re-identification" in match_title or "reidentification" in match_title or "retrieval" in match_title:
                 keywords += "object re-identification, " 
                 keywords += "content-based retrieval, "
@@ -279,6 +286,10 @@ for pubsource in publist:
             
             if "uncertainty" in match_title:
                 keywords += "uncertainty learning, " 
+                # 「uncertainty estimation」是本人研究主线对外用的说法（IJCV'21 那篇的标题词），
+                # _includes/pyramid.html 的 L1 节点直接链到 /tag/uncertainty-estimation，
+                # 所以这里必须一并产出；只保留 uncertainty learning 会让节点链接 404。
+                keywords += "uncertainty estimation, "
             
             if "generation" in match_title or "reconstruction" in match_title or "generated" in match_title or "synthesized" in match_title:
                 keywords += "aigc, "
@@ -492,6 +503,23 @@ for pubsource in publist:
         except KeyError as e:
             print(f'WARNING Missing Expected Field {e} from entry {bib_id}: \"', b["title"][:30],"..."*(len(b['title'])>30),"\"")
             continue
+
+# --- 固定 tag 自检 ---
+# _includes/pyramid.html 的研究金字塔直接写死了下面这些 /tag/<slug>，只由上面那几条
+# 标题规则产出（KeyBERT 的长尾关键词不算）。规则改名、删条件，或者某类论文暂时清空时，
+# 页面链接会静默 404，构建本身不会报错。所以重建完在这里核一遍，缺了就打印醒目告警。
+PINNED_TAGS = (
+    'aigc',                       # generation / reconstruction / generated / synthesized
+    'uncertainty-estimation',     # uncertainty
+    'spatial-intelligence',       # geo-localization
+    'object-re-identification',   # re-identification / reidentification / retrieval
+    'domain-adaptation',          # adaptation / domain
+)
+_missing = [t for t in PINNED_TAGS if not os.path.isfile('../_tag/' + t + '.md')]
+if _missing:
+    print('⚠️  pyramid.html 引用的 tag 缺失:', ', '.join(_missing), '—— 节点链接会 404')
+else:
+    print('✅ pyramid.html 的 %d 个 tag 链接全部存在' % len(PINNED_TAGS))
 
 def insert_after_frontmatter(filepath, old_pattern, insert_text):
     """智能更新：若统计句已存在则替换，否则在 front matter 后插入"""

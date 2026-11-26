@@ -6,7 +6,7 @@ date: 2026-01-01
 doi: 
 arxiv: '2609.39132'
 oral: 
-keywords:  aware consistency distillation, distillation step video, consistency distillation, uncertainty learning, aigc
+keywords:  aware consistency distillation, distillation step video, consistency distillation, uncertainty learning, uncertainty estimation, aigc
 funding: 
 venue: 'arXiv:2609.39132'
 author: '<a href="https://zdzheng.xyz/authors/Lingyu-Liu" class="author">Lingyu Liu</a>, <a href="https://zdzheng.xyz/authors/Yaxiong-Wang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yaxiong-wang.jpeg" alt="yaxiong-wang" style="border-radius: 50%; height:20px; width:20px">Yaxiong Wang</a>, <a href="https://zdzheng.xyz/authors/Li-Zhu" class="author">Li Zhu</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>'

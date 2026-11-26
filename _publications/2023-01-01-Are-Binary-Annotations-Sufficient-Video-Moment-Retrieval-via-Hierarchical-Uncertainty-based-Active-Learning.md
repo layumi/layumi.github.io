@@ -6,7 +6,7 @@ og_image: '/images/teaser/Are-Bina2023.jpg'
 date: 2023-01-01
 doi: 
 oral: 
-keywords:  video moment retrieval, annotations sufficient video, moment retrieval hierarchical, object re-identification, content-based retrieval, uncertainty learning
+keywords:  video moment retrieval, annotations sufficient video, moment retrieval hierarchical, object re-identification, content-based retrieval, uncertainty learning, uncertainty estimation
 funding: 
 venue: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)'
 paperurl: 'https://zdzheng.xyz/files/2023/CVPR23-Ji.pdf'

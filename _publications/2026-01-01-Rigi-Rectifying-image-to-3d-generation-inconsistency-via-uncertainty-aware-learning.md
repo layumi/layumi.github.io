@@ -7,7 +7,7 @@ date: 2026-01-01
 doi: 
 arxiv: '2411.18866'
 oral: 
-keywords:  image 3d generation, 3d generation inconsistency, 3d generation, uncertainty learning, aigc
+keywords:  image 3d generation, 3d generation inconsistency, 3d generation, uncertainty learning, uncertainty estimation, aigc
 funding: 
 venue: 'IEEE Transactions on Image Processing (TIP)'
 paperurl: 'https://zdzheng.xyz/files/2026/RIGI_Jiacheng.pdf'

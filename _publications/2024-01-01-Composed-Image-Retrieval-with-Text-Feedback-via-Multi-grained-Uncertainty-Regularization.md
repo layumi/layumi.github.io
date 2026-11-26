@@ -7,7 +7,7 @@ date: 2024-01-01
 doi: 
 arxiv: '2211.07394'
 oral: 
-keywords:  image retrieval text, composed image retrieval, image retrieval, object re-identification, content-based retrieval, uncertainty learning
+keywords:  image retrieval text, composed image retrieval, image retrieval, object re-identification, content-based retrieval, uncertainty learning, uncertainty estimation
 funding: 
 venue: 'International Conference on Learning Representations (ICLR)'
 paperurl: 'https://zdzheng.xyz/files/2024/ICLR2024_Chen.pdf'
