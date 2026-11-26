@@ -1,3 +1,18 @@
+@article{yu2026weather4geo,
+  doi={10.1007/s11263-026-03064-y},
+  year={2026},
+  month={nov},
+  day={25},
+  publisher={Springer},
+  volume={134},
+  number={12},
+  pages={533},
+  author={Hang Yu and Jiahao Wen and Junjie Zhu and Zhedong Zheng},
+  title={Weather4Geo: Language-Guided Weather–Content Disentangling for All-Weather Drone Visual Geo-Localization},
+  journal={International Journal of Computer Vision (IJCV)},
+  abs={Variable weather introduces appearance and semantic perturbations that significantly degrade drone visual geo-localization. Existing cross-view geo-localization methods exhibit two inherent limitations in modeling weather: (1) they typically reduce weather to a few discrete labels, lacking explicit representations of continuous and fine-grained patterns, and (2) even when textual descriptions are introduced, they are usually injected as auxiliary prompts into a unified embedding space, leaving weather and content entangled. To address these issues, we propose Weather4Geo, a multi-modal framework that learns weather-robust scene representations by fusing image embeddings with language-guided weather–content priors. First, we leverage off-the-shelf large vision–language models to generate multi-weather textual descriptions in a training-free manner, explicitly characterizing complex, continuous weather patterns and their intensity variations without manual annotations. Second, we construct weather–content prototypes as semantic anchors for cross-weather alignment and introduce a WeatherAligner module that adaptively maps features under adverse conditions into a weather-invariant content subspace. We optimize the framework in two stages with cross-modal objectives that combine image–text matching, classification supervision, and discriminative constraints, encouraging embeddings of the same scene under different weather conditions to cluster while preserving geographic discriminability. Extensive experiments show that, under diverse weather conditions, our method achieves competitive recall rates compared to state-of-the-art drone geo-localization methods. Notably, Recall@1 is improved by 17.82% at night and by 21.16% under fog and snow conditions.}
+}
+
 @article{fang2026road,
   title={Road Maps as Free Geometric Priors: Weather-Invariant Drone Geo-Localization with GeoFuse},
   eprint = {2605.14925},

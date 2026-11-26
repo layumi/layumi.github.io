@@ -103,3 +103,5 @@ author_profile: false
  <li> Yutian Lin,  Zhedong Zheng,  Hong Zhang,  Chenqiang Gao,  Yi Yang, &quot;Bayesian query expansion for multi-camera person re-identification.&quot; Pattern Recognition Letters (PRL), 2020.<a href='https://zdzheng.xyz/publication/Bayesian2020'>[Link]</a> </li>
  <li> Zhedong Zheng,  Liang Zheng,  Yi Yang, &quot;A discriminatively learned CNN embedding for person reidentification.&quot; ACM Transactions on Multimedia Computing, Communications, and Applications (TOMM), 2018.<a href='https://zdzheng.xyz/publication/A-discri2018'>[Link]</a> </li>
  <li> Zhedong Zheng,  Tao Ruan,  Yunchao Wei,  Yi Yang,  Tao Mei, &quot;VehicleNet: Learning Robust Visual Representation for Vehicle Re-identification.&quot; IEEE Transactions on Multimedia (TMM), 2020.<a href='https://zdzheng.xyz/publication/VehicleN2020'>[Link]</a> </li>
+
+ <li> Hang Yu,  Jiahao Wen,  Junjie Zhu,  Zhedong Zheng, &quot;Weather4Geo: Language-Guided Weather–Content Disentangling for All-Weather Drone Visual Geo-Localization.&quot; International Journal of Computer Vision (IJCV), 2026.<a href='https://zdzheng.xyz/publication/Weather42026'>[Link]</a> </li>
