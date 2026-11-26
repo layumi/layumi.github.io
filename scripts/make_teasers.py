@@ -85,6 +85,12 @@ def render_pymupdf(pdf, out):
     clip = fitz.Rect(r.x0, top, r.x1, top + strip_h)
     zoom = CARD_W / clip.width
     pix = page.get_pixmap(clip=clip, matrix=fitz.Matrix(zoom, zoom), alpha=False)
+    # PyMuPDF 把裁剪框换算到设备像素时会按行取整，实测约四成页面出来是 631 行，
+    # 与 JSON-LD 里声明的 1200×630 不符。直接按行重采样，砍掉底部多出的那一行。
+    if pix.height > CARD_H:
+        w, n, stride = pix.width, pix.n, pix.stride
+        rows = [pix.samples[y * stride:y * stride + w * n] for y in range(CARD_H)]
+        pix = fitz.Pixmap(pix.colorspace, w, CARD_H, b"".join(rows), pix.alpha)
     pix.save(out, jpg_quality=QUALITY)
     doc.close()
     return "pymupdf"

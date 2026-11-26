@@ -404,9 +404,21 @@ for pubsource in publist:
             
             md += "\nfunding: " + funding_field
              
-            md += "\nvenue: '" + normalize_venue(html_escape(venue)) + "'"
-            
-            pub, ccf, acmieee, conf, trans = check_venue(normalize_venue(html_escape(venue)))
+            # "ACM International Conference on Multimedia (ACM MM) - BNI Track" 这类非 regular track 的写法，
+            # 把 track 拆成独立字段，venue 只留会议名，避免污染 citation_conference_title / JSON-LD isPartOf
+            venue_norm = normalize_venue(html_escape(venue))
+            track = ""
+            if " - " in venue_norm:
+                head, tail = venue_norm.rsplit(" - ", 1)
+                if tail.strip().endswith("Track"):
+                    venue_norm, track = head.strip(), tail.strip()
+
+            md += "\nvenue: '" + venue_norm + "'"
+
+            if track:
+                md += "\ntrack: '" + track + "'"
+
+            pub, ccf, acmieee, conf, trans = check_venue(venue_norm)
             all_pub +=pub
             all_ccf +=ccf
             all_conf += conf

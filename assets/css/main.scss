@@ -237,6 +237,12 @@ $ct-asset-version: "{{ site.time | date: '%s' }}";
 	  color: orange;
 	}
 
+	/* 非 regular track 的标注，如 "· BNI Track" */
+	.track-tag {
+	  color: var(--ct-text-3);
+	  font-size: 0.9em;
+	}
+
     /* 可选 hover 效果 */
     a.code-link:hover {
       color: var(--ct-heading) !important;

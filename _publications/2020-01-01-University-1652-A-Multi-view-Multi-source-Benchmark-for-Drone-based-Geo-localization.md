@@ -9,7 +9,7 @@ arxiv: '2002.12186'
 oral: 
 keywords:  benchmark drone based, benchmark drone, source benchmark drone, visual geo-localization, spatial intelligence
 funding: 
-venue: 'ACM International Conference on Multimedia (ACM International Conference on Multimedia (ACM MM))'
+venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/2020/ACMMM20.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/110987552'
 code: 'https://github.com/layumi/University1652-Baseline'

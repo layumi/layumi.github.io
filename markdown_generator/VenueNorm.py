@@ -51,11 +51,21 @@ venue_pattern = re.compile(
     r"\b(" + "|".join(re.escape(k) for k in sorted(full_mapping.keys(), key=lambda x: -len(x))) + r")\b(?!\s*\()", 
     re.IGNORECASE
 )
-standard_format_regex = re.compile(r"\([A-Z]{2,10}\)")
+# 旧写法 \([A-Z]{2,10}\) 只认纯字母缩写，"(ACM MM)" / "(ACM WWW)" 这种带空格的缩写匹配不到，
+# 守卫失效后 venue_pattern 会命中括号里的短 key（负向前瞻只挡 "("、不挡 ")"），再展开成
+# "ACM International Conference on Multimedia (ACM International Conference on Multimedia (ACM MM))"。
+standard_format_regex = re.compile(r"\(([A-Za-z][A-Za-z0-9 /&+.\-]{0,24})\)")
+
+def is_normalized(text: str) -> bool:
+    """括号里出现已知缩写就算已规范化，直接原样返回。"""
+    for m in standard_format_regex.finditer(text):
+        if m.group(1).strip().upper() in full_mapping:
+            return True
+    return False
 
 def normalize_venue(text: str) -> str:
     # 如果整段文本中已经有标准 venue 格式 "(XYZ)"，说明是规范化后的 venue，跳过
-    if standard_format_regex.search(text):
+    if is_normalized(text):
         return text
     def replace(match):
         raw = match.group(0)

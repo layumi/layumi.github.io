@@ -10,7 +10,7 @@ arxiv: '2311.12682'
 oral: Oral Presentation
 keywords:  framework scene adaptation, scene adaptation, depth aware framework, domain adaptation
 funding: SRG2024-00002-FST
-venue: 'ACM International Conference on Multimedia (ACM International Conference on Multimedia (ACM MM))'
+venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/2024/ACMMM24-Layout.pdf'
 code: 'https://github.com/chen742/DCF'
 author: '<a href="https://zdzheng.xyz/authors/Mu-Chen" class="author"> <img src= "https://zdzheng.xyz/coauthors/mu-chen.jpeg" alt="mu-chen" style="border-radius: 50%; height:20px; width:20px">Mu Chen</a>, <strong><a href="https://zdzheng.xyz/authors/Zhedong-Zheng" class="author">Zhedong Zheng</a></strong>, <a href="https://zdzheng.xyz/authors/Yi-Yang" class="author"> <img src= "https://zdzheng.xyz/coauthors/yi-yang.jpeg" alt="yi-yang" style="border-radius: 50%; height:20px; width:20px">Yi Yang</a>'

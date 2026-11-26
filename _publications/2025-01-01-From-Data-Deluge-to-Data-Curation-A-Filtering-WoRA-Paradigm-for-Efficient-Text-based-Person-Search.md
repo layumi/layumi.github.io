@@ -9,7 +9,7 @@ arxiv: '2404.10292'
 oral: 
 keywords:  based person search, person search, filtering wora paradigm, person re-id, person retrieval, person search
 funding: SRG2024-00002-FST, MYRG-GRG2024-00077-FST-UMDF
-venue: 'ACM Web Conference (ACM Web Conference (ACM WWW))'
+venue: 'ACM Web Conference (ACM WWW)'
 paperurl: 'https://zdzheng.xyz/files/2025/WWW25-WoRA.pdf'
 blog: 'https://mp.weixin.qq.com/s/AGE5ZJyX6c5Y-PaKai-9OA'
 code: 'https://github.com/JT-Sun/Filtering-WoRA'

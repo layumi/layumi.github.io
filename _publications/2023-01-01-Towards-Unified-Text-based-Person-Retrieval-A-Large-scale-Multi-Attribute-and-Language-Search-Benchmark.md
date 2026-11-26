@@ -9,7 +9,7 @@ arxiv: '2306.02898'
 oral: 
 keywords:  based person retrieval, attribute language search, person retrieval, object re-identification, content-based retrieval, person re-id, person retrieval, person search
 funding: 
-venue: 'ACM International Conference on Multimedia (ACM International Conference on Multimedia (ACM MM))'
+venue: 'ACM International Conference on Multimedia (ACM MM)'
 paperurl: 'https://zdzheng.xyz/files/2023/MM23_Yang.pdf'
 blog: 'https://zhuanlan.zhihu.com/p/638229287'
 code: 'https://github.com/Shuyu-XJTU/APTM'

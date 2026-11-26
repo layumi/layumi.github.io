@@ -14,7 +14,16 @@
   {% endcomment %}
   {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " Complete Publication List" %}
 {% elsif page.title %}
-  {% assign seo_title = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
+  {% comment %}
+    论文页标题动辄 100 字符，再拼 " - Zhedong Zheng" 必然被 SERP 截断：
+    后缀白占 17 字符预算，还把论文名后半截挤掉。标题本身够长时只留论文名。
+  {% endcomment %}
+  {% assign seo_title_joined = page.title | append: " " | append: site.title_separator | append: " " | append: site.title %}
+  {% if page.collection == 'publications' and page.title.size > 50 %}
+    {% assign seo_title = page.title %}
+  {% else %}
+    {% assign seo_title = seo_title_joined %}
+  {% endif %}
 {% endif %}
 <title>{{ seo_title | default: site.title }}{% if paginator %}{% unless paginator.page == 1 %} {{ site.title_separator }} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}{% endif %}</title>
 
@@ -23,9 +32,23 @@
   {% comment %}
     论文页原先直接拿 citation 当 description，搜出来是「Han Yi, Zhedong Zheng, ...
     ACM TOMM, 2026. DOI: ...」这种文献条目，开头是作者名，读者看不出这页讲什么。
-    改用摘要首句（截到 155 字符，含省略号），这是搜索与 LLM 引用时最容易被摘出来的部分。
+    改用摘要开头。注意 truncate 是按字符硬切，会在单词中间断开
+    （实测 "...manually desig…" / "...Aerial Vehic…"），所以切完再退掉最后一个残词。
   {% endcomment %}
-  {% assign seo_description = page.abs | strip_html | strip_newlines | strip | truncate: 155 %}
+  {% assign seo_abs_clean = page.abs | strip_html | strip_newlines | strip %}
+  {% assign seo_abs_cut = seo_abs_clean | truncate: 158, "" %}
+  {% if seo_abs_cut.size == seo_abs_clean.size %}
+    {% assign seo_description = seo_abs_clean %}
+  {% else %}
+    {% assign seo_abs_words = seo_abs_cut | split: " " %}
+    {% assign seo_abs_n = seo_abs_words.size | minus: 1 %}
+    {% if seo_abs_n > 0 %}
+      {% assign seo_abs_words = seo_abs_words | slice: 0, seo_abs_n %}
+      {% assign seo_description = seo_abs_words | join: " " | append: " …" %}
+    {% else %}
+      {% assign seo_description = seo_abs_cut %}
+    {% endif %}
+  {% endif %}
 {% elsif page.collection == 'publications' and page.venue %}
   {% comment %} 少数条目没有 abs 字段（如尚未补摘要的预印本），退回「标题 + venue + 年份」，仍不写引用串 {% endcomment %}
   {% comment %}

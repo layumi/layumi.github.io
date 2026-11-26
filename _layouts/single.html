@@ -54,7 +54,7 @@ layout: default
           {% if is_preprint and page.arxiv %}
           <p>Preprint: <a href="https://arxiv.org/abs/{{ page.arxiv }}" target="_blank" rel="noopener"><u>arXiv:{{ page.arxiv }}</u></a>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
           {% else %}
-          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }} </p>
+          <p>Published in <i>{{ page.venue }}</i>, {{ page.date | default: "1900-01-01" | date: "%Y" }}{% if page.track %} <span class="track-tag">· {{ page.track }}</span>{% endif %} </p>
           {% endif %}
         {% elsif page.date %}
           <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
@@ -80,14 +80,20 @@ layout: default
 		  <p>Video is available at: <a href="{{ page.video }}"><u>{{ page.video }}</u></a></p>
 		{% endif %}
 		
+		{% comment %}
+		  摘要此前是 <p><strong>Abstract:</strong> …</p>，整页一个标题都没有（H2 计数 0），
+		  分段摘录与 featured snippet 都缺语义锚点。改成真正的 <h2>。
+		{% endcomment %}
 		{% if page.abstract or page.abs %}
-		  <p><strong>Abstract:</strong> {{ page.abstract | default: page.abs }} </p>
+		  <h2 id="abstract">Abstract</h2>
+		  <p>{{ page.abstract | default: page.abs }} </p>
 		{% endif %}
 			
 		
 		{% if page.keywords %}
 		  <div class="keywords-tags mt-4 mb-4 p-3 bg-light rounded">
-		    <h4 class="mb-3 text-dark"><i class="fas fa-tags"></i> Keywords: </h4>
+		    {% comment %} h4 → h2 但保留 .h4 字号：标题层级补一个，视觉不变 {% endcomment %}
+		    <h2 class="h4 mb-3 text-dark"><i class="fas fa-tags"></i> Keywords: </h2>
 		    <div class="d-flex flex-wrap">
 		      {% assign keywords_array = page.keywords | split: ", " %}
 		      {% for keyword in keywords_array %}
@@ -272,6 +278,8 @@ layout: default
 		     "@id": "{{ page.url | absolute_url }}",
 		     "name": "{{ page.title | strip_html | escape_once }}",
 		     "headline": "{{ page.title | strip_html | escape_once }}",
+		     {% comment %} title_alt 承载曾用名/arXiv 旧写法，避免同一篇论文被拆成两个实体 {% endcomment %}
+		     {% if page.title_alt %}"alternateName": "{{ page.title_alt | strip_html | escape_once }}",{% endif %}
 		     "url": "{{ page.url | absolute_url }}",
 		     "mainEntityOfPage": "{{ page.url | absolute_url }}",
 		     {% comment %}
@@ -294,10 +302,16 @@ layout: default
 		       "height": {{ jsonld_img_h }}
 		     },
 		     "author": [{{ sqlauthor_fixed }}],
-		     "isPartOf": {
-		       "@type": "PublicationVolume",
-		       "name": "{{ page.venue}}"
-		     },
+		     {% comment %}
+		       期刊/会议：venue 是真刊名，放进 PublicationVolume 合理。
+		       预印本：venue 就是 "arXiv:2610.11049"，照旧塞进去等于凭空造了一个叫
+		       "arXiv:2610.11049" 的刊物实体。改成 Periodical "arXiv"，编号交给 identifier。
+		     {% endcomment %}
+		     {% if is_preprint %}
+		     "isPartOf": { "@type": "Periodical", "name": "arXiv" },
+		     {% else %}
+		     "isPartOf": { "@type": "PublicationVolume", "name": "{{ page.venue }}" },
+		     {% endif %}
 		     {% if pub_name != "" %}"publisher": {
 		       "@type": "Organization",
 		       "name": "{{ pub_name }}"
@@ -310,13 +324,22 @@ layout: default
 		     {% endcomment %}
 		     {% if page.abstract or page.abs %}
 		       {% assign jsonld_abs = page.abstract | default: page.abs | strip_html | normalize_whitespace %}
+		       {% comment %} truncate 按字符硬切会留下半个单词，切完退到上一个空格；上限仍是 300 {% endcomment %}
+		       {% assign jsonld_desc = jsonld_abs %}
+		       {% if jsonld_abs.size > 300 %}
+		         {% assign jsonld_desc_cut = jsonld_abs | truncate: 300, "" %}
+		         {% assign jsonld_desc_words = jsonld_desc_cut | split: " " %}
+		         {% assign jsonld_desc_n = jsonld_desc_words.size | minus: 1 %}
+		         {% assign jsonld_desc = jsonld_desc_words | slice: 0, jsonld_desc_n | join: " " | append: " …" %}
+		       {% endif %}
 		       "abstract": {{ jsonld_abs | replace: "</", "<\/" | jsonify }},
-		       "description": {{ jsonld_abs | truncate: 300 | replace: "</", "<\/" | jsonify }},
+		       "description": {{ jsonld_desc | replace: "</", "<\/" | jsonify }},
 		     {% endif %}
 			 {% assign kw_arr = page.keywords | split: "," %}
              "keywords": [{% for kw in kw_arr %}"{{ kw | strip | escape_once }}"{% unless forloop.last %}, {% endunless %}{% endfor %}],
 		     "inLanguage": "en",
-		     {% if doi_url != "" %}"identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": "{{ page.doi }}" },{% endif %}
+		     {% comment %} 没有 DOI 的预印本用 arXiv 编号补 identifier，否则这条字段整个缺失 {% endcomment %}
+		     {% if doi_url != "" %}"identifier": { "@type": "PropertyValue", "propertyID": "DOI", "value": "{{ page.doi }}" },{% elsif arxiv_id_ld != "" %}"identifier": { "@type": "PropertyValue", "propertyID": "arXiv", "value": "{{ arxiv_id_ld }}" },{% endif %}
 		     {% if same_list != "" %}"sameAs": [{% assign same_arr = same_list | split: "|" %}{% for u in same_arr %}"{{ u | strip }}"{% unless forloop.last %}, {% endunless %}{% endfor %}],{% endif %}
 		     "datePublished": "{{ page.date | date_to_xmlschema }}"
 	        }
