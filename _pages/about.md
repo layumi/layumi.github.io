@@ -136,6 +136,15 @@ redirect_from:
 		}
 		.quote-label { font-size: 12px; color: var(--ct-accent); letter-spacing: 0.12em; text-transform: uppercase; font-weight: 600; }
 		h2.mag { font-family: Georgia, "Times New Roman", serif; }
+		/* 「Google Scholar Search Ranking」卡片里的三行关键词：整行可点，但静止时
+		   与加链接前完全一致（继承卡片字体与颜色、无下划线），只在 hover 给下划线
+		   作为可点的提示。同卡片里 Person_reID_baseline_pytorch 那条也是无下划线，
+		   保持一致。
+		   必须带 .page__content 前缀：主题有 `.page__content a{text-decoration:underline}`
+		   （0,1,1），单写 .rank-link（0,1,0）会被它压掉，静止状态就带下划线了。 */
+		.page__content a.rank-link { color: inherit; text-decoration: none; }
+		.page__content a.rank-link:hover,
+		.page__content a.rank-link:focus-visible { text-decoration: underline; }
 	</style>
 </head>
  
@@ -151,9 +160,9 @@ Hi! I am a tenure-track **Assistant Professor** at the [Faculty of Information S
   <div style="flex:1; min-width:200px; background:var(--ct-card-bg); border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px var(--ct-card-shadow);">
     <div style="font-size:13px; color:var(--ct-text-2); margin-bottom:6px;">Google Scholar Search Ranking</div>
     <div style="font-size:21px; font-weight:700; line-height:1.35;">
-      <span style="color:var(--ct-link-pdf);">#2</span> Object Re-ID<br>
-      <span style="color:var(--ct-accent);">#3</span> Uncertainty Estimation<br>
-      <span style="color:var(--ct-info);">#5</span> Data-Centric AI
+      <a class="rank-link" href="https://scholar.google.com/scholar?q=Object+Re-ID" title="Search “Object Re-ID” on Google Scholar"><span style="color:var(--ct-link-pdf);">#2</span> Object Re-ID</a><br>
+      <a class="rank-link" href="https://scholar.google.com/scholar?q=Uncertainty+Estimation" title="Search “Uncertainty Estimation” on Google Scholar"><span style="color:var(--ct-accent);">#3</span> Uncertainty Estimation</a><br>
+      <a class="rank-link" href="https://scholar.google.com/scholar?q=Data-Centric+AI" title="Search “Data-Centric AI” on Google Scholar"><span style="color:var(--ct-info);">#5</span> Data-Centric AI</a>
     </div>
   </div>
 
