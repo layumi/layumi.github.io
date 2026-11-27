@@ -161,9 +161,9 @@ Hi! I am a tenure-track **Assistant Professor** at the [Faculty of Information S
   <div style="flex:1; min-width:200px; background:var(--ct-card-bg); border-radius:12px; padding:18px 20px; text-align:center; box-shadow:0 2px 6px var(--ct-card-shadow);">
     <div style="font-size:13px; color:var(--ct-text-2); margin-bottom:6px;">Google Scholar Search Ranking</div>
     <div style="font-size:21px; font-weight:700; line-height:1.35;">
-      <a class="rank-link" href="https://scholar.google.com/scholar?q=Object+Re-ID" title="Search “Object Re-ID” on Google Scholar"><span style="color:var(--ct-rank-1);">#2</span> Object Re-ID</a><br>
-      <a class="rank-link" href="https://scholar.google.com/scholar?q=Uncertainty+Estimation" title="Search “Uncertainty Estimation” on Google Scholar"><span style="color:var(--ct-rank-2);">#3</span> Uncertainty Estimation</a><br>
-      <a class="rank-link" href="https://scholar.google.com/scholar?q=Data-Centric+AI" title="Search “Data-Centric AI” on Google Scholar"><span style="color:var(--ct-rank-3);">#5</span> Data-Centric AI</a>
+      <a class="rank-link" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:object_re_identification" title="Search authors labelled “Object Re-identification” on Google Scholar"><span style="color:var(--ct-rank-1);">#2</span> Object Re-ID</a><br>
+      <a class="rank-link" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:uncertainty_estimation" title="Search authors labelled “Uncertainty Estimation” on Google Scholar"><span style="color:var(--ct-rank-2);">#3</span> Uncertainty Estimation</a><br>
+      <a class="rank-link" href="https://scholar.google.com/citations?view_op=search_authors&mauthors=label:data_centric_ai" title="Search authors labelled “Data-centric AI” on Google Scholar"><span style="color:var(--ct-rank-3);">#5</span> Data-Centric AI</a>
     </div>
   </div>
 
