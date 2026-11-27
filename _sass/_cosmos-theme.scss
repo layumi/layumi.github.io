@@ -68,6 +68,12 @@
   --ct-author-hover   : #0066cc;
   --ct-success        : #059669;
   --ct-info           : #2563eb;
+  /* 首页「Google Scholar Search Ranking」卡片的三个序号：红 / 橙 / 蓝。
+     亮色直接引用上面三个 token；暗色在下面那块覆盖前两个，因为暗色里
+     --ct-link-pdf 与 --ct-accent 都是橙红，并排读起来是「红红蓝」。 */
+  --ct-rank-1         : var(--ct-link-pdf);
+  --ct-rank-2         : var(--ct-accent);
+  --ct-rank-3         : var(--ct-info);
   --ct-tag-bg         : #ff9999;
   --ct-pre-bg         : gray;
   --ct-pre-text       : white;
@@ -114,6 +120,11 @@ html[data-theme="dark"] {
   --ct-author-hover   : #D8A24A;
   --ct-success        : #97C459;
   --ct-info           : #85B7EB;
+  /* 序号配色见 :root 那段。暗色的 --ct-link-pdf(#F36B3E) 与 --ct-accent(#E2552A)
+     都是橙红，直接用会让 #2 和 #3 撞色，所以换成一枚真红 + 主题已有的 accent-2。
+     --ct-rank-3 不覆盖：它引用 --ct-info，在暗色下自然解析成 #85B7EB。 */
+  --ct-rank-1         : #EF5A5A;
+  --ct-rank-2         : var(--ct-accent-2);
   --ct-tag-bg         : #4A1B0C;
   --ct-pre-bg         : #1E1913;
   --ct-pre-text       : #F4EFE6;
