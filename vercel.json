@@ -25,19 +25,13 @@
       "source": "/DQ-painter",
       "destination": "/DQ-painter/",
       "permanent": true
-    },
-    {
-      "source": "/DQ-painter/docs",
-      "destination": "/DQ-painter/",
-      "permanent": true
-    },
-    {
-      "source": "/DQ-painter/docs/:path*",
-      "destination": "/DQ-painter/:path*",
-      "permanent": true
     }
   ],
   "rewrites": [
+    {
+      "source": "/DQ-painter/",
+      "destination": "/DQ-painter/docs/index.html"
+    },
     {
       "source": "/DQ-painter/:path*",
       "destination": "/DQ-painter/docs/:path*"
