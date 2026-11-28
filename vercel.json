@@ -20,6 +20,27 @@
       "source": "/more2025",
       "destination": "/MORE2025",
       "permanent": true
+    },
+    {
+      "source": "/DQ-painter",
+      "destination": "/DQ-painter/",
+      "permanent": true
+    },
+    {
+      "source": "/DQ-painter/docs",
+      "destination": "/DQ-painter/",
+      "permanent": true
+    },
+    {
+      "source": "/DQ-painter/docs/:path*",
+      "destination": "/DQ-painter/:path*",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/DQ-painter/:path*",
+      "destination": "/DQ-painter/docs/:path*"
     }
   ],
   "build": {
