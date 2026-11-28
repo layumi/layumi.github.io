@@ -27,6 +27,12 @@
       "permanent": true
     }
   ],
+  "rewrites": [
+    {
+      "source": "/DQ-painter/:path*",
+      "destination": "/DQ-painter/docs/:path*"
+    }
+  ],
   "build": {
     "env": {
       "NODE_VERSION": "22",
