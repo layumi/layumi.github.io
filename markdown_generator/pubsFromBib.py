@@ -113,7 +113,7 @@ def html_escape(text):
 
 coauthor_dict={}
 coauthor_dict['yi-yang'] = 'https://zdzheng.xyz/coauthors/yi-yang.jpeg'
-coauthor_dict['hu-zhang'] =   'https://zdzheng.xyz/coauthors/hu-zhang.jpg'
+coauthor_dict['junhao-zhang'] = 'https://zdzheng.xyz/coauthors/hu-zhang.jpg'  # 2026 改名自 Hu Zhang，沿用旧图名
 coauthor_dict['guiyu-zhang'] =   'https://zdzheng.xyz/coauthors/guiyu-zhang.jpeg'
 coauthor_dict['hang-yu'] = 'https://zdzheng.xyz/coauthors/hang-yu.jpg'
 coauthor_dict['lizi-liao'] = 'https://zdzheng.xyz/coauthors/lizi-liao.jpg'
@@ -166,6 +166,13 @@ coauthor_dict['nenggan-zheng'] = 'https://zdzheng.xyz/coauthors/nenggan-zheng.jp
 #     ① 键统一成小写；② 判定处用未 lower 的值或统一 lower；
 #     ③ _layouts/single.html 把 <i> 挪到 <ul class="author-pub-list"> 外面，
 #        否则 <i> 会落在 <ul> 里，是无效 HTML。
+# 同一人改过名的映射：bib 里保留论文发表时的旧名（显示与 citation 都用它），
+# 但作者页文件、作者页标题、以及页面上那个超链接统一指向现名。
+# key / value 都是 (first, last)。未命中的作者原样输出，行为不变。
+AUTHOR_ALIAS = {
+    ('Hu', 'Zhang'): ('Junhao', 'Zhang'),   # 2026 改名
+}
+
 aff_dict={}
 aff_dict['Yi-Yang'] = 'Professor @ ZJU'
 aff_dict['Tat-Seng-Chua'] = 'Professor @ NUS'
@@ -352,27 +359,31 @@ for pubsource in publist:
                 #allauthor = allauthor +" "+author.first_names[0]+" "+author.last_names[0]+", "
                 coname = author.first_names[0]+"-"+author.last_names[0]
                 coname = coname.lower()
+                canon_first, canon_last = AUTHOR_ALIAS.get(
+                    (author.first_names[0], author.last_names[0]),
+                    (author.first_names[0], author.last_names[0]))
+                canon_slug = canon_first+"-"+canon_last
+                canon_coname = canon_slug.lower()
                 if author.first_names[0]=="Zhedong":
-                    allauthor = allauthor+"<strong><a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0]+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a></strong>" +", "
-                elif coname in coauthor_dict: # add icon
-                    allauthor = allauthor + "<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0]+"\" class=\"author\"> <img src= \"" + coauthor_dict[coname] + "\" alt=\"%s\""%coname + " style=\"border-radius: 50%; height:20px; width:20px\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
+                    allauthor = allauthor+"<strong><a href=\"https://zdzheng.xyz/authors/"+ canon_slug+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a></strong>" +", "
+                elif canon_coname in coauthor_dict: # add icon
+                    allauthor = allauthor + "<a href=\"https://zdzheng.xyz/authors/"+ canon_slug+"\" class=\"author\"> <img src= \"" + coauthor_dict[canon_coname] + "\" alt=\"%s\""%coname + " style=\"border-radius: 50%; height:20px; width:20px\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
                 else:
-                    allauthor = allauthor+"<a href=\"https://zdzheng.xyz/authors/"+ author.first_names[0]+"-"+author.last_names[0]+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
-                authors_filename = author.first_names[0]+"-"+author.last_names[0]+".md"
+                    allauthor = allauthor+"<a href=\"https://zdzheng.xyz/authors/"+ canon_slug+"\" class=\"author\">" + author.first_names[0]+" "+author.last_names[0] + "</a>" +", "
+                authors_filename = canon_slug+".md"
                 single_authors.append(authors_filename)
                 if not os.path.isfile("../_authors/" + authors_filename):
                     with open("../_authors/" + authors_filename, 'w') as f:
-                        single_author = "---\ntitle: \""   + author.first_names[0]+" "+author.last_names[0]  + '"\n'
+                        single_author = "---\ntitle: \""   + canon_first+" "+canon_last  + '"\n'
                         f.write(single_author)
                         f.write("""collection: authors""")
-                        f.write("""\npermalink: /authors/""" +author.first_names[0]+"-"+author.last_names[0])
+                        f.write("""\npermalink: /authors/""" +canon_slug)
                         f.write("""\nauthor_profile: false""")
-                        #coname = author.first_names[0]+"-"+author.last_names[0]
-                        if coname in coauthor_dict:
-                            f.write("""\nimg: """ + coauthor_dict[coname])
+                        if canon_coname in coauthor_dict:
+                            f.write("""\nimg: """ + coauthor_dict[canon_coname])
                         f.write("\n---") 
-                        if coname in aff_dict:
-                            f.write("""\n<i>""" + aff_dict[coname]+ """</i>""")
+                        if canon_coname in aff_dict:
+                            f.write("""\n<i>""" + aff_dict[canon_coname]+ """</i>""")
                         #    f.write("\n <img " + "src='"+coauthor_dict[coname] + "', alt='" + coname + "', width=30%"+ ">")                       
             allauthor =  allauthor[0:-2]
             #allauthor = allauthor.replace("Zhedong Zheng","<strong>Zhedong Zheng</strong>")
